@@ -1,0 +1,73 @@
+This is BibTeX, Version 0.99d (TeX Live 2013)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ClassicThesis.aux
+A level-1 auxiliary file: FrontBackmatter/DirtyTitlepage.aux
+A level-1 auxiliary file: FrontBackmatter/Titlepage.aux
+A level-1 auxiliary file: FrontBackmatter/Titleback.aux
+A level-1 auxiliary file: FrontBackmatter/Dedication.aux
+A level-1 auxiliary file: FrontBackmatter/Abstract.aux
+A level-1 auxiliary file: FrontBackmatter/Publication.aux
+A level-1 auxiliary file: FrontBackmatter/Acknowledgments.aux
+A level-1 auxiliary file: FrontBackmatter/Contents.aux
+A level-1 auxiliary file: Chapters/Chapter01.aux
+A level-1 auxiliary file: Chapters/LiteratureReview.aux
+A level-1 auxiliary file: Chapters/ChapterMRG.aux
+A level-1 auxiliary file: Chapters/ChapterM&P.aux
+A level-1 auxiliary file: Chapters/Chapter04.aux
+A level-1 auxiliary file: Chapters/Conclusion.aux
+A level-1 auxiliary file: Chapters/Chapter0A.aux
+A level-1 auxiliary file: FrontBackmatter/Bibliography.aux
+The style file: plainnat.bst
+A level-1 auxiliary file: FrontBackmatter/Colophon.aux
+A level-1 auxiliary file: FrontBackmatter/Declaration.aux
+Database file #1: Bibliography.bib
+Warning--I didn't find a database entry for "Fischer2012"
+Warning--I didn't find a database entry for "Fischer2014"
+Warning--empty journal in Fitts
+Warning--empty journal in Hoffman2002
+Warning--empty journal in Jiang2014
+Warning--empty journal in Nwana1996
+Warning--can't use both volume and number fields in Vlassis2007
+Warning--empty publisher in Vlassis2007
+You've used 6 entries,
+            2773 wiz_defined-function locations,
+            656 strings with 6793 characters,
+and the built_in function-call counts, 3158 in all, are:
+= -- 261
+> -- 223
+< -- 7
++ -- 76
+- -- 70
+* -- 260
+:= -- 502
+add.period$ -- 23
+call.type$ -- 6
+change.case$ -- 40
+chr.to.int$ -- 6
+cite$ -- 18
+duplicate$ -- 139
+empty$ -- 222
+format.name$ -- 76
+if$ -- 645
+int.to.chr$ -- 1
+int.to.str$ -- 1
+missing$ -- 7
+newline$ -- 42
+num.names$ -- 26
+pop$ -- 94
+preamble$ -- 1
+purify$ -- 35
+quote$ -- 0
+skip$ -- 112
+stack$ -- 0
+substring$ -- 63
+swap$ -- 20
+text.length$ -- 4
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 61
+warning$ -- 6
+while$ -- 25
+width$ -- 0
+write$ -- 86
+(There were 8 warnings)
