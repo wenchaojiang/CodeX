@@ -1,33 +1,33 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2014.10.13)  13 OCT 2014 16:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  4 NOV 2014 15:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **ClassicThesis.tex
 (./ClassicThesis.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrreprt.cls
-Document Class: scrreprt 2013/12/19 v3.12 KOMA-Script document class (report)
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent 
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrreprt.cls
+Document Class: scrreprt 2012/07/29 v3.11b KOMA-Script document class (report)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent 
 basics and keyval usage)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2013/12/19 v3.12 KOMA-Script package (loading files)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2012/06/15 v3.12 KOMA-Script package (loading files)
 
-Package scrlfile, 2013/12/19 v3.12 KOMA-Script package (loading files)
+Package scrlfile, 2012/06/15 v3.12 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2013/12/19 v3.12 KOMA-Script package (handling toc-files)
+))) (/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2012/04/04 v3.10b KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
@@ -38,14 +38,6 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 119.
-Package tocbasic Info: defining new hook before heading of `' on input line 112
-3.
-Package scrbase Info: Unknown processing state.
-(scrbase)             Processing option `twoside'
-(scrbase)             of member `.scrreprt.cls' of family
-(scrbase)             `KOMA' doesn't set
-(scrbase)             a valid state. This will be interpreted
-(scrbase)             as \FamilyKeyStateProcessed on input line 1274.
 Class scrreprt Info: You've used standard option `openright'.
 (scrreprt)           This is correct!
 (scrreprt)           Internally I'm using `open=right'.
@@ -59,16 +51,16 @@ Class scrreprt Info: You've used standard option `abstractoff'.
 (scrreprt)           you'd have to use `abstract=false' there
 (scrreprt)           instead of `abstractoff', too.
 Class scrreprt Info: File `scrsize11pt.clo' used to setup font sizes on input l
-ine 1655.
+ine 1367.
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2013/12/19 v3.12 KOMA-Script font size class option (11pt
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2012/07/29 v3.11b KOMA-Script font size class option (11p
+t)
 )
-)
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2013/12/19 v3.12 KOMA-Script package (type area)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2012/07/29 v3.11b KOMA-Script package (type area)
 
-Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
+Package typearea, 2012/07/29 v3.11b KOMA-Script package (type area)
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
@@ -77,7 +69,6 @@ Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
 \ta@hblk=\skip42
 \ta@vblk=\skip43
 \ta@temp=\skip44
-\footheight=\skip45
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 10
 (typearea)             BCOR = 14.22636pt
@@ -92,9 +83,9 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \headheight     = 17.0pt
 (typearea)              \headsep        = 20.40001pt
 (typearea)              \topskip        = 11.0pt
-(typearea)              \footskip       = 47.6pt
+(typearea)              \footskip       = 47.60002pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1330.
+(typearea)              on input line 1213.
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -103,73 +94,72 @@ Package typearea Info: These are the values describing the layout:
 \c@subsubsection=\count84
 \c@paragraph=\count85
 \c@subparagraph=\count86
-\abovecaptionskip=\skip46
-\belowcaptionskip=\skip47
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
 \c@pti@nb@sid@b@x=\box26
 \c@figure=\count87
 \c@table=\count88
 \bibindent=\dimen102
 ) (./classicthesis-config.tex
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@dummy=\count89
-\abcd=\skip48
+\abcd=\skip47
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin9.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/latin9.def
 File: latin9.def 2008/03/30 v1.1d Input encoding file
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/12/03 3.9h The Babel package
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/05/16 v3.9f The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-Language: ngermanb 2013/12/13 v2.7 German support for babel (new orthography)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/12/03 3.9h Babel common definitions
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/05/16 v3.9f Babel common definitions
 \babel@savecnt=\count90
 \U@D=\dimen103
 )
 \l@naustrian = a dialect from \language\l@ngerman 
-\l@nswissgerman = a dialect from \language\l@ngerman 
-Package babel Info: Making " an active character on input line 88.
+Package babel Info: Making " an active character on input line 92.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2012/08/20 v3.3p English support from the babel system
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip49
-\bibsep=\skip50
+\bibhang=\skip48
+\bibsep=\skip49
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count91
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip51
+\@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen104
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen105
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count92
@@ -204,20 +194,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \totwidth@=\dimen111
 \lineht@=\dimen112
 \@envbody=\toks20
-\multlinegap=\skip52
-\multlinetaggap=\skip53
+\multlinegap=\skip51
+\multlinetaggap=\skip52
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -232,7 +222,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 266.
@@ -298,55 +288,56 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrhack.sty
-Package: scrhack 2013/12/19 v3.12 KOMA-Script package 
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrhack.sty
+Package: scrhack 2012/07/29 v3.11b KOMA-Script package (hacking other packages)
+
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/mparhack/mparhack.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/mparhack/mparhack.sty
 Package: mparhack 2005/04/17 v1.4 (T. Sgouros and S. Ulrich)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/fixltx2e.sty
 Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
 LaTeX Info: Redefining \em on input line 420.
 LaTeX Info: Redefining \textsubscript on input line 424.
 LaTeX Info: The control sequence `\[' is already robust on input line 471.
 LaTeX Info: The control sequence `\]' is already robust on input line 472.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/bibentry.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
 (./ClassicThesis.bbl)
-(/usr/share/texlive/texmf-dist/tex/latex/acronym/acronym.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/acronym/acronym.sty
 Package: acronym 2012/10/29 v1.38 Support for acronyms (Tobias Oetiker)
 
-(/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5 Variant command support
 )
-(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write3
 \integerpart=\count104
 \decimalpart=\count105
 )
-Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+Package: xstring 2013/2/28  v1.7a  String manipulations (C Tellechea)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \AC@clearlist=\toks22
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen113
 \extrarowheight=\dimen114
 \NC@list=\toks23
-\extratabsurround=\skip54
-\backup@length=\skip55
+\extratabsurround=\skip53
+\backup@length=\skip54
 )
 \TX@col@width=\dimen115
 \TX@old@table=\dimen116
@@ -356,10 +347,10 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@cols=\count106
 \TX@ftn=\toks24
 )
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen120
@@ -373,27 +364,27 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 Package caption Info: KOMA-Script document class.
 \c@ContinuedFloat=\count107
 )
-(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@KVtest=\count108
-\sf@farskip=\skip56
+\sf@farskip=\skip55
 \sf@captopadj=\dimen127
-\sf@capskip=\skip57
-\sf@nearskip=\skip58
+\sf@capskip=\skip56
+\sf@nearskip=\skip57
 \c@subfigure=\count109
 \c@subfigure@save=\count110
 \c@lofdepth=\count111
 \c@subtable=\count112
 \c@subtable@save=\count113
 \c@lotdepth=\count114
-\sf@top=\skip59
-\sf@bottom=\skip60
+\sf@top=\skip58
+\sf@bottom=\skip59
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks25
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count115
 \lst@gtempboxa=\box29
 \lst@token=\toks26
@@ -407,63 +398,62 @@ Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \lst@lineno=\count120
 \lst@maxwidth=\dimen131
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count121
 \lst@skipnumbers=\count122
 \lst@framebox=\box30
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2013/08/26 1.5b listings configuration
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package scrhack Info: loading listings hack on input line 131.
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/listings.hak
-File: listings.hak 2013/12/19 v3.12 KOMA-Script package (hacking package listin
-gs)
-Package tocbasic Info: setting babel extension for `lol' on input line 137.
-Package scrhack Info: redefining \lstlistoflistings on input line 137.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/listings.hak
+File: listings.hak 2012/07/29 v3.11b KOMA-Script hacking package listings
+Package tocbasic Info: setting babel extension for `lol' on input line 136.
+Package scrhack Info: redefining \lstlistoflistings on input line 136.
 )
-Package: listings 2013/08/26 1.5b (Carsten Heinz)
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
@@ -504,25 +494,25 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen132
 \Hy@linkcounter=\count123
 \Hy@pagecounter=\count124
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count125
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4319.
@@ -536,9 +526,9 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count126
 
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen133
@@ -564,33 +554,33 @@ Package scrhack Info: hyperref hack deactivated because of
 
 Package hyperref Message: Driver: hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count130
 \c@bookmark@seq@number=\count131
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip61
+\Hy@SectionHShift=\skip60
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gread@gobject=\count132
 ))
@@ -610,10 +600,11 @@ Package hyperref Info: Option `hypertexnames' set `true' on input line 207.
 (./classicthesis.sty
 Package: classicthesis 2012/08/12 v4.1 Typographic style for a classic-looking 
 thesis
- (/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -627,20 +618,20 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/mathpazo.sty
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup4
 )
-(/usr/share/texlive/texmf-dist/tex/latex/bera/beramono.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/bera/beramono.sty
 Package: beramono 2004/01/31 (WaS)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/eulervm/eulervm.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/eulervm/eulervm.sty
 Package: eulervm 2005/01/11 v4.0 (WaS)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks27
 \MT@count=\count133
@@ -649,16 +640,16 @@ LaTeX Info: Redefining \textls on input line 766.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
 \MT@listname@count=\count134
 
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 915.
 LaTeX Info: Redefining \lslig on input line 915.
-\MT@outer@space=\skip62
+\MT@outer@space=\skip61
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
 Package classicthesis Info: A4 paper, Palatino or other on input line 270.
@@ -679,7 +670,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \baselineskip   = 13.6pt
 (typearea)              on input line 270.
 
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen139
 \lightrulewidth=\dimen140
@@ -699,32 +690,21 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count138
 \@thisrulewidth=\dimen151
 )
-(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 )
 Package classicthesis Info: Using pdftex/microtype for character spacing.Make s
 ure your pdftex is version 1.40 or higher. on input line 342.
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrpage2.sty
-Package: scrpage2 2013/12/19 v3.12 KOMA-Script package (page head and foot)
-LaTeX Info: Redefining \pagemark on input line 174.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrpage2.sty
+Package: scrpage2 2010/04/22 v2.5 LaTeX2e KOMA-Script package
+LaTeX Info: Redefining \pagemark on input line 176.
 )
-
-Class scrreprt Warning: Usage of package `titlesec' together
-(scrreprt)              with a KOMA-Script class is not recommended.
-(scrreprt)              I'd suggest to use the package only
-(scrreprt)              if you really need it, because it breaks several
-(scrreprt)              KOMA-Script features, i.e., option `headings' and
-(scrreprt)              the extended optional argument of the section
-(scrreprt)              commands .
-(scrreprt)              Nevertheless, using requested
-(scrreprt)              package `titlesec' on input line 373.
-
-(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box31
-\beforetitleunit=\skip63
-\aftertitleunit=\skip64
+\beforetitleunit=\skip62
+\aftertitleunit=\skip63
 \ttl@plus=\dimen152
 \ttl@minus=\dimen153
 \ttl@toksa=\toks28
@@ -732,75 +712,75 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen155
 \titlewidthfirst=\dimen156
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 44.
-\cftparskip=\skip65
-\cftbeforetoctitleskip=\skip66
-\cftaftertoctitleskip=\skip67
-\cftbeforepartskip=\skip68
-\cftpartnumwidth=\skip69
-\cftpartindent=\skip70
-\cftbeforechapskip=\skip71
-\cftchapindent=\skip72
-\cftchapnumwidth=\skip73
-\cftbeforesecskip=\skip74
-\cftsecindent=\skip75
-\cftsecnumwidth=\skip76
-\cftbeforesubsecskip=\skip77
-\cftsubsecindent=\skip78
-\cftsubsecnumwidth=\skip79
-\cftbeforesubsubsecskip=\skip80
-\cftsubsubsecindent=\skip81
-\cftsubsubsecnumwidth=\skip82
-\cftbeforeparaskip=\skip83
-\cftparaindent=\skip84
-\cftparanumwidth=\skip85
-\cftbeforesubparaskip=\skip86
-\cftsubparaindent=\skip87
-\cftsubparanumwidth=\skip88
-\cftbeforeloftitleskip=\skip89
-\cftafterloftitleskip=\skip90
-\cftbeforefigskip=\skip91
-\cftfigindent=\skip92
-\cftfignumwidth=\skip93
-\cftbeforelottitleskip=\skip94
-\cftafterlottitleskip=\skip95
-\cftbeforetabskip=\skip96
-\cfttabindent=\skip97
-\cfttabnumwidth=\skip98
-\cftbeforesubfigskip=\skip99
-\cftsubfigindent=\skip100
-\cftsubfignumwidth=\skip101
-\cftbeforesubtabskip=\skip102
-\cftsubtabindent=\skip103
-\cftsubtabnumwidth=\skip104
+\cftparskip=\skip64
+\cftbeforetoctitleskip=\skip65
+\cftaftertoctitleskip=\skip66
+\cftbeforepartskip=\skip67
+\cftpartnumwidth=\skip68
+\cftpartindent=\skip69
+\cftbeforechapskip=\skip70
+\cftchapindent=\skip71
+\cftchapnumwidth=\skip72
+\cftbeforesecskip=\skip73
+\cftsecindent=\skip74
+\cftsecnumwidth=\skip75
+\cftbeforesubsecskip=\skip76
+\cftsubsecindent=\skip77
+\cftsubsecnumwidth=\skip78
+\cftbeforesubsubsecskip=\skip79
+\cftsubsubsecindent=\skip80
+\cftsubsubsecnumwidth=\skip81
+\cftbeforeparaskip=\skip82
+\cftparaindent=\skip83
+\cftparanumwidth=\skip84
+\cftbeforesubparaskip=\skip85
+\cftsubparaindent=\skip86
+\cftsubparanumwidth=\skip87
+\cftbeforeloftitleskip=\skip88
+\cftafterloftitleskip=\skip89
+\cftbeforefigskip=\skip90
+\cftfigindent=\skip91
+\cftfignumwidth=\skip92
+\cftbeforelottitleskip=\skip93
+\cftafterlottitleskip=\skip94
+\cftbeforetabskip=\skip95
+\cfttabindent=\skip96
+\cfttabnumwidth=\skip97
+\cftbeforesubfigskip=\skip98
+\cftsubfigindent=\skip99
+\cftsubfignumwidth=\skip100
+\cftbeforesubtabskip=\skip101
+\cftsubtabindent=\skip102
+\cftsubtabnumwidth=\skip103
 )
-\newnumberwidth=\skip105
-\beforebibskip=\skip106
-\newchnumberwidth=\skip107
-\figurelabelwidth=\skip108
-\tablelabelwidth=\skip109
+\newnumberwidth=\skip104
+\beforebibskip=\skip105
+\newchnumberwidth=\skip106
+\figurelabelwidth=\skip107
+\tablelabelwidth=\skip108
 \c@listings=\count139
-\cftbeforelistingsskip=\skip110
-\cftlistingsindent=\skip111
-\cftlistingsnumwidth=\skip112
+\cftbeforelistingsskip=\skip109
+\cftlistingsindent=\skip110
+\cftlistingsnumwidth=\skip111
 \c@loldepth=\count140
-\cftbeforeloltitleskip=\skip113
-\cftafterloltitleskip=\skip114
-\listingslabelwidth=\skip115
+\cftbeforeloltitleskip=\skip112
+\cftafterloltitleskip=\skip113
+\listingslabelwidth=\skip114
 
 Using KOMA-command "deffootnote" for footnote setup
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrtime.sty
-Package: scrtime 2011/03/31 v3.08b KOMA-Script package (time of LaTeX run)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrtime.sty
+Package: scrtime 2012/07/29 v3.11b KOMA-Script package (time of LaTeX run)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/ms/prelim2e.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/ms/prelim2e.sty
 Package: prelim2e 2009/05/29 v1.3 prelim2e Package (MS)
 
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/carlisle/remreset.sty)))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/carlisle/remreset.sty)))
 (./ClassicThesis.aux (./FrontBackmatter/DirtyTitlepage.aux)
 (./FrontBackmatter/Titlepage.aux) (./FrontBackmatter/Titleback.aux)
 (./FrontBackmatter/Dedication.aux) (./FrontBackmatter/Abstract.aux)
@@ -837,7 +817,7 @@ LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 60.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 60.
@@ -845,7 +825,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Try loading font information for T1+pplj on input line 60.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplj.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -858,10 +838,10 @@ Package scrhack Info: undefining \float@addtolists on input line 60.
 \AtBeginShipoutBox=\box32
 Package hyperref Info: Link coloring ON on input line 60.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count142
@@ -875,7 +855,7 @@ LaTeX Info: Redefining \nameref on input line 60.
 \openout4 = `ClassicThesis.out'.
 
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count143
 \scratchdimen=\dimen157
@@ -888,10 +868,10 @@ LaTeX Info: Redefining \nameref on input line 60.
 \MPnumerator=\count147
 \makeMPintoPDFobject=\count148
 \everyMPtoPDFconversion=\toks30
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
@@ -899,7 +879,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -912,16 +892,24 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
+
+Package scrpage2 Warning: seems you are using a very small headheight.
+(scrpage2)                If you get overfull \vbox warnings at almost every
+(scrpage2)                page, you should increase headheight e.g. writing
+(scrpage2)                 \setlength{\headheight}{1.1\baselineskip}
+(scrpage2)                into the preamble of your document.
+(scrpage2)                A better solution would be to use typearea package.
+
 ABD: EveryShipout initializing macros
 \openout2 = `FrontBackmatter/DirtyTitlepage.aux'.
 
  (./FrontBackmatter/DirtyTitlepage.tex)
 LaTeX Font Info:    Try loading font information for T1+fvm on input line 71.
 
-(/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
@@ -933,10 +921,11 @@ Package microtype Info: Loading generic settings for font family
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 \openout2 = `FrontBackmatter/Titlepage.aux'.
 
- (./FrontBackmatter/Titlepage.tex [2
+
+(./FrontBackmatter/Titlepage.tex [2
 
 
 
@@ -944,11 +933,10 @@ Package microtype Info: Loading generic settings for font family
 ] [3])
 \openout2 = `FrontBackmatter/Titleback.aux'.
 
-
-(./FrontBackmatter/Titleback.tex
+ (./FrontBackmatter/Titleback.tex
 LaTeX Font Info:    Try loading font information for TS1+pplj on input line 8.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pplj.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ts1pplj.fd
 File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
 )) [4
 
@@ -989,7 +977,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
 
  []
 
+[7
 
+]
 Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
@@ -999,9 +989,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-[7
-
-]) [8]
+) [8]
 \openout2 = `FrontBackmatter/Publication.aux'.
 
  (./FrontBackmatter/Publication.tex
@@ -1042,52 +1030,64 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 11
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplj/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for U+zeur on input line 43.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 32.
 
-(/usr/share/texlive/texmf-dist/tex/latex/eulervm/uzeur.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-eur.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-LaTeX Font Info:    Try loading font information for U+zeus on input line 43.
+LaTeX Font Info:    Try loading font information for U+zeus on input line 32.
 
-(/usr/share/texlive/texmf-dist/tex/latex/eulervm/uzeus.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/eulervm/uzeus.fd
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-eus.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-eus.cfg
 File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
 )
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 43.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 32.
 
-(/usr/share/texlive/texmf-dist/tex/latex/eulervm/uzeuex.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 43.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 32.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 Package microtype Info: Loading generic settings for font family
 (microtype)             `zplm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [13
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[13
 
 
 
 ]
-Overfull \hbox (5.04749pt too wide) in paragraph at lines 45--45
+Overfull \hbox (5.04749pt too wide) in paragraph at lines 50--50
  [][] []\T1/pplj/m/sc/10.95/80ls social im-pli-ca-tions of agent-based plan-nin
 g sup- 
  []
 
-)
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[14])
 \tf@toc=\write5
 \openout5 = `ClassicThesis.toc'.
 
- [14]
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[15]
 Package tocbasic Info: character protrusion at lof deactivated on input line 31
 .
  (./ClassicThesis.lof)
@@ -1108,55 +1108,25 @@ LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 66.
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 66.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic settings for font family
 (microtype)             `cmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [15
 
-] [16
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
+
+[16
 
 ])
 \openout2 = `Chapters/Chapter01.aux'.
 
+ (./Chapters/Chapter01.tex
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
-(./Chapters/Chapter01.tex
-Chapter 1.
-
-Overfull \hbox (7.00824pt too wide) in paragraph at lines 8--9
-\T1/pplj/m/n/10.95 Disaster re-sponse op-er-a-tions such as Ur-ban Search And R
-es-cue (USAR)
- []
-
-
-Overfull \hbox (0.2959pt too wide) in paragraph at lines 8--9
-\T1/pplj/m/n/10.95 lim-ited re-source and per-son-nels to deal with mul-ti-ple 
-in-ci-dents across
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 8--9
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 10--11
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 12--13
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
-
- []
 
 [1
 
@@ -1165,16 +1135,61 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 
 
 
+] [2
+
+
 ]
-Overfull \hbox (4.21669pt too wide) in paragraph at lines 18--19
-\T1/pplj/m/n/10.95 To meet our re-search ob-jec-tive, we adopt a serious-mixed 
-re-al-ity games
+Chapter 1.
+
+Overfull \hbox (7.00824pt too wide) in paragraph at lines 4--5
+\T1/pplj/m/n/10.95 Disaster re-sponse op-er-a-tions such as Ur-ban Search And R
+es-cue (USAR)
  []
 
 
-Overfull \hbox (1.61444pt too wide) in paragraph at lines 18--19
-\T1/pplj/m/n/10.95 dence in the ef-fi-cacy of be-havioural ob-ser-va-tions. Mix
-ed-reality games
+Overfull \hbox (0.2959pt too wide) in paragraph at lines 4--5
+\T1/pplj/m/n/10.95 lim-ited re-source and per-son-nels to deal with mul-ti-ple 
+in-ci-dents across
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
+
+ []
+
+
+Overfull \hbox (0.20016pt too wide) in paragraph at lines 8--9
+[]\T1/pplj/m/n/10.95 This PhD work is a OR-CHID spon-sored re-search, which con
+-tributes
+ []
+
+
+Overfull \hbox (8.76025pt too wide) in paragraph at lines 8--9
+\T1/pplj/m/n/10.95 to the un-der-stand-ing needed to build Hu-man Agent Col-lec
+-tives (HACs)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[3]
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
  []
 
 
@@ -1183,63 +1198,138 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--19
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[5]
+Overfull \hbox (4.21669pt too wide) in paragraph at lines 22--23
+\T1/pplj/m/n/10.95 To meet our re-search ob-jec-tive, we adopt a serious-mixed 
+re-al-ity games
+ []
+
+
+Overfull \hbox (1.61444pt too wide) in paragraph at lines 22--23
+\T1/pplj/m/n/10.95 dence in the ef-fi-cacy of be-havioural ob-ser-va-tions. Mix
+ed-reality games
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
  []
 
-[2]
+
 Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 29--30
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 38--39
+Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-
- []
-
-[3]
-Underfull \hbox (badness 10000) in paragraph at lines 53--55
+Underfull \hbox (badness 10000) in paragraph at lines 45--46
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[8] <img/contributions.png, id=493, 462.72874pt x 324.21124pt>
+File: img/contributions.png Graphic file (type png)
+
+<use img/contributions.png>
+Package pdftex.def Info: img/contributions.png used on input line 64.
+(pdftex.def)             Requested size: 231.3638pt x 162.10522pt.
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[9]
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+Overfull \hbox (19.68823pt too wide) in paragraph at lines 77--78
+\T1/pplj/m/n/10.95 ves-ti-gate co-or-di-na-tion in dis-as-ter re-sponse." In En
+-ter-tain-ment Computing-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--78
 
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
 
-) [5] [6
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[10 <./img/contributions.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 81--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 90--91
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+)
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[12] [13
 
 
 
-] [7
 
 
-] [8]
+] [14]
 \openout2 = `Chapters/LiteratureReview.aux'.
 
  (./Chapters/LiteratureReview.tex
@@ -1260,15 +1350,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
- []
 
-[9
+[15
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
 Overfull \hbox (1.25085pt too wide) in paragraph at lines 20--21
 \T1/pplj/m/n/10.95 char-ac-ter-is-tics of agents, learn-ing, au-ton-mous and co
 l-labroitive, Based
@@ -1291,6 +1385,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 22--23
  []
 
 
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[16]
 Overfull \hbox (6.0125pt too wide) in paragraph at lines 37--38
 \T1/pplj/m/n/10.95 In dis-as-ter re-sponse, team co-or-di-na-tion is es-sen-tia
 l in or-der that groups
@@ -1306,7 +1404,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 
  []
 
-[10]
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[17]
 Overfull \hbox (1.60046pt too wide) in paragraph at lines 44--46
 \T1/pplj/m/n/10.95 team, which con-sists of fire-fight-ers and/or en-gi-neers.2
  Nor-mally, each
@@ -1329,84 +1431,249 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
  []
 
 
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
  []
 
-[11]
+
 Underfull \hbox (badness 10000) in paragraph at lines 58--67
 
  []
 
-[12]) [13]
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[19])
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[20]
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[21]
 \openout2 = `Chapters/ChapterMRG.aux'.
 
- (./Chapters/ChapterMRG.tex) [14
+ (./Chapters/ChapterMRG.tex)
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-] [15
+[22
+
+
+] [23
 
 
 
-] [16]
+] [24]
 \openout2 = `Chapters/ChapterM&P.aux'.
 
-
-(./Chapters/ChapterM&P.tex
+ (./Chapters/ChapterM&P.tex
 Chapter 3.
-[17
+
+Overfull \hbox (5.01607pt too wide) in paragraph at lines 8--9
+\T1/pplj/m/n/10.95 der to study team co-or-di-na-tion through a location-based,
+ mixed-reality
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
 
-] [18
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[25
+
 
 
 ]
+Overfull \hbox (14.3009pt too wide) in paragraph at lines 15--26
+\T1/pplj/m/n/10.95 dertesa,mtsh,eanTdecaom/mCarnedwanLdecaodoerdrisnatendactiho
+ne
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 15--26
+
+ []
+
+
+Overfull \hbox (0.64626pt too wide) in paragraph at lines 27--39
+\T1/pplj/m/n/10.95 text-based mes-sages for its flexi- bil-ity to sup-port sce-
+nar-ios with many
+ []
+
+
+Overfull \hbox (28.25568pt too wide) in paragraph at lines 27--39
+\T1/pplj/m/n/10.95 sources and per-son-nel 5. Comto cmar-ryaonut-dopaer-nati-do
+nsC(Cohoenredt
+ []
+
+
+Overfull \hbox (103.99222pt too wide) in paragraph at lines 27--39
+\T1/pplj/m/n/10.95 as-signed Com-man-dertesa,mtsh,eanTdecaom/mCarnedwanLdecaodo
+erdrisnatendactihone
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--39
+
+ []
+
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+
+Overfull \hbox (0.15073pt too wide) in paragraph at lines 42--43
+[]\T1/pplj/m/n/10.95 Command-and-control struc-ture. The di-vi-sion of re-spon-
+si-bil-ity into
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--43
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 47--48
+
+ []
+
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[27]
+Overfull \hbox (9.02289pt too wide) in paragraph at lines 49--50
+\T1/pplj/m/n/10.95 posal a browser- based co-or-di-na-tion in-ter-face that pro
+-vides an overview
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 49--50
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--65
+
+ []
+
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[28]
+Underfull \hbox (badness 10000) in paragraph at lines 66--68
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+
+ []
+
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[29]
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[30]
 Chapter 4.
-) [19] [20
+)
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-
-] [21] [22]
-\openout2 = `Chapters/Chapter04.aux'.
-
- (./Chapters/Chapter04.tex
-Chapter 5.
-[23
-
-
-
-] [24
-
-
-]
-Chapter 6.
-[25] [26
-
-
-]
-Chapter 7.
-) [27] [28
-
-
-
-] [29] [30]
-\openout2 = `Chapters/Conclusion.aux'.
-
- (./Chapters/Conclusion.tex
-Chapter 8.
-) [31
-
+[31
 
 
 ] [32
 
 
 
-] [33
+] [33] [34]
+\openout2 = `Chapters/Chapter04.aux'.
+
+ (./Chapters/Chapter04.tex
+Chapter 5.
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-] [34]
+[35
+
+
+
+] [36
+
+
+]
+Chapter 6.
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[37] [38
+
+
+]
+Chapter 7.
+)
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[39] [40
+
+
+
+] [41] [42]
+\openout2 = `Chapters/Conclusion.aux'.
+
+ (./Chapters/Conclusion.tex
+Chapter 8.
+)
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[43
+
+
+
+] [44
+
+
+
+] [45
+
+
+] [46]
 \openout2 = `Chapters/Chapter0A.aux'.
 
  (./Chapters/Chapter0A.tex
@@ -1427,14 +1694,22 @@ LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <10.95> not available
 (Font)              Font shape `T1/pplj/m/it' tried instead on input line 26.
 LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <9> not available
 (Font)              Font shape `T1/pplj/m/it' tried instead on input line 26.
-[35
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[47
 
 
 
 ]
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 (Font)              scaled to size 8.50006pt on input line 64.
-) [36]
+)
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[48]
 \openout2 = `FrontBackmatter/Bibliography.aux'.
 
  (./FrontBackmatter/Bibliography.tex (./ClassicThesis.bbl
@@ -1455,19 +1730,19 @@ Underfull \hbox (badness 1584) in paragraph at lines 9--15
 
 Underfull \hbox (badness 2608) in paragraph at lines 9--15
 \T1/pplj/m/n/10.95 2011.  URL [][]$\T1/fvm/m/n/10.95 http : / / books . google 
-. com / books ? hl = en & amp ; lr =
+. com / books ? hl = en&amp ; lr =
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--15
-\T1/fvm/m/n/10.95 &amp ; id = 4opHlu05SNIC & amp ; oi = fnd & amp ; pg = PA283 
-& amp ; dq =
+\T1/fvm/m/n/10.95 &amp ; id = 4opHlu05SNIC&amp ; oi = fnd&amp ; pg = PA283&amp 
+; dq =
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 9--15
-\T1/fvm/m/n/10.95 Human-[]agent + interaction & amp ; ots = vxrpDdLbSa & amp ; 
-sig =
+\T1/fvm/m/n/10.95 Human-[]agent + interaction&amp ; ots = vxrpDdLbSa&amp ; sig 
+=
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{cite.Jiang201
@@ -1487,23 +1762,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--53
  com / doi / abs / 10 . 2200 /
  []
 
-)) [37
+))
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[49
 
 
 
 
 
 
-] [38
+] [50
 
 
 
 ]
 \openout2 = `FrontBackmatter/Colophon.aux'.
 
- (./FrontBackmatter/Colophon.tex) [39
+ (./FrontBackmatter/Colophon.tex) [51
 
-] [40
+] [52
 
 
 
@@ -1511,7 +1790,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--53
 \openout2 = `FrontBackmatter/Declaration.aux'.
 
 
-(./FrontBackmatter/Declaration.tex) [41
+(./FrontBackmatter/Declaration.tex) [53
 
 
 
@@ -1535,22 +1814,22 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
 
 
  *File List*
-scrreprt.cls    2013/12/19 v3.12 KOMA-Script document class (report)
-scrkbase.sty    2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent bas
-ics and keyval usage)
- scrbase.sty    2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent b
-asics and keyval usage)
+scrreprt.cls    2012/07/29 v3.11b KOMA-Script document class (report)
+scrkbase.sty    2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent ba
+sics and keyval usage)
+ scrbase.sty    2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
   keyval.sty    1999/03/16 v1.13 key=value parser (DPC)
-scrlfile.sty    2013/12/19 v3.12 KOMA-Script package (loading files)
-tocbasic.sty    2013/12/19 v3.12 KOMA-Script package (handling toc-files)
-scrsize11pt.clo    2013/12/19 v3.12 KOMA-Script font size class option (11pt)
-typearea.sty    2013/12/19 v3.12 KOMA-Script package (type area)
+scrlfile.sty    2012/06/15 v3.12 KOMA-Script package (loading files)
+tocbasic.sty    2012/04/04 v3.10b KOMA-Script package (handling toc-files)
+scrsize11pt.clo    2012/07/29 v3.11b KOMA-Script font size class option (11pt)
+typearea.sty    2012/07/29 v3.11b KOMA-Script package (type area)
 classicthesis-config.tex
   ifthen.sty    2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 inputenc.sty    2008/03/30 v1.1d Input encoding file
   latin9.def    2008/03/30 v1.1d Input encoding file
-   babel.sty    2013/12/03 3.9h The Babel package
-ngermanb.ldf    2013/12/13 v2.7 German support for babel (new orthography)
+   babel.sty    2013/05/16 v3.9f The Babel package
+ngermanb.ldf    2008/07/06 v2.6n new German support from the babel system
  english.ldf    2012/08/20 v3.3p English support from the babel system
   natbib.sty    2010/09/13 8.31b (PWD, AO)
  amsmath.sty    2013/01/14 v2.14 AMS math features
@@ -1562,7 +1841,7 @@ ngermanb.ldf    2013/12/13 v2.7 German support for babel (new orthography)
    t1enc.def    2005/09/27 v1.99g Standard LaTeX file
 textcomp.sty    2005/09/27 v1.99g Standard LaTeX package
   ts1enc.def    2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
- scrhack.sty    2013/12/19 v3.12 KOMA-Script package 
+ scrhack.sty    2012/07/29 v3.11b KOMA-Script package (hacking other packages)
   xspace.sty    2009/10/20 v1.13 Space after command names (DPC,MH)
 mparhack.sty    2005/04/17 v1.4 (T. Sgouros and S. Ulrich)
 fixltx2e.sty    2006/09/13 v1.1m fixes to LaTeX
@@ -1570,7 +1849,7 @@ bibentry.sty    2007/10/30 1.5 (PWD)
 ClassicThesis.bbl
  acronym.sty    2012/10/29 v1.38 Support for acronyms (Tobias Oetiker)
   suffix.sty    2006/07/15 1.5 Variant command support
- xstring.sty    2013/10/13  v1.7c  String manipulations (C Tellechea)
+ xstring.sty    2013/2/28  v1.7a  String manipulations (C Tellechea)
  relsize.sty    2013/03/29 ver 4.1
 tabularx.sty    1999/01/07 v2.07 `tabularx' package (DPC)
    array.sty    2008/09/09 v2.4c Tabular extension package (FMi)
@@ -1578,21 +1857,20 @@ tabularx.sty    1999/01/07 v2.07 `tabularx' package (DPC)
 caption3.sty    2013/05/02 v1.6-88 caption3 kernel (AR)
   subfig.sty    2005/06/28 ver: 1.3 subfig package
 enumerate.sty    1999/03/05 v3.00 enumerate extensions (DPC)
-listings.sty    2013/08/26 1.5b (Carsten Heinz)
- lstmisc.sty    2013/08/26 1.5b (Carsten Heinz)
-listings.cfg    2013/08/26 1.5b listings configuration
-listings.hak    2013/12/19 v3.12 KOMA-Script package (hacking package listings)
-
-lstlang1.sty    2013/08/26 1.5b listings language file
-lstlang2.sty    2013/08/26 1.5b listings language file
-lstlang3.sty    2013/08/26 1.5b listings language file
-lstlang1.sty    2013/08/26 1.5b listings language file
-lstlang2.sty    2013/08/26 1.5b listings language file
-lstlang3.sty    2013/08/26 1.5b listings language file
-lstlang1.sty    2013/08/26 1.5b listings language file
-lstlang2.sty    2013/08/26 1.5b listings language file
-lstlang3.sty    2013/08/26 1.5b listings language file
- lstmisc.sty    2013/08/26 1.5b (Carsten Heinz)
+listings.sty    2007/02/22 1.4 (Carsten Heinz)
+ lstmisc.sty    2007/02/22 1.4 (Carsten Heinz)
+listings.cfg    2007/02/22 1.4 listings configuration
+listings.hak    2012/07/29 v3.11b KOMA-Script hacking package listings
+lstlang1.sty    2004/09/05 1.3 listings language file
+lstlang2.sty    2004/09/05 1.3 listings language file
+lstlang3.sty    2004/09/05 1.3 listings language file
+lstlang1.sty    2004/09/05 1.3 listings language file
+lstlang2.sty    2004/09/05 1.3 listings language file
+lstlang3.sty    2004/09/05 1.3 listings language file
+lstlang1.sty    2004/09/05 1.3 listings language file
+lstlang2.sty    2004/09/05 1.3 listings language file
+lstlang3.sty    2004/09/05 1.3 listings language file
+ lstmisc.sty    2007/02/22 1.4 (Carsten Heinz)
 hyperref.sty    2012/11/06 v6.83m Hypertext links for LaTeX
 hobsub-hyperref.sty    2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 hobsub-generic.sty    2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
@@ -1623,7 +1901,7 @@ refcount.sty    2011/10/16 v3.4 Data extraction from label references (HO)
 kvoptions.sty    2011/06/30 v3.11 Key value format for package options (HO)
   pd1enc.def    2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
-     url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
+     url.sty    2006/04/12  ver 3.3  Verb mode for urls, etc.
  hpdftex.def    2012/11/06 v6.83m Hyperref driver for pdfTeX
 rerunfilecheck.sty    2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 graphicx.sty    1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
@@ -1644,10 +1922,10 @@ microtype-pdftex.def    2013/05/23 v2.5a Definitions specific to pdftex (RS)
 microtype.cfg    2013/05/23 v2.5a microtype main configuration file (RS)
 booktabs.sty    2005/04/14 v1.61803 publication quality tables
 textcase.sty    2004/10/07 v0.07 Text only upper/lower case changing (DPC)
-scrpage2.sty    2013/12/19 v3.12 KOMA-Script package (page head and foot)
+scrpage2.sty    2010/04/22 v2.5 LaTeX2e KOMA-Script package
 titlesec.sty    2011/12/15 v2.10.0 Sectioning titles
  tocloft.sty    2013/05/02 v2.3f parameterised ToC, etc., typesetting
- scrtime.sty    2011/03/31 v3.08b KOMA-Script package (time of LaTeX run)
+ scrtime.sty    2012/07/29 v3.11b KOMA-Script package (time of LaTeX run)
 prelim2e.sty    2009/05/29 v1.3 prelim2e Package (MS)
 everyshi.sty    2001/05/15 v3.00 EveryShipout Package (MS)
 remreset.sty    
@@ -1680,6 +1958,7 @@ FrontBackmatter/Contents.tex
  ot1zplm.fd    2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
   t1cmss.fd    1999/05/25 v2.5h Standard LaTeX font definitions
 Chapters/Chapter01.tex
+img/contributions.png
 Chapters/LiteratureReview.tex
 Chapters/ChapterMRG.tex
 Chapters/ChapterM&P.tex
@@ -1694,31 +1973,32 @@ FrontBackmatter/Declaration.tex
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: E8379CDE964F45A42F6E285D7B280440;4645.
+(rerunfilecheck)             Checksum: 9BF87D34F1332DBD2B0632F512AC2E42;5024.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
  ) 
 Here is how much of TeX's memory you used:
- 17471 strings out of 493304
- 267554 string characters out of 6139870
- 448496 words of memory out of 5000000
- 20297 multiletter control sequences out of 15000+600000
+ 17339 strings out of 493315
+ 265631 string characters out of 6137904
+ 426373 words of memory out of 5000000
+ 20138 multiletter control sequences out of 15000+600000
  69535 words of font info for 89 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 48i,13n,67p,1085b,2330s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/fon
-ts/type1/public/fpl/fplrij8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
-lic/bera/fvmr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
-latxfont/lcircle1.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/u
-plr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (57 pages, 133921 bytes).
+ 54i,14n,67p,1351b,2330s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive
+/2013/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2013/t
+exmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2013/texmf-dis
+t/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/local/texlive/2013/te
+xmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dis
+t/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on ClassicThesis.pdf (69 pages, 170445 bytes).
 PDF statistics:
- 704 PDF objects out of 1000 (max. 8388607)
- 631 compressed objects within 7 object streams
- 159 named destinations out of 1000 (max. 500000)
- 15401 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 783 PDF objects out of 1000 (max. 8388607)
+ 697 compressed objects within 7 object streams
+ 176 named destinations out of 1000 (max. 500000)
+ 15446 words of extra memory for PDF output out of 17280 (max. 10000000)
 

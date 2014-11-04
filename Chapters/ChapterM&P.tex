@@ -1,10 +1,79 @@
 \chapter{Approach}\label{ch:approach}
 
-\section{A framework of Interactional Arrangement}
+
 
 \section{Serious Games}
 
 \section{The AtomicOrchid Platform}
+We designed and implemented the Radiation Response Game in order to study team coordination through a location-based, mixed-reality game probe. In the following sections, we describe the game design including grounding of the design rationale, game interfaces, iterative design process, and the system architecture.
+
+\subsection{Game Design}
+The Radiation Response Game is based on the fictitious scenario of radioactive ex- plosions creating expanding and moving radioactive clouds that pose a threat to re- sponders on the ground (field responders), and the (virtual) targets to be rescued from around the game area. We chose a radiation scenario because other than disasters that cause physical devastation it poses an invisible threat, which creates the need to monitor the environment closely with sensing devices, and communicate frequently.\\
+
+Field responders are supported by a centrally located headquarters (HQ) control room, staffed by coordinators who exchange messages with field players through an instant messaging style communication system. The messages are broadcasted, which means they are visible to all players. Whilst formal response teams tend to use radio to communicate (e.g., Toups et al., 2011) we chose text-based messages for its flexi- bility to support scenarios with many distributed (volunteer) field responders.\\
+
+Core game mechanics are designed to allow us to explore specific aspects of team coordination. In particular, this is inspired by the real coordination challenge of re- source and task allocation to coordinate spatially distributed resources and personnel
+5. Comto cmarryaonutdopaernatidonsC(Cohoenredt ail.n, 2a00t5i).on Organisational Structure
+The two-tiered organisational structure of the game is derived from real world dis-
+aster response organisation we have observed in a multinational training exercise of
+The command and coordination structure for the purposes of the Fort Widley training
+USAR forces (see figure 1). The game s HQ is loosely modelled on sector coordina-
+exercise was hierarchical starting from the USAR Coordination (UC) Cell (top), to the sector
+tors, whose role is to manage resources and communications between their assigned Commandertesa,mtsh,eanTdecaom/mCarnedwanLdecaodoerdrisnatendactihone wteitahimn thmeiermsebcteors(D(beopatrttommen)t. fFoirgCuorme -5 shows a
+munities and Local Government, 2008). Field responders are modelled on team lead-
+simple schematic of the structure.
+ers and members, we ignore this distinction to keep roles, assignments, and game rules simple.\\
+
+means they are visible to all players. Whilst formal response teams tend to use radio to communicate (e.g., Toups et al., 2011) we chose text-based messages for its flexi- bility to support scenarios with many distributed (volunteer) field responders.
+Core game mechanics are designed to allow us to explore specific aspects of team coordination. In particular, this is inspired by the real coordination challenge of re- source and task allocation to coordinate spatially distributed resources and personnel
+5. Comto cmarryaonutdopaernatidonsC(Cohoenredt ail.n, 2a00t5i).on Organisational Structure
+The two-tiered organisational structure of the game is derived from real world dis-
+aster response organisation we have observed in a multinational training exercise of
+The command and coordination structure for the purposes of the Fort Widley training
+USAR forces (see figure 1). The game s HQ is loosely modelled on sector coordina-
+exercise was hierarchical starting from the USAR Coordination (UC) Cell (top), to the sector
+tors, whose role is to manage resources and communications between their assigned Commandertesa,mtsh,eanTdecaom/mCarnedwanLdecaodoerdrisnatendactihone wteitahimn thmeiermsebcteors(D(beopatrttommen)t. fFoirgCuorme -5 shows a
+munities and Local Government, 2008). Field responders are modelled on team lead-
+simple schematic of the structure.
+ers and members, we ignore this distinction to keep roles, assignments, and game rules simple.\\
+
+The radioactive cloud. The cloud is a danger zone that can incapacitate field re- sponders. It imposes spatial and temporal constraints on task performance and well- being. The cloud is analogous to various spatial phenomena in disasters (e.g. spread- ing fires, diseases and floods). In require communication between HQ and field re- sponders, the spatial position and movement of the cloud is only known to HQ. \\
+
+Command-and-control structure. The division of responsibility into HQ and field responders simulates a situation where volunteer responders are connected to a simple two level Command-and-control structure, similar to the real-time layer of the exist- ing professional disaster response organizations (e.g., Chen et al., 2005).\\
+
+
+
+\subsection{Game Interface}
+Field responders are equipped with a mobile responder app providing them with sensing and awareness capabilities (see figure 2). The app shows a reading of radioac- tivity, their health level based on radioactive exposure, and a GPS-enabled map of the game area with the targets to be collected and the drop off zones for the targets. Icons according to responder roles that additionally have their initials on them can be used to identify individuals. Another tab reveals the messaging widget to broadcast messages to the other field responders, and to headquarters.\\
+
+HQ is manned by at least two coordinators who have at their disposal a browser- based coordination interface that provides an overview of the game area, including real-time information of the players locations (see figure 2). HQ can also broadcast messages to all field responders, and can review the responders exposure and health levels. Importantly, only headquarters has a view of the radioactive cloud. Hotter zones correspond to higher levels of radioactivity.\\
+
+
+\subsection{The planning agent}
+
+
+
+
+
+
+
+\subsection{Iterative Design}
+
+The game has been developed through 3 iterations of design and evaluation.
+In the first iteration, we used a paper-based prototype to test and refine the core game mechanics. We recruited 12 participants, allocated one of four roles to them, and equipped them only with paper maps with locations of targets. They had to form different kinds of teams to retrieve the different kinds of boxes placed in the game area. The paper prototype highlighted the demand for better support of situation
+awareness and communication to enable coordination.\\
+
+The technology prototype was first tested with users in the second iteration. Users
+used the responder smartphone app to communicate, navigate, locate and pick up targets in teams formed according to role requirements. However, researchers staffed HQ. A pilot study was conducted with members of the public that visited an Open Day at a local university. A total of 20 members of the public tested the game in four game sessions. The lessons learned in the pilot study revealed problems with user interaction, networking, and game parameter tuning that were addressed accordingly.\\
+
+In the third iteration, we improved system stability and interface designs and con- ducted a pilot study at the campus of another university, to test the system in place. The full-fledged study we report on here was conducted shortly after.
+
+\subsection{System Architecture}
+The Radiation Response Game is based on the open-sourced geo-fencing game Map- Attack3 that has been iteratively developed for a responsive, (relatively) scalable ex- perience. Our mixed-reality game relies especially on real-time data streaming be- tween client and server. The client-server architecture is depicted in figure 3. Client- side requests for less dynamic content use HTTP. Frequent events, such as location updates and radiation exposure, are streamed to clients to avoid the overhead of HTTP. In this way, field responders are kept informed in near real-time.\\
+
+The platform is built using the geoloqi platform, Sinatra for Ruby, and state-of- the-art web technologies such as socket.io, node.js, redis and Synchrony for Sinatra, and the Google Maps API. Open source mobile client apps that are part native, part browser based exist for iPhone and Android; we adapted an Android app to build the Mobile Responder App.\\
+
+\section{A framework of Interaction techniques}
 
 \chapter{Methodology To Investigating Human Agent Interaction}
 
@@ -12,7 +81,7 @@
 
 \section{ Ethnomethodological perspective }
 
-\section{Interaction/Video Analysis}
+\section{ Interaction/Video Analysis}
 
 
 
