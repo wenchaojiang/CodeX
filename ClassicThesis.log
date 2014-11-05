@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  4 NOV 2014 15:17
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  5 NOV 2014 21:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1030,7 +1030,7 @@ Package tocbasic Info: character protrusion at toc deactivated on input line 11
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplj/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for U+zeur on input line 32.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 33.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
@@ -1038,7 +1038,7 @@ File: uzeur.fd 2005/01/11 v4.0 (WaS)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
-LaTeX Font Info:    Try loading font information for U+zeus on input line 32.
+LaTeX Font Info:    Try loading font information for U+zeus on input line 33.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/eulervm/uzeus.fd
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
@@ -1046,12 +1046,12 @@ File: uzeus.fd 2005/01/11 v4.0 (WaS)
 (/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-eus.cfg
 File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
 )
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 32.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 33.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for OT1+zplm on input line 32.
+LaTeX Font Info:    Try loading font information for OT1+zplm on input line 33.
 
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1zplm.fd
@@ -1070,7 +1070,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 ]
-Overfull \hbox (5.04749pt too wide) in paragraph at lines 50--50
+Overfull \hbox (5.04749pt too wide) in paragraph at lines 54--54
  [][] []\T1/pplj/m/sc/10.95/80ls social im-pli-ca-tions of agent-based plan-nin
 g sup- 
  []
@@ -1255,7 +1255,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[8] <img/contributions.png, id=493, 462.72874pt x 324.21124pt>
+[8] <img/contributions.png, id=513, 462.72874pt x 324.21124pt>
 File: img/contributions.png Graphic file (type png)
 
 <use img/contributions.png>
@@ -1345,11 +1345,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--14
-
- []
-
-
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
@@ -1358,29 +1353,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-
-Overfull \hbox (1.25085pt too wide) in paragraph at lines 20--21
-\T1/pplj/m/n/10.95 char-ac-ter-is-tics of agents, learn-ing, au-ton-mous and co
-l-labroitive, Based
- []
-
-
-Overfull \hbox (4.63284pt too wide) in paragraph at lines 20--21
-\T1/pplj/m/n/10.95 on this char-ac-ter-is-tics, soft-ware agents can be cat-e-g
-orised into 8 classes,
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 20--21
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
@@ -1389,18 +1362,24 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [16]
-Overfull \hbox (6.0125pt too wide) in paragraph at lines 37--38
-\T1/pplj/m/n/10.95 In dis-as-ter re-sponse, team co-or-di-na-tion is es-sen-tia
-l in or-der that groups
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 37--38
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--40
+Overfull \hbox (1.25085pt too wide) in paragraph at lines 27--28
+\T1/pplj/m/n/10.95 char-ac-ter-is-tics of agents, learn-ing, au-ton-mous and co
+l-labroitive, Based
+ []
+
+
+Overfull \hbox (4.63284pt too wide) in paragraph at lines 27--28
+\T1/pplj/m/n/10.95 on this char-ac-ter-is-tics, soft-ware agents can be cat-e-g
+orised into 8 classes,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
@@ -1409,24 +1388,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [17]
-Overfull \hbox (1.60046pt too wide) in paragraph at lines 44--46
-\T1/pplj/m/n/10.95 team, which con-sists of fire-fight-ers and/or en-gi-neers.2
- Nor-mally, each
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 44--46
-
- []
-
-
-Overfull \hbox (1.89531pt too wide) in paragraph at lines 47--48
-\T1/pplj/m/n/10.95 dios, may be tech-no-log-i-cally sup-ported by the ap-pa-ra-
-tus it-self (pumps
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
@@ -1435,12 +1397,18 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+Overfull \hbox (6.0125pt too wide) in paragraph at lines 70--71
+\T1/pplj/m/n/10.95 In dis-as-ter re-sponse, team co-or-di-na-tion is es-sen-tia
+l in or-der that groups
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 70--71
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 58--67
+Underfull \hbox (badness 10000) in paragraph at lines 72--73
 
  []
 
@@ -1448,29 +1416,69 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--67
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[19])
+[19]
+Overfull \hbox (1.60046pt too wide) in paragraph at lines 77--79
+\T1/pplj/m/n/10.95 team, which con-sists of fire-fight-ers and/or en-gi-neers.2
+ Nor-mally, each
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 77--79
+
+ []
+
+
+Overfull \hbox (1.89531pt too wide) in paragraph at lines 80--81
+\T1/pplj/m/n/10.95 dios, may be tech-no-log-i-cally sup-ported by the ap-pa-ra-
+tus it-self (pumps
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [20]
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 91--100
+
+ []
+
+
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[21]
+[21])
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[22]
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[23]
 \openout2 = `Chapters/ChapterMRG.aux'.
 
  (./Chapters/ChapterMRG.tex)
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[22
+[24
 
 
-] [23
+] [25
 
 
 
-] [24]
+] [26]
 \openout2 = `Chapters/ChapterM&P.aux'.
 
  (./Chapters/ChapterM&P.tex
@@ -1495,7 +1503,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[25
+[27
 
 
 
@@ -1537,7 +1545,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 27--39
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[26]
+[28]
 Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
@@ -1562,7 +1570,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 47--48
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[27]
+[29]
 Overfull \hbox (9.02289pt too wide) in paragraph at lines 49--50
 \T1/pplj/m/n/10.95 posal a browser- based co-or-di-na-tion in-ter-face that pro
 -vides an overview
@@ -1582,7 +1590,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--65
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[28]
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 66--68
 
  []
@@ -1601,24 +1609,30 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--75
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[29]
+[31]
+Overfull \hbox (5.32419pt too wide) in paragraph at lines 92--95
+\T1/pplj/m/n/10.95 cerned with in-ter-ac-tion pat-terns So-cial as-pects: Cornc
+erned with what? 
+ []
+
+
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[30]
+[32]
 Chapter 4.
 )
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[31
+[33
 
 
-] [32
+] [34
 
 
 
-] [33] [34]
+] [35] [36]
 \openout2 = `Chapters/Chapter04.aux'.
 
  (./Chapters/Chapter04.tex
@@ -1627,11 +1641,11 @@ Chapter 5.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[35
+[37
 
 
 
-] [36
+] [38
 
 
 ]
@@ -1640,7 +1654,7 @@ Chapter 6.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[37] [38
+[39] [40
 
 
 ]
@@ -1649,11 +1663,11 @@ Chapter 7.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[39] [40
+[41] [42
 
 
 
-] [41] [42]
+] [43] [44]
 \openout2 = `Chapters/Conclusion.aux'.
 
  (./Chapters/Conclusion.tex
@@ -1662,18 +1676,18 @@ Chapter 8.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[43
+[45
 
 
 
-] [44
+] [46
 
 
 
-] [45
+] [47
 
 
-] [46]
+] [48]
 \openout2 = `Chapters/Chapter0A.aux'.
 
  (./Chapters/Chapter0A.tex
@@ -1698,7 +1712,7 @@ LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <9> not available
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[47
+[49
 
 
 
@@ -1709,7 +1723,7 @@ LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[48]
+[50]
 \openout2 = `FrontBackmatter/Bibliography.aux'.
 
  (./FrontBackmatter/Bibliography.tex (./ClassicThesis.bbl
@@ -1766,23 +1780,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--53
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[49
+[51
 
 
 
 
 
 
-] [50
+] [52
 
 
 
 ]
 \openout2 = `FrontBackmatter/Colophon.aux'.
 
- (./FrontBackmatter/Colophon.tex) [51
+ (./FrontBackmatter/Colophon.tex) [53
 
-] [52
+] [54
 
 
 
@@ -1790,7 +1804,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 \openout2 = `FrontBackmatter/Declaration.aux'.
 
 
-(./FrontBackmatter/Declaration.tex) [53
+(./FrontBackmatter/Declaration.tex) [55
 
 
 
@@ -1973,17 +1987,17 @@ FrontBackmatter/Declaration.tex
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 9BF87D34F1332DBD2B0632F512AC2E42;5024.
+(rerunfilecheck)             Checksum: 843A35F6E68CB5159553428AA58B8BB0;5364.
 
 LaTeX Warning: There were multiply-defined labels.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
  ) 
 Here is how much of TeX's memory you used:
- 17339 strings out of 493315
- 265631 string characters out of 6137904
- 426373 words of memory out of 5000000
- 20138 multiletter control sequences out of 15000+600000
+ 17351 strings out of 493315
+ 265809 string characters out of 6137904
+ 426379 words of memory out of 5000000
+ 20144 multiletter control sequences out of 15000+600000
  69535 words of font info for 89 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  54i,14n,67p,1351b,2330s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1995,10 +2009,10 @@ exmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2013/texmf-dis
 t/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/local/texlive/2013/te
 xmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dis
 t/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (69 pages, 170445 bytes).
+Output written on ClassicThesis.pdf (71 pages, 176186 bytes).
 PDF statistics:
- 783 PDF objects out of 1000 (max. 8388607)
- 697 compressed objects within 7 object streams
- 176 named destinations out of 1000 (max. 500000)
- 15446 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 814 PDF objects out of 1000 (max. 8388607)
+ 725 compressed objects within 8 object streams
+ 182 named destinations out of 1000 (max. 500000)
+ 15478 words of extra memory for PDF output out of 17280 (max. 10000000)
 
