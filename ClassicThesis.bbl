@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{5}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -27,14 +27,6 @@ Robert~R Hoffman, Paul~J Feltovich, Kenneth~M Ford, West Florida, David~D
 \newblock {Human-Centered Computing A Rose by Any Other Name \ldots Would
   Probably Be Given an Acronym}.
 \newblock 2002.
-
-\bibitem[Jiang et~al.(2014)Jiang, Fischer, Greenhalgh, Ramchurn, Wu, and
-  Jennings]{Jiang2014}
-Wenchao Jiang, Joel~E Fischer, Chris Greenhalgh, Sarvapali~D Ramchurn, Feng Wu,
-  and Nicholas~R Jennings.
-\newblock {Social Implications of Agent-based Planning Support for Human
-  Teams}.
-\newblock 2014.
 
 \bibitem[Nwana(1996)]{Nwana1996}
 Hyacinth~S Nwana.

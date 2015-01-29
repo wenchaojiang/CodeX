@@ -1,84 +1,114 @@
 \chapter{Approach}\label{ch:approach}
 
 
+\section{Socio-technical Perspective of technology support for organizational work}
+[Introduce command and control scenario introduced in literature review?]\\
 
-\section{Serious Games}
+This research is aimed to inform the design of technical support for organizational work conducted by responder teams. Integrating new technology support into a human organisation is a well-known challenge for building a socio-technical system. 
+
+The term socio-technical systems was originally coined by Emery and Trist (1960) to describe systems that involve a complex interaction between humans, machines and the environmental aspects of the work system. nowadays, this interaction is true of most enterprise systems. The corollary of this definition is that all of these factors  people, machines and context need to be considered when developing such systems. Within the context of CSCW the term stands for the recognition that aspects of both, technical as well as social subsystems, need to be considered when an organization introduces new technology and that there is a very complex relationship between the two. Social systems are characterized by phenomena such as communication and cooperation between human individuals, emergence of meaning systems, self-referential development of structures and In contrast, technical systems are characterized by artifacts, control, anticipation, state-transitions, pre- programmed adaptability, learning in respect to purposes which are determined from outside the system. Introducing a tech support system into an organization requires the technical system and a social system to be integrated, which causes lots of well-known problems in CSCW studies. 
+
+In the context of this study, [Need to have more integrated with this study, fully present the context, factor some words out to the literature review] the technology support is based on coalition formation algorithm, which requires a set of rigid inputs and produces task assignments. On the other hand, planning activities of responder teams are characterized by natural social processes such as communication, negotiation and cooperation. To support the responder teams with coalition formation technologies, the confrontation between social and technical is inevitable. Some researchers have pointed out the existence of the inherent social technical gap, the great divide between what we know we must support socially and what we can support technically.  Some argued that human activity is highly flexible, nuanced, and contextualized and that computational entities such as information sharing, roles, and social norms need to be similarly flexible, nuanced, and contextualized. However, current technology support systems for organisations are often rigid and inflexible, failing to fully support the social world. Computer science is learning how to use techniques such as machine learning, user modelling to fill social-technical gap. It is hard to disprove that a technical solution is imminent. However, some argued that such a technical solution is unlikely, given that computer science, artificial intelligence (AI), information technology, and information science researchers have attempted to bridge the gap without success for at least 20 years. \\
+
+We argue that the social aspect does not need to be fully supported through technological advance. A deep understanding of social issues and appropriate interaction design may lead to possible ``workaround'' of the socio-technical gap. Although technology support may be not fully integrated with the social aspects, appropriate interaction design can reduce its negative impact on social process so that the benefits of technology can overweight its adverse social impact. The field of HCI achieved widespread recognition with its inherent focus on the importance of the interaction between people and technology at the fundamental level rather than just the design of the user interface. It explicitly recognised the importance of the roles of the social and technical aspects of work. HCI Literatures have identified a wide range of different methodologies that helps inform the development of socio-technical systems such as (1) Cognitive Work Analysis, (2) Ethnographic workplace analysis, (3) Human-centred design. Some of the recognised HCI methodologies underpin the serious game approach employed by this PhD work to understand socio-technical design space of agent-based planning support. [The switch to HCI is not smooth]\\
+
+[Field trials supported by interaction analysis  speech act]\\
+
+[Andy s literature review of 2004 supporting ethnographic study should be cited]\\
+
+
+\section{Serious Mixed Game as a testbed}
+
+- Define serious game and serious mixed reality game [serious game literatures typically has different concern]
+- What is serious game?
+- Highlight its support for Ethnographic study, User-Centered design. 
+
 
 \section{The AtomicOrchid Platform}
-We designed and implemented the Radiation Response Game in order to study team coordination through a location-based, mixed-reality game probe. In the following sections, we describe the game design including grounding of the design rationale, game interfaces, iterative design process, and the system architecture.
+We designed and implemented the mixed reality game AtomicOrchid as a testbed for our field trials of different system interaction designs. The game involves field players on the ground (play as field responder) and online players in a control room (play as Headquarter). 
 
-\subsection{Game Design}
-The Radiation Response Game is based on the fictitious scenario of radioactive ex- plosions creating expanding and moving radioactive clouds that pose a threat to re- sponders on the ground (field responders), and the (virtual) targets to be rescued from around the game area. We chose a radiation scenario because other than disasters that cause physical devastation it poses an invisible threat, which creates the need to monitor the environment closely with sensing devices, and communicate frequently.\\
+%insert chart and figure 
 
-Field responders are supported by a centrally located headquarters (HQ) control room, staffed by coordinators who exchange messages with field players through an instant messaging style communication system. The messages are broadcasted, which means they are visible to all players. Whilst formal response teams tend to use radio to communicate (e.g., Toups et al., 2011) we chose text-based messages for its flexi- bility to support scenarios with many distributed (volunteer) field responders.\\
+In the following sections, we describe the game design including grounding of the design rationale,  iterative design process, and the system architecture.
 
-Core game mechanics are designed to allow us to explore specific aspects of team coordination. In particular, this is inspired by the real coordination challenge of re- source and task allocation to coordinate spatially distributed resources and personnel
-5. Comto cmarryaonutdopaernatidonsC(Cohoenredt ail.n, 2a00t5i).on Organisational Structure
-The two-tiered organisational structure of the game is derived from real world dis-
-aster response organisation we have observed in a multinational training exercise of
-The command and coordination structure for the purposes of the Fort Widley training
-USAR forces (see figure 1). The game s HQ is loosely modelled on sector coordina-
-exercise was hierarchical starting from the USAR Coordination (UC) Cell (top), to the sector
-tors, whose role is to manage resources and communications between their assigned Commandertesa,mtsh,eanTdecaom/mCarnedwanLdecaodoerdrisnatendactihone wteitahimn thmeiermsebcteors(D(beopatrttommen)t. fFoirgCuorme -5 shows a
-munities and Local Government, 2008). Field responders are modelled on team lead-
-simple schematic of the structure.
-ers and members, we ignore this distinction to keep roles, assignments, and game rules simple.\\
+\subsection{Game Design Rationale}
+The AtomicOrchid is based on the fictitious scenario of radioactive explosions creating expanding and moving radioactive clouds that pose a threat to responders on the ground (field responders), and the (virtual) targets to be rescued from around the game area. We chose a radiation scenario because other than disasters that cause physical devastation it poses an invisible threat, which creates the need to monitor the environment closely with sensing devices, and communicate frequently.\\
 
-means they are visible to all players. Whilst formal response teams tend to use radio to communicate (e.g., Toups et al., 2011) we chose text-based messages for its flexi- bility to support scenarios with many distributed (volunteer) field responders.
-Core game mechanics are designed to allow us to explore specific aspects of team coordination. In particular, this is inspired by the real coordination challenge of re- source and task allocation to coordinate spatially distributed resources and personnel
-5. Comto cmarryaonutdopaernatidonsC(Cohoenredt ail.n, 2a00t5i).on Organisational Structure
-The two-tiered organisational structure of the game is derived from real world dis-
-aster response organisation we have observed in a multinational training exercise of
-The command and coordination structure for the purposes of the Fort Widley training
-USAR forces (see figure 1). The game s HQ is loosely modelled on sector coordina-
-exercise was hierarchical starting from the USAR Coordination (UC) Cell (top), to the sector
-tors, whose role is to manage resources and communications between their assigned Commandertesa,mtsh,eanTdecaom/mCarnedwanLdecaodoerdrisnatendactihone wteitahimn thmeiermsebcteors(D(beopatrttommen)t. fFoirgCuorme -5 shows a
-munities and Local Government, 2008). Field responders are modelled on team lead-
-simple schematic of the structure.
-ers and members, we ignore this distinction to keep roles, assignments, and game rules simple.\\
+Field responders are supported by a centrally located headquarters (HQ) control room, staffed by coordinators who exchange messages with field players through an instant messaging style communication system. The messages are broadcasted, which means they are visible to all players. Whilst formal response teams tend to use radio to communicate (e.g., Toups et al., 2011) we chose text-based messages for its flexibility to support scenarios with many distributed (volunteer) field responders.\\
 
-The radioactive cloud. The cloud is a danger zone that can incapacitate field re- sponders. It imposes spatial and temporal constraints on task performance and well- being. The cloud is analogous to various spatial phenomena in disasters (e.g. spread- ing fires, diseases and floods). In require communication between HQ and field re- sponders, the spatial position and movement of the cloud is only known to HQ. \\
+Core game mechanics are designed to allow us to explore specific aspects of team coordination. In particular, this is inspired by the real coordination challenge of resource and task allocation to coordinate spatially distributed resources and personnel\\
 
-Command-and-control structure. The division of responsibility into HQ and field responders simulates a situation where volunteer responders are connected to a simple two level Command-and-control structure, similar to the real-time layer of the exist- ing professional disaster response organizations (e.g., Chen et al., 2005).\\
+The game`s two-tiered organisational structure is derived from real world disaster response organisation and from NIMS (Homeland Security, 2008). The game`s HQ is loosely modelled on sector coordinators, whose role is to manage resources and communications between their assigned teams, and command and coordinate action within their sector (INSARAG, 2012). Field responders are modelled on team leaders and members. We ignore this distinction to simplify roles, assignments, and game mechanics.\\
 
+\textbf{Responder roles and targets}. Each field responder is assigned one of four roles:\\
 
+There are four types of (virtual) targets:\\
 
-\subsection{Game Interface}
-Field responders are equipped with a mobile responder app providing them with sensing and awareness capabilities (see figure 2). The app shows a reading of radioac- tivity, their health level based on radioactive exposure, and a GPS-enabled map of the game area with the targets to be collected and the drop off zones for the targets. Icons according to responder roles that additionally have their initials on them can be used to identify individuals. Another tab reveals the messaging widget to broadcast messages to the other field responders, and to headquarters.\\
+The objective of the field responders is to rescue as many targets as possible by `carrying' them to a drop off zone. To pick up and carry one of the target objects, two responders with particular appropriate roles are required in immediate proximity to the object. For example, a soldier and a transporter are required to pick up and carry fuel, and a medic and a soldier are required to pick up an animal.\\
 
-HQ is manned by at least two coordinators who have at their disposal a browser- based coordination interface that provides an overview of the game area, including real-time information of the players locations (see figure 2). HQ can also broadcast messages to all field responders, and can review the responders exposure and health levels. Importantly, only headquarters has a view of the radioactive cloud. Hotter zones correspond to higher levels of radioactivity.\\
+The role-target mapping mechanic requires players to engage in resource coordination. Field responders have to engage in `agile teaming' forming, disbanding, relocating and re-forming in teams over the course of the game in order to complete the game objective. This is an example of what Toups et al call, information distribution (2011).\\
+
+\textbf{The radioactive cloud}. The cloud is a danger zone that can incapacitate field responders. It imposes spatial and temporal constraints on task performance and well- being. The cloud is analogous to various spatial phenomena in disasters (e.g. spreading fires, diseases and floods). In require communication between HQ and field responders, the spatial position and movement of the cloud is only known to HQ. \\
+
+\textbf{Command-and-control structure}. The division of responsibility into HQ and field responders simulates a situation where volunteer responders are connected to a simple two level Command-and-control structure, similar to the real-time layer of the existing professional disaster response organizations (e.g., Chen et al., 2005).\\
+
+\textbf{System interface}.System interface design is closely related to specific interaction designs, and it keeps evolving throughout three iterations of field trials. Therefore, the details of interface evolution is left to be introduced in the subsequent chapters (Chapter x,x,x) of field trials. \\
+
+\subsection{Iterative design}
+We briefly describe three cycles of iterative game design and evaluation before the system is ready for the first formal field study.\\
+
+In the first iteration, we used a paper-based prototype to test and refine the core game mechanics. We recruited 12 participants, allocated one of four roles to them, and equipped them only with paper maps with locations of targets. They had to form different kinds of teams to retrieve the different kinds of boxes placed in the game area. The paper prototype demonstrated the demand for better support of situation awareness and communication to enable coordination.\\
+
+The technology prototype was first tested with users in the second iteration. Users were equipped with the responder smartphone app to communicate, navi- gate, locate and pick up targets in teams formed according to role requirements. HQ was staffed by members of the research team. A pilot study was conducted with members of the public that visited an Open Day at a local university. A total of 20 members of the public tested the game in four ad-hoc game trials. The les- sons learned in the pilot study revealed problems with user interaction, network- ing, and game parameter tuning, which we subsequently addressed.\\
+
+In the third iteration, we improved system stability and interface designs. We conducted a pilot study at the campus of another university, to test the system in place. The full-fledged study we report on here was conducted shortly thereafter.\\
+
+\subsection{System Architecture}
+The AtomicOrchid is based on the open-sourced geo-fencing game MapAttack that has been iteratively developed for a responsive, (relatively) scalable experience. Our mixed-reality game relies especially on real-time data streaming between client and server. The client-server architecture is depicted in figure 3. Client-side requests for less dynamic content use HTTP. Frequent events, such as location updates and radiation exposure, are streamed to clients to avoid the overhead of HTTP. In this way, field responders are kept informed in near real-time.\\
+
+The platform is built using the geoloqi platform, Sinatra for Ruby, and state-of-the-art web technologies such as socket.io, node.js, redis and Synchrony for Sinatra, and the Google Maps API. Open source mobile client apps that are part native, part browser based exist for iPhone and Android; we adapted an Android app to build the Mobile Responder App.\\
 
 
 \subsection{The planning agent}
 
+In study 2 and 3, planning agents are integrated into the AtomicOrchid to support player's planning activities. Two types of agent has be used in study 2 and 3 respectively. \\
+
+The input and output of the planning agent are. The difference between the two agent are in the input. \\
+
+Simulations has been applied to ensure the planning agent produce computationally optimal plans for the agents.\\
+
+The agent is then integrated via a http protocol. \\
+
+Interaction design and presentation of the agent is detailed in Chapter a and b.\\
+
+The agents are developed by ORCHID Reseach partners from Southampton, technical details of the planning agent.\\
 
 
 
 
 
+\section{Three interaction designs}
 
-\subsection{Iterative Design}
+[Justify the relation between the three iterations]
+- avoiding pitfalls that undermines observation of interaction arrangement
+- HQ agent interaction can be parallel/ HQ FR interaction follows progressive design interaction
+- The first iteraction: base case/ need to understand the organization before we do anything.
 
-The game has been developed through 3 iterations of design and evaluation.
-In the first iteration, we used a paper-based prototype to test and refine the core game mechanics. We recruited 12 participants, allocated one of four roles to them, and equipped them only with paper maps with locations of targets. They had to form different kinds of teams to retrieve the different kinds of boxes placed in the game area. The paper prototype highlighted the demand for better support of situation
-awareness and communication to enable coordination.\\
+Based on serious game approach, three iterations of prototyping are planned to explore the interactional issues related to the socio-technical integration. The 3 different system prototypes are partially (loosely) inspired by the model of Level Of Automation (LOA) in the study of automation design. The LOA model has been developed to categorise systems into a linear spectrum according to degree of automation. There are several variations of the LOA models. One example is the two-dimensional LOA model proposed by Parasuraman (detailed in literature review section x). Several limitations of the LOA has been identified in chapter x. Most importantly, the LOA model has a focus on one-to-one operator-system interaction (e.g. autopilots, tele-oportation). It fails to capture complexity of the interactions in the context of technology support for organisational work. Therefore, it does not fit into the context of socio-technical system, which is the main focus of this research. 
 
-The technology prototype was first tested with users in the second iteration. Users
-used the responder smartphone app to communicate, navigate, locate and pick up targets in teams formed according to role requirements. However, researchers staffed HQ. A pilot study was conducted with members of the public that visited an Open Day at a local university. A total of 20 members of the public tested the game in four game sessions. The lessons learned in the pilot study revealed problems with user interaction, networking, and game parameter tuning that were addressed accordingly.\\
+Despite the limitations, the terminologies that come with the model have been borrowed and adapted to inform the interaction design of three system prototypes in this research. 
 
-In the third iteration, we improved system stability and interface designs and con- ducted a pilot study at the campus of another university, to test the system in place. The full-fledged study we report on here was conducted shortly after.
+- Human Out of the Loop (HOuL)
+HOuL represents the highest level of automation. HOuL system is supposed completely run independently. Human is replaced with machine, therefore no human system interaction is required. It is unlikely to be realized in a socio-technical system in which organisational work is mainly carried out by human and supported by technologies.
 
-\subsection{System Architecture}
-The Radiation Response Game is based on the open-sourced geo-fencing game Map- Attack3 that has been iteratively developed for a responsive, (relatively) scalable ex- perience. Our mixed-reality game relies especially on real-time data streaming be- tween client and server. The client-server architecture is depicted in figure 3. Client- side requests for less dynamic content use HTTP. Frequent events, such as location updates and radiation exposure, are streamed to clients to avoid the overhead of HTTP. In this way, field responders are kept informed in near real-time.\\
+- Human In the Loop (HuIL) vs. Human On the Loop (HuOL)
+There is no precise definition for the term HuIL. Some automation researchers use the term to describe a system with high level of automation, which requires minimum level of human intervention. However, in this research, we use the term HuOL to describe this kind of system. Further, this research adapts definition of HuIL to represents medium level of automation. The HuIL system requires constant human interactions to achieve goal of socio-technical system.
 
-The platform is built using the geoloqi platform, Sinatra for Ruby, and state-of- the-art web technologies such as socket.io, node.js, redis and Synchrony for Sinatra, and the Google Maps API. Open source mobile client apps that are part native, part browser based exist for iPhone and Android; we adapted an Android app to build the Mobile Responder App.\\
+[More of this study, make clear the contribution, We also anticipate HuIL would be desirable ]
 
-\section{Two different level of autonomy}
-HUMAN-ON-THE-LOOP AN HUMAN-IN-THE-LOOP
+Although the terms are originally used to describe degree of automation, this can also be used to inspire the interaction design of the system prototypes. Next section will go through the interaction design.
 
-need a review of models of level of autonomy 
 
-Lucy suchman to build a system. 
 
 \section{A framework of interaction issues}
 interaction techniques 
@@ -97,7 +127,7 @@ Social aspects: Corncerned with what?
 (Most interaction techniques literature reviewed so far is about study in visual representation. )
 (Interaction design, wiki)
 
-Build up the literature of LOA and combine it with interaction techniques. 
+
 
 
 \chapter{ Methodology To Investigating Human Agent Interaction}

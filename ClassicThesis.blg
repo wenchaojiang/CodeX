@@ -6,7 +6,6 @@ A level-1 auxiliary file: FrontBackmatter/Titlepage.aux
 A level-1 auxiliary file: FrontBackmatter/Titleback.aux
 A level-1 auxiliary file: FrontBackmatter/Dedication.aux
 A level-1 auxiliary file: FrontBackmatter/Abstract.aux
-A level-1 auxiliary file: FrontBackmatter/Publication.aux
 A level-1 auxiliary file: FrontBackmatter/Acknowledgments.aux
 A level-1 auxiliary file: FrontBackmatter/Contents.aux
 A level-1 auxiliary file: Chapters/Chapter01.aux
@@ -21,53 +20,50 @@ The style file: plainnat.bst
 A level-1 auxiliary file: FrontBackmatter/Colophon.aux
 A level-1 auxiliary file: FrontBackmatter/Declaration.aux
 Database file #1: Bibliography.bib
-Warning--I didn't find a database entry for "Fischer2012"
-Warning--I didn't find a database entry for "Fischer2014"
 Warning--empty journal in Fitts
 Warning--empty journal in Hoffman2002
-Warning--empty journal in Jiang2014
 Warning--empty journal in Nwana1996
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 6 entries,
+You've used 5 entries,
             2773 wiz_defined-function locations,
-            656 strings with 6793 characters,
-and the built_in function-call counts, 3158 in all, are:
-= -- 261
-> -- 223
+            646 strings with 6507 characters,
+and the built_in function-call counts, 2596 in all, are:
+= -- 219
+> -- 166
 < -- 7
-+ -- 76
-- -- 70
-* -- 260
-:= -- 502
-add.period$ -- 23
-call.type$ -- 6
-change.case$ -- 40
-chr.to.int$ -- 6
-cite$ -- 18
-duplicate$ -- 139
-empty$ -- 222
-format.name$ -- 76
-if$ -- 645
++ -- 57
+- -- 52
+* -- 208
+:= -- 409
+add.period$ -- 20
+call.type$ -- 5
+change.case$ -- 31
+chr.to.int$ -- 5
+cite$ -- 15
+duplicate$ -- 119
+empty$ -- 191
+format.name$ -- 57
+if$ -- 535
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 7
-newline$ -- 42
-num.names$ -- 26
-pop$ -- 94
+missing$ -- 6
+newline$ -- 37
+num.names$ -- 22
+pop$ -- 74
 preamble$ -- 1
-purify$ -- 35
+purify$ -- 27
 quote$ -- 0
-skip$ -- 112
+skip$ -- 94
 stack$ -- 0
-substring$ -- 63
+substring$ -- 61
 swap$ -- 20
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 61
-warning$ -- 6
-while$ -- 25
+type$ -- 50
+warning$ -- 5
+while$ -- 22
 width$ -- 0
-write$ -- 86
-(There were 8 warnings)
+write$ -- 75
+(There were 5 warnings)
