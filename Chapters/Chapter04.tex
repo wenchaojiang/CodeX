@@ -245,7 +245,11 @@ Task planning in teams can be complicated by both spatial and temporal constrain
 
 However, these algorithms typically model humans as computational agents with respective capabilities, for example to dynamically allocate teams of agents to tasks in order to maximise an objective (e.g., number of lives saved), taking into account other aspects of the real world (environment, infrastructures, victims, etc.) [14]. Therefore, the quality of the planning results can be constrained by limited assumptions of human behaviour (e.g., human psychosocial characteristics, movement, and learning ability)and real world environment [18]. These limitations highlight importance of human input in the planning process. Thus, we argue that effective collaboration between human and agent is required to produce and execute high quality plans in the disaster setting. (see section x.x.x). \\
 
-In other to support effective Human agent collaboration, a number of interaction design strategies have been identified, including design patterns such as HuOL and HuIL (see section x). In this study, the planning agent is integrated into the AtomicOrchid system with a straightforward HuOL design pattern. This interaction design pattern assumes minimal Headquarter intervention and simple feedbacks from field responders are required by the agent to perform task planning (For details, see). This study uses the agent integrated version of AtomicOrchid as a probe to unfold socio-technical issues in human-agent interaction, with focus on the implications of the HuOL design for human team performance. The implications for the interaction design are discussed that may improve team performance. More specifically, this chapter addresses the following research questions on how agent guidance affects the social organisation of team performance:\\
+In other to support effective Human agent collaboration, a number of interaction design strategies have been identified, including design patterns such as HuOL and HuIL (see section x). In this study, the planning agent is integrated into the AtomicOrchid system with a straightforward HuOL design pattern. This interaction design pattern assumes minimal Headquarter intervention and simple feedbacks from field responders are required by the agent to perform task planning. The interaction design is aimed to facilitate the division of labour between humans and agent: a planning agent routinely assigns tasks to distributed responder teams, while human coordinators (the HQ) monitor and support the task execution by responding to arising contingencies. The agent is designed in a way to take into account simple human feedback, i.e., a field responder can either reject or accept their task assignment. The agent will consider the feedback for the next iteration of task assignment.\\
+
+%insert figure
+
+This study uses the agent integrated version of AtomicOrchid as a probe to unfold socio-technical issues in human-agent interaction, with focus on the implications of the HuOL design for human team performance. The implications for the interaction design are discussed that may improve team performance. More specifically, this chapter addresses the following research questions on how agent guidance affects the social organisation of team performance:\\
 
 How do human teams respond to being instructed by an agent, particularly on switching teams and tasks?\\
 The planning agent makes decisions based on limited assumptions about human behaviour, but what are the hidden costs of human behaviour that the agent does not take into account?\\
@@ -267,11 +271,6 @@ Findings from the study highlight the social processes in which members interpre
 %The planning agent makes decisions based on limited assumptions about human behaviour, but what are the hidden costs of human behaviour that %the agent does not take into account?\\
 
 %Findings from the study highlight the social processes in which members interpret, negotiate, and manage the agent guidance within the social dynamics of teams. We discuss the division of labour between humans and teams; the hidden costs of instructions that suggest team reformation and interrupt on-going tasks. We conclude the paper with a number of emerging interaction design recommendations to consider when building agent-based support systems for human teams, which emphasise the need for common ground between humans and the agent, facilitate accountability between team members, and balance responsibilities between humans and the planning agent appropriately. 
-
-\section{Interaction design: Human On the Loop}
-
-% repeat a bit on HuOL
-Go through the HuOL as interaction design principle and the detailed design applied in this study.
 
 \section{System Evolution}
 Compared to study 1, the system has evolved to provide agent planning support through HuOL interaction pattern. This section will go through the changes of system, which includes integration of a planning agent, implementation of a quick feedback system, and improvement in both HQ and mobile interface.
@@ -403,18 +402,30 @@ while the rules of social conduct ensured accountability of action among co-loca
 \section{Conclusion}
 
 %************************************************
-\chapter{AtomicOrchid Study 3: Agent-supported HuIL design}\label{ch:mathtest} % $\mathbb{ZNR}$
+\chapter{AtomicOrchid Study 3: Agent-supported HuIL design}\label{ch:mathtest} 
 %************************************************
-One big change of the planner (compared to iteration 2) is the partial planning functionality. The agent can takes a list of fixed assignment as input. It then allows optimize the players and targets that are not involved in the fixed assignment list. The functionality has two potential usage: 1) allows human operators to contribute part of a plan and ask the agent optimize the rest 2) allows human operators to annotate some on-going tasks (as fixed assignment), that should not be changed in dynamic re-planning. \\
+This chapter presents the third iteration of AtomicOrchid field trials. Based on the section prototype of AtomicOrchid (see chapter x), the system have gone through another development iteration to facilitate a HuIL interaction pattern. The HuIL pattern assume that constant interaction between human HQ and the  agent is required for planning. The purpose of the trials is to investigate socio-technical issues relating to agent planning support with the HuIL interaction design. Interaction analysis is conducted to examine log data and field observations unfolding how human agent interaction plays out with a HuIL design. The results of the analysis reveals the process by which HQ, field players and the agents collectively generate and executes plans, as well as  both social and technical issues emerged from this process.  \\
+
 
 \section{Introduction}
+The most disaster operations requires responder teams to plan and carry out task under spatial and time constraints. which means the teams often have limited resource and personnel to deal with large amount of geopolitically distributed tasks in limited amount of time. How do they optimise the use their rescue resources become computationally complicated problem. Multi-agent system researchers have developed multi-agent task allocation algorithms. As software components, they have all done very well in the computational simulation, therefore there is potential to apply those algorithms to support planning activity of human responder teams. \\
 
+However, there is concern that the algorithms hold over-simplified model of the environment and human behaviours. Therefore, effective interactions with the responder teams are required to ensure the planning agent actual support (rather than hinder) the planning process of responder teams, which highlight the importance of appropriate interaction design. In the previous study, a HuOL design pattern has been explored. The results of the previous study highlight the need for human HQ to play a strong role in the planning. The result is consistent with the assumption of a HuIL design pattern in that the pattern assumes frequent HQ supervision and intervention is required to ensure the agent works properly. In this study, the AtomicOrchid system has evolved to facilitate a HuIL interaction pattern.\\
 
-\section{Research Questions}
+Partly inspired by the previous study [], this HuIL design enables HQ human to strongly involve in the planning process by: 
+	1) allowing HQ to review and approve every instructions generated by.
+	2) allowing HQ to reject and override instructions generated by agent.
+	3) allowing HQ to cancel the plan in execution. 
 
+Compared to the HuOL design in the previous study, the major change is the rebalance of responsibilities in the control room (between HQ and agent). The interaction between field responder and the control room is mostly unaffected. Therefore, this study has strong focus on control room interaction compared to the study 2. More specifically, this chapter addresses the following research questions on how a HuIL interaction design affects the team workflow:\\
 
+- How do human teams respond to being instructed by an agent, particularly on switching teams and tasks?\\
+- The planning agent makes decisions based on limited assumptions about human behaviour, but what are the hidden costs of human behaviour that - the agent does not take into account?\\
+
+(Present the findings)
 
 \section{System Evolution}
+One big change of the planner (compared to iteration 2) is the partial planning functionality. The agent can takes a list of fixed assignment as input. It then allows optimize the players and targets that are not involved in the fixed assignment list. The functionality has two potential usage: 1) allows human operators to contribute part of a plan and ask the agent optimize the rest 2) allows human operators to annotate some on-going tasks (as fixed assignment), that should not be changed in dynamic re-planning. \\
 
 
 The Requirements (or Design rationale)
