@@ -61,60 +61,62 @@
 \contentsline {section}{\numberline {5.6}Conclusion}{59}{section.5.6}
 \contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {AtomicOrchid Study 2: Agent supported HuOL design}}{61}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{61}{section.6.1}
-\contentsline {section}{\numberline {6.2}Research Questions}{61}{section.6.2}
-\contentsline {section}{\numberline {6.3}Interaction design: Human On the Loop}{63}{section.6.3}
-\contentsline {section}{\numberline {6.4}System Evolution}{64}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}The planning agent}{64}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}A feedback loop}{65}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Interface improvement}{66}{subsection.6.4.3}
-\contentsline {section}{\numberline {6.5}Study Design}{66}{section.6.5}
-\contentsline {section}{\numberline {6.6}Data analysis and results}{69}{section.6.6}
-\contentsline {subsection}{\numberline {6.6.1}Task assignment}{69}{subsection.6.6.1}
-\contentsline {subsection}{\numberline {6.6.2}Team reformation}{70}{subsection.6.6.2}
-\contentsline {subsection}{\numberline {6.6.3}Task interruption}{72}{subsection.6.6.3}
-\contentsline {subsection}{\numberline {6.6.4}Disagreement on task interruption}{73}{subsection.6.6.4}
-\contentsline {subsection}{\numberline {6.6.5}The headquarters}{74}{subsection.6.6.5}
-\contentsline {section}{\numberline {6.7}Discussion}{75}{section.6.7}
-\contentsline {subsection}{\numberline {6.7.1}Division of labour between the agent and the human teams}{75}{subsection.6.7.1}
-\contentsline {subsection}{\numberline {6.7.2}Hidden costs of team reformation and task interruption}{76}{subsection.6.7.2}
-\contentsline {subsection}{\numberline {6.7.3}Feedback to the agent}{78}{subsection.6.7.3}
-\contentsline {section}{\numberline {6.8}Design implications}{79}{section.6.8}
-\contentsline {subsection}{\numberline {6.8.1}Achieve common ground}{79}{subsection.6.8.1}
-\contentsline {subsection}{\numberline {6.8.2}Facilitate accountability}{80}{subsection.6.8.2}
-\contentsline {subsection}{\numberline {6.8.3}Balance responsibilities between humans and agent}{80}{subsection.6.8.3}
-\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {AtomicOrchid Study 3: Agent-supported HuIL design}}{83}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{83}{section.7.1}
-\contentsline {section}{\numberline {7.2}Research Questions}{83}{section.7.2}
-\contentsline {section}{\numberline {7.3}System Evolution}{83}{section.7.3}
-\contentsline {subsection}{\numberline {7.3.1}Interface functionalities}{84}{subsection.7.3.1}
-\contentsline {subsection}{\numberline {7.3.2}Workshop with Rescue Global}{86}{subsection.7.3.2}
+\contentsline {section}{\numberline {6.2}System Evolution}{63}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}The planning agent}{64}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}A feedback loop}{65}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Interface improvement}{66}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Study Design}{66}{section.6.3}
+\contentsline {section}{\numberline {6.4}Data analysis and results}{68}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Task assignment}{69}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Team reformation}{70}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Task interruption}{71}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.4}Disagreement on task interruption}{72}{subsection.6.4.4}
+\contentsline {subsection}{\numberline {6.4.5}The headquarters}{74}{subsection.6.4.5}
+\contentsline {section}{\numberline {6.5}Discussion}{75}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Division of labour between the agent and the human teams}{75}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Hidden costs of team reformation and task interruption}{76}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.3}Feedback to the agent}{78}{subsection.6.5.3}
+\contentsline {section}{\numberline {6.6}Design implications}{79}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Achieve common ground}{79}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Facilitate accountability}{79}{subsection.6.6.2}
+\contentsline {subsection}{\numberline {6.6.3}Balance responsibilities between humans and agent}{80}{subsection.6.6.3}
+\contentsline {section}{\numberline {6.7}Conclusion}{80}{section.6.7}
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {AtomicOrchid Study 3: Agent-supported HuIL design}}{81}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{81}{section.7.1}
+\contentsline {section}{\numberline {7.2}System Evolution}{83}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Interface functionalities}{84}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}The planning agent}{87}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Workshop with Rescue Global}{87}{section.7.3}
 \contentsline {section}{\numberline {7.4}Study Design}{87}{section.7.4}
-\contentsline {section}{\numberline {7.5}Data Analysis}{87}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}Messaging system}{87}{subsection.7.5.1}
-\contentsline {subsection}{\numberline {7.5.2}Overview of task assignments}{88}{subsection.7.5.2}
-\contentsline {subsection}{\numberline {7.5.3}Approve the plans generated by planner}{89}{subsection.7.5.3}
-\contentsline {subsection}{\numberline {7.5.4}Editing assignments generated by planner}{90}{subsection.7.5.4}
-\contentsline {subsection}{\numberline {7.5.5}Cancelling approved assignments}{91}{subsection.7.5.5}
-\contentsline {subsection}{\numberline {7.5.6}HQ avoiding task interruption}{92}{subsection.7.5.6}
-\contentsline {subsection}{\numberline {7.5.7}Consequence of task interruption}{92}{subsection.7.5.7}
-\contentsline {subsection}{\numberline {7.5.8}The importance of player feedbacks}{94}{subsection.7.5.8}
-\contentsline {subsection}{\numberline {7.5.9}The incident of player death}{94}{subsection.7.5.9}
-\contentsline {subsection}{\numberline {7.5.10}Division of labour in HQ}{96}{subsection.7.5.10}
-\contentsline {section}{\numberline {7.6}Discussion}{97}{section.7.6}
-\contentsline {subsection}{\numberline {7.6.1}How does HuIL design play out?}{97}{subsection.7.6.1}
-\contentsline {subsection}{\numberline {7.6.2} Division of labor }{98}{subsection.7.6.2}
-\contentsline {subsection}{\numberline {7.6.3}Dealing with the imperfection if agent planner}{100}{subsection.7.6.3}
-\contentsline {subsection}{\numberline {7.6.4}Forward Planning}{102}{subsection.7.6.4}
-\contentsline {subsection}{\numberline {7.6.5} Lack of explanation from agent }{103}{subsection.7.6.5}
-\contentsline {subsection}{\numberline {7.6.6}Coordination with Field Players}{104}{subsection.7.6.6}
-\contentsline {part}{iv\hspace {1em}\spacedlowsmallcaps {Conclusion}}{109}{part.4}
-\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Conclusion}}{111}{chapter.8}
-\contentsline {section}{\numberline {8.1}Summary of findings}{111}{section.8.1}
-\contentsline {section}{\numberline {8.2}Limitation}{111}{section.8.2}
-\contentsline {section}{\numberline {8.3}future work}{111}{section.8.3}
-\contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Appendix}}{113}{part.5}
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{115}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix Section Test}{115}{section.A.1}
-\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{116}{section.A.2}
+\contentsline {section}{\numberline {7.5}Data Analysis}{90}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}Messaging system}{90}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.2}Overview of task assignments}{91}{subsection.7.5.2}
+\contentsline {subsection}{\numberline {7.5.3}Approve the plans generated by planner}{92}{subsection.7.5.3}
+\contentsline {subsection}{\numberline {7.5.4}Editing assignments generated by planner}{93}{subsection.7.5.4}
+\contentsline {subsection}{\numberline {7.5.5}Cancelling approved assignments}{94}{subsection.7.5.5}
+\contentsline {subsection}{\numberline {7.5.6}HQ avoiding task interruption}{95}{subsection.7.5.6}
+\contentsline {subsection}{\numberline {7.5.7}Consequence of task interruption}{96}{subsection.7.5.7}
+\contentsline {subsection}{\numberline {7.5.8}The importance of player feedbacks}{97}{subsection.7.5.8}
+\contentsline {subsection}{\numberline {7.5.9}The incident of player death}{98}{subsection.7.5.9}
+\contentsline {subsection}{\numberline {7.5.10}Division of labour in HQ}{99}{subsection.7.5.10}
+\contentsline {section}{\numberline {7.6}Discussion}{100}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}How does HuIL design play out?}{100}{subsection.7.6.1}
+\contentsline {subsection}{\numberline {7.6.2} Division of labor }{101}{subsection.7.6.2}
+\contentsline {subsection}{\numberline {7.6.3}Dealing with the imperfection if agent planner}{104}{subsection.7.6.3}
+\contentsline {subsection}{\numberline {7.6.4}Forward Planning}{105}{subsection.7.6.4}
+\contentsline {subsection}{\numberline {7.6.5} Lack of explanation from agent }{106}{subsection.7.6.5}
+\contentsline {subsection}{\numberline {7.6.6}Coordination with Field Players}{107}{subsection.7.6.6}
+\contentsline {part}{iv\hspace {1em}\spacedlowsmallcaps {Conclusion}}{111}{part.4}
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Conclusion}}{113}{chapter.8}
+\contentsline {section}{\numberline {8.1}Summary of findings}{113}{section.8.1}
+\contentsline {subsection}{\numberline {8.1.1}HuOL vs HuIL}{113}{subsection.8.1.1}
+\contentsline {subsection}{\numberline {8.1.2}The role of HQ}{113}{subsection.8.1.2}
+\contentsline {subsection}{\numberline {8.1.3}Common Ground}{114}{subsection.8.1.3}
+\contentsline {section}{\numberline {8.2}Limitation}{114}{section.8.2}
+\contentsline {section}{\numberline {8.3}future work}{114}{section.8.3}
+\contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Appendix}}{115}{part.5}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{117}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix Section Test}{117}{section.A.1}
+\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{118}{section.A.2}
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{117}{dummy.7}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{119}{dummy.7}

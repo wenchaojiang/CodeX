@@ -44,15 +44,15 @@ HQ is manned by at least two coordinators who have at their disposal a browser- 
 
 To explore socio-technical issues around team coordination, we ran two Radiation Response Game sessions, with volunteers recruited from the local university. We describe participants, procedure, session configuration, and methods used to collect and analyse quantitative and qualitative data.\\
 
-Participants. Study participants were recruited through posters and emails. A to- tal of 18 participants were recruited (8 female); 7 participated in session A and 11 in session B. All participants were reimbursed with 15 pounds for 1.5 hours of study. The majority of participants were students of the local university. Procedure. Upon arrival in the HQ (set up in a meeting room at the local universi- ty), participants were briefed and asked to consent to participate. Roles were ran- domly assigned to all participants (HQ/field responders: firefighter, medic, trans- porter, soldier). Field responders were provided with a smartphone; HQ coordinators with a laptop. Game rules and interfaces were introduced, and partic- ipants were assisted in setting up their phones and laptop clients. Field responders and HQ coordinators were given 5 minutes to discuss a common game strategy. All field responders were accompanied to the starting point within the designated game area, about 1 minute walk from headquarters.\\
+Study participants were recruited through posters and emails. A total of 18 participants were recruited (8 female); 7 participated in session A and 11 in session B. All participants were reimbursed with 15 pounds for 1.5 hours of study. The majority of participants were students of the local university. Procedure. Upon arrival in the HQ (set up in a meeting room at the local universi- ty), participants were briefed and asked to consent to participate. Roles were ran- domly assigned to all participants (HQ/field responders: firefighter, medic, trans- porter, soldier). Field responders were provided with a smartphone; HQ coordinators with a laptop. Game rules and interfaces were introduced, and partic- ipants were assisted in setting up their phones and laptop clients. Field responders and HQ coordinators were given 5 minutes to discuss a common game strategy. All field responders were accompanied to the starting point within the designated game area, about 1 minute walk from headquarters.\\
 
 Once field responders were ready to start, HQ sent a ``game start'' message. Gameplay commenced for 30 minutes. A ``Game over'' message by HQ concluded the game. Field responders returned to HQ for the post-game session.\\
 
 The post-game session consisted of a questionnaire aimed at collecting participants` feedback on (1) first impressions of the game; (2) usability of the system,and; (3) coordination issues in the game. A group interview was then conducted, before participants were debriefed and dismissed.\\
 
-Game configuration. The size of the game area on the local university campus was 400 by 400 meters, without heavy traffic. The terrain of the game area includes grassland, a lake, buildings, roads, and footpaths and lawns. There are two drop off zones and 16 targets. The pilot study showed that this was a challenging, yet not too overwhelming number of targets to collect in a 30 min game session. There were four targets for each of the four target types. The pattern of cloud movement and expansion was the same for both game sessions.\\
+The size of the game area on the local university campus was 400 by 400 meters, without heavy traffic. The terrain of the game area includes grassland, a lake, buildings, roads, and footpaths and lawns. There are two drop off zones and 16 targets. The pilot study showed that this was a challenging, yet not too overwhelming number of targets to collect in a 30 min game session. There were four targets for each of the four target types. The pattern of cloud movement and expansion was the same for both game sessions.\\
 
-Methods. We took a mixed methods approach to data collection and analysis. In addition to quantitative questionnaires, a semi-structured group interview was conducted aimed at eliciting important decision points, strategies and the overall decision-making process. Furthermore, five researchers with camcorders recorded the game play. One researcher recorded action in the HQ, and four other researchers each recorded a field responder team.\\
+We took a mixed methods approach to data collection and analysis. In addition to quantitative questionnaires, a semi-structured group interview was conducted aimed at eliciting important decision points, strategies and the overall decision-making process. Furthermore, five researchers with camcorders recorded the game play. One researcher recorded action in the HQ, and four other researchers each recorded a field responder team.\\
 
 We developed a log file replay tool to help with data analysis of time stamped system logs that contain a complete record of the game play, including responders` GPS location, their health status and radioactive exposure, messages, cloud location, locations of target objects and task status.\\
 
@@ -280,9 +280,13 @@ The major change of the system is the integration of a planning agent into the A
 
 The agent is wrapped in a Java server framework and deployed on an independent server separate from AtomicOrchid. The agent server exposes a HTTP interface for AtomicOrchid to request plan. Each plan request issued by AtomicOrchid is appended with  updated game status, which includes players' health, distribution of radioactive cloud and locations of players, and targets. Based on the updated game status, the agent will produce an optimised task allocation and return it to AtomicOrchid. The plan requests are triggered frequently in game sessions so that the task allocation can be frequently adjusted according to task execution status. Plan requests (and thus re-planning) is triggered by two kinds of game events:\\
 
-1) Completion of task. On successful rescue of a target, a new plan (i.e., allocation of tasks to each responder) is requested from the agent.\\
 
-2) Explicit reject. On rejection of a task allocation by any of the first responders, a new plan is requested.  The feature of rejection is part of a feedback loop between human and agent, will be introduced in next section.\\
+\begin{enumerate}
+\item Completion of task. On successful rescue of a target, a new plan (i.e., allocation of tasks to each responder) is requested from the agent.\\
+
+\item Explicit reject. On rejection of a task allocation by any of the first responders, a new plan is requested.  The feature of rejection is part of a feedback loop between human and agent, will be introduced in next section.\\
+
+\end{enumerate}
 
 
 \subsection{A feedback loop}
@@ -413,81 +417,124 @@ The most disaster operations requires responder teams to plan and carry out task
 However, there is concern that the algorithms hold over-simplified model of the environment and human behaviours. Therefore, effective interactions with the responder teams are required to ensure the planning agent actual support (rather than hinder) the planning process of responder teams, which highlight the importance of appropriate interaction design. In the previous study, a HuOL design pattern has been explored. The results of the previous study highlight the need for human HQ to play a strong role in the planning. The result is consistent with the assumption of a HuIL design pattern in that the pattern assumes frequent HQ supervision and intervention is required to ensure the agent works properly. In this study, the AtomicOrchid system has evolved to facilitate a HuIL interaction pattern.\\
 
 Partly inspired by the previous study [], this HuIL design enables HQ human to strongly involve in the planning process by: 
-	1) allowing HQ to review and approve every instructions generated by.
-	2) allowing HQ to reject and override instructions generated by agent.
-	3) allowing HQ to cancel the plan in execution. 
 
-Compared to the HuOL design in the previous study, the major change is the rebalance of responsibilities in the control room (between HQ and agent). The interaction between field responder and the control room is mostly unaffected. Therefore, this study has strong focus on control room interaction compared to the study 2. More specifically, this chapter addresses the following research questions on how a HuIL interaction design affects the team workflow:\\
 
-- How do human teams respond to being instructed by an agent, particularly on switching teams and tasks?\\
-- The planning agent makes decisions based on limited assumptions about human behaviour, but what are the hidden costs of human behaviour that - the agent does not take into account?\\
+\begin{enumerate}
+	\item allowing HQ to review and approve every instructions generated by agent.
+	\item allowing HQ to reject and override instructions generated by agent.
+	\item allowing HQ to cancel the plan in execution. 
+\end{enumerate}
+
+Compared to the HuOL design in the previous study, the major change is the rebalance of responsibilities in the control room (between HQ and agent). The interaction between field responder and the control room is mostly unchanged. Therefore, this study has strong focus on control room interaction compared to the study 2. More specifically, this chapter addresses the following research questions on how a HuIL interaction design affects the team workflow: [preliminary]\\
+
+\begin{enumerate}
+ \item How does the division of labour between human and agent play out in the HuIL setting, particularly in the control room?\\
+ \item What are the design implications that help the HQ involve in the planning loop. 
+\end{enumerate}
 
 (Present the findings)
 
 \section{System Evolution}
-One big change of the planner (compared to iteration 2) is the partial planning functionality. The agent can takes a list of fixed assignment as input. It then allows optimize the players and targets that are not involved in the fixed assignment list. The functionality has two potential usage: 1) allows human operators to contribute part of a plan and ask the agent optimize the rest 2) allows human operators to annotate some on-going tasks (as fixed assignment), that should not be changed in dynamic re-planning. \\
+The HuIL version of AtomicOrchid is not designed from scratch, but evolved from the HuOL version introduced in previous study. The study 2 has observed HQ struggling to get involved in the planning loop, which lead to the argument of rebalancing responsibility of HQ and the agent in the control room(see section x.x.x). The argument highlights the need for HQ's a stronger role  in the planning loop, which is consistent with the principle of HuIL design. Based on the observations from study 2, we further generate several system requirements which support the HuIL control. \\
 
 
-The Requirements (or Design rationale)
-A list of requirements 
-1. Generated from the previous studies
-2. Guided by HuIL principles 
+\begin{enumerate}
+\item HQ should be able to review and approve every instructions generated by agent.[HQ take to responsibility for final decision, can be kept aware of all the allocations sent]
+\item HQ should be able to override instructions generated by agent and create new instructions.[HQ can send instructions in a structured way]
+\item HQ should be able to cancel the plan in execution. [In study 2, HQ is unable to override the existing plan]
+\item HQ should be able to send task specific information. [Divided communication channel to deliver info accurately]
+\item HQ should be able to be aware of the feedback (accept/reject) from the field players. [Maintain situational awareness of HQ]
+\item HQ should be able to decide when the agent should re-plan. 
+\item HQ should be able for part of the team, leaving the agent to plan for the team left. 
+\end{enumerate}
 
-The requirement should follows sth should do sth\\
+While requirements 1-6 are all inspired by implications from study 2, the requirement 7 enable to HQ and the agent to collectively generate plan even when HQ decide to intervene. The set of interface functionalities have been implemented to support above requirements, which will be introduced in next section. 
 
-This study is aimed to probe another interaction design guided by the concept of Human In the Loop (HuIL). [Define the HuIL in the approach chapter]. The key principle of HuIL is to let HQs contributions engaged in routing task planning activities, but at the same time, allow HQ to directly intervene the planning when contingency rises. \\
 
-[According to feedback from previous study] The workflow can be divided into two parts: plan generation and execution, and 4 interaction points are identified in the above workflow diagram.\\
-
-1. Plan request:  HQ can request planner to generate plan (at 1). Agent conducts task optimization based on current task status, and proposed on optimal plan to HQ for review.\\
+%1. Plan request:  HQ can request planner to generate plan (at 1). Agent conducts task optimization based on current task status, and proposed on optimal plan to HQ for review.\\
  
-2. Plan review: HQ can choose make some minor edits to agent proposed plan. Alternatively, the HQ can propose some assignments, and re-initiate step (1) to let the agent conduct partial planning for the rest of the team (explain for partial planning, see section x). \\
+%2. Plan review: HQ can choose make some minor edits to agent proposed plan. Alternatively, the HQ can propose some assignments, and re-initiate step (1) to let the agent conduct partial planning for the rest of the team (explain for partial planning, see section x). \\
 
-3. Plan approval: If HQ is satisfied with the plan, he/she can send the plan to field responders for execution. \\
+%3. Plan approval: If HQ is satisfied with the plan, he/she can send the plan to field responders for execution. \\
 
-4. Feedback and further communication: When Field responders receive plans, they can communicate with HQ to provide feedbacks and request clarifications. Based on the task execution status and feedbacks, HQ can decide to initiate to step (1) again for re-planning. \\
+%4. Feedback and further communication: When Field responders receive plans, they can communicate with HQ to provide feedbacks and request clarifications. Based on the task execution status and feedbacks, HQ can decide to initiate to step (1) again for re-planning. \\
+
 
 \subsection{Interface functionalities}
-A set of fully functional interactive web-based and mobile interfaces have been developed to facilitate the interaction design. There are two interfaces designed for the 2 HQ players in the control room. One mobile responder interface is designed for the field players. \\
+A set of fully functional interactive web-based and mobile interfaces have been developed to facilitate the HuIL design. There are two interfaces designed for the 2 HQ players in the control room. One mobile responder interface is designed for the field players. \\
 
-Task assignment interface
 The task assignment interface is operated by one of the two HQ players. As an overview, the interface has a map on the left [Fig x, ]. Player/target locations, assignments are presented on the map. At right side of the interface is a task assignment panel. The left (1) column of the panel shows pending assignments while right column (2) shows existing task status. The (x) shows an example of individual assignment. (Player a and b are assigned to target x)\\
 
-A. Plan request button: \\
-This button triggers agent re-planning. The agent will calculate an optimized plan based on task status, and present it to the HQ on the pending panel. \\
+\begin{enumerate}
+\item Plan request button: \\
+This button triggers agent re-planning. The agent will calculate an optimized plan based on task status, and present it to the HQ on the pending panel. The button allow HQ decide when to initiate a re-plan (meeting requirement 6)\\
 
-B. Plan keeping checkbox:\\
-These checkboxes are attached to every task assignments in the confirmed panel. If the checkbox is ticked, the planner will keep the corresponding assignment in next re-planning. In other words, the planner will keep the assignment fixed, performing partial planning for the rest of the team. The functionality can be seen as a way to control agent input at the plan request stage (1). This functionality also supports plan modifications in the plan review stage (2). \\
+\item Plan keeping checkbox:\\
+These checkboxes are attached to every task assignments in the confirmed panel. If the checkbox is ticked, the planner will keep the corresponding assignment in next re-planning. In other words, the planner will keep the assignment fixed, performing partial planning for the rest of the team. The partial planning functionality is implemented to meet requirement 7.
 
-C. Plan edit panel: \\
-Manual plan edits will be activated by clicking this button. The assignments in pending area will change to edit mode. Assignment can be created, modified and deleted through drag and drop interaction. \\
+\item Plan edit panel: \\
+Manual plan edits will be activated by clicking this button. The assignments in pending area will change to edit mode. Assignment can be created, modified and deleted through drag and drop interaction. The functionality is implemented to meet requirement 2\\
 
 
-D. Plan approval button: \\
-This button approves all pending assignments. All pending assignment will switch to confirmed area. Alternatively, assignments can be approved individually by clicking individual confirm button on the pending assignment when the edit mode is activated. \\
+\item Plan approval button: \\
+This button approves all pending assignments. All pending assignment will switch to confirmed area. Alternatively, assignments can be approved individually by clicking individual confirm button on the pending assignment when the edit mode is activated. The functionality is implemented to meet requirement 1\\
 
-E. Text messaging panel:\\
-The messaging panel can be toggled by clicking msg button on the confirmed assignments. The panel is supposed to be used for assignment-specific information. Therefore, the messages in this plan are only visible to the two involved players and HQ.  \\
+\item Text messaging panel:\\
+The messaging panel can be toggled by clicking msg button on the confirmed assignments. The panel is supposed to be used for assignment-specific information. Therefore, the messages in this plan are only visible to the two involved players and HQ. The functionality is implemented to meet requirement 4 \\
 
-F. The Feedback indicator:\\
-The feedback indicators are attached to the right hand side of the confirmed assignments. The field players can easily provide feedbacks of their assignment through mobile responder interface (introduced later). There are three possible values for the indicator (no response, reject, accept). \\
+\item The Feedback indicator:\\
+The feedback indicators are attached to the right hand side of the confirmed assignments. The field players can easily provide feedbacks of their assignment through mobile responder interface (introduced later). There are three possible values for the indicator (no response, reject, accept). Because rejections typically indicate issues that needs to be followed up by HQ, the rejection will be highlighted with red color to grab attention of field players.  The functionality is implemented to meet requirement 5\\
 
 When two involved players both accept the assignment, the keep checkbox will be ticked automatically. This is a mechanism to avoid interruption for the accepted assignments in the subsequent re-plans. \\
 
-G. Stop button: \\
-The stop button can be used to indicate an emergency termination of an assignment. If this button is clicked, the assignment will be dismissed both in the mobile and HQ interface. \\
+\item Stop button: \\
+The stop button can be used to indicate an emergency termination of an assignment. If this button is clicked, the assignment will be dismissed both in the mobile and HQ interface. The functionality is implemented to meet requirement 3\\
+\end{enumerate}
 
-Secondary interface. \\
+Compared to the HuOL version of AtomicOrchid, the mobile interface is mostly unchanged except for the HQ task tab (see figure x). The task tab now displays a task with text description and map visualisation on the top. The bottom half of the interface is a message box showing task-specific information from HQ. It should be note that the HQ can still send broadcast information (visible to everyone), which will be displayed in the chat tab. \\
 
-Mobile interface \\
 
-\subsection{Workshop with Rescue Global}
-This section contribute to the rationale of system evolution.\\
+\subsection{The planning agent}
+
+One big change of the planner (compared to iteration 2) is the partial planning feature. The agent can takes a list of fixed assignment as input. It then allows optimize the players and targets that are not involved in the fixed assignment list. The functionality has two potential usages: \\
+\begin{enumerate}
+	\item allows human operators to contribute part of a plan and ask the agent optimize the rest.\\
+	\item allows human operators to annotate some on-going tasks, that should not be changed in dynamic re-planning. \\
+\end{enumerate}
+
+Apart from the partial planning feature, the input/output of agent is not changed.\\
+
+%insert a summary picture.\\
+
+
+
+
+
+\section{Workshop with Rescue Global}
+The feedback from Rescue Global, Undecided where to put this section. 
 
 \section{Study Design}
+Participants were recruited through posters and emails. A total of 20 participants were recruited. 10 participated in session A and 10 in session B. All participants were reimbursed with 15 pounds for 1.5 hours of study. For each game session, there are 2 HQ players and 8 field players. The majority of participants were students of the local university. The HQ players are recruited from researchers in the computer science department. \\
+
+Because the HQ interface is a lot complicated compare to the that of the study 1 and study 2, we add an extra 0.5 hour training session before the formal study for HQ players to get familiar with the new task assignment interface. We anticipate the workload of operating the HuIL interface would be a lot more then that of operating the HuOL interface. Therefore, there are two HQ payers recruited in each session to split work in the control room. One of the two HQ player operates the new HuIL interface (described in section x.x.x) to manage task allocation, while the other player operates the old HuOL interface described in study 2 (see section x.x.x) to assist the other HQ by providing situation awareness and sending broadcasting information. \\
+
+Upon arrival in the HQ (set up in a meeting room at the local university), participants were briefed and asked to consent to participate. Roles were randomly assigned to field players (field responders: firefighter, medic, transporter, soldier). Field responders were provided with a smartphone; HQ coordinators with a laptop. Game rules and interfaces were introduced, and participants were assisted in setting up their phones and laptop clients. Field responders and HQ coordinators were given 5 minutes to discuss a common game strategy. All field responders were accompanied to the starting point within the designated game area, about 1 minute walk from headquarters.\\
+
+Before the formal session begins, there is a training session for field players to get familiar with the mobile interface. The training session has a very simple game setting with only four targets nearby the starting point. The training session ends when field responders collect all four targets nearby. Once field responders were ready to start formal session, One research start the game engine, triggering a ``game start'' message to be sent to mobile interface. Gameplay commenced for 30 minutes. A ``Game over'' message by HQ concluded the game. Field responders returned to HQ for the post-game session.\\
+
+The post-game session consisted of a questionnaire aimed at collecting participants` feedback on (1) first impressions of the game; (2) usability of the system,and; (3) coordination issues in the game. A group interview was then conducted, before participants were debriefed and dismissed.\\
+
+The size of the game area on the local university campus was 400 by 400 meters, without heavy traffic. The terrain of the game area includes grassland, a lake, buildings, roads, and footpaths and lawns. There are two drop off zones and 20 targets. The pilot study showed that this was a challenging, yet not too overwhelming number of targets to collect in a 30 min game session. There were four targets for each of the four target types. The pattern of cloud movement and expansion was the same for both game sessions.\\
+
+Methods. We took a mixed methods approach to data collection and analysis. In addition to quantitative questionnaires, a semi-structured group interview was conducted aimed at eliciting important decision points, strategies and the overall decision-making process. Furthermore, five researchers with camcorders recorded the game play. One researcher recorded action in the HQ, and four other researchers each recorded a field responder team.\\
+
+We developed a log file replay tool to help with data analysis of time stamped system logs that contain a complete record of the game play, including responders` GPS location, their health status and radioactive exposure, messages, cloud location, locations of target objects and task status.\\
+
+We focus on the analysis of players` interaction with the system to unpack interactional issues. As this study have strong focus on the interaction in the control room, the interaction analysis started with observations in the control room. Video recordings of control room field action were catalogued to identify sequences (episodes) of interest (cf. Heath et al., 2010). Key decision points in teaming and task allocation served to index the episodes. Interesting distinct units of interaction were transcribed and triangulated with log files and field actions for deeper analysis that we present in this paper.\\
+
 
 \section{Data Analysis}
-Overall the 28 of 40 targets were evacuated in two sessions (16 in Session A and 12 in Session B). The playerQs health status in session 1 is better  (Avg 90, Sd 9.3 ) then that in session 2 (Avg 48, Sd 41). Two deaths occurred at the begging of session 2, more details of death will be presented as episodes later in this section. \\
+Overall the 28 of 40 targets were evacuated in two sessions (16 in Session A and 12 in Session B). The player`s health status in session 1 is better  (Avg 90, Sd 9.3 ) then that in session 2 (Avg 48, Sd 41). Two deaths occurred at the begging of session 2, more details of death will be presented as episodes later in this section. \\
 
 
 \subsection{Messaging system}
