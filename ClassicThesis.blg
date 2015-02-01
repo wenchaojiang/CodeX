@@ -20,50 +20,54 @@ The style file: plainnat.bst
 A level-1 auxiliary file: FrontBackmatter/Colophon.aux
 A level-1 auxiliary file: FrontBackmatter/Declaration.aux
 Database file #1: Bibliography.bib
+Repeated entry---line 503 of file Bibliography.bib
+ : @misc{Mendonca2007
+ :                   ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in Fitts
 Warning--empty journal in Hoffman2002
 Warning--empty journal in Nwana1996
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 5 entries,
+You've used 6 entries,
             2773 wiz_defined-function locations,
-            646 strings with 6507 characters,
-and the built_in function-call counts, 2596 in all, are:
-= -- 219
-> -- 166
-< -- 7
-+ -- 57
-- -- 52
-* -- 208
-:= -- 409
-add.period$ -- 20
-call.type$ -- 5
-change.case$ -- 31
-chr.to.int$ -- 5
-cite$ -- 15
-duplicate$ -- 119
-empty$ -- 191
-format.name$ -- 57
-if$ -- 535
+            656 strings with 6802 characters,
+and the built_in function-call counts, 3028 in all, are:
+= -- 266
+> -- 176
+< -- 8
++ -- 61
+- -- 55
+* -- 242
+:= -- 477
+add.period$ -- 26
+call.type$ -- 6
+change.case$ -- 35
+chr.to.int$ -- 6
+cite$ -- 17
+duplicate$ -- 139
+empty$ -- 231
+format.name$ -- 61
+if$ -- 626
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 6
-newline$ -- 37
-num.names$ -- 22
-pop$ -- 74
+missing$ -- 7
+newline$ -- 45
+num.names$ -- 26
+pop$ -- 78
 preamble$ -- 1
-purify$ -- 27
+purify$ -- 30
 quote$ -- 0
-skip$ -- 94
+skip$ -- 107
 stack$ -- 0
-substring$ -- 61
-swap$ -- 20
+substring$ -- 88
+swap$ -- 21
 text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 50
+type$ -- 61
 warning$ -- 5
-while$ -- 22
+while$ -- 27
 width$ -- 0
-write$ -- 75
-(There were 5 warnings)
+write$ -- 94
+(There was 1 error message)

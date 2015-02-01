@@ -1,4 +1,4 @@
-\begin{thebibliography}{5}
+\begin{thebibliography}{6}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -27,6 +27,17 @@ Robert~R Hoffman, Paul~J Feltovich, Kenneth~M Ford, West Florida, David~D
 \newblock {Human-Centered Computing A Rose by Any Other Name \ldots Would
   Probably Be Given an Acronym}.
 \newblock 2002.
+
+\bibitem[Mendonca(2007)]{Mendonca2007}
+D~Mendonca.
+\newblock {Decision support for improvisation in response to extreme events:
+  Learning from the response to the 2001 World Trade Center attack}.
+\newblock \emph{Decision Support Systems}, 43\penalty0 (3):\penalty0 952--967,
+  2007.
+\newblock ISSN 01679236.
+\newblock \doi{10.1016/j.dss.2005.05.025}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0167923605000904}.
 
 \bibitem[Nwana(1996)]{Nwana1996}
 Hyacinth~S Nwana.

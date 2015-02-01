@@ -5,36 +5,46 @@ This chapter presents the first iteration of AtomicOrchid field trials. In this 
 
 
 \section{Introduction}
-Disaster response (DR) has been characterised as highly coordinated, time-critical collaborative activities (e.g., Mendondça et al., 2007). Coordination is essential in such settings so that time critical interdependent activities such as search and rescue can be completed in a timely and satisfactory manner (Bradshaw, 2011). Opportunity space for building `intelligent' coordination support for  such activities has been recognised by the researchers of HACs systems (see section x.x.x). However, little study has explored the  design space for HAC systems to support time-critical coordination settings. Therefore, little is known about the challenges and requirements in building systems to support team coordination in such settings.\\
+Disaster response (DR) has been characterised as highly coordinated, time-critical collaborative activities  \cite{Mendonca2007}. Coordination is essential in such settings so that time critical interdependent activities such as search and rescue can be completed in a timely and satisfactory manner \cite{Bradshaw2011}. Opportunity space for building `intelligent' coordination support for  such activities has been recognised by the researchers of HACs systems (see chapter \ref{ch:introduction}). However, little study has explored the  design space for HAC systems to support time-critical coordination settings. Therefore, little is known about the challenges and requirements in building systems to support team coordination in such settings.\\
 
-Due to the critical nature of the disaster operations, it would be hard to design and deploy `intelligent' coordination in the field before we thoroughly explored the requirements of interaction design. On the other hand, computational simulation of an `intelligent' system is fundamentally insufficient for studying interactional issues (see section x.x.x) . Therefore, in this study, we are aimed to use AtomicOrchid game as a game probe to uncover the requirements for building `intelligent' coordination support system. \\
+Due to the critical nature of the disaster operations, it would be hard to design and deploy `intelligent' coordination in the field before we thoroughly explored the requirements of interaction design. On the other hand, computational simulation of an `intelligent' system is fundamentally insufficient for studying interactional issues (see section \ref{sec:interactional}). Therefore, in this study, we are aimed to use AtomicOrchid game as a game probe to uncover the requirements for building `intelligent' coordination support system. \\
 
-The AtomicOrchid game creates socio-technical setting in which player teams plan and executes spatially distributed tasks (see section x.x.x). Although HACs researchers has envisioned that an intelligent agent can team coordination by providing computational optimised task allocations in real-time, we focus on a base version of AtomicOrchid which does not involve any agent support in study. The aim is to conduct a field trial to baseline performance human coordination in the game and base requirements for supporting such coordination, which in turn, supports our later system prototyping and studies. \\
+The AtomicOrchid game creates socio-technical setting in which player teams plan and executes spatially distributed tasks (see section \ref{sec:sociotech}). Although HACs researchers has envisioned that an intelligent agent can team coordination by providing computational optimised task allocations in real-time, we focus on a base version of AtomicOrchid which does not involve any agent support in study. The aim is to conduct a field trial to baseline performance human coordination in the game and base requirements for supporting such coordination, which in turn, supports our later system prototyping and studies. \\
 
-This study is the first of three iterative system trials in this PhD work. The non-agent trial supports the two later (chapter x, y) agent-supported system trials by 1) Revealing baseline performance of human coordination 2) Generate design requirements which can be feedback to subsequent prototyping of AtomicOrchid. The requirements are critical in that 1) the later trials and studies can use them to isolate non-agent related design factors and 2) It also can inspire the interaction design between agent and responders in later system prototyping.  \\
+This study is the first of three iterative system trials in this PhD work. The non-agent trial supports the two later (chapter \ref{ch:studytwo}, \ref{ch:studythree}) agent-supported system trials by 1) Revealing baseline performance of human coordination 2) Generate design requirements which can be feedback to subsequent prototyping of AtomicOrchid. The requirements are critical in that 1) the later trials and studies can use them to isolate non-agent related design factors and 2) It also can inspire the interaction design between agent and responders in later system prototyping.  \\
 
 In the following section, we will go through AtomicOrchid system description with a focus on interface and interaction design.\\
 
 \section{System Description}
 % ===== how do I split this with Approach chapter
-In chapter x, basic game mechanic and system architecture has been introduced in the chapter x. This section will give a detailed description of the system interface that support coordination between the field responders and headquarters players. \\
+Basic game mechanic and system architecture has been introduced in the \ref{ch:approach}. This section will give a detailed description of the system interface that support coordination between the field responders and headquarters players. \\
 
 % the HQ interface 
 The HQ is manned by at this two coordinators. All of the coordinators are provided with a web-based coordination interface. The interface gives them an overview of the game status and enable them to communicate with the field responders. \\
 
-% insert image here. 
+% insert image here.
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{img/study1/webinterface}
+  \caption{The HQ interface}
+  \label{fig:HQinterface}
+\end{figure}
 
-As you can see in the figure x, the majority space of the interface is occupied by a map-based presentation of the game status. Roles and locations of field responders are represented on the map as icons. The field responders can be uniquely identified by their initials shown on the icons. The target types and locations are also shown as icons on the map. Location and intensity of radioactive is indicated by a heatmap. Heath status (health value ranges from 0 to 100) of the field responders is displayed on the right-top panel. A chatbox is placed on right bottom for HQ to browse and send messages. The messaging system is very simple and straightforward. Everyone can send messages to one public channel, and the messages are visible to every play through the mobile and HQ interface.\\
+As you can see in the figure \ref{fig:HQinterface}, the majority space of the interface is occupied by a map-based presentation of the game status. Roles and locations of field responders are represented on the map as icons. The field responders can be uniquely identified by their initials shown on the icons. The target types and locations are also shown as icons on the map. Location and intensity of radioactive is indicated by a heatmap. Heath status (health value ranges from 0 to 100) of the field responders is displayed on the right-top panel. A chatbox is placed on right bottom for HQ to browse and send messages. The messaging system is very simple and straightforward. Everyone can send messages to one public channel, and the messages are visible to every play through the mobile and HQ interface.\\
 
-Field responders are equipped with a mobile responder app providing them with sensing and awareness capabilities (see figure 2). There are two tabs in the responder apps. The "map" tab (figure x) displays a map showing locations of field responders and targets, which is similar to the map on HQ interface, except that the radioactive is not showed. The radio level of players' current location is displayed as a Geiger counter reading (shown as a number on the top left of the screen ), which ranges from 0 to 100. Health status of the field responder is indicated by a health bar on the right side of the Geiger counter. The chatbox (similar to the one on HQ interface) is placed on the "Messages" tab for field player to receive and send messages.
+Field responders are equipped with a mobile responder app providing them with sensing and awareness capabilities (figure \ref{fig:mobileResponderApp}). There are two tabs in the responder apps. The "map" tab displays a map showing locations of field responders and targets, which is similar to the map on HQ interface, except that the radioactive is not showed. The radio level of players' current location is displayed as a Geiger counter reading (shown as a number on the top left of the screen ), which ranges from 0 to 100. Health status of the field responder is indicated by a health bar on the right side of the Geiger counter. The chatbox (similar to the one on HQ interface) is placed on the "Messages" tab for field player to receive and send messages.\\
 
 
 % the mobile responder app
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.5\textwidth]{img/study1/mobileinterface}
+  \caption{The mobile responder app}
+  \label{fig:mobileResponderApp}
+\end{figure}
 
 % move this to the study 1 chapter. 
  The app shows a reading of radioactivity, their health level based on radioactive exposure, and a GPS-enabled map of the game area with the targets to be collected and the drop off zones for the targets. Icons according to responder roles that additionally have their initials on them can be used to identify individuals. Another tab reveals the messaging widget to broadcast messages to the other field responders, and to headquarters.\\
-
-HQ is manned by at least two coordinators who have at their disposal a browser- based coordination interface that provides an overview of the game area, including real-time information of the players locations (see figure 2). HQ can also broadcast messages to all field responders, and can review the responders exposure and health levels. Importantly, only headquarters has a view of the radioactive cloud. Hotter zones correspond to higher levels of radioactivity.\\
 
 
 
@@ -67,12 +77,17 @@ According to speech act theory, utterances in dialogues can be considered as spe
 Here, we present findings from interaction analysis supported by message classification that reveal how team coordination was achieved. Results of the message classification will be presented first, followed by detailed analysis of episodes. 
 
 % this is from COOP paper, need to adapt it for this writing 
-By example of the first episode, we unpack how field responders account for messages from HQ, in particular issues with how directives on task allocation and execution are addressed. An overview shows that directives from HQ are frequently not brought up locally. A further episode demonstrates how field responders instead draw on technologi- cal and embodied resources to achieve local coordination, without HQ involve- ment. Finally, two more examples illustrate how responders routinely employ messages as a resource to support situational awareness.\\
+By example of the first episode, we unpack how field responders account for messages from HQ, in particular issues with how directives on task allocation and execution are addressed. An overview shows that directives from HQ are frequently not brought up locally. A further episode demonstrates how field responders instead draw on technological and embodied resources to achieve local coordination, without HQ involve- ment. Finally, two more examples illustrate how responders routinely employ messages as a resource to support situational awareness.\\
 
 \subsection{Speech act analysis on text messages}
-Overall, responders rescued 7 and 9 targets in session A and B respectively, out of 16 targets in total per session. Two players were incapacitated in session A, and 1 player was incapacitated in session B. 117 and 70 messages were sent in session A and B, respectively. We used Searle`s classification of speech acts to categorize messages (see table 1). We also add requests to the table to categorize all of the messages (Searle does not classify those as speech acts).\\
+Overall, responders rescued 7 and 9 targets in session A and B respectively, out of 16 targets in total per session. Two players were incapacitated in session A, and 1 player was incapacitated in session B. 117 and 70 messages were sent in session A and B, respectively. We used Searle`s classification of speech acts to categorize messages (see table ref{fig:speachact}). We also add requests to the table to categorize all of the messages (Searle does not classify those as speech acts).\\
 
-insert table here\\
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{img/study1/speechact}
+  \caption{Speech act classification}
+  \label{fig:speachact}
+\end{figure}
 
 \subsubsection{Directives}
 
@@ -236,7 +251,7 @@ We presented the design and study of the Radiation Response Game as a mixed-real
 Findings from interaction analysis of field observations, triangulated with log files, reveal how field responders achieved coordination by drawing on local face-to-face conversation with fellow responders, and situational information provided by the interactive map, the Geiger counter, and the messages sent by HQ. Drawing on these findings, we generated requirements for supporting team coordination, emphasising the roles of local coordination, decision-making resources, geospatial referencing and message handling. These requirements inform future work on building human-centred HAC systems by emphasising the role of human interaction in team coordination in time-critical settings.\\
 
 %************************************************
-\chapter{AtomicOrchid Study 2: Agent supported HuOL design}\label{ch:mathtest} % $\mathbb{ZNR}$
+\chapter{AtomicOrchid Study 2: Agent supported HuOL design}\label{ch:studytwo} % $\mathbb{ZNR}$
 %************************************************
 This chapter presents the second iteration of AtomicOrchid field trials. In this study, a planning agent is integrated into the system by following a HuOL interaction design, in which the HQ only monitor and occasionally intervene the planning agent. The purpose of the trials is to investigate socio-technical issues relating to integrating the planning agent to rescue team with the HuOL interaction design. Interaction analysis is conducted to examine log data and field observations unfolding how human agent interaction plays out, which in turn, revealing the process by which players interpret and negotiate the agent guidance as well as how these are intertwined with social dynamics of the teams.
 
@@ -406,7 +421,7 @@ while the rules of social conduct ensured accountability of action among co-loca
 \section{Conclusion}
 
 %************************************************
-\chapter{AtomicOrchid Study 3: Agent-supported HuIL design}\label{ch:mathtest} 
+\chapter{AtomicOrchid Study 3: Agent-supported HuIL design}\label{ch:studythree} 
 %************************************************
 This chapter presents the third iteration of AtomicOrchid field trials. Based on the section prototype of AtomicOrchid (see chapter x), the system have gone through another development iteration to facilitate a HuIL interaction pattern. The HuIL pattern assume that constant interaction between human HQ and the  agent is required for planning. The purpose of the trials is to investigate socio-technical issues relating to agent planning support with the HuIL interaction design. Interaction analysis is conducted to examine log data and field observations unfolding how human agent interaction plays out with a HuIL design. The results of the analysis reveals the process by which HQ, field players and the agents collectively generate and executes plans, as well as  both social and technical issues emerged from this process.  \\
 
