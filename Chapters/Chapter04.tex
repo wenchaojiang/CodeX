@@ -1,7 +1,7 @@
 %************************************************
 \chapter{AtomicOrchid Study 1: Non agent version}\label{ch:mathtest} % $\mathbb{ZNR}$
 %************************************************
-This chapter presents the first iteration of AtomicOrchid field trials. In this section, we focus on investigating requirements for time critical distributed team support relevant for domains such as disaster response. In this Field responders of the AtomicOrchid game use smartphones to coordinate, via text messaging, GPS, and maps, with headquarters and each other. Interaction analysis is conducted to examine log data and field observations revealing local and remote coordination within the responder team. We uncover requirements that highlight the role of local coordination, decision-making resources, geospatial referencing and message handling. \\
+In this study, we focus on investigating requirements for time critical distributed team support relevant for domains such as disaster response. In this Field responders of the AtomicOrchid game use smartphones to coordinate, via text messaging, GPS, and maps, with headquarters and each other. Interaction analysis is conducted to examine log data and field observations revealing local and remote coordination within the responder team. We uncover requirements that highlight the role of local coordination, decision-making resources, geospatial referencing and message handling. \\
 
 
 \section{Introduction}
@@ -11,16 +11,16 @@ Due to the critical nature of the disaster operations, it would be hard to desig
 
 The AtomicOrchid game creates socio-technical setting in which player teams plan and executes spatially distributed tasks (see section \ref{sec:sociotech}). Although HACs researchers has envisioned that an intelligent agent can team coordination by providing computational optimised task allocations in real-time, we focus on a base version of AtomicOrchid which does not involve any agent support in study. The aim is to conduct a field trial to baseline performance human coordination in the game and base requirements for supporting such coordination, which in turn, supports our later system prototyping and studies. \\
 
-This study is the first of three iterative system trials in this PhD work. The non-agent trial supports the two later (chapter \ref{ch:studytwo}, \ref{ch:studythree}) agent-supported system trials by 1) Revealing baseline performance of human coordination 2) Generate design requirements which can be feedback to subsequent prototyping of AtomicOrchid. The requirements are critical in that 1) the later trials and studies can use them to isolate non-agent related design factors and 2) It also can inspire the interaction design between agent and responders in later system prototyping.  \\
+This study is the first of three iterative system trials in this PhD work. The non-agent trial supports the two later (chapter \ref{ch:studytwo}, \ref{ch:studythree}) agent-supported system trials by 1) Revealing baseline performance of human coordination without agent support 2) Generate design requirements which feeds into subsequent prototyping of AtomicOrchid. The requirements are critical in that 1) the later studies can use them to recognise non-agent related design factors and 2) It also can inspire the interaction design between agent and responders in later system prototyping.  \\
 
 In the following section, we will go through AtomicOrchid system description with a focus on interface and interaction design.\\
 
 \section{System Description}\label{sec:system1}
 % ===== how do I split this with Approach chapter
-Basic game mechanic and system architecture has been introduced in the \ref{ch:approach}. This section will give a detailed description of the system interface that support coordination between the field responders and headquarters players. \\
+Basic game mechanic and system architecture has been introduced in the chapter \ref{ch:approach}. This section will give a detailed description of the system interface that support coordination between the field responders and headquarters players. \\
 
 % the HQ interface 
-The HQ is manned by at this two coordinators. All of the coordinators are provided with a web-based coordination interface. The interface gives them an overview of the game status and enable them to communicate with the field responders. \\
+The HQ is manned by two coordinators. All of the coordinators are provided with a web-based coordination interface (see figure \ref{fig:HQinterface}). The interface gives them an overview of the game status and enable them to communicate with the field responders. \\
 
 % insert image here.
 \begin{figure}[h]
@@ -30,9 +30,9 @@ The HQ is manned by at this two coordinators. All of the coordinators are provid
   \label{fig:HQinterface}
 \end{figure}
 
-As you can see in the figure \ref{fig:HQinterface}, the majority space of the interface is occupied by a map-based presentation of the game status. Roles and locations of field responders are represented on the map as icons. The field responders can be uniquely identified by their initials shown on the icons. The target types and locations are also shown as icons on the map. Location and intensity of radioactive is indicated by a heatmap. Heath status (health value ranges from 0 to 100) of the field responders is displayed on the right-top panel. A chatbox is placed on right bottom for HQ to browse and send messages. The messaging system is very simple and straightforward. Everyone can send messages to one public channel, and the messages are visible to every play through the mobile and HQ interface.\\
+As you can see in the figure \ref{fig:HQinterface}, the majority space of the interface is occupied by a map-based presentation of the game status. Roles and locations of field responders are represented on the map as icons. The field responders can be uniquely identified by their initials shown on the icons. The target types and locations are also shown as icons on the map. Location and intensity of radioactivity is indicated by a heatmap. Heath status (health value ranges from 0 to 100) of the field responders is displayed on the right-top panel. A chatbox is placed on right bottom for HQ to browse and send messages. The messaging system follows a broadcasting model. Everyone can send messages to one public channel, and the messages are visible to every play through the mobile and HQ interface.\\
 
-Field responders are equipped with a mobile responder app providing them with sensing and awareness capabilities (figure \ref{fig:mobileResponderApp}). There are two tabs in the responder apps. The "map" tab displays a map showing locations of field responders and targets, which is similar to the map on HQ interface, except that the radioactive is not showed. The radio level of players' current location is displayed as a Geiger counter reading (shown as a number on the top left of the screen ), which ranges from 0 to 100. Health status of the field responder is indicated by a health bar on the right side of the Geiger counter. The chatbox (similar to the one on HQ interface) is placed on the "Messages" tab for field player to receive and send messages.\\
+Field responders are equipped with a mobile responder app providing them with sensing and awareness capabilities (figure \ref{fig:mobileResponderApp}). There are two tabs in the responder apps. The "map" tab displays a map showing locations of field responders and targets, which is similar to the map on HQ interface, except that the radioactvity is not shown. The radio level of players' current location is displayed as a Geiger counter reading (shown as a number on the top left of the screen ), which ranges from 0 to 100. Health status of the field responder is indicated by a health bar on the right side of the Geiger counter. The chatbox (similar to the one on HQ interface) is placed on the "Messages" tab for field player to receive and send messages.\\
 
 
 % the mobile responder app
@@ -66,9 +66,9 @@ We took a mixed methods approach to data collection and analysis. In addition to
 
 We developed a log file replay tool to help with data analysis of time stamped system logs that contain a complete record of the game play, including responders` GPS location, their health status and radioactive exposure, messages, cloud location, locations of target objects and task status.\\
 
-Interaction analysis of local coordination. We focus on the analysis of local field responders` interaction to unpack team coordination, including handling of mes- sages sent by HQ. Video recordings of field action were catalogued to identify sequences (episodes) of interest (cf. Heath et al., 2010). Key decision points in team- ing and task allocation served to index the episodes. Interesting distinct units of interaction were transcribed and triangulated with log files of relevant game activity for deeper analysis that we present in this paper.\\
+\textbf{Interaction analysis of local coordination} We focus on the analysis of local field responders` interaction to unpack team coordination, including handling of mes- sages sent by HQ. Video recordings of field action were catalogued to identify sequences (episodes) of interest (cf. Heath et al., 2010). Key decision points in team- ing and task allocation served to index the episodes. Interesting distinct units of interaction were transcribed and triangulated with log files of relevant game activity for deeper analysis that we present in this paper.\\
 
-Message classification. How are remote messages used as a coordination resource? We used speech-act theory and the notion of adjacency pairs in linguistics to classify messages sent between and among responders and HQ.\\
+\textbf{Message classification} How are remote messages used as a coordination resource? We used speech-act theory and the notion of adjacency pairs in linguistics to classify messages sent between and among responders and HQ.\\
 
 According to speech act theory, utterances in dialogues can be considered as speech acts from three dimensions. We were primarily concerned with the illocutionary dimension of speech acts. Searle`s classification of illocutionary acts (Searle, 1975) is used to categorize messages in the communication system.\\
 

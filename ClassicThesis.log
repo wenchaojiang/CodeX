@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  12 FEB 2015 16:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  13 FEB 2015 21:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -781,6 +781,22 @@ Package: prelim2e 2009/05/29 v1.3 prelim2e Package (MS)
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
 (/usr/local/texlive/2013/texmf-dist/tex/latex/carlisle/remreset.sty)))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count141
+\float@exts=\toks29
+\float@box=\box32
+\@float@everytoks=\toks30
+\@floatcapt=\box33
+)
+Package scrhack Info: loading float hack on input line 50.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/float.hak
+File: float.hak 2012/07/29 v3.11b KOMA-Script hacking package float
+Package scrhack Info: redefining \newfloat on input line 160.
+Package scrhack Info: redefining \listof on input line 160.
+Package scrhack Info: undefining \float@addtolists on input line 160.
+)
 (./ClassicThesis.aux (./FrontBackmatter/DirtyTitlepage.aux)
 (./FrontBackmatter/Titlepage.aux) (./FrontBackmatter/Titleback.aux)
 (./FrontBackmatter/Dedication.aux) (./FrontBackmatter/Abstract.aux)
@@ -824,12 +840,13 @@ File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count141
+\c@lstlisting=\count142
 Package scrhack Info: undefining \float@addtolists on input line 60.
-\AtBeginShipoutBox=\box32
+\AtBeginShipoutBox=\box34
 Package hyperref Info: Link coloring ON on input line 60.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
@@ -838,7 +855,7 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count142
+\c@section@level=\count143
 )
 LaTeX Info: Redefining \ref on input line 60.
 LaTeX Info: Redefining \pageref on input line 60.
@@ -851,17 +868,17 @@ LaTeX Info: Redefining \nameref on input line 60.
 
 (/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count143
+\scratchcounter=\count144
 \scratchdimen=\dimen157
-\scratchbox=\box33
-\nofMPsegments=\count144
-\nofMParguments=\count145
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count146
+\scratchbox=\box35
+\nofMPsegments=\count145
+\nofMParguments=\count146
+\everyMPshowfont=\toks31
+\MPscratchCnt=\count147
 \MPscratchDim=\dimen158
-\MPnumerator=\count147
-\makeMPintoPDFobject=\count148
-\everyMPtoPDFconversion=\toks30
+\MPnumerator=\count148
+\makeMPintoPDFobject=\count149
+\everyMPtoPDFconversion=\toks32
 ) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
@@ -1118,10 +1135,11 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 [15
 
-] [16
+]
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-])
+[16])
 \openout2 = `Chapters/Chapter01.aux'.
 
  (./Chapters/Chapter01.tex
@@ -1129,6 +1147,8 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [1
+
+
 
 
 
@@ -1253,7 +1273,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[8] <img/contributions.png, id=751, 462.72874pt x 324.21124pt>
+[8] <img/contributions.png, id=764, 462.72874pt x 324.21124pt>
 File: img/contributions.png Graphic file (type png)
 
 <use img/contributions.png>
@@ -1761,7 +1781,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
-<img/study1/webinterface.png, id=921, 1201.48875pt x 800.9925pt>
+<img/study1/webinterface.png, id=935, 1201.48875pt x 800.9925pt>
 File: img/study1/webinterface.png Graphic file (type png)
 
 <use img/study1/webinterface.png>
@@ -1781,7 +1801,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
 
-<img/study1/mobileinterface.png, id=928, 192.2382pt x 321.8424pt>
+<img/study1/mobileinterface.png, id=942, 192.2382pt x 321.8424pt>
 File: img/study1/mobileinterface.png Graphic file (type png)
 
 <use img/study1/mobileinterface.png>
@@ -1878,7 +1898,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-<img/study1/speechact.png, id=948, 792.9625pt x 375.4025pt>
+<img/study1/speechact.png, id=962, 792.9625pt x 375.4025pt>
 File: img/study1/speechact.png Graphic file (type png)
 
 <use img/study1/speechact.png>
@@ -3105,7 +3125,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 
-] <img/conclusion/connections.png, id=1266, 779.91376pt x 755.82375pt>
+] <img/conclusion/connections.png, id=1280, 779.91376pt x 755.82375pt>
 File: img/conclusion/connections.png Graphic file (type png)
 
 <use img/conclusion/connections.png>
@@ -3140,127 +3160,182 @@ Underfull \hbox (badness 10000) in paragraph at lines 35--36
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 48--49
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
+<img/conclusion/study1interface.png, id=1297, 1067.99pt x 777.90625pt>
+File: img/conclusion/study1interface.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
- []
-
-<img/conclusion/huilvshuol.png, id=1282, 1012.78375pt x 580.1675pt>
-File: img/conclusion/huilvshuol.png Graphic file (type png)
-
-<use img/conclusion/huilvshuol.png>
-Package pdftex.def Info: img/conclusion/huilvshuol.png used on input line 54.
-(pdftex.def)             Requested size: 336.0pt x 192.4739pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 60--61
-
- []
-
+<use img/conclusion/study1interface.png>
+Package pdftex.def Info: img/conclusion/study1interface.png used on input line 
+44.
+(pdftex.def)             Requested size: 336.0pt x 244.73314pt.
 
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [118]
-Underfull \hbox (badness 10000) in paragraph at lines 63--65
+Underfull \hbox (badness 10000) in paragraph at lines 58--59
 
  []
 
+<img/conclusion/study2interface.png, id=1305, 1421.31pt x 952.55875pt>
+File: img/conclusion/study2interface.png Graphic file (type png)
 
-Underfull \hbox (badness 10000) in paragraph at lines 67--69
-
- []
-
+<use img/conclusion/study2interface.png>
+Package pdftex.def Info: img/conclusion/study2interface.png used on input line 
+62.
+(pdftex.def)             Requested size: 336.0pt x 225.18854pt.
 
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[119 <./img/conclusion/huilvshuol.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 71--73
+[119 <./img/conclusion/study1interface.png>]
+<img/conclusion/study3interfaceHQ.png, id=1314, 1423.3175pt x 961.5925pt>
+File: img/conclusion/study3interfaceHQ.png Graphic file (type png)
 
- []
-
-
-LaTeX Warning: Reference `sec:conclusionCG' on page 120 undefined on input line
- 75.
-
-
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[120]
-Underfull \hbox (badness 10000) in paragraph at lines 79--80
-
- []
-
-
-Overfull \hbox (8.2675pt too wide) in paragraph at lines 83--84
-\T1/pplj/m/n/10.95 Establishing a com-mon ground be-tween hu-man and agent has 
-emerged
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 83--84
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 85--86
-
- []
-
+<use img/conclusion/study3interfaceHQ.png>
+Package pdftex.def Info: img/conclusion/study3interfaceHQ.png used on input lin
+e 71.
+(pdftex.def)             Requested size: 336.0pt x 227.00136pt.
 
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[121]
-Underfull \hbox (badness 10000) in paragraph at lines 87--88
+[120 <./img/conclusion/study2interface.png>]
+<img/conclusion/study3interfaceMobile.png, id=1320, 709.65125pt x 1040.88875pt>
+File: img/conclusion/study3interfaceMobile.png Graphic file (type png)
+<use img/conclusion/study3interfaceMobile.png>
+Package pdftex.def Info: img/conclusion/study3interfaceMobile.png used on input
+ line 80.
+(pdftex.def)             Requested size: 336.0pt x 492.83904pt.
 
- []
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 89--90
-
- []
-
-
+[121 <./img/conclusion/study3interfaceHQ.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 91--92
 
  []
 
 
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[122 <./img/conclusion/study3interfaceMobile.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 93--94
 
  []
 
+<img/conclusion/huilvshuol.png, id=1329, 779.91376pt x 527.9725pt>
+File: img/conclusion/huilvshuol.png Graphic file (type png)
 
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+<use img/conclusion/huilvshuol.png>
+Package pdftex.def Info: img/conclusion/huilvshuol.png used on input line 97.
+(pdftex.def)             Requested size: 336.0pt x 227.45879pt.
 
-
-[122]
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
 
-)
+
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
+
+ []
+
+
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[123] [124
+[123 <./img/conclusion/huilvshuol.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 110--112
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--116
+
+ []
+
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[124]
+
+LaTeX Warning: Reference `sec:conclusionCG' on page 125 undefined on input line
+ 118.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
+
+ []
+
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[125]
+Overfull \hbox (8.2675pt too wide) in paragraph at lines 126--127
+\T1/pplj/m/n/10.95 Establishing a com-mon ground be-tween hu-man and agent has 
+emerged
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 132--133
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 134--135
+
+ []
+
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[126]
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[127])
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[128] [129
 
 
 
-] [125
 
 
-] [126]
+] [130]
 \openout2 = `Chapters/Chapter0A.aux'.
 
  (./Chapters/Chapter0A.tex
@@ -3285,7 +3360,7 @@ LaTeX Font Info:    Font shape `T1/pplj/m/sl' in size <9> not available
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[127
+[131
 
 
 
@@ -3296,7 +3371,7 @@ LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[128]
+[132]
 \openout2 = `FrontBackmatter/Bibliography.aux'.
 
  (./FrontBackmatter/Bibliography.tex (./ClassicThesis.bbl
@@ -3348,23 +3423,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--56
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[129
+[133
 
 
 
 
 
 
-] [130
+] [134
 
 
 
 ]
 \openout2 = `FrontBackmatter/Colophon.aux'.
 
- (./FrontBackmatter/Colophon.tex) [131
+ (./FrontBackmatter/Colophon.tex) [135
 
-] [132
+] [136
 
 
 
@@ -3372,7 +3447,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 \openout2 = `FrontBackmatter/Declaration.aux'.
 
 
-(./FrontBackmatter/Declaration.tex) [133
+(./FrontBackmatter/Declaration.tex) [137
 
 
 
@@ -3388,12 +3463,7 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
 (./Chapters/ChapterM&P.aux) (./Chapters/Chapter04.aux)
 (./Chapters/Conclusion.aux) (./Chapters/Chapter0A.aux)
 (./FrontBackmatter/Bibliography.aux) (./FrontBackmatter/Colophon.aux)
-(./FrontBackmatter/Declaration.aux)
-
-Package mparhack Warning: Marginpars may have changed.
-(mparhack)                Rerun to get them right.
-
-)
+(./FrontBackmatter/Declaration.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
 
 
@@ -3513,6 +3583,8 @@ titlesec.sty    2011/12/15 v2.10.0 Sectioning titles
 prelim2e.sty    2009/05/29 v1.3 prelim2e Package (MS)
 everyshi.sty    2001/05/15 v3.00 EveryShipout Package (MS)
 remreset.sty    
+   float.sty    2001/11/08 v1.3d Float enhancements (AL)
+   float.hak    2012/07/29 v3.11b KOMA-Script hacking package float
   ts1cmr.fd    1999/05/25 v2.5h Standard LaTeX font definitions
   t1pplj.fd    2004/09/06 font definitions for T1/pplj.
  nameref.sty    2012/10/27 v2.43 Cross-referencing by name of section
@@ -3551,6 +3623,10 @@ img/study1/mobileinterface.png
 img/study1/speechact.png
 Chapters/Conclusion.tex
 img/conclusion/connections.png
+img/conclusion/study1interface.png
+img/conclusion/study2interface.png
+img/conclusion/study3interfaceHQ.png
+img/conclusion/study3interfaceMobile.png
 img/conclusion/huilvshuol.png
 Chapters/Chapter0A.tex
 FrontBackmatter/Bibliography.tex
@@ -3561,7 +3637,7 @@ FrontBackmatter/Declaration.tex
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: E748173F89F03E25BFB81B638058DF35;9379.
+(rerunfilecheck)             Checksum: 49A6355E734031DD1B5F4FD8EAC6899A;9444.
 
 LaTeX Warning: There were undefined references.
 
@@ -3571,13 +3647,13 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
  ) 
 Here is how much of TeX's memory you used:
- 17695 strings out of 493315
- 270487 string characters out of 6137904
- 427190 words of memory out of 5000000
- 20322 multiletter control sequences out of 15000+600000
+ 17798 strings out of 493315
+ 272591 string characters out of 6137904
+ 429486 words of memory out of 5000000
+ 20403 multiletter control sequences out of 15000+600000
  70991 words of font info for 92 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 54i,14n,67p,3108b,2330s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 54i,14n,67p,3108b,2334s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2013/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/local
 /texlive/2013/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive
@@ -3587,10 +3663,10 @@ t/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/local/texlive/2013/te
 xmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/texmf-dis
 t/fonts/type1/urw/palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts
 /type1/urw/palatino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (149 pages, 2729488 bytes).
+Output written on ClassicThesis.pdf (153 pages, 6735006 bytes).
 PDF statistics:
- 1491 PDF objects out of 1728 (max. 8388607)
- 1311 compressed objects within 14 object streams
- 345 named destinations out of 1000 (max. 500000)
- 15871 words of extra memory for PDF output out of 17280 (max. 10000000)
+ 1535 PDF objects out of 1728 (max. 8388607)
+ 1347 compressed objects within 14 object streams
+ 357 named destinations out of 1000 (max. 500000)
+ 15899 words of extra memory for PDF output out of 17280 (max. 10000000)
 

@@ -18,7 +18,7 @@ Three studies are carried out iteratively. The AtomicOrchid system evolves throu
 
 The non-agent AtomicOrchid trial (study 1) is aimed to establish baseline performance of human planning in the time and spatially constrained disaster settings and to generate general requirements of coordination support system which is also applicable to the next two agent-integrated version of AtomicOrchid. 
 
-The result of interaction analysis showed the team planning is dominated by local coordination between field players with opportunistic manner. The HQ is found to have little influence on the planning activities of the team. Potential reason could be the breakdown of communication between HQ and Field responders. The communication is thought to be affected by a set of factors including communication modalities (text vs voice), training level of players and HQ and system interface designs. A number of system requirements has also be introduced in the study 1 , which inspires system evolutions in the subsequent studies. \\
+The result of interaction analysis showed the team planning is dominated by local coordination between field players with opportunistic manner. The HQ is found to have little influence on the planning activities of the team. Potential reasons could be the breakdown of communication between HQ and Field responders. The communication is thought to be affected by a set of factors including communication modalities (text vs voice), training level of players and HQ and system interface designs. A number of system requirements has also be introduced in the study 1 , which inspires system evolutions in the subsequent studies. \\
 
 (see figure \ref{fig:connections}).]\\
 
@@ -34,10 +34,53 @@ In study 3, the system is evolved to facilitate HuIL interaction with the feedba
 	
 Further observation shows that coordination overhead caused by the agent planning (observed in study 2) may have been reduced as a result of greater HQ involvement in the planning. Analysis of some failed cases of coordination also points out a number of issues, which highlights potential human performance issues as a result of the greater HQ involvement in the planning. [ TO be finalised ]  \\
 
-\subsection{Summary of system evolutions}
+\subsection{Summary of interface evolutions}
+The section presents the interface evolutions of AtomicOrchid interface across three field studies and the design rationales behind it. The initial interface of AtomicOrchid (used in 1st study) is designed to display game status and provide broadcasting channel to support communication. In the first study, the control room is manned by 2-3 HQ players. Every HQ shares a same interface which shows game status on a map. A chat box is provided to send and receive broadcasting messages. The mobile interface is used by field responders. The responders share a same map with HQ, which displays game status with the exception of radioactive cloud. The messaging interface is placed in another tab.(see figure \ref{fig:study1interface})\\ 
 
 
 
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{img/conclusion/study1interface}
+  \caption{Interface of study 1}
+  \label{fig:study1interface}
+\end{figure}
+
+
+The 1st study discovered several flaws of the initial interface, which leads to a number of design requirements. 
+
+\begin{enumerate}
+	 \item The interface should support quick acknowledgement and feedback in communication channel.
+	 \item The interface should freshness of messages in communication channel.
+	 \item The interface should provide support for geo-reference.
+\end{enumerate}
+
+A set of changes in the 2ed version (used in study 2) of AtomicOrchid are partly inspired by the requirements (see figure \ref{fig:study2interface}). In 2rd version, all targets are identified by unique task ids to support geo-referencing. Text messages in broadcasting channel are labelled by time stamp to indicate validity of the information. With introduction of planning agent, the interface also supports quick feedback to the agent with one button press. To integrate agent planning support, a new tab (``task'') in implemented in the mobile app to show a text-based description of agent task-assignment. In HQ interface, the agent assignments can be revealed on request of the HQ players (HQ clicking on "show task" button).\\
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{img/conclusion/study2interface}
+  \caption{Interface of study 2}
+  \label{fig:study2interface}
+\end{figure}
+
+The result of the 2ed study revealed that interface level support for HQ intervention is missing in the 2ed version of AtomicOrchid. It is believed that the requirement for interface intervention support would also be important in the HuIL (the 3rd) study). Therefore, a task assignment (see figure \ref{fig:study3interfacemobile}) interface are introduced to enhance the HQ's ability to intervene the task planning. A task-specific communication channel is also introduced in the interface for players to avoid information overload in broadcasting channel. Compared to previous HQ interfaces, the operations on the task assignment interface is a lot more complicated. Therefore, one HQ player is dedicated to operate the interface and another player is provided with 2ed version of HQ interface by providing situational awareness and handling broadcasting messages. 
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{img/conclusion/study3interfaceHQ}
+  \caption{HQ Interface of study 3}
+  \label{fig:study3interfacemobile}
+\end{figure}
+
+For mobile interface, the tabs of ``staus'' and ``chat'' kept unchanged from the version 2 (named ``map'' and ``messages''). The task interface is enhanced by a map-based presentation of task assignment and the task-specific chat box is displayed below the assignment (see figure \ref{fig:study3interfacemobile}.
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{img/conclusion/study3interfaceMobile}
+  \caption{Mobile Interface of study 3}
+  \label{fig:study3interfacehq}
+\end{figure}
 
 
 
@@ -97,7 +140,12 @@ Although, we have identified a range of information which is missing for establi
 
 \subsection{Accountability}
 
+\section{Limitation}
 
+Serious game with untrained volunteers, limited time scale, simplified team structure.
+but there is time pressure, distributed team setting, and physical stress.
+How realistic is the game scenario (from RG workshop)
+We are not telling what is going to happen in the field but the implications can still be useful.
 
 \section{future work}
 
