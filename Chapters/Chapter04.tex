@@ -7,11 +7,11 @@ In this study, we focus on investigating requirements for time critical distribu
 \section{Introduction}
 Disaster response (DR) has been characterised as highly coordinated, time-critical collaborative activities  \cite{Mendonca2007}. Coordination is essential in such settings so that time critical interdependent activities such as search and rescue can be completed in a timely and satisfactory manner \cite{Bradshaw2011}. Opportunity space for building `intelligent' coordination support for  such activities has been recognised by the researchers of HACs systems (see chapter \ref{ch:introduction}). However, little study has explored the  design space for HAC systems to support time-critical coordination settings. Therefore, little is known about the challenges and requirements in building systems to support team coordination in such settings.\\
 
-Due to the critical nature of the disaster operations, it would be hard to design and deploy `intelligent' coordination in the field before we thoroughly explored the requirements of interaction design. On the other hand, computational simulation of an `intelligent' system is fundamentally insufficient for studying interactional issues (see section \ref{sec:interactional}). Therefore, in this study, we are aimed to use AtomicOrchid game as a game probe to uncover the requirements for building `intelligent' coordination support system. \\
+Due to the critical nature of the disaster operations, it would be hard to design and deploy `intelligent' coordination in the field before we thoroughly explored the requirements of interaction design. On the other hand, computational simulation of an `intelligent' system is fundamentally insufficient for studying interactional issues (see section \ref{sec:interactional}). Therefore, in this study, we are aimed to use AtomicOrchid game as a game probe to uncover the requirements and design implication for building `intelligent' coordination support system. \\
 
 The AtomicOrchid game creates socio-technical setting in which player teams plan and executes spatially distributed tasks (see section \ref{sec:sociotech}). Although HACs researchers has envisioned that an intelligent agent can team coordination by providing computational optimised task allocations in real-time, we focus on a base version of AtomicOrchid which does not involve any agent support in study. The aim is to conduct a field trial to baseline performance human coordination in the game and base requirements for supporting such coordination, which in turn, supports our later system prototyping and studies. \\
 
-This study is the first of three iterative system trials in this PhD work. The non-agent trial supports the two later (chapter \ref{ch:studytwo}, \ref{ch:studythree}) agent-supported system trials by 1) Revealing baseline performance of human coordination without agent support 2) Generate design requirements which feeds into subsequent prototyping of AtomicOrchid. The requirements are critical in that 1) the later studies can use them to recognise non-agent related design factors and 2) It also can inspire the interaction design between agent and responders in later system prototyping.  \\
+This study is the first of three iterative system trials in this PhD work. The non-agent trial supports the two later (chapter \ref{ch:studytwo}, \ref{ch:studythree}) agent-supported system trials by 1) Revealing baseline performance of human coordination without agent support 2) Generate design requirements which feeds into subsequent prototyping of AtomicOrchid. The requirements are critical in that 1) the later studies can use them to recognize non-agent related design factors and 2) It also can inspire the interaction design between agent and responders in later system prototyping.  \\
 
 In the following section, we will go through AtomicOrchid system description with a focus on interface and interaction design.\\
 
@@ -91,57 +91,43 @@ Overall, responders rescued 7 and 9 targets in session A and B respectively, out
 
 \subsubsection{Directives}
 
-Most messages in the category of directives are instructions sent by headquarter (HQ) players. The content of instructions can be related to two themes: task allocation and task execution. Therefore, we further categories the instructions into two categories: instructions for task allocation, and instructions for task execution.
-Instructions for task allocation.\\
-
-The purpose of task allocation instructions is to distribute plans to field teams and require them to execute it. Most instructions in this category follow a common pattern. Let`s take a look at the example below:
+Most messages in the category of directives are instructions sent by headquarter (HQ) players. The content of instructions can be related to two themes: task allocation and task execution. Therefore, we further categories the instructions into two categories: instructions for task allocation, and instructions for task execution. The purpose of task allocation instructions is to distribute plans to field teams and require them to execute it. Most instructions in this category follow a common pattern. Let`s take a look at the example below:\\
 
 \begin{quote}
-``HQ : JH1 pair up with BR to save animal inbetwen TA centre and national college''\\
+\texttt{``HQ : JH1 pair up with BR to save animal inbetwen TA centre and national college''}\\
 \end{quote}
 
-The instruction sent from Headquarter consists of two parts: (1) Description of Team- ing (who are involved) (2) Description of Location (Targets) to go.\\
-
-It is worth mentioning that HQ players use different strategies when they try to de- scribe a location to field players. HQ players in session D frequently referred to land- mark on the map in their description, while HQ in session C used simple directions (north, west, south east). For example:\\
+The instruction sent from Headquarter consists of two parts: (1) Description of Team- ing (who are involved) (2) Description of Location (Targets) to go.It is worth mentioning that HQ players use different strategies when they try to de- scribe a location to field players. HQ players in session D frequently referred to land- mark on the map in their description, while HQ in session C used simple directions (north, west, south east). For example:\\
 
 \begin{quote}
-``HQ: TEAM A, can you head south to the radiation and animal targets? Instructions for task execution''\\
+\texttt{``HQ: TEAM A, can you head south to the radiation and animal targets? Instructions for task} execution''\\
 \end{quote}
 
 The purpose of task execution instructions is to help players execute their tasks after they have been assigned tasks. Most instructions in this category are related to radio- active cloud. To help field players avoid radioactive clouds, HQ players frequently send directions to field players or simply urge field players to move quicker. For example:
 
 \begin{quote}
-``TEAM B you need to be quick'' \\
+texttt{``TEAM B you need to be quick''} \\
 \end{quote}
 
 \subsubsection{Assertives}
 
-in this game, assertives provide plain information to recipients. Most assertives are sent by headquarter because they have access to critical information the cloud location.
-Some examples of assertives:
+in this game, assertives provide plain information to recipients. Most assertives are sent by headquarter because they have access to critical information the cloud location. Followings are some examples of assertives:\\
 
 \begin{quote}
-``the leak around nottingham geospatial is bigger''\\
+\texttt{``the leak around nottingham geospatial is bigger''}\\
 \end{quote}
 
 \begin{quote}
-``HQ:There's another leak by the lake!''\\
+\texttt{``HQ:There's another leak by the lake!''}\\
 \end{quote}
 
-Interaction analysis shows that assertives are important for field players maintain situational awareness. We will talk more about this shortly in the section `` awareness''.
+Interaction analysis shows that assertives are important for field players maintain situational awareness. We will talk more about this shortly in the section `` awareness''.\\
 
 \subsubsection{Commssives, expressives and declarations}
-We also identified a small number of commissives, expressives and declarations. Commissvies are field player`s response to an assertive or directive. It can be an acknowledgement of receiving a piece of information or commitment to execute a plan. (e.g. ``ok got it'', ``I am heading there'' )\\
-
-Expressives and declarations are only found in session C. Expressives are typically HQ`s congratulations to field players. (e.g. ``HQ:Good Job, JJ, TV and RL'' )\\
-
-In session C, HQ players sometimes declare field players to be in a team (e.g. ``NOTICE - TEAM B: NS + TD''). The declaration helps HQ to refer to a team easier.\\
+We also identified a small number of commissives, expressives and declarations. Commissvies are field player`s response to an assertive or directive. It can be an acknowledgement of receiving a piece of information or commitment to execute a plan. (e.g. ``ok got it'', ``I am heading there'' ). Expressives and declarations are only found in session C. Expressives are typically HQ`s congratulations to field players. (e.g. ``HQ:Good Job, JJ, TV and RL'' ) In session C, HQ players sometimes declare field players to be in a team (e.g. ``NOTICE - TEAM B: NS + TD''). The declaration helps HQ to refer to a team easier.\\
 
 \subsubsection{Requests and Adjacency pairs}
-In linguistics, adjacency pair is a term to describe conversational turn taking. The pairs can be question->answer, inform -> acknowledge, offer ->acceptance et al.\\
-
-For simplicity, we ignore the typology of adjacency pairs and treat all pairs as re- quest-> response. Any utterance that expects a response is considered as a request.\\
-
-We found a number of requests sent from Headquarters and field players (14 in session C and 20 in session D). Those requests can be related to a number of themes:
+In linguistics, adjacency pair is a term to describe conversational turn taking. The pairs can be question->answer, inform -> acknowledge, offer ->acceptance et al.For simplicity, we ignore the typology of adjacency pairs and treat all pairs as re- quest-> response. Any utterance that expects a response is considered as a request.We found a number of requests sent from Headquarters and field players (14 in session C and 20 in session D). Those requests can be related to a number of themes:
 Field players may send request for: \\
 
 insert table \\
@@ -151,26 +137,22 @@ For headquarters:\\
 insert table \\
 
 
-In comparison, only a small number of adjacency pairs are found in both sessions (8 in C and 8 in D), which means not all requests are responded.\\
-
-It is also worth mentioning that field players didn`t send acknowledgements to directives from headquarter. Although we do not classify directives as a request which expect an answer, the headquarter players express their frustration for not having response to their instructions.\\
-
-A HQ player said in the group interview:
+In comparison, only a small number of adjacency pairs are found in both sessions (8 in C and 8 in D), which means not all requests are responded.It is also worth mentioning that field players didn`t send acknowledgements to directives from headquarter. Although we do not classify directives as a request which expect an answer, the headquarter players express their frustration for not having response to their instructions. A HQ player said in the group interview:\\
 ￼
 ￼
 
 \begin{quote}
-``I guess they did not look at it, they could not respond it, we were like saying ``where are you, respond'', but they did not respond. I guess they are busy seeing themselves and the targets''
+\texttt{``I guess they did not look at it, they could not respond it, we were like saying ``where are you, respond'', but they did not respond. I guess they are busy seeing themselves and the targets''}
 \end{quote}
 
 A field players also commented on the issue:\\
 
 \begin{quote}
-``I almost would not use the communication system because I was too focused on trying to save the targets.''
+\texttt{``I almost would not use the communication system because I was too focused on trying to save the targets.''}
 \end{quote}
 
 \begin{quote}
-``Sometimes I check whether the radiation is close to us, but mostly the communication is between us (local team members)''
+\texttt{``Sometimes I check whether the radiation is close to us, but mostly the communication is between us (local team members)''}
 \end{quote}
 
 
@@ -178,8 +160,42 @@ A field players also commented on the issue:\\
 % TODO introduce episode 2 in my part as a simple unproblematice case here!!
 
 We examine how field responders deal with messages from HQ that attempt to allocate tasks and manage task execution (i.e., directives). Classification of messages showed that directives were exclusive- ly sent by HQ, and that they were the most frequent kind of message (Table 1). Directives index (attempted) instances of remote coordination of field responders by HQ. The observed response to messages is critical to understanding relation- ships between local and remote coordination. The following episode depicts a team of three on their way to pick up fuel. Their path is blocked by radiation. Without a team, firefighter JH (on the left) has just joined soldier KY (on the right), and firefighter D2 who have just been allocated a task in a message by HQ.\\
+\includegraphics[width=.5\textwidth]{img/study1/ep1/ep11}
+\hfill \break
+\noindent\Mybox{\begin{minipage}[b]{\textwidth}
 
-insert episode here\\
+\texttt{\textbf{KY:} ((reading out message)) KY and D2, please walk fast to the junction and quickly return back ((laughs))\\
+\textbf{D2:} Oh is that what we have to do? Ok so we have to run to (2.0) We need to work out where we have to run to first and then get (.) get it back. Which junction is that? If you run to the next (0.5) thing ((points)), and then come back (1.0) that would work (1.0) is it safer to go around?\\
+}
+\end{minipage}}
+\includegraphics[width=.5\textwidth]{img/study1/ep1/ep12}
+\hfill \break
+\noindent\Mybox{\begin{minipage}[b]{\textwidth}
+\emph{[The team tries to go around the cloud but is stopped by radi- ation, realising their target is in the cloud. Meanwhile, D2 has left due to increased exposure.]\\}
+\texttt{
+\textbf{KY:} So we have to run! [through the radiation] JH: Do we have to run through the (.) through the radiation? ((looking at map)) \\
+\textbf{KY:} Yah this is what the headquarters told us to do ((looking at messages))\\
+\textbf{JH:} I have a terrible feeling thats gonna kill us.\\
+\textbf{KY:} But its gonna be meaningful ((laughs))\\
+\textbf{JH:} We go around this corner, if it gets to half [referring to health] we should probably start running back.\\
+}
+\emph{ [KY JH begin running into the cloud]\\ }
+\end{minipage}}
+\includegraphics[width=.5\textwidth]{img/study1/ep1/ep13}
+\includegraphics[width=.5\textwidth]{img/study1/ep1/ep14}
+\hfill \break
+\noindent\Mybox{\begin{minipage}[b]{\textwidth}
+\texttt{
+\textbf{KY:} ((yells)) OH OH! It`s a hundred! [refers to radiation level]\\
+\textbf{JH:} We are basically in the middle of it! We are basically in the middle of it!\\
+\textbf{KY:} ((shouts)) I`m going back? Get the fuel first! Get the fuel first! Oh no! \\
+\textbf{JH:} We are not prepared for that! I blame our HQ.\\
+\emph{ [They turn around and run back out of the cloud without the fuel.]\\ }
+}
+\end{minipage}} 
+\hfill \break
+
+
 
 This episode begins with a message by HQ attempting to help give directions to the target. D2`s response to the message is hesitant (is that what we should do?). His following question (which junction is that?) suggests the referent in HQ`s message is not understood. They attempt to go around the radiation. They realise their target is in the cloud. They refer back to the message to support their intent to go into the cloud to attempt to save the target (Yah this is what the headquarters told us to do). Having run into the cloud, they refer to the Geiger counter and realise the exposure is too high. Meanwhile, their health is decreasing rapidly. They abandon the task and flee to safety, whilst JH expresses his frustration (We are not prepared for that. I blame our HQ.).\\
 
@@ -189,23 +205,54 @@ Overall, out of the 43 task allocation directives HQ sent, the recipient field r
 
 Secondly, some HQ instructions are consistent with a decision to rescue a certain target that has already been made locally by the responders.\\
 
-In 10 cases field responders chose to follow the instructions. Although players are willing to follow HQ`s instructions, they failed to correctly follow the instructions due to confusion and misunderstanding in the communication. In fact, only 2 instances of directives from the HQ led to task completion. The field responders accomplished task allocation of all other 14 saved targets locally.\\
+In 10 cases field responders chose to follow the instructions. Although players are willing to follow HQ`s instructions, they failed to correctly follow the instructions due to confusion and misunderstanding in the communication. In fact, only 2 instances of directives from the HQ led to task completion. The field responders accomplished task allocation of all other 14 saved targets locally.(see figure \ref{fig:intructions})\\
 
 % ===== insert the diagram from the JCSCW paper not COOP
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{img/study1/instructions}
+  \caption{How responders addressed task allocation messages from HQ.}
+  \label{fig:intructions}
+\end{figure}
 
 \subsection{Local coordination without HQ}
 As presented, field responders predominantly coordinated teaming and task allocation of targets that were saved without HQ involvement. The following episode illustrates how field responders achieve coor- dination of teaming and task allocation locally. We join the action as BR and an- other responder are waiting at the drop-off zone without a compatible teammate, as MF and his teammate join and drop-off their target.\\
 
-insert episode\\
+\noindent \includegraphics[width=.5\textwidth]{img/study1/ep2/ep21}
+\noindent \includegraphics[width=.5\textwidth]{img/study1/ep2/ep22}
+\hfill \break
+\noindent\Mybox{\begin{minipage}[b]{\textwidth}
+\emph{(on the right) and teammate walking towards BR (center)]\\}
+\texttt{
+\textbf{BR:} Any soldiers?\\
+\textbf{MF:} I am soldier yeah.\\
+\textbf{BR:} Would you like to pair with me? (2.0) to rescue a fuel?\\
+\textbf{MF:} what are you after?\\
+\textbf{BR:} I am a firefighter.\\
+\textbf{MF:} Soldier and firefighter is fuel isn`t it?\\
+\textbf{BR:} yeah.\\
+\textbf{MF:} What can we get? (2.0) ((looks at screen)) this one in the center? ((points at screen))\\
+\textbf{BR:} ((glances MF`s screen)) I think there are two people going for that. I think we should go for this one ((points at screen)).\\
+\textbf{MF:} We are going to get killed ((both laugh)).\\
+}
+\emph{[The team begins walking to target.]}\\
+\end{minipage}} 
 
 The episode shows how teaming and task allocation are achieved opportunistically between BR and MF, with BR already waiting at the drop-off zone. Field responders also confirmed their opportunistic behaviour in the interview:\\
 
-``Just save the closest target then just pair up and go to the other one'' [P2] ``We just check, with that group, which target we can get. We see on the map to find the closet one we can get.'' [P4]\\
+\begin{quote}
+``Just save the closest target then just pair up and go to the other one'' 
+\end{quote}
+
+
+\begin{quote}
+``We just check, with that group, which target we can get. We see on the map to find the closet one we can get.''
+\end{quote}
 
 BR and MF can then be observed sharing the screen of his device and using the map to identify potential targets. They realise one of them is already being pursued by another team. They agree on another target to pursue. Note that messages do not play a role in this episode. It exemplifies how teaming and task allocation are achieved locally, without consulting HQ.\\
 
 % Add an episode from my part how the field responder resolve conflicts, suggest it is opportunistic. 
-
+\subsection{HQ performance (if necessary)}
 
 
 \subsection{Messages as a resource of situational awareness}
@@ -213,35 +260,56 @@ In the Radiation Response Game, field responders need to be aware of what other 
 
 The episode takes place towards the end of game session B. The radioac- tive cloud has grown so much that navigation in the game area becomes increas- ingly difficult. MF is with a group of five responders, two of which are carrying an animal. The cloud is blocking their way towards the drop off zone; they stop.\\
 
-MF: ((reads message from HQ out loud)) There is another leak around Geospatial. (1.0) Which is Ah: so there`s a leak sprung up there. ((points)) Geospatial is like (.) that building right there. They say there is another leak. We should go all the way round (0.5) to the top left one, I think.
+\noindent\Mybox{\begin{minipage}[b]{\textwidth}
+\texttt{
+\textbf{MF:} ((reads message from HQ out loud)) There is another leak around Geospatial. (1.0) Which is Ah: so there`s a leak sprung up there. ((points)) Geospatial is like (.) that building right there. They say there is another leak. We should go all the way round (0.5) to the top left one, I think.\\
+}
+\end{minipage}}
 
 MF brings up HQ`s message of the new leak, and suggests a route around the new cloud. The group ends up following MF`s route suggestion as a result. News of the new cloud, provided by HQ, enables the group to change their route to avoid danger. We commonly observed responders sharing information that provides situational awareness through face-to-face conversation. In the previous example, MF shared the message with a group of responders he was with already. The following example takes place between D2 and his teammate, as they are approached by JH, who is currently without teammate.\\
 
-insert fragment here\\
+\noindent\Mybox{\begin{minipage}[b]{\textwidth}
+\texttt{
+\textbf{JH:} Where are you guys heading? D2: To get the fuel.\\
+\textbf{JH:} Okay. The closest one to you? D2: I believe so.\\
+\textbf{JH:} Ya okay cuz I think the leak is somewhere near the other one and the army. [referring to building]\\
+\textbf{D2:} Oh (.) which one?\\
+\textbf{JH:} They sent a message saying its between territorial army center. D2: We are trying to get the one here ((points)).\\
+\textbf{JH:} The closest one. Okay.\\
+}
+\end{minipage}} 
+
 
 Making use of the map as he approaches them, JH asks the others to clarify which fuel they intend to pursue (the closest one to you?). He proceeds to inform the team that the ``leak is somewhere near the other one''. D2`s re- sponse (Oh, which one?) suggests they did not know this. In turn, JH elaborates on the location of the cloud, using an anonymous ``they'' to refer to the source of his information. ``They'' is likely to refer to HQ as they previously sent a message with the information of the cloud`s location. Conversational sharing of important information was a common resource responders employed to achieve and maintain situational awareness. However, requests for information were regularly not reciprocated with a response: out of 14 requests in session A, 8 were not responded upon; and in session B, 14 out of 20 requests were not responded upon.\\
 
-\section{Discussion}
-% need to connect with the the episode presented. 
 
 
+
+\section{Design Requirements}
 We now discuss the requirements for team coordination that emerged from the game and relate them to broader concerns for the design of HAC systems that support team coordination.\\
 
-The embodied game probe embedded responders in a challenging setting. They needed to communicate effectively to make time critical decisions on teaming and task allocation, both locally in the field as well as remotely through messaging. Field responders physically engage and navigate the environment to perform tasks while maintaining awareness of risk and danger. The data reveals multiple challenges for team coordination involving communication and decision-making. 
+The embodied game probe embedded responders in a challenging setting. They needed to communicate effectively to make time critical decisions on teaming and task allocation, both locally in the field as well as remotely through messaging. Field responders physically engage and navigate the environment to perform tasks while maintaining awareness of risk and danger. The data reveals multiple challenges for team coordination involving communication and decision-making. \\
 
-Local decision-making. The study showed that teaming and task allocation were predominantly organised locally among field responders, in an opportunistic, on- the-fly fashion. Despite the fact that headquarters attempted to coordinate task al- location remotely, few of these directives were brought to conversation locally. Only 2 out of 16 tasks that field responders completed were remotely allocated by HQ. Local decision-making needs to be supported by HAC systems that aim to support time-critical team coordination, and need to integrate capabilities to ena- ble team-wide sharing of the local decisions.\\
+\textbf{Local decision-making} The study showed that teaming and task allocation were predominantly organised locally among field responders, in an opportunistic, on- the-fly fashion. Despite the fact that headquarters attempted to coordinate task al- location remotely, few of these directives were brought to conversation locally. Only 2 out of 16 tasks that field responders completed were remotely allocated by HQ. Local decision-making needs to be supported by HAC systems that aim to support time-critical team coordination, and need to integrate capabilities to ena- ble team-wide sharing of the local decisions.\\
 
-Coordinate resources. While field responders made decisions on teaming and task allocation in a seemingly ad hoc fashion, game data reveals how field responders draw on resources to achieve situational awareness in order to coordinate successfully. A common understanding of the location and movement of the radia- tion cloud was achieved by sharing information from game messages verbally in a local group. Face-to-face talk was an essential resource for relaying information from the Mobile Responder App to teammates, such as radioactive exposure, oth- ers` whereabouts, task status, and other monitoring of the broadcast messages. Future HAC systems need to take into account that such coordinate resources are likely to be comprised of digital as well as embodied human resources. 
+\textbf{Coordinate resources} While field responders made decisions on teaming and task allocation in a seemingly ad hoc fashion, game data reveals how field responders draw on resources to achieve situational awareness in order to coordinate successfully. A common understanding of the location and movement of the radia- tion cloud was achieved by sharing information from game messages verbally in a local group. Face-to-face talk was an essential resource for relaying information from the Mobile Responder App to teammates, such as radioactive exposure, oth- ers` whereabouts, task status, and other monitoring of the broadcast messages. Future HAC systems need to take into account that such coordinate resources are likely to be comprised of digital as well as embodied human resources. 
 
-Geospatial referencing. The results show that geospatial referencing was problematic in various ways, particularly in directive messages sent to the field players. Participants had different levels of knowledge of the campus, which made understanding of landmark references uncertain. Some participants also struggled with making sense of north/south/east/west directions in relation to their current position and orientation. To deal with misunderstandings, players had to ask for clarification via messages or spend valuable time discussing the reference locally in order to understand it. Consistent with the findings of Toups et al. (2009), de- signers need to think carefully about how the presentation layer of HAC systems may be augmented with information that facilitates geospatial referencing (e.g., grids, labelling etc.) to facilitate human in addition to machine readability. Freshness of messages. Problems arose from erroneous instructions or otherwise out-dated messages sent to field responders. In one case HQ sent a message in which two players with non-compatible roles were instructed to team up. This was particularly costly, as the players attempted to team up, and lost valuable time until they realised the game mechanics barred them from forming a team.\\
+\textbf{Geospatial referencing} The results show that geospatial referencing was problematic in various ways, particularly in directive messages sent to the field players. Participants had different levels of knowledge of the campus, which made understanding of landmark references uncertain. Some participants also struggled with making sense of north/south/east/west directions in relation to their current position and orientation. To deal with misunderstandings, players had to ask for clarification via messages or spend valuable time discussing the reference locally in order to understand it. Consistent with the findings of Toups et al. (2009), de- signers need to think carefully about how the presentation layer of HAC systems may be augmented with information that facilitates geospatial referencing (e.g., grids, labelling etc.) to facilitate human in addition to machine readability. Freshness of messages. Problems arose from erroneous instructions or otherwise out-dated messages sent to field responders. In one case HQ sent a message in which two players with non-compatible roles were instructed to team up. This was particularly costly, as the players attempted to team up, and lost valuable time until they realised the game mechanics barred them from forming a team.\\
 
-As demonstrated in one of the episodes, reading out-dated messages in a dynamically changing environment can contribute to responders taking dangerous actions that they believe to be safe, because they do not realise that the infor- mation is out-dated. However, in most cases, recipients managed to identify temporally irrelevant messages, and thus avoided following them.\\
+\textbf{Freshness of messages} As demonstrated in one of the episodes, reading out-dated messages in a dynamically changing environment can contribute to responders taking dangerous actions that they believe to be safe, because they do not realise that the infor- mation is out-dated. However, in most cases, recipients managed to identify temporally irrelevant messages, and thus avoided following them.\\
 
 To reduce confusion about message freshness, HAC systems should address these issues at the UI level, both for responders and for HQ. Develop functionality to flag messages as out-dated or retract incorrect messages. Up-to-date messages are particularly valuable. Thus, our findings support the use of fresh social media as a source of information for disaster response, despite problems that can arise with validation, because crowdsourced information will in many cases provide better coverage than official sources.\\
 
-Acknowledgement of messages. In most cases, field responders did not acknowledge or respond to messages sent by the HQ. This was particularly problematic for directives (task allocation), as task status and field responder compliance often had to be inferred by observing their location updates on the map. This consumed HQ attention, with negative impact on HQ`s overall work on state assessment and task planning. Observations in the field suggest that the physical demands (e.g., co-located team movement through terrain at speed) and cognitive demands to maintain situational awareness (e.g., monitoring of radioactivity and messages) are likely factors that explain lack of acknowledgement.\\
+\textbf{Acknowledgement of messages} In most cases, field responders did not acknowledge or respond to messages sent by the HQ. This was particularly problematic for directives (task allocation), as task status and field responder compliance often had to be inferred by observing their location updates on the map. This consumed HQ attention, with negative impact on HQ`s overall work on state assessment and task planning. Observations in the field suggest that the physical demands (e.g., co-located team movement through terrain at speed) and cognitive demands to maintain situational awareness (e.g., monitoring of radioactivity and messages) are likely factors that explain lack of acknowledgement.\\
 
 As a result, user interfaces that enable and encourage field responders to quickly acknowledge HQ messages, with minimum cognitive load, should be consid- ered for messaging in HAC systems in such high demand settings. For effective team coordination in disaster response, interface and workflow designs need to factor in cognitive load and task demands for effective information distribution.\\
+
+\section{Performance implications}
+\subsection{Balance the role between HQ and Field Responders}
+\subsection{Common ground}
+Avoid communication breakdown.
+\subsection{Accountability}
+
 
 \section{Conclusion}
 The objective of the research presented here was to generate requirements for sup- porting time-critical team coordination. In particular, we focussed on a scenario in which responders coordinate role-based teaming and spatially distributed task al- location and execution using a real-time location and messaging system.\\
