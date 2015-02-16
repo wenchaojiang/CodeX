@@ -58,11 +58,10 @@
 \contentsline {subsection}{\numberline {5.4.3}Local coordination without HQ}{56}{subsection.5.4.3}
 \contentsline {subsection}{\numberline {5.4.4}HQ performance (if necessary)}{57}{subsection.5.4.4}
 \contentsline {subsection}{\numberline {5.4.5}Messages as a resource of situational awareness}{57}{subsection.5.4.5}
-\contentsline {section}{\numberline {5.5}Design Requirements}{59}{section.5.5}
-\contentsline {section}{\numberline {5.6}Performance implications}{62}{section.5.6}
-\contentsline {subsection}{\numberline {5.6.1}Division of labour between HQ and Field Responders}{63}{subsection.5.6.1}
-\contentsline {subsection}{\numberline {5.6.2}Common ground}{64}{subsection.5.6.2}
-\contentsline {subsection}{\numberline {5.6.3}Accountability}{64}{subsection.5.6.3}
+\contentsline {section}{\numberline {5.5}Performance implications}{59}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Division of labour between HQ and Field Responders}{60}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Enhancing the remote coordination}{61}{subsection.5.5.2}
+\contentsline {section}{\numberline {5.6}Design Requirements}{62}{section.5.6}
 \contentsline {section}{\numberline {5.7}Conclusion}{65}{section.5.7}
 \contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {AtomicOrchid Study 2: Agent supported HuOL design}}{67}{chapter.6}
 \contentsline {section}{\numberline {6.1}Introduction}{67}{section.6.1}

@@ -292,6 +292,38 @@ Making use of the map as he approaches them, JH asks the others to clarify which
 
 
 
+
+
+\section{Performance implications}
+This section will present broader concerns emerged from the game for the design of HAC systems that support team coordination.\\
+
+\subsection{Division of labour between HQ and Field Responders}
+Although there are attempts to provide instructions, the attempts are often problematic. As game setting provide the HQ exclusive access to location of radioactivity, they successfully provide informational messages about the radioactivity to field players. Field players are able to pick up the information and spread it to other field responders through face-to-face conversations.() Therefore, the main role of the HQ in the game is to provide situational awareness to the field responders. Although the field responders did not get too much planning support from HQ, they naturally organise themselves into small teams and carry out tasks. As shown in episode x and y,  face-to-face conversation is vital for task and team organisation. We observed that local team members collectively make sense of the messages and other game status shown on mobile screen. The decisions like choices of team, targets and routes are also predominately made through local conversations. [situated planning?]\\
+
+The pattern of division of labour between field responders and HQ indicates the weak role of remote coordination. The responder's choices of teams and targets seem to follow an ad-hoc manner as they heavily rely on face-to-face conversation for coordination. Despite some disruptions from communication channel (misunderstanding and confusions), the workflow of task rescue seems to be natural and smooth, as field players are always managed to find team-mates and avoid conflicts of pursued targets [connect to situated planning by Lucy suchman]. \\
+
+However, the ``ad-hoc'' local coordination indicates the absence of the notion of resource optimisation, which is often the main concern of multi-agent coordination algorithm. In a sense, it opens opportunity for computational support, but it also highlights some potential challenges for such support system. \\
+
+Firstly, it would be problematic if globally optimised choices conflict with the ``ad-hoc'' choices that are obvious for human field responders. As we can not assume either the agent or human choice will be always correct, we need to carefully design the interaction between human and agent to ensure that they can collectively reach a decision.\\
+
+Secondly, there is a danger to impose an inappropriate ``work model'' (assumed by agent support) on the human team. For example, current division of labour between HQ and field responder suggest that field responders are comfortable with HQ being a supportive role (providing situational awareness). However, a centralized coordination algorithm may need to coordinate the whole team, requiring every players to follow top-down instructions to reach global optimum of resource allocation. In that case, the role of control room may need to change and it is unknown whether the change will disrupt or support natural human workflow.[] \\
+
+\subsection{Enhancing the remote coordination}
+
+The local coordination is dominate? partly because conversation for co-located players are easier, in that they can make their actions observationable and reportable. However, remote coordination is hard because geospatial distribution make the accountability opaque. In that sense, the dominatence of of local coordination can be seen as fall-back when remote coordination is not supported. 
+
+Although a set of functionalities including GPS/map sharing, broadcasting has been provided, coordinating with remote players through interacting with current mobile and web is still problematic which can be evidenced by frustrations in communication\\
+
+1. lack of acknowledgement. 
+2. misunderstandings and confusion of HQ directives. ()
+
+We suggest the future support HACs should properly support remote coordination in a way that facilitate accountability among distributed team members. The next section discuss the  requirements of remote coordination support in more details. 
+
+%{The natural social order that employed by the team members to make sense of the task environment. Players are observed to constantly revealing to others their action and plans via face to face conversation. CSCW concern that Geo-spatial distribution distributed  hinders team member's attempt maintain accountability . The lack of response in the communication channel shows that. The form of communication in this study appears to be unable to support the team member's accountability. The missing of remote coordination and the weak role of HQ in the planning activities may indicate communication breakdown, which can also be confirmed by a number of observations of understanding and confusions in the communication channel (see x.x.x).\\From this perspective, the domination of local coordination . Some of the reasons?
+
+
+%}
+
 \section{Design Requirements}
 We now discuss the requirements for team coordination that emerged from the game.\\
 
@@ -310,33 +342,6 @@ To reduce confusion about message freshness, HAC systems should address these is
 \textbf{Acknowledgement of messages} In most cases, field responders did not acknowledge or respond to messages sent by the HQ. This was particularly problematic for directives (task allocation), as task status and field responder compliance often had to be inferred by observing their location updates on the map. This consumed HQ attention, with negative impact on HQ`s overall work on state assessment and task planning. Observations in the field suggest that the physical demands (e.g., co-located team movement through terrain at speed) and cognitive demands to maintain situational awareness (e.g., monitoring of radioactivity and messages) are likely factors that explain lack of acknowledgement.\\
 
 As a result, user interfaces that enable and encourage field responders to quickly acknowledge HQ messages, with minimum cognitive load, should be consid- ered for messaging in HAC systems in such high demand settings. For effective team coordination in disaster response, interface and workflow designs need to factor in cognitive load and task demands for effective information distribution.\\
-
-\section{Performance implications}
-This section will present broader concerns emerged from the game for the design of HAC systems that support team coordination.\\
-
-\subsection{Division of labour between HQ and Field Responders}
-Although there are attempts to provide instructions, the attempts are often problematic. As game setting provide the HQ exclusive access to location of radioactivity, they successfully provide informational messages about the radioactivity to field players. Field players are able to pick up the information and spread it to other field responders through face-to-face conversations.() Therefore, the main role of the HQ in the game is to provide situational awareness to the field responders. Although the field responders did not get too much planning support from HQ, they naturally organise themselves into small teams and carry out tasks. As shown in episode x and y,  face-to-face conversation is vital for task and team organisation. We observed that local team members collectively make sense of the messages and other game status shown on mobile screen. The decisions like choices of team, targets and routes are also predominately made through local conversations. [situated planning?]\\
-
-The pattern of division of labour between field responders and HQ indicates the weak role of remote coordination. The responder's choices of teams and targets seem to follow an ad-hoc manner as they heavily rely on face-to-face conversation for coordination. Despite some disruptions from communication channel (misunderstanding and confusions), the workflow of task rescue seems to be natural and smooth, as field players are always managed to find team-mates and avoid conflicts of pursued targets [connect to situated planning by Lucy suchman]. \\
-
-However, the ``ad-hoc'' local coordination indicates the absence of the notion of resource optimisation, which is often the main concern of multi-agent coordination algorithm. In a sense, it opens opportunity for computational support, but it also highlights some potential challenges for such support system. \\
-
-Firstly, it would be problematic if globally optimised choices conflict with the ``ad-hoc'' choices that are obvious for human field responders. As we can not assume either the agent or human choice will be always correct, we need to carefully design the interaction between human and agent to ensure that they can collectively reach a decision.\\
-
-Secondly, there is a danger to impose an inappropriate ``work model'' (assumed by agent support) on the human team. For example, current division of labour between HQ and field responder suggest that field responders are comfortable with HQ being a supportive role (providing situational awareness). However, a centralized coordination algorithm may need to coordinate the whole team, requiring every players to follow top-down instructions to reach global optimum of resource allocation. In that case, the role of control room may need to change and it is unknown whether the change will disrupt or support natural human workflow.[] \\
-
-
-
-\subsection{Common ground}
-The missing of remote coordination and the weak role of HQ in the planning activities may indicate communication breakdown, which is also indicated by series of observations of understanding and confusions in the communication channel (see x.x.x).\\
-
-From this perspective, the domination of local coordination . Some of the reasons?
-
-
-\subsection{Accountability}
-The natural social order that employed by the team members to make sense of the task environment. Players are observed to constantly revealing to others their action and plans via face to face conversation. 
-
-CSCW concern that Geo distribution hinders team member's attempt maintain accountability . The lack of response in the communication channel shows that. The form of communication in this study appears to be unable to support the team member's accountability. 
 
 
 \section{Conclusion}
