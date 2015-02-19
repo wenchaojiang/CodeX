@@ -113,12 +113,13 @@
 \contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Conclusion}}{123}{chapter.8}
 \contentsline {section}{\numberline {8.1}Summary of approach}{123}{section.8.1}
 \contentsline {section}{\numberline {8.2}Summary of findings}{123}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}Summary of interface evolutions}{126}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}HuOL vs HuIL}{130}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}Establishing Common Ground}{134}{subsection.8.2.3}
-\contentsline {subsection}{\numberline {8.2.4}Faciliate Accountability}{136}{subsection.8.2.4}
-\contentsline {section}{\numberline {8.3}Limitation}{136}{section.8.3}
-\contentsline {section}{\numberline {8.4}future work}{137}{section.8.4}
+\contentsline {section}{\numberline {8.3}Summary of interface evolutions}{126}{section.8.3}
+\contentsline {section}{\numberline {8.4}Summary of interactional issues}{130}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Division of labour}{131}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Establishing Common Ground}{134}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.3}Faciliating Accountability}{136}{subsection.8.4.3}
+\contentsline {section}{\numberline {8.5}Limitation}{136}{section.8.5}
+\contentsline {section}{\numberline {8.6}future work}{137}{section.8.6}
 \contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Appendix}}{139}{part.5}
 \contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{141}{appendix.A}
 \contentsline {section}{\numberline {A.1}Appendix Section Test}{141}{section.A.1}

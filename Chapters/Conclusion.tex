@@ -7,20 +7,20 @@ This PhD work use Mixed reality game - AtomicOrchid as a testbed to probe the de
 
 
 \section{Summary of findings}
-Three studies are carried out iteratively. The AtomicOrchid system evolves throughout the three studies. The interaction design for the study 2 and 3 follows the design patterns (HuOL and HuIL), but are also inspired by key observations from previous studies. The key observations leads to both high level system design implications and detailed system requirements which inspires system evolution across the three trials (see figure \ref{fig:connections}).  The section \ref{sec:conclusionIE}  will give details how the system evolves and the interface design rationales. The main design implications will be detailed in section \ref{sec:conclusionHH},\ref{sec:conclusionCG},\ref{sec:conclusionAC}.  In what follows, the section will give a brief overview of the key observations from the three studies.\\ 
+Three studies are carried out iteratively. The AtomicOrchid system evolves throughout the three studies. The interaction design for the study 2 and 3 follows the design patterns (HuOL and HuIL), but are also inspired by key observations from previous studies. The key observations leads to both interactional issues and detailed system requirements which inspires system evolution across the three trials (see figure \ref{fig:connections}).  The section \ref{sec:conclusionIE}  will give details about how the system evolves and the interface design rationales. The interactional issues emerged from field observations will be detailed in section\ref{sec:conclusionIssue}.  In what follows, the section will give a brief overview of the key observations from the three studies.\\ 
 
 
 \begin{figure}[h]
   \centering
   \includegraphics[width=1\textwidth]{img/conclusion/connections}
-  \caption{ Contributions of the studies: Design requirements and implications}
+  \caption{ Interaction issues and interface improvements}
   \label{fig:connections}
 \end{figure}
 
 The non-agent AtomicOrchid trial (study 1) is aimed to give insight into how human conduct planning (without agent support) in the time and spatially constrained disaster settings and to generate general requirements of coordination support system which is also applicable to the next two agent-integrated version of AtomicOrchid. The result of interaction analysis showed the team planning is dominated by local coordination between field players with in an ``ad-hoc'' manner. The field teams managed organise their team and task allocations without conflicts. The HQ is found to successfully provide awareness of the ``danger zone'' to the field teams. However, they have little influence on the planning activities of the team. One potential reason could be the breakdown of communication between HQ and Field responders. The communication is thought to be affected by a set of factors including communication modalities (text vs voice), training level of players and HQ and system interface designs. A number of system requirements has also be introduced in the study 1 , which inspires system evolutions in the subsequent studies. \\
 
 
-In study 2, a planning agent is integrated to the system with the HuOL interaction design. The general requirements from study 1 leads to a number of system improvements (see figure \ref{sec:conclusionIE}) in study 2, which help us to avoid non-agent related factors in field trials. Through interaction analysis, we find division of labour between human and agent (see section \ref{sec:studytwointroduction}) in which the agent takes over routine planning activities while the human focus on other issues such as navigation. However, there are also evidence showing the agent planning occasionally interrupts workflow of human team because it fails to consider social cost and coordination overhead of task changes. We also observed HQ player struggled to influence the plan because the lack of interface level support. Further, a set of misconceptions in feedback loops (see section \ref{sec:studytwofeedback}) are also observed.\\
+In study 2, a planning agent is integrated to the system with the HuOL interaction design. The general requirements from study 1 leads to a number of system improvements (see figure \ref{sec:conclusionIE}) in study 2, which help us to avoid non-agent related factors in field trials. Through interaction analysis, we gain insight into the division of labour between human and agent (see section \ref{sec:studytwointroduction}) in which the agent takes over routine planning activities while the human focus on other issues such as navigation. However, there are also evidence showing the agent planning occasionally interrupts workflow of human team because it fails to consider social cost and coordination overhead of task changes. We also observed HQ player struggled to influence the plan because the lack of interface level support. Further, a set of misconceptions in feedback loops (see section \ref{sec:studytwofeedback}) are also observed.\\
 
 In study 3, the system is evolved to facilitate HuIL interaction with the feedback from study 2. The main changes are a number of interface functionalities which enable HQ to approve, edit agent planning and monitor player feedbacks. Through observing the usage of this new functionalities in the control room, we found a new pattern division of labour between in which:
 	\begin{enumerate}
@@ -32,7 +32,7 @@ In study 3, the system is evolved to facilitate HuIL interaction with the feedba
 	
 Further observation shows that coordination overhead caused by the agent planning (observed in study 2) may have been reduced as a result of greater HQ involvement in the planning. Analysis of some failed cases of coordination also points out a number of issues, which highlights potential human performance issues as a result of the greater HQ involvement in the planning. [ TO be finalised ]  \\
 
-\subsection{Summary of interface evolutions}\label{sec:conclusionIE}
+\section{Summary of interface evolutions}\label{sec:conclusionIE}
 The section presents the interface evolutions of AtomicOrchid interface across three field studies and the design rationales behind it. The initial interface of AtomicOrchid (used in 1st study) is designed to display game status and provide broadcasting channel to support communication. In the first study, the control room is manned by 2-3 HQ players. Every HQ shares a same interface which shows game status on a map. A chat box is provided to send and receive broadcasting messages. The mobile interface is used by field responders. The responders share a same map with HQ, which displays game status with the exception of radioactive cloud. The messaging interface is placed in another tab.(see figure \ref{fig:study1interface})\\ 
 
 
@@ -79,8 +79,10 @@ For mobile interface, the tabs of ``staus'' and ``chat'' kept unchanged from the
   \caption{Mobile Interface of study 3}
   \label{fig:study3interfacemobile}
 \end{figure}
+\section{Summary of interactional issues}\label{sec:conclusionIssue}
+There are a number of interactional issues emerged from the field observations of the three studies. This section will reflect on interactional issues related to 3 themes including Division of labour, common ground, and accountability.
 
-\subsection{HuOL vs HuIL}\label{sec:conclusionHH}
+\subsection{Division of labour}\label{sec:conclusionHH}
 The HuOL and HuIL interaction designs have been trialled in two studies. The section will reflect on some of the findings related to the two interaction design patterns. \\
 
 To recap, the main distinction between the two interaction design is the extent to which the human HQ is involved in routine task planning. The HuOL  argues the minimal involvement of human HQ, leaving the agent to deal with the planning. HQ only need to deal with occasional contingencies. The HuIL requires constant HQ agent interaction to ensure the planning quality. Guided by these two patterns, detailed system design has been implemented.\\
@@ -88,7 +90,7 @@ To recap, the main distinction between the two interaction design is the extent 
 \begin{figure}[h]
   \centering
   \includegraphics[width=1\textwidth]{img/conclusion/huilvshuol}
-  \caption{HuIL vs HuOL}
+  \caption{On-the-loop vs In-the-loop}
   \label{fig:huilvshuol}
 \end{figure}
 
@@ -106,7 +108,7 @@ As HQ is responsible for review and approval in HuIL design, they are found to m
 \item HQ's ability to intervene agent planning is required for both HuIL and HuOL design pattern.\\
 Compared to HuIL study, the HQ players in HuOL study are found to struggle to intervene the planning process. This performance difference can not be directly linked to the distinction between HuOL and HuIL. In HuOL study, the only way for HQ to intervene the planning is to send unstructured text messages in broadcast channel. HQ's ability to intervene has been greatly enhanced by a set of interface support introduced in the HuIL study. Some of the interface support is inspired by the implications from HuOL study. It highlights the need of interface support for HQ intervention because both HuOL and HuIL requires HQ get involved when necessary. \\
 
-\item Greater human involvement is likely to introduce human mistakes. \\
+\item Greater human involvement may introduce human mistakes. \\
 Compared to HuOL, the HuIL design is more likely to introduce human mistakes as the design advocates greater human involvements. There is a case of  human "death" occurred  when field players were trying to follow a human generated plan in the HuIL trial.  Although there are lots of factors contributing to the `death' case (e.g. insufficient training for field play, communication breakdown), the task assignment is thought to be too risky and not recommended by the agent at the first place. It is believed that the chance of human mistakes can be reduced by appropriate design interaction which help establishing the `common ground' between human and agent. However, such a design would not be as easy task as it involves multiple design trade-offs  (see section \ref{sec:conclusionCG})[Need to expand in study section]
 
 \end{enumerate}
@@ -130,7 +132,7 @@ Misunderstanding between agent and human is also observed in the feedback loop i
 Although, we have identified a range of information which is missing for establishing "Common Ground", presenting the information could be also challenging. The information should be delivered in right form (e.g text, visualisation, dialogs) and in right time (e.g. pop up or on HQ request?)[] Especially in the multi-tasking, time-critical settings like AtomicOrchid, multiple sources of information can compete for attention of the human operator. Information overload could be a real danger of interaction design in this setting. Therefore, the  way for exposing agent's information and its human performance consequence may need to be further studied.   \\
 
 
-\subsection{Faciliate Accountability}\label{sec:conclusionAC}
+\subsection{Faciliating Accountability}\label{sec:conclusionAC}
 
 \section{Limitation}
 This section will outline some of the limitations of this PhD work. \\
