@@ -7,7 +7,7 @@ This PhD work use Mixed reality game - AtomicOrchid as a testbed to probe the de
 
 
 \section{Summary of findings}
-Three studies are carried out iteratively. The AtomicOrchid system evolves throughout the three studies. The interaction design for the study 2 and 3 follows the design patterns (HuOL and HuIL), but are also inspired by key observations from previous studies. The key observations leads to both high level system design implications and detailed system requirements which inspires system evolution across the three trials (see figure \ref{fig:connections}).  The section \ref{sec:conclusionIE}  will give details how the system evolves and the interface design rationales behind. The main design implications will be detailed in section \ref{sec:conclusionHH},\ref{sec:conclusionCG},\ref{sec:conclusionAC}  In what follows, the section will give a brief overview of the key observations from the three studies.\\ 
+Three studies are carried out iteratively. The AtomicOrchid system evolves throughout the three studies. The interaction design for the study 2 and 3 follows the design patterns (HuOL and HuIL), but are also inspired by key observations from previous studies. The key observations leads to both high level system design implications and detailed system requirements which inspires system evolution across the three trials (see figure \ref{fig:connections}).  The section \ref{sec:conclusionIE}  will give details how the system evolves and the interface design rationales. The main design implications will be detailed in section \ref{sec:conclusionHH},\ref{sec:conclusionCG},\ref{sec:conclusionAC}.  In what follows, the section will give a brief overview of the key observations from the three studies.\\ 
 
 
 \begin{figure}[h]
@@ -17,10 +17,10 @@ Three studies are carried out iteratively. The AtomicOrchid system evolves throu
   \label{fig:connections}
 \end{figure}
 
-The non-agent AtomicOrchid trial (study 1) is aimed to give insight into how human conduct planning (without agent support) in the time and spatially constrained disaster settings and to generate general requirements of coordination support system which is also applicable to the next two agent-integrated version of AtomicOrchid. The result of interaction analysis showed the team planning is dominated by local coordination between field players with opportunistic manner. The HQ is found to have little influence on the planning activities of the team. Potential reasons could be the breakdown of communication between HQ and Field responders. The communication is thought to be affected by a set of factors including communication modalities (text vs voice), training level of players and HQ and system interface designs. A number of system requirements has also be introduced in the study 1 , which inspires system evolutions in the subsequent studies. \\
+The non-agent AtomicOrchid trial (study 1) is aimed to give insight into how human conduct planning (without agent support) in the time and spatially constrained disaster settings and to generate general requirements of coordination support system which is also applicable to the next two agent-integrated version of AtomicOrchid. The result of interaction analysis showed the team planning is dominated by local coordination between field players with in an ``ad-hoc'' manner. The field teams managed organise their team and task allocations without conflicts. The HQ is found to successfully provide awareness of the ``danger zone'' to the field teams. However, they have little influence on the planning activities of the team. One potential reason could be the breakdown of communication between HQ and Field responders. The communication is thought to be affected by a set of factors including communication modalities (text vs voice), training level of players and HQ and system interface designs. A number of system requirements has also be introduced in the study 1 , which inspires system evolutions in the subsequent studies. \\
 
 
-In study 2, a planning agent is integrated to the system with the HuOL interaction design. The general requirements from study 1 leads to a number of system improvements(see figure \ref{fig:connections}) in study 2, which help us to avoid non-agent related factors in field trials. Through interaction analysis, we find division of labour between human and agent (see section \ref{sec:studytwointroduction}) in which the agent takes over routine planning activities while the human focus on other issues such as navigation. However, there are also evidence showing the agent planning occasionally interrupts workflow of human team because it fails to consider social cost and coordination overhead of task changes. We also observed HQ player struggled to influence the plan because the lack of interface level support. Further, a set of misconceptions in feedback loops (see section \ref{sec:studytwofeedback}) are also observed.\\
+In study 2, a planning agent is integrated to the system with the HuOL interaction design. The general requirements from study 1 leads to a number of system improvements (see figure \ref{sec:conclusionIE}) in study 2, which help us to avoid non-agent related factors in field trials. Through interaction analysis, we find division of labour between human and agent (see section \ref{sec:studytwointroduction}) in which the agent takes over routine planning activities while the human focus on other issues such as navigation. However, there are also evidence showing the agent planning occasionally interrupts workflow of human team because it fails to consider social cost and coordination overhead of task changes. We also observed HQ player struggled to influence the plan because the lack of interface level support. Further, a set of misconceptions in feedback loops (see section \ref{sec:studytwofeedback}) are also observed.\\
 
 In study 3, the system is evolved to facilitate HuIL interaction with the feedback from study 2. The main changes are a number of interface functionalities which enable HQ to approve, edit agent planning and monitor player feedbacks. Through observing the usage of this new functionalities in the control room, we found a new pattern division of labour between in which:
 	\begin{enumerate}
@@ -53,7 +53,7 @@ The 1st study discovered several flaws of the initial interface, which leads to 
 	 \item The interface should provide support for geo-reference.
 \end{enumerate}
 
-A set of changes in the 2ed version (used in study 2) of AtomicOrchid are partly inspired by the requirements (see figure \ref{fig:study2interface}). In 2rd version, all targets are identified by unique task ids to support geo-referencing. Text messages in broadcasting channel are labelled by time stamp to indicate validity of the information. With introduction of planning agent, the interface also supports quick feedback to the agent with one button press. To integrate agent planning support, a new tab (``task'') in implemented in the mobile app to show a text-based description of agent task-assignment. In HQ interface, the agent assignments can be revealed on request of the HQ players (HQ clicking on "show task" button).\\
+A set of changes in the 2ed version (used in study 2) of AtomicOrchid are partly inspired by the requirements (see figure \ref{fig:study2interface}). In 2rd version, all targets are identified by unique task ids to support geo-referencing. Text messages in broadcasting channel are labelled by time stamp to flag potentially outdated information. With introduction of planning agent, the interface also supports quick feedback to the agent with one button press. To integrate agent planning support, a new tab (``task'') in implemented in the mobile app to show a text-based description of agent task-assignment. In HQ interface, the agent assignments can be revealed on request of the HQ players (HQ clicking on "show task" button).\\
 
 \begin{figure}[H]
   \centering
@@ -68,7 +68,7 @@ The result of the 2ed study revealed that interface level support for HQ interve
   \centering
   \includegraphics[width=1\textwidth]{img/conclusion/study3interfaceHQ}
   \caption{HQ Interface of study 3}
-  \label{fig:study3interfacemobile}
+  \label{fig:study3interfacehq}
 \end{figure}
 
 For mobile interface, the tabs of ``staus'' and ``chat'' kept unchanged from the version 2 (named ``map'' and ``messages''). The task interface is enhanced by a map-based presentation of task assignment and the task-specific chat box is displayed below the assignment (see figure \ref{fig:study3interfacemobile}.
@@ -77,7 +77,7 @@ For mobile interface, the tabs of ``staus'' and ``chat'' kept unchanged from the
   \centering
   \includegraphics[width=1\textwidth]{img/conclusion/study3interfaceMobile}
   \caption{Mobile Interface of study 3}
-  \label{fig:study3interfacehq}
+  \label{fig:study3interfacemobile}
 \end{figure}
 
 \subsection{HuOL vs HuIL}\label{sec:conclusionHH}
@@ -100,12 +100,11 @@ There are several performance differences between the HuIL and HuOL studies. Dir
 As we have summarised in section \ref{sec:huilimperfection}, there are evidence showing that the HuOL design is more likely to cause extra coordination overhead when compared to the HuIL design. In study 2, HQ has been observed to deliberately avoid unnecessary task interruptions and team reformations caused by agent planning, which in turn, reduce the coordination overhead. It can be argued that the difference is simply caused by lack of reliability of the agent. Advanced agent planner which can better model the social process involved in task changes and take into account the possible overhead. However, given the social process might be hard to be modelled, the HuIL design can be useful to overcome the agent's limitation and utilise its capability at the same time.\\
 
 
-\item The HuIL design may help maintain higher situational awareness[Need expand in study chapter]\\
-As HQ is responsible for review and approval in HuIL design, they are found to maintain higher situational awareness when compared to the HuOL design. The observation is consistent with a well observed phenomena that the Human operator controlling a highly automated system is likely to loss situational awareness.\\
-
+\item The HuIL design may help maintain higher situational awareness [Need expand in study chapter]\\
+As HQ is responsible for review and approval in HuIL design, they are found to maintain higher situational awareness when compared to the HuOL design. The observation is consistent with a well observed phenomena that the Human operator controlling a highly automated system is likely to loss situational awareness. [So?] \\
 
 \item HQ's ability to intervene agent planning is required for both HuIL and HuOL design pattern.\\
-This performance difference can not be directly linked to the distinction between HuOL and HuIL. In HuOL study, HQ is observed to struggle to influence the planning process, because the only way to intervene the planning is to send unstructured text messages in broadcast channel. HQ's ability to intervene has been greatly enhanced by a set of interface support introduced in the HuIL study. Some of the interface support is inspired by the implications from HuOL study. It highlights the need of interface support for HQ intervention because both HuOL and HuIL requires HQ get involved when necessary. \\
+Compared to HuIL study, the HQ players in HuOL study are found to struggle to intervene the planning process. This performance difference can not be directly linked to the distinction between HuOL and HuIL. In HuOL study, the only way for HQ to intervene the planning is to send unstructured text messages in broadcast channel. HQ's ability to intervene has been greatly enhanced by a set of interface support introduced in the HuIL study. Some of the interface support is inspired by the implications from HuOL study. It highlights the need of interface support for HQ intervention because both HuOL and HuIL requires HQ get involved when necessary. \\
 
 \item Greater human involvement is likely to introduce human mistakes. \\
 Compared to HuOL, the HuIL design is more likely to introduce human mistakes as the design advocates greater human involvements. There is a case of  human "death" occurred  when field players were trying to follow a human generated plan in the HuIL trial.  Although there are lots of factors contributing to the `death' case (e.g. insufficient training for field play, communication breakdown), the task assignment is thought to be too risky and not recommended by the agent at the first place. It is believed that the chance of human mistakes can be reduced by appropriate design interaction which help establishing the `common ground' between human and agent. However, such a design would not be as easy task as it involves multiple design trade-offs  (see section \ref{sec:conclusionCG})[Need to expand in study section]
@@ -131,14 +130,19 @@ Misunderstanding between agent and human is also observed in the feedback loop i
 Although, we have identified a range of information which is missing for establishing "Common Ground", presenting the information could be also challenging. The information should be delivered in right form (e.g text, visualisation, dialogs) and in right time (e.g. pop up or on HQ request?)[] Especially in the multi-tasking, time-critical settings like AtomicOrchid, multiple sources of information can compete for attention of the human operator. Information overload could be a real danger of interaction design in this setting. Therefore, the  way for exposing agent's information and its human performance consequence may need to be further studied.   \\
 
 
-\subsection{Accountability}\label{sec:conclusionAC}
+\subsection{Faciliate Accountability}\label{sec:conclusionAC}
 
 \section{Limitation}
+This section will outline some of the limitations of this PhD work. \\
 
-Serious game with untrained volunteers, limited time scale, simplified team structure.
-but there is time pressure, distributed team setting, and physical stress.
-How realistic is the game scenario (from RG workshop)
-We are not telling what is going to happen in the field but the implications can still be useful.
+By following a serious mixed reality game approach, the game AtomicOrchid is used to simulate some key factors of the distributed, time-critical task setting.  The fictitious game scenario can not completely mirror the setting of disaster operations. Firstly, the time-scale of planing is match longer in a rescue and reconnaissance mission (from hours up to days), while the AtomicOrchid only have 30 mins time-scale. Secondly, the disaster response teams always priorities critical tasks according to code of conduct (e.g. task with human injuries will always be prioritised. see section of RG interview). Therefore, the game objective of maximising targets saved may not match real goal of DR team.  \\
+
+Further, the seriousness of the simulation can also be a limitation of game approach. Participants are frequently observed to laugh and make jokes about their health values (life), which indicates they take the trials as a recreational experience. Therefore, the participants maybe less concerned about risk and life threats, when compared to real disaster setting. \\
+
+The untrained participants are recruited for the field trials. We anticipate that the behaviours of players in the game may change with their training experience. Further, the professional responders can also behave differently because they have high level of training, real experience of DR operations, different code of conduct and organisation structure.\\
+
+
+Overall, the PhD work employed a game approach, which has a number limitations in terms of game scenario, participants' altitude, and participants' selection.  We can not claim the observations of human behaviours would be exactly the same as what happens in the real disasters. However, we argue that the game-based approach managed to introduce some critical factors of DR operations, including time pressure, distributed team setting, and the mental/physical stress. Compared to computational simulation, the field trials can reveal rich human-system interactions under time and spatially constrained task environment. Therefore, we argue the observations from game trials are still valid and can be used to generate design implications for future HACs systems. 
 
 \section{future work}
 
