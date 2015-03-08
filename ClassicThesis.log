@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  8 MAR 2015 01:18
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  8 MAR 2015 13:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1590,7 +1590,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 19--20
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
 
  []
 
@@ -1599,12 +1599,12 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [29]
-Underfull \hbox (badness 10000) in paragraph at lines 26--27
+Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 28--29
+Underfull \hbox (badness 10000) in paragraph at lines 27--28
 
  []
 
@@ -1613,6 +1613,25 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [30]
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 41--42
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 43--44
 
  []
@@ -1623,10 +1642,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 45--46
  []
 
 
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[31]
 Underfull \hbox (badness 10000) in paragraph at lines 47--48
 
  []
@@ -1642,8 +1657,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--52
  []
 
 
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
+ []
+
+
+Overfull \hbox (3.26059pt too wide) in paragraph at lines 55--56
+[]\T1/pplj/b/n/10.95 Command-and-control struc-ture\T1/pplj/m/n/10.95 . The di-
+vi-sion of re-spon-si-bil-ity into
  []
 
 
@@ -1657,27 +1682,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 57--58
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 60--61
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
+
+ []
+
+
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[32]
-Underfull \hbox (badness 10000) in paragraph at lines 59--60
-
- []
-
-
-Overfull \hbox (3.26059pt too wide) in paragraph at lines 61--62
-[]\T1/pplj/b/n/10.95 Command-and-control struc-ture\T1/pplj/m/n/10.95 . The di-
-vi-sion of re-spon-si-bil-ity into
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 61--62
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
 
@@ -1687,31 +1706,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 66--67
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
 
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 70--71
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 75--76
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 77--78
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
 
  []
 
@@ -1720,6 +1720,21 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [34]
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--79
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 82--83
 
  []
@@ -1730,28 +1745,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 86--87
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 88--89
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
-
- []
-
-
-Overfull \hbox (23.86302pt too wide) in paragraph at lines 92--93
+Overfull \hbox (23.86302pt too wide) in paragraph at lines 86--87
 []\T1/pplj/m/n/10.95 The agents are de-vel-oped by OR-CHID Re-seach part-ners f
 rom Southamp-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
@@ -1760,17 +1760,17 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [35]
-Underfull \hbox (badness 10000) in paragraph at lines 105--106
+Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 109--111
+Underfull \hbox (badness 10000) in paragraph at lines 103--105
 
  []
 
@@ -1779,22 +1779,22 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [36]
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
+Underfull \hbox (badness 10000) in paragraph at lines 106--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 115--116
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
 
-Overfull \hbox (5.32419pt too wide) in paragraph at lines 130--133
+Overfull \hbox (5.32419pt too wide) in paragraph at lines 124--127
 \T1/pplj/m/n/10.95 cerned with in-ter-ac-tion pat-terns So-cial as-pects: Cornc
 erned with what? 
  []
@@ -4613,8 +4613,14 @@ FrontBackmatter/Declaration.tex
  ***********
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
-Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 1BD31653AFC2E2BD244923B83B2AE76E;10073.
+
+Package rerunfilecheck Warning: File `ClassicThesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ClassicThesis.out':
+(rerunfilecheck)             Before: 1BD31653AFC2E2BD244923B83B2AE76E;10073
+(rerunfilecheck)             After:  E5CDA8B0804F060952C9D9D15A362DAB;10081.
 
 LaTeX Warning: There were undefined references.
 
@@ -4642,7 +4648,7 @@ ublic/amsfonts/latxfont/lcircle1.pfb></usr/local/texlive/2013/texmf-dist/fonts/
 type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
 rw/palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/pala
 tino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (181 pages, 8722596 bytes).
+Output written on ClassicThesis.pdf (181 pages, 8722786 bytes).
 PDF statistics:
  1781 PDF objects out of 2073 (max. 8388607)
  1535 compressed objects within 16 object streams
