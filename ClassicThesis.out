@@ -38,95 +38,96 @@
 \BOOKMARK [1][-]{section.3.2}{3.2 Serious Mixed Reality Game as a testbed}{chapter.3}% 38
 \BOOKMARK [1][-]{section.3.3}{3.3 The AtomicOrchid Platform}{chapter.3}% 39
 \BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Game Design Rationale}{section.3.3}% 40
-\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Iterative design}{section.3.3}% 41
+\BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 Iterative design and development}{section.3.3}% 41
 \BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 System Architecture}{section.3.3}% 42
 \BOOKMARK [2][-]{subsection.3.3.4}{3.3.4 The planning agent}{section.3.3}% 43
 \BOOKMARK [1][-]{section.3.4}{3.4 Three interaction designs}{chapter.3}% 44
-\BOOKMARK [1][-]{section.3.5}{3.5 A framework of interactional issues}{chapter.3}% 45
-\BOOKMARK [0][]{chapter.4}{4 \040Methodology To Investigating Human Agent Interaction}{part.2}% 46
-\BOOKMARK [1][-]{section.4.1}{4.1 \040Mixed method approach }{chapter.4}% 47
-\BOOKMARK [1][-]{section.4.2}{4.2 \040Ethnomethodological perspective }{chapter.4}% 48
-\BOOKMARK [1][-]{section.4.3}{4.3 \040Interaction/Video Analysis}{chapter.4}% 49
-\BOOKMARK [-1][]{part.3}{Studies}{}% 50
-\BOOKMARK [0][]{chapter.5}{5 AtomicOrchid Study 1: Non agent version}{part.3}% 51
-\BOOKMARK [1][-]{section.5.1}{5.1 Introduction}{chapter.5}% 52
-\BOOKMARK [1][-]{section.5.2}{5.2 System Description}{chapter.5}% 53
-\BOOKMARK [1][-]{section.5.3}{5.3 Study Design}{chapter.5}% 54
-\BOOKMARK [1][-]{section.5.4}{5.4 Data analysis and results}{chapter.5}% 55
-\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Speech act analysis on text messages}{section.5.4}% 56
-\BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 Responding to directives from HQ}{section.5.4}% 57
-\BOOKMARK [2][-]{subsection.5.4.3}{5.4.3 Local coordination without HQ}{section.5.4}% 58
-\BOOKMARK [2][-]{subsection.5.4.4}{5.4.4 Messages as a resource of situational awareness}{section.5.4}% 59
-\BOOKMARK [1][-]{section.5.5}{5.5 Performance implications}{chapter.5}% 60
-\BOOKMARK [2][-]{subsection.5.5.1}{5.5.1 Division of labour between HQ and Field Responders}{section.5.5}% 61
-\BOOKMARK [2][-]{subsection.5.5.2}{5.5.2 Enhancing remote coordination}{section.5.5}% 62
-\BOOKMARK [1][-]{section.5.6}{5.6 Design Requirements}{chapter.5}% 63
-\BOOKMARK [1][-]{section.5.7}{5.7 Conclusion}{chapter.5}% 64
-\BOOKMARK [0][]{chapter.6}{6 AtomicOrchid Study 2: Agent supported HuOL design}{part.3}% 65
-\BOOKMARK [1][-]{section.6.1}{6.1 Introduction}{chapter.6}% 66
-\BOOKMARK [1][-]{section.6.2}{6.2 System Evolution}{chapter.6}% 67
-\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 The planning agent}{section.6.2}% 68
-\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 A feedback loop}{section.6.2}% 69
-\BOOKMARK [2][-]{subsection.6.2.3}{6.2.3 Interface improvement}{section.6.2}% 70
-\BOOKMARK [1][-]{section.6.3}{6.3 Study Design}{chapter.6}% 71
-\BOOKMARK [1][-]{section.6.4}{6.4 Data analysis and results}{chapter.6}% 72
-\BOOKMARK [2][-]{subsection.6.4.1}{6.4.1 Task assignment}{section.6.4}% 73
-\BOOKMARK [2][-]{subsection.6.4.2}{6.4.2 Team reformation}{section.6.4}% 74
-\BOOKMARK [2][-]{subsection.6.4.3}{6.4.3 Task interruption}{section.6.4}% 75
-\BOOKMARK [2][-]{subsection.6.4.4}{6.4.4 Disagreement on task interruption}{section.6.4}% 76
-\BOOKMARK [2][-]{subsection.6.4.5}{6.4.5 The headquarters}{section.6.4}% 77
-\BOOKMARK [1][-]{section.6.5}{6.5 Discussion}{chapter.6}% 78
-\BOOKMARK [2][-]{subsection.6.5.1}{6.5.1 Division of labour between the agent and the human teams}{section.6.5}% 79
-\BOOKMARK [2][-]{subsection.6.5.2}{6.5.2 Hidden costs of team reformation and task interruption}{section.6.5}% 80
-\BOOKMARK [2][-]{subsection.6.5.3}{6.5.3 Feedback to the agent}{section.6.5}% 81
-\BOOKMARK [1][-]{section.6.6}{6.6 Design implications}{chapter.6}% 82
-\BOOKMARK [2][-]{subsection.6.6.1}{6.6.1 Achieve common ground}{section.6.6}% 83
-\BOOKMARK [2][-]{subsection.6.6.2}{6.6.2 Facilitate accountability}{section.6.6}% 84
-\BOOKMARK [2][-]{subsection.6.6.3}{6.6.3 Balance responsibilities between humans and agent}{section.6.6}% 85
-\BOOKMARK [1][-]{section.6.7}{6.7 Conclusion}{chapter.6}% 86
-\BOOKMARK [0][]{chapter.7}{7 AtomicOrchid Study 3: Agent-supported In-the-loop design}{part.3}% 87
-\BOOKMARK [1][-]{section.7.1}{7.1 Introduction}{chapter.7}% 88
-\BOOKMARK [1][-]{section.7.2}{7.2 System Evolution}{chapter.7}% 89
-\BOOKMARK [2][-]{subsection.7.2.1}{7.2.1 Interface functionalities}{section.7.2}% 90
-\BOOKMARK [2][-]{subsection.7.2.2}{7.2.2 The planning agent}{section.7.2}% 91
-\BOOKMARK [1][-]{section.7.3}{7.3 Professional feedbacks}{chapter.7}% 92
-\BOOKMARK [2][-]{subsection.7.3.1}{7.3.1 Introduction of Rescue Global}{section.7.3}% 93
-\BOOKMARK [2][-]{subsection.7.3.2}{7.3.2 The Rescue Global feedbacks}{section.7.3}% 94
-\BOOKMARK [2][-]{subsection.7.3.3}{7.3.3 conclusion}{section.7.3}% 95
-\BOOKMARK [1][-]{section.7.4}{7.4 Study Design}{chapter.7}% 96
-\BOOKMARK [1][-]{section.7.5}{7.5 Data Analysis}{chapter.7}% 97
-\BOOKMARK [2][-]{subsection.7.5.1}{7.5.1 Messaging system}{section.7.5}% 98
-\BOOKMARK [2][-]{subsection.7.5.2}{7.5.2 Overview of task assignments}{section.7.5}% 99
-\BOOKMARK [2][-]{subsection.7.5.3}{7.5.3 Approve the plans generated by planner}{section.7.5}% 100
-\BOOKMARK [2][-]{subsection.7.5.4}{7.5.4 Editing assignments generated by planner}{section.7.5}% 101
-\BOOKMARK [2][-]{subsection.7.5.5}{7.5.5 Cancelling approved assignments}{section.7.5}% 102
-\BOOKMARK [2][-]{subsection.7.5.6}{7.5.6 HQ avoiding task interruption}{section.7.5}% 103
-\BOOKMARK [2][-]{subsection.7.5.7}{7.5.7 Consequence of task interruption}{section.7.5}% 104
-\BOOKMARK [2][-]{subsection.7.5.8}{7.5.8 The importance of player feedbacks}{section.7.5}% 105
-\BOOKMARK [2][-]{subsection.7.5.9}{7.5.9 The incident of player death}{section.7.5}% 106
-\BOOKMARK [2][-]{subsection.7.5.10}{7.5.10 Division of labour in HQ}{section.7.5}% 107
-\BOOKMARK [1][-]{section.7.6}{7.6 Discussion}{chapter.7}% 108
-\BOOKMARK [2][-]{subsection.7.6.1}{7.6.1 How does HuIL design play out?}{section.7.6}% 109
-\BOOKMARK [2][-]{subsection.7.6.2}{7.6.2 \040Division of labor }{section.7.6}% 110
-\BOOKMARK [2][-]{subsection.7.6.3}{7.6.3 Dealing with the imperfection if agent planner}{section.7.6}% 111
-\BOOKMARK [2][-]{subsection.7.6.4}{7.6.4 Forward Planning}{section.7.6}% 112
-\BOOKMARK [2][-]{subsection.7.6.5}{7.6.5 \040Lack of explanation from agent }{section.7.6}% 113
-\BOOKMARK [2][-]{subsection.7.6.6}{7.6.6 Coordination with Field Players}{section.7.6}% 114
-\BOOKMARK [-1][]{part.4}{Conclusion}{}% 115
-\BOOKMARK [0][]{chapter.8}{8 Conclusion}{part.4}% 116
-\BOOKMARK [1][-]{section.8.1}{8.1 Summary of approach}{chapter.8}% 117
-\BOOKMARK [1][-]{section.8.2}{8.2 Summary of findings}{chapter.8}% 118
-\BOOKMARK [1][-]{section.8.3}{8.3 Summary of interface evolutions}{chapter.8}% 119
-\BOOKMARK [1][-]{section.8.4}{8.4 Summary of interactional issues}{chapter.8}% 120
-\BOOKMARK [2][-]{subsection.8.4.1}{8.4.1 Division of labour}{section.8.4}% 121
-\BOOKMARK [2][-]{subsection.8.4.2}{8.4.2 Establishing Common Ground}{section.8.4}% 122
-\BOOKMARK [2][-]{subsection.8.4.3}{8.4.3 Faciliating Accountability}{section.8.4}% 123
-\BOOKMARK [1][-]{section.8.5}{8.5 Limitation}{chapter.8}% 124
-\BOOKMARK [1][-]{section.8.6}{8.6 future work}{chapter.8}% 125
-\BOOKMARK [-1][]{part.5}{Appendix}{}% 126
-\BOOKMARK [0][]{appendix.A}{A Appendix Test}{part.5}% 127
-\BOOKMARK [1][-]{section.A.1}{A.1 Appendix Section Test}{appendix.A}% 128
-\BOOKMARK [1][-]{section.A.2}{A.2 Another Appendix Section Test}{appendix.A}% 129
-\BOOKMARK [0][]{dummy.7}{Bibliography}{part.5}% 130
-\BOOKMARK [0][]{colophon.0}{Colophon}{part.5}% 131
-\BOOKMARK [0][]{declaration.0}{Declaration}{part.5}% 132
+\BOOKMARK [1][-]{section.3.5}{3.5 Explore interaction designs with three AtomicOrchid studies}{chapter.3}% 45
+\BOOKMARK [1][-]{section.3.6}{3.6 Collaboration with Professional Disaster Response Organisation}{chapter.3}% 46
+\BOOKMARK [0][]{chapter.4}{4 \040Methodology To Investigating Human Agent Interaction}{part.2}% 47
+\BOOKMARK [1][-]{section.4.1}{4.1 \040Mixed method approach }{chapter.4}% 48
+\BOOKMARK [1][-]{section.4.2}{4.2 \040Ethnomethodology }{chapter.4}% 49
+\BOOKMARK [1][-]{section.4.3}{4.3 \040Interaction/Video Analysis}{chapter.4}% 50
+\BOOKMARK [-1][]{part.3}{Studies}{}% 51
+\BOOKMARK [0][]{chapter.5}{5 AtomicOrchid Study 1: Non agent version}{part.3}% 52
+\BOOKMARK [1][-]{section.5.1}{5.1 Introduction}{chapter.5}% 53
+\BOOKMARK [1][-]{section.5.2}{5.2 System Description}{chapter.5}% 54
+\BOOKMARK [1][-]{section.5.3}{5.3 Study Design}{chapter.5}% 55
+\BOOKMARK [1][-]{section.5.4}{5.4 Data analysis and results}{chapter.5}% 56
+\BOOKMARK [2][-]{subsection.5.4.1}{5.4.1 Speech act analysis on text messages}{section.5.4}% 57
+\BOOKMARK [2][-]{subsection.5.4.2}{5.4.2 Responding to directives from HQ}{section.5.4}% 58
+\BOOKMARK [2][-]{subsection.5.4.3}{5.4.3 Local coordination without HQ}{section.5.4}% 59
+\BOOKMARK [2][-]{subsection.5.4.4}{5.4.4 Messages as a resource of situational awareness}{section.5.4}% 60
+\BOOKMARK [1][-]{section.5.5}{5.5 Performance implications}{chapter.5}% 61
+\BOOKMARK [2][-]{subsection.5.5.1}{5.5.1 Division of labour between HQ and Field Responders}{section.5.5}% 62
+\BOOKMARK [2][-]{subsection.5.5.2}{5.5.2 Enhancing remote coordination}{section.5.5}% 63
+\BOOKMARK [1][-]{section.5.6}{5.6 Design Requirements}{chapter.5}% 64
+\BOOKMARK [1][-]{section.5.7}{5.7 Conclusion}{chapter.5}% 65
+\BOOKMARK [0][]{chapter.6}{6 AtomicOrchid Study 2: Agent supported HuOL design}{part.3}% 66
+\BOOKMARK [1][-]{section.6.1}{6.1 Introduction}{chapter.6}% 67
+\BOOKMARK [1][-]{section.6.2}{6.2 System Evolution}{chapter.6}% 68
+\BOOKMARK [2][-]{subsection.6.2.1}{6.2.1 The planning agent}{section.6.2}% 69
+\BOOKMARK [2][-]{subsection.6.2.2}{6.2.2 A feedback loop}{section.6.2}% 70
+\BOOKMARK [2][-]{subsection.6.2.3}{6.2.3 Interface improvement}{section.6.2}% 71
+\BOOKMARK [1][-]{section.6.3}{6.3 Study Design}{chapter.6}% 72
+\BOOKMARK [1][-]{section.6.4}{6.4 Data analysis and results}{chapter.6}% 73
+\BOOKMARK [2][-]{subsection.6.4.1}{6.4.1 Task assignment}{section.6.4}% 74
+\BOOKMARK [2][-]{subsection.6.4.2}{6.4.2 Team reformation}{section.6.4}% 75
+\BOOKMARK [2][-]{subsection.6.4.3}{6.4.3 Task interruption}{section.6.4}% 76
+\BOOKMARK [2][-]{subsection.6.4.4}{6.4.4 Disagreement on task interruption}{section.6.4}% 77
+\BOOKMARK [2][-]{subsection.6.4.5}{6.4.5 The headquarters}{section.6.4}% 78
+\BOOKMARK [1][-]{section.6.5}{6.5 Discussion}{chapter.6}% 79
+\BOOKMARK [2][-]{subsection.6.5.1}{6.5.1 Division of labour between the agent and the human teams}{section.6.5}% 80
+\BOOKMARK [2][-]{subsection.6.5.2}{6.5.2 Hidden costs of team reformation and task interruption}{section.6.5}% 81
+\BOOKMARK [2][-]{subsection.6.5.3}{6.5.3 Feedback to the agent}{section.6.5}% 82
+\BOOKMARK [1][-]{section.6.6}{6.6 Design implications}{chapter.6}% 83
+\BOOKMARK [2][-]{subsection.6.6.1}{6.6.1 Achieve common ground}{section.6.6}% 84
+\BOOKMARK [2][-]{subsection.6.6.2}{6.6.2 Facilitate accountability}{section.6.6}% 85
+\BOOKMARK [2][-]{subsection.6.6.3}{6.6.3 Balance responsibilities between humans and agent}{section.6.6}% 86
+\BOOKMARK [1][-]{section.6.7}{6.7 Conclusion}{chapter.6}% 87
+\BOOKMARK [0][]{chapter.7}{7 AtomicOrchid Study 3: Agent-supported In-the-loop design}{part.3}% 88
+\BOOKMARK [1][-]{section.7.1}{7.1 Introduction}{chapter.7}% 89
+\BOOKMARK [1][-]{section.7.2}{7.2 System Evolution}{chapter.7}% 90
+\BOOKMARK [2][-]{subsection.7.2.1}{7.2.1 Interface functionalities}{section.7.2}% 91
+\BOOKMARK [2][-]{subsection.7.2.2}{7.2.2 The planning agent}{section.7.2}% 92
+\BOOKMARK [1][-]{section.7.3}{7.3 Professional feedbacks}{chapter.7}% 93
+\BOOKMARK [2][-]{subsection.7.3.1}{7.3.1 Introduction of Rescue Global}{section.7.3}% 94
+\BOOKMARK [2][-]{subsection.7.3.2}{7.3.2 The Rescue Global feedbacks}{section.7.3}% 95
+\BOOKMARK [2][-]{subsection.7.3.3}{7.3.3 conclusion}{section.7.3}% 96
+\BOOKMARK [1][-]{section.7.4}{7.4 Study Design}{chapter.7}% 97
+\BOOKMARK [1][-]{section.7.5}{7.5 Data Analysis}{chapter.7}% 98
+\BOOKMARK [2][-]{subsection.7.5.1}{7.5.1 Messaging system}{section.7.5}% 99
+\BOOKMARK [2][-]{subsection.7.5.2}{7.5.2 Overview of task assignments}{section.7.5}% 100
+\BOOKMARK [2][-]{subsection.7.5.3}{7.5.3 Approve the plans generated by planner}{section.7.5}% 101
+\BOOKMARK [2][-]{subsection.7.5.4}{7.5.4 Editing assignments generated by planner}{section.7.5}% 102
+\BOOKMARK [2][-]{subsection.7.5.5}{7.5.5 Cancelling approved assignments}{section.7.5}% 103
+\BOOKMARK [2][-]{subsection.7.5.6}{7.5.6 HQ avoiding task interruption}{section.7.5}% 104
+\BOOKMARK [2][-]{subsection.7.5.7}{7.5.7 Consequence of task interruption}{section.7.5}% 105
+\BOOKMARK [2][-]{subsection.7.5.8}{7.5.8 The importance of player feedbacks}{section.7.5}% 106
+\BOOKMARK [2][-]{subsection.7.5.9}{7.5.9 The incident of player death}{section.7.5}% 107
+\BOOKMARK [2][-]{subsection.7.5.10}{7.5.10 Division of labour in HQ}{section.7.5}% 108
+\BOOKMARK [1][-]{section.7.6}{7.6 Discussion}{chapter.7}% 109
+\BOOKMARK [2][-]{subsection.7.6.1}{7.6.1 How does HuIL design play out?}{section.7.6}% 110
+\BOOKMARK [2][-]{subsection.7.6.2}{7.6.2 \040Division of labor }{section.7.6}% 111
+\BOOKMARK [2][-]{subsection.7.6.3}{7.6.3 Dealing with the imperfection if agent planner}{section.7.6}% 112
+\BOOKMARK [2][-]{subsection.7.6.4}{7.6.4 Forward Planning}{section.7.6}% 113
+\BOOKMARK [2][-]{subsection.7.6.5}{7.6.5 \040Lack of explanation from agent }{section.7.6}% 114
+\BOOKMARK [2][-]{subsection.7.6.6}{7.6.6 Coordination with Field Players}{section.7.6}% 115
+\BOOKMARK [-1][]{part.4}{Conclusion}{}% 116
+\BOOKMARK [0][]{chapter.8}{8 Conclusion}{part.4}% 117
+\BOOKMARK [1][-]{section.8.1}{8.1 Summary of approach}{chapter.8}% 118
+\BOOKMARK [1][-]{section.8.2}{8.2 Summary of findings}{chapter.8}% 119
+\BOOKMARK [1][-]{section.8.3}{8.3 Summary of interface evolutions}{chapter.8}% 120
+\BOOKMARK [1][-]{section.8.4}{8.4 Summary of interactional issues}{chapter.8}% 121
+\BOOKMARK [2][-]{subsection.8.4.1}{8.4.1 Division of labour}{section.8.4}% 122
+\BOOKMARK [2][-]{subsection.8.4.2}{8.4.2 Establishing Common Ground}{section.8.4}% 123
+\BOOKMARK [2][-]{subsection.8.4.3}{8.4.3 Faciliating Accountability}{section.8.4}% 124
+\BOOKMARK [1][-]{section.8.5}{8.5 Limitation}{chapter.8}% 125
+\BOOKMARK [1][-]{section.8.6}{8.6 future work}{chapter.8}% 126
+\BOOKMARK [-1][]{part.5}{Appendix}{}% 127
+\BOOKMARK [0][]{appendix.A}{A Appendix Test}{part.5}% 128
+\BOOKMARK [1][-]{section.A.1}{A.1 Appendix Section Test}{appendix.A}% 129
+\BOOKMARK [1][-]{section.A.2}{A.2 Another Appendix Section Test}{appendix.A}% 130
+\BOOKMARK [0][]{dummy.7}{Bibliography}{part.5}% 131
+\BOOKMARK [0][]{colophon.0}{Colophon}{part.5}% 132
+\BOOKMARK [0][]{declaration.0}{Declaration}{part.5}% 133

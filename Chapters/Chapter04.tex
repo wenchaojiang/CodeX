@@ -1,5 +1,5 @@
 %************************************************
-\chapter{AtomicOrchid Study 1: Non agent version}\label{ch:mathtest} % $\mathbb{ZNR}$
+\chapter{AtomicOrchid Study 1: Non agent version}\label{ch:studyone} % $\mathbb{ZNR}$
 %************************************************
 In this study, we focus on investigating requirements for time critical distributed team support relevant for domains such as disaster response. In this Field responders of the AtomicOrchid game use smartphones to coordinate, via text messaging, GPS, and maps, with headquarters and each other. Interaction analysis is conducted to examine log data and field observations revealing local and remote coordination within the responder team. We generate design implications for HACs system to support team coordination and uncover requirements that highlight the role of local coordination, decision-making resources, geospatial referencing and message handling. \\
 
@@ -458,7 +458,7 @@ Findings from the study highlight the social processes in which members interpre
 \section{System Evolution}
 Compared to study 1, the system has evolved to provide agent planning support through HuOL interaction pattern. This section will go through the changes of system, which includes integration of a planning agent, implementation of a quick feedback system, and improvement in both HQ and mobile interface.
 
-\subsection{The planning agent}
+\subsection{The planning agent}\label{sec:studyoneagent}
 The major change of the system is the integration of a planning agent into the AtomicOrchid platform. The planning agent is developed by ORCHID research partner Wu Feng, Savapali Ramchun. The coordination problem (described in section \ref{sec:gamemechanic}) of the AtomicOrchid is modelled using a Multi-Agent Markov Decision Process (MMDP) that captures the uncertainties of task execution, extending earlier work [15].The modelling allows responder actions to be delayed or to fail during the rescue process. The MMDP modelling leads to a large search space, even with a small-sized problem. Hence, we devised an approximate solution to save computation time, which can be executed to support real time planning. The planning algorithm takes into account both time (cloud and human movement speed) and spatial (path planning for responders) constraints. The planning algorithm run by the planning agent produces high task allocations that minimise the travelling distance of first responders, and maximise the number of targets rescued. Before the agent was deployed to support human teams in the game setting, computational simulations were done by Wu Feng to benchmark our MMDP algorithm against greedy and myopic methods (see Table 1). The results confirm that our algorithm produces efficient task allocations.\\
 
 The agent is wrapped in a Java server framework and deployed on an independent server separate from AtomicOrchid. The agent server exposes a HTTP interface for AtomicOrchid to request plan. Each plan request issued by AtomicOrchid is appended with  updated game status, which includes players' health, distribution of radioactive cloud and locations of players, and targets. Based on the updated game status, the agent will produce an optimised task allocation and return it to AtomicOrchid. The plan requests are triggered frequently in game sessions so that the task allocation can be frequently adjusted according to task execution status. Plan requests (and thus re-planning) is triggered by two kinds of game events:\\
@@ -827,7 +827,7 @@ The stop button can be used to indicate an emergency termination of an assignmen
 Compared to the HuOL version of AtomicOrchid, the mobile interface is mostly unchanged except for the HQ task tab (see figure x). The task tab now displays a task with text description and map visualisation on the top. The bottom half of the interface is a message box showing task-specific information from HQ. It should be note that the HQ can still send broadcast information (visible to everyone), which will be displayed in the chat tab. \\
 
 
-\subsection{The planning agent}
+\subsection{The planning agent}\label{sec:studytwoagent}
 
 One big change of the planner (compared to iteration 2) is the partial planning feature. The agent can takes a list of fixed assignment as input. It then allows optimize the players and targets that are not involved in the fixed assignment list. The functionality has two potential usages: \\
 \begin{enumerate}
@@ -839,9 +839,9 @@ Apart from the partial planning feature, the input/output of agent is not change
 
 %insert a summary picture.\\
 
-\section{Professional feedbacks}\label{ch:rgworkshop} 
+\section{Professional feedbacks}\label{sec:RGworkshopone} 
 
-The section will present the results of a workshop we conducted with a professional disaster response charity called Rescue Global(RG). The purpose of these workshop is to get professional feedbacks about the AtomicOrchid(AO) platform to understand realism of the disaster simulation based on AO. Based on the feedbacks, we reflects on [strength], limitations and potential improvements of AO platform. \\
+The section will present the results of a workshop we conducted with a professional disaster response charity called Rescue Global (RG). The purpose of these workshop is to get professional feedbacks about the AtomicOrchid(AO) platform to understand realism of the disaster simulation based on AO. Based on the feedbacks, we reflects on [strength], limitations and potential improvements of AO platform. \\
 
 The workshop is centred on a demonstration of HACs system for disaster response (DR). The AO is a component of the HACs demo system. Others components include information crowdsourcing, multi-UAV control interface for DR, and DR operation provenance store [see HACer paper]. Each component are allocated one session (about 45 mins). The AO session is structured as follows:\\
 
