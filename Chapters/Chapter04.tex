@@ -409,7 +409,7 @@ To reduce confusion about message freshness, HAC systems should address these is
 As a result, user interfaces that enable and encourage field responders to quickly acknowledge HQ messages, with minimum cognitive load, should be consid- ered for messaging in HAC systems in such high demand settings. For effective team coordination in disaster response, interface and workflow designs need to factor in cognitive load and task demands for effective information distribution.\\
 
 
-\section{Conclusion}
+\section{Summary}
 The objective of the research presented here was to generate requirements for sup- porting time-critical team coordination. In particular, we focussed on a scenario in which responders coordinate role-based teaming and spatially distributed task al- location and execution using a real-time location and messaging system.\\
 
 We presented the design and study of the Radiation Response Game as a mixed-reality game probe to investigate challenges for team coordination in a set- ting in which participants experience both physical strain through bodily activity, and cognitive challenge through time pressure and task complexity. We eschew high-fidelity simulations in favour of mixed-reality game probes as a platform for investigation of concomitant socio-technical issues: handling of mobile devices to communicate and maintain situational awareness (messaging, sensing, interaction, and display) intersect with face-to-face interaction, whilst the physio-cognitive challenges created through game mechanics and environment induce stress. We created a setting that allows exploring requirements to support team coordination of relevance to time-critical coordination domains such as real disaster response.\\
@@ -727,7 +727,7 @@ while the rules of social conduct ensured accountability of action among co-loca
  
 %==== what is possible situational contingencies? social implications, coordination overhead incured is hard to be modelled, and other unexpected situational contingencies are hard to be considered by the agent. The example being some players is reluctant to disband team and unwilling to team up with remote players. As they are hard to be considered and model by the agent, HQ's input can be useful to judge the situation and contribute to the planning. In this field trial, The division of labour between humans and the agent appeared most effective in that the agent took on routine and repetitive jobs (task assignment), which freed the responders to focus on the situated rescue mission. However, the HQ is weak in terms of influencing the planning and plan executions. The reason has been summaried in section xxx. Here, we propose some requirements based on the.  ====%
 
-\section{Conclusion}
+\section{Summary}
 
 
 
@@ -841,10 +841,7 @@ Apart from the partial planning feature, the input/output of agent is not change
 
 
 
-\subsection{conclusion}
-In the previous section, we have reflected on both realistic and unrealistic aspects of AO setting based on the feedbacks from RG workshop. The resource target mapping and teaming aspects of AO setting are found to be similar to activities in the DR operations, though the teaming in DR operations are likely to be conducted in an informal way. On the other hand, both time scale and command structure in the AO setting do not match what happens in the DR operations. The time scale of RG`s operation is much longer the AO. And Command and Control framework in DR has hierarchical levels and sectorisation for some levels, both of which are missing in the AO setting. Further, the assumption of good data connections in the field are also fund unrealistic. However the RG team thought the core planning support aspects of AO would still be useful even when data connection is poor. \\
 
-Although AO are not built as a tool to support real disaster operation (It is designed to be a simulation game), the RG team still found some aspects of AO demonstrates elements of future planning support system desirable to them. Firstly, the AO portrayed a picture of automated information capturing and visualisation which is appreciated by RG. Secondly, RG also appreciate that the division of labour facilitated by the AO setting, in which the HQ (with the planning agent) handles the task planning while the field responders just need to ``gather information, file it back, and forget it''\\
  
 
 \section{Study Design}
@@ -868,13 +865,25 @@ We focus on the analysis of players` interaction with the system to unpack inter
 
 
 \section{Data Analysis}
+This section will start with overview of game results, messaging system usage and task assignments. Detailed episodes will also be presented unpack interactions between participants and the system.\\
+
 Overall the 28 of 40 targets were evacuated in two sessions (16 in Session A and 12 in Session B). The player`s health status in session 1 is better  (Avg 90, Sd 9.3 ) then that in session 2 (Avg 48, Sd 41). Two deaths occurred at the begging of session 2, more details of death will be presented as episodes later in this section. \\
+
+\begin{figure}[ht]
+ \includegraphics[width=1\textwidth]{img/study3/ResultsOverview}
+\caption{Result Overview}
+\label{fig:ResultsOverview}
+\end{figure}
 
 
 \subsection{Messaging system}
 One change of the messaging system made for this iteration is separating channels for assignment-specific and general messages. The HQ1 is responsible for sending message in assignment-specific channel, while the HQ2 is responsible for sending messages in general message channel. This section will reveal how this design plays out in the field trials. \\
 
-figure\\
+\begin{figure}[ht]
+ \includegraphics[width=1\textwidth]{img/study3/TaskAssignmentOverview}
+\caption{Task assignment overview}
+\label{fig:ResultsOverview}
+\end{figure}
 
 We found HQs frequently send messages to update location of radiation cloud, (e.g. `` Radiation Status- 38  39  37 and Drop Point 7 all out of bounds '' ) and provide navigational guidance (e.g. `` go north  and west around the water '' ). HQ is also observed to send messages to repeat and enhance the task assignment (e.g. `` turn to 49 '').\\
 
@@ -885,19 +894,47 @@ Most messages in the general message channel are general information about the c
 \subsection{Overview of task assignments}
 In the following tree diagrams, Plans are break into individual task assignment. Each individual assignment may go through 4 stages in the planning process (Creation, approval, feedback, and execution). The assignment status for each stage is summarized in the following diagrams. \\
 
+\begin{figure}[ht]
+ \includegraphics[width=1\textwidth]{img/study3/TaskAsSession1}
+\caption{Task assignment in session 1}
+\label{fig:TaskAsSession1}
+\end{figure}
+
+\begin{figure}[ht]
+ \includegraphics[width=1\textwidth]{img/study3/TaskAsSession2}
+\caption{Task assignment in session 2}
+\label{fig:TaskAsSession2}
+\end{figure}
+
 The summary indicates that both HQ and the planning agent both contribute to the task planning activities in the control room. The planning agent created a total of 45 task assignments with additional 5 assignments created manually by HQ. HQ approved a total of 39 assignments. Field responders accepted most of the approved messages (30 out of 39). 9 assignments were rejected or not responded. During the task execution, occasional HQ interventions result in 5 task cancellations and 5 assignments override. In the end, these two groups managed to evacuate a total of 28 (out of 40) targets.\\ 
 
-Although the diagrams show a sequential planning-execution process (creation->approval->feedback->execution), we actually found that various planning activities (e.g. assignment creation, approval, intervention, communication) are highly intertwined in the control room setting. \\
+Although the diagrams (figure \ref{fig:TaskAsSession1}, \ref{fig:TaskAsSession2}) show a sequential planning-execution process (creation->approval->feedback->execution), we actually found that various planning activities (e.g. assignment creation, approval, intervention, communication) are highly intertwined in the control room setting. \\
 
-In the rest of the section, episodes of game play will be used to show how the interaction design of HuIL plays out in the field trial.  In the following fragments and episodes, players will be uniquely identified by their initials. Targets are denoted by their unique numeric target id. Task assignments from the agent are represented as two initials and one target id connected by a rightward arrow. For example, the notation PC, CR -> 22 means player PC and CR are instructed to team up and go for target 22. A standard orthographic notation is complemented by timestamps [0:00], and System Message from remote players and HQ. The HQ players will be denoted by HQ1 and HQ2. HQ1 refers to the player operating the task-assignment interface, while HQ2 refers to the player operating the situational-awareness interface.\\
+In the rest of the section, episodes of game play will be used to show how the interaction design of In-The-Loop pattern plays out in the field trial.  In the following fragments and episodes, players will be uniquely identified by their initials. Targets are denoted by their unique numeric target id. Task assignments from the agent are represented as two initials and one target id connected by a rightward arrow. For example, the notation PC, CR -> 22 means player PC and CR are instructed to team up and go for target 22. A standard orthographic notation is complemented by timestamps [0:00], and System Message from remote players and HQ. The HQ players will be denoted by HQ1 and HQ2. HQ1 refers to the player operating the task-assignment interface, while HQ2 refers to the player operating the situational-awareness interface.\\
 
 \subsection{Approve the plans generated by planner}
 Firstly, HQ players in the control room are observed to carry out a set of routine activities, collaborating with the planning agent to organize task assignment. The episode 1 demonstrates a typical case of routine task planning process in control room. \\
 
-
-
-
-
+\noindent\Mybox{\begin{minipage}[b]{\textwidth}
+\texttt{
+\emph{Context: HQ paid attention to a team (MV XW) who was carrying target 43 back to drop off zone 7.}\\
+\textbf{16:45, HQ2:} XW and MV.\\
+\textbf{16:50, HQ1:} (taking) 43. \\
+\textbf{16:51, HQ2:} They should be going to drop off (zone) 7 and get 36 [Fig. 1] \\
+\textbf{16:58, HQ1:} why don`t they go this way?\\
+\textbf{16:49, HQ2:} tell them to go 36 afterwards.\\
+\textbf{17:04, HQ1:} ok this one (refer to target 36). Do you tell them? [Fig. 2]\\
+\textbf{17:05, HQ2:} Should I tell them? (Typing)\\
+\textbf{17:07, HQ1:} Yeah, go for 36. Maybe After the drop off, I think then (will) get confused.\\
+\textbf{17:13, HQ2:} I will tell them to go after drop off.\\
+\textbf{17:14, HQ1:} Yeah, Yeah. \\
+\textbf{18.10,} (The team dropped off target 43)\\
+\textbf{18:22,} (HQ click re-plan) \\
+\textbf{18:26,} (new assignments, the team is assigned to MV,XW -> 36)\\
+\textbf{18.28, HQ1} 36, yes (Click confirm)\\
+}
+\end{minipage}} 
+\hfill \break
 
 At the beginning of this episode, the team MV, XW was carrying a target (43), approaching drop off zone. At [16:45], the HQ2 noticed the team was going to be freed up soon, so he began considering next target for them [16.51]. HQ2 proposed to HQ that 36 should be prioritized [Fig. 1]. HQ1 agreed with the suggestion and decided to send the assignment after the team free up from existing task [Fig. 2][17:07]. At 18:10, the team dropped off target. After the drop-off, the HQ requested a re-plan. The agent assigned the team MV, XW to target 36, which is consistent with decision of the HQ players. At the end, HQ approved the assignment [18:28].\\
 
@@ -906,23 +943,69 @@ At the beginning of this episode, the team MV, XW was carrying a target (43), ap
 \subsection{Editing assignments generated by planner}
 Apart from routine task monitoring, HQ players occasionally chose to intervene the task planning activities by utilizing functionalities provided by the task assignment interface. The following simple episode demonstrates how HQ manually priorities target in order to implement their planning strategy. \\
 
-Insert Episode 2 here\\
+\noindent\Mybox{\begin{minipage}[b]{\textwidth}
+\texttt{
+\emph{Context: At start of the session 1, all players were idle waiting for initial plan.}\\
+\textbf{01:25,} (HQ1 requested initial plan)\\
+\textbf{01:28,} (4 initial assignments arrived) [Fig 3] \\
+\textbf{01:29, HQ1:}  why, it is stupid. \\
+\textbf{01:33,} (HQ1 click edit)\\
+\textbf{01:53, HQ1:} I want this one (HQ1 drag target x to replace agent planning, see Fig.4) this one and this one.\\
+\emph{HQ1 replaced 3 out of 4 targets in the task assignment. The three prioritized targets very are close to the original cloud}\\
+\textbf{02:03,} (HQ1 clicked confirm) [Fig 4]\\
+\textbf{02:07, (HQ1 talk to HQ2) HQ1:} I think we should get the far ones first. \\
+}
+\end{minipage}} 
+\hfill \break
+
 
 This episode happened at the beginning of the session 2. It begins with HQ requesting initial task assignments for the whole team. When the agent gives HQ  a set task assignments for approval, HQ complained about it [01:29, HQ: why, it is stupid.], indicating he is not satisfied with the plan. HQ then click edit button to switch to edit mode. Under the edit mode, HQ dragged 3 targets to replace the targets in agent assignments. The three prioritized targets are the ones that are closet to the radiation cloud [fig 3]. After HQ confirmed his modification [02:03], he said to HQ2 that the far away targets should be rescued first [02:07]. The execution result of this heavily edited plan is not ideal. Among the 3 three modified assignments, 1 finished 1 assigment is cancelled later, 1 assignment leads to player death.\\
 
 \subsection{Cancelling approved assignments}
-HQ`s interventions are not limited to modification of agent proposed assignment. HQ also manually cancels (stop) approved assignments 5 times due to changing task status.  The next episode exemplifies how HQ adapts task assignments to changing task status. 
+HQ`s interventions are not limited to modification of agent proposed assignment. HQ also manually cancels (stop) approved assignments 5 times due to changing task status.  The next episode exemplifies how HQ adapts task assignments to changing task status. \\
 
-Insert Episode 3 here\\
+
+\noindent\Mybox{\begin{minipage}[b]{\textwidth}
+\texttt{
+\emph{Context: At start of the session 1, all players were idle waiting for initial plan.}\\
+\textbf{02:09, HQ2:} they cannot walk there straight. [Fig 5]\\
+\emph{Referring to team MB, GO, HQ2 point out that the straight path to one of the target is blocked by radiation}\\
+\textbf{02:14, HQ1:} So who is that. (Target) 04 (HQ1 open the message panel) \\
+\textbf{02:20, (HQ 1 Types message)}  You are heading to an area affected by cloud, You need to be very fast. [Fig 6] \\
+\textbf{02:45, HQ2:} 04 is now in the cloud. \\
+\textbf{02:45, HQ2:} Oh god, that is so fast.\\
+\textbf{03:20, (HQ1 Types message)} Stay to the lake as possible!\\
+\textbf{03:33, HQ1:} Shall we cancel (assignment 04) that or shall we wait for report? (HQ1 opens msg panel to talk to MP GO)\\
+\textbf{03:43,} (HQ1 opens msg panel to talk to MP GO) \\
+\textbf{03:50, HQ2:} I think (Target) 04 is only an animal, screw the animal.  \\
+\textbf{03:52, (HQ1 Types message)} Abort, target compromised, proceed to target 07. \\
+\textbf{04:06, } (HQ1 sent message)\\
+\textbf{04:11, } (HQ1 click stop on the assignment of MB, GO->04)
+}
+\end{minipage}} 
+\hfill \break
+
 
 After confirming assignments in Episode 1, the HQ2 point out one assignment may be impractical because the route to target has already been blocked by a radiation cloud [02:09] [Fig. 5]. HQ immediately open message panel to send warnings and urging the team to move fast [Fig. 6]. However the cloud expansion seems to be faster then HQ originally expected [02:51]. Apart from sending route guidance in the team, HQ started to consider cancellation of the assignment. After HQ2 agree with the cancellation, HQ send a message to the team to inform them the assignment is going to be cancelled and instruct them to go to new target 07. The assignment is formally cancelled in [04:11]. After HQ1 cancelled the task, he started to request new assignments from planner and allocated target 07 to the team later. \\
 
-Insert field response?\\
 
 \subsection{HQ avoiding task interruption}
 As it is shown in the previous episodes (3), the existing tasks may be interrupted by HQ interventions. Apart from HQ interventions, the task interruption can also be caused by the re-planing performed by the planning agent. In one case, we observed HQ picked up this kind of interruption proposed by the agent and veto it in the approval stage. This next episode illustrates the case in more details. \\
 
-insert pics here\\
+\noindent\Mybox{\begin{minipage}[b]{\textwidth}
+\texttt{
+\textbf{04:18,} (HQ1 click request plan)\\
+\emph{(Assignments arrived: CE KH -> 06, MP GO ->07, MB ,WB -> 10)}\\
+\textbf{04:24, HQ1:}  What? Why I am getting? Ahh, one of these guys does not accept. [Fig 7] \\
+\emph{(Referring to the team of CE, KH.)}\\
+\textbf{04:29,} (HQ1 clicked keep on assignment CE KH -> 03) \\
+\textbf{04:33,} (HQ1 request re-plan)\\
+\textbf{04:40,} (Assignment arrived: MB, WB -> 10, MP, GO -> 07)\\
+\textbf{04:42,} (HQ1 click confirm)\\
+\textbf{04:56,} (MP, GO accepted)\\
+}
+\end{minipage}} 
+
 
 After HQ requested a re-plan, agent proposed a set of assignments, one of which (CE KH -> 06) interrupts existing task of a team (CE KH -> 03). HQ immediately picked up this interruption (``What? Why I am getting?'') and figured out the reason [Fig 7] (``Ahh, one of these guys does not accepted''). It should be noted that this kind of task interruption only happens when field players did not accept the tasks (See interaction design section x), making agent think they are idle at that moment. After finding this problem, HQ then requires the agent to ``keep'' existing assignment [04:29] and performs a plan request again to get desired assignments. \\
 
@@ -930,33 +1013,120 @@ After HQ requested a re-plan, agent proposed a set of assignments, one of which 
 \subsection{Consequence of task interruption}
 The next episode will show a problematic case of task interruption caused by agent re-planing . This episode involves 3 field players NG, YI and DI. The NG, YI formed a collocated team, and they just finished their previous task. DI is a player remote to NG and YI, alone at a drop off zone waiting for new task. This episode is divided into 2 parts. Part 1 is about observation in control room and part 2 is about team reaction in the field.\\
 
-insert episode 5 here\\
+\noindent\Mybox{\begin{minipage}[b]{\textwidth}
+\texttt{
+\textbf{08:32,} (HQ1 request assignment for Idle player NG, YI))\\
+\textbf{08:37,} (New assignment NG, YI -> 50) \\
+\textbf{08:40,} (HQ1 confirmed plan) \\
+\textbf{09:09,} (HQ1 request assignment for DI who has just become idle) \\
+\emph{(NG have not confirmed the previous assignment; DI is closer to target 50)}\\
+\textbf{09:16,} (New assignment arrived NG, DI -> 50 )\\
+\textbf{09:17,} (HQ1 confirm NG, DI -> 50)\\
+}
+\end{minipage}} 
+
 
 In this episode, the HQ1 request assignment twice for idle players, which is a routine activity for HQ1 (As discussed in episode 1). Firstly, HQ1 request and approve new assignment for NG, YI [08:32]. 30 seconds later, DI become idle [09:09], so HQ1 request plan again. Because DI is closer to target 50 [fig], and NG YI have not accepted their assignment, the agent replaces DI with NG in the new assignment to minimize travelling distance of field players.  HQ1 quickly approves this assignment (within x seconds). Although HQ1 did not verbalize his reasoning process, the quick approval may indicate HQ1 has not inspected new assignment carefully and did not notice the approval will cause task interruption.\\
 
 Although the episode does not seem to be problematic from the HQ`s perspective, we actually observed problematic sense making process in the field. The part 2 of this episode (following) reveals how field responders react to the task interruptions.\\
 
-insert episode 5 - part 2 here
+\noindent\Mybox{\begin{minipage}[b]{\textwidth}
+\texttt{
+\emph{Context: NG YI received a task update after they finished their previous task.}\\
+\emph{(Team NG YI received new task NG, YI -> 50)}\\
+\textbf{23:50, NG: } Task changed, to what? \\
+\textbf{24.06, NG: } Oh sh*t, there is a radiation zone sh*t. \\
+\textbf{24:15, NG: } It (target 50) is close to the lake. It is triumph road we have to go that way. \\
+\textbf{24:28, YI: } Yea, we need to. No this is the lake. \\
+\textbf{24:33, NG: } Oh that is the river, so it is that way, Can we go? Yes we can go, this road?\\
+\textbf{24:50, YI: } Yes it should be. \\
+\emph{(Their task is interrupted by new assignment YI, DI -> 50)}
+\textbf{24:52, YI: } Task changed.\\
+\textbf{24:53, NG: } Task changed? What? \\
+\textbf{24:57, YI: } No, it is the same.  \\
+\textbf{25:00, NG: } I do not see anything. \\
+\textbf{25:02, YI: } You are DI, right?\\
+\textbf{25:03, NG: } No.\\
+\textbf{25:04, YI: } En? You are no DI? DI, wait. \\
+\textbf{25:11, NG: } I can not see my Task.\\
+\textbf{25:19, YI: } You are NG, Oh no, I need DI.  \\
+\textbf{25:21, NG: } You should go back then. Or send a message, Oh I can not see my task.\\
+\textbf{25:34, NG: } I think the page is not loading.\\
+}
+\end{minipage}} 
+ 
 
 This part begins with a new task assignment for team NG, YI (NG, YI -> 50). This assignment is followed by a discussion about the location of the new target. At [24:50], the team figured out the route to pursue the target. However, a new task assignment arrived, requiring YI to team up with the remote player DI to pursue the same target 50. The team is confused after the change of task. YI thought the task did not change because the target is still 50 [24:57, YI: No, it is the same.], and NG thought the interface is no longer working [25:34, NG: I think the page is not loading.]. After YI confirms NG`s initials, she realized she needs to switch teammate (to DI). \\
 
 Overall, we found the task interrupt resulted in a problematic sense making process in the field. The control room observation also reveals that several factors could have led to the task interruption including the untimely response from field responders; computational optimization performed by agent; and HQ`s carefulness in assignment approval. [Discussion: This example shows that computationally q optimized q assignment is not socially optimized for teams and interaction design failed to tackle the issue.]\\
 
 \subsection{The importance of player feedbacks}
-Episode 5 highlights the importance of feedback from field players. Lack of feedback leads to false assumptions of the agent (players are still available), which in turn compromises its optimization. In one case, we also found that HQ may also be distracted by the lack of response, in that they have to guess playerQs intention without their feedback. 
+Episode 5 highlights the importance of feedback from field players. Lack of feedback leads to false assumptions of the agent (players are still available), which in turn compromises its optimization. In one case, we also found that HQ may also be distracted by the lack of response, in that they have to guess playerQs intention without their feedback. \\
 
-insert Episode 6 here \\ 
+\noindent\Mybox{\begin{minipage}[b]{\textwidth}
+\texttt{
+\emph{(New assignment MV XW -> 36, XW accepted, MV had no response)}\\
+\textbf{13:05: HQ1: } I think they have not received any task probably . \\
+\textbf{13:22, HQ1: } Just do not have response, I do not know why.  \\
+\textbf{13.32, HQ2: } MV and XW, I suppose they go to 36. \\
+\textbf{13:35, HQ: } They are moving, but they did not accept that. \\
+\textbf{13:48, } (HQ click request, new assignment to MV XW -> 43, NO response from MV XW)?\\
+\textbf{13:51, HQ2: } I am not sure they are still going south; I think they (MV XW) are going to 43 instead. \\
+\textbf{13:59, HQ1: } HQ: they are going to 43.\\
+\textbf{14:05, HQ1: } HQ: they just do not have any response, no reply. But they are coming for it, they are coming. \\
+}
+\end{minipage}} 
 
 In this episode, the team MV, XW was assigned target twice [12:30,13:48], but the team neither rejects nor accepts those two assignments. The HQs are observed to guess intentions of the field responders 3 times [see 13:32, 13:51,13:59] and complain about the non-response twice [see 13.22, 13:48]
 
 \subsection{The incident of player death}
 Two players are dead in the session 2 , the following episode will report this particular incident. This episode can be seen as a follow up of episode 2, in which the HQ modified 3 agent assignments. In that plan, the team CE, KM is instructed to go for a target very close to a radiation cloud. The episode is also divided into two parts. The part 1 illustrates what happened in control room while part 2 shows the field observation.\\
 
-Insert episode 7 part 1 \\
+\noindent\Mybox{\begin{minipage}[b]{\textwidth}
+\texttt{
+\emph{(Context: One team (CE, KM) is end up heading to radiation cloud. )}\\
+\textbf{4:52, HQ2 } They (CE KM) are walking right into their death. \\
+\emph{(CE and KM were heading to target 03 which is now at opposite side of a radiation cloud)}\\
+\textbf{4:56, (HQ messaging) } Careful, you are approaching the cloud. Move extremely fast to the cloud. Go around the lake to return.\\
+\textbf{5:32, HQ: } God, too slow.\\
+\emph{(The team CE KM is completely in the mid of radiation)}\\
+\textbf{5.46, (HQ typing message) } Move closer to the lake.\\
+\textbf{5:50, } (The team went through the cloud, their health is below 20, the target 03 is now at the edge of the cloud)\\
+\textbf{6.39, HQ2: } What are they trying to pick up?\\
+\textbf{6:43, HQ1: } The fuel.\\
+\textbf{6.48, HQ2: } I am not sure whether they can survive picking up the fuel. No, now is more concern of surviving. \\
+\textbf{7:05, (HQ messaging) } Abort 03, return top to (target) 99. \\
+\textbf{9.04, } (HQ1 stopped task of CE KM) \\
+\textbf{9.05-10:08, } (HQ requested re-plan 4 times, no new plan available for CE KM) \\
+\textbf{9.50, HQ1: } No targets for them? There are lots of them. \\
+(Team CE, KM stay in the cloud all the time, and finally dead)\\
+}
+\end{minipage}}
+
 
 At the beginning of the task, the radiation cloud has already got in the way between target and the field team CE and KM. The cloud was expanding quickly, which caught the HQ1 in surprise. As a result, 2 messages were sent by HQ1 to guide the team to avoid the cloud [4:56,5:46]. However the team was still excessively exposed to the radiation when they reached the side of the target, so HQ1 decide to abort the task. After HQ1 cancelled the assignment, the team was still exposed to radiation. HQ1 then tried to assign the players to other targets by requesting agent for new assignment. However, the agent does not assign the team to any task because the team`s health is too low. HQ1 seems to be confused about why the agent refused to assign targets. He continuously requested plans for three times and said ``No targets for them? There are lots of them (refer to targets).''[9:50] During this process, the team was still standing in the cloud. They finally lost all the health points and become incapacitated. The second part of the episode showed what happened in the \\
 
-Insert episode 7 part 2\\
+
+\noindent\Mybox{\begin{minipage}[b]{\textwidth}
+\texttt{
+\textbf{05:06, CE: } (Reading out the message) You are approaching the cloud, move extremely fast to the cloud, Ok! \\
+\textbf{05:12,} (CE grabbed KM and started running) [Fig 8]\\
+\textbf{06:03,} (The team CW, KM ran all the way across the cloud) \\
+\emph{(After ran through the cloud, they are checking the health value.)}\\
+\textbf{06:53, CE: } how dead are you?\\
+\textbf{06:55, KM: } Pretty much dead.\\
+\textbf{06:56, CE: } I am pretty dead as well.\\
+\emph{(The team is trying to locate the target, but it is unsuccessful) [Fig, 9]}\\
+\textbf{07:19, CE: } Do you know what is funny? We have to get back.\\
+\textbf{08:15, CE: } It should be somewhere around here! We are getting close.\\
+\emph{(Assignment cancelled)}\\
+\textbf{08:43, CE: } there is a new task, No task at the moment? \\
+\textbf{[...]} 
+\emph{(After assignment was cancelled, the team was still trying to locate the target)}\\
+\textbf{09:35, CE: } I am pretty much dead and radiation is 12. Where is it! It says it is on this street but it is not. \\
+\textbf{09:57, CE: } Oh I am dead.\\
+}
+\end{minipage}}
 
 The part 2 began with player CE reading the HQ message (``You are approaching the cloud, move extremely fast''). After this message, CE grabbed teammate KM and starts to run through the cloud [Fig. 8].  After they ran through the cloud, the team checked their remaining health value [07:19] and started searching for the target at the edge of the radiation cloud. About half minute later, the assignment was cancelled by HQ [08.43]. Although the task has been cancelled, the HQ failed to assign new task to the team [part 1, 9:50] . The team simply ignored the cancellation and kept searching for the target until they loss all their health [09:57]. \\
 
@@ -964,13 +1134,20 @@ The part 2 began with player CE reading the HQ message (``You are approaching th
 
 In session 1, the responsibility for HQ1 and HQ2 to send messages are not fixed as original design, but dynamically negotiated between the two HQ operators. The following fragment is a typical case of the negotiations.\\
 
-insert fragment 1 here\\
+\noindent\Mybox{\begin{minipage}[b]{\textwidth}
+\texttt{
+\textbf{17:04, HQ1: } Ok this one (refer to target 36). Do you tell them? \\
+\textbf{17:05, HQ2: } Should I tell them? \\
+\textbf{17:07, HQ1: } Yeah, (tell them to) go for 36. \\
+\textbf{--:--, (HQ2 sent message) } MV and XW  move north of the water and go round to 36\\
+}
+\end{minipage}}
 
 In this fragment, HQ1 asks HQ2 to send a message to instruct a team to go for a target 36. The message is a task-specific, but it is sent by HQ2 through the public message channel. \\
 
 In session 2, we do not find similar negotiations. However, in the post game discussion, the HQ2 expressed that he has too little to things to do (other then sending general messages), while HQ1 has too much to do:   \\
 
-Q The interface I use was completely useless, became I can only message everyone at the same time, basically spamming everybody, so the only thing that I can do is, Oh , the cloud moves there and there. At the same time, Khaled (HQ1) had to message to everybody privately. While he was doing that, he coundn`t do new plans. So there is a lot stuff for him be I coundn`t do anything. Q
+``The interface I use was completely useless, became I can only message everyone at the same time, basically spamming everybody, so the only thing that I can do is, Oh , the cloud moves there and there. At the same time, Khaled (HQ1) had to message to everybody privately. While he was doing that, he coundn`t do new plans. So there is a lot stuff for him be I coundn`t do anything. ''
 
 \section{Discussion}
 
@@ -1060,13 +1237,17 @@ Therefore, the interface features that counters the effects of uncertainties nee
 
 8.* Accountability become opaque by using the agent. \\
 
-9.* Limitation\\
-- Text message as communication modality.  \\
-- Voice vs Text trade-off\\
-- Risk is not real. Have evidence of feeling threatened. Not real fear. \\
+
 
 
 [a separate reading list available for this chapter]\\
+
+\section{Design Implications}
+\subsection{ Establishing common ground}
+\subsection{ Facilitate accountability}
+\subsection{ Balance responsibilities  }
+
+
 
 \section{Professional feedbacks}\label{sec:RGworkshopone} 
 
@@ -1143,6 +1324,13 @@ Apart from information capturing and presentation, the RG team also see the valu
 
 The statement indicates that planning of resource allocation does happen in the field and it is desirable to transfer the workload to HQ. The statement also identifies AO as a (potential) tool to balance division of labour. 
 [Other interface improvements?] 
+
+\subsection{Conclusion}
+In the previous section, we have reflected on both realistic and unrealistic aspects of AO setting based on the feedbacks from RG workshop. The resource target mapping and teaming aspects of AO setting are found to be similar to activities in the DR operations, though the teaming in DR operations are likely to be conducted in an informal way. On the other hand, both time scale and command structure in the AO setting do not match what happens in the DR operations. The time scale of RG`s operation is much longer the AO. And Command and Control framework in DR has hierarchical levels and sectorisation for some levels, both of which are missing in the AO setting. Further, the assumption of good data connections in the field are also fund unrealistic. However the RG team thought the core planning support aspects of AO would still be useful even when data connection is poor. \\
+
+Although AO are not built as a tool to support real disaster operation (It is designed to be a simulation game), the RG team still found some aspects of AO demonstrates elements of future planning support system desirable to them. Firstly, the AO portrayed a picture of automated information capturing and visualisation which is appreciated by RG. Secondly, RG also appreciate that the division of labour facilitated by the AO setting, in which the HQ (with the planning agent) handles the task planning while the field responders just need to ``gather information, file it back, and forget it''\\
+
+\section{Summary}
 
 
 
