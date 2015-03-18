@@ -103,35 +103,34 @@
 \contentsline {subsection}{\numberline {7.4.9}The incident of player death}{125}{subsection.7.4.9}
 \contentsline {subsection}{\numberline {7.4.10}Division of labour in HQ}{128}{subsection.7.4.10}
 \contentsline {section}{\numberline {7.5}Discussion}{129}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}How does HuIL design play out?}{129}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.1}How does On-the-loop design play out?}{129}{subsection.7.5.1}
 \contentsline {subsection}{\numberline {7.5.2}Division of labor }{131}{subsection.7.5.2}
 \contentsline {subsection}{\numberline {7.5.3}Dealing with the imperfection of agent planner}{133}{subsection.7.5.3}
-\contentsline {subsection}{\numberline {7.5.4}Forward Planning}{135}{subsection.7.5.4}
-\contentsline {subsection}{\numberline {7.5.5}Lack of explanation from agent }{136}{subsection.7.5.5}
+\contentsline {subsection}{\numberline {7.5.4}Lack of explanation from agent }{135}{subsection.7.5.4}
+\contentsline {subsection}{\numberline {7.5.5}Forward Planning}{136}{subsection.7.5.5}
 \contentsline {subsection}{\numberline {7.5.6}Coordination with Field Players}{137}{subsection.7.5.6}
 \contentsline {section}{\numberline {7.6}Design Implications}{140}{section.7.6}
-\contentsline {subsection}{\numberline {7.6.1} Establishing common ground}{140}{subsection.7.6.1}
-\contentsline {subsection}{\numberline {7.6.2} Facilitate accountability}{140}{subsection.7.6.2}
-\contentsline {subsection}{\numberline {7.6.3} Balance responsibilities }{140}{subsection.7.6.3}
-\contentsline {section}{\numberline {7.7}Professional feedbacks}{140}{section.7.7}
-\contentsline {subsection}{\numberline {7.7.1}Introduction of Rescue Global}{141}{subsection.7.7.1}
-\contentsline {subsection}{\numberline {7.7.2}The Rescue Globalfeedbacks}{142}{subsection.7.7.2}
-\contentsline {subsection}{\numberline {7.7.3}Conclusion}{146}{subsection.7.7.3}
-\contentsline {section}{\numberline {7.8}Summary}{147}{section.7.8}
-\contentsline {part}{iv\hspace {1em}\spacedlowsmallcaps {Conclusion}}{149}{part.4}
-\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Conclusion}}{151}{chapter.8}
-\contentsline {section}{\numberline {8.1}Summary of approach}{151}{section.8.1}
-\contentsline {section}{\numberline {8.2}Summary of findings}{151}{section.8.2}
-\contentsline {section}{\numberline {8.3}Summary of interface evolutions}{154}{section.8.3}
-\contentsline {section}{\numberline {8.4}Summary of interactional issues}{158}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}Division of labour}{159}{subsection.8.4.1}
-\contentsline {subsection}{\numberline {8.4.2}Establishing Common Ground}{162}{subsection.8.4.2}
-\contentsline {subsection}{\numberline {8.4.3}Faciliating Accountability}{164}{subsection.8.4.3}
-\contentsline {section}{\numberline {8.5}Limitation}{164}{section.8.5}
-\contentsline {section}{\numberline {8.6}future work}{166}{section.8.6}
-\contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Appendix}}{169}{part.5}
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{171}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix Section Test}{171}{section.A.1}
-\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{172}{section.A.2}
+\contentsline {subsection}{\numberline {7.6.1}Establishing common ground}{140}{subsection.7.6.1}
+\contentsline {subsection}{\numberline {7.6.2}Balance responsibilities}{140}{subsection.7.6.2}
+\contentsline {section}{\numberline {7.7}Professional feedbacks}{142}{section.7.7}
+\contentsline {subsection}{\numberline {7.7.1}Introduction of Rescue Global}{143}{subsection.7.7.1}
+\contentsline {subsection}{\numberline {7.7.2}The Rescue Global feedbacks}{144}{subsection.7.7.2}
+\contentsline {subsection}{\numberline {7.7.3}Conclusion}{148}{subsection.7.7.3}
+\contentsline {section}{\numberline {7.8}Summary}{149}{section.7.8}
+\contentsline {part}{iv\hspace {1em}\spacedlowsmallcaps {Conclusion}}{151}{part.4}
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Conclusion}}{153}{chapter.8}
+\contentsline {section}{\numberline {8.1}Summary of approach}{153}{section.8.1}
+\contentsline {section}{\numberline {8.2}Summary of findings}{153}{section.8.2}
+\contentsline {section}{\numberline {8.3}Summary of interface evolutions}{156}{section.8.3}
+\contentsline {section}{\numberline {8.4}Summary of interactional issues}{160}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Division of labour}{161}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Establishing Common Ground}{164}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.3}Faciliating Accountability}{166}{subsection.8.4.3}
+\contentsline {section}{\numberline {8.5}Limitation}{166}{section.8.5}
+\contentsline {section}{\numberline {8.6}future work}{168}{section.8.6}
+\contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Appendix}}{171}{part.5}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{173}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix Section Test}{173}{section.A.1}
+\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{174}{section.A.2}
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{173}{dummy.7}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{175}{dummy.7}

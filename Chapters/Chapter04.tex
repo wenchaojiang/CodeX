@@ -1141,7 +1141,7 @@ In session 2, we do not find similar negotiations. However, in the post game dis
 
 In previous section, episodes are presented to illustrate how the In-the-loop interaction design plays out in the field.  The episodes reveal that, to large extent, human the HQ players were successfully involved in the control loop. However, we also found some confusions and misunderstandings occur between agent and human which may leads to issues and implications for interaction designs. This section will reflect on xxx \\
 
-\subsection{How does HuIL design play out?}
+\subsection{How does On-the-loop design play out?}
 The designed interface functionalities enable HQ to engage in arrange of interface interactions such as plan requesting, editing, approval and cancellation. This section will exam how this functionalities are utilized and to what extent do they help HQ stay in the control loop. \\
 
 \textbf{ 1) Plan request and approval }\\
@@ -1160,7 +1160,7 @@ The partial planning functionality allows HQ`s to indirectly influence on the pl
 
 \subsection{Division of labor }
 [It is unclear whether this section is about division as we observed or it is a design]
-The HuIL interaction design is aimed to involve human in the control loop, and at the same time facilitate division of labour between human and agent. The previous section has reviewed how a list of interface functionalities supports the HuIL interaction pattern. This section will exam the how the division of labour play out as a result of HuIL design. Overall, We found HQ players contribute to the planning with a set of supervisory activities, while the agent take over computational optimization of task allocation. \\
+The In-the-loop interaction design is aimed to involve human in the control loop, and at the same time facilitate division of labour between human and agent. The previous section has reviewed how a list of interface functionalities supports the In-the-loop interaction pattern. This section will exam the how the division of labour play out as a result of In-the-loop design. Overall, the observation reveals that HQ players contribute to the planning with a set of supervisory activities, while the agent take over computational optimization of task allocation. \\
 
 insert figure here\\
 
@@ -1185,12 +1185,16 @@ In the game probe, the planning can be seen as partially automated by the planne
 \item Computational optimization performed by agent, which ignores overhead of task interruption. \\
 \end{enumerate}
 
-The point 3 can be seen as the main cause of imperfection of the agent. In this study, imperfection is thought to be ``natural'' for agent planning support, as computationally ``optimized'' assignments from the planner may not socially optimized for the responder teams. It highlights the importance of human involvement in the planning activities. \\
+The point 3 can be seen as the main cause of imperfection of the agent. In this study, imperfection is thought to be ``natural'' for agent planning support, as computationally ``optimized'' assignments from the planner may not socially optimized for the responder teams [ref to study 2]. It highlights the importance of human involvement in the planning activities. \\
 
-The failure case in episode has great similarity with the well-observed phenomena related to imperfection of automation called complacency. The complacency phenomenon refers to the human failure of detecting occasional automation failure. Study of automation suggests that complacency can be classified as attention-based monitoring failure, which is likely to happen when human is engaged in multi-thread tasking. In the case of episode 5, the quick approval of problematic assignments suggests the plan is not properly reviewed. The HQ`s attention could be a factor of the monitoring failure. As the HQ player is trying to allocate tasks for idle players, they may only focus on the new assignments for the idle players rather then other conflicting assignments.  If the interface failed to attract HQ`s attention to the conflict, HQ may approve the plan as long as idle players are properly assigned. Although failed in episode 5, the interface highlight does grabbed attention of the HQ in episode 4, which suggests that the a interaction design that properly drive the HQ`s attention can may help to reduce complacency effects.  [Connect to more literatures] Some study shows that complacency is found in both naive and expert participants and cannot be overcome with simple practice. Therefore, mechanism to counter the complacency effect may an important factor that need to be considered in the interaction design. [can we claim?]
+The failure case in this episode is similar to the well-observed phenomena related to imperfection of automation called complacency. The complacency phenomenon refers to the human failure of detecting occasional automation failure. Study of automation suggests that complacency can be classified as attention-based monitoring failure, which is likely to happen when human is engaged in multi-thread tasking. In the case of episode 5, the quick approval of problematic assignments suggests the plan is not properly reviewed. The HQ`s attention could be a factor of the monitoring failure. As the HQ player is trying to allocate tasks for idle players, they may only focus on the new assignments for the idle players rather then other conflicting assignments.  If the interface failed to attract HQ`s attention to the conflict, HQ may approve the plan as long as idle players are properly assigned. Although failed in episode 5, the interface highlight does grabbed attention of the HQ in episode 4, which suggests that the a interaction design that properly drive the HQ`s attention can may help to reduce complacency effects.  [Connect to more literatures] Some study shows that complacency is found in both naive and expert participants and cannot be overcome with simple practice. Therefore, mechanism to counter the complacency effect may an important factor that need to be considered in the interaction design. [can we claim?]
 
-\subsection{Forward Planning}
-The agent performs n-step [need to confirm] looking ahead planning (see section of agent algorithm) for each re-plan. Similar to the agent, HQ players are observed to engage in forward planning activities. For example, in Ep 1, the HQ anticipated a team was going to finish assignment soon and plan to assign a new target for them. Later, HQ triggered a re-plan and the result was consistent with the HQ`s previous plan. In some other cases, the result of agent re-planning was not consistent with HQ`s plan. Therefore, HQ has to make decisions about whether to follow the agent or not. As both HQ players and the agent conducted forward planning, sharing of relevant information may help HQ to understand the agent`s reasoning and make informed decisions.  However, the extra information sharing may further complicate the interface. For example, for the agent to share information of its future planning, it may need to present the future assignments and prediction of the future game status. It is would be problematic for HQ to digest the extra information in the time-constrained task environment. Various studies have identified the problem of information overload in the system interaction design [] [] []. The problem occurs when information presented at a rate too fast for a person to process [], and it may lead to a list of human performance consequence []:
+\subsection{Lack of explanation from agent }
+Some observations in the study showed that some agent actions are not sufficiently explained to HQ, which results in undesirable HQ performance. This section will exam two particular cases in details.
+
+Firstly, the HQ sometimes become confused when the planner stop giving back assignments. As presented in episode 7, the HQ repeated requesting plans four times and complains about no response from planner. However, the planner does not produce more assignments simply because the idle players have little health to take any more assignments. This misunderstanding indicates there is lack of explanation for the HQ to make sense of agent`s reasoning process. 
+
+In another one case, we observed HQ drastically modified agent proposed plan (Ep 2). In episode 2, the HQ modified 3 out of 4 the agent proposed assignments. As the new targets are closer to cloud, the HQ`s plan could be more risky. The risky plan turned out to be undesirable as it leads to 2 assignment cancellations and 2 player deaths (episode 7). As the planner has ruled out the risky plan at the first place, the reasoning behind the original plan may be important information that should have been exposed to HQ to inform their decisions. Depending on the implementation of the planner, evaluation of human proposed alternatives (or comparison with preferred plan) may also be available during the agent planning and can be exposed to imply risk. If HQ is aware of why the agent chose the original plan, HQ may be able to make informed decision when overriding the agent plans. However, the extra information sharing may further complicate the interface. For example, for the agent to share information of its reasoning behind a particular task assignment, it may need to present its prediction of the future game status and its assessment of current game status. It would be problematic for HQ to digest the extra information in the time-constrained task environment. Various studies have identified the problem of information overload in the system interaction design [] [] []. The problem occurs when information presented at a rate too fast for a person to process [], and it may lead to a list of human performance consequence []:
 
 \begin{enumerate}
 \item Fail to respond to certain inputs,
@@ -1201,17 +1205,10 @@ The agent performs n-step [need to confirm] looking ahead planning (see section 
 \item Recode the inputs in a more compact or effective form, or quit (in extreme cases) [23].
 \end{enumerate}
 
-Various techniques have been explored to alleviate the problem of information overload in different application domains such as security monitoring [], teleportation [], and communication systems []. However, the specific research of information overload for task allocation support in DR domain is still rare. We think that the extra forward planning support may introduce the risk of overloading human operators. Therefore, more studies are required to evaluate the trade-off between its benefits and human performance consequence. 
+Various techniques have been explored to alleviate the problem of information overload in different application domains such as security monitoring [], teleportation [], and communication systems []. However, the specific research of information overload for task allocation support in DR domain is still rare. We think that the extra forward planning support may introduce the risk of overloading human operators. Therefore, more studies are required to evaluate the trade-off between its benefits and human performance consequence.
 
-
-\subsection{Lack of explanation from agent }
-Some observations in the study showed that some agent actions are not sufficiently explained to HQ, which results in undesirable HQ performance. This section will exam two particular cases in details.
-
-Firstly, the HQ sometimes become confused when the planner stop giving back assignments. As presented in episode 7, the HQ repeated requesting plans four times and complains about no response from planner. However, the planner does not produce more assignments simply because the idle players have little health to take any more assignments. This misunderstanding indicates there is lack of explanation for the HQ to make sense of agent`s reasoning process. 
-
-In another one case, we observed HQ drastically modified agent proposed plan (Ep 2). In episode 2, the HQ modified 3 out of 4 the agent proposed assignments. As the new targets are closer to cloud, the HQ`s plan could be more risky. The risky plan turned out to be undesirable as it leads to 2 assignment cancellations and 2 player deaths (episode 7). As the planner has ruled out the risky plan at the first place, the reasoning behind the original plan may be important information that should have been exposed to HQ to inform their decisions. Depending on the implementation of the planner, evaluation of human proposed alternatives (or comparison with preferred plan) may also be available during the agent planning and can be exposed to imply risk. If HQ is aware of why the agent chose the original plan, HQ may be able to make informed decision when overriding the agent plans. 
-
-Again, excessive and ineffective explanation of agent plans may introduce the danger of overloading the HQ players.  [Connecting to information overload]
+\subsection{Forward Planning}
+The agent performs n-step [need to confirm] looking ahead planning (see section of agent algorithm) for each re-plan. Similar to the agent, HQ players are observed to engage in forward planning activities. For example, in Ep 1, the HQ anticipated a team was going to finish assignment soon and plan to assign a new target for them. Later, HQ triggered a re-plan and the result was consistent with the HQ`s previous plan. In some other cases, the result of agent re-planning was not consistent with HQ`s plan. Therefore, HQ has to make decisions about whether to follow the agent or not. As both HQ players and the agent conducted forward planning, sharing of relevant information may help HQ to understand the agent`s reasoning and make informed decisions.  Again, excessive and ineffective explanation of agent plans may introduce the danger of overloading the HQ players.  [Connecting to information overload]
 
 \subsection{Coordination with Field Players}
 Coordinating with field players is also a key component of plan-execution loop. For the coordination, there are two issues emerged from the field study. The first is about confusions around the task cancellation. The second issue is about lack of response from field players. This section will exam these two issues in details.\\
@@ -1223,22 +1220,26 @@ Apart from the issues of task cancellation, the issues of field player feedback 
 Therefore, the interface features that counters the effects of uncertainties needs to be carefully designed. Excessive uncertainty visualization can cause information overload, and ineffective representations can be easily compromised by complacency effects. \\
 
 
-7.* Smoothing the workflow\\
+%7.* Smoothing the workflow\\
 
-8.* Accountability become opaque by using the agent. \\
+%8.* Accountability become opaque by using the agent. \\
 
-[a separate reading list available for this chapter]\\
+%[a separate reading list available for this chapter]\\
 
 \section{Design Implications}
-\subsection{ Establishing common ground}
+In previous studies have proposed some design implications in terms of  
+
+The issues identified reinforces some implications with regards to establishing CG, while at the same time, the observations provide extra insights in terms of balancing responsibilities between human and agent.
+
+\subsection{Establishing common ground}
 Common Ground has been a reoccurring issues in both study 1 and 2. The observation of this also blabla 
 Good: Situational Awareness: 
-Bad: higher overload 
-\subsection{ Facilitate accountability }
+Bad: stronger human involvement may lead to undesirable human  higher overload 
 
-
-\subsection{ Balance responsibilities }
+\subsection{Balance responsibilities}
 This is from the conclusion section, Rewrite it.
+
+%\subsection{ Facilitate accountability }
 
 
 \begin{enumerate}
@@ -1257,7 +1258,7 @@ Compared to In-the-loop study, the HQ players in On-the-loop study are found to 
 Compared to On-the-loop, the In-the-loop design is more likely to introduce human mistakes as the design advocates greater human involvements. There is a case of  human "death" occurred  when field players were trying to follow a human generated plan in the In-the-loop trial.  Although there are lots of factors contributing to the `death' case (e.g. insufficient training for field play, communication breakdown), the task assignment is thought to be too risky and not recommended by the agent at the first place. It is believed that the chance of human mistakes can be reduced by appropriate design interaction which help establishing the `common ground' between human and agent. However, such a design would not be as easy task as it involves multiple design trade-offs  (see section \ref{sec:conclusionCG})[Need to expand in study section]
 
 \item Model of Accountability
-
+\end{enumerate}
 
 
 \section{Professional feedbacks}\label{sec:RGworkshopone} 
@@ -1283,7 +1284,7 @@ We also encourages free discussions throughout the AO session, which leads to so
 RG`s organisational structure represents a typical hierarchy found in emergency services (cf. [39]), termed Gold, Silver and Bronze. Gold denotes the strategic lead, which is associated with RG`s senior officers (often referred to as the `head shed') and the headquarters in London, Silver is the tactical lead, which is `spun up' for mission planning, both to assess feasibility of deployments and when actually deployed onsite. Bronze refers to the operational level, in which `Pathfinders' (field responders) carry out operations `on the ground' supported by Silver command [29]. RG`s core staff consists of around 20 highly specialised experts and admin support, many of whom have had prior careers in the military, and emergency and first response services.\\
 
 
-\subsection{The Rescue Globalfeedbacks}
+\subsection{The Rescue Global feedbacks}
 Based the feedbacks of the RG, the AO setting  mirrors some aspects of the RG`s disaster operations. Firstly, the RG member quickly recognise the task-team matching mechanism is very similar to the aspects of resource-needs matching in their operation. At the beginning of the introduction presentation of AO, one of the responder commented: \\
 
 \begin{quotation}
@@ -1342,14 +1343,15 @@ In the previous section, we have reflected on both realistic and unrealistic asp
 Although AO are not built as a tool to support real disaster operation (It is designed to be a simulation game), the RG team still found some aspects of AO demonstrates elements of future planning support system desirable to them. Firstly, the AO portrayed a picture of automated information capturing and visualisation which is appreciated by RG. Secondly, RG also appreciate that the division of labour facilitated by the AO setting, in which the HQ (with the planning agent) handles the task planning while the field responders just need to ``gather information, file it back, and forget it''\\
 
 \section{Summary}
-The objective of the research presented here was to explore the design surrounding an In-the-loop interaction. The exploration is conducted through field trial of an AtomicOrchid(AO) probe with In-the-loop support, with particular focus in the planning activities in control room. The Game probe is evolved from the On-the-loop version of AO that is trialled in study 2 (see ref). The game probe allows xxxxxx. 
+The objective of the research presented here was to explore the design issues surrounding an In-the-loop interaction pattern. The exploration is conducted through field trial of an AtomicOrchid(AO) probe with In-the-loop support, with particular focus in the planning activities in control room. The Game probe is evolved from the On-the-loop version of AO that is trialled in study 2 (see ref). The game probe allows xxxxxx. 
 
-Findings from interaction analysis of field observations, triangulated with log files, reveal how the In-the-loop interactions played out. [Spell it out!]. A set of interactional issues also emerged and discussed in section ref: . 
+Findings from interaction analysis of field observations, triangulated with log files, reveal how the In-the-loop interactions played out. By examining the usages of interface functionalities and presenting episodes of task planning, we argue that a pattern of division of labour is achieved, in which HQ players contribute to the planning with supervisory activities and interventions, while the agent takes over computational optimization of task allocation [ref of interaction design]. Meanwhile, a set of interactional issues around In-the-loop design also emerged. \\
 
-The interactional issues discovered also lead to the design implications which can be grouped into three themes: Common ground
+Firstly, the human supervision may not be the perfect solution for the imperfection agents. We found human HQ players sometimes quickly approve assignments without consideration of task interruptions caused by agent planning [ref ]. The HQ players also override (safer) agent plans to implement risky plans, which lead to player `death'. Therefore, we argue that stronger human  involvement may come with undesirable human performance consequence (e.g. complacency, uninformed decisions). Secondly, some of the observed undesirable human performance may arguably be a result of insufficient information sharing between human and agent. However, we also argue that the excessive information sharing may complicate interface and interactions between human and agent, which in turn, leads to information overload. Therefore, the trade-off may need to be carefully considered for interaction design. Further, forward planning  activities are frequently observed and they are not well supported by the agent. Finally, the lack of acknowledges and ineffectiveness of task cancellation have been identified as communication issues between field and the control room in section x. \\
 
+%The discovered interactional issues lead to some design implications which are discussed with respect to two themes: Common ground, and Balance of responsibilities. Various issues of interaction highlighted the importance of Common Ground between human and agent. Through discussion of the observed interactional issues, we have identified some information that need to be shared for establishing the common ground. However, it is unknown how this information should be presented in a way that avoids information overload and, at the some time, contribute to the common ground.  \\
 
-In addition, a workshop with professional organisation has been reported to . The feedback reveals strength and weakness of xxxxx AO simulation: 
+In addition, a workshop with professional organisation has been reported in this chapter. The feedback reveals strength and weakness of AO simulation. In more details, the resource target mapping and teaming aspects of AO setting are found to be similar to activities in the DR operations. However, the time-scale, command control structure and the assumption of data connectivities does not match to current paradigm of DR operation. Although there are several unrealistic aspects of AO simulation, the responders still appreciate the core planning support aspects of AO system.\\
 
 
 
