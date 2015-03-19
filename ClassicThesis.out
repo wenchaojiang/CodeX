@@ -99,7 +99,7 @@
 \BOOKMARK [2][-]{subsection.7.4.5}{7.4.5 Cancelling approved assignments}{section.7.4}% 99
 \BOOKMARK [2][-]{subsection.7.4.6}{7.4.6 HQ avoiding task interruption}{section.7.4}% 100
 \BOOKMARK [2][-]{subsection.7.4.7}{7.4.7 Consequence of task interruption}{section.7.4}% 101
-\BOOKMARK [2][-]{subsection.7.4.8}{7.4.8 The importance of player feedbacks}{section.7.4}% 102
+\BOOKMARK [2][-]{subsection.7.4.8}{7.4.8 The consequence of missing player feedbacks}{section.7.4}% 102
 \BOOKMARK [2][-]{subsection.7.4.9}{7.4.9 The incident of player death}{section.7.4}% 103
 \BOOKMARK [2][-]{subsection.7.4.10}{7.4.10 Division of labour in HQ}{section.7.4}% 104
 \BOOKMARK [1][-]{section.7.5}{7.5 Discussion}{chapter.7}% 105
@@ -107,11 +107,11 @@
 \BOOKMARK [2][-]{subsection.7.5.2}{7.5.2 Division of labor }{section.7.5}% 107
 \BOOKMARK [2][-]{subsection.7.5.3}{7.5.3 Dealing with the imperfection of agent planner}{section.7.5}% 108
 \BOOKMARK [2][-]{subsection.7.5.4}{7.5.4 Lack of explanation from agent }{section.7.5}% 109
-\BOOKMARK [2][-]{subsection.7.5.5}{7.5.5 Forward Planning}{section.7.5}% 110
-\BOOKMARK [2][-]{subsection.7.5.6}{7.5.6 Coordination with Field Players}{section.7.5}% 111
+\BOOKMARK [2][-]{subsection.7.5.5}{7.5.5 Unsupported forward planning activities}{section.7.5}% 110
+\BOOKMARK [2][-]{subsection.7.5.6}{7.5.6 Coordination with field Players}{section.7.5}% 111
 \BOOKMARK [1][-]{section.7.6}{7.6 Design Implications}{chapter.7}% 112
 \BOOKMARK [2][-]{subsection.7.6.1}{7.6.1 Establishing common ground}{section.7.6}% 113
-\BOOKMARK [2][-]{subsection.7.6.2}{7.6.2 Balance responsibilities}{section.7.6}% 114
+\BOOKMARK [2][-]{subsection.7.6.2}{7.6.2 Balance responsibilities between human and agent}{section.7.6}% 114
 \BOOKMARK [1][-]{section.7.7}{7.7 Professional feedbacks}{chapter.7}% 115
 \BOOKMARK [2][-]{subsection.7.7.1}{7.7.1 Introduction of Rescue Global}{section.7.7}% 116
 \BOOKMARK [2][-]{subsection.7.7.2}{7.7.2 The Rescue Global feedbacks}{section.7.7}% 117
