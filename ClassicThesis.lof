@@ -12,36 +12,38 @@
 \contentsline {figure}{\numberline {6}{\ignorespaces System Architecture\relax }}{36}{figure.caption.13}
 \contentsline {figure}{\numberline {7}{\ignorespaces Result for MMDP, Myopic and Greedy algorithms\relax }}{38}{figure.caption.14}
 \contentsline {figure}{\numberline {8}{\ignorespaces Input and output of the agents\relax }}{39}{figure.caption.15}
+\contentsline {figure}{\numberline {9}{\ignorespaces On-the-loop interaction design\relax }}{42}{figure.caption.16}
+\contentsline {figure}{\numberline {10}{\ignorespaces In-the-loop interaction design\relax }}{42}{figure.caption.17}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {9}{\ignorespaces The HQ interface\relax }}{53}{figure.caption.16}
-\contentsline {figure}{\numberline {10}{\ignorespaces The mobile responder app\relax }}{55}{figure.caption.17}
-\contentsline {figure}{\numberline {11}{\ignorespaces Speech act classification\relax }}{58}{figure.caption.18}
-\contentsline {figure}{\numberline {12}{\ignorespaces Adjacency pairs\relax }}{61}{figure.caption.19}
-\contentsline {figure}{\numberline {13}{\ignorespaces JH (Behind Left), D2 (Middle Front), KY (Right behind)\relax }}{63}{figure.caption.20}
-\contentsline {figure}{\numberline {14}{\ignorespaces KY (Left) , MF (Right) holding mobile phones\relax }}{63}{figure.caption.21}
-\contentsline {figure}{\numberline {15}{\ignorespaces Caption\relax }}{64}{figure.caption.22}
-\contentsline {figure}{\numberline {16}{\ignorespaces Caption\relax }}{64}{figure.caption.22}
-\contentsline {figure}{\numberline {17}{\ignorespaces How responders addressed task allocation messages from HQ.\relax }}{66}{figure.caption.23}
-\contentsline {figure}{\numberline {18}{\ignorespaces Caption\relax }}{67}{figure.caption.24}
-\contentsline {figure}{\numberline {19}{\ignorespaces Caption\relax }}{67}{figure.caption.24}
-\contentsline {figure}{\numberline {20}{\ignorespaces Caption\relax }}{69}{figure.caption.25}
-\contentsline {figure}{\numberline {21}{\ignorespaces Caption\relax }}{71}{figure.caption.26}
-\contentsline {figure}{\numberline {22}{\ignorespaces Caption\relax }}{72}{figure.caption.27}
+\contentsline {figure}{\numberline {11}{\ignorespaces The HQ interface\relax }}{55}{figure.caption.18}
+\contentsline {figure}{\numberline {12}{\ignorespaces The mobile responder app\relax }}{57}{figure.caption.19}
+\contentsline {figure}{\numberline {13}{\ignorespaces Speech act classification\relax }}{60}{figure.caption.20}
+\contentsline {figure}{\numberline {14}{\ignorespaces Adjacency pairs\relax }}{63}{figure.caption.21}
+\contentsline {figure}{\numberline {15}{\ignorespaces JH (Behind Left), D2 (Middle Front), KY (Right behind)\relax }}{65}{figure.caption.22}
+\contentsline {figure}{\numberline {16}{\ignorespaces KY (Left) , MF (Right) holding mobile phones\relax }}{65}{figure.caption.23}
+\contentsline {figure}{\numberline {17}{\ignorespaces Caption\relax }}{66}{figure.caption.24}
+\contentsline {figure}{\numberline {18}{\ignorespaces Caption\relax }}{66}{figure.caption.24}
+\contentsline {figure}{\numberline {19}{\ignorespaces How responders addressed task allocation messages from HQ.\relax }}{68}{figure.caption.25}
+\contentsline {figure}{\numberline {20}{\ignorespaces Caption\relax }}{69}{figure.caption.26}
+\contentsline {figure}{\numberline {21}{\ignorespaces Caption\relax }}{69}{figure.caption.26}
+\contentsline {figure}{\numberline {22}{\ignorespaces Caption\relax }}{71}{figure.caption.27}
+\contentsline {figure}{\numberline {23}{\ignorespaces Caption\relax }}{73}{figure.caption.28}
+\contentsline {figure}{\numberline {24}{\ignorespaces Caption\relax }}{74}{figure.caption.29}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {23}{\ignorespaces Caption\relax }}{89}{figure.caption.28}
-\contentsline {figure}{\numberline {24}{\ignorespaces Caption\relax }}{92}{figure.caption.29}
-\contentsline {figure}{\numberline {25}{\ignorespaces Caption\relax }}{92}{figure.caption.29}
+\contentsline {figure}{\numberline {25}{\ignorespaces Caption\relax }}{91}{figure.caption.30}
+\contentsline {figure}{\numberline {26}{\ignorespaces Caption\relax }}{94}{figure.caption.31}
+\contentsline {figure}{\numberline {27}{\ignorespaces Caption\relax }}{94}{figure.caption.31}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {26}{\ignorespaces Result Overview\relax }}{114}{figure.caption.30}
-\contentsline {figure}{\numberline {27}{\ignorespaces Task assignment overview\relax }}{115}{figure.caption.31}
-\contentsline {figure}{\numberline {28}{\ignorespaces Task assignment in session 1\relax }}{116}{figure.caption.32}
-\contentsline {figure}{\numberline {29}{\ignorespaces Task assignment in session 2\relax }}{116}{figure.caption.33}
+\contentsline {figure}{\numberline {28}{\ignorespaces Result Overview\relax }}{116}{figure.caption.32}
+\contentsline {figure}{\numberline {29}{\ignorespaces Task assignment overview\relax }}{117}{figure.caption.33}
+\contentsline {figure}{\numberline {30}{\ignorespaces Task assignment in session 1\relax }}{118}{figure.caption.34}
+\contentsline {figure}{\numberline {31}{\ignorespaces Task assignment in session 2\relax }}{118}{figure.caption.35}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {30}{\ignorespaces Interaction issues and interface improvements\relax }}{156}{figure.caption.34}
-\contentsline {figure}{\numberline {31}{\ignorespaces Interface of study 1\relax }}{159}{figure.caption.35}
-\contentsline {figure}{\numberline {32}{\ignorespaces Interface of study 2\relax }}{160}{figure.caption.36}
-\contentsline {figure}{\numberline {33}{\ignorespaces HQ Interface of study 3\relax }}{161}{figure.caption.37}
-\contentsline {figure}{\numberline {34}{\ignorespaces Mobile Interface of study 3\relax }}{162}{figure.caption.38}
-\contentsline {figure}{\numberline {35}{\ignorespaces On-the-loop vs In-the-loop\relax }}{163}{figure.caption.39}
+\contentsline {figure}{\numberline {32}{\ignorespaces Interaction issues and interface improvements\relax }}{158}{figure.caption.36}
+\contentsline {figure}{\numberline {33}{\ignorespaces Interface of study 1\relax }}{161}{figure.caption.37}
+\contentsline {figure}{\numberline {34}{\ignorespaces Interface of study 2\relax }}{162}{figure.caption.38}
+\contentsline {figure}{\numberline {35}{\ignorespaces HQ Interface of study 3\relax }}{163}{figure.caption.39}
+\contentsline {figure}{\numberline {36}{\ignorespaces Mobile Interface of study 3\relax }}{164}{figure.caption.40}
+\contentsline {figure}{\numberline {37}{\ignorespaces On-the-loop vs In-the-loop\relax }}{165}{figure.caption.41}
 \addvspace {10\p@ }
