@@ -221,7 +221,7 @@ RG`s organisational structure represents a typical hierarchy found in emergency 
 %(Most interaction techniques literature reviewed so far is about study in visual representation. )
 %(Interaction design, wiki)
 
-\chapter{ Methodology To Investigating Human Agent Interaction}
+\chapter{ Methodologies to Investigating Human Agent Interaction}
 This chapter takes an in-depth look at the methodology that underlies the empirical approach adopted in the presented studies.This PhD study is aimed to conduct ethnographic-oriented field studies based on AtomicOrchid(AO) platform to generate descriptive results, which contains rich interactions among participants and planning support system. Ethnographic observations and interaction analysis are central to all three field studies, while group interviews, message classification, and system log analysis are introduced to supplement the two former in-situ methods.\\
 
 \section{Ethnomethodology perspective}
@@ -239,10 +239,26 @@ For the purpose of this PhD work, interaction analysis is applied to the evaluat
 \section{Mixed Methods Approach}
 Ethnographic observations and interaction analysis have been introduced as the main methods for investigating socio-technical issues in our studies. Some additional methods companies the two main methods by providing extra insights and context information. In particular, the group interview supplements field observation and interaction analysis by providing subjective description of game play experience. The message classification method gives an quantitative insights into remote communication. It also provides context for interactions in the field and help to identify interesting game events. The log analysis produces game events visualisation and replay. When triangulated with the video data, the log data analysis also supports interaction analysis by providing context and help to identify interesting episodes in video data.
 
+\subsection{Log data analysis} 
+Now days, the HCI researchers often collect rich dataset for investigating interactions. The data set becomes larger and larger as digital record systems increase in availability. Automated tools are increasingly necessary for managing the organisation, replaying, structured and free coding (and annotation) and analysis of these growing data sets (). The logging system of AtomicOrhid produces time-stamped system logs. In order to triangulate the log data with video and audio data from field observations, A data visualisation tool and a log replay system are developed.  \\
 
-\subsection{Group interview}
-[read andy's interview chapter]
-For all three field studies, group interviews were conducted with all participants after each game sessions. The interviews consists of open-ended questions with the aim to supplementing the field observation and interaction analysis with rich descriptions of participants' experiences of the game. Emergence of unanticipated issues and events was also fostered by asking open-ended questions, which in turn, are used to guide the interaction analysis of field observations.\\
+To recap (see section xxx), the logging systems records players's location, health, targets' location and status (pick up/drop off), task assignments and players' feedback (reject/accept). The data visualisation tool (see figure xxx) focus on visualising task assignments in the game play. The game events related to task allocations, including task assignments, player feedback, target pickup and dropoff, are all plotted on a time line with different annotations. The   colored dots and squares denote various game events (see figure \ref{fig:logvis}). Detailed information of the event can be displayed when mouse hover on. As you can see for figure \ref{fig:logvis}, the deep blue dot with mouse cursor hover on denotes a target pick up event. The two players with initials CY and DS (see lines connecting the pick-up events) picked up target 598 at the 10th minute of game play. This data visualisation tools give an overview of game-event sequence. It assists interaction analysis by providing context and guidance on episode selection process. \\
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{img/methodology/logVisualisation}
+  \caption{Log visualisation}
+  \label{fig:logvis}
+\end{figure}
+
+A replay system is also built to triangulate multiple video with log data. The main map view on the replay interface (see figure \ref{fig:replay}) displays game status reconstructed from log data, in a way that similar to the HQ interface does (see section x for details). By giving a time offset to video file, the videos are synchronised with the main map view of game status. The replay system is important tool for interaction analysis, as it presents distributed game play with a single interface in a synchronised way, providing insights into the distributed interaction among participants and the system. \\
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{img/methodology/replay}
+  \caption{Replay system}
+  \label{fig:replay}
+\end{figure}
 
 \subsection{Message classification} 
 For AtomicOrchid, remote coordination between field and human HQ is achieved through a text messaging channel. To understand how the team members interact through the remote messages, we devised a message classification method based on speech act theory (Searle, 1975). We used speech-act theory and the notion of adjacency pairs in linguistics to classify messages sent between and among responders and HQ. According to speech act theory, utterances in dialogues can be considered as speech acts from three dimensions. We were primarily concerned with the illocutionary dimension of speech acts.\\
@@ -261,13 +277,21 @@ The notion of request-response adjacency pairs are also used to gain insights in
 
 The purpose of message classification is to give an overview of the communication in the message channel. Meanwhile, the result of message classification supports interaction analysis, as it helps to identify interesting moments of team interactions in the game such as important decision points.\\
 
-\subsection{Log analysis} 
-The logging system of AtomicOrhid produces time-stamped system logs. The log data can be used to reproduce game plays, which help to identify interesting episode of interactions for subsequent interaction analysis. xxxx In this research, we developed a tool for game event visualisation and a digital replay system to triangulate log and video data. \\
+\subsection{Group interview}
+[read andy's interview chapter]
+For all three field studies, group interviews were conducted with all participants after each game sessions. The interviews consists of open-ended questions with the aim to supplementing the field observation and interaction analysis with rich descriptions of participants' experiences of the game. Emergence of unanticipated issues and events was also fostered by asking open-ended questions, which in turn, are used to guide the interaction analysis of field observations.\\
 
-The community of researchers investigating human-human and human-computer interaction collect rich data sets that are becoming ever larger and more diverse as digital recording technologies increase in availability and ease of use. A wide range of both quantitative and qualitative research methodologies are used to investigate these multimodal corpora and software tools are increasingly necessary in order to manage the organisation, replaying, structured and free coding (and annotation) and analysis of these growing data sets. The size and range of data sets produced by varying methodological approaches mean that often the analytical process is tailored to an individual study, and is extremely time consuming. It is also often difficult to relate multiple analyses (for examples see Ainsworth and Burcham, 2007 and Forsyth et al., 2006)\\
+\section{Summary}
+To sum up, ethnographic observation (?) and interaction analysis are the main in situ methods applied in the studies . The two methods are supported by message classification, group interviews and log data analysis. Message classification produces a message catalogue which gives quantitative insight into the remote communication. It also contribute to episode selection and provide context for further episode analysis. \\
 
-data visualisation. \\
+The log data analysis produces replay and visualisation of game events. The replay system help to triangulate game events in log data with multiple videos from field observation, revealing the relationship between system log and interactions in the field. It also help us identify important episodes of interactions and  provide context for further episode analysis.\\
 
-find out all the screen shots.\\
+Comments from participants are collected from group interviews. The comments give insights into participants' subjective game experience, which are also important context for episode analysis.\\
 
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{img/methodology/summary}
+  \caption{summary of methodologies}
+  \label{fig:summary}
+\end{figure}
 
