@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  16 OCT 2014 15:00
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  5 APR 2015 12:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -13,13 +13,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.33 \usepackage{
+l.34 \usepackage{
                  ifthen}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.34 \newboolean
+l.35 \newboolean
                 {enable-backrefs} % enable backrefs in the bibliography
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -34,7 +34,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.34 \newboolean{e
+l.35 \newboolean{e
                   nable-backrefs} % enable backrefs in the bibliography
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -55,7 +55,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no f in font nullfont!
 Missing character: There is no s in font nullfont!
 ! Undefined control sequence.
-l.35 \setboolean
+l.36 \setboolean
                 {enable-backrefs}{false} % true false
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -84,7 +84,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 34--37
+Overfull \hbox (20.0pt too wide) in paragraph at lines 35--38
 []
  []
 
@@ -97,7 +97,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.76  \usepackage{
+l.80  \usepackage{
                   inputenc}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -109,7 +109,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81  \usepackage{
+l.85  \usepackage{
                   babel}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -121,7 +121,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84  \usepackage{
+l.88  \usepackage{
                   natbib}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -133,7 +133,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.87  \usepackage{
+l.91  \usepackage{
                   amsmath}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -145,8 +145,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 	\usepackage{
-                  fontenc}
+l.100 	\usepackage{
+                   fontenc}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
@@ -157,8 +157,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.95 \usepackage{
-                 textcomp} % fix warning with missing font shapes
+l.102 \usepackage{
+                  textcomp} % fix warning with missing font shapes
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
@@ -169,8 +169,9 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96 \usepackage{
-                 scrhack} % fix warnings when using KOMA with listings package
+l.103 \usepackage{
+                  scrhack} % fix warnings when using KOMA with listings package
+
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
@@ -181,8 +182,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.97 \usepackage{
-                 xspace} % to get the spacing after macros right
+l.104 \usepackage{
+                  xspace} % to get the spacing after macros right
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
@@ -193,8 +194,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.98 \usepackage{
-                 mparhack} % get marginpar right
+l.105 \usepackage{
+                  mparhack} % get marginpar right
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
@@ -205,8 +206,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.99 \usepackage{
-                 fixltx2e} % fixes some LaTeX stuff
+l.106 \usepackage{
+                  fixltx2e} % fixes some LaTeX stuff
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
@@ -217,13 +218,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.100 \usepackage{
+l.107 \usepackage{
                   bibentry}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.101 \nobibliography
+l.110 \nobibliography
                      *
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -238,7 +239,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.101 \nobibliography*
+l.110 \nobibliography*
                       
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -251,7 +252,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 	\usepackage{
+l.112 	\usepackage{
                    acronym} % nice macros for handling all acronyms in the t...
 
 \usepackage may only appear in the document preamble, i.e.,
@@ -264,13 +265,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.105 \renewcommand{\bflabel}
+l.114 \renewcommand{\bflabel}
                              [1]{{#1}\hfill} % fix the list of acronyms
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 101--106
+Overfull \hbox (20.0pt too wide) in paragraph at lines 110--115
 []
  []
 
@@ -281,7 +282,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.113 \usepackage{
+l.122 \usepackage{
                   tabularx} % better tables
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -289,7 +290,7 @@ between \documentclass and \begin{document}.
 ! Undefined control sequence.
 <argument> \extrarowheight 
                            
-l.114 	\setlength{\extrarowheight}{3pt}
+l.123 	\setlength{\extrarowheight}{3pt}
                                         % increase table row height
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -304,7 +305,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.114 	\setlength{\extrarowheight}{3pt}
+l.123 	\setlength{\extrarowheight}{3pt}
                                         % increase table row height
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -319,13 +320,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117 \usepackage{
+l.126 \usepackage{
                   caption}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.118 \captionsetup
+l.127 \captionsetup
                    {format=hang,font=small}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -362,13 +363,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119 \usepackage{
+l.128 \usepackage{
                   subfig}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 114--120
+Overfull \hbox (20.0pt too wide) in paragraph at lines 123--129
 []
  []
 
@@ -379,7 +380,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.122 \usepackage{
+l.131 \usepackage{
                   enumerate}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -391,13 +392,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.129 \usepackage{
+l.138 \usepackage{
                   listings}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.131 \lstset
+l.140 \lstset
              {language=[LaTeX]Tex,%C++,
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -412,7 +413,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.131 \lstset{l
+l.140 \lstset{l
                anguage=[LaTeX]Tex,%C++,
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -451,7 +452,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
-l.132     keywordstyle=\color
+l.141     keywordstyle=\color
                              {RoyalBlue},%\bfseries,
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -481,7 +482,7 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no = in font nullfont!
 ! Undefined control sequence.
-l.133     basicstyle=\small
+l.142     basicstyle=\small
                            \ttfamily,
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -490,7 +491,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.135     commentstyle=\color
+l.144     commentstyle=\color
                              {Green}\ttfamily,
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -499,7 +500,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.138     numberstyle=\scriptsize
+l.147     numberstyle=\scriptsize
                                  ,%\tiny
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -510,7 +511,7 @@ and I'll forget about whatever was undefined.
 ! Missing number, treated as zero.
 <to be read again> 
                    }
-l.147 }
+l.156 }
        
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
@@ -519,7 +520,7 @@ look up `weird error' in the index to The TeXbook.)
 ! Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.147 }
+l.156 }
        
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
@@ -529,97 +530,97 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-Overfull \hbox (25.24995pt too wide) in paragraph at lines 131--149
+Overfull \hbox (25.24995pt too wide) in paragraph at lines 140--158
 []\OT1/cmtt/m/n/10 ,
  []
 
 
-Overfull \hbox (99.74913pt too wide) in paragraph at lines 131--149
+Overfull \hbox (99.74913pt too wide) in paragraph at lines 140--158
 \OT1/cmtt/m/n/10 commentstyle=Green,
  []
 
 
-Overfull \hbox (65.77724pt too wide) in paragraph at lines 131--149
+Overfull \hbox (65.77724pt too wide) in paragraph at lines 140--158
 \OT1/cmtt/m/n/10 stringstyle=\OT1/cmr/m/n/10 ,
  []
 
 
-Overfull \hbox (22.50005pt too wide) in paragraph at lines 131--149
+Overfull \hbox (22.50005pt too wide) in paragraph at lines 140--158
 \OT1/cmr/m/n/10 num-
  []
 
 
-Overfull \hbox (179.41705pt too wide) in paragraph at lines 131--149
+Overfull \hbox (179.41705pt too wide) in paragraph at lines 140--158
 \OT1/cmr/m/n/10 bers=none,numberstyle=,stepnumber=5,
  []
 
 
-Overfull \hbox (22.50005pt too wide) in paragraph at lines 131--149
+Overfull \hbox (22.50005pt too wide) in paragraph at lines 140--158
 \OT1/cmr/m/n/10 num-
  []
 
 
-Overfull \hbox (53.139pt too wide) in paragraph at lines 131--149
+Overfull \hbox (53.139pt too wide) in paragraph at lines 140--158
 \OT1/cmr/m/n/10 bersep=8pt,
  []
 
 
-Overfull \hbox (24.7778pt too wide) in paragraph at lines 131--149
+Overfull \hbox (24.7778pt too wide) in paragraph at lines 140--158
 \OT1/cmr/m/n/10 show-
  []
 
 
-Overfull \hbox (82.1946pt too wide) in paragraph at lines 131--149
+Overfull \hbox (82.1946pt too wide) in paragraph at lines 140--158
 \OT1/cmr/m/n/10 stringspaces=false,
  []
 
 
-Overfull \hbox (27.52783pt too wide) in paragraph at lines 131--149
+Overfull \hbox (27.52783pt too wide) in paragraph at lines 140--158
 \OT1/cmr/m/n/10 break-
  []
 
 
-Overfull \hbox (47.8612pt too wide) in paragraph at lines 131--149
+Overfull \hbox (47.8612pt too wide) in paragraph at lines 140--158
 \OT1/cmr/m/n/10 lines=true,
  []
 
 
-Overfull \hbox (32.00006pt too wide) in paragraph at lines 131--149
+Overfull \hbox (32.00006pt too wide) in paragraph at lines 140--158
 \OT1/cmr/m/n/10 framer-
  []
 
 
-Overfull \hbox (45.00015pt too wide) in paragraph at lines 131--149
+Overfull \hbox (45.00015pt too wide) in paragraph at lines 140--158
 \OT1/cmr/m/n/10 ound=ftff,
  []
 
 
-Overfull \hbox (59.8057pt too wide) in paragraph at lines 131--149
+Overfull \hbox (59.8057pt too wide) in paragraph at lines 140--158
 \OT1/cmr/m/n/10 frame=single,
  []
 
 
-Overfull \hbox (13.61113pt too wide) in paragraph at lines 131--149
+Overfull \hbox (13.61113pt too wide) in paragraph at lines 140--158
 \OT1/cmr/m/n/10 be-
  []
 
 
-Overfull \hbox (18.05557pt too wide) in paragraph at lines 131--149
+Overfull \hbox (18.05557pt too wide) in paragraph at lines 140--158
 \OT1/cmr/m/n/10 low-
  []
 
 
-Overfull \hbox (18.33336pt too wide) in paragraph at lines 131--149
+Overfull \hbox (18.33336pt too wide) in paragraph at lines 140--158
 \OT1/cmr/m/n/10 cap-
  []
 
 
-Overfull \hbox (20.5556pt too wide) in paragraph at lines 131--149
+Overfull \hbox (20.5556pt too wide) in paragraph at lines 140--158
 \OT1/cmr/m/n/10 tion-
  []
 
 
-Overfull \hbox (38.11122pt too wide) in paragraph at lines 131--149
+Overfull \hbox (38.11122pt too wide) in paragraph at lines 140--158
 \OT1/cmr/m/n/10 skip=.75 
  []
 
@@ -630,7 +631,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.158 	\usepackage{
+l.167 	\usepackage{
                    hyperref}  % backref linktocpage pagebackref
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -642,13 +643,13 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.162 	\usepackage{
+l.171 	\usepackage{
                    graphicx}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
 ! Undefined control sequence.
-l.171 \ifthenelse
+l.180 \ifthenelse
                  {\boolean{enable-backrefs}}%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -657,7 +658,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.171 \ifthenelse{\boolean
+l.180 \ifthenelse{\boolean
                           {enable-backrefs}}%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -672,7 +673,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.171 \ifthenelse{\boolean{e
+l.180 \ifthenelse{\boolean{e
                             nable-backrefs}}%
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -699,7 +700,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.174 		\usepackage{
+l.183 		\usepackage{
                     backref} % to be loaded after hyperref package
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
@@ -711,7 +712,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.175 		   \renewcommand{\backreftwosep}
+l.184 		   \renewcommand{\backreftwosep}
                                         { and~} % separate 2 pages
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -723,7 +724,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.176 		   \renewcommand{\backreflastsep}
+l.185 		   \renewcommand{\backreflastsep}
                                          {, and~} % separate last of longer ...
 
 Try typing  <return>  to proceed.
@@ -736,7 +737,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.177 		   \renewcommand*{\backref}
+l.186 		   \renewcommand*{\backref}
                                    [1]{}  % disable standard
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -748,18 +749,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.178 		   \renewcommand*{\backrefalt}
+l.187 		   \renewcommand*{\backrefalt}
                                       [4]{% detailed backref
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 171--187
+Overfull \hbox (20.0pt too wide) in paragraph at lines 180--196
 []
  []
 
 ! Undefined control sequence.
-l.191 \hypersetup
+l.200 \hypersetup
                  {%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -774,7 +775,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.193     c
+l.202     c
            olorlinks=true, linktocpage=true, pdfstartpage=3, pdfstartview=Fi...
 
 You're in trouble here.  Try typing  <return>  to proceed.
@@ -1152,10 +1153,29 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no t in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
-\myTitle ...sues of Agent Planning Support\xspace 
+\myTitle ...Support for Disaster Response \xspace 
                                                   
-l.201     pdftitle={\myTitle
+l.210     pdftitle={\myTitle
                             },%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1174,30 +1194,30 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no = in font nullfont!
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 202.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 211.
 
 (/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd
 File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 202.
-LaTeX Font Info:    Try loading font information for +cmr on input line 202.
-LaTeX Font Info:    No file cmr.fd. on input line 202.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 211.
+LaTeX Font Info:    Try loading font information for +cmr on input line 211.
+LaTeX Font Info:    No file cmr.fd. on input line 211.
 
 
 LaTeX Font Warning: Font shape `/cmr/m/n' undefined
-(Font)              using `/cmsy/m/n' instead on input line 202.
+(Font)              using `/cmsy/m/n' instead on input line 211.
 
-LaTeX Font Info:    Try loading font information for +cmsy on input line 202.
-LaTeX Font Info:    No file cmsy.fd. on input line 202.
+LaTeX Font Info:    Try loading font information for +cmsy on input line 211.
+LaTeX Font Info:    No file cmsy.fd. on input line 211.
 
 LaTeX Font Warning: Font shape `/cmsy/m/n' undefined
-(Font)              using `/cmsy/m/n' instead on input line 202.
+(Font)              using `/cmsy/m/n' instead on input line 211.
 
 ! Corrupted NFSS tables.
 wrong@fontshape ...message {Corrupted NFSS tables}
                                                   error@fontshape else let f...
-l.202     pdfauthor={\textcopyright
+l.211     pdfauthor={\textcopyright
                                    \ \myName, \myUni, \myFaculty},%
 This error message was generated by an \errmessage
 command, so I can't give any explicit help.
@@ -1206,7 +1226,7 @@ and deduce the truth by order and method.
 
 
 LaTeX Font Warning: Font shape `/cmsy/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 202.
+(Font)              using `OT1/cmr/m/n' instead on input line 211.
 
 Missing character: There is no W in font nullfont!
 Missing character: There is no e in font nullfont!
@@ -1223,7 +1243,7 @@ Missing character: There is no g in font nullfont!
 ! Undefined control sequence.
 \myName ->Wenchao Jiang\xspace 
                                
-l.202     pdfauthor={\textcopyright\ \myName
+l.211     pdfauthor={\textcopyright\ \myName
                                             , \myUni, \myFaculty},%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1246,7 +1266,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 \myUni ->Put data here\xspace 
                               
-l.202 ...dfauthor={\textcopyright\ \myName, \myUni
+l.211 ...dfauthor={\textcopyright\ \myName, \myUni
                                                   , \myFaculty},%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1274,7 +1294,7 @@ Missing character: There is no e in font nullfont!
 ! Undefined control sequence.
 \myFaculty ->Faculty of Science\xspace 
                                        
-l.202 ...extcopyright\ \myName, \myUni, \myFaculty
+l.211 ...extcopyright\ \myName, \myUni, \myFaculty
                                                   },%
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1374,12 +1394,12 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 193--208
+Overfull \hbox (20.0pt too wide) in paragraph at lines 202--217
 []
  []
 
 
-Overfull \hbox (10.00002pt too wide) in paragraph at lines 193--208
+Overfull \hbox (10.00002pt too wide) in paragraph at lines 202--217
 []
  []
 
@@ -1390,8 +1410,32 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.262 \usepackage{
+l.271 \usepackage{
                   classicthesis}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298 \usepackage{
+                  float}
+\usepackage may only appear in the document preamble, i.e.,
+between \documentclass and \begin{document}.
+
+
+! LaTeX Error: \usepackage before \documentclass.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.299 \usepackage{
+                  graphicx}
 \usepackage may only appear in the document preamble, i.e.,
 between \documentclass and \begin{document}.
 
@@ -1403,10 +1447,10 @@ between \documentclass and \begin{document}.
 
  
 Here is how much of TeX's memory you used:
- 101 strings out of 493315
- 1410 string characters out of 6137904
+ 103 strings out of 493315
+ 1424 string characters out of 6137904
  53158 words of memory out of 5000000
- 3647 multiletter control sequences out of 15000+600000
+ 3649 multiletter control sequences out of 15000+600000
  3808 words of font info for 15 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  18i,6n,16p,176b,148s stack positions out of 5000i,500n,10000p,200000b,80000s
