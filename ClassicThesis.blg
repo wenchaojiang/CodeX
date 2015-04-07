@@ -10,7 +10,6 @@ A level-1 auxiliary file: FrontBackmatter/Acknowledgments.aux
 A level-1 auxiliary file: FrontBackmatter/Contents.aux
 A level-1 auxiliary file: Chapters/Chapter01.aux
 A level-1 auxiliary file: Chapters/LiteratureReview.aux
-A level-1 auxiliary file: Chapters/ChapterMRG.aux
 A level-1 auxiliary file: Chapters/ChapterM&P.aux
 A level-1 auxiliary file: Chapters/Chapter04.aux
 A level-1 auxiliary file: Chapters/Conclusion.aux
@@ -31,7 +30,7 @@ Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
 You've used 6 entries,
             2773 wiz_defined-function locations,
-            656 strings with 6802 characters,
+            655 strings with 6779 characters,
 and the built_in function-call counts, 3028 in all, are:
 = -- 266
 > -- 176
