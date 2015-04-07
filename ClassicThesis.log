@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  7 APR 2015 15:34
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  7 APR 2015 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1553,8 +1553,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 104--105
-
+Overfull \hbox (18.10051pt too wide) in paragraph at lines 105--106
+\T1/pplj/m/n/10.95 that help plan-ners to ex-plore and man-age plan-ning ac-tiv
+-i-ties[].Literatures
  []
 
 
@@ -1562,12 +1563,18 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [20]
-Underfull \hbox (badness 10000) in paragraph at lines 106--107
+Underfull \hbox (badness 10000) in paragraph at lines 107--108
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 108--109
+Overfull \hbox (3.25595pt too wide) in paragraph at lines 109--110
+[]\T1/pplj/m/n/10.95 The time-critical task set-ting may be an-other ma-jor fac
+-tor that makes
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
  []
 
@@ -1576,12 +1583,23 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [21]
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
+Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
+Overfull \hbox (0.2216pt too wide) in paragraph at lines 114--115
+\T1/pplj/m/n/10.95 com-mu-ni-ca-tion chan-nels in-clud-ing ra-dio, tele-vi-sion
+, satel-lite, text and
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
@@ -1590,21 +1608,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
-
- []
-
-
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 158--159
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
@@ -1614,18 +1618,26 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--161
  []
 
 
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[23]
 Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
 
-Overfull \hbox (1.12804pt too wide) in paragraph at lines 167--168
-\T1/pplj/m/n/10.95 Mixed-reality games are one type of dig-i-tal game which tri
-es to bridge
+Underfull \hbox (badness 10000) in paragraph at lines 164--165
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
 
@@ -1634,12 +1646,18 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [24]
-Underfull \hbox (badness 10000) in paragraph at lines 169--170
+Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+Overfull \hbox (1.12804pt too wide) in paragraph at lines 177--178
+\T1/pplj/m/n/10.95 Mixed-reality games are one type of dig-i-tal game which tri
+es to bridge
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
@@ -1648,30 +1666,40 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [25]
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
+Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 184--185
-
- []
-
-)
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [26]
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
+
+ []
+
+)
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
@@ -5709,7 +5737,7 @@ ublic/amsfonts/latxfont/lcircle1.pfb></usr/local/texlive/2013/texmf-dist/fonts/
 type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
 rw/palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/pala
 tino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (196 pages, 11446603 bytes).
+Output written on ClassicThesis.pdf (196 pages, 11447882 bytes).
 PDF statistics:
  2032 PDF objects out of 2073 (max. 8388607)
  1752 compressed objects within 18 object streams

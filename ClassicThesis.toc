@@ -26,9 +26,9 @@
 \contentsline {section}{\numberline {2.4}Technology support for task planning}{20}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Planning support systems}{21}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}ICT support for disaster response}{22}{subsection.2.4.2}
-\contentsline {subsection}{\numberline {2.4.3}Disaster simulation, optimisation}{22}{subsection.2.4.3}
-\contentsline {subsection}{\numberline {2.4.4}Discussion}{22}{subsection.2.4.4}
-\contentsline {section}{\numberline {2.5}Game based simulation}{22}{section.2.5}
+\contentsline {subsection}{\numberline {2.4.3}Disaster simulation, optimisation}{23}{subsection.2.4.3}
+\contentsline {subsection}{\numberline {2.4.4}Discussion}{23}{subsection.2.4.4}
+\contentsline {section}{\numberline {2.5}Game based simulation}{23}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Serious Game}{23}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}Mixed Reality Games}{25}{subsection.2.5.2}
 \contentsline {part}{ii\hspace {1em}\spacedlowsmallcaps {Methodology and Approach}}{28}{part.2}
