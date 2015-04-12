@@ -1,4 +1,4 @@
-\begin{thebibliography}{6}
+\begin{thebibliography}{21}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -13,11 +13,65 @@ Jeffrey~M Bradshaw, Paul Feltovich, and Matthew Johnson.
 \newblock URL
   \url{http://books.google.com/books?hl=en\&amp;lr=\&amp;id=4opHlu05SNIC\&amp;oi=fnd\&amp;pg=PA283\&amp;dq=Human-agent+interaction\&amp;ots=vxrpDdLbSa\&amp;sig=07dujtzGjIcBLlZ6FVH33HjrWos}.
 
+\bibitem[Chen et~al.(2005)Chen, Sharman, Rao, and Upadhyaya]{Chen2005}
+Rui Chen, Raj Sharman, H~Raghav Rao, and Shambhu~J Upadhyaya.
+\newblock {Design Principles of Coordinated Multi-incident Emergency Response
+  Systems}.
+\newblock \emph{Simulation}, 3495:\penalty0 177--202, 2005.
+\newblock \doi{10.1007/11427995\_8}.
+\newblock URL \url{http://dx.doi.org/10.1007/11427995\_8}.
+
+\bibitem[Chen et~al.(2008)Chen, Sharman, Rao, and Upadhyaya]{Chen2008}
+Rui Chen, Raj Sharman, H.~Raghav Rao, and Shambhu~J. Upadhyaya.
+\newblock {Coordination in emergency response management}.
+\newblock \emph{Communications of the ACM}, 51\penalty0 (5):\penalty0 66--73,
+  May 2008.
+\newblock ISSN 00010782.
+\newblock \doi{10.1145/1342327.1342340}.
+\newblock URL \url{http://portal.acm.org/citation.cfm?doid=1342327.1342340}.
+
+\bibitem[Comfort(2004)]{Comfort2004}
+L.~K. Comfort.
+\newblock {Coordination in Rapidly Evolving Disaster Response Systems: The Role
+  of Information}.
+\newblock \emph{American Behavioral Scientist}, 48\penalty0 (3):\penalty0
+  295--313, March 2004.
+\newblock ISSN 0002-7642.
+\newblock \doi{10.1177/0002764204268987}.
+\newblock URL \url{http://abs.sagepub.com/cgi/doi/10.1177/0002764204268987}.
+
+\bibitem[Dawes et~al.(2004)Dawes, Schneider, and Road]{Dawes2004}
+Sharon~S Dawes, Carrie~A Schneider, and Wolf Road.
+\newblock {and Coordination : World Trade Center Response}.
+\newblock \penalty0 (June), 2004.
+
+\bibitem[Faraj and Xiao(2006)]{Faraj2006}
+Samer Faraj and Yan Xiao.
+\newblock {Coordination in Fast-Response Organizations}, 2006.
+\newblock ISSN 0025-1909.
+
+\bibitem[Fischer et~al.(2012)Fischer, Rodden, Flintham, Price, Goulding, and
+  Pantidi]{Fischer2012}
+Joel~E Fischer, Tom Rodden, Martin Flintham, Dominic Price, James Goulding, and
+  Nadia Pantidi.
+\newblock {Serious Mixed Reality Games}.
+\newblock \emph{CSCW2012: Mixed Reality Games Workshop}, 2012.
+
 \bibitem[Fitts(1951)]{Fitts}
 Fitts.
 \newblock {Human Engineering for an Effective Air Navigation and Traffic
   Control System.}
 \newblock 1951.
+
+\bibitem[Geertman and Stillwell(2004)]{Geertman2004}
+Stan Geertman and John Stillwell.
+\newblock {Planning support systems: an inventory of current practice}.
+\newblock \emph{Computers, Environment and Urban Systems}, 28\penalty0
+  (4):\penalty0 291--310, July 2004.
+\newblock ISSN 01989715.
+\newblock \doi{10.1016/S0198-9715(03)00024-3}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0198971503000243}.
 
 \bibitem[Hoffman et~al.(2002)Hoffman, Feltovich, Ford, Florida, Woods, Klein,
   Associates, Feltovich, College, Hoffman, and Hayes]{Hoffman2002}
@@ -44,6 +98,47 @@ Hyacinth~S Nwana.
 \newblock {Software Agents : An Overview}.
 \newblock pages 1--49, 1996.
 
+\bibitem[Okaya et~al.()Okaya, Niwa, and Takahashi]{Okaya}
+Masaru Okaya, Toshinori Niwa, and Tomoichi Takahashi.
+\newblock {TENDENKO : Agent-Based Evacuation Drill and Emergency Planning
+  System ( Demonstration )}.
+\newblock pages 1669--1670.
+
+\bibitem[Palen and Liu(2007)]{Palen2007}
+Leysia Palen and Sophia~B Liu.
+\newblock {Citizen Communications in Crisis : Anticipating a Future of
+  ICT-Supported Public Participation}.
+\newblock pages 727--736, 2007.
+
+\bibitem[Petrescu-prahova and Butts(2005)]{Petrescu-prahova2005}
+Miruna Petrescu-prahova and Carter~T Butts.
+\newblock {Emergent Coordination in the World Trade Center}.
+\newblock pages 1--23, 2005.
+
+\bibitem[Ramchurn et~al.(2010)Ramchurn, Polukarov, Farinelli, Jennings, and
+  Trong]{Ramchurn2010}
+S~D Ramchurn, Mariya Polukarov, Alessandro Farinelli, Nick Jennings, and Cuong
+  Trong.
+\newblock {Coalition Formation with Spatial and Temporal Constraints}.
+\newblock \emph{Constraints}, pages 1181--1188, 2010.
+\newblock URL \url{http://eprints.ecs.soton.ac.uk/18497/}.
+
+\bibitem[Ramchurn et~al.()Ramchurn, Huynh, Ikuno, Flann, Wu, Moreau, Jennings,
+  Fischer, Jiang, Simpson, Reece, and Roberts]{Ramchurn}
+Sarvapali~D Ramchurn, Trung~Dong Huynh, Yuki Ikuno, Jack Flann, Feng Wu, Luc
+  Moreau, Nicholas~R Jennings, Joel~E Fischer, Wenchao Jiang, Edwin Simpson,
+  Steven Reece, and Stephen Roberts.
+\newblock {HAC-ER : A Disaster Response System based on}.
+
+\bibitem[Toups et~al.(2011)Toups, Kerne, and Hamilton]{Toups2011}
+Zachary~O. Toups, Andruid Kerne, and William~A. Hamilton.
+\newblock {The team coordination game}.
+\newblock \emph{ACM Transactions on Computer-Human Interaction}, 18\penalty0
+  (4):\penalty0 1--37, December 2011.
+\newblock ISSN 10730516.
+\newblock \doi{10.1145/2063231.2063237}.
+\newblock URL \url{http://dl.acm.org/citation.cfm?id=2063231.2063237}.
+
 \bibitem[Vlassis(2007)]{Vlassis2007}
 Nikos Vlassis.
 \newblock \emph{{A Concise Introduction to Multiagent Systems and Distributed
@@ -53,5 +148,17 @@ Nikos Vlassis.
 \newblock \doi{10.2200/S00091ED1V01Y200705AIM002}.
 \newblock URL
   \url{http://www.morganclaypool.com/doi/abs/10.2200/S00091ED1V01Y200705AIM002}.
+
+\bibitem[Wagner et~al.(2004)Wagner, Phelps, Guralnik, and VanRiper]{Wagner2004}
+Thomas Wagner, J~Phelps, V~Guralnik, and R~VanRiper.
+\newblock {An application view of coordinators: Coordination managers for first
+  responders}.
+\newblock \emph{AAAI}, 2004.
+\newblock URL \url{http://www.aaai.org/Papers/IAAI/2004/IAAI04-020.pdf}.
+
+\bibitem[Wattegama(2012)]{Wattegama2012}
+Chanuka Wattegama.
+\newblock {ICT for disaster management}.
+\newblock \emph{Information Economy, Society and Polity}, 2012.
 
 \end{thebibliography}

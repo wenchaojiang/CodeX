@@ -23,50 +23,105 @@ Repeated entry---line 506 of file Bibliography.bib
  : @misc{Mendonca2007
  :                   ,
 I'm skipping whatever remains of this entry
+Database file #2: LR.bib
+Repeated entry---line 58 of file LR.bib
+ : @article{Fischer2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 94 of file LR.bib
+ : @article{Fitts
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 135 of file LR.bib
+ : @article{Nwana1996
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 142 of file LR.bib
+ : @article{Hoffman2002
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 176 of file LR.bib
+ : @incollection{Bradshaw2011
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 194 of file LR.bib
+ : @book{Vlassis2007
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 288 of file LR.bib
+ : @article{Palen2007
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 397 of file LR.bib
+ : @article{Toups2011
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 412 of file LR.bib
+ : @article{Wattegama2012
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 451 of file LR.bib
+ : @misc{Mendonca2007
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 507 of file LR.bib
+ : @article{Chen2005
+ :                  ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in Dawes2004
+Warning--there's a number but no volume in Dawes2004
 Warning--empty journal in Fitts
 Warning--empty journal in Hoffman2002
 Warning--empty journal in Nwana1996
+Warning--empty journal in Okaya
+Warning--empty year in Okaya
+Warning--empty year in Okaya
+Warning--empty journal in Palen2007
+Warning--empty journal in Petrescu-prahova2005
+Warning--empty journal in Ramchurn
+Warning--empty year in Ramchurn
+Warning--empty year in Ramchurn
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 6 entries,
+You've used 21 entries,
             2773 wiz_defined-function locations,
-            655 strings with 6779 characters,
-and the built_in function-call counts, 3028 in all, are:
-= -- 266
-> -- 176
-< -- 8
-+ -- 61
-- -- 55
-* -- 242
-:= -- 477
-add.period$ -- 26
-call.type$ -- 6
-change.case$ -- 35
-chr.to.int$ -- 6
-cite$ -- 17
-duplicate$ -- 139
-empty$ -- 231
-format.name$ -- 61
-if$ -- 626
+            774 strings with 10035 characters,
+and the built_in function-call counts, 11038 in all, are:
+= -- 996
+> -- 703
+< -- 18
++ -- 238
+- -- 217
+* -- 926
+:= -- 1710
+add.period$ -- 86
+call.type$ -- 21
+change.case$ -- 134
+chr.to.int$ -- 21
+cite$ -- 57
+duplicate$ -- 474
+empty$ -- 798
+format.name$ -- 246
+if$ -- 2294
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 7
-newline$ -- 45
-num.names$ -- 26
-pop$ -- 78
+missing$ -- 21
+newline$ -- 135
+num.names$ -- 86
+pop$ -- 274
 preamble$ -- 1
-purify$ -- 30
+purify$ -- 114
 quote$ -- 0
-skip$ -- 107
+skip$ -- 385
 stack$ -- 0
-substring$ -- 88
-swap$ -- 21
-text.length$ -- 4
+substring$ -- 359
+swap$ -- 71
+text.length$ -- 8
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 61
-warning$ -- 5
-while$ -- 27
+type$ -- 226
+warning$ -- 15
+while$ -- 94
 width$ -- 0
-write$ -- 94
-(There was 1 error message)
+write$ -- 308
+(There were 12 error messages)

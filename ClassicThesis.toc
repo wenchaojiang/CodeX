@@ -25,11 +25,11 @@
 \contentsline {subsection}{\numberline {2.2.3}Task planning in large scale disaster}{19}{subsection.2.2.3}
 \contentsline {section}{\numberline {2.3}Technology support for task planning}{21}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Planning support systems}{21}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}ICT support for disaster response}{23}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}AI for task planning in disaster response}{24}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.2}ICT support for disaster response}{22}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Application of AI technologies}{24}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Summary}{26}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}A CSCW perspective to technology support}{27}{section.2.4}
-\contentsline {section}{\numberline {2.5}Game based simulation}{27}{section.2.5}
+\contentsline {section}{\numberline {2.4}A CSCW perspective to technology support}{26}{section.2.4}
+\contentsline {section}{\numberline {2.5}Game based simulation}{26}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Serious Game}{27}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}Mixed Reality Games}{29}{subsection.2.5.2}
 \contentsline {part}{ii\hspace {1em}\spacedlowsmallcaps {Methodology and Approach}}{32}{part.2}
