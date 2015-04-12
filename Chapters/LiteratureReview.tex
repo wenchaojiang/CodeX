@@ -8,7 +8,7 @@ The study Automation design and Human agent interaction are two heavily intersec
 \subsection{A History of Automation }
 The original goal of Automation is to replace the tasks originally performed by human with a machine. \cite{Bradshaw2011} . It can be defined as the execution by machine, usually computer, of a function previously performed by human [Parasuraman and Riley 1997] The tasks that can be automated is used to be limited by technical capabilities, but this is no longer the case. With quick growth of machine's speed and intelligence, the tasks that can be automated is rapidly increasing, including complex cognitive activities such as information analysis, planning and decision making.[RAJA] The boundary between human machine capabilities has blurred. With little cannot be automated, the automation designers have to make hard choice about what to automate and to what extent.\\
 
-One traditional approach for automation design is to simply automate all system functions that can be automated easily in a cost-effective way, leaving the all remaining tasks to human operators. The main considerations in this approach are technical capability and  cost. The assumption of this approach is that the automation of sub systems functions can lead to optimisation of whole system with no detrimental impact results from the automation. However this is not always the case, Large body of empirical work in automation design have shown that xxxx .\\ 
+One traditional approach for automation design is to simply automate all system functions that can be automated easily in a cost-effective way, leaving the all remaining tasks to human operators. The main considerations in this approach are technical capability and cost. The assumption of this approach is that the automation of sub systems functions can lead to optimisation of whole system with no detrimental impact results from the automation. However this is not always the case, Large body of empirical work in automation design have shown that xxxx .\\ 
 
 The other approach is to achieve division of labour between human and automation according to their strength and weakness. As in Fitts list \cite{Fitts} , a set of strengths and weaknesses of humans and machines is identified. Some study pointed the division of labour would not be as simple as a labour division according to strength and weakness[]. Firstly the time factor could be important because human and machine's availability may change overtime. Secondly By delegating the same task to machine, the nature of human tasks can be changed as well. Large body of work has shown clearly that automation does not simply supplant human activity but rather changes it, often in a way that is unanticipated by the system designer. [Coordination and Supervision interaction required, expand ] \cite{Bradshaw2011} [Later , proposed by Licklider in the un-Fitts list \cite{Hoffman2002}, automation is aimed to leverage and extent human capability by using agents (not replacing).\cite{Bradshaw2011}.] \\
 
@@ -49,7 +49,7 @@ state lesson from CSCW
 
 
 
-\subsection{A summary}
+\subsection{Summary}
 
 Because this PhD work sits in the overlapping research area of human agent interaction and automation design, the later chapters will consider automation and agent software as two interchangeable concepts.
 
@@ -58,44 +58,55 @@ Because this PhD work sits in the overlapping research area of human agent inter
 
 
 \section{Task Planning in Disaster Response}\label{ch:teams}
-
-What is coordination(Coordination theory) Team Coordination. Malone (1990 361) defines coordination as the act of managing interdependencies between activities performed to achieve a goal. One of the very important component of coordination in DR, following sections will firstly... and then discuss how the coordination is carried out through command structure of DR team. 
-
-\subsection{Task Planning}
-In disaster response, team coordination is essential in order that groups of people can carry out interdependent activities together in a timely and satisfactory manner (cf. Bradshaw et al., 2011). Disaster response experts report that failures in team coordination are the most significant factor in critical emergency re- sponse (Toups et al., 2011: 2) that can cost human lives. Shared understanding, situation awareness, and alignment of cooperative action through on-going communication are key requirements to enable successful coordination. Convertino et al. (2011) design and study a set of tools to support common ground and aware- ness in emergency management. \\
-
- One important characteristic of large-scale disaster is the presence of multiple spatially distributed incidents (Chen et al., 2005). To deal with multiple incidents, the disaster response team has to coordinate spatially distributed resources and personnel to carry out operations (e.g. search, rescue and evacuation). Depending on the proliferation of incidents, response personnel may need to dispatch, deploy and redeploy limited resources. Coordination is required to efficiently allocate limited resources to multiple incidents with temporal and spatial constraints imposed by the nature of disasters.\\
-
-(The requirements of multiple incident response from Chen.)
+To define a context of task planning activities in disaster response, This section begins with a definition of disaster response, followed by an overview of command and control structures of DR organisation which facilitates task planning. The final section () examines the main characteristics of task planning in DR.
 
 
-((Coordination game) Below confirms that in a single target need multiple responder teams)
-While the present work applies generally to disaster response, our iterative design and theory-building processes have been specifically informed by work practice in the subdomain of fire emergency response. We work from fire emergency response in small-scale structural fires, observing practice in the United States of America. Fire emergency response is undertaken by small teams distributed throughout the incident, coordinated by an incident commander (IC) [Toups and Kerne 2007; Landgren 2006; Jiang et al. 2004; Landgren and Nulden 2007; Wieder et al. 1993; Carlson 1983; U.S. Department of Homeland Security 2008]. Multiple response teams, or companies, are dispatched to any incident and cooperate around the fireground (Figure 1). A company officer leads each team, which consists of firefighters and/or engineers.2 Normally, each company is associated with a firefighting vehicle; an apparatus, such as an ambulance, engine, or ladder truck.\\
+\subsection{Define disaster response}
+There are no standardized rules defining the different phases of the disaster management. Different countries and agencies may apply different rules and standards, but most of them agreed the disaster management is carried out in a circle. Figure 5 illustrates the a model of disaster management cycle described in the literature[]:\\
 
-The fireground and surrounding space constitute a dangerous and dynamic interface ecosystem [Kerne 2005] of distributed cognition, connecting responders, victims, fire- fighting equipment, communication media, and information artifacts. Upon arriving at an incident, multiple companies distribute in and around the fireground. Compa- nies and their apparatuses are placed at strategic locations, and are moved as needed. Human operators work on and from these platforms. Firefighters and rescue workers deploy from them, taking equipment into the fireground; equipment, such as firehoses and radios, may be technologically supported by the apparatus itself (pumps and water sources, or high-power repeaters, respectively). Each apparatus, and in many cases, each human worker, is equipped with a half-duplex radio to facilitate long-range, broad- cast communication.\\
+%insert picture
 
-(Geographic distribution as a also a key factor)
+\begin{enumerate}
+\item Mitigation: any activity that reduces either the chance of a hazard taking place or a hazard turning into disaster.
+\item Risk reduction: anticipatory measures and actions that seek to avoid future risks as a result of a disaster.
+\item Prevention: avoiding a disaster even at the eleventh hour. 
+\item Preparedness: plans or preparations made to save lives or property,and help the response and rescue service operations. This phase covers implementation/operation, early warning systems and capacity building so the population will react appropriately when an early warning is issued.
+\item Response: includes actions taken to save lives and prevent property damage, and to preserve the environment during emergencies or disasters. The response phase is the implementation of action plans.
+\item Recovery: includes actions that assist a community to return to a sense of normalcy after a disaster.
+\end{enumerate}
 
-\noindent Muti-objective natural of the the DR response lead to its connection with multi-agent simulation and optimisation. 
+The disaster response operations refer to the actions taken during or immediate aftermath of the disaster strike. In this period, a significant number of individuals may be trapped and injured. Great number of structural damages need be dealt with. Medicine, food and shelters are in great demand. This period calls for prompt action within an exceptionally short period of time []. Responder team may find themselves with limited resources and need to make plans to utilities the resources in a timely and satisfactory manner [chen]. \\
 
-Therefore task planning envlove xxx challenges and opens the opportuntiy for technology intervention. Current state of art practice will be reviewed in section........\\
+%\subsection{Team coordination in disaster response}
+%Malone (1990 361) defines coordination as the act of managing interdependencies between activities performed to achieve a goal. One of the very important component of coordination in DR, following sections will firstly... and then discuss how the coordination is carried out through command structure of DR team. \\
 
-\subsection{DR Command structure}
+%In disaster response, team coordination is essential in order that groups of people can carry out interdependent activities together in a timely and satisfactory manner (cf. Bradshaw et al., 2011). Disaster response experts report that failures in team coordination are the most significant factor in critical emergency response (Toups et al., 2011: 2) that can cost human lives. Shared understanding, situation awareness, and alignment of cooperative action through on-going communication are key requirements to enable successful coordination. Convertino et al. (2011) design and study a set of tools to support common ground and aware- ness in emergency management. \\
+
+\subsection{DR command structure}
+The emergency response agencies typically employs a hierarchical command structure[]. One widely used command and control structure the Gold, Silver, Bronze model. In this model, decision making is divided into strategic, tactical, and operational levels. The teams responsible for each are referred to as Gold, Silver, and Bronze respectively. The decisions on main objectives of the response effort are made at the strategic (Gold) level. At the tactical level, based on the specified objectives, the Silver command team decides on the allocation of resources and tasks to be carried out, while at the operational level, Bronze first responders (FRs), on the ground, determine the logistics required to carry out those tasks. Information gathered from the ground is also passed back up from Bronze, through Silver, to Gold.\\
+
+Some literatures [two of chen's plan] also generalized the command and control structures as a generic two level model. The key characteristic of the two-level model is division between remote coordination center and on site teams.  On-site responders react to immediate scene without global picture, while the coordination center deals with strategic issues and works with a global picture, leveraging external resources to help on-site response. \\
+
+%insert picture 
+
+\subsection{Task planning in large scale disaster}
+One important characteristic of large-scale disaster is the presence of multiple spatially distributed incidents (Chen et al., 2005). To gain insight into the problem of task and resource allocation in large scale disaster, we will firstly examine how a single incident is dealt with. The procedures of dealing with single emergency incident have documented by a number of field studies[]. In Toups's [Toups and Kerne 2007] study, fire emergency response to small-scale structural fires is depicted as follow: 
+
+\begin{quote}
+Fire emergency response is undertaken by small teams distributed throughout the incident, coordinated by an incident commander (IC) . Multiple response teams, or companies, are dispatched to any incident and cooperate around the fireground (Figure 1). A company officer leads each team, which consists of firefighters and/or engineers.2 Normally, each company is associated with a firefighting vehicle; an apparatus, such as an ambulance, engine, or ladder truck.\\
+\end{quote}
+
+For the depiction of single incident emergency response, we can see a combination of different resources (e.g. ambulance, fire engine, ladder truck ) and skills (e.g. structural engineers, firefighters and medics) need to deployed to the location of the incident. To deal with multiple incidents, the disaster response team has to coordinate spatially distributed resources and personnel to carry out operations (e.g. search, rescue and evacuation)[]. That is , resources and responders needed to by divided and combined in to teams and deployed to handle distributed incidents. Depending on the number of incidents, response personnel may need to dispatch, deploy and redeploy limited resources. One major concern for task planning in disaster response is how to efficiently allocate limited resources to multiple incidents with temporal and spatial constraints (cf. Bradshaw et al., 2011).\\
+
+The task environment of DR is characterised by various uncertainties including hazard uncertainties, task-flow uncertainties, environmental and informational uncertainties[]. Sudden and unexpected events may occur as the disaster situation unfolds. Therefore, fixed plans of actions for responders is unlikely to work. The uncertainties may need to be handled by improvisation, prioritisation, and dynamic sourcing of capabilities [5 in Chen], which means dynamic change of plans is necessary to deal with uncertainties in dynamic task environment.\\    
 
 
-A relatively generic model of C and C is proposed by 
-The development of Information Technology System (ITS)
-to support the emergency response team work has many work published in the literature. For long time, crisis management systems were based in the military model of CC [1]. For many authors [2, 3 and 4] the need to change the theories of emergency management creating new paradigms is imperative to improve the flexibility of the CC structures. Their aim is to make them more
-efficient, multi-disciplinary and multi-
-institutional, increasing the collaboration between CC and the field responders and allowing sharing planning and resources to stabilize the crisis [5].
-Stanton et. Al. [chen] proposes a new generic model of CC
-based on field observation. One important conclusion he made concerning common characteristics in the different domains of CC:
-1. The presence of a remote control room; 
-2. The great dependency on verbal communication and;
-3. The existence of collaborative discussion between field teams and command.\\
+%geo-distribution and time pressure has been identified as challenges for task planning and execution. Uncertainty new means real time and dynamic task planning[chen's emergency response]. Geo distribution creates uncertain in the information [short distributed team paper][the human factor in dr paper discussion failure of communication] and creates time constraint as well because teams need to be  \\
 
 
-Gold-Sliver-Bronze control model is documented in xxxx(wiki)
+%chen's emergency response some practitioners articles
+
+%The fireground and surrounding space constitute a dangerous and dynamic interface ecosystem [Kerne 2005] of distributed cognition, connecting responders, victims, fire- fighting equipment, communication media, and information artifacts. Upon arriving at an incident, multiple companies distribute in and around the fireground. Compa- nies and their apparatuses are placed at strategic locations, and are moved as needed. Human operators work on and from these platforms. Firefighters and rescue workers deploy from them, taking equipment into the fireground; equipment, such as firehoses and radios, may be technologically supported by the apparatus itself (pumps and water sources, or high-power repeaters, respectively). Each apparatus, and in many cases, each human worker, is equipped with a half-duplex radio to facilitate long-range, broad- cast communication.\\
 
 \section{Technology support for task planning}
 Technology support systems designed for planning is unlikely to be an isolated computational entity. It is better to be seen as `toolbox' that contains various connected components[]. To give an overview of current technological practices related planning support, This section will review three related research domains with the context of computational DR support - Task planning systems for plan formulation and evaluation ; the Information and communication technologies (ICT) for information acquisition and management; and the AI(Artificial intelligence) based technologies for disaster simulation, and task optimisation. The section x also will examine how the agent-based planning support system to be studied in this PhD study can be positioned with respect to the three research domains. \\
@@ -111,9 +122,14 @@ The time-critical task setting may be another major factor that makes a DR plann
 Some researches treat command and control system as automation tools aspects of command control activities including information acquisition, analysis, decision selection and action implementation[underground paper].  In contrast, a `real-time planning support system' may have stronger focus on supporting real-time plan generation and decision selection. In the domain of disaster response, efforts have been made to study and design such real-time task planning system for DR [Coordinator project][evacuation planning], but the real deployments are still rare.\\
 
 \subsection{ICT support for disaster response}
-The information and communication technology support (ICT) includes communication infrastructures and software system on top of the infrastructures. The communication infrastructures refer to communication channels including radio, television, satellite, internet, text and voice communication over mobile phone. The basic communication infrastructures have long be utilised by responders to capture both soft data (generated by human) and hard data (from sensors) for their decision making [MRL paper for ZOMBIE]. Apart from the infrastructures, the ICT are  software systems are playing increasingly important role. Now days, most DR practice may consists  of both the manual processes which direct utilize ICT infrastructures and the use of ICT software for data analysis and information management. The figure x illustrate a tsunami response system implemented by xxx. The technical components are comprised of a network of seismographic stations, sea-level gauges and deep-sea pressure sensors. A data-processing and tsunami forecasting centre is equipped with seismic processing and modelling software.  Tsunami warnings are disseminated through the communication links between national centres and the people at risk, which includes, email, television, radio, cellphones and satellites.\\
+The information and communication technology support (ICT) includes communication infrastructures and software system on top of the infrastructures. The communication infrastructures refer to communication channels including radio, television, satellite, internet, text and voice communication over mobile phone. The basic communication infrastructures have long be utilised by responders to capture both soft data (generated by human) and hard data (from sensors) for their decision making [MRL paper for ZOMBIE]. Apart from the infrastructures, the ICT are  software systems are playing increasingly important role. Now days, most DR practice may consists  of both the manual processes which direct utilize ICT infrastructures and the use of ICT software for data analysis and information management. The figure \ref{fig:ICTExample} illustrate a tsunami response system operated by Asian Disaster Preparedness Center(ADPC). The technical components are comprised of a network of seismographic stations, sea-level gauges and deep-sea pressure sensors. A data-processing and tsunami forecasting centre is equipped with seismic processing and modelling software.  Tsunami warnings are disseminated through the communication links between national centres and the people at risk, which includes, email, television, radio, cellphones and satellites.\\
 
-%insert image
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{img/background/ICTExample}
+  \caption{Tsunami response system}
+  \label{fig:ICTExample}
+\end{figure}
 
 With proliferation of smart phones and ubiquitous computing technologies, internet have become increasingly important in the disaster response. Web-based applications have been used in the indian ocean tsunami for tracking missing people, coordinating donors, and recording locations of shelters [ICT for DR]. The possibilities for public participation are expanding with increased access to the Internet and the wide diffusion of mobile technology. For example, some wiki style websites are used in recent disaster. With utilities of such websites, the public is able to take not only a more active part in seeking information, but also in providing information to each other, as well as to formal response efforts [Citizen response].\\
 
@@ -132,8 +148,7 @@ So far, we have framed the problem of task planning in DR (section x) and review
 
 %insert figure 
 
-
-\section{From a CSCW perspective}
+\section{A CSCW perspective to technology support}
 
 
 \section{Game based simulation} \label{sec:LRMRgame}
