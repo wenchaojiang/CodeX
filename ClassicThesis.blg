@@ -84,6 +84,7 @@ Repeated entry---line 402 of file LR.bib
  : @incollection{Bradshaw2011
  :                           ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Ackerman2000"
 Warning--empty journal in Dawes2004
 Warning--there's a number but no volume in Dawes2004
 Warning--empty journal in Fitts
@@ -108,7 +109,7 @@ Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
 You've used 31 entries,
             2773 wiz_defined-function locations,
-            842 strings with 12651 characters,
+            844 strings with 12675 characters,
 and the built_in function-call counts, 17276 in all, are:
 = -- 1547
 > -- 1172
