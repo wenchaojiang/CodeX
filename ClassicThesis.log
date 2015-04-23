@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  23 APR 2015 12:42
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  23 APR 2015 17:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1420,24 +1420,35 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
  (./Chapters/LiteratureReview.tex
 Chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 11--12
+Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 14--15
+Underfull \hbox (badness 10000) in paragraph at lines 6--7
 
  []
 
-<img/background/drCircle.png, id=948, 665.48625pt x 622.325pt>
-File: img/background/drCircle.png Graphic file (type png)
 
-<use img/background/drCircle.png>
-Package pdftex.def Info: img/background/drCircle.png used on input line 18.
-(pdftex.def)             Requested size: 336.0pt x 314.20992pt.
+Overfull \hbox (3.01505pt too wide) in paragraph at lines 8--9
+[]\T1/pplj/m/n/10.95 Automation and its is-sues have long been stud-ied by the 
+re-searchers,
+ []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 8--9
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 23--24
+
+ []
 
 
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
@@ -1448,7 +1459,31 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 32--33
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
+
+ []
+
+<img/background/drCircle.png, id=952, 665.48625pt x 622.325pt>
+File: img/background/drCircle.png Graphic file (type png)
+
+<use img/background/drCircle.png>
+Package pdftex.def Info: img/background/drCircle.png used on input line 30.
+(pdftex.def)             Requested size: 336.0pt x 314.20992pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
 
  []
 
@@ -1456,33 +1491,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 32--33
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[14 <./img/background/drCircle.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 40--41
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 42--43
-
- []
-
-
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[15]
-Overfull \hbox (4.2936pt too wide) in paragraph at lines 50--51
-\T1/pplj/m/n/10.95 team, which con-sists of fire-fight-ers and/or en-gi-neers.2
- Nor-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 50--51
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 53--54
+[15 <./img/background/drCircle.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
 
@@ -1491,17 +1501,23 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 55--56
+Overfull \hbox (4.2936pt too wide) in paragraph at lines 62--63
+\T1/pplj/m/n/10.95 team, which con-sists of fire-fight-ers and/or en-gi-neers.2
+ Nor-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 62--63
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--58
+Underfull \hbox (badness 10000) in paragraph at lines 65--66
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 68--69
+Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
@@ -1510,17 +1526,17 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 72--73
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 76--77
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
@@ -1529,38 +1545,47 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 78--79
+Underfull \hbox (badness 10000) in paragraph at lines 86--87
 
  []
 
 
-Overfull \hbox (1.98529pt too wide) in paragraph at lines 81--82
-\T1/pplj/m/n/10.95 mu-ni-ca-tion chan-nels in-clud-ing ra-dio, tele-vi-sion, sa
-tel-lite, in-ter-net, text
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 81--82
+Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
 
-
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[19] <img/background/ICTExample.png, id=1029, 744.7825pt x 489.83pt>
-File: img/background/ICTExample.png Graphic file (type png)
-
-<use img/background/ICTExample.png>
-Package pdftex.def Info: img/background/ICTExample.png used on input line 85.
-(pdftex.def)             Requested size: 336.0pt x 220.9895pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--93
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[19]
+Overfull \hbox (1.98529pt too wide) in paragraph at lines 93--94
+\T1/pplj/m/n/10.95 mu-ni-ca-tion chan-nels in-clud-ing ra-dio, tele-vi-sion, sa
+tel-lite, in-ter-net, text
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 93--94
+
+ []
+
+<img/background/ICTExample.png, id=1026, 744.7825pt x 489.83pt>
+File: img/background/ICTExample.png Graphic file (type png)
+
+<use img/background/ICTExample.png>
+Package pdftex.def Info: img/background/ICTExample.png used on input line 97.
+(pdftex.def)             Requested size: 336.0pt x 220.9895pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 102--103
 
  []
 
@@ -1568,13 +1593,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[20 <./img/background/ICTExample.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 96--97
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
@@ -1582,8 +1607,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 98--99
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 101--102
+[21 <./img/background/ICTExample.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 110--111
 
  []
 
@@ -1592,7 +1617,12 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 103--104
+Underfull \hbox (badness 10000) in paragraph at lines 113--114
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
 
@@ -1600,11 +1630,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 103--104
 File: img/background/SystemFraming.png Graphic file (type png)
 
 <use img/background/SystemFraming.png>
-Package pdftex.def Info: img/background/SystemFraming.png used on input line 10
-7.
+Package pdftex.def Info: img/background/SystemFraming.png used on input line 11
+9.
 (pdftex.def)             Requested size: 336.0pt x 235.03699pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--117
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 128--129
 
  []
 
@@ -1612,21 +1646,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 116--117
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[23 <./img/background/SystemFraming.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
+[24 <./img/background/SystemFraming.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 120--121
-
- []
-
-
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[24]
 Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
  []
@@ -1636,36 +1661,30 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [25]
-Overfull \hbox (1.93198pt too wide) in paragraph at lines 134--135
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+
+Overfull \hbox (1.93198pt too wide) in paragraph at lines 146--147
 \T1/pplj/m/n/10.95 more di-ver-si-fied. [[]] has made at-tempts to in-ves-ti-ga
 te broader classes
  []
 
 
-Overfull \hbox (1.25085pt too wide) in paragraph at lines 134--135
+Overfull \hbox (1.25085pt too wide) in paragraph at lines 146--147
 \T1/pplj/m/n/10.95 char-ac-ter-is-tics of agents, learn-ing, au-ton-mous and co
 l-labroitive, Based
  []
 
 
-Overfull \hbox (4.63284pt too wide) in paragraph at lines 134--135
+Overfull \hbox (4.63284pt too wide) in paragraph at lines 146--147
 \T1/pplj/m/n/10.95 on this char-ac-ter-is-tics, soft-ware agents can be cat-e-g
 orised into 8 classes,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
-
- []
-
-
-Overfull \hbox (4.9825pt too wide) in paragraph at lines 142--143
-\T1/pplj/m/n/10.95 lights the im-por-tance of mu-tual in-ter-ac-tion be-tween h
-u-man and agents
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 142--143
+Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
@@ -1674,14 +1693,9 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [26]
-Overfull \hbox (9.91351pt too wide) in paragraph at lines 144--145
-[]\T1/pplj/m/n/10.95 Several in-ter-ac-tion tech-niques have been de-vised by a
-gent re-searchers
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
-
+Overfull \hbox (4.9825pt too wide) in paragraph at lines 154--155
+\T1/pplj/m/n/10.95 lights the im-por-tance of mu-tual in-ter-ac-tion be-tween h
+u-man and agents
  []
 
 
@@ -1690,30 +1704,40 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--155
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
-
- []
-
-
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [27]
-
-Package natbib Warning: Citation `Ackerman2000' on page 28 undefined on input l
-ine 159.
-
-
-Package natbib Warning: Citation `Ackerman2000' on page 28 undefined on input l
-ine 159.
+Overfull \hbox (9.91351pt too wide) in paragraph at lines 156--157
+[]\T1/pplj/m/n/10.95 Several in-ter-ac-tion tech-niques have been de-vised by a
+gent re-searchers
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
+Underfull \hbox (badness 10000) in paragraph at lines 156--157
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 166--167
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
+
+ []
+
+
+Package natbib Warning: Citation `Ackerman2000' on page 28 undefined on input l
+ine 171.
+
+
+Package natbib Warning: Citation `Ackerman2000' on page 28 undefined on input l
+ine 171.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
@@ -1722,31 +1746,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
-
- []
-
-
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[29]
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 176--177
 
  []
 
@@ -1756,13 +1756,21 @@ Underfull \hbox (badness 10000) in paragraph at lines 203--204
  []
 
 
-Overfull \hbox (1.12804pt too wide) in paragraph at lines 208--209
-\T1/pplj/m/n/10.95 Mixed-reality games are one type of dig-i-tal game which tri
-es to bridge
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[29]
+Underfull \hbox (badness 10000) in paragraph at lines 205--206
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
+Underfull \hbox (badness 10000) in paragraph at lines 207--208
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--212
 
  []
 
@@ -1771,12 +1779,23 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 210--211
+Underfull \hbox (badness 10000) in paragraph at lines 213--214
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 212--213
+Underfull \hbox (badness 10000) in paragraph at lines 215--216
+
+ []
+
+
+Overfull \hbox (1.12804pt too wide) in paragraph at lines 220--221
+\T1/pplj/m/n/10.95 Mixed-reality games are one type of dig-i-tal game which tri
+es to bridge
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
 
@@ -1785,30 +1804,40 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [31]
-Underfull \hbox (badness 10000) in paragraph at lines 217--218
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 219--220
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 225--226
-
- []
-
-)
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [32]
+Underfull \hbox (badness 10000) in paragraph at lines 231--232
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 237--238
+
+ []
+
+)
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
@@ -2458,25 +2487,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 300--301
 
  []
 
-<img/methodology/summary.png, id=1316, 1097.09875pt x 430.60875pt>
-File: img/methodology/summary.png Graphic file (type png)
 
-<use img/methodology/summary.png>
-Package pdftex.def Info: img/methodology/summary.png used on input line 304.
-(pdftex.def)             Requested size: 336.0pt x 131.87753pt.
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[62] <img/methodology/analyticprocedure.png, id=1320, 951.555pt x 438.63875pt>
+File: img/methodology/analyticprocedure.png Graphic file (type png)
 
+<use img/methodology/analyticprocedure.png>
+Package pdftex.def Info: img/methodology/analyticprocedure.png used on input li
+ne 306.
+(pdftex.def)             Requested size: 336.0pt x 154.88455pt.
 )
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[62]
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[63 <./img/methodology/summary.png>] [64
+[63 <./img/methodology/analyticprocedure.png>] [64
 
 
 
@@ -5872,7 +5898,7 @@ img/approach/OnTheLoop.png
 img/approach/InTheLoop.png
 img/methodology/logVisualisation.png
 img/methodology/replay.png
-img/methodology/summary.png
+img/methodology/analyticprocedure.png
 Chapters/Chapter04.tex
 img/study1/webinterface.png
 img/study1/mobileinterface.png
@@ -5911,7 +5937,7 @@ FrontBackmatter/Declaration.tex
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: D89F9733BB94FC4C40A69308B2AF01D4;11293.
+(rerunfilecheck)             Checksum: 663A0F0A232A5797E26D369E4E345A68;11307.
 
 LaTeX Warning: There were undefined references.
 
@@ -5922,8 +5948,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
  18450 strings out of 493315
- 284539 string characters out of 6137904
- 439376 words of memory out of 5000000
+ 284619 string characters out of 6137904
+ 439384 words of memory out of 5000000
  20844 multiletter control sequences out of 15000+600000
  72266 words of font info for 96 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
@@ -5939,7 +5965,7 @@ ublic/amsfonts/latxfont/lcircle1.pfb></usr/local/texlive/2013/texmf-dist/fonts/
 type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
 rw/palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/pala
 tino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (208 pages, 11716975 bytes).
+Output written on ClassicThesis.pdf (208 pages, 11716212 bytes).
 PDF statistics:
  2217 PDF objects out of 2487 (max. 8388607)
  1919 compressed objects within 20 object streams
