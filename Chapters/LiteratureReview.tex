@@ -1,22 +1,15 @@
 %*****************************************
 \chapter{Literature Review}\label{ch:examples}
 %*****************************************
-The overarching background of the task planning activities in disaster management. This thesis particularly focuses on the disaster response which is a period of disaster response requiring high level of real-tiem coordination and capability to handle uncertainties from disaster environment. \\
+The overarching background of the task planning activities is disaster management. This thesis particularly focuses on the Disaster Response (DR) which is one particular period of disaster management. The DR refers to period immediately aftermath disaster impact. The response operation in this period requires high-level of real-time coordination and capability to handle high level of uncertainties from disaster environment. This thesis is aimed to exam the issues related developing real time task planning support for DR. The author believe this PhD work can contribute to bridging of two gaps identified in the literatures.  \\
 
-Computational support for planning has long be studied .  There is not real ones that support real time planing in DR period, though similarities can . ICT supports are there which forms a bases for more task planning support. AI technologies are there in the labs but most of them have not been applied to real world. \\
+Firstly, The DR task planning support sits in an unexplored gap between other related technology application domains. Now days, advances in information and communication technologies (ICT)  have brought increasing number of networked computers, sensors and the vast amount of data are generated from different sources during DR, in real time. Artificial Intelligent (AI) researchers have also devised lots of intelligent algorithms which enable computers to process real time data and make sense of the disaster environment. Arguably, the technological advances have created opportunity space for task planning support in DR, but the real world system in this domain are still rare. Although traditional computational support for planning has been studied for decades in various application domains, arguably, further research for the DR planning support are still required for addressing specific challenges raised from DR domain such as time pressure and uncertainty handling.    \\
 
-Automation and its issues have long been studied by the researchers, which warned us that there could be significant difficulty for applying tech support to human teams. We believe so. Therefore, we will try to fill the gap of not only the application area but also social and technical. \\
+Secondly, before we can develop an useful task planning support, the issues related to socio-technical gap may need to be examined. When introducing technological systems to support organisational work, researchers can often observe a divide between social and technical aspects within the organisation, which often cause negative on organisational performance. DR operations are also complex organisational work which requires highly coordinated team working. Therefore, we might need to examine impact of technological support on the social aspects of teamwork when we try to introduce task planning support for DR teams.\\
 
-There is not straightforward way to study the system with two exsiting gap. It is hard. However the serious game has inspired the approach that we will use. \\
+This chapter will firstly give an overview of the task planning in DR as an overarching background of the thesis. The following two sections will review relevant literatures to explicate the two above-mentioned gaps for developing DR task planning support. \\
 
-
-1. What is Disaster Response
-4. two prospects automation and CSCW can go together 
-3. key area tech support, gap I am trying to tackle, but I am not do it in real.
-5. Therefore approach.
-
-
-%The textbook
+Additionally, studying technological support with real world disaster could be very challenging because disasters can not be reproduced easily. Therefore, researchers have long been using game approach for studying the impact of technology support.  The section x will reviews the strengths and weakness of using game as an approach for studying disaster work setting. \\
 
 
 \section{Task Planning in Disaster Response}\label{sec:lrplanning}
@@ -76,8 +69,17 @@ In summary, responders in DR need to carry out a set of interdependent activitie
 
 %The fireground and surrounding space constitute a dangerous and dynamic interface ecosystem [Kerne 2005] of distributed cognition, connecting responders, victims, fire- fighting equipment, communication media, and information artifacts. Upon arriving at an incident, multiple companies distribute in and around the fireground. Compa- nies and their apparatuses are placed at strategic locations, and are moved as needed. Human operators work on and from these platforms. Firefighters and rescue workers deploy from them, taking equipment into the fireground; equipment, such as firehoses and radios, may be technologically supported by the apparatus itself (pumps and water sources, or high-power repeaters, respectively). Each apparatus, and in many cases, each human worker, is equipped with a half-duplex radio to facilitate long-range, broad- cast communication.\\
 
-\section{Technological support for task planning}
-Planning support systems is unlikely to be an isolated computational entities. It is better to be seen as `toolbox' that contains various connected components \cite{Wattegama2012}. To give an overview of current technological practices related planning support, This section will review three related research domains in the context of computational DR support, that is -  Task planning systems for plan formulation and evaluation ; the Information and communication technologies (ICT) for information acquisition and management; and the AI(Artificial intelligence) based technologies for disaster simulation, and task optimisation.  \\
+\section{Gap in Application Areas}
+So far, we have framed the problem of task planning in DR in section \ref{sec:lrplanning} and reviewed three research domains related to development of DR planning system in this section. To give an overview of current technological practices related to planning support, This section will review three related research domains in the context of computational DR support, that is - Task planning systems for plan formulation and evaluation ; the Information and communication technologies (ICT) for information acquisition and management; and the AI(Artificial intelligence) based technologies for disaster simulation, and task optimisation.  \\
+
+This PhD work is primarily interested in a real-time task planning system that utilise ICT technologies as its underlying infrastructures and apply intelligent coordination algorithms for plan generation. This kind of system can be located in the gap area of the three research domains that is reviewed in this section (see figure \ref{fig:SystemFraming}).\\
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{img/background/SystemFraming}
+  \caption{technological support for disaster response}
+  \label{fig:SystemFraming}
+\end{figure} 
 
 \subsection{Planning support systems}
 %spatial and time constraint
@@ -110,21 +112,27 @@ In the field of AI, machine learning and agent-based algorithms have increased i
 The HAC-ER system consists of a set of connected components for real-time task planning support, each of which are powered by multiple machine learning and agent-based algorithms. First, a component called Crowedscanner is used to deal with vast quantities of unstructured data produced very rapidly on the internet as disaster unfolds, such as text messages or photographs from web-based platforms such as Twitter or Ushahidi[]. The approach is to use a machine learning algorithms (for details, see IBCC \cite{Simpson}) to fuses heterogeneous reports from both unreliable and trusted sources into a common picture of the disaster, or a heatmap of incidents. Second, multiple  UAVs (Unmanned Aerial Vehicles) is deployed as mobile sensors to search or further inspect incidents reported by crowdscanner. The control of multiple UAVs is assisted by multi-agent coordination algorithm (Max-sum \cite{Ramchurn2010}). The algorithm is capable of quickly optimise the task allocation for UAVs to visit points of interest or conduct search in an area.  Finally, responders and assets on the ground will need to be dispatched and deployed to deal with distributed incidents. Another HAC-ER component is designed to assist human operators in the control room to conduct real-time planning. The component is powered by a coordination algorithm based on MMDP modelling techniques [Feng's MMDP paper]. Taking into to account the priorities of incidents, and locations of responders teams and incidents, the algorithm can produces computationally optimised task allocations for responder teams to attend as many incidents as possible with a time constraint. Further, algorithms and interfaces of all components in HAC-ER are designed in a way that accept human input. The HAC-ER depicted a picture in which human operators and intelligent components collaboratively conduct task planning, and the picture demonstrates the potential for applying AI in DR task planning.\\
 
 \subsection{Summary}
-This section have reviewed technological practices related to planning support in disaster response. First, there are great many GIS-enabled planning support systems (PSS), but the planning system with real time support is still rare in the disaster response domain. Second, the ICT infrastructures and softwares have long be utilised by responders for managing communication and information. The author believe ICT provides the basis for real-time task in the sense that it provide functionalities to support information acquisition and management. Finally, AI researcher have devised some machine learning and agent-based algorithms to support task planning. Prototype systems have been built to demonstrate the potential for planning support based on AI technologies. \\
+This section have reviewed technological practices related to planning support in disaster response. First, there are great many GIS-enabled planning support systems (PSS), but the planning system with real time support is still rare in the disaster response domain. Second, the ICT infrastructures and softwares have long be utilised by responders for managing communication and information. The author believe ICT provides the basis for real-time task in the sense that it provide functionalities to support information acquisition and management. Finally, AI researcher have devised some machine learning and agent-based algorithms to support task planning. Prototype systems have been built to demonstrate the potential for planning support based on AI technologies.\\ 
 
-So far, we have framed the problem of task planning in DR in section \ref{sec:lrplanning} and reviewed three research domains related to development of DR planning system in this section. It should be emphasised that this PhD work is primarily interested in a real-time task planning system that utilise ICT technologies as its underlying infrastructures and apply intelligent coordination algorithms for plan generation. This kind of system can be located in the overlapping area of the three research domains that is reviewed in this section (see figure \ref{fig:SystemFraming}).\\
+In the overlapping area of the three application domains, there is opportunity space for real time task planning support in DR domain. The planning support system can utilise ICT technologies as its underlying infrastructures and apply intelligent coordination algorithms for plan generation. However, the researches for building such a system are still rare, leaving a gap in literatures. This thesis is aimed to bridge the gap by studying the design and development of such DR planning support system.\\
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=1\textwidth]{img/background/SystemFraming}
-  \caption{technological support for disaster response}
-  \label{fig:SystemFraming}
-\end{figure}
-\section{Automation and Human Agent interaction}
-The study Automation design and Human agent interaction are two heavily intersected research areas which overarches this PhD work.  
+\section{Gap Between Social and Technical}
+Applying task planning to support complex disaster response operations may not be a straightforward process. Some studies have shown that introducing technology system to support organisational work may be extremely difficult. Use of technologies may have negative impact on human team performance, which can overweight benefits it bring.  The thesis adopted two perspectives to view the undesirable impact of technologies on human performance. The first perspective concerns socio-technical gaps that are often found in design and development of CSCW (Computer Supported Cooperative Work) systems. The second perspective is related to challenges with automation design, which concerns what and how to automate a working process by using computational systems. This section will review the two perspectives to give an conceptual background of design challenges that we may encounter when developing DR task planning support.
 
 
-\subsection{A History of Automation }
+\subsection{A CSCW perspective to technology support}
+Another research field overarching this PhD work is Computer Supported Cooperative Work (CSCW). The research field of CSCW addresses how collaborative activities can be supported by means of computer systems[].  CSCW goes beyond building technology itself and investigates how people work within groups and organizations and the impacts of technology on those processes. \\
+
+%[]One key challenge is for designing CSCW is to understand what makes it xxx. 
+
+New technological supports for DR can be viewed as one kind of CSCW system. Empirical works [][][] have revealed the complexity of social and technological processes in disaster response operations. Responders with different roles have to engage in the various interdependent activities that are distributed in both time and space (see section \ref{sec:lrplanning}). \\
+
+We believe the general challenges of designing CSCW systems can be applied to technological support systems in DR. Researchers have recognised a so called socio technical gap in many CSCW systems. It is argued that \cite{Ackerman2000}  human activities is highly flexible, nuanced, and contextualized and that computational entities such as information transfer, roles, and policies need to be similarly flexible. The social-technical gap is the divide between what we know we should support socially and what we can support technically \cite{Ackerman2000}, and the gap may result in serious negative impact on human activities. Due to this gap, Extreme difficulties might be encountered when introducing new technology support for human teams [1][22]. Therefore, it is vital to study technology in use to understand potential tensions between technical mechanism and social life [Bowers et al].  In the context of disaster response, we believe the same is true for the application of agent-based planning support. To build agent-based systems that support human team coordination, exploration of such social-technical gap and its impact can be vital. \\ 
+
+%For the purpose of designing usable and useful computer systems for cooperative work settings we need to know what makes work situations complex to competent actors and how computer systems may be of assistance to reduce or otherwise cope with this complexity. 
+
+
+\subsection{Automation and its impact on human performance}
 The original goal of Automation is to replace the tasks originally performed by human with a machine. \cite{Bradshaw2011} . It can be defined as the execution by machine, usually computer, of a function previously performed by human [Parasuraman and Riley 1997] The tasks that can be automated is used to be limited by technical capabilities, but this is no longer the case. With quick growth of machine's speed and intelligence, the tasks that can be automated is rapidly increasing, including complex cognitive activities such as information analysis, planning and decision making.[RAJA] The boundary between human machine capabilities has blurred. With little cannot be automated, the automation designers have to make hard choice about what to automate and to what extent.\\
 
 One traditional approach for automation design is to simply automate all system functions that can be automated easily in a cost-effective way, leaving the all remaining tasks to human operators. The main considerations in this approach are technical capability and cost. The assumption of this approach is that the automation of sub systems functions can lead to optimisation of whole system with no detrimental impact results from the automation. However this is not always the case, Large body of empirical work in automation design have shown that xxxx .\\ 
@@ -132,14 +140,14 @@ One traditional approach for automation design is to simply automate all system 
 The other approach is to achieve division of labour between human and automation according to their strength and weakness. As in Fitts list \cite{Fitts} , a set of strengths and weaknesses of humans and machines is identified. Some study pointed the division of labour would not be as simple as a labour division according to strength and weakness[]. Firstly the time factor could be important because human and machine's availability may change overtime. Secondly By delegating the same task to machine, the nature of human tasks can be changed as well. Large body of work has shown clearly that automation does not simply supplant human activity but rather changes it, often in a way that is unanticipated by the system designer. [Coordination and Supervision interaction required, expand ] \cite{Bradshaw2011} [Later , proposed by Licklider in the un-Fitts list \cite{Hoffman2002}, automation is aimed to leverage and extent human capability by using agents (not replacing).\cite{Bradshaw2011}.] \\
 
 
-\subsection{The Level of Automation}
+\subsubsection{The Level of Automation}
 More recently, another alternative model of automation to guide automation design is proposed by proposed by C. D. Wickens[],known as 10 level model of automation. The model 10 levels of automation (LOA) has been later extended by R Parasuraman [] with more detailed classification of automation types. The extended model of LOA informs study approach of this PhD work, which will be documented in chapter x. This section will give an introduction of this model. 
 
 
 Most tasks can be fully or partially automated, which implies that automation is not all or none, but can vary across a continuum of level[]. At the lowest level, all system functions are performed manually by human operators.  At highest level, system are fully automated, taking over all system functions. In between this two extremes, 10 different levels of automation are proposed by xxx. As shown in table x. 
 
 
-\subsection{Definition of Software Agent }
+\subsubsection{Definition of Software Agent }
 
 Since creation of the term "software agent", there are a lot of debates about its definition . One definition commonly shared by the Multi-Agent system(MAS) literatures is that the software agents are designed to operate independently without constant human supervision. In the AI community, the software agent evolves from multi-agent system research which in turn, derived from the field of Distributed AI \cite{Vlassis2007}. This strand of work investigates infrastructure, language and communication to realize coordinated agent software system. The goal was to specify, analyse, design and integrate systems comprising of multiple collaborative agents.\cite{Nwana1996} \\
 
@@ -147,7 +155,7 @@ More recently, the use of the word software agent become much more diversified. 
 
 With a broader definition, researchers begin to investigate broader issues surrounding development of agent systems, among which human agent interactions have attracted a lot of attention of researchers and practitioners.[get one reference here!!!]
 
-\subsection{Human Agent Interactions}
+\subsubsection{Human Agent Interactions}
 
 Automation design and Human agent interactions have big overlaps as both concerns the impact of automation(by computational systems) on human performance. While automation design is trying to answer the question of what and to what extent the automation should be, the study of human agent interaction concerns the issue of interaction design related to development of human agent system, with the aim to develop agents which is good at teamworking with human operators. 
 
@@ -157,20 +165,12 @@ Several interaction techniques have been devised by agent researchers to achieve
 
 [issues]
 
-%Combine both 
-
 %Why the social issues of designing agent system is important? [Norman1994]
 
 \subsection{Summary}
-\section{A CSCW perspective to technology support}
-Another research field overarching this PhD work is Computer Supported Cooperative Work (CSCW). The research field of CSCW addresses how collaborative activities can be supported by means of computer systems[].  CSCW goes beyond building technology itself and investigates how people work within groups and organizations and the impacts of technology on those processes. \\
 
-%[]One key challenge is for designing CSCW is to understand what makes it xxx. 
-New technological supports for DR can be viewed as one kind of CSCW system. Empirical works [][][] have revealed the complexity of social and technological processes in disaster response operations. Responders with different roles have to engage in the various interdependent activities that are distributed in both time and space (see section \ref{sec:lrplanning}). \\
 
-We believe the general challenges of designing CSCW systems can be applied to technological support systems in DR. Researchers have recognised a so called socio technical gap in many CSCW systems. It is argued that \cite{Ackerman2000}  human activities is highly flexible, nuanced, and contextualized and that computational entities such as information transfer, roles, and policies need to be similarly flexible. The social-technical gap is the divide between what we know we should support socially and what we can support technically \cite{Ackerman2000}, and the gap may result in serious negative impact on human activities. Due to this gap, Extreme difficulties might be encountered when introducing new technology support for human teams [1][22]. Therefore, it is vital to study technology in use to understand potential tensions between technical mechanism and social life [Bowers et al].  In the context of disaster response, we believe the same is true for the application of agent-based planning support. To build agent-based systems that support human team coordination, exploration of such social-technical gap and its impact can be vital. \\ 
 
-%For the purpose of designing usable and useful computer systems for cooperative work settings we need to know what makes work situations complex to competent actors and how computer systems may be of assistance to reduce or otherwise cope with this complexity. 
 
 \section{Games for studing disaster response} \label{sec:LRMRgame}
 This PhD work adopts serious mixed reality game approach to investigate the issues of interaction surrounding agent planning support for disaster response operations. This section will firstly review the literatures of serious games to give an overview of history and applications of serious games. In section \ref{sec:LRMRgame}, mixed reality game (MRG) will be introduced, followed by discussion of the potential for using MRGs to support ethnographic study of ubiquitous systems, which underpins rationale of the serious MRG approach applied in this PhD study.\\ 
