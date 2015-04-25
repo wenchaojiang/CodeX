@@ -21,13 +21,12 @@
 \contentsline {subsection}{\numberline {2.2.3}Application of AI technologies}{23}{subsection.2.2.3}
 \contentsline {subsection}{\numberline {2.2.4}Summary}{24}{subsection.2.2.4}
 \contentsline {section}{\numberline {2.3}Gap Between Social and Technical}{25}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}A CSCW perspective to technology support}{26}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.1}A social-technical perspective to technology support}{26}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}Automation and its impact on human performance}{27}{subsection.2.3.2}
 \contentsline {subsubsection}{\numberline {2.3.2.1}The Level of Automation}{28}{subsubsection.2.3.2.1}
-\contentsline {subsubsection}{\numberline {2.3.2.2}Definition of Software Agent }{28}{subsubsection.2.3.2.2}
-\contentsline {subsubsection}{\numberline {2.3.2.3}Human Agent Interactions}{29}{subsubsection.2.3.2.3}
+\contentsline {subsubsection}{\numberline {2.3.2.2}Human Agent Interactions}{29}{subsubsection.2.3.2.2}
 \contentsline {subsection}{\numberline {2.3.3}Summary}{30}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Games for studing disaster response}{30}{section.2.4}
+\contentsline {section}{\numberline {2.4}Games for studing disaster response}{31}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}Serious Game}{31}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Mixed Reality Games}{33}{subsection.2.4.2}
 \contentsline {part}{ii\hspace {1em}\spacedlowsmallcaps {Methodology and Approach}}{36}{part.2}
