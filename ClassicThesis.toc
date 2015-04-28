@@ -129,15 +129,15 @@
 \contentsline {section}{\numberline {8.1}Summary of approach}{171}{section.8.1}
 \contentsline {section}{\numberline {8.2}Summary of findings}{171}{section.8.2}
 \contentsline {section}{\numberline {8.3}Summary of interface evolutions}{174}{section.8.3}
-\contentsline {section}{\numberline {8.4}Summary of interactional issues}{178}{section.8.4}
+\contentsline {section}{\numberline {8.4}Summary of soicio-techical issues}{178}{section.8.4}
 \contentsline {subsection}{\numberline {8.4.1}Division of labour}{179}{subsection.8.4.1}
 \contentsline {subsection}{\numberline {8.4.2}Establishing Common Ground}{182}{subsection.8.4.2}
 \contentsline {subsection}{\numberline {8.4.3}Faciliating Accountability}{184}{subsection.8.4.3}
-\contentsline {section}{\numberline {8.5}Limitation}{184}{section.8.5}
-\contentsline {section}{\numberline {8.6}future work}{185}{section.8.6}
-\contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Appendix}}{189}{part.5}
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{190}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix Section Test}{190}{section.A.1}
-\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{191}{section.A.2}
+\contentsline {section}{\numberline {8.5}Limitation}{185}{section.8.5}
+\contentsline {section}{\numberline {8.6}future work}{187}{section.8.6}
+\contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Appendix}}{190}{part.5}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{191}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix Section Test}{191}{section.A.1}
+\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{192}{section.A.2}
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{192}{dummy.7}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{193}{dummy.7}
