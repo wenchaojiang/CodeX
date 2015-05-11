@@ -1,14 +1,41 @@
-\begin{thebibliography}{31}
+\begin{thebibliography}{44}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
 
+\bibitem[Abbott and Sarin(1994)]{Abbott1994a}
+KR~Abbott and SK~Sarin.
+\newblock {Experiences with workflow management: issues for the next
+  generation}.
+\newblock \emph{Proceedings of the 1994 ACM conference on \ldots}, pages
+  113--120, 1994.
+\newblock URL \url{http://dl.acm.org/citation.cfm?id=192886}.
+
+\bibitem[Ackerman(2000)]{Ackerman2000}
+Mark Ackerman.
+\newblock {The Intellectual Challenge of CSCW: The Gap Between Social
+  Requirements and Technical Feasibility}.
+\newblock \emph{Human-Computer Interaction}, 15\penalty0 (2):\penalty0
+  179--203, September 2000.
+\newblock ISSN 0737-0024.
+\newblock \doi{10.1207/S15327051HCI1523\_5}.
+\newblock URL
+  \url{http://www.informaworld.com/openurl?genre=article\&doi=10.1207/S15327051HCI1523\_5\&magic=crossref||D404A21C5BB053405B1A640AFFD44AE3}.
+
 \bibitem[Benford et~al.(2005)Benford, Magerkurth, and Ljungstrand]{Benford2005}
 Steve Benford, Carsten Magerkurth, and Peter Ljungstrand.
 \newblock {Bridging the PHYSICAL AND DIGITAL in Pervasive Gaming}.
 \newblock \emph{Communications of the ACM}, 48\penalty0 (3), 2005.
+
+\bibitem[Bowers et~al.(1994)Bowers, Button, and Sharrock]{Bowers1994}
+John Bowers, Graham Button, and Wes Sharrock.
+\newblock {Workflow From Within and Without : Technology and Cooperative Work
+  on the Print Industry Shopfloor Introduction : Workflow Systems and Work
+  Practice}.
+\newblock pages 51--66. Fourth European Conference on Computer-Supported
+  Cooperative Work, 1994.
 
 \bibitem[Bradshaw et~al.(2011)Bradshaw, Feltovich, and Johnson]{Bradshaw2011}
 Jeffrey~M Bradshaw, Paul Feltovich, and Matthew Johnson.
@@ -17,6 +44,14 @@ Jeffrey~M Bradshaw, Paul Feltovich, and Matthew Johnson.
   chapter~13, pages 293--302. Ashgate, 2011.
 \newblock URL
   \url{http://books.google.com/books?hl=en\&amp;lr=\&amp;id=4opHlu05SNIC\&amp;oi=fnd\&amp;pg=PA283\&amp;dq=Human-agent+interaction\&amp;ots=vxrpDdLbSa\&amp;sig=07dujtzGjIcBLlZ6FVH33HjrWos}.
+
+\bibitem[Carstensen and Schmidt(1999)]{Carstensen1999}
+PH~Carstensen and Kjeld Schmidt.
+\newblock {Computer supported cooperative work: New challenges to systems
+  design}.
+\newblock \emph{In K. Itoh (Ed.), Handbook of Human Factors}, 1999.
+\newblock URL
+  \url{http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.142.972}.
 
 \bibitem[Chen et~al.(2005)Chen, Sharman, Rao, and Upadhyaya]{Chen2005}
 Rui Chen, Raj Sharman, H~Raghav Rao, and Shambhu~J Upadhyaya.
@@ -79,6 +114,13 @@ Samer Faraj and Yan Xiao.
 \newblock {Coordination in Fast-Response Organizations}, 2006.
 \newblock ISSN 0025-1909.
 
+\bibitem[Fischer et~al.(2015)Fischer, Reeves, and Rodden]{Fischer2015}
+JE~Fischer, Stuart Reeves, and Tom Rodden.
+\newblock {Building a Birds Eye View: Collaborative Work in Disaster Response}.
+\newblock \emph{Proc. CHI}, 2015.
+\newblock URL
+  \url{http://www.mrl.nott.ac.uk/~str/doc/fischer-2015-collaborative-work-in-disaster-response.pdf}.
+
 \bibitem[Fischer et~al.(2012)Fischer, Rodden, Flintham, Price, Goulding, and
   Pantidi]{Fischer2012}
 Joel~E Fischer, Tom Rodden, Martin Flintham, Dominic Price, James Goulding, and
@@ -121,6 +163,24 @@ Robert~R Hoffman, Paul~J Feltovich, Kenneth~M Ford, West Florida, David~D
   Probably Be Given an Acronym}.
 \newblock 2002.
 
+\bibitem[Jennings and Moreau(2014)]{Jennings2014}
+NR~Jennings and L~Moreau.
+\newblock {Human-agent collectives}.
+\newblock \emph{Communications of the \ldots}, 2014.
+\newblock URL \url{http://dl.acm.org/citation.cfm?id=2629559}.
+
+\bibitem[Kopena et~al.(2008)Kopena, Sultanik, Lass, Nguyen, Dugan, Modi, and
+  Regli]{Kopena2008}
+Joseph~B. Kopena, Evan~a. Sultanik, Robert~N. Lass, Duc~N. Nguyen,
+  Christopher~J. Dugan, Pragnesh~J. Modi, and William~C. Regli.
+\newblock {Distributed Coordination of First Responders}.
+\newblock \emph{IEEE Internet Computing}, 12\penalty0 (1):\penalty0 45--47,
+  January 2008.
+\newblock ISSN 1089-7801.
+\newblock \doi{10.1109/MIC.2008.9}.
+\newblock URL
+  \url{http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=4428334}.
+
 \bibitem[Meesters(2013)]{Meesters2013}
 Kenny Meesters.
 \newblock {Disaster in my backyard : a serious game introduction to disaster
@@ -137,6 +197,18 @@ D~Mendonca.
 \newblock \doi{10.1016/j.dss.2005.05.025}.
 \newblock URL
   \url{http://linkinghub.elsevier.com/retrieve/pii/S0167923605000904}.
+
+\bibitem[Niazkhani et~al.(2009)Niazkhani, Pirnejad, Berg, and
+  Aarts]{Niazkhani2009}
+Zahra Niazkhani, Habibollah Pirnejad, Marc Berg, and Jos Aarts.
+\newblock {The impact of computerized provider order entry systems on inpatient
+  clinical workflow: a literature review.}
+\newblock \emph{Journal of the American Medical Informatics Association :
+  JAMIA}, 16\penalty0 (4):\penalty0 539--49, 2009.
+\newblock ISSN 1067-5027.
+\newblock \doi{10.1197/jamia.M2419}.
+\newblock URL
+  \url{http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2705258\&tool=pmcentrez\&rendertype=abstract}.
 
 \bibitem[Nwana(1996)]{Nwana1996}
 Hyacinth~S Nwana.
@@ -155,10 +227,29 @@ Leysia Palen and Sophia~B Liu.
   ICT-Supported Public Participation}.
 \newblock pages 727--736, 2007.
 
-\bibitem[Petrescu-prahova and Butts(2005)]{Petrescu-prahova2005}
-Miruna Petrescu-prahova and Carter~T Butts.
-\newblock {Emergent Coordination in the World Trade Center}.
-\newblock pages 1--23, 2005.
+\bibitem[Petrescu-Prahova and Butts(2005)]{Petrescu-prahova2005}
+M~Petrescu-Prahova and CT~Butts.
+\newblock {Emergent coordination in the World Trade Center disaster}.
+\newblock \emph{Institute for mathematical behavioral \ldots}, pages 1--23,
+  2005.
+\newblock URL
+  \url{http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.59.8310\&rep=rep1\&type=pdf}.
+
+\bibitem[Ramchurn et~al.(2015{\natexlab{a}})Ramchurn, Simpson, Fischer, and
+  Huynh]{Ramchurn}
+S~Ramchurn, Edwin Simpson, J~Fischer, and TD~Huynh.
+\newblock {HAC-ER: A disaster response system based on human-agent
+  collectives}.
+\newblock 2015{\natexlab{a}}.
+\newblock URL \url{http://eprints.soton.ac.uk/374070/1/fp634-ramchurn.pdf}.
+
+\bibitem[Ramchurn et~al.(2015{\natexlab{b}})Ramchurn, Simpson, Fischer, and
+  Huynh]{Ramchurn2015}
+S~Ramchurn, Edwin Simpson, J~Fischer, and TD~Huynh.
+\newblock {HAC-ER: A disaster response system based on human-agent
+  collectives}.
+\newblock 2015{\natexlab{b}}.
+\newblock URL \url{http://eprints.soton.ac.uk/374070/1/fp634-ramchurn.pdf}.
 
 \bibitem[Ramchurn et~al.(2010)Ramchurn, Polukarov, Farinelli, Jennings, and
   Trong]{Ramchurn2010}
@@ -168,12 +259,24 @@ S~D Ramchurn, Mariya Polukarov, Alessandro Farinelli, Nick Jennings, and Cuong
 \newblock \emph{Constraints}, pages 1181--1188, 2010.
 \newblock URL \url{http://eprints.ecs.soton.ac.uk/18497/}.
 
-\bibitem[Ramchurn et~al.()Ramchurn, Huynh, Ikuno, Flann, Wu, Moreau, Jennings,
-  Fischer, Jiang, Simpson, Reece, and Roberts]{Ramchurn}
-Sarvapali~D Ramchurn, Trung~Dong Huynh, Yuki Ikuno, Jack Flann, Feng Wu, Luc
-  Moreau, Nicholas~R Jennings, Joel~E Fischer, Wenchao Jiang, Edwin Simpson,
-  Steven Reece, and Stephen Roberts.
-\newblock {HAC-ER : A Disaster Response System based on}.
+\bibitem[Ramchurn et~al.(2015{\natexlab{c}})Ramchurn, Wu, Jiang, Fischer,
+  Reece, Roberts, Rodden, Greenhalgh, and Jennings]{Ramchurn2015a}
+Sarvapali~D. Ramchurn, Feng Wu, Wenchao Jiang, Joel~E. Fischer, Steve Reece,
+  Stephen Roberts, Tom Rodden, Chris Greenhalgh, and Nicholas~R. Jennings.
+\newblock {Human agent collaboration for disaster response}.
+\newblock \emph{Autonomous Agents and Multi-Agent Systems}, pages 1--29,
+  February 2015{\natexlab{c}}.
+\newblock ISSN 1387-2532.
+\newblock \doi{10.1007/s10458-015-9286-4}.
+\newblock URL \url{http://link.springer.com/10.1007/s10458-015-9286-4}.
+
+\bibitem[Ropohl(1999)]{Ropohl1999}
+G~Ropohl.
+\newblock {Philosophy of socio-technical systems}.
+\newblock \emph{Techn\'{e}: Research in Philosophy and Technology}, pages
+  59--71, 1999.
+\newblock URL
+  \url{http://www.pdcnet.org/techne/content/techne\_1999\_0004\_0003\_0186\_0194}.
 
 \bibitem[Sarcevic et~al.(2012)Sarcevic, Palen, White, Starbird, Bagdouri, and
   Anderson]{Sarcevic2012}
@@ -183,6 +286,14 @@ Aleksandra Sarcevic, Leysia Palen, Joanne White, Kate Starbird, Mossaab
   On-the-Ground Medical Twitterers During the 2010 Haiti Earthquake}.
 \newblock In \emph{Proceedings of the ACM 2012 conference on Computer Supported
   Cooperative Work}, pages 47--56, 2012.
+
+\bibitem[Scerri et~al.(2005)Scerri, Farinelli, Okamoto, and Tambe]{Scerri2005}
+Paul Scerri, Alessandro Farinelli, Steven Okamoto, and Milind Tambe.
+\newblock {Allocating tasks in extreme teams}.
+\newblock \emph{Proceedings of the fourth international joint conference on
+  Autonomous agents and multiagent systems - AAMAS '05}, page 727, 2005.
+\newblock \doi{10.1145/1082473.1082584}.
+\newblock URL \url{http://portal.acm.org/citation.cfm?doid=1082473.1082584}.
 
 \bibitem[Sharples et~al.(2011)Sharples, Millen, Golightly, and
   Balfe]{Sharples2011}
@@ -241,5 +352,15 @@ Thomas Wagner, J~Phelps, V~Guralnik, and R~VanRiper.
 Chanuka Wattegama.
 \newblock {ICT for disaster management}.
 \newblock \emph{Information Economy, Society and Polity}, 2012.
+
+\bibitem[Zerger and Smith(2003)]{Zerger2003}
+Andre Zerger and David~Ingle Smith.
+\newblock {Impediments to using GIS for real-time disaster decision support}.
+\newblock \emph{Computers, Environment and Urban Systems}, 27\penalty0
+  (2):\penalty0 123--141, March 2003.
+\newblock ISSN 01989715.
+\newblock \doi{10.1016/S0198-9715(01)00021-7}.
+\newblock URL
+  \url{http://linkinghub.elsevier.com/retrieve/pii/S0198971501000217}.
 
 \end{thebibliography}

@@ -24,67 +24,71 @@ Repeated entry---line 506 of file Bibliography.bib
  :                   ,
 I'm skipping whatever remains of this entry
 Database file #2: LR.bib
-Repeated entry---line 158 of file LR.bib
- : @inproceedings{Sarcevic2012
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 167 of file LR.bib
- : @inproceedings{Flintham2003
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 178 of file LR.bib
- : @inproceedings{Crabtree2004
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 205 of file LR.bib
- : @book{Vlassis2007
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 220 of file LR.bib
+Repeated entry---line 1 of file LR.bib
  : @article{Nwana1996
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 233 of file LR.bib
- : @article{Hoffman2002
- :                     ,
+Repeated entry---line 22 of file LR.bib
+ : @inproceedings{Crabtree2004
+ :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 239 of file LR.bib
- : @article{Fitts
- :               ,
+Repeated entry---line 78 of file LR.bib
+ : @inproceedings{Sarcevic2012
+ :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 263 of file LR.bib
- : @article{Toups2011
- :                   ,
+Repeated entry---line 150 of file LR.bib
+ : @inproceedings{Flintham2003
+ :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 278 of file LR.bib
- : @article{Palen2007
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 293 of file LR.bib
- : @article{Crabtree2006
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 320 of file LR.bib
- : @article{Wattegama2012
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 328 of file LR.bib
+Repeated entry---line 168 of file LR.bib
  : @article{Benford2005
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 352 of file LR.bib
- : @article{Chen2005
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 394 of file LR.bib
- : @article{Fischer2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 402 of file LR.bib
+Repeated entry---line 192 of file LR.bib
  : @incollection{Bradshaw2011
  :                           ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Ackerman2000"
+Repeated entry---line 239 of file LR.bib
+ : @article{Hoffman2002
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 284 of file LR.bib
+ : @article{Toups2011
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 374 of file LR.bib
+ : @article{Palen2007
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 403 of file LR.bib
+ : @article{Chen2005
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 438 of file LR.bib
+ : @book{Vlassis2007
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 453 of file LR.bib
+ : @article{Wattegama2012
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 461 of file LR.bib
+ : @article{Fischer2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 507 of file LR.bib
+ : @article{Fitts
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 513 of file LR.bib
+ : @article{Crabtree2006
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 543 of file LR.bib
+ : @article{Niazkhani2009
+ :                       ,
+I'm skipping whatever remains of this entry
+Warning--empty booktitle in Bowers1994
 Warning--empty journal in Dawes2004
 Warning--there's a number but no volume in Dawes2004
 Warning--empty journal in Fitts
@@ -96,10 +100,8 @@ Warning--empty journal in Okaya
 Warning--empty year in Okaya
 Warning--empty year in Okaya
 Warning--empty journal in Palen2007
-Warning--empty journal in Petrescu-prahova2005
-Warning--empty journal in Ramchurn
-Warning--empty year in Ramchurn
-Warning--empty year in Ramchurn
+Warning--empty booktitle in Ramchurn
+Warning--empty journal in Ramchurn2015
 Warning--empty journal in Simpson
 Warning--empty year in Simpson
 Warning--empty year in Simpson
@@ -107,45 +109,45 @@ Warning--empty journal in Squire2003
 Warning--empty journal in Susi2007
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 31 entries,
+You've used 44 entries,
             2773 wiz_defined-function locations,
-            844 strings with 12675 characters,
-and the built_in function-call counts, 17276 in all, are:
-= -- 1547
-> -- 1172
-< -- 25
-+ -- 395
-- -- 364
-* -- 1477
-:= -- 2668
-add.period$ -- 127
-call.type$ -- 31
-change.case$ -- 213
-chr.to.int$ -- 31
-cite$ -- 84
-duplicate$ -- 724
-empty$ -- 1211
-format.name$ -- 405
-if$ -- 3598
-int.to.chr$ -- 1
+            948 strings with 16093 characters,
+and the built_in function-call counts, 23902 in all, are:
+= -- 2193
+> -- 1531
+< -- 36
++ -- 518
+- -- 472
+* -- 2016
+:= -- 3686
+add.period$ -- 193
+call.type$ -- 44
+change.case$ -- 288
+chr.to.int$ -- 42
+cite$ -- 109
+duplicate$ -- 1027
+empty$ -- 1714
+format.name$ -- 534
+if$ -- 5012
+int.to.chr$ -- 3
 int.to.str$ -- 1
-missing$ -- 31
-newline$ -- 194
-num.names$ -- 126
-pop$ -- 438
+missing$ -- 44
+newline$ -- 285
+num.names$ -- 178
+pop$ -- 559
 preamble$ -- 1
-purify$ -- 183
+purify$ -- 245
 quote$ -- 0
-skip$ -- 594
+skip$ -- 834
 stack$ -- 0
-substring$ -- 553
-swap$ -- 115
-text.length$ -- 13
+substring$ -- 775
+swap$ -- 171
+text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 336
-warning$ -- 22
-while$ -- 143
+type$ -- 479
+warning$ -- 21
+while$ -- 203
 width$ -- 0
-write$ -- 453
-(There were 16 error messages)
+write$ -- 670
+(There were 17 error messages)
