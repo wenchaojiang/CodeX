@@ -1,6 +1,7 @@
 This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ClassicThesis.aux
+The style file: apalike.bst
 A level-1 auxiliary file: FrontBackmatter/DirtyTitlepage.aux
 A level-1 auxiliary file: FrontBackmatter/Titlepage.aux
 A level-1 auxiliary file: FrontBackmatter/Titleback.aux
@@ -15,78 +16,49 @@ A level-1 auxiliary file: Chapters/Chapter04.aux
 A level-1 auxiliary file: Chapters/Conclusion.aux
 A level-1 auxiliary file: Chapters/Chapter0A.aux
 A level-1 auxiliary file: FrontBackmatter/Bibliography.aux
-The style file: plainnat.bst
+Illegal, another \bibstyle command---line 3 of file FrontBackmatter/Bibliography.aux
+ : \bibstyle
+ :          {plainnat}
+I'm skipping whatever remains of this command
 A level-1 auxiliary file: FrontBackmatter/Colophon.aux
 A level-1 auxiliary file: FrontBackmatter/Declaration.aux
 Database file #1: Bibliography.bib
-Repeated entry---line 506 of file Bibliography.bib
- : @misc{Mendonca2007
- :                   ,
-I'm skipping whatever remains of this entry
 Database file #2: LR.bib
-Repeated entry---line 1 of file LR.bib
- : @article{Nwana1996
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 22 of file LR.bib
- : @inproceedings{Crabtree2004
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 78 of file LR.bib
- : @inproceedings{Sarcevic2012
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 150 of file LR.bib
- : @inproceedings{Flintham2003
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 168 of file LR.bib
+Repeated entry---line 34 of file LR.bib
  : @article{Benford2005
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 192 of file LR.bib
+Repeated entry---line 43 of file LR.bib
  : @incollection{Bradshaw2011
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 239 of file LR.bib
- : @article{Hoffman2002
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 284 of file LR.bib
- : @article{Toups2011
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 374 of file LR.bib
- : @article{Palen2007
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 403 of file LR.bib
+Repeated entry---line 55 of file LR.bib
  : @article{Chen2005
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 438 of file LR.bib
- : @book{Vlassis2007
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 453 of file LR.bib
- : @article{Wattegama2012
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 461 of file LR.bib
- : @article{Fischer2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 507 of file LR.bib
- : @article{Fitts
- :               ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 513 of file LR.bib
+Repeated entry---line 90 of file LR.bib
  : @article{Crabtree2006
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 543 of file LR.bib
- : @article{Niazkhani2009
- :                       ,
+Repeated entry---line 103 of file LR.bib
+ : @inproceedings{Crabtree2004
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 175 of file LR.bib
+ : @article{Fischer2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 183 of file LR.bib
+ : @inproceedings{Flintham2003
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 194 of file LR.bib
+ : @inproceedings{Sarcevic2012
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 223 of file LR.bib
+ : @article{Toups2011
+ :                   ,
 I'm skipping whatever remains of this entry
 Warning--empty booktitle in Bowers1994
 Warning--empty journal in Dawes2004
@@ -95,59 +67,49 @@ Warning--empty journal in Fitts
 Warning--empty journal in Hoffman2002
 Warning--empty journal in Meesters2013
 Warning--there's a number but no volume in Meesters2013
-Warning--empty journal in Nwana1996
-Warning--empty journal in Okaya
-Warning--empty year in Okaya
-Warning--empty year in Okaya
-Warning--empty journal in Palen2007
 Warning--empty booktitle in Ramchurn
 Warning--empty journal in Ramchurn2015
 Warning--empty journal in Simpson
-Warning--empty year in Simpson
-Warning--empty year in Simpson
-Warning--empty journal in Squire2003
 Warning--empty journal in Susi2007
-Warning--can't use both volume and number fields in Vlassis2007
-Warning--empty publisher in Vlassis2007
-You've used 44 entries,
-            2773 wiz_defined-function locations,
-            948 strings with 16093 characters,
-and the built_in function-call counts, 23902 in all, are:
-= -- 2193
-> -- 1531
-< -- 36
-+ -- 518
-- -- 472
-* -- 2016
-:= -- 3686
-add.period$ -- 193
-call.type$ -- 44
-change.case$ -- 288
-chr.to.int$ -- 42
-cite$ -- 109
-duplicate$ -- 1027
-empty$ -- 1714
-format.name$ -- 534
-if$ -- 5012
+You've used 42 entries,
+            1935 wiz_defined-function locations,
+            753 strings with 12297 characters,
+and the built_in function-call counts, 18619 in all, are:
+= -- 1808
+> -- 915
+< -- 31
++ -- 319
+- -- 317
+* -- 1567
+:= -- 3195
+add.period$ -- 123
+call.type$ -- 42
+change.case$ -- 368
+chr.to.int$ -- 40
+cite$ -- 53
+duplicate$ -- 706
+empty$ -- 1172
+format.name$ -- 379
+if$ -- 3659
 int.to.chr$ -- 3
-int.to.str$ -- 1
-missing$ -- 44
-newline$ -- 285
-num.names$ -- 178
-pop$ -- 559
+int.to.str$ -- 0
+missing$ -- 40
+newline$ -- 206
+num.names$ -- 128
+pop$ -- 363
 preamble$ -- 1
-purify$ -- 245
+purify$ -- 368
 quote$ -- 0
-skip$ -- 834
+skip$ -- 571
 stack$ -- 0
-substring$ -- 775
-swap$ -- 171
-text.length$ -- 18
+substring$ -- 1147
+swap$ -- 147
+text.length$ -- 16
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 479
-warning$ -- 21
-while$ -- 203
+type$ -- 252
+warning$ -- 11
+while$ -- 150
 width$ -- 0
-write$ -- 670
-(There were 17 error messages)
+write$ -- 522
+(There were 10 error messages)
