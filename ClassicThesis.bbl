@@ -146,6 +146,11 @@ Niazkhani, Z., Pirnejad, H., Berg, M., and Aarts, J. (2009).
 \newblock {\em Journal of the American Medical Informatics Association :
   JAMIA}, 16(4):539--49.
 
+\bibitem[Nwana, 1996]{Nwana1996}
+Nwana, H. (1996).
+\newblock {Software agents: An overview}.
+\newblock {\em The knowledge engineering review}, pages 1--49.
+
 \bibitem[Okaya et~al., 2014]{Okaya}
 Okaya, M., Niwa, T., and Takahashi, T. (2014).
 \newblock {TENDENKO: agent-based evacuation drill and emergency planning
@@ -230,6 +235,11 @@ Susi, T., Johannesson, M., and Backlund, P. (2007).
 Toups, Z.~O., Kerne, A., and Hamilton, W.~A. (2011).
 \newblock {The team coordination game}.
 \newblock {\em ACM Transactions on Computer-Human Interaction}, 18(4):1--37.
+
+\bibitem[Vlassis, 2007]{Vlassis2007}
+Vlassis, N. (2007).
+\newblock {\em {A Concise Introduction to Multiagent Systems and Distributed
+  Artificial Intelligence}}, volume~1.
 
 \bibitem[Wagner et~al., 2004]{Wagner2004}
 Wagner, T., Phelps, J., Guralnik, V., and VanRiper, R. (2004).

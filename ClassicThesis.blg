@@ -60,6 +60,7 @@ Repeated entry---line 223 of file LR.bib
  : @article{Toups2011
  :                   ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "Lieberman2003"
 Warning--empty booktitle in Bowers1994
 Warning--empty journal in Dawes2004
 Warning--there's a number but no volume in Dawes2004
@@ -71,45 +72,47 @@ Warning--empty booktitle in Ramchurn
 Warning--empty journal in Ramchurn2015
 Warning--empty journal in Simpson
 Warning--empty journal in Susi2007
-You've used 42 entries,
+Warning--can't use both volume and number fields in Vlassis2007
+Warning--empty publisher in Vlassis2007
+You've used 44 entries,
             1935 wiz_defined-function locations,
-            753 strings with 12297 characters,
-and the built_in function-call counts, 18619 in all, are:
-= -- 1808
-> -- 915
-< -- 31
-+ -- 319
-- -- 317
-* -- 1567
-:= -- 3195
-add.period$ -- 123
-call.type$ -- 42
-change.case$ -- 368
-chr.to.int$ -- 40
-cite$ -- 53
-duplicate$ -- 706
-empty$ -- 1172
-format.name$ -- 379
-if$ -- 3659
+            768 strings with 12614 characters,
+and the built_in function-call counts, 19293 in all, are:
+= -- 1873
+> -- 929
+< -- 35
++ -- 323
+- -- 321
+* -- 1618
+:= -- 3308
+add.period$ -- 128
+call.type$ -- 44
+change.case$ -- 379
+chr.to.int$ -- 42
+cite$ -- 57
+duplicate$ -- 739
+empty$ -- 1225
+format.name$ -- 385
+if$ -- 3795
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 40
-newline$ -- 206
-num.names$ -- 128
-pop$ -- 363
+missing$ -- 43
+newline$ -- 215
+num.names$ -- 134
+pop$ -- 375
 preamble$ -- 1
-purify$ -- 368
+purify$ -- 380
 quote$ -- 0
-skip$ -- 571
+skip$ -- 599
 stack$ -- 0
-substring$ -- 1147
-swap$ -- 147
-text.length$ -- 16
+substring$ -- 1190
+swap$ -- 156
+text.length$ -- 18
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 252
-warning$ -- 11
-while$ -- 150
+type$ -- 262
+warning$ -- 13
+while$ -- 157
 width$ -- 0
-write$ -- 522
+write$ -- 546
 (There were 10 error messages)

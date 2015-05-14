@@ -65,15 +65,26 @@ In summary, responders in DR need to carry out a set of interdependent activitie
 
 %The fireground and surrounding space constitute a dangerous and dynamic interface ecosystem [Kerne 2005] of distributed cognition, connecting responders, victims, fire- fighting equipment, communication media, and information artifacts. Upon arriving at an incident, multiple companies distribute in and around the fireground. Compa- nies and their apparatuses are placed at strategic locations, and are moved as needed. Human operators work on and from these platforms. Firefighters and rescue workers deploy from them, taking equipment into the fireground; equipment, such as firehoses and radios, may be technologically supported by the apparatus itself (pumps and water sources, or high-power repeaters, respectively). Each apparatus, and in many cases, each human worker, is equipped with a half-duplex radio to facilitate long-range, broad- cast communication.\\
 
-\section{Control and Control Environment}
-[Coordinator]
+\section{Command and Control Environment}
+Command-and-Control(C2) environment have been a long standing research topic in the field of HCI. This related HCI research focuses on how operators manage and control safety-critical systems [Joel]. The studies of C2 work setting is particularly relevant to this thesis, because most emergency response operation is carried out in a C2 environment (section x ).\\
+
+Ethnographically-oriented studies are carried out to explicate work practice and organisational conduct in the C2 environment, with the aim to  inform the design of technological support systems. The studies are conducted in a range of application areas such as air traffic control [suchman ], emergency [] and military operations [], with the aim to provide design implications for technological support. For example, the The work of [] conducted a detailed examination of social organisation of collaborative work within a Line Control Room on London Underground. The analysis of [] particularly focus on interaction between different personnel as they coordinate a range of tasks and utilise various tools. The study revealed the methodological ways in which the participants surreptitiously monitor each other's conducts, and at the same time, render their actions visible and accountable to the other team members. \\
+
+Similar C2 setting can also be found in the orchestration of Mixed Reality Game (MRG) experiences. The MRGs are xxx for details (see section x).
+
+Apart from .The impact of technology support in the control room is also studied by human factor researchers through quantitative evaluation of operators performance. 
+%The analysis is no longer primarily concerned with the individual and the system, but rather the  The ability to coordinate activities, and the process of interpretation and perception it entails, inevitably relies upon a social organisation; a body of skills and practices which allows different personnel to recognise what each other is doing and thereby produce appropriate conduct. Heath and Luff's study of London Underground shows for example how co-orientation among operators is critical in this ``multimedia environment''.\\
+
+
+
+
+
+
+
+
 [London underground and other traffic control]
 [Bird table]
 [MrGs orchestration]
-Command-and-control settings have been a mainstay of CSCW research focusing of how operators manage and control safety-critical systems. This paper aligns with the long-standing tradition to study these complex settings to identify implications for technology support. Heath and Luff`s study of London Underground shows for example
-how co-orientation among operators is critical in this ``multimedia environment'' [13]. Tolcher [37] showed in his PhD thesis how military planning around bird table maps is accomplished through collaboratively developing and analysing courses of actions.
-Tolcher’s work is particularly relevant to our study, in that there is significant overlap between the planning process employed by Rescue Global and the UK military Standard Operating Procedures (SOP). \\
-
 [Orchestrations ]
 
 
@@ -126,7 +137,7 @@ This section have reviewed technological practices related to planning support i
 
 In the overlapping area of the three application domains, there is opportunity space for real time task planning support in DR domain. The planning support system can utilise ICT technologies as its underlying infrastructures and apply intelligent coordination algorithms for plan generation. However, the researches for building such a system are still rare, leaving a gap in literatures. This thesis is aimed to bridge the gap by studying the design and development of such DR planning support system.\\
 
-\section{The Social and Technical Divid}\label{sec:LRSocialTechnical}
+\section{Relationship between Human and Technology Support}\label{sec:LRSocialTechnical}
 Applying task planning to support complex disaster response operations may not be a straightforward process. Some HCI researches \cite{Ackerman2000,Bowers1994,Niazkhani2009} have shown that introducing technology system to support organisational work may be extremely difficult. Use of technologies may have unexpected negative impact on human team performance. This thesis adopted two perspectives to view the potential undesirable impact of planning support technologies on human team performance. The first perspective concerns socio-technical gaps that are often found in design and development of CSCW (Computer Supported Cooperative Work) systems. The second perspective is related to challenges with automation design, which concerns what and how to automate a working process by using computational systems. This section will review the two perspectives to give an conceptual background of design challenges that we may encounter when developing DR task planning support.\\
 
 
@@ -167,14 +178,12 @@ Some HAI researchers adopted a view that human and agents are equally important 
 [Definition]
 An interface agent is the software that actively assists a user in operating an interactive interface \cite{Lieberman2003}. The metaphor of personal assistant is used to design the interaction between human and the agent. The software behave a personal assistant who is collaborating with the user in the same work environment[]. Opposed to a direction manipulation interface, the assistant learns the user's goal, interests, habits and preferences (as well as those of his or her community) by observing user's actions and behaviours,  so that it can effectively provide suggestions or directly take interface actions to support human perform tasks [].\\
 
-[Paraphrase]
-User modelling is a typical approach of implementing interface agent. Every interface agent has a user model, even if only implicitly. The user model is the program’s expectation of what a user will do, what they need to be told and how they will respond.  The most sophisticated way to acquire user models are adaptive, which means they can create dynamic behavior without being pre-programmed. For example, the user interface could learn common misspellings and typos and remind a user of how to correct them.The user interface could learn common misspellings and typos and remind a user of how to correct them. \\
+[User modelling]
+User modelling is a typical approach for implementing interface agents. The user model is the program's expectation of what a user will do, what they need to be told and how they will respond[].  The most sophisticated way to acquire user models are adaptive, which means they can create dynamic behaviour without being pre-programmed. For example, the user interface could learn common misspellings and typos and remind a user of how to correct them.The user interface could learn common misspellings and typos and remind a user of how to correct them. \\
 
-[Example -> MIT paper] The user modelling approach has been adopted to build various agent systems. For example. [2 sentences for each]
-an agent for electronic mail handling.
-an agent for meeting scheduling.
-an agent for electronic news filtering (Usenet Netnews).
-an agent that recommends books, music or other forms of entertainment.\\
+[Example] The user modelling approach has been adopted to build various agent systems. For example, Maxims [13] is an agent that assists the user to organise their emails. Maxims learns to prioritize, delete, forward, sort and archive mail messages on behalf of the user. The agent continuously learns the user as the user deals with emails. The same user modelling technique is also applied to implement a meeting scheduling agent [10] [11]. The agent assists a user with the scheduling of meetings (accept/reject, schedule, reschedule, negotiate meeting times, etc.) based on continuous learning of user's preference. Other examples applications ranges from new filtering, music/book recommendation to energy saving guidance [reference orchid papers].
+
+
 
 %An interface agent can observe actions taken by the user in a direct manipulation interface, can sense the objects that the user sees on the screen, and can itself take actions by invoking the commands provided by the interface. The agent can add graphics or animation to the interface, it can use speech input or output, or communicate via other sensory streams. Increasingly, agents also will use sensors and effectors that sense and act directly with the real world. An agent that senses force in an exercise machine or moves a bulldozer blade can also be an interface agent. \
 
@@ -183,12 +192,18 @@ an agent that recommends books, music or other forms of entertainment.\\
 %Every computer program has a user model, even if only implicitly. The user model is the program’s expectation of what a user will do, what they need to be told and how they will respond. Historically, it is hard-wired into the program. Command-line interfaces are predicated on the unrealistic assumption that the user knows all commands and can type them in without spelling or punctuation errors. This implicit model of the user interface coexists with a model of the task and domain. In more sophisticated user interface agents, it is often useful to be make the model more explicit so it can be manipulated and reasoned about. Interface agents may also need to move from the static, implicit models found in conventional programs, to more explicit and dynamic models. In a dynamic user model, the system could notice that the user is using a new feature that he or she never has before, and offer tutorial information. The most sophisticated way to acquire user models are adaptive, which means they can create dynamic behavior without being pre-programmed. The user interface could learn common misspellings and typos and remind a user of how to correct them. The interface could offer syntactic or presentation alternatives. The interface could watch user performance and suggest ways in which it might be improved. The simplest way for an agent to construct a user model is to have explicit interaction with the user. If the user accepts suggestions from the computer such as corrections to misspelled words, those could be added to a user model. More interesting is when the user model is constructed implicitly, by the computer making observations about user behavior that can be used to improve subsequent performance. For example, the user habitually drops an item close to a window instead of in the window and then makes a correction, the computer could at some point surmise that the person’s goal is to put things into the window. The computer should either suggest it or do it for them.\\
 
 \subsubsection{Adjustable Autonomy}
+[Definition ]
+The `ajustable  autonomy' is a concept emerged from the research of human agent teamwork. While in tradition systems pre-programmed division of labour, and fixed level of autonomy , adjust agent autonomy with reasonable dynamism (ideally allowing handoffs of control among team members to occur anytime) and with a sufficiently fine-grained range of levels, People want to maintain that boundary at a sweet spot in the tradeoff curve that minimizes their need to attend to interaction with the agent while providing them with a sufficiently comfortable level of assurance that nothing will go wrong.\\ 
 
-The adjustable autonomy.
+The concept of `adjustable autonomy' has be widely adapted to guide a wide range of applications such as tele-operation[], home asistance[ORCHID] and space applications[]. \\
 
 \subsubsection{Mixed Initiative Systems}
+[Definition ]
+``Mixed initiative'' is another approach adopted by researchers to design human agent interaction.  Mixed-initiative refers to a flexible interaction strategy, where each agent can contribute to the task what it does best. Furthermore, in the most general cases, the agents' roles are not determined in advance, but opportunistically negotiated between them as the problem is being solved. At any one time, one agent might have the initiative controlling the interaction while the other works to assist it, contributing to the interaction as required.\\
 
-Mixed initiative systems. 
+Practitioners have devised algorithms, interfaces and applications that facilities ``Mixed Initiative'' planning [][TRAINS-95][TRIPS]]. One example is the interactive optimisation algorithm designed by [] to support environmental planning. Problem-solving in environmental planning typically involves multiple criteria, which can be qualitative or quantitative. The Interactive algorithm (IGA) allows a human decision maker to actively
+participant in the optimization process, and thereby provides means to include qualitative expert knowledge within its solution space searching process.\\
+
 
 
 
@@ -281,3 +296,5 @@ These key characteristics illustrate the overlap between time-critical, distribu
 %The method of observing participants in the field study is informed by Ethnomethodology (EM). Following the tradition of ethnography, EM seeks to explicate real-world organisation of works by adopting the naturalistic stance. The EM places methodological emphasis on rigorous description of the situated (i.e. local, observable) actions and practices (Suchman, 1987) in and through the contingent accomplishment of daily activities. The EM-informed ethnography arguably helps answering what might be regarded as an essential question in design: what to automate and (Crabtree et al. 3) what to leave to human skill, competence, judgement, experience and expertise. By producing description of the actions and practices in and through which the work `gets done' time and time by the members, The EM could inform the system design by uncovering what actions and activities we should therefore support.\\
 
 %For the purpose of this thesis, the social situation the interaction with and around the planning support was argued to be a critical factor to understand how social organisation of work is achieved participants with the existence of a planning support system. Observation of the situated actions and practice employed by the participants was a key method for the field study. The use of the system was observed and filmed for later analysis. Video is widely recognised as an important resource for ethnographies around technology use (Crabtree et al., 2006). The next section will go through the method of video-based interaction analysis for unpacking the interactions observed in the field. \\
+
+\section{Summary}
