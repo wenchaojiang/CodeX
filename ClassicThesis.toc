@@ -16,23 +16,23 @@
 \contentsline {subsection}{\numberline {2.1.2}DR command structure}{17}{subsection.2.1.2}
 \contentsline {subsection}{\numberline {2.1.3}Task planning in large scale disaster}{17}{subsection.2.1.3}
 \contentsline {section}{\numberline {2.2}Command and Control Environment}{19}{section.2.2}
-\contentsline {section}{\numberline {2.3}Technological Practices in Disaster Response}{20}{section.2.3}
+\contentsline {section}{\numberline {2.3}Technological Practices in Disaster Response}{21}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}Planning support systems}{21}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}ICT support for disaster response}{23}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Application of AI technologies}{25}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Summary}{26}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.4}Summary}{27}{subsection.2.3.4}
 \contentsline {section}{\numberline {2.4}Relationship between Human and Technology Support}{27}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}A social-technical perspective to technology support}{28}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Automation and its impact on human performance}{29}{subsection.2.4.2}
 \contentsline {subsubsection}{\numberline {2.4.2.1}The Level of Automation}{31}{subsubsection.2.4.2.1}
-\contentsline {subsection}{\numberline {2.4.3}Human Agent Interactions}{32}{subsection.2.4.3}
-\contentsline {subsubsection}{\numberline {2.4.3.1}Interface Agents and Assistants}{33}{subsubsection.2.4.3.1}
-\contentsline {subsubsection}{\numberline {2.4.3.2}Adjustable Autonomy}{34}{subsubsection.2.4.3.2}
+\contentsline {subsection}{\numberline {2.4.3}Human Agent Interactions}{33}{subsection.2.4.3}
+\contentsline {subsubsection}{\numberline {2.4.3.1}Interface Agents and Assistants}{34}{subsubsection.2.4.3.1}
+\contentsline {subsubsection}{\numberline {2.4.3.2}Adjustable Autonomy}{35}{subsubsection.2.4.3.2}
 \contentsline {subsubsection}{\numberline {2.4.3.3}Mixed Initiative Systems}{35}{subsubsection.2.4.3.3}
 \contentsline {subsection}{\numberline {2.4.4}Summary}{36}{subsection.2.4.4}
 \contentsline {section}{\numberline {2.5}Games for studing disaster response}{36}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Serious Game}{36}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Mixed Reality Games}{38}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.1}Serious Game}{37}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Mixed Reality Games}{39}{subsection.2.5.2}
 \contentsline {section}{\numberline {2.6}Summary}{41}{section.2.6}
 \contentsline {part}{ii\hspace {1em}\spacedlowsmallcaps {Methodology and Approach}}{42}{part.2}
 \contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Approach}}{43}{chapter.3}
