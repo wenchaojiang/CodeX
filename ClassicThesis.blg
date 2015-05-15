@@ -24,95 +24,99 @@ A level-1 auxiliary file: FrontBackmatter/Colophon.aux
 A level-1 auxiliary file: FrontBackmatter/Declaration.aux
 Database file #1: Bibliography.bib
 Database file #2: LR.bib
-Repeated entry---line 34 of file LR.bib
+Repeated entry---line 70 of file LR.bib
  : @article{Benford2005
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 43 of file LR.bib
+Repeated entry---line 87 of file LR.bib
  : @incollection{Bradshaw2011
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 55 of file LR.bib
+Repeated entry---line 152 of file LR.bib
  : @article{Chen2005
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 90 of file LR.bib
+Repeated entry---line 223 of file LR.bib
  : @article{Crabtree2006
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 103 of file LR.bib
+Repeated entry---line 236 of file LR.bib
  : @inproceedings{Crabtree2004
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 175 of file LR.bib
+Repeated entry---line 335 of file LR.bib
  : @article{Fischer2012
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 183 of file LR.bib
+Repeated entry---line 350 of file LR.bib
  : @inproceedings{Flintham2003
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 194 of file LR.bib
+Repeated entry---line 737 of file LR.bib
  : @inproceedings{Sarcevic2012
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 223 of file LR.bib
+Repeated entry---line 828 of file LR.bib
  : @article{Toups2011
  :                   ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Lieberman2003"
+Warning--I didn't find a database entry for "Ramchurn"
 Warning--empty booktitle in Bowers1994
+Warning--there's a number but no volume in Bradshaw2003
+Warning--there's a number but no volume in Burstein2003
 Warning--empty journal in Dawes2004
 Warning--there's a number but no volume in Dawes2004
 Warning--empty journal in Fitts
+Warning--empty journal in Goodrich2001a
+Warning--empty journal in Hardin2009
 Warning--empty journal in Hoffman2002
+Warning--there's a number but no volume in Koleva2001
 Warning--empty journal in Meesters2013
 Warning--there's a number but no volume in Meesters2013
-Warning--empty booktitle in Ramchurn
 Warning--empty journal in Ramchurn2015
 Warning--empty journal in Simpson
 Warning--empty journal in Susi2007
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 44 entries,
+You've used 72 entries,
             1935 wiz_defined-function locations,
-            768 strings with 12614 characters,
-and the built_in function-call counts, 19293 in all, are:
-= -- 1873
-> -- 929
-< -- 35
-+ -- 323
-- -- 321
-* -- 1618
-:= -- 3308
-add.period$ -- 128
-call.type$ -- 44
-change.case$ -- 379
-chr.to.int$ -- 42
-cite$ -- 57
-duplicate$ -- 739
-empty$ -- 1225
-format.name$ -- 385
-if$ -- 3795
-int.to.chr$ -- 3
+            953 strings with 18469 characters,
+and the built_in function-call counts, 31090 in all, are:
+= -- 3061
+> -- 1412
+< -- 59
++ -- 483
+- -- 482
+* -- 2600
+:= -- 5319
+add.period$ -- 213
+call.type$ -- 72
+change.case$ -- 598
+chr.to.int$ -- 71
+cite$ -- 89
+duplicate$ -- 1194
+empty$ -- 2011
+format.name$ -- 596
+if$ -- 6129
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 43
-newline$ -- 215
-num.names$ -- 134
-pop$ -- 375
+missing$ -- 70
+newline$ -- 354
+num.names$ -- 220
+pop$ -- 559
 preamble$ -- 1
-purify$ -- 380
+purify$ -- 600
 quote$ -- 0
-skip$ -- 599
+skip$ -- 978
 stack$ -- 0
-substring$ -- 1190
-swap$ -- 156
-text.length$ -- 18
+substring$ -- 2027
+swap$ -- 251
+text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 262
-warning$ -- 13
-while$ -- 157
+type$ -- 430
+warning$ -- 17
+while$ -- 262
 width$ -- 0
-write$ -- 546
+write$ -- 904
 (There were 10 error messages)
