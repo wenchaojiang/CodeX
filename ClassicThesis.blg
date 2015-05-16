@@ -78,45 +78,45 @@ Warning--empty journal in Simpson
 Warning--empty journal in Susi2007
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 72 entries,
+You've used 71 entries,
             1935 wiz_defined-function locations,
-            953 strings with 18469 characters,
-and the built_in function-call counts, 31090 in all, are:
-= -- 3061
-> -- 1412
+            948 strings with 18304 characters,
+and the built_in function-call counts, 30723 in all, are:
+= -- 3028
+> -- 1389
 < -- 59
-+ -- 483
-- -- 482
-* -- 2600
-:= -- 5319
-add.period$ -- 213
-call.type$ -- 72
-change.case$ -- 598
-chr.to.int$ -- 71
-cite$ -- 89
-duplicate$ -- 1194
-empty$ -- 2011
-format.name$ -- 596
-if$ -- 6129
++ -- 475
+- -- 474
+* -- 2569
+:= -- 5249
+add.period$ -- 210
+call.type$ -- 71
+change.case$ -- 589
+chr.to.int$ -- 70
+cite$ -- 88
+duplicate$ -- 1181
+empty$ -- 1991
+format.name$ -- 587
+if$ -- 6062
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 70
-newline$ -- 354
-num.names$ -- 220
-pop$ -- 559
+missing$ -- 69
+newline$ -- 349
+num.names$ -- 217
+pop$ -- 550
 preamble$ -- 1
-purify$ -- 600
+purify$ -- 591
 quote$ -- 0
-skip$ -- 978
+skip$ -- 968
 stack$ -- 0
-substring$ -- 2027
-swap$ -- 251
+substring$ -- 2015
+swap$ -- 250
 text.length$ -- 26
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 430
+type$ -- 424
 warning$ -- 17
-while$ -- 262
+while$ -- 260
 width$ -- 0
-write$ -- 904
+write$ -- 892
 (There were 10 error messages)
