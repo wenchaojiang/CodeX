@@ -112,6 +112,12 @@ Dorais, G. and Bonasso, R. (1999).
 \newblock {Adjustable autonomy for human-centered autonomous systems}.
 \newblock {\em Working notes of the \ldots}.
 
+\bibitem[Eglese and Pidd, 1994]{Eglese1994}
+Eglese, R.~W. and Pidd, M. (1994).
+\newblock {A spatial decision support system for emergency planning}.
+\newblock In {\em International Emergency Management and Engineering Conference
+  research and applications}. Society for Computer Simulation.
+
 \bibitem[Faraj and Xiao, 2006]{Faraj2006}
 Faraj, S. and Xiao, Y. (2006).
 \newblock {Coordination in Fast-Response Organizations}.
@@ -186,6 +192,10 @@ Horvitz, E. (1999).
 \newblock {\em Proceedings of the SIGCHI conference on Human factors in
   computing systems the CHI is the limit CHI 99}, pages(May):159--166.
 
+\bibitem[{Intergraph Corporation}, 2000]{IntergraphCorporation2000}
+{Intergraph Corporation} (2000).
+\newblock {Intergraph MGE GIS}.
+
 \bibitem[Jennings and Moreau, 2014]{Jennings2014}
 Jennings, N. and Moreau, L. (2014).
 \newblock {Human-agent collectives}.
@@ -248,10 +258,24 @@ Mendon\c{c}a, D., Jefferson, T., and Harrald, J. (2007).
 \newblock {Collaborative adhocracies and mix-and-match technologies in
   emergency management}.
 
+\bibitem[Mercer and Homola, 2014]{Mercer2014}
+Mercer, J. and Homola, J. (2014).
+\newblock {Human-Automation Cooperation for Separation Assurance in Future
+  NextGen Environments}.
+\newblock {\em \ldots of the HCI-Aero \ldots}.
+
 \bibitem[Metral and Maes, 1998]{Metral1998}
 Metral, Y. and Maes, P. (1998).
 \newblock {Collaborative interface agents}.
 \newblock {\em Readings in agents}.
+
+\bibitem[Miller, 1999]{Miller}
+Miller, H. (1999).
+\newblock {GIS-based dynamic traffic congestion modeling to support
+  time-critical logistics}.
+\newblock In {\em Proceedings of the 32nd Annual Hawaii International
+  Conference on Systems Sciences. 1999. HICSS-32. Abstracts and CD-ROM of Full
+  Papers}, page~9. IEEE Comput. Soc.
 
 \bibitem[Niazkhani et~al., 2009]{Niazkhani2009}
 Niazkhani, Z., Pirnejad, H., Berg, M., and Aarts, J. (2009).
@@ -300,6 +324,12 @@ Parasuraman, R., Sheridan, T.~B., and Wickens, C.~D. (2000).
 Petrescu-Prahova, M. and Butts, C. (2005).
 \newblock {Emergent coordination in the World Trade Center disaster}.
 \newblock {\em Institute for mathematical behavioral \ldots}, pages 1--23.
+
+\bibitem[Pettit et~al., 2003]{Pettit2003}
+Pettit, C., Shyy, T., and Stimson, R. (2003).
+\newblock {An on-line planning support system to evaluate urban and regional
+  planning scenarios}.
+\newblock In {\em Planning support systems in practice}, pages 331--347.
 
 \bibitem[Ramchurn et~al., 2015a]{Ramchurn2015}
 Ramchurn, S., Simpson, E., Fischer, J., and Huynh, T. (2015a).

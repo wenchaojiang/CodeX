@@ -24,43 +24,44 @@ A level-1 auxiliary file: FrontBackmatter/Colophon.aux
 A level-1 auxiliary file: FrontBackmatter/Declaration.aux
 Database file #1: Bibliography.bib
 Database file #2: LR.bib
-Repeated entry---line 70 of file LR.bib
- : @article{Benford2005
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 87 of file LR.bib
- : @incollection{Bradshaw2011
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 152 of file LR.bib
- : @article{Chen2005
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 223 of file LR.bib
+Repeated entry---line 44 of file LR.bib
  : @article{Crabtree2006
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 236 of file LR.bib
+Repeated entry---line 181 of file LR.bib
+ : @article{Benford2005
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 198 of file LR.bib
  : @inproceedings{Crabtree2004
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 335 of file LR.bib
+Repeated entry---line 348 of file LR.bib
+ : @incollection{Bradshaw2011
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 572 of file LR.bib
+ : @article{Chen2005
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 686 of file LR.bib
  : @article{Fischer2012
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 350 of file LR.bib
+Repeated entry---line 694 of file LR.bib
  : @inproceedings{Flintham2003
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 737 of file LR.bib
+Repeated entry---line 811 of file LR.bib
  : @inproceedings{Sarcevic2012
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 828 of file LR.bib
+Repeated entry---line 856 of file LR.bib
  : @article{Toups2011
  :                   ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Ramchurn"
+Warning--I didn't find a database entry for "Cova1999"
 Warning--empty booktitle in Bowers1994
 Warning--there's a number but no volume in Bradshaw2003
 Warning--there's a number but no volume in Burstein2003
@@ -73,50 +74,51 @@ Warning--empty journal in Hoffman2002
 Warning--there's a number but no volume in Koleva2001
 Warning--empty journal in Meesters2013
 Warning--there's a number but no volume in Meesters2013
+Warning--empty publisher in Pettit2003
 Warning--empty journal in Ramchurn2015
 Warning--empty journal in Simpson
 Warning--empty journal in Susi2007
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 71 entries,
+You've used 76 entries,
             1935 wiz_defined-function locations,
-            948 strings with 18304 characters,
-and the built_in function-call counts, 30723 in all, are:
-= -- 3028
-> -- 1389
-< -- 59
-+ -- 475
-- -- 474
-* -- 2569
-:= -- 5249
-add.period$ -- 210
-call.type$ -- 71
-change.case$ -- 589
-chr.to.int$ -- 70
-cite$ -- 88
-duplicate$ -- 1181
-empty$ -- 1991
-format.name$ -- 587
-if$ -- 6062
+            977 strings with 19238 characters,
+and the built_in function-call counts, 32532 in all, are:
+= -- 3209
+> -- 1447
+< -- 65
++ -- 493
+- -- 492
+* -- 2696
+:= -- 5556
+add.period$ -- 226
+call.type$ -- 76
+change.case$ -- 623
+chr.to.int$ -- 75
+cite$ -- 94
+duplicate$ -- 1270
+empty$ -- 2130
+format.name$ -- 614
+if$ -- 6436
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 69
-newline$ -- 349
-num.names$ -- 217
-pop$ -- 550
+missing$ -- 73
+newline$ -- 373
+num.names$ -- 232
+pop$ -- 591
 preamble$ -- 1
-purify$ -- 591
+purify$ -- 625
 quote$ -- 0
-skip$ -- 968
+skip$ -- 1030
 stack$ -- 0
-substring$ -- 2015
-swap$ -- 250
-text.length$ -- 26
+substring$ -- 2109
+swap$ -- 266
+text.length$ -- 28
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 424
-warning$ -- 17
-while$ -- 260
+type$ -- 454
+warning$ -- 18
+while$ -- 274
 width$ -- 0
-write$ -- 892
+write$ -- 954
 (There were 10 error messages)

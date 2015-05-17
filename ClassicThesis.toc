@@ -20,7 +20,7 @@
 \contentsline {subsection}{\numberline {2.3.1}GIS-enabled planning support systems}{22}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}ICT support for disaster response}{24}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Application of AI technologies}{26}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Summary}{27}{subsection.2.3.4}
+\contentsline {subsection}{\numberline {2.3.4}Summary}{28}{subsection.2.3.4}
 \contentsline {section}{\numberline {2.4}Relationship between Human and Technology Support}{28}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}A social-technical perspective to technology support}{29}{subsection.2.4.1}
 \contentsline {subsection}{\numberline {2.4.2}Automation and its impact on human performance}{30}{subsection.2.4.2}
@@ -31,8 +31,8 @@
 \contentsline {subsubsection}{\numberline {2.4.3.3}Mixed Initiative Systems}{36}{subsubsection.2.4.3.3}
 \contentsline {subsection}{\numberline {2.4.4}Summary}{37}{subsection.2.4.4}
 \contentsline {section}{\numberline {2.5}Games for studing disaster response}{37}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Serious Game}{37}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Mixed Reality Games}{39}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.1}Serious Game}{38}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Mixed Reality Games}{40}{subsection.2.5.2}
 \contentsline {section}{\numberline {2.6}Summary}{42}{section.2.6}
 \contentsline {part}{ii\hspace {1em}\spacedlowsmallcaps {Methodology and Approach}}{43}{part.2}
 \contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Approach}}{44}{chapter.3}
