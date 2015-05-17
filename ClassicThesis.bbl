@@ -29,6 +29,12 @@ Benford, S., Magerkurth, C., and Ljungstrand, P. (2005).
 \newblock {Bridging the PHYSICAL AND DIGITAL in Pervasive Gaming}.
 \newblock {\em Communications of the ACM}, 48(3).
 
+\bibitem[Boersma, 2009]{Boersma2009}
+Boersma, K. (2009).
+\newblock {Emergency Response Rooms in Action: an ethnographic case-study in
+  Amsterdam}.
+\newblock {\em Proceedings ISCRAM \ldots}, (May).
+
 \bibitem[Bowers et~al., 1994]{Bowers1994}
 Bowers, J., Button, G., and Sharrock, W. (1994).
 \newblock {Workflow From Within and Without : Technology and Cooperative Work
@@ -208,6 +214,7 @@ Horvitz, E. (1999).
 \bibitem[{Intergraph Corporation}, 2000]{IntergraphCorporation2000}
 {Intergraph Corporation} (2000).
 \newblock {Intergraph MGE GIS}.
+\newblock Technical report.
 
 \bibitem[Jennings and Moreau, 2014]{Jennings2014}
 Jennings, N. and Moreau, L. (2014).

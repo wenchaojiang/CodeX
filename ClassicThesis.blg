@@ -32,35 +32,36 @@ Repeated entry---line 82 of file LR.bib
  : @article{Crabtree2006
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 394 of file LR.bib
+Repeated entry---line 386 of file LR.bib
  : @article{Benford2005
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 403 of file LR.bib
+Repeated entry---line 395 of file LR.bib
  : @inproceedings{Crabtree2004
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 484 of file LR.bib
- : @inproceedings{Sarcevic2012
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 551 of file LR.bib
+Repeated entry---line 534 of file LR.bib
  : @article{Chen2005
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 665 of file LR.bib
+Repeated entry---line 648 of file LR.bib
  : @inproceedings{Flintham2003
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 779 of file LR.bib
+Repeated entry---line 762 of file LR.bib
  : @article{Toups2011
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 872 of file LR.bib
+Repeated entry---line 875 of file LR.bib
  : @article{Fischer2012
  :                     ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 1030 of file LR.bib
+ : @inproceedings{Sarcevic2012
+ :                            ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Ramchurn"
+Warning--there's a number but no volume in Boersma2009
 Warning--empty booktitle in Bowers1994
 Warning--there's a number but no volume in Bradshaw2003
 Warning--there's a number but no volume in Burstein2003
@@ -72,6 +73,7 @@ Warning--empty journal in Fitts
 Warning--empty journal in Goodrich2001a
 Warning--empty journal in Hardin2009
 Warning--empty journal in Hoffman2002
+Warning--empty institution in IntergraphCorporation2000
 Warning--there's a number but no volume in Koleva2001
 Warning--empty journal in Meesters2013
 Warning--there's a number but no volume in Meesters2013
@@ -83,45 +85,45 @@ Warning--empty journal in Susi2007
 Warning--there's a number but no volume in Sutton2008
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 83 entries,
+You've used 84 entries,
             1935 wiz_defined-function locations,
-            1014 strings with 20629 characters,
-and the built_in function-call counts, 35249 in all, are:
-= -- 3475
-> -- 1562
-< -- 72
-+ -- 531
-- -- 530
-* -- 2916
-:= -- 6027
-add.period$ -- 247
-call.type$ -- 83
-change.case$ -- 677
-chr.to.int$ -- 82
-cite$ -- 105
-duplicate$ -- 1383
-empty$ -- 2308
-format.name$ -- 665
-if$ -- 6973
+            1019 strings with 20766 characters,
+and the built_in function-call counts, 35557 in all, are:
+= -- 3504
+> -- 1569
+< -- 73
++ -- 533
+- -- 532
+* -- 2941
+:= -- 6085
+add.period$ -- 251
+call.type$ -- 84
+change.case$ -- 684
+chr.to.int$ -- 83
+cite$ -- 108
+duplicate$ -- 1397
+empty$ -- 2332
+format.name$ -- 668
+if$ -- 7031
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 80
-newline$ -- 408
-num.names$ -- 253
-pop$ -- 640
+missing$ -- 81
+newline$ -- 414
+num.names$ -- 256
+pop$ -- 645
 preamble$ -- 1
-purify$ -- 679
+purify$ -- 685
 quote$ -- 0
-skip$ -- 1121
+skip$ -- 1131
 stack$ -- 0
-substring$ -- 2252
-swap$ -- 290
+substring$ -- 2264
+swap$ -- 291
 text.length$ -- 31
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 496
-warning$ -- 22
-while$ -- 294
+type$ -- 502
+warning$ -- 24
+while$ -- 296
 width$ -- 0
-write$ -- 1044
+write$ -- 1059
 (There were 10 error messages)
