@@ -19,18 +19,18 @@
 \contentsline {section}{\numberline {2.3}Technological Practices in Disaster Response}{21}{section.2.3}
 \contentsline {subsection}{\numberline {2.3.1}GIS-enabled planning support systems}{22}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}ICT support for disaster response}{24}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Application of AI technologies}{26}{subsection.2.3.3}
+\contentsline {subsection}{\numberline {2.3.3}Application of AI technologies}{27}{subsection.2.3.3}
 \contentsline {subsection}{\numberline {2.3.4}Summary}{28}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}Relationship between Human and Technology Support}{28}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}A social-technical perspective to technology support}{29}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Automation and its impact on human performance}{30}{subsection.2.4.2}
-\contentsline {subsubsection}{\numberline {2.4.2.1}The Level of Automation}{32}{subsubsection.2.4.2.1}
-\contentsline {subsection}{\numberline {2.4.3}Human Agent Interactions}{33}{subsection.2.4.3}
-\contentsline {subsubsection}{\numberline {2.4.3.1}Interface Agents and Assistants}{34}{subsubsection.2.4.3.1}
-\contentsline {subsubsection}{\numberline {2.4.3.2}Adjustable Autonomy}{35}{subsubsection.2.4.3.2}
-\contentsline {subsubsection}{\numberline {2.4.3.3}Mixed Initiative Systems}{36}{subsubsection.2.4.3.3}
+\contentsline {section}{\numberline {2.4}Relationship between Human and Technology Support}{29}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}A social-technical perspective to technology support}{30}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Automation and its impact on human performance}{31}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}The Level of Automation}{33}{subsubsection.2.4.2.1}
+\contentsline {subsection}{\numberline {2.4.3}Human Agent Interactions}{34}{subsection.2.4.3}
+\contentsline {subsubsection}{\numberline {2.4.3.1}Interface Agents and Assistants}{35}{subsubsection.2.4.3.1}
+\contentsline {subsubsection}{\numberline {2.4.3.2}Adjustable Autonomy}{36}{subsubsection.2.4.3.2}
+\contentsline {subsubsection}{\numberline {2.4.3.3}Mixed Initiative Systems}{37}{subsubsection.2.4.3.3}
 \contentsline {subsection}{\numberline {2.4.4}Summary}{37}{subsection.2.4.4}
-\contentsline {section}{\numberline {2.5}Games for studing disaster response}{37}{section.2.5}
+\contentsline {section}{\numberline {2.5}Games for studing disaster response}{38}{section.2.5}
 \contentsline {subsection}{\numberline {2.5.1}Serious Game}{38}{subsection.2.5.1}
 \contentsline {subsection}{\numberline {2.5.2}Mixed Reality Games}{40}{subsection.2.5.2}
 \contentsline {section}{\numberline {2.6}Summary}{42}{section.2.6}

@@ -85,6 +85,11 @@ Costanza, E., Fischer, J., and Colley, J. (2014).
   energy system in the home}.
 \newblock {\em Proceedings of the \ldots}.
 
+\bibitem[Cova, 1999]{Cova1999}
+Cova, T. (1999).
+\newblock {GIS in emergency management}.
+\newblock {\em Geographical information systems}, (Rejeski 1993).
+
 \bibitem[Crabtree et~al., 2006]{Crabtree2006}
 Crabtree, A., Benford, S., Greenhalgh, C., Tennent, P., Chalmers, M., and
   Brown, B. (2006).
@@ -101,6 +106,14 @@ Crabtree, A., Tandavanitj, N., Steed, A., Benford, S., Rodden, T., Greenhalgh,
 \newblock In {\em Proceedings of the 2004 conference on Human factors in
   computing systems - CHI '04}, pages 391--398, New York, New York, USA. ACM
   Press.
+
+\bibitem[Dashti et~al., 2014]{Dashti2014}
+Dashti, S., Palen, L., Heris, M.~P., Kenneth, M., Anderson, S., and Anderson,
+  T.~J. (2014).
+\newblock {Supporting Disaster Reconnaissance with Social Media Data: A
+  Design-Oriented Case Study of the 2013 Colorado Floods}.
+\newblock {\em Information Systems for Crisis Response and Management (2014)},
+  (May).
 
 \bibitem[Dawes et~al., 2004]{Dawes2004}
 Dawes, S.~S., Schneider, C.~A., and Road, W. (2004).
@@ -207,6 +220,13 @@ Kaber, D. and Endsley, M. (1995).
   levels of automation for improved control system functioning and safety}.
 \newblock {\em Process Safety Progress}, 16(3).
 
+\bibitem[Kogan et~al., 2015]{Kogan2012}
+Kogan, M., Palen, L., and Anderson, K. (2015).
+\newblock {Think Local, Retweet Global: Retweeting by the
+  Geographically-Vulnerable during Hurricane Sandy}.
+\newblock {\em Computer-Supported Cooperative Work and Social Computing
+  (2015)}.
+
 \bibitem[Koleva et~al., 2001]{Koleva2001}
 Koleva, B., Adams, M., Taylor, I., Benford, S., Fraser, M., Greenhalgh, C.,
   Schn\"{a}delbach, H., vom Lehn, D., Heath, C., and Row-Farr, J. (2001).
@@ -277,6 +297,11 @@ Miller, H. (1999).
   Conference on Systems Sciences. 1999. HICSS-32. Abstracts and CD-ROM of Full
   Papers}, page~9. IEEE Comput. Soc.
 
+\bibitem[Morrow and Mock, 2011]{Morrow2011}
+Morrow, N. and Mock, N. (2011).
+\newblock {Independent evaluation of the Ushahidi Haiti project}.
+\newblock {\em Development Information Systems International 8 (2011)}.
+
 \bibitem[Niazkhani et~al., 2009]{Niazkhani2009}
 Niazkhani, Z., Pirnejad, H., Berg, M., and Aarts, J. (2009).
 \newblock {The impact of computerized provider order entry systems on inpatient
@@ -301,6 +326,13 @@ Palen, L. and Liu, S. (2007).
   ICT-supported public participation}.
 \newblock {\em Proceedings of the SIGCHI conference on Human \ldots}, pages
   727--736.
+
+\bibitem[Palen and Soden, 2015]{Palen2015}
+Palen, L. and Soden, R. (2015).
+\newblock {Success \& Scale in a Data-Producing Organization: The
+  Socio-Technical Evolution of OpenStreetMap in Response to Humanitarian
+  Events}.
+\newblock {\em Proceedings of the 33rd \ldots}, pages 4113--4122.
 
 \bibitem[Parasuraman and Manzey, 2010]{Parasuraman2010}
 Parasuraman, R. and Manzey, D. (2010).
@@ -391,6 +423,12 @@ Squire, K. and Jenkins, H. (2003).
 \newblock {Harnessing the power of games in education}.
 \newblock {\em Insight}, 3:5--33.
 
+\bibitem[Starbird and Palen, 2010]{Starbird2010}
+Starbird, K. and Palen, L. (2010).
+\newblock {Pass it on?: Retweeting in mass emergency}.
+\newblock In {\em Information Systems for Crisis Response and Management
+  (2010)}, number December 2004, pages 1--10.
+
 \bibitem[Sukthankar, 2012]{Sukthankara}
 Sukthankar, G. (2012).
 \newblock {Intelligent agents as teammates}.
@@ -399,6 +437,12 @@ Sukthankar, G. (2012).
 \bibitem[Susi et~al., 2007]{Susi2007}
 Susi, T., Johannesson, M., and Backlund, P. (2007).
 \newblock {Serious games: An overview}.
+
+\bibitem[Sutton et~al., 2008]{Sutton2008}
+Sutton, J., Palen, L., and Shklovski, I. (2008).
+\newblock {Backchannels on the front lines: Emergent uses of social media in
+  the 2007 southern California wildfires}.
+\newblock {\em Proceedings of the 5th International \ldots}, (May).
 
 \bibitem[Tolcher, 2005]{Tolcher2005}
 Tolcher, R. (2005).
