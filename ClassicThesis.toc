@@ -20,19 +20,19 @@
 \contentsline {subsection}{\numberline {2.3.1}GIS-enabled planning support systems}{22}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}ICT support for disaster response}{24}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Application of AI technologies}{27}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Summary}{31}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}Relationship between Human and Technology Support}{32}{section.2.4}
+\contentsline {subsection}{\numberline {2.3.4}Summary}{30}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Relationship between Human and Technology Support}{31}{section.2.4}
 \contentsline {subsection}{\numberline {2.4.1}A social-technical perspective to technology support}{32}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Automation and its impact on human performance}{34}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.2}Automation and its impact on human performance}{33}{subsection.2.4.2}
 \contentsline {subsubsection}{\numberline {2.4.2.1}The Level of Automation}{35}{subsubsection.2.4.2.1}
-\contentsline {subsection}{\numberline {2.4.3}Human Agent Interactions}{37}{subsection.2.4.3}
-\contentsline {subsubsection}{\numberline {2.4.3.1}Interface Agents and Assistants}{38}{subsubsection.2.4.3.1}
-\contentsline {subsubsection}{\numberline {2.4.3.2}Adjustable Autonomy}{39}{subsubsection.2.4.3.2}
+\contentsline {subsection}{\numberline {2.4.3}Human Agent Interactions}{36}{subsection.2.4.3}
+\contentsline {subsubsection}{\numberline {2.4.3.1}Interface Agents and Assistants}{37}{subsubsection.2.4.3.1}
+\contentsline {subsubsection}{\numberline {2.4.3.2}Adjustable Autonomy}{38}{subsubsection.2.4.3.2}
 \contentsline {subsubsection}{\numberline {2.4.3.3}Mixed Initiative Systems}{39}{subsubsection.2.4.3.3}
 \contentsline {subsection}{\numberline {2.4.4}Summary}{40}{subsection.2.4.4}
 \contentsline {section}{\numberline {2.5}Games for studing disaster response}{40}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Serious Game}{41}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Mixed Reality Games}{43}{subsection.2.5.2}
+\contentsline {subsection}{\numberline {2.5.1}Serious Game}{40}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Mixed Reality Games}{42}{subsection.2.5.2}
 \contentsline {section}{\numberline {2.6}Summary}{45}{section.2.6}
 \contentsline {part}{ii\hspace {1em}\spacedlowsmallcaps {Methodology and Approach}}{46}{part.2}
 \contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Approach}}{47}{chapter.3}

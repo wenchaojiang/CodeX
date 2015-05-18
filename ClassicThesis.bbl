@@ -18,6 +18,12 @@ Allen, J.~E., Guinn, C.~I., and Horvtz, E. (1999).
 \newblock {Mixed-initiative interaction}.
 \newblock {\em IEEE Intelligent Systems}, 14(5):14--23.
 
+\bibitem[Armenakis, 2012]{Armenakis2012}
+Armenakis, C. (2012).
+\newblock {Systems approach to management of disasters: methods and
+  applications}.
+\newblock {\em Natural Hazards}, 66(1):139--140.
+
 \bibitem[Benford et~al., 2006]{Benford2006}
 Benford, S., Crabtree, A., Flintham, M., Drozd, A., Anastasi, R., Paxton, M.,
   Tandavanitj, N., Adams, M., and Row-Farr, J. (2006).
@@ -126,10 +132,23 @@ Dawes, S.~S., Schneider, C.~A., and Road, W. (2004).
 \newblock {and Coordination : World Trade Center Response}.
 \newblock (June).
 
+\bibitem[Deconinck, 2013]{Hentenryck2011}
+Deconinck, S. (2013).
+\newblock {Computational Disaster Management}.
+\newblock In {\em 23rd international joint conference on Artificial
+  Intelligence. AAAI Press, 2013.}, pages 12--18.
+
 \bibitem[Dorais and Bonasso, 1999]{Doraisa}
 Dorais, G. and Bonasso, R. (1999).
 \newblock {Adjustable autonomy for human-centered autonomous systems}.
 \newblock {\em Working notes of the \ldots}.
+
+\bibitem[Drury et~al., 2009]{Drury2009}
+Drury, J., Cocking, C., and Reicher, S. (2009).
+\newblock {Everyone for themselves? A comparative study of crowd solidarity
+  among emergency survivors.}
+\newblock {\em The British journal of social psychology / the British
+  Psychological Society}, 48(Pt 3):487--506.
 
 \bibitem[Eglese and Pidd, 1994]{Eglese1994}
 Eglese, R.~W. and Pidd, M. (1994).
@@ -147,12 +166,6 @@ Ferguson, G., Allen, J., and Miller, B. (1996).
 \newblock In Drabble, B., editor, {\em Proceedings of the 3rd International
   Conference on Artificial Intelligence Planning Systems AIPS96}, pages 70--77.
   AAAI Press.
-
-\bibitem[Fiedrich et~al., 2000]{Fiedrich2000}
-Fiedrich, F., Gehbauer, F., and Rickers, U. (2000).
-\newblock {Optimized resource allocation for emergency response after
-  earthquake disasters}.
-\newblock {\em Safety Science}, 35(1-3):41--57.
 
 \bibitem[Fischer et~al., 2015]{Fischer2015}
 Fischer, J., Reeves, S., and Rodden, T. (2015).
@@ -233,6 +246,16 @@ Kaber, D. and Endsley, M. (1995).
   levels of automation for improved control system functioning and safety}.
 \newblock {\em Process Safety Progress}, 16(3).
 
+\bibitem[Kitano and Committee, 2000]{Kitano2000}
+Kitano, H. and Committee, R.-r.~T. (2000).
+\newblock {RoboCup Rescue : A Grand Challenge for Multi-Agent Systems}.
+
+\bibitem[Koes et~al., 2005]{Koes2005}
+Koes, M., Nourbakhsh, I., Sycara, K., and Koes, M. (2005).
+\newblock {Heterogeneous multirobot coordination with spatial and temporal
+  constraints}.
+\newblock {\em AAAI}.
+
 \bibitem[Kogan et~al., 2015]{Kogan2012}
 Kogan, M., Palen, L., and Anderson, K. (2015).
 \newblock {Think Local, Retweet Global: Retweeting by the
@@ -257,6 +280,11 @@ Kopena, J.~B., Sultanik, E.~a., Lass, R.~N., Nguyen, D.~N., Dugan, C.~J., Modi,
 Kozierok, R. and Maes, P. (1993).
 \newblock {A learning interface agent for scheduling meetings}.
 \newblock {\em Proceedings of the 1st international conference on \ldots}.
+
+\bibitem[Lagoudakis and Markakis, 2005]{Lagoudakis2005}
+Lagoudakis, M. and Markakis, E. (2005).
+\newblock {Auction-Based Multi-Robot Routing.}
+\newblock {\em Robotics: Science and Systems}, 5.
 
 \bibitem[Lieberman, 1997]{Lieberman1997}
 Lieberman, H. (1997).
@@ -376,6 +404,12 @@ Pettit, C., Shyy, T., and Stimson, R. (2003).
   planning scenarios}.
 \newblock In {\em Planning support systems in practice}, pages 331--347.
 
+\bibitem[Pillac et~al., 2015]{Pillac2015}
+Pillac, V., Cebrian, M., and {Van Hentenryck}, P. (2015).
+\newblock {A column-generation approach for joint mobilization and evacuation
+  planning}.
+\newblock {\em Constraints}, 20(3):285--303.
+
 \bibitem[Ramchurn et~al., 2015a]{Ramchurn2015}
 Ramchurn, S., Simpson, E., Fischer, J., and Huynh, T. (2015a).
 \newblock {HAC-ER: A disaster response system based on human-agent
@@ -407,8 +441,14 @@ Sarcevic, A., Palen, L., White, J., Starbird, K., Bagdouri, M., and Anderson,
 \newblock In {\em Proceedings of the ACM 2012 conference on Computer Supported
   Cooperative Work}, pages 47--56.
 
-\bibitem[Scerri et~al., 2005]{Scerri2005}
-Scerri, P., Farinelli, A., Okamoto, S., and Tambe, M. (2005).
+\bibitem[Scerri et~al., 2005a]{Scerri2005}
+Scerri, P., Farinelli, A., Okamoto, S., and Tambe, M. (2005a).
+\newblock {Allocating tasks in extreme teams}.
+\newblock {\em Proceedings of the fourth international joint conference on
+  Autonomous agents and multiagent systems - AAMAS '05}, page 727.
+
+\bibitem[Scerri et~al., 2005b]{Scerri2005a}
+Scerri, P., Farinelli, A., Okamoto, S., and Tambe, M. (2005b).
 \newblock {Allocating tasks in extreme teams}.
 \newblock {\em Proceedings of the fourth international joint conference on
   Autonomous agents and multiagent systems - AAMAS '05}, page 727.
@@ -430,6 +470,12 @@ Sharples, S., Millen, L., Golightly, D., and Balfe, N. (2011).
 Simpson, E., Roberts, S., Smith, A., and Lintott, C. (2011).
 \newblock {Bayesian combination of multiple, imperfect classifiers}.
 \newblock pages 1--8.
+
+\bibitem[Sobhaninejad et~al., 2011]{Sobhaninejad2011}
+Sobhaninejad, G., Hori, M., and Kabeyasawa, T. (2011).
+\newblock {Enhancing integrated earthquake simulation with high performance
+  computing}.
+\newblock {\em Advances in Engineering Software}, 42(5):286--292.
 
 \bibitem[Squire and Jenkins, 2003]{Squire2003}
 Squire, K. and Jenkins, H. (2003).
@@ -457,6 +503,11 @@ Sutton, J., Palen, L., and Shklovski, I. (2008).
   the 2007 southern California wildfires}.
 \newblock {\em Proceedings of the 5th International \ldots}, (May).
 
+\bibitem[Tang and Ren, 2012]{Tang2012}
+Tang, F. and Ren, A. (2012).
+\newblock {GIS-based 3D evacuation simulation for indoor fire}.
+\newblock {\em Building and Environment}, 49:193--202.
+
 \bibitem[Tolcher, 2005]{Tolcher2005}
 Tolcher, R. (2005).
 \newblock {\em {Ethnomethodological Studies of Conventional Software
@@ -467,6 +518,12 @@ Tolcher, R. (2005).
 Toups, Z.~O., Kerne, A., and Hamilton, W.~A. (2011).
 \newblock {The team coordination game}.
 \newblock {\em ACM Transactions on Computer-Human Interaction}, 18(4):1--37.
+
+\bibitem[Vickery et~al., 2009]{Vickery2009}
+Vickery, P.~J., Masters, F.~J., Powell, M.~D., and Wadhera, D. (2009).
+\newblock {Hurricane hazard modeling: The past, present, and future}.
+\newblock {\em Journal of Wind Engineering and Industrial Aerodynamics},
+  97(7-8):392--405.
 
 \bibitem[Vlassis, 2007]{Vlassis2007}
 Vlassis, N. (2007).
