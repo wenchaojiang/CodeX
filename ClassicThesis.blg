@@ -61,6 +61,7 @@ Repeated entry---line 1030 of file LR.bib
  :                            ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Ramchurn"
+Warning--I didn't find a database entry for "Provitolo2011"
 Warning--there's a number but no volume in Boersma2009
 Warning--empty booktitle in Bowers1994
 Warning--there's a number but no volume in Bradshaw2003
@@ -85,45 +86,45 @@ Warning--empty journal in Susi2007
 Warning--there's a number but no volume in Sutton2008
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 84 entries,
+You've used 85 entries,
             1935 wiz_defined-function locations,
-            1019 strings with 20766 characters,
-and the built_in function-call counts, 35557 in all, are:
-= -- 3504
-> -- 1569
+            1029 strings with 20964 characters,
+and the built_in function-call counts, 35968 in all, are:
+= -- 3545
+> -- 1587
 < -- 73
-+ -- 533
-- -- 532
-* -- 2941
-:= -- 6085
-add.period$ -- 251
-call.type$ -- 84
-change.case$ -- 684
-chr.to.int$ -- 83
-cite$ -- 108
-duplicate$ -- 1397
-empty$ -- 2332
-format.name$ -- 668
-if$ -- 7031
++ -- 539
+- -- 538
+* -- 2980
+:= -- 6157
+add.period$ -- 254
+call.type$ -- 85
+change.case$ -- 692
+chr.to.int$ -- 84
+cite$ -- 109
+duplicate$ -- 1411
+empty$ -- 2360
+format.name$ -- 675
+if$ -- 7109
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 81
-newline$ -- 414
-num.names$ -- 256
-pop$ -- 645
+missing$ -- 82
+newline$ -- 419
+num.names$ -- 259
+pop$ -- 651
 preamble$ -- 1
-purify$ -- 685
+purify$ -- 693
 quote$ -- 0
-skip$ -- 1131
+skip$ -- 1141
 stack$ -- 0
-substring$ -- 2264
-swap$ -- 291
+substring$ -- 2295
+swap$ -- 292
 text.length$ -- 31
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 502
+type$ -- 508
 warning$ -- 24
-while$ -- 296
+while$ -- 300
 width$ -- 0
-write$ -- 1059
+write$ -- 1072
 (There were 10 error messages)

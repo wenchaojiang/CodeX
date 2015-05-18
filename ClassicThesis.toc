@@ -20,129 +20,129 @@
 \contentsline {subsection}{\numberline {2.3.1}GIS-enabled planning support systems}{22}{subsection.2.3.1}
 \contentsline {subsection}{\numberline {2.3.2}ICT support for disaster response}{24}{subsection.2.3.2}
 \contentsline {subsection}{\numberline {2.3.3}Application of AI technologies}{27}{subsection.2.3.3}
-\contentsline {subsection}{\numberline {2.3.4}Summary}{29}{subsection.2.3.4}
-\contentsline {section}{\numberline {2.4}Relationship between Human and Technology Support}{30}{section.2.4}
-\contentsline {subsection}{\numberline {2.4.1}A social-technical perspective to technology support}{30}{subsection.2.4.1}
-\contentsline {subsection}{\numberline {2.4.2}Automation and its impact on human performance}{32}{subsection.2.4.2}
-\contentsline {subsubsection}{\numberline {2.4.2.1}The Level of Automation}{33}{subsubsection.2.4.2.1}
-\contentsline {subsection}{\numberline {2.4.3}Human Agent Interactions}{35}{subsection.2.4.3}
-\contentsline {subsubsection}{\numberline {2.4.3.1}Interface Agents and Assistants}{36}{subsubsection.2.4.3.1}
-\contentsline {subsubsection}{\numberline {2.4.3.2}Adjustable Autonomy}{37}{subsubsection.2.4.3.2}
-\contentsline {subsubsection}{\numberline {2.4.3.3}Mixed Initiative Systems}{37}{subsubsection.2.4.3.3}
-\contentsline {subsection}{\numberline {2.4.4}Summary}{38}{subsection.2.4.4}
-\contentsline {section}{\numberline {2.5}Games for studing disaster response}{38}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Serious Game}{39}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}Mixed Reality Games}{41}{subsection.2.5.2}
-\contentsline {section}{\numberline {2.6}Summary}{43}{section.2.6}
-\contentsline {part}{ii\hspace {1em}\spacedlowsmallcaps {Methodology and Approach}}{44}{part.2}
-\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Approach}}{45}{chapter.3}
-\contentsline {section}{\numberline {3.1}Socio-technical Perspective of technology support for organizational work}{46}{section.3.1}
-\contentsline {section}{\numberline {3.2}Serious Mixed Reality Game as a testbed}{48}{section.3.2}
-\contentsline {section}{\numberline {3.3}The AtomicOrchid Platform}{49}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Game Design Rationale}{50}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Iterative design and development}{53}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}System Architecture}{54}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}The planning agent}{55}{subsection.3.3.4}
-\contentsline {section}{\numberline {3.4}Explore interaction designs with three AtomicOrchid studies}{56}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}The On-the-loop interaction}{59}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}The In-the-loop interaction}{60}{subsection.3.4.2}
-\contentsline {subsection}{\numberline {3.4.3}The three AO game studies to explore socio-technical issue of human agent interaction}{61}{subsection.3.4.3}
-\contentsline {section}{\numberline {3.5}Collaboration with Professional Disaster Response Organisation}{61}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Introduction of Rescue Global}{62}{subsection.3.5.1}
-\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Methodology to Investigate Human Agent Interaction}}{64}{chapter.4}
-\contentsline {section}{\numberline {4.1}Ethnomethodological perspective}{64}{section.4.1}
-\contentsline {section}{\numberline {4.2}Interaction Analysis}{65}{section.4.2}
-\contentsline {section}{\numberline {4.3}Data collection and handling}{67}{section.4.3}
-\contentsline {subsection}{\numberline {4.3.1}Shadowing}{68}{subsection.4.3.1}
-\contentsline {subsection}{\numberline {4.3.2}Log Data Handling}{69}{subsection.4.3.2}
-\contentsline {subsection}{\numberline {4.3.3}Message classification}{70}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Group interview}{72}{subsection.4.3.4}
-\contentsline {section}{\numberline {4.4}Analytic Procedure}{73}{section.4.4}
-\contentsline {part}{iii\hspace {1em}\spacedlowsmallcaps {Studies}}{75}{part.3}
-\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {AtomicOrchid Study 1: Non agent version}}{76}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{76}{section.5.1}
-\contentsline {section}{\numberline {5.2}System Description}{78}{section.5.2}
-\contentsline {section}{\numberline {5.3}Study Design}{80}{section.5.3}
-\contentsline {section}{\numberline {5.4}Data analysis and results}{82}{section.5.4}
-\contentsline {subsection}{\numberline {5.4.1}Speech act analysis on text messages}{83}{subsection.5.4.1}
-\contentsline {subsubsection}{\numberline {5.4.1.1}Directives}{83}{subsubsection.5.4.1.1}
-\contentsline {subsubsection}{\numberline {5.4.1.2}Assertives}{84}{subsubsection.5.4.1.2}
-\contentsline {subsubsection}{\numberline {5.4.1.3}Commssives, expressives and declarations}{85}{subsubsection.5.4.1.3}
-\contentsline {subsubsection}{\numberline {5.4.1.4}Requests and Adjacency pairs}{85}{subsubsection.5.4.1.4}
-\contentsline {subsection}{\numberline {5.4.2}Responding to directives from HQ}{87}{subsection.5.4.2}
-\contentsline {subsection}{\numberline {5.4.3}Local coordination without HQ}{92}{subsection.5.4.3}
-\contentsline {subsection}{\numberline {5.4.4}Messages as a resource of situational awareness}{95}{subsection.5.4.4}
-\contentsline {section}{\numberline {5.5}Performance implications}{98}{section.5.5}
-\contentsline {subsection}{\numberline {5.5.1}Division of labour between HQ and Field Responders}{98}{subsection.5.5.1}
-\contentsline {subsection}{\numberline {5.5.2}Enhancing remote coordination}{99}{subsection.5.5.2}
-\contentsline {section}{\numberline {5.6}Design Requirements}{100}{section.5.6}
-\contentsline {section}{\numberline {5.7}Summary}{103}{section.5.7}
-\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {AtomicOrchid Study 2: Agent supported HuOL design}}{105}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{105}{section.6.1}
-\contentsline {section}{\numberline {6.2}System Evolution}{107}{section.6.2}
-\contentsline {subsection}{\numberline {6.2.1}The planning agent}{108}{subsection.6.2.1}
-\contentsline {subsection}{\numberline {6.2.2}A feedback loop}{109}{subsection.6.2.2}
-\contentsline {subsection}{\numberline {6.2.3}Interface improvement}{110}{subsection.6.2.3}
-\contentsline {section}{\numberline {6.3}Study Design}{110}{section.6.3}
-\contentsline {section}{\numberline {6.4}Data analysis and results}{111}{section.6.4}
-\contentsline {subsection}{\numberline {6.4.1}Task assignment}{112}{subsection.6.4.1}
-\contentsline {subsection}{\numberline {6.4.2}Team reformation}{114}{subsection.6.4.2}
-\contentsline {subsection}{\numberline {6.4.3}Task interruption}{117}{subsection.6.4.3}
-\contentsline {subsection}{\numberline {6.4.4}Disagreement on task interruption}{120}{subsection.6.4.4}
-\contentsline {subsection}{\numberline {6.4.5}The headquarters}{122}{subsection.6.4.5}
-\contentsline {section}{\numberline {6.5}Discussion}{123}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Division of labour between the agent and the human teams}{123}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Hidden costs of team reformation and task interruption}{124}{subsection.6.5.2}
-\contentsline {subsection}{\numberline {6.5.3}Feedback to the agent}{126}{subsection.6.5.3}
-\contentsline {section}{\numberline {6.6}Design implications}{127}{section.6.6}
-\contentsline {subsection}{\numberline {6.6.1}Achieve common ground}{127}{subsection.6.6.1}
-\contentsline {subsection}{\numberline {6.6.2}Facilitate accountability}{127}{subsection.6.6.2}
-\contentsline {subsection}{\numberline {6.6.3}Balance responsibilities between humans and agent}{128}{subsection.6.6.3}
-\contentsline {section}{\numberline {6.7}Summary}{128}{section.6.7}
-\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {AtomicOrchid Study 3: Agent-supported In-the-loop design}}{130}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{130}{section.7.1}
-\contentsline {section}{\numberline {7.2}System Evolution}{132}{section.7.2}
-\contentsline {subsection}{\numberline {7.2.1}Interface functionalities}{133}{subsection.7.2.1}
-\contentsline {subsection}{\numberline {7.2.2}The planning agent}{136}{subsection.7.2.2}
-\contentsline {section}{\numberline {7.3}Study Design}{136}{section.7.3}
-\contentsline {section}{\numberline {7.4}Data Analysis}{139}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Messaging system}{140}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Overview of task assignments}{141}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}Approve the plans generated by planner}{143}{subsection.7.4.3}
-\contentsline {subsection}{\numberline {7.4.4}Editing assignments generated by planner}{144}{subsection.7.4.4}
-\contentsline {subsection}{\numberline {7.4.5}Cancelling approved assignments}{146}{subsection.7.4.5}
-\contentsline {subsection}{\numberline {7.4.6}HQ avoiding task interruption}{147}{subsection.7.4.6}
-\contentsline {subsection}{\numberline {7.4.7}Consequence of task interruption}{148}{subsection.7.4.7}
-\contentsline {subsection}{\numberline {7.4.8}The consequence of missing player feedbacks}{151}{subsection.7.4.8}
-\contentsline {subsection}{\numberline {7.4.9}The incident of player death}{152}{subsection.7.4.9}
-\contentsline {subsection}{\numberline {7.4.10}Division of labour in HQ}{155}{subsection.7.4.10}
-\contentsline {section}{\numberline {7.5}Discussion}{156}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}How does In-the-loop design play out?}{156}{subsection.7.5.1}
-\contentsline {subsection}{\numberline {7.5.2}Dealing with the imperfection of agent planner}{160}{subsection.7.5.2}
-\contentsline {subsection}{\numberline {7.5.3}Lack of explanation from agent }{162}{subsection.7.5.3}
-\contentsline {subsection}{\numberline {7.5.4}Unsupported forward planning activities}{163}{subsection.7.5.4}
-\contentsline {subsection}{\numberline {7.5.5}Coordination with field Players}{164}{subsection.7.5.5}
-\contentsline {section}{\numberline {7.6}Design Implications}{167}{section.7.6}
-\contentsline {subsection}{\numberline {7.6.1}Establishing common ground}{167}{subsection.7.6.1}
-\contentsline {subsection}{\numberline {7.6.2}Balance responsibilities between human and agent}{168}{subsection.7.6.2}
-\contentsline {section}{\numberline {7.7}Professional feedbacks}{169}{section.7.7}
-\contentsline {subsection}{\numberline {7.7.1}The Rescue Global feedbacks}{170}{subsection.7.7.1}
-\contentsline {subsection}{\numberline {7.7.2}Conclusion}{174}{subsection.7.7.2}
-\contentsline {section}{\numberline {7.8}Summary}{175}{section.7.8}
-\contentsline {part}{iv\hspace {1em}\spacedlowsmallcaps {Conclusion}}{178}{part.4}
-\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Conclusion}}{179}{chapter.8}
-\contentsline {section}{\numberline {8.1}Summary of approach}{179}{section.8.1}
-\contentsline {section}{\numberline {8.2}Summary of findings}{179}{section.8.2}
-\contentsline {section}{\numberline {8.3}Summary of interface evolutions}{182}{section.8.3}
-\contentsline {section}{\numberline {8.4}Summary of soicio-techical issues}{186}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}Division of labour}{187}{subsection.8.4.1}
-\contentsline {subsection}{\numberline {8.4.2}Establishing Common Ground}{190}{subsection.8.4.2}
-\contentsline {subsection}{\numberline {8.4.3}Faciliating Accountability}{192}{subsection.8.4.3}
-\contentsline {section}{\numberline {8.5}Limitation}{193}{section.8.5}
-\contentsline {section}{\numberline {8.6}future work}{195}{section.8.6}
-\contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Appendix}}{198}{part.5}
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{199}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix Section Test}{199}{section.A.1}
-\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{200}{section.A.2}
+\contentsline {subsection}{\numberline {2.3.4}Summary}{31}{subsection.2.3.4}
+\contentsline {section}{\numberline {2.4}Relationship between Human and Technology Support}{31}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}A social-technical perspective to technology support}{32}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Automation and its impact on human performance}{33}{subsection.2.4.2}
+\contentsline {subsubsection}{\numberline {2.4.2.1}The Level of Automation}{35}{subsubsection.2.4.2.1}
+\contentsline {subsection}{\numberline {2.4.3}Human Agent Interactions}{36}{subsection.2.4.3}
+\contentsline {subsubsection}{\numberline {2.4.3.1}Interface Agents and Assistants}{37}{subsubsection.2.4.3.1}
+\contentsline {subsubsection}{\numberline {2.4.3.2}Adjustable Autonomy}{38}{subsubsection.2.4.3.2}
+\contentsline {subsubsection}{\numberline {2.4.3.3}Mixed Initiative Systems}{39}{subsubsection.2.4.3.3}
+\contentsline {subsection}{\numberline {2.4.4}Summary}{40}{subsection.2.4.4}
+\contentsline {section}{\numberline {2.5}Games for studing disaster response}{40}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Serious Game}{41}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Mixed Reality Games}{43}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}Summary}{45}{section.2.6}
+\contentsline {part}{ii\hspace {1em}\spacedlowsmallcaps {Methodology and Approach}}{46}{part.2}
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Approach}}{47}{chapter.3}
+\contentsline {section}{\numberline {3.1}Socio-technical Perspective of technology support for organizational work}{48}{section.3.1}
+\contentsline {section}{\numberline {3.2}Serious Mixed Reality Game as a testbed}{50}{section.3.2}
+\contentsline {section}{\numberline {3.3}The AtomicOrchid Platform}{51}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Game Design Rationale}{52}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Iterative design and development}{55}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}System Architecture}{56}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}The planning agent}{57}{subsection.3.3.4}
+\contentsline {section}{\numberline {3.4}Explore interaction designs with three AtomicOrchid studies}{58}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}The On-the-loop interaction}{61}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}The In-the-loop interaction}{62}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}The three AO game studies to explore socio-technical issue of human agent interaction}{63}{subsection.3.4.3}
+\contentsline {section}{\numberline {3.5}Collaboration with Professional Disaster Response Organisation}{63}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}Introduction of Rescue Global}{64}{subsection.3.5.1}
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Methodology to Investigate Human Agent Interaction}}{66}{chapter.4}
+\contentsline {section}{\numberline {4.1}Ethnomethodological perspective}{66}{section.4.1}
+\contentsline {section}{\numberline {4.2}Interaction Analysis}{67}{section.4.2}
+\contentsline {section}{\numberline {4.3}Data collection and handling}{69}{section.4.3}
+\contentsline {subsection}{\numberline {4.3.1}Shadowing}{70}{subsection.4.3.1}
+\contentsline {subsection}{\numberline {4.3.2}Log Data Handling}{71}{subsection.4.3.2}
+\contentsline {subsection}{\numberline {4.3.3}Message classification}{72}{subsection.4.3.3}
+\contentsline {subsection}{\numberline {4.3.4}Group interview}{74}{subsection.4.3.4}
+\contentsline {section}{\numberline {4.4}Analytic Procedure}{75}{section.4.4}
+\contentsline {part}{iii\hspace {1em}\spacedlowsmallcaps {Studies}}{77}{part.3}
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {AtomicOrchid Study 1: Non agent version}}{78}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{78}{section.5.1}
+\contentsline {section}{\numberline {5.2}System Description}{80}{section.5.2}
+\contentsline {section}{\numberline {5.3}Study Design}{82}{section.5.3}
+\contentsline {section}{\numberline {5.4}Data analysis and results}{84}{section.5.4}
+\contentsline {subsection}{\numberline {5.4.1}Speech act analysis on text messages}{85}{subsection.5.4.1}
+\contentsline {subsubsection}{\numberline {5.4.1.1}Directives}{85}{subsubsection.5.4.1.1}
+\contentsline {subsubsection}{\numberline {5.4.1.2}Assertives}{86}{subsubsection.5.4.1.2}
+\contentsline {subsubsection}{\numberline {5.4.1.3}Commssives, expressives and declarations}{87}{subsubsection.5.4.1.3}
+\contentsline {subsubsection}{\numberline {5.4.1.4}Requests and Adjacency pairs}{87}{subsubsection.5.4.1.4}
+\contentsline {subsection}{\numberline {5.4.2}Responding to directives from HQ}{89}{subsection.5.4.2}
+\contentsline {subsection}{\numberline {5.4.3}Local coordination without HQ}{94}{subsection.5.4.3}
+\contentsline {subsection}{\numberline {5.4.4}Messages as a resource of situational awareness}{97}{subsection.5.4.4}
+\contentsline {section}{\numberline {5.5}Performance implications}{100}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Division of labour between HQ and Field Responders}{100}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Enhancing remote coordination}{101}{subsection.5.5.2}
+\contentsline {section}{\numberline {5.6}Design Requirements}{102}{section.5.6}
+\contentsline {section}{\numberline {5.7}Summary}{105}{section.5.7}
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {AtomicOrchid Study 2: Agent supported HuOL design}}{107}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{107}{section.6.1}
+\contentsline {section}{\numberline {6.2}System Evolution}{109}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}The planning agent}{110}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}A feedback loop}{111}{subsection.6.2.2}
+\contentsline {subsection}{\numberline {6.2.3}Interface improvement}{112}{subsection.6.2.3}
+\contentsline {section}{\numberline {6.3}Study Design}{112}{section.6.3}
+\contentsline {section}{\numberline {6.4}Data analysis and results}{113}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Task assignment}{114}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Team reformation}{116}{subsection.6.4.2}
+\contentsline {subsection}{\numberline {6.4.3}Task interruption}{119}{subsection.6.4.3}
+\contentsline {subsection}{\numberline {6.4.4}Disagreement on task interruption}{122}{subsection.6.4.4}
+\contentsline {subsection}{\numberline {6.4.5}The headquarters}{124}{subsection.6.4.5}
+\contentsline {section}{\numberline {6.5}Discussion}{125}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Division of labour between the agent and the human teams}{125}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Hidden costs of team reformation and task interruption}{126}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.3}Feedback to the agent}{128}{subsection.6.5.3}
+\contentsline {section}{\numberline {6.6}Design implications}{129}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Achieve common ground}{129}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Facilitate accountability}{129}{subsection.6.6.2}
+\contentsline {subsection}{\numberline {6.6.3}Balance responsibilities between humans and agent}{130}{subsection.6.6.3}
+\contentsline {section}{\numberline {6.7}Summary}{130}{section.6.7}
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {AtomicOrchid Study 3: Agent-supported In-the-loop design}}{132}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{132}{section.7.1}
+\contentsline {section}{\numberline {7.2}System Evolution}{134}{section.7.2}
+\contentsline {subsection}{\numberline {7.2.1}Interface functionalities}{135}{subsection.7.2.1}
+\contentsline {subsection}{\numberline {7.2.2}The planning agent}{138}{subsection.7.2.2}
+\contentsline {section}{\numberline {7.3}Study Design}{138}{section.7.3}
+\contentsline {section}{\numberline {7.4}Data Analysis}{141}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Messaging system}{142}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Overview of task assignments}{143}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Approve the plans generated by planner}{145}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {7.4.4}Editing assignments generated by planner}{146}{subsection.7.4.4}
+\contentsline {subsection}{\numberline {7.4.5}Cancelling approved assignments}{148}{subsection.7.4.5}
+\contentsline {subsection}{\numberline {7.4.6}HQ avoiding task interruption}{149}{subsection.7.4.6}
+\contentsline {subsection}{\numberline {7.4.7}Consequence of task interruption}{150}{subsection.7.4.7}
+\contentsline {subsection}{\numberline {7.4.8}The consequence of missing player feedbacks}{153}{subsection.7.4.8}
+\contentsline {subsection}{\numberline {7.4.9}The incident of player death}{154}{subsection.7.4.9}
+\contentsline {subsection}{\numberline {7.4.10}Division of labour in HQ}{157}{subsection.7.4.10}
+\contentsline {section}{\numberline {7.5}Discussion}{158}{section.7.5}
+\contentsline {subsection}{\numberline {7.5.1}How does In-the-loop design play out?}{158}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.2}Dealing with the imperfection of agent planner}{162}{subsection.7.5.2}
+\contentsline {subsection}{\numberline {7.5.3}Lack of explanation from agent }{164}{subsection.7.5.3}
+\contentsline {subsection}{\numberline {7.5.4}Unsupported forward planning activities}{165}{subsection.7.5.4}
+\contentsline {subsection}{\numberline {7.5.5}Coordination with field Players}{166}{subsection.7.5.5}
+\contentsline {section}{\numberline {7.6}Design Implications}{169}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}Establishing common ground}{169}{subsection.7.6.1}
+\contentsline {subsection}{\numberline {7.6.2}Balance responsibilities between human and agent}{170}{subsection.7.6.2}
+\contentsline {section}{\numberline {7.7}Professional feedbacks}{171}{section.7.7}
+\contentsline {subsection}{\numberline {7.7.1}The Rescue Global feedbacks}{172}{subsection.7.7.1}
+\contentsline {subsection}{\numberline {7.7.2}Conclusion}{176}{subsection.7.7.2}
+\contentsline {section}{\numberline {7.8}Summary}{177}{section.7.8}
+\contentsline {part}{iv\hspace {1em}\spacedlowsmallcaps {Conclusion}}{180}{part.4}
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Conclusion}}{181}{chapter.8}
+\contentsline {section}{\numberline {8.1}Summary of approach}{181}{section.8.1}
+\contentsline {section}{\numberline {8.2}Summary of findings}{181}{section.8.2}
+\contentsline {section}{\numberline {8.3}Summary of interface evolutions}{184}{section.8.3}
+\contentsline {section}{\numberline {8.4}Summary of soicio-techical issues}{188}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Division of labour}{189}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Establishing Common Ground}{192}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.3}Faciliating Accountability}{194}{subsection.8.4.3}
+\contentsline {section}{\numberline {8.5}Limitation}{195}{section.8.5}
+\contentsline {section}{\numberline {8.6}future work}{197}{section.8.6}
+\contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Appendix}}{200}{part.5}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{201}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix Section Test}{201}{section.A.1}
+\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{202}{section.A.2}
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{201}{dummy.7}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{203}{dummy.7}
