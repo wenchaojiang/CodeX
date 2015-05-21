@@ -145,4 +145,4 @@
 \contentsline {section}{\numberline {A.1}Appendix Section Test}{201}{section.A.1}
 \contentsline {section}{\numberline {A.2}Another Appendix Section Test}{202}{section.A.2}
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{203}{dummy.7}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{203}{dummy.6}
