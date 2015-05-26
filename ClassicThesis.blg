@@ -67,8 +67,9 @@ Repeated entry---line 887 of file LR.bib
  : @article{Benford2005
  :                     ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Ramchurn"
 Warning--I didn't find a database entry for "Provitolo2011"
+Warning--I didn't find a database entry for "Wu2015"
+Warning--I didn't find a database entry for "Petrescuprahova2005"
 Warning--there's a number but no volume in Boersma2009
 Warning--empty booktitle in Bowers1994
 Warning--there's a number but no volume in Bradshaw2003
@@ -96,7 +97,7 @@ Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
 You've used 95 entries,
             1935 wiz_defined-function locations,
-            1086 strings with 22508 characters,
+            1088 strings with 22542 characters,
 and the built_in function-call counts, 39948 in all, are:
 = -- 3940
 > -- 1745
