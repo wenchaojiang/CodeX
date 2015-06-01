@@ -23,56 +23,54 @@ A level-1 auxiliary file: FrontBackmatter/Colophon.aux
 A level-1 auxiliary file: FrontBackmatter/Declaration.aux
 Database file #1: Bibliography.bib
 Database file #2: LR.bib
-Repeated entry---line 9 of file LR.bib
- : @inproceedings{Crabtree2004
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 95 of file LR.bib
- : @article{Fischer2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 194 of file LR.bib
- : @inproceedings{Sarcevic2012
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 224 of file LR.bib
- : @article{Armenakis2012
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 248 of file LR.bib
- : @article{Drury2009
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 316 of file LR.bib
- : @inproceedings{Flintham2003
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 442 of file LR.bib
- : @article{Toups2011
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 488 of file LR.bib
- : @article{Chen2005
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 537 of file LR.bib
- : @article{Crabtree2006
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 844 of file LR.bib
+Repeated entry---line 77 of file LR.bib
  : @incollection{Bradshaw2011
  :                           ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 887 of file LR.bib
+Repeated entry---line 133 of file LR.bib
  : @article{Benford2005
  :                     ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 250 of file LR.bib
+ : @article{Armenakis2012
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 316 of file LR.bib
+ : @article{Drury2009
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 372 of file LR.bib
+ : @article{Fischer2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 602 of file LR.bib
+ : @inproceedings{Crabtree2004
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 741 of file LR.bib
+ : @article{Crabtree2006
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 790 of file LR.bib
+ : @article{Toups2011
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 845 of file LR.bib
+ : @article{Chen2005
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 888 of file LR.bib
+ : @inproceedings{Flintham2003
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1026 of file LR.bib
+ : @inproceedings{Sarcevic2012
+ :                            ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Cova199"
-Warning--I didn't find a database entry for "Schooley2010"
 Warning--I didn't find a database entry for "Provitolo2011"
 Warning--I didn't find a database entry for "Wu2015"
 Warning--I didn't find a database entry for "Petrescuprahova2005"
-Warning--I didn't find a database entry for "Crabtree2012"
 Warning--there's a number but no volume in Boersma2009
 Warning--empty booktitle in Bowers1994
 Warning--there's a number but no volume in Bradshaw2003
@@ -91,51 +89,53 @@ Warning--empty journal in Meesters2013
 Warning--there's a number but no volume in Meesters2013
 Warning--empty publisher in Pettit2003
 Warning--empty journal in Ramchurn2015
+Warning--empty journal in Schooley2010
+Warning--there's a number but no volume in Schooley2010
 Warning--empty journal in Simpson
 Warning--there's a number but no series in Starbird2010
 Warning--empty journal in Susi2007
 Warning--there's a number but no volume in Sutton2008
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 94 entries,
+You've used 100 entries,
             1935 wiz_defined-function locations,
-            1088 strings with 22507 characters,
-and the built_in function-call counts, 39667 in all, are:
-= -- 3913
-> -- 1738
-< -- 79
-+ -- 590
-- -- 588
-* -- 3292
-:= -- 6791
-add.period$ -- 280
-call.type$ -- 94
-change.case$ -- 762
-chr.to.int$ -- 92
-cite$ -- 118
-duplicate$ -- 1553
-empty$ -- 2615
-format.name$ -- 740
-if$ -- 7836
+            1121 strings with 23539 characters,
+and the built_in function-call counts, 42045 in all, are:
+= -- 4140
+> -- 1854
+< -- 83
++ -- 630
+- -- 628
+* -- 3491
+:= -- 7210
+add.period$ -- 297
+call.type$ -- 100
+change.case$ -- 810
+chr.to.int$ -- 98
+cite$ -- 126
+duplicate$ -- 1642
+empty$ -- 2766
+format.name$ -- 788
+if$ -- 8294
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 91
-newline$ -- 463
-num.names$ -- 286
-pop$ -- 713
+missing$ -- 98
+newline$ -- 492
+num.names$ -- 304
+pop$ -- 764
 preamble$ -- 1
-purify$ -- 763
+purify$ -- 813
 quote$ -- 0
-skip$ -- 1252
+skip$ -- 1321
 stack$ -- 0
-substring$ -- 2564
-swap$ -- 314
-text.length$ -- 33
+substring$ -- 2703
+swap$ -- 327
+text.length$ -- 34
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 562
-warning$ -- 24
-while$ -- 332
+type$ -- 594
+warning$ -- 26
+while$ -- 351
 width$ -- 0
-write$ -- 1185
+write$ -- 1257
 (There were 12 error messages)

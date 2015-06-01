@@ -1,26 +1,26 @@
 %************************************************
 \chapter{AtomicOrchid Study 1: Non agent version}\label{ch:studyone} % $\mathbb{ZNR}$
 %************************************************
-In this study, we focus on investigating requirements for time critical distributed team support relevant for domains such as disaster response. In this Field responders of the AtomicOrchid game use smartphones to coordinate, via text messaging, GPS, and maps, with headquarters and each other. Interaction analysis is conducted to examine log data and field observations revealing local and remote coordination within the responder team. We generate design implications for HACs system to support team coordination and uncover requirements that highlight the role of local coordination, decision-making resources, geospatial referencing and message handling. \\
+In this study, we analyse team interactions in AtomicOrchid (AO) game setting which simulates time-critical distributed task environment in disaster operations. Field responders in the AtomicOrchid game use smartphones to coordinate, via text messaging, GPS, and maps, with headquarters(HQ) and each other. Interaction analysis is conducted to examine log data and field observations revealing local and remote coordination within the responder team. We generate design implications for HACs system to support team coordination and uncover requirements that highlight the role of local coordination, decision-making resources, geospatial referencing and message handling. \\
 
 
 \section{Introduction}
-Disaster response (DR) has been characterised as highly coordinated, time-critical collaborative activities  \cite{Mendonca2007}. Coordination is essential in such settings so that time critical interdependent activities such as search and rescue can be completed in a timely and satisfactory manner \cite{Bradshaw2011}. Opportunity space for building `intelligent' coordination support for  such activities has been recognised by the researchers of HACs systems (see chapter \ref{ch:introduction}). However, little study has explored the  design space for HAC systems to support time-critical coordination settings. Therefore, little is known about the challenges and requirements in building systems to support team coordination in such settings.\\
+Disaster response (DR) has been characterised as highly coordinated, time-critical collaborative activities  \cite{Mendonca2007}. Coordination is essential in such settings so that time critical interdependent activities such as search and rescue can be completed in a timely and satisfactory manner \cite{Bradshaw2011}. Opportunity space for building `intelligent' task planning support for  such activities has been recognised by the researchers of HACs systems (Section \ref{sec:lraisupport}). However, little study has explored the  design space for HAC systems to support time-critical coordination settings. Therefore, little is known about the challenges and requirements in building systems to support responder teams in such settings.\\
 
-Due to the critical nature of the disaster operations, it would be hard to design and deploy `intelligent' coordination in the field before we thoroughly explored the requirements of interaction design. On the other hand, computational simulation of an `intelligent' system is fundamentally insufficient for studying interactional issues (see section \ref{sec:interactional}). Therefore, in this study, we are aimed to use AtomicOrchid game as a game probe to uncover the requirements and design implication for building `intelligent' coordination support system. \\
+Due to the critical nature of the disaster operations, it is hard to design and deploy `intelligent' task planning support in the field before we thoroughly explored the requirements of interaction design. On the other hand, computational simulation of an `intelligent' system is fundamentally insufficient for studying socio-technical issues (Section \ref{sec:sociotech}). Therefore, in this study, we are aimed to use AtomicOrchid game as a research probe to uncover the requirements and design implication for building `intelligent' coordination support system. \\
 
-The AtomicOrchid game creates socio-technical setting in which player teams plan and executes spatially distributed tasks (see section \ref{sec:sociotech}). Although HACs researchers has envisioned that an intelligent agent can team coordination by providing computational optimised task allocations in real-time, we focus on a base version of AtomicOrchid which does not involve any agent support in study. The aim is to unpack how human teams coordinate in the time and space constrained task setting, establish baseline performance of human coordination in the game, generate design requirements and implications for HACs systems, which in turn, supports our later system prototyping and studies. \\
+The AtomicOrchid game creates socio-technical setting in which player teams plan and executes spatially distributed tasks (see section \ref{sec:sociotech}). Although HACs researchers has envisioned that an intelligent agent can support task planning by providing computational optimised task allocations in real-time, we focus on a base version of AtomicOrchid which does not involve any computational planning support. The primary objective is to unpack how human teams coordinate in the time and space constrained task setting through interaction analysis of behaviour data collected from field trials. In particular, the interaction analysis focuses on two aspects of coordination in AO, namely `remote' and `local'. The remote aspect is concerned about the coordination activities across distributed teams and remote HQ, which are typically mediated by computational systems. The local aspects is about coordination within co-located teams, in which face-to-face conversations plays a major role. Drawn on the result of interaction analysis, we are aimed to generate design requirements and implications for planning support agent as part of future HACs system.      \\
 
-This study is the first of three iterative system trials in this PhD work. The non-agent trial supports the two later (chapter \ref{ch:studytwo}, \ref{ch:studythree}) agent-supported system trials by 1) Revealing baseline performance of human coordination without agent support 2) Generate design requirements which feeds into subsequent prototyping of AtomicOrchid. The requirements are critical in that 1) the later studies can use them to recognize non-agent related design factors and 2) It also can inspire the interaction design between agent and responders in later system prototyping.  \\
+Additionally, this study also supports our later system prototyping and trials. As first of three iterative system trials in this PhD work, this non-agent trial supports the two later (chapter \ref{ch:studytwo}, \ref{ch:studythree}) agent-supported system trials by (1) Revealing baseline performance of human coordination without agent support (2) Generate design requirements which feeds into subsequent prototyping of AtomicOrchid. The requirements are critical in that (1) the later studies can use them to recognize non-agent related design factors and (2) It also can inspire the interaction design between agent and responders in later system prototyping.  \\
 
-In the following section, we will go through AtomicOrchid system description with a focus on interface and interaction design.\\
+In the following section, we will go through AtomicOrchid system description with a focus on interfaces and interaction design, which are specific to this study.\\
 
 \section{System Description}\label{sec:system1}
 % ===== how do I split this with Approach chapter
-Basic game mechanic and system architecture has been introduced in the chapter \ref{ch:approach}. This section will give a detailed description of the system interface that support coordination between the field responders and headquarters players. \\
+Basic game mechanic and system architecture has been introduced in the chapter \ref{ch:approach}. This section gives a detailed description of the system interface that support coordination between the field responders(FR) and headquarter(HQ) players. \\
 
 % the HQ interface 
-The HQ is manned by two coordinators. All of the coordinators are provided with a web-based coordination interface (see figure \ref{fig:HQinterface}). The interface gives them an overview of the game status and enable them to communicate with the field responders. \\
+The HQ is manned by two coordinators. All of the coordinators are provided with a web-based coordination interface (Figure \ref{fig:HQinterface}). The interface gives them an overview of the game status and enable them to communicate with the field responders. \\
 
 % insert image here.
 \begin{figure}[h]
@@ -30,7 +30,7 @@ The HQ is manned by two coordinators. All of the coordinators are provided with 
   \label{fig:HQinterface}
 \end{figure}
 
-As you can see in the figure \ref{fig:HQinterface}, the majority space of the interface is occupied by a map-based presentation of the game status. Roles and locations of field responders are represented on the map as icons. The field responders can be uniquely identified by their initials shown on the icons. The target types and locations are also shown as icons on the map. Location and intensity of radioactivity is indicated by a heatmap. Heath status (health value ranges from 0 to 100) of the field responders is displayed on the right-top panel. A chatbox is placed on right bottom for HQ to browse and send messages. The messaging system follows a broadcasting model. Everyone can send messages to one public channel, and the messages are visible to every play through the mobile and HQ interface.\\
+As you can see in the figure \ref{fig:HQinterface}, the majority space of the interface is occupied by a map-based presentation of the game status. Roles and locations of field responders are represented on the map as icons. The field responders can be uniquely identified by their initials shown on the icons. The target types and locations are also shown as icons on the map. Location and intensity of radioactivity is indicated by a heatmap. Health status (health value ranges from 0 to 100) of the field responders is displayed on the right-top panel. A chatbox is placed on right bottom for HQ to browse and send messages. The messaging system follows a broadcasting model. Everyone can send messages to one public channel, and the messages are visible to every play through the mobile and HQ interface.\\
 
 Field responders are equipped with a mobile responder app providing them with sensing and awareness capabilities (figure \ref{fig:mobileResponderApp}). There are two tabs in the responder apps. The "map" tab displays a map showing locations of field responders and targets, which is similar to the map on HQ interface, except that the radioactvity is not shown. The radio level of players' current location is displayed as a Geiger counter reading (shown as a number on the top left of the screen ), which ranges from 0 to 100. Health status of the field responder is indicated by a health bar on the right side of the Geiger counter. The chatbox (similar to the one on HQ interface) is placed on the "Messages" tab for field player to receive and send messages.\\
 
@@ -44,60 +44,84 @@ Field responders are equipped with a mobile responder app providing them with se
 \end{figure}
 
 % move this to the study 1 chapter. 
- The app shows a reading of radioactivity, their health level based on radioactive exposure, and a GPS-enabled map of the game area with the targets to be collected and the drop off zones for the targets. Icons according to responder roles that additionally have their initials on them can be used to identify individuals. Another tab reveals the messaging widget to broadcast messages to the other field responders, and to headquarters.\\
+ %The app shows a reading of radioactivity, their health level based on radioactive exposure, and a GPS-enabled map of the game area with the targets to be collected and the drop off zones for the targets. Icons according to responder roles that additionally have their initials on them can be used to identify individuals. Another tab reveals the messaging widget to broadcast messages to the other field responders, and to headquarters.\\
 
 
 
 \section{Study Design}
 % ====== checked from COOP, should be fine =======
-To explore socio-technical issues around team coordination, we ran two Radiation Response Game sessions, with volunteers recruited from the local university. We describe participants, procedure, session configuration, and methods used to collect and analyse quantitative and qualitative data.\\
+We ran two AtomicOrchid Game sessions, with volunteers recruited from the local university. We describe participants, procedure, session configuration, and methods used to collect and analyse quantitative and qualitative data.\\
 
-Study participants were recruited through posters and emails. A total of 18 participants were recruited (8 female); 7 participated in session A and 11 in session B. All participants were reimbursed with 15 pounds for 1.5 hours of study. The majority of participants were students of the local university. Procedure. Upon arrival in the HQ (set up in a meeting room at the local university), participants were briefed and asked to consent to participate. Roles were ran- domly assigned to all participants (HQ/field responders: firefighter, medic, trans- porter, soldier). Field responders were provided with a smartphone; HQ coordinators with a laptop. Game rules and interfaces were introduced, and partic- ipants were assisted in setting up their phones and laptop clients. Field responders and HQ coordinators were given 5 minutes to discuss a common game strategy. All field responders were accompanied to the starting point within the designated game area, about 1 minute walk from headquarters.\\
+Study participants were recruited through posters and emails. A total of 18 participants were recruited (8 female); 7 participated in session A and 11 in session B. All participants were reimbursed with 15 pounds for 1.5 hours of study. The majority of participants were students of the local university. Procedure. Upon arrival in the HQ (set up in a meeting room at the local university), participants were briefed and asked to consent to participate. Roles were randomly assigned to all participants (HQ/field responders: firefighter, medic, transporter, soldier). Field responders were provided with a smartphone; HQ coordinators with a laptop. Game rules and interfaces were introduced, and participants were assisted in setting up their phones and laptop clients. Field responders and HQ coordinators were given 5 minutes to discuss a common game strategy. All field responders were accompanied to the starting point within the designated game area, about 1 minute walk from headquarters.\\
 
-Once field responders were ready to start, HQ sent a ``game start'' message. Gameplay commenced for 30 minutes. A ``Game over'' message by HQ concluded the game. Field responders returned to HQ for the post-game session.The post-game session consisted of a questionnaire aimed at collecting participants` feedback on (1) first impressions of the game; (2) usability of the system,and; (3) coordination issues in the game. A group interview was then conducted, before participants were debriefed and dismissed.\\
+Once field responders were ready to start, HQ sent a ``game start'' message. Gameplay commenced for 30 minutes. A ``Game over'' message by HQ concluded the game. Field responders returned to HQ for the post-game session. The post-game session consisted of a questionnaire aimed at collecting participants` feedback on (1) first impressions of the game; (2) usability of the system,and; (3) coordination issues in the game. A group interview was then conducted, before participants were debriefed and dismissed.\\
 
 The size of the game area on the local university campus was 400 by 400 meters, without heavy traffic. The terrain of the game area includes grassland, a lake, buildings, roads, and footpaths and lawns. There are two drop off zones and 16 targets. The pilot study showed that this was a challenging, yet not too overwhelming number of targets to collect in a 30 min game session. There were four targets for each of the four target types. The pattern of cloud movement and expansion was the same for both game sessions.\\
 
-We took a mixed methods approach to data collection and analysis. In addition to quantitative questionnaires, a semi-structured group interview was conducted aimed at eliciting important decision points, strategies and the overall decision-making process. Furthermore, five researchers with camcorders recorded the game play. One researcher recorded action in the HQ, and four other researchers each recorded a field responder team.\\
+We took a mixed methods approach to data collection and analysis. Five researchers with camcorders recorded the game play. One researcher recorded action in the HQ, and four other researchers each recorded a field responder team. In addition to video recordings, a semi-structured group interview was conducted aimed at eliciting important decision points, strategies and the overall decision-making process. We also developed a log file replay tool to help with data analysis of time stamped system logs that contain a complete record of the game play, including responders` GPS location, their health status and radioactive exposure, messages, cloud location, locations of target objects and task status. 
 
-We developed a log file replay tool to help with data analysis of time stamped system logs that contain a complete record of the game play, including responders` GPS location, their health status and radioactive exposure, messages, cloud location, locations of target objects and task status.\\
+\textbf{Data handling} Firstly, the log data (including remote messages) are handled by a digital replay system to reconstruct game play that can be triangulated with video data to support interaction analysis (Section \ref{sec:aprloghandling}). Secondly, to give an overview of how remote messages are used as a coordination resource, we used speech-act theory and the notion of adjacency pairs in linguistics to classify messages sent between and among responders and HQ (Section \ref{sec:aprmsg}). According to speech act theory, utterances in dialogues can be considered as speech acts from three dimensions. We were primarily concerned with the illocutionary dimension of speech acts. Searle`s classification of illocutionary acts \cite{Searle1976} is used to categorize messages in the communication system.\\
 
-\textbf{Interaction analysis of local coordination} We focus on the analysis of local field responders` interaction to unpack team coordination, including handling of mes- sages sent by HQ. Video recordings of field action were catalogued to identify sequences (episodes) of interest (cf. Heath et al., 2010). Key decision points in team- ing and task allocation served to index the episodes. Interesting distinct units of interaction were transcribed and triangulated with log files of relevant game activity for deeper analysis that we present in this paper.\\
+\textbf{Interaction analysis} We focus on the analysis of local field responders` interaction to unpack team coordination, including handling of messages sent by HQ. Video recordings of field action were catalogued to identify sequences (episodes) of interest (cf. \cite{Heath2010}). Key decision points in teaming and task allocation served to index the episodes. Interesting distinct units of interaction were transcribed and triangulated with log files of relevant game activity for deeper analysis that we present in this paper.\\
 
-\textbf{Message classification} How are remote messages used as a coordination resource? We used speech-act theory and the notion of adjacency pairs in linguistics to classify messages sent between and among responders and HQ.According to speech act theory, utterances in dialogues can be considered as speech acts from three dimensions. We were primarily concerned with the illocutionary dimension of speech acts. Searle`s classification of illocutionary acts (Searle, 1975) is used to categorize messages in the communication system.\\
+
 
 
 \section{Data analysis and results}
-Here, we present findings from interaction analysis supported by message classification that reveal how team coordination was achieved. Results of the message classification will be presented first, followed by detailed analysis of episodes. 
+Here, we present findings from interaction analysis supported by message classification that reveal how team coordination was achieved. Overall, responders rescued 7 and 9 targets in session A and B respectively, out of 16 targets in total per session (Table \ref{tab:gameResults1}). Two players were incapacitated in session A, and 1 player was incapacitated in session B. 117 and 70 messages were sent in session A and B, respectively.\\
+
+\begin{table}[h]
+\footnotesize
+\begin{tabular}{llll}
+\multicolumn{1}{l|}{} & Saved targets & Incapacitated players & Remote messages \\ \hline
+\multicolumn{1}{l|}{Session A} & 7 (out of 16) & 2                    & 117             \\ 
+\multicolumn{1}{l|}{Session B} & 9 (out of 16) & 1                    & 70              \\ 
+\end{tabular}
+\caption{Overview of game results}
+\label{tab:gameResults1}
+\end{table}
+
+
+In what follows, results of the message classification will be presented first, followed by detailed analysis of episodes.\\
 
 % this is from COOP paper, need to adapt it for this writing 
 %{An overview shows that directives from HQ are frequently not brought up locally. A further episode demonstrates how field responders instead draw on technological and embodied resources to achieve local coordination, without HQ involve- ment. Finally, two more examples illustrate how responders routinely employ messages as a resource to support situational awareness.\\ %}
 
-\subsection{Speech act analysis on text messages}
-Overall, responders rescued 7 and 9 targets in session A and B respectively, out of 16 targets in total per session. Two players were incapacitated in session A, and 1 player was incapacitated in session B. 117 and 70 messages were sent in session A and B, respectively. We used Searle`s classification of speech acts to categorize messages (see table ref{fig:speachact}). We also add requests to the table to categorize all of the messages (Searle does not classify those as speech acts).\\
+\subsection{Results of message classification}
+We used Searle`s classification of speech acts to categorize messages (Table \ref{tab:speechact}).\\
 
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=1\textwidth]{img/study1/speechact}
-  \caption{Speech act classification}
-  \label{fig:speachact}
-\end{figure}
+\begin{table}[h]
+\footnotesize
+\begin{tabular}{lllllp{5cm}l}
+Speech acts  & \multicolumn{2}{l}{Session A} & \multicolumn{2}{l}{Session B} & \multicolumn{1}{c}{Example} & Total    \\ \hline
+             & HQ            & FR            & HQ            & FR            &                                                                            &          \\ \hline
+Directives   & 57            & 0             & 32            & 0             & JH pair p with BR to save animal in between TA centre and national college & 89(47)\% \\
+Assertives   & 25            & 2             & 8             & 4             &                                                                        The leak around geospatial is bigger & 39(20)\% \\
+Expressives  & 5             & 0             & 0             & 0             &                                                                           Good Job, JJ, TV and RL & 5(2\%)   \\
+Declarations & 3             & 0             & 0             & 0             &                                                                           NOTICE - TEAM B: NS + TD & 3(1.6\%) \\
+Commissives  & 0             & 4             & 0             & 4             &                                                                           ok got it & 8(4\%)   \\
+Requests     & 8             & 6             & 0             & 19            &                                                                           wheres the leak? & 34(18\%) \\
+Unclassified & \multicolumn{2}{c}{7}         & \multicolumn{2}{c}{2}         &                                                                            & 9(5\%)  
+\end{tabular}
+\caption{Speech act classification}
+\label{tab:speechact}
+\end{table}
 
 \subsubsection{Directives}
 
-Most messages in the category of directives are instructions sent by headquarter (HQ) players. The content of instructions can be related to two themes: task allocation and task execution. Therefore, we further categories the instructions into two categories: instructions for task allocation, and instructions for task execution. The purpose of task allocation instructions is to distribute plans to field teams and require them to execute it. Most instructions in this category follow a common pattern. Let`s take a look at the example below:\\
+Most messages in the category of directives are instructions sent by headquarter (HQ) players. The content of instructions can be related to two themes: task allocation and task execution. Therefore, we further categories the instructions into two categories: instructions for task allocation, and instructions for task execution. The purpose of task allocation instructions is to distribute plans to field teams and require them to execute it. Most instructions in this category follow a common pattern. Taking the following message as example:\\
 
 \begin{quote}
 \texttt{``HQ : JH1 pair up with BR to save animal inbetwen TA centre and national college''}\\
 \end{quote}
 
-The instruction sent from Headquarter consists of two parts: (1) Description of Team- ing (who are involved) (2) Description of Location (Targets) to go.It is worth mentioning that HQ players use different strategies when they try to de- scribe a location to field players. HQ players in session D frequently referred to land- mark on the map in their description, while HQ in session C used simple directions (north, west, south east). For example:\\
+The instruction sent from HQ consists of two parts: (1) Description of Teaming (who are involved) (2) Description of Location (Targets) to go.It is worth mentioning that HQ players use different strategies when they try to describe a location to field players. HQ players in session D frequently referred to landmark on the map in their description, while HQ in session C used simple directions (north, west, south east). For example:\\
 
 \begin{quote}
 \texttt{``HQ: TEAM A, can you head south to the radiation and animal targets? Instructions for task} execution''\\
 \end{quote}
 
-The purpose of task execution instructions is to help players execute their tasks after they have been assigned tasks. Most instructions in this category are related to radio- active cloud. To help field players avoid radioactive clouds, HQ players frequently send directions to field players or simply urge field players to move quicker. For example:
+The purpose of task execution instructions is to help players execute their tasks after they have been assigned tasks. Most instructions in this category are related to radioactive cloud. To help field players avoid radioactive clouds, HQ players frequently send directions to field players or simply urge field players to move quicker. For example:
 
 \begin{quote}
 \texttt{``TEAM B you need to be quick''} \\
@@ -105,7 +129,7 @@ The purpose of task execution instructions is to help players execute their task
 
 \subsubsection{Assertives}
 
-in this game, assertives provide plain information to recipients. Most assertives are sent by headquarter because they have access to critical information the cloud location. Followings are some examples of assertives:\\
+in this game, assertives provide plain information to recipients. Most assertives are sent by HQ because they have access to critical information - the cloud location. Followings are two examples of assertives:\\
 
 \begin{quote}
 \texttt{``the leak around nottingham geospatial is bigger''}\\
@@ -115,37 +139,41 @@ in this game, assertives provide plain information to recipients. Most assertive
 \texttt{``HQ:There's another leak by the lake!''}\\
 \end{quote}
 
-Interaction analysis shows that assertives are important for field players maintain situational awareness. We will talk more about this shortly in the section `` awareness''.\\
+Interaction analysis shows that assertives are important for field players maintain situational awareness. We will talk more about this shortly in the section \ref{sec:study1awareness}.\\
 
 \subsubsection{Commssives, expressives and declarations}
-We also identified a small number of commissives, expressives and declarations. Commissvies are field player`s response to an assertive or directive. It can be an acknowledgement of receiving a piece of information or commitment to execute a plan. (e.g. ``ok got it'', ``I am heading there'' ). Expressives and declarations are only found in session C. Expressives are typically HQ`s congratulations to field players. (e.g. ``HQ:Good Job, JJ, TV and RL'' ) In session C, HQ players sometimes declare field players to be in a team (e.g. ``NOTICE - TEAM B: NS + TD''). The declaration helps HQ to refer to a team easier.\\
+We also identified a small number of commissives, expressives and declarations. Commissvies are field player`s response to an assertive or directive. It can be an acknowledgement of receiving a piece of information or commitment to execute a plan. (e.g. ``ok got it'', ``I am heading there'' ). Expressives are typically HQ`s congratulations to field players. (e.g. ``HQ:Good Job, JJ, TV and RL'' ) In session C, HQ players sometimes declare field players to be in a team (e.g. ``NOTICE - TEAM B: NS + TD''). The declarations help HQ to refer to a team easier.\\
 
 \subsubsection{Requests and Adjacency pairs}
-In linguistics, adjacency pair is a term to describe conversational turn taking. The pairs can be question->answer, inform -> acknowledge, offer ->acceptance et al.For simplicity, we ignore the typology of adjacency pairs and treat all pairs as re- quest-> response. Any utterance that expects a response is considered as a request. We found a number of requests sent from Headquarters and field players (14 in session A and 20 in session B). Those requests can be related to a number of themes.\\
+In linguistics, adjacency pair is a term to describe conversational turn taking. The pairs can be question->answer, inform -> acknowledge, offer->acceptance et al. For simplicity, we ignore the typology of adjacency pairs and treat all pairs as request-> response. Any utterance that expects a response is considered as a request. We found a number of requests sent from HQ and field players (14 in session A and 20 in session B). Those requests can be related to a number of themes (Table \ref{tab:requestThemes}).\\
 
-Field players may send request for: \\
+\begin{table}[h]
+\footnotesize
+\begin{tabular}{l|ll}
+                    & \multicolumn{1}{c}{Themes} & \multicolumn{1}{c}{Example}   \\ \hline
+\multirow{3}{*}{FR} & Task assignment            & Anything for us to do?        \\
+                    & Teaming                    & Firefighter with me for fuel? \\
+                    & Cloud info                 & Wheres the leak?              \\ \hline
+\multirow{2}{*}{HQ} & Player status              & Firefighter who is free now?  \\
+                    & Acknowledgement request    & Firefighter, respond         
+\end{tabular}
+\caption{Themes of requests}
+\label{tab:requestThemes}
+\end{table}
 
-\begin{enumerate}
-\item Task assignment (e.g. ``anything for us to do'')
-\item Teaming (e.g. ``firefighter with me for fuel?'')
-\item Information about the cloud (e.g. ``wheres the leak?'')
-\end{enumerate}
+In comparison, only a small number of adjacency pairs are found in both sessions (8 in C and 8 in D), which means not all requests are responded. (Table \ref{tab:adjpairs})
 
-For headquarters:\\
 
-\begin{enumerate}
-\item They may ask idle players to respond (e.g. ``fighter who is free now?'')
-\item They may request for acknowledgement (e.g. ``HQ:firefighter, respond'' )
-\end{enumerate}
 
-In comparison, only a small number of adjacency pairs are found in both sessions (8 in C and 8 in D), which means not all requests are responded. (see figure \ref{fig:adjacencypairs})
-
-\begin{figure}[h]
-  \centering
-  \includegraphics[width=1\textwidth]{img/study1/adjpairs}
-  \caption{ Adjacency pairs}
-  \label{fig:adjacencypairs}
-\end{figure}
+\begin{table}[h]
+\begin{tabular}{l|p{3cm}p{3cm}p{3cm}}
+          & Total requests & HQ requests/ with no response & FR requests/ with no response \\ \hline
+Session A & 14                                 & 8/7                                               & 6/1                                                \\
+Session B & 20                                 & 1/0                                               & 19/14                                             
+\end{tabular}
+\caption{Adjacency pairs}
+\label{tab:adjpairs}
+\end{table}
 
 It is also worth mentioning that field players didn`t send acknowledgements to directives from headquarter. Although we do not classify directives as a request which expect an answer, the headquarter players express their frustration for not having response to their instructions. A HQ player said in the group interview:\\
 \begin{quote}
@@ -162,11 +190,12 @@ A field players also commented on the issue:\\
 \texttt{``Sometimes I check whether the radiation is close to us, but mostly the communication is between us (local team members)''}
 \end{quote}
 
+\subsubsection{Summary}
 
 \subsection{Responding to directives from HQ}
 % TODO introduce episode 2 in my part as a simple unproblematice case here!!
 
-We examine how field responders deal with messages from HQ that attempt to allocate tasks and manage task execution (i.e., directives). Classification of messages showed that directives were exclusively sent by HQ, and that they were the most frequent kind of message (see fig \ref{fig:speachact}). Directives index (attempted) instances of remote coordination of field responders by HQ. The observed response to messages is critical to understanding relation- ships between local and remote coordination. The following episode depicts a team of three on their way to pick up fuel. Their path is blocked by radiation. Without a team, firefighter JH (on the left) has just joined soldier KY (on the right), and firefighter D2 who have just been allocated a task in a message by HQ. (see figure \ref{fig:study1ep11})\\
+We examine how field responders deal with messages from HQ that attempt to allocate tasks and manage task execution (i.e., directives). Classification of messages showed that directives were exclusively sent by HQ, and that they were the most frequent kind of message (see fig \ref{fig:speachact}). Directives index (attempted) the instances of remote coordination of field responders by HQ. The observed response to messages is critical to understanding relationships between local and remote coordination. The following episode depicts a team of three on their way to pick up fuel. Their path is blocked by radiation. Without a team, firefighter JH (on the left) has just joined soldier KY (on the right), and firefighter D2 who have just been allocated a task in a message by HQ. (see figure \ref{fig:study1ep11})\\
 
 \begin{figure}[h]
   \centering
@@ -325,7 +354,7 @@ The two previous episodes show that how teaming and task allocation are achieved
 
 
 
-\subsection{Messages as a resource of situational awareness}
+\subsection{Messages as a resource of situational awareness} \label{sec:study1awareness}
 In the Radiation Response Game, field responders need to be aware of what other responders are doing, where the `danger zone' is (the cloud), and where it is likely to move. Awareness of each other`s actions helps responders avoid conflicts in planning, while awareness of the danger zone is essential to survive. The following episode illustrates how responders use messages as a resource to gain situational awareness.\\
 
 The episode takes place towards the end of game session B. The radioac- tive cloud has grown so much that navigation in the game area becomes increas- ingly difficult. MF is with a group of five responders, two of which are carrying an animal. The cloud is blocking their way towards the drop off zone; they stop.\\

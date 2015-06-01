@@ -1,5 +1,11 @@
 \begin{thebibliography}{}
 
+\bibitem[Abbasi and Kumar, 2012]{Abbasi2012}
+Abbasi, M. and Kumar, S. (2012).
+\newblock {Lessons learned in using social media for disaster relief-ASU crisis
+  response game}.
+\newblock {\em Social Computing, \ldots}, pages 282--289.
+
 \bibitem[Abbott and Sarin, 1994]{Abbott1994a}
 Abbott, K. and Sarin, S. (1994).
 \newblock {Experiences with workflow management: issues for the next
@@ -105,6 +111,11 @@ Crabtree, A., Benford, S., Greenhalgh, C., Tennent, P., Chalmers, M., and
 \newblock {\em Proceedings of the 6th ACM conference on Designing Interactive
   systems - DIS '06}, page~60.
 
+\bibitem[Crabtree et~al., 2012]{Crabtree2012}
+Crabtree, A., Rouncefield, M., and Tolmie, P. (2012).
+\newblock {\em {Doing Design Ethnolography}}.
+\newblock Springer.
+
 \bibitem[Crabtree et~al., 2004]{Crabtree2004}
 Crabtree, A., Tandavanitj, N., Steed, A., Benford, S., Rodden, T., Greenhalgh,
   C., Flintham, M., Anastasi, R., Drozd, A., Adams, M., and Row-Farr, J.
@@ -206,6 +217,11 @@ Hardin, B. and Goodrich, M.~A. (2009).
 \newblock {On Using Mixed-Initiative Control : A Perspective for Managing
   Large-Scale Robotic Teams}.
 
+\bibitem[Heath et~al., 2010]{Heath2010}
+Heath, C., Hindmarsh, J., and Luff, P. (2010).
+\newblock {\em {Video in Qualitative Research}}.
+\newblock Sage Publications Ltd.
+
 \bibitem[Heath and Luff, 1992]{Heath1992}
 Heath, C. and Luff, P. (1992).
 \newblock {Collaboration and controlCrisis management and multimedia technology
@@ -246,7 +262,7 @@ Kitano, H. and Committee, R.-r.~T. (2000).
 \newblock {RoboCup Rescue : A Grand Challenge for Multi-Agent Systems}.
 
 \bibitem[Koes et~al., 2005]{Koes2005}
-Koes, M., Nourbakhsh, I., Sycara, K., and Koes, M. (2005).
+Koes, M., Nourbakhsh, I., and Sycara, K. (2005).
 \newblock {Heterogeneous multirobot coordination with spatial and temporal
   constraints}.
 \newblock {\em AAAI}.
@@ -291,6 +307,12 @@ Lieberman, H. (1997).
 Lieberman, H. and Selker, T. (2003).
 \newblock {Agents for the user interface}.
 \newblock {\em Handbook of Agent Technology}, pages 1--21.
+
+\bibitem[Losh, 2007]{Losh2007}
+Losh, E. (2007).
+\newblock {The birth of the virtual clinic: the Virtual Terrorism Response
+  Academy as serious game and epistemological space}.
+\newblock {\em 2007 ACM SIGGRAPH symposium on Video games}, 1(212):73--81.
 
 \bibitem[Maes, 1994]{Maes1994}
 Maes, P. (1994).
@@ -420,7 +442,8 @@ Ramchurn, S.~D., Polukarov, M., Farinelli, A., Jennings, N., and Trong, C.
 Ramchurn, S.~D., Wu, F., Jiang, W., Fischer, J.~E., Reece, S., Roberts, S.,
   Rodden, T., Greenhalgh, C., and Jennings, N.~R. (2015b).
 \newblock {Human agent collaboration for disaster response}.
-\newblock {\em Autonomous Agents and Multi-Agent Systems}, pages 1--29.
+\newblock {\em Journal of Autonomous Agents and Multi-Agent Systems}, pages
+  1--29.
 
 \bibitem[Ropohl, 1999]{Ropohl1999}
 Ropohl, G. (1999).
@@ -448,12 +471,23 @@ Scerri, P., Farinelli, A., Okamoto, S., and Tambe, M. (2005b).
 \newblock {\em Proceedings of the fourth international joint conference on
   Autonomous agents and multiagent systems - AAMAS '05}, page 727.
 
+\bibitem[Schooley et~al., 2010]{Schooley2010}
+Schooley, B., Hilton, B., Lee, Y., Mcclintock, R., Olusola, S.-o., Horan, T.,
+  Schooley, B., Hilton, B., Lee, Y., Mcclintock, R., and Horan, T. (2010).
+\newblock {CrashHelp : A GIS Tool for Managing Emergency Medical Responses to
+  Motor Vehicle Crashes}.
+\newblock (May):1--11.
+
 \bibitem[Schwarz et~al., 2014]{Schwarz2014}
 Schwarz, M., St\"{u}ckler, J., and Behnke, S. (2014).
 \newblock {Mobile teleoperation interfaces with adjustable autonomy for
   personal service robots}.
 \newblock {\em Proceedings of the 2014 ACM/IEEE international conference on
   Human-robot interaction - HRI '14}, pages 288--289.
+
+\bibitem[Searle, 1976]{Searle1976}
+Searle, J.~R. (1976).
+\newblock {A classification of illocutionary acts}.
 
 \bibitem[Sharples et~al., 2011]{Sharples2011}
 Sharples, S., Millen, L., Golightly, D., and Balfe, N. (2011).
