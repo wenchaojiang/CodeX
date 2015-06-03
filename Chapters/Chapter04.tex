@@ -13,7 +13,10 @@ The AtomicOrchid game creates socio-technical setting in which player teams plan
 
 Additionally, this study also supports our later system prototyping and trials. As first of three iterative system trials in this PhD work, this non-agent trial supports the two later (chapter \ref{ch:studytwo}, \ref{ch:studythree}) agent-supported system trials by (1) Revealing baseline performance of human coordination without agent support (2) Generate design requirements which feeds into subsequent prototyping of AtomicOrchid. The requirements are critical in that (1) the later studies can use them to recognize non-agent related design factors and (2) It also can inspire the interaction design between agent and responders in later system prototyping.  \\
 
-In the following section, we will go through AtomicOrchid system description with a focus on interfaces and interaction design, which are specific to this study.\\
+%rephrase
+Findings from the study highlight the social processes in which members interpret, negotiate, and manage the agent guidance within the social dynamics of teams. We discuss the division of labour between humans and teams; the hidden costs of instructions that suggest team reformation and interrupt on-going tasks. We conclude the paper with a number of emerging interaction design recommendations to consider when building planning support systems for human teams, which emphasise the need for common ground between humans and the agent, facilitate accountability between team members, and balance responsibilities between humans and the planning agent appropriately.\\
+
+In what follows, we go through AtomicOrchid system description with a focus on interfaces and interaction design that are specific to this study. We then present result of interaction analysis, followed by a discussion of performance implications derived from the results, before we move to design requirements.  \\
 
 \section{System Description}\label{sec:system1}
 % ===== how do I split this with Approach chapter
@@ -88,7 +91,7 @@ In what follows, results of the message classification will be presented first, 
 %{An overview shows that directives from HQ are frequently not brought up locally. A further episode demonstrates how field responders instead draw on technological and embodied resources to achieve local coordination, without HQ involve- ment. Finally, two more examples illustrate how responders routinely employ messages as a resource to support situational awareness.\\ %}
 
 \subsection{Results of message classification}
-We used Searle`s classification of speech acts to categorize messages (Table \ref{tab:speechact}).\\
+We used Searle`s classification of speech acts to categorize messages (Table \ref{tab:speechact}). The table x shows that the majority of massages are directives and assertives sent by HQ. The majority of messages from field responders are requests for information, team and tasks. In what follows, we present utility and examples for each category of speech acts, which in turn, provide an overview of remote coordination that heavily relies on the messaging system. \\
 
 \begin{table}[h]
 \footnotesize
@@ -166,6 +169,7 @@ In comparison, only a small number of adjacency pairs are found in both sessions
 
 
 \begin{table}[h]
+\footnotesize
 \begin{tabular}{l|p{3cm}p{3cm}p{3cm}}
           & Total requests & HQ requests/ with no response & FR requests/ with no response \\ \hline
 Session A & 14                                 & 8/7                                               & 6/1                                                \\
@@ -191,11 +195,12 @@ A field players also commented on the issue:\\
 \end{quote}
 
 \subsubsection{Summary}
+To sum up, the majority of messages are assertives and directives from HQ. Directives are instructions sent by HQs as their attempts to guide/control task planning and execution of the team, while the assertives are mainly informational content about status of the danger zone (i.e. the cloud). Small number of commssives, expressives and declarations are also found in the messages. Both HQ and field responders send requests for various purpose (e.g. request for task, teammate, cloud status, confirmations). Based on analysis of adjacency pair, responses to the requests are poor, which align with the player's comments about their experience of using the message system.
 
 \subsection{Responding to directives from HQ}\label{sec:study1directives}
 % TODO introduce episode 2 in my part as a simple unproblematice case here!!
 
-We examine how field responders deal with messages from HQ that attempt to allocate tasks and manage task execution (i.e., directives). Classification of messages showed that directives were exclusively sent by HQ, and that they were the most frequent kind of message (Figure \ref{fig:speachact}). Overall, out of the 43 directives HQ sent for task allocation, the recipient field responders brought up only 15 messages in conversation in the team. The instances in which task allocation messages were addressed reveal the handling and value of HQ di- rectives in the local coordination. Firstly, out of the 15 task allocation messages responders talked about, they decided to ignore the instructions only once. The re- sponders ignored instructions because they were engaged in another task that they did not want to abandon. Secondly, four HQ instructions to rescue a certain target coincided with the same plan that had already been made locally by the respond- ers. In 10 cases, field responders chose to follow the instructions. However, due to confusion and misunderstanding they failed to follow them correctly six times. In fact, only 2 instances of directives from the HQ led to task completion. For the remaining 14 saved targets, field responders had locally allocated the tasks without HQ.\\
+We examine how field responders deal with messages from HQ that attempt to allocate tasks and manage task execution (i.e., directives). Classification of messages showed that directives were exclusively sent by HQ, and that they were the most frequent kind of message (Table \ref{tab:speechact}). Overall, out of the 43 directives HQ sent for task allocation, the recipient field responders brought up only 15 messages in conversation in the team. The instances in which task allocation messages were addressed reveal the handling and value of HQ directives in the local coordination. Firstly, out of the 15 task allocation messages responders talked about, they decided to ignore the instructions only once. The re- sponders ignored instructions because they were engaged in another task that they did not want to abandon. Secondly, four HQ instructions to rescue a certain target coincided with the same plan that had already been made locally by the respond- ers. In 10 cases, field responders chose to follow the instructions. However, due to confusion and misunderstanding they failed to follow them correctly six times. In fact, only 2 instances of directives from the HQ led to task completion. For the remaining 14 saved targets, field responders had locally allocated the tasks without HQ.\\
 
 % ===== insert the diagram from the JCSCW paper not COOP
 \begin{figure}[h]
@@ -215,7 +220,7 @@ Directives index (attempted) the instances of remote coordination of field respo
 \end{figure}
 
 
-\noindent \texttt{\textbf{Episode 1.1-1}\\
+\noindent \texttt{\textbf{Episode 1.1}\\
 \textbf{KY:} ((reading out message)) KY and D2, please walk fast to the junction and quickly return back ((laughs))\\
 \textbf{D2:} Oh is that what we have to do? Ok so we have to run to (2.0) We need to work out where we have to run to first and then get (.) get it back. Which junction is that? If you run to the next (0.5) thing ((points)), and then come back (1.0) that would work (1.0) is it safer to go around?\\
 }
@@ -386,10 +391,10 @@ Firstly, the HQ plays an important role in providing situational awareness to th
 
 The pattern of division of labour between field responders and HQ indicates the weak role of HQ in terms of task planning. The responder's choices of teams and targets seem to follow an ``ad-hoc'' manner as they heavily rely on face-to-face conversation , which can only happen when players are co-located. Despite some disruptions from communication channel (misunderstanding and confusions), field players always managed to find team-mates and avoid conflicts in their plans (e.g. pursuing the same target). [connect to situated planning by Lucy suchman]. However, the ``ad-hoc'' local coordination indicates the absence of the notion of resource optimisation, which is often the main concern of multi-agent coordination algorithm. In a sense, it opens opportunity for computational support, but it also highlights some potential challenges for such support system. \\
 
-Firstly, it would be problematic if globally optimised choices conflict with the ``ad-hoc'' choices that are obvious for human field responders. As we can not assume either the agent or human choice will be always correct, we need to carefully design the interaction between human and agent to ensure that they can collectively reach an informed decision. Secondly, there is a danger to impose an inappropriate ``work model'' (assumed by agent support) on the human team. For example, current division of labour between HQ and field responder suggest that HQ plays a supportive role (providing situational awareness). However, a centralized coordination algorithm may need to coordinate the whole team, requiring every players to follow top-down instructions to reach global optimum of resource allocation. In that case, the role of control room may need to change and it is unknown whether the change will disrupt or support natural human workflow.[.....] \\
+Firstly, it would be problematic if globally optimised choices conflict with the ``ad-hoc'' choices that are obvious for human field responders. As we can not assume either the agent or human choice will be always correct, we need to carefully design the interaction between human and agent to ensure that they can collectively reach an informed decision. Secondly, there is a danger to impose an inappropriate ``work model'' (assumed by agent support) on the human team. The studies of CSCW systems \cite{Bowers1994} raise a concern that the work model held by the technological system sometimes comes into tension with the natural human workflow achieved through methods internal to the work. For example, current division of labour between HQ and field responder suggest that HQ plays a supportive role (providing situational awareness). However, a centralized coordination algorithm may need to coordinate the whole team, requiring every players to follow top-down instructions to reach global optimum of resource allocation. In that case, the role of control room may need to change and it is unknown whether the change will disrupt or support human workflow.  \\
 
 \subsection{Breakdown of remote coordination}\label{sec:study1breakdown}
-To some extent, the heavy reliance on the local coordination can partly be a result of the lack of remote coordination support. In other words, local coordination is easier to achieve and can be seen as fallback of remote coordination. In a co-located setting, players can naturally make their actions observable and accountable to each other through conversations, body languages, gestures et al.[need to connect to data]  and organise coordination activities reflexively. However, in the remote setting, the natural accountability of their activities become opaque.\\
+To some extent, the heavy reliance on the local coordination can partly be a result of the lack of remote coordination support. In other words, local coordination is easier to achieve and can be seen as fallback of remote coordination. In a co-located setting, players can naturally make their actions observable and accountable to each other through conversations, body languages, gestures , screen sharing et al, and organise coordination activities reflexively. However, in the remote setting, the natural accountability of their activities become opaque.\\
 
 A set of functionalities including GPS/map sharing, broadcasting has been provided. We have observed players utilise the functionalities to make sense of other team members' actions (see section \ref{sec:s1localcoordination}) and act accordingly. However, coordination with remote players is still overall problematic which can be evidenced by frustrations related to remote communication (Section \ref{sec:study1directives}).\\
 
@@ -423,27 +428,32 @@ We presented the design and study of the AtomicOrchid ame as a mixed-reality gam
 Findings from interaction analysis of field observations, triangulated with log files, reveal how field responders achieved coordination by drawing on local face-to-face conversation with fellow responders, and situational information provided by the interactive map, the Geiger counter, and the messages sent by HQ. Drawing on these findings, we generated requirements for supporting team coordination, emphasising the roles of local coordination, decision-making resources, geospatial referencing and message handling. These requirements inform future work on building planning support system by emphasising the role of human interaction in team coordination in time-critical settings.\\
 
 %************************************************
-\chapter{AtomicOrchid Study 2: Agent supported HuOL design}\label{ch:studytwo} % $\mathbb{ZNR}$
+\chapter{AtomicOrchid Study 2: The Human On-the-loop Design}\label{ch:studytwo} % $\mathbb{ZNR}$
 %************************************************
-This chapter presents the second iteration of AtomicOrchid field trials. In this study, a planning agent is integrated into the system by following a HuOL interaction design, in which the HQ only monitor and occasionally intervene the planning agent. The purpose of the trials is to investigate socio-technical issues relating to integrating the planning agent to rescue team with the HuOL interaction design. Interaction analysis is conducted to examine log data and field observations unfolding how human agent interaction plays out, which in turn, revealing the process by which players interpret and negotiate the agent guidance as well as how these are intertwined with social dynamics of the teams.
+This chapter presents the second iteration of AtomicOrchid field trials. In this study, a planning agent is integrated into the system by following a Human On-the-loop interaction design, in which the HQs only monitor and occasionally intervene the planning agent. The purpose of the trials is to investigate socio-technical issues related to human agent interaction. Interaction analysis is conducted to examine log data and field observations unfolding how human agent interaction plays out, which in turn, revealing the process by which players interpret and negotiate the agent guidance as well as how these are intertwined with social dynamics of the teams.
 
 \section{Introduction}\label{sec:studytwointroduction}
-Task planning in teams can be complicated by both spatial and temporal constraints, particularly in time-critical task domains such as disaster response (DR). In a DR setting, responder teams have to coordinate sparse resources and personnel to prioritize geographically distributed tasks, forming and disbanding teams dynamically to carry out DR operations [4]. Multi-agent researcher has devised a number of agent coordination algorithm to coordinate task allocations for multi-agent systems, which create opportunity for computational planning support for DR teams. \\
+Task planning in teams can be complicated by both spatial and temporal constraints, particularly in time-critical task domains such as disaster response (DR). In a DR setting, responder teams have to coordinate sparse resources and personnel to prioritize geographically distributed tasks, forming and disbanding teams dynamically to carry out DR operations [4]. Multi-agent researchers have devised a number of agent coordination algorithm to coordinate task allocations for multi-agent systems, which can be adapted to support planning activities of DR teams. \\
 
-However, these algorithms typically model humans as computational agents with respective capabilities, for example to dynamically allocate teams of agents to tasks in order to maximise an objective (e.g., number of lives saved), taking into account other aspects of the real world (environment, infrastructures, victims, etc.) [14]. Therefore, the quality of the planning results can be constrained by limited assumptions of human behaviour (e.g., human psychosocial characteristics, movement, and learning ability)and real world environment [18]. These limitations highlight importance of human input in the planning process. Thus, we argue that effective collaboration between human and agent is required to produce and execute high quality plans in the disaster setting. (refer to background section?). \\
+However, these algorithms typically model humans as computational agents with respective capabilities, for example to dynamically allocate teams of agents to tasks in order to maximise an objective (e.g., number of lives saved), taking into account other aspects of the real world (environment, infrastructures, victims, etc.) [14]. Therefore, the quality of the planning results can be constrained by limited assumptions of human behaviour (e.g., human psychosocial characteristics, movement, and learning ability) and real world environment [18]. These limitations highlight importance of human input in the planning process. Thus, we argue that effective collaboration between human and agent is required to produce and execute high quality plans in the disaster setting. . \\
 
-In other to support effective Human agent collaboration, a number of interaction design strategies have been identified, including design patterns such as HuOL and HuIL (see section \ref{sec:interactional}). In this study, the planning agent is integrated into the AtomicOrchid system with a straightforward HuOL design pattern. This interaction design pattern assumes minimal Headquarter intervention and simple feedbacks from field responders are required by the agent to perform task planning. The interaction design is aimed to facilitate the division of labour between humans and agent: a planning agent routinely assigns tasks to distributed responder teams, while human coordinators (the HQ) monitor and support the task execution by responding to arising contingencies. The agent is designed in a way to take into account simple human feedback, i.e., a field responder can either reject or accept their task assignment. The agent will consider the feedback for the next iteration of task assignment.\\
+In order to support effective Human agent collaboration, two patterns of interaction design (Human On-the-loop and In-the-loop) are presented in section \ref{sec:patterns}. In this study, the planning agent is integrated into the AtomicOrchid system with a straightforward Human On-the-loop design (Figure \ref{fig:study2OnTheLoop}). This design assumes minimal Headquarter intervention, that is, the agent can directly interact with field responders to generate and implement plans without constant involvement of HQ. The interaction design is aimed to facilitate a pattern of division of labour, in which a planning agent routinely assigns tasks to distributed responder teams, while human coordinators (the HQ) monitor and support the task execution by responding to arising contingencies. The agent is designed in a way to take into account simple human feedback, i.e., a field responder can either reject or accept their task assignment. The agent will consider the feedback for the next iteration of task assignment.\\
 
-%insert figure
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.7\textwidth]{img/approach/OnTheLoop}
+  \caption{On-the-loop interaction design}
+  \label{fig:study2OnTheLoop}
+\end{figure}
 
-This study uses the agent integrated version of AtomicOrchid as a probe to unfold socio-technical issues in human-agent interaction, with focus on the implications of the HuOL design for human team performance. The implications for the interaction design are discussed that may improve team performance. More specifically, this chapter addresses the following research questions on how agent guidance affects the social organisation of team performance:\\
+This study uses the agent integrated version of AtomicOrchid as a probe to unfold socio-technical issues in human-agent interaction, with focus on the implications of the Human On-the-loop design on human team performance. More specifically, this chapter addresses the following research questions on how agent guidance affects the social organisation of team performance:\\
 
 \begin{enumerate}
 \item How do human teams respond to being instructed by an agent, particularly on switching teams and tasks?\\
 \item The planning agent makes decisions based on limited assumptions about human behaviour, but what are the hidden costs of human behaviour that the agent does not take into account?\\
 \end{enumerate}
 
-Findings from the study highlight the social processes in which members interpret, negotiate, and manage the agent guidance within the social dynamics of teams. We discuss the division of labour between humans and teams; the hidden costs of instructions that suggest team reformation and interrupt on-going tasks. We conclude the paper with a number of emerging interaction design recommendations to consider when building agent-based support systems for human teams, which emphasise the need for common ground between humans and the agent, facilitate accountability between team members, and balance responsibilities between humans and the planning agent appropriately.\\
+Findings from the study highlight the social processes in which members interpret, negotiate, and manage the agent guidance within the social dynamics of teams. We discuss the division of labour between humans and teams; the hidden costs of instructions that suggest team reformation and interrupt on-going tasks. We conclude the paper with a number of emerging interaction design recommendations to consider when building planning support systems for human teams, which emphasise the need for common ground between humans and the agent, facilitate accountability between team members, and balance responsibilities between humans and the planning agent appropriately.\\
 
 
 % ===== from CTS need adaptation =====
@@ -462,10 +472,22 @@ Findings from the study highlight the social processes in which members interpre
 %Findings from the study highlight the social processes in which members interpret, negotiate, and manage the agent guidance within the social dynamics of teams. We discuss the division of labour between humans and teams; the hidden costs of instructions that suggest team reformation and interrupt on-going tasks. We conclude the paper with a number of emerging interaction design recommendations to consider when building agent-based support systems for human teams, which emphasise the need for common ground between humans and the agent, facilitate accountability between team members, and balance responsibilities between humans and the planning agent appropriately. 
 
 \section{System Evolution}\label{sec:studytwosystem}
-Compared to study 1, the system has evolved to provide agent planning support through HuOL interaction pattern. This section will go through the changes of system, which includes integration of a planning agent, implementation of a quick feedback system, and improvement in both HQ and mobile interface.
+Compared to study 2 (Chapter \ref{ch:studyone}), the system has evolved to provide agent planning support with On-the-loop interaction pattern. This section gives a description of the changes of system, which cover integration of a planning agent, implementation of a quick feedback system, and improvement in both HQ and mobile interface.
 
 \subsection{The planning agent}\label{sec:studyoneagent}
-The major change of the system is the integration of a planning agent into the AtomicOrchid platform. The planning agent is developed by ORCHID research partner Wu Feng, Savapali Ramchun. The coordination problem (described in section \ref{sec:gamemechanic}) of the AtomicOrchid is modelled using a Multi-Agent Markov Decision Process (MMDP) that captures the uncertainties of task execution, extending earlier work [15].The modelling allows responder actions to be delayed or to fail during the rescue process. The MMDP modelling leads to a large search space, even with a small-sized problem. Hence, we devised an approximate solution to save computation time, which can be executed to support real time planning. The planning algorithm takes into account both time (cloud and human movement speed) and spatial (path planning for responders) constraints. The planning algorithm run by the planning agent produces high task allocations that minimise the travelling distance of first responders, and maximise the number of targets rescued. Before the agent was deployed to support human teams in the game setting, computational simulations were done by Wu Feng to benchmark our MMDP algorithm against greedy and myopic methods (see Table 1). The results confirm that our algorithm produces efficient task allocations.\\
+One major change of the system is the integration of a planning agent into the AtomicOrchid platform. The planning agent is developed by ORCHID research partner Wu Feng, Savapali Ramchun. The coordination problem (Section \ref{sec:gameRatinale}) of the AtomicOrchid is modelled using a Multi-Agent Markov Decision Process (MMDP) that captures the uncertainties of task execution, extending earlier work [15].The modelling allows responder actions to be delayed or to fail during the rescue process. The MMDP modelling leads to a large search space, even with a small-sized problem. Hence, we devised an approximate solution to save computation time, which can be executed to support real time planning \cite{Wu2015}. The planning algorithm takes into account both time (cloud and human movement speed) and spatial (path planning for responders) constraints. The planning algorithm run by the planning agent produces high quality task allocations that minimise the travelling distance of first responders, and maximise the number of targets rescued. Before the agent was deployed to support human teams in the game setting, computational simulations were done by Wu Feng to benchmark our MMDP algorithm against greedy and myopic methods (Table  \ref{tab:alg}). The results confirm that our algorithm produces efficient task allocations.\\
+
+\begin{table}[h]
+\footnotesize
+\centering
+\begin{tabular}{l|ccc}
+Metrics            & \multicolumn{1}{l}{MMDP} & \multicolumn{1}{l}{Myopic} & \multicolumn{1}{l}{Greedy} \\ \hline
+Task completed     & 71\%                     & 65\%                       & 41\%                       \\
+Responder survived & 100\%                    & 25\%                       & 0\%                       
+\end{tabular}
+\caption{Performance comparison of coordination algorithms}
+\label{tab:alg}
+\end{table}
 
 The agent is wrapped in a Java server framework and deployed on an independent server separate from AtomicOrchid. The agent server exposes a HTTP interface for AtomicOrchid to request plan. Each plan request issued by AtomicOrchid is appended with  updated game status, which includes players' health, distribution of radioactive cloud and locations of players, and targets. Based on the updated game status, the agent will produce an optimised task allocation and return it to AtomicOrchid. The plan requests are triggered frequently in game sessions so that the task allocation can be frequently adjusted according to task execution status. Plan requests (and thus re-planning) is triggered by two kinds of game events:\\
 
@@ -477,23 +499,51 @@ The agent is wrapped in a Java server framework and deployed on an independent s
 
 \end{enumerate}
 
+\subsection{A feedback loop}\label{sec:study2feedback}
+The feedback system is part of the On-the-loop interaction design, which enables the agent to take into account simple human feedback. It is also partly inspired by a requirement generated in the study 1, which highlights the importance quick acknowledgement from field responders. The feedback system can be seen as system mechanism for the field team to provide quick response to the planning agent. This section goes through the implementation details of the feedback loop.\\
 
-\subsection{A feedback loop}
-The feedback system is part of the HuOL interaction design, which enables the agent to take into account simple human feedback. It is also partly inspired by a requirement generated in the study 1, which highlights the importance quick acknowledgement from field responders. The feedback system can be seen as system level support for the field team to provide quick response to the HQ. This section will go through implementation details of the feedback loop.\\
+Once a plan is received from the agent, the AtomicOrchid game engine splits the plan for a given team into individual task allocations and sends these to each responder`s mobile app (Figure \ref{fig:handlingplans}). The app displays the task allocation in a pop-up and details it in the task tab, including: i) the responder to team up with, ii) the allocated target (using target id), and iii) the approximate direction of the target (e.g., north, east) (Figure \ref{fig:study2mobiletask}).\\
 
-Once a plan is received from the agent, the AtomicOrchid game engine splits the plan for a given team into individual task allocations and sends these to each responder s mobile app. The app displays the task allocation in a pop-up and details it in the task tab, including: i) the responder to team up with, ii) the allocated target (using target id), and iii) the approximate direction of the target (e.g., north, east).\\
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{img/study2/system/dealingwithplans}
+  \caption{Game engine handling plans from agent}
+  \label{fig:handlingplans}
+\end{figure}
 
-On receiving a instruction from agent, the field responder can choose to either reject or accept the instruction. In the case of rejection, new plan will be requested and the agent will consider the feedback for the next iteration of task assignment. More importantly, the rejected allocation is used as a constraint within the optimisation run by the planner agent. For example, if two responders (a medic and a soldier) were allocated a task and the solider rejected it, the planning agent would return a new task allocation with the constraint that this soldier should not be allocated this task. \\
+On receiving a instruction from agent, the field responder can choose to either reject or accept the instruction (Figure \ref{fig:study2mobiletask}). In the case of rejection, new plan will be requested and the agent will consider the feedback for the next iteration of task assignment. More importantly, the rejected allocation is used as a constraint within the optimisation run by the planner agent. For example, if two responders (a medic and a soldier) were allocated a task and the solider rejected it, the planning agent would return a new task allocation with the constraint that this soldier should not be allocated this task. The instructions sent to field responders is also displayed in the HQ interface for monitoring purpose. The task allocations are represented as yellow lines connecting players and their targets (Figure \ref{fig:study2mobiletask}). Only one task allocation is displayed at one time, HQ player can click on the `show' task button on player status panel (top right) to chose whose task to be shown.  \\
+
+\begin{figure}[h]
+  \centering
+  \fbox{\includegraphics[width=0.4\textwidth]{img/study2/system/mobiletask}}
+  \caption{Mobile task interface in study 2}
+  \label{fig:study2mobiletask}
+\end{figure}
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=1\textwidth]{img/study2/system/HQ}
+  \caption{HQ and mobile interfaces in study 2}
+  \label{fig:study2HQ}
+\end{figure}
+
 
 \subsection{Interface improvement}
-Apart from the integration and feedback system, two small modification of the interface is inspired by the requirements of coordination system generated in the previous section (See section \ref{sec:system1}). Firstly, all icons of targets are now marked by a unique target number for HQ and field responders to cross-reference. Secondly, all the messages are labelled by timestamps for players to identify outdated messages.\\
+Apart from the integration and feedback system, two small modification of the interface is inspired by the requirements of coordination system generated in the previous study (Section \ref{sec:study1requirements}). Firstly, all icons of targets are now marked by a unique target number for HQ and field responders to cross-reference. Secondly, all the messages are labelled by timestamps for players to help identify outdated messages (Figure \ref{fig:study2mobilemsg}).\\
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.4\textwidth]{img/study2/system/mobilemsg}
+  \caption{Mobile message interface in study 2}
+  \label{fig:study2mobilemsg}
+\end{figure}
 
 \section{Study Design}
-Study participants were recruited through posters and emails. A total of 18 participants were recruited for 2 sessions of Game play. For each session, there are 1 HQ player and 8 field players. There are 10 part. All participants were reimbursed with 15 pounds for 1.5 hours of study. The majority of participants were researchers and students of the local university.  Upon arrival in the HQ (set up in a meeting room at the local university), participants were briefed and asked to consent to participate. Roles were randomly assigned to all participants (HQ/field responders: firefighter, medic, transporter, soldier). Field responders were provided with a smartphone; HQ coordinators with a laptop. Game rules and interfaces were introduced, and participants were assisted in setting up their phones and laptop clients. Field responders and HQ coordinators were given 5 minutes to discuss a common game strategy. All field responders were accompanied to the starting point within the designated game area, about 1 minute walk from headquarters.\\
+Study participants were recruited through posters and emails. A total of 18 participants were recruited for 2 sessions of Game play. For each session, there are 1 HQ player and 8 field players. All participants were reimbursed with 15 pounds for 1.5 hours of study. The majority of participants were researchers and students of the local university.  Upon arrival in the HQ (set up in a meeting room at the local university), participants were briefed and asked to consent to participate. Field responders were randomly assigned to all participants (firefighter, medic, transporter, soldier). Roles of field responders were provided with a smartphone; HQ coordinators with a laptop. Game rules and interfaces were introduced, and participants were assisted in setting up their phones and laptop clients. Field responders and HQ coordinators were given 5 minutes to discuss a common game strategy. All field responders were accompanied to the starting point within the designated game area, about 1 minute walk from headquarters.\\
 
 Once field responders were ready to start, HQ sent a ``game start'' message. Gameplay commenced for 25 minutes. A ``Game over'' message by HQ concluded the game. Field responders returned to HQ for the post-game session. A group interview was then conducted after the game play, before participants were debriefed and dismissed.\\
 
-The size of the game area on the local university campus was 400 by 400 meters, without heavy traffic. The terrain of the game area includes grassland, a lake, buildings, roads, and footpaths and lawns. There are two drop off zones and 16 targets. The pilot study showed that this was a challenging, yet not too overwhelming number of targets to collect in a 30 min game session. There were four targets for each of the four target types. The pattern of cloud movement and expansion was the same for both game sessions.\\
+The size of the game area on the local university campus was 400 by 400 meters, without heavy traffic. The terrain of the game area includes grassland, a lake, buildings, roads, and footpaths and lawns. There are two drop off zones and 16 targets. The pilot study showed that this was a challenging, yet not too overwhelming number of targets to collect in a 25 min game session. There were four targets for each of the four target types. The pattern of cloud movement and expansion was the same for both game sessions.\\
 
 %In this study, we aimed to probe a straightforward [interaction design] between a planning support agent and human teams (Fig. 1). The interactional design is designed to facilitate the division of labour between humans and agent: a planning agent routinely assigns tasks to distributed responder teams, while human coordinators (the HQ) monitor and support the task execution by responding to arising contingencies. The agent is designed in a way to take into account simple human feedback, i.e., a field responder can either reject or accept their task assignment. The agent will consider the feedback for the next iteration of task assignment. \\
 
@@ -508,56 +558,74 @@ The size of the game area on the local university campus was 400 by 400 meters, 
 %HQ controls the HQ dashboard that provides an overview of the game area, including responders real-time locations (Fig. 2). The dashboard provides a broadcast messaging widget, and a player status widget so that the responders exposure and health levels can be monitored. HQ can further monitor the current team and task allocations to individual responders by the planning agent (by using buttons in the player status widget). Crucially, only HQ can see the radioactive cloud, graphically depicted as a heatmap. The rationale was to entice frequent communication between field responders and HQ.  \\
 
 \section{Data analysis and results}
+Here, we present findings from interaction analysis that reveal how team coordination was achieved. Overall, responders rescued 12 and 11 targets in session A and B respectively, out of 20 targets in total per session. No player was incapacitated in the two sessions. The planning agent sent a total of 51 instructions (Figure \ref{fig:study2agentInstructions}), 24 of which are accepted and 11 of them are rejected. The remaining 16 instructions does not receive complete response (at least one of the player did not reply). A total of 21 instructions are finished successfully, versus only 2 of the targets are saved without agent. The 19 instructions are unsuccessful, Some of which are ignored or violated by players and some of them are overridden by agent in the replanning process due to change of circumstance.\\
 
-This section presents episodes to reveal how teams accomplish the tasks in the rescue mission, particularly focusing on the social organisation of interaction with and around the agent instructions. In the following fragments, players can be uniquely identified by their initials. Targets are denoted by their unique numeric target id. Task assignments from the agent are represented as two initials and one target id connected by a rightward arrow. For example, the notation PC, CR -> 22 means player PC and CR are instructed to team up and go for target 22. A standard orthographic notation [8] is complemented by timestamps [0:00], and system messages from remote players and HQ.  
+\begin{table}[h]
+\footnotesize
+\begin{tabular}{llll}
+\multicolumn{1}{l|}{} & Saved targets & Incapacitated players & Average Health \\ \hline
+\multicolumn{1}{l|}{Session A} & 12 (out of 20) & 0                    & 80/100             \\ 
+\multicolumn{1}{l|}{Session B} & 11 (out of 20) & 0                    & 82/100             \\ 
+\end{tabular}
+\caption{Overview of game results}
+\label{tab:gameResults1}
+\end{table}
 
-\subsection{Task assignment}
+\begin{figure}[ht]
+ \includegraphics[width=1\textwidth]{img/study2/system/agentInstructions}
+\caption{Overview of agent instructions}
+\label{fig:study2agentInstructions}
+\end{figure}
+
+In what follows, we presents selected episodes of game play to reveal how teams accomplish the tasks in the rescue mission, particularly focusing on the social organisation of interaction with and around the agent instructions. The order in which we present the episodes follows the common practice of moving from exhibits of typical/unproblematic instances, via more complex/difficult instances, to exhibits that display problematic interaction or even complete breakdowns. In the episodes, players can be uniquely identified by their initials. Targets are denoted by their unique numeric target id. Task assignments from the agent are represented as two initials and one target id connected by a rightward arrow. For example, the notation PC, CR -> 22 means player PC and CR are instructed to team up and go for target 22. A standard orthographic notation [8] is complemented by timestamps [0:00], and system messages from remote players and HQ.  
+
+\subsection{Assigning task assignments to existing teams}
 The following episode depicts a team of two dropping off a target and planning the next step.\\
+
+\noindent\texttt{\textbf{Episode 2.1}\\
+\emph{[0:00] The team dropped off a target.}\\
+\textbf{PC:} I think we dropped off now. Ok. \\
+\emph{ [0:07] The team receives a new agent instruction: PC, CR -> 22}\\
+\textbf{PC:} I have a task now (3.0) ((studying screen)), I need to go with CR to 22. Are you CR? (Figure \ref{fig:study2ep11})\\
+\textbf{CR:} Yes.\\
+\textbf{PC:} go 22.\\
+\textbf{CR:} We have done 22.\\
+\textbf{PC:} Oh (1.0), no (2.0) 22 is there ((pointing to direction of 22)), Let`s go ((PC leads the way, they start walking to 22))\\
+\textbf{PC:} Right this way. (Figure \ref{fig:study2ep12})\\
+\emph{ [0:28] The team finishes the task assigned by the agent.}\\
+}
+
+\begin{figure}[ht]
+\centering
+ \includegraphics[width=0.7\textwidth]{img/study2/ep1/ep11}
+\caption{episode 2.1, CR (Left) and PC (Right) studying screen together after drop off.}
+\label{fig:study2ep11}
+\end{figure}
+
+\begin{figure}[ht]
+\centering
+ \includegraphics[width=0.7\textwidth]{img/study2/ep1/ep12}
+\caption{episode 2.1, PC (Right) leading the way to new target.}
+\label{fig:study2ep12}
+\end{figure}
 
 At the beginning of this episode, the team (PC, CR) drops off a target at a drop off zone. Player PC vocalises that they have finished the task (PC: I think we dropped off now. OK).  After about 7 seconds, PC says she received a new task allocation from the agent (PC: I have a task now). PC confirms the initials of the other player (CR), and suggests CR to join her to go for target 22. The action is consistent with the agent instruction (PC, CR -> 22), suggesting that PC has read through the instruction and decided to follow it. CR said that they have already finished target 22 (CR: We have done 22), which indicates he is confused about the current task allocation. PC resolves the confusion by pointing in the direction of 22 and repeating to go for it. Later, the team successfully drop off target 22 as instructed by the agent.\\
 
-
-
-\noindent\Mybox{\begin{minipage}[b]{\textwidth}
-\texttt{
-\textbf{KY:} ((yells)) OH OH! It`s a hundred! [refers to radiation level]\\
-\emph{ [0:00] The team dropped off a target.}\\
-\textbf{PC:} I think we dropped off now. Ok. \\
-\emph{ [0:07] The team receives a new agent instruction: PC, CR -> 22}\\
-\textbf{PC:} I have a task now (3.0) ((studying screen)), I need to go with CR to 22. Are you CR? \\
-\textbf{CR:} Yes.\\
-\textbf{PC:} go 22\\
-\textbf{CR:} We have done 22.\\
-\textbf{PC:} Oh (1.0), no (2.0) 22 is there ((pointing to direction of 22)), Let`s go ((PC leads the way, they start walking to 22))\\
-\textbf{PC:} Right this way.\\
-\emph{ [0:28] The team finishes the task assigned by the agent.}\\
-}
-\end{minipage}} 
-\hfill \break
-
-
-
-
 The episode shows how an agent instruction is brought up and followed by a team in relative straightforward manner. The instruction was delivered immediately after the drop off of a previous target (7 seconds after). PC successfully locates the new target in the instruction and leads the team to pick it up. Although CR is confused at first, PC manages to rectify CR mistake and they finish the task successfully. \\
 
-This episode is a typical case of task assignment to existing teams, i.e. the agent sent a new task to a team immediately after they finished their previous task. Out of a total of 51 agent instructions, 23 fall into this category. The rate of compliance is high for these cases of task assignment to existing teams (21 out of 23; 91%). \\
+This episode is a typical case of task assignment to existing teams, i.e. the agent sent a new task to a team immediately after they finished their previous task. Out of a total of 51 agent instructions, 23 fall into this category. The rate of compliance is high for these cases of task assignment to existing teams (21 out of 23; 91\%). \\
 
-\subsection{Team reformation}
-Unlike episode A, sometimes the agent instruction implies players need to disband and form new teams after finishing their previous task, in order to enact the computationally optimal plan. 10 out of 51 agent instructions fall into this category. The compliance rate of instructions that require reteaming (50 percent) is substantially lower than compliance of instructions where players can stay in the same teams (91 percent). The following episode depicts a typical case in which team reformation fails.\\
-
+\subsection{Task assignments involving team reformation}
+Unlike episode 2.1, sometimes the agent instruction implies players need to disband and form new teams after finishing their previous task, in order to enact the computationally optimal plan. 10 out of 51 agent instructions fall into this category (Table \ref{tab:compliancerate}). The compliance rate of instructions that require reteaming (50 percent) is substantially lower than compliance of instructions where players can stay in the same teams (91 percent). The following episode depicts a typical case in which team reformation fails.\\
 
 \begin{figure}[ht]
  \includegraphics[width=1\textwidth]{img/study2/ep2/ep21}
-\caption{Caption}
+\caption{episode 2.2, players from left to right: LT, SS, CR, PC. LT  walking around the team, her body orientation suggesting attempts to leave the group.}
 \label{fig:study2ep21}
 \end{figure}
 
-\hfill \break
-
-
-\noindent\Mybox{\begin{minipage}[b]{\textwidth}
-\texttt{
-\emph{ [0:00] After a target drop off, LT and SS joined PC and CR at drop off zone.} \\
+\noindent\texttt{\textbf{Episode 2.2}\\
+\emph{[0:00] After a target drop off, LT and SS joined PC and CR at drop off zone.} \\
 \emph{ [0:24] HQ sent message A: LT, if you think you have the stamina to run to 10 around the north of the lake do so now with a firefighter. }\\
 \emph{ [0:28] Agent instruction received:  NK, LT -> 16 }\\
 \textbf{LT:} They said ((reads out aloud HQ message A)) \\
@@ -580,43 +648,32 @@ Unlike episode A, sometimes the agent instruction implies players need to disban
 \textbf{LT:} ((turning back towards CR)) Yeah. \\
 \emph{CR and LT leave drop off zone together to find NW.}\\
 }
-\end{minipage}} 
-\hfill \break
 
-[0:00] After a target drop off, LT and SS joined PC and CR at drop off zone.
-[0:24] HQ sent message A: LT, if you think you have the stamina to run to 10 around the north of the lake do so now with a firefighter
-[0:28] Agent instruction received:  NK, LT -> 16 
-
-
-
-The episode begins with a recommendation by HQ to LT to go for 10 (message A). The message is topicalised by LT, but it is soon overridden by an agent instruction (NK, LT -> 16). When CR proposes to team up with LT to go for target 10, LT declined (LT: mine is 16). HQ then withdraws its previous suggestion to go for 10 in message B. Shortly after; a new instruction (NW, LT-> 15) prompts LT to read out the target number (15), but she fails to raise the other players attention. While other group members engaged in planning next steps, LT does not engage and keeps looking around. She can be seen turning and walking back and forth (Fig. 3). Perhaps LT is trying to locate the player NW who she had been instructed to team up with. LT does not take any action until prompted by CR (CR: are you LT? NW is looking for you). Then, LT begins to walk to find her teammate. However, when she finally manages to meet up with NW two minutes later, NW has already been assigned another task. \\
+The episode begins with a recommendation by HQ to LT to go for 10 (message A). The message is topicalised by LT, but it is soon overridden by an agent instruction (NK, LT -> 16). When CR proposes to team up with LT to go for target 10, LT declined (LT: mine is 16). HQ then withdraws its previous suggestion to go for 10 in message B. Shortly after; a new instruction (NW, LT-> 15) prompts LT to read out the target number (15), but she fails to raise the other players attention. While other group members engaged in planning next steps, LT does not engage and keeps looking around. She can be seen turning and walking back and forth (Figure \ref{fig:study2ep21}). Perhaps LT is trying to locate the player NW who she had been instructed to team up with. LT does not take any action until prompted by CR (CR: are you LT? NW is looking for you). Then, LT begins to walk to find her teammate. However, when she finally manages to meet up with NW two minutes later, NW has already been assigned another task. \\
 
 On one hand, LT seems to feel obliged to follow the agent instructions. She turns down other teaming invitations and appears to try to look for NW in her immediate vicinity, indicating difficulty with locating teammates out of sight (despite the real-time location map). On the other hand, her body orientation displays a sense of attachment to the existing group. Her indecisive walking and turning back and forth suggests she struggles to leave. She does not leave the group to follow the instructions until prompted by someone. When CR points out NW message, LT does not answer the message either. The episode illustrates a combination of interactional troubles as a result of which the reteaming fails: being attached to the local group, struggling to locate teammates out of sight, and failing to reciprocate messages. \\
 
-Further, we found the distance between instructed players to be a key factor in successful reteaming. That is to say, if instructed players are not within line of sight, the rate of non-compliance with the agent instruction is high. Take episode B as an example, player LT was instructed to team up with a distant player twice. Neither one of the instructions was successfully implemented. Overall, there were 17 agent instructions that implied teaming with distant players; only 1 of them were actually followed by players. Players explicitly rejected 11 of them by pressing the rejection button; the other 5 were not followed without an interface action.\\
+Further, we found the distance between instructed players to be a key factor in successful reteaming. That is to say, if instructed players are not within line of sight, the rate of non-compliance with the agent instruction is high. Take episode 2.2 as an example, player LT was instructed to team up with a distant player twice. Neither one of the instructions was successfully implemented. Overall, there were 17 agent instructions that implied teaming with distant players; only 1 of them were actually followed by players. Players explicitly rejected 11 of them by pressing the rejection button; the other 5 were not followed without an interface action (nether accept nor reject).\\
 
-\subsection{Task interruption}
+\subsection{Task assignments involving task interruption}
 In some other cases, the agent also sent new instructions to teams that had already commenced their task; that is, teams were interrupted by the new instructions. The following two episodes C and D describe how players handled task interruptions caused by the agent.\\
 
 \begin{figure}[ht]
 \centering
-\begin{minipage}[b]{0.45\linewidth}
-\includegraphics[width=1\textwidth]{img/study2/ep3/ep31}
-\caption{Caption}
+\includegraphics[width=0.5\textwidth]{img/study2/ep3/ep31}
+\caption{episode 2.3, AW (right) leads the way, heading to target 44 as instructed.}
 \label{fig:study2ep31}
-\end{minipage}
-\quad
-\begin{minipage}[b]{0.45\linewidth}
- \includegraphics[width=1\textwidth]{img/study2/ep3/ep32}
-\caption{Caption}
-\label{fig:study2ep32}
-\end{minipage}
 \end{figure}
 
-\hfill \break
+\begin{figure}[ht]
+\centering
+\includegraphics[width=0.5\textwidth]{img/study2/ep3/ep32}
+\caption{episode 2.3, After the team received an instruction to disband, AW (right) and HB (left) simultanously turn back and start walking back to the drop off zone, displaying bodily alignment.}
+\label{fig:study2ep32}
 
-\noindent\Mybox{\begin{minipage}[b]{\textwidth}
-\texttt{
+\end{figure}
+
+\noindent\texttt{\textbf{Episode 2.3}\\
 \emph{ [00:00] HB, AW at drop-off zone, new instruction received: AW, HB->44} \\
 \textbf{HB:} Alright, who is AW? \\
 \textbf{AW:} Me.\\
@@ -631,7 +688,7 @@ In some other cases, the agent also sent new instructions to teams that had alre
 \emph{AW and HB stopped walking.}\\
 \emph{[00:52] New instructions received: AW, KD -> 44, HB, AR->31}\\
 \textbf{AW:} I got a new instruction.\\
-\emph{[Fig. 5] AW and HB simultaneously turn and start walking back towards the drop off zone.}\\
+\emph{[Figure \ref{fig:study2ep31}] AW and HB simultaneously turn and start walking back towards the drop off zone.}\\
 \textbf{HB:} I need to team up with AR.\\
 \textbf{AW:} I need to team up with KD! Oh, it is 44 again.\\
 \emph{ [01:01] AW, HB arrived at drop off zone, met AR, KD.} \\
@@ -641,20 +698,17 @@ In some other cases, the agent also sent new instructions to teams that had alre
 \textbf{KD:} Alright. \\
 \emph{[01:14] AW, KD begin walking to 44, AR, HB team up as well.}\\
 }
-\end{minipage}} 
-\hfill \break
 
 
 
-This episode begins with an instruction (AW, HB -> 44) from the agent. At that moment, there were 5 players at the drop off zone (AR, KD, LC, HB, AW). Immediately after the instruction, HB starts looking for AW in the local group. Shortly after, AR and HB team up to go for 44 as instructed.  However, 13 seconds later the team is interrupted with a HQ message telling them not to go for 44 (Target 42 and 44 is not reachable). Four seconds later, a conflicting agent instruction was delivered, implying they disband the team (AW, KD -> 44, HB, AR->31) but still pursue the target 44. At first, AW stops walking and topicalises the instruction (AW: I got a new instruction), followed by both teammates simultaneously turning towards each other (Fig. 5). The bodily alignment in the action suggests agreement to follow the new instruction. On their way back to drop off zone, HB and AW confirm their intentions (HB: I need to team up with AR, AW: I need to team up with KD!). In this case, the teammates respond to the interruption by mutually agreeing to abandon the current team and task in favour of following the new assignment. \\
+This episode begins with an instruction (AW, HB -> 44) from the agent. At that moment, there were 5 players at the drop off zone (AR, KD, LC, HB, AW). Immediately after the instruction, HB starts looking for AW in the local group. Shortly after, AR and HB team up to go for 44 as instructed.  However, 13 seconds later the team is interrupted with a HQ message telling them not to go for 44 (Target 42 and 44 is not reachable). Four seconds later, a conflicting agent instruction was delivered, implying they disband the team (AW, KD -> 44, HB, AR->31) but still pursue the target 44. At first, AW stops walking and topicalises the instruction (AW: I got a new instruction), followed by both teammates simultaneously turning towards each other (Figure \ref{fig:study2ep31}, \ref{fig:study2ep32}). The bodily alignment in the action suggests agreement to follow the new instruction. On their way back to drop off zone, HB and AW confirm their intentions (HB: I need to team up with AR, AW: I need to team up with KD!). In this case, the teammates respond to the interruption by mutually agreeing to abandon the current team and task in favour of following the new assignment. \\
 
 It should be noted that the interruption was received only 17 seconds after the team commenced the task, probably contributing to a low perceived cost of abandoning the current task. Further, all players involved in the subsequent reteaming were not far away from each other. AW and HB had not walked too far from the drop off zone; so everyone was still within line of sight, further facilitating successful reformation. \\
 
 \subsection{Disagreement on task interruption}
 
-\noindent\Mybox{\begin{minipage}[b]{\textwidth}
-\texttt{
-\emph{[Following on from Episode C]}\\
+\noindent\texttt{\textbf{Episode 2.4}\\
+\emph{[Following on from Episode 2.3]}\\
 \emph{AW, KD on their way to target 44.}\\
 \emph{[01:39] New instruction received again, AW, HB -> 44, AR, KD ->31}\\
 \textbf{AW:} new instruction, HB and 44 again, haha.\\
@@ -673,23 +727,21 @@ It should be noted that the interruption was received only 17 seconds after the 
 \textbf{KD:} Ahh, I do not have a task. \\
 \emph{AW turns and walks towards LC again. KD follows.}\\
 }
-\end{minipage}} 
-\hfill \break
 
 
-In this fragment, we can observe disagreement and negotiation of team reformation. Following episode C, player AW disbands his team with HB and teams up with KD. However, 20 seconds after the reformation, AW is instructed to abandon the on-going task again. AW laughs, but turns back to find player HB again. Before AW sets off, KD disagrees with the new instruction and proposes to reject it (Ehh, have they gone? Because we can just decline and carry on). AW accepts KDs suggestion and turns back to KD.\\
+In this fragment, we can observe disagreement and negotiation of team reformation. Following episode 2.3, player AW disbands his team with HB and teams up with KD. However, 20 seconds after the reformation, AW is instructed to abandon the on-going task again. AW laughs, but turns back to find player HB again. Before AW sets off, KD disagrees with the new instruction and proposes to reject it (Ehh, have they gone? Because we can just decline and carry on). AW accepts KDs suggestion and turns back to KD.\\
 
 After the rejection, AW receives 2 consecutive reteaming instructions from the agent, finally teaming them up with LC, while KD does not receive another instruction. KDs question (Do they know we are already on the task?) suggests that he might think the agent is unaware of their situation, and that he disagrees with disbanding the existing team. In spite of KDs disagreement, AW declares his intention to follow the new instruction (got new instruction again, [team up with] LC) and he turns to find LC. However, KD ignores this (KD: Alright, Lets go to 46), indicating he does not agree with AWs intention to disband the team. AW interjects (I dont know, I got a new task with LC), and continues to walk towards LC, denying KD. As KD realizes he is without assignment (Ah, I do not have a task), he follows AW to find LC. \\
 
 In this episode, teammates agree to reject the first task assignments. We found task interruption could be a major reason to reject new instructions. 10 out of 11 rejected instructions are associated with task interruption. In an extreme case (not pictured), one team reached an agreement to ignore any agent instructions after the agent tried to interrupt the teams on-going task. \\
 
-In the end, the player that received the new instruction disagrees with his teammates suggestion to ignore the instruction and decides to leave the current team. The team is disbanded in disagreement, in contrast to episode C where both teammates agree to leave the team after both received new instructions at the same time. Here, the teammates spend a fair amount of time arguing whether to follow or ignore instructions, hinting at the hidden social cost of coalition formation algorithms when applied to human teams. \\
+In the end, the player that received the new instruction disagrees with his teammates suggestion to ignore the instruction and decides to leave the current team. The team is disbanded in disagreement, in contrast to episode 2.3 where both teammates agree to leave the team after both received new instructions at the same time. Here, the teammates spend a fair amount of time arguing whether to follow or ignore instructions, hinting at the hidden social cost of agent coordination algorithms when applied to human teams. \\
 
 Overall, the majority of new instructions that interrupted on-going tasks required team reformation. When tasks were interrupted, the rate of compliance (22 percent) is substantially lower than when teams were required to reform after a task was completed (50 percent). Task interruptions were also much more likely to lead to rejection of the new assignment. 10 out of 11 assignments that interrupted tasks were rejected.\\
 
 \subsection{The headquarters}
 
-HQ sent a total of 147 messages in the two sessions. We identified 50 assertives and 68 directives in two sessions through speech act analysis. The majority of assertives were focused on providing situational awareness and safe routing the responders to avoid exposing them to radiation. E.g. NK and JL approach drop off 6 by navigating via 10 and 09. Or Radiation cloud is at the east of the National College.\\
+HQ sent a total of 147 messages in the two sessions. We identified 50 assertives and 68 directives in two sessions through speech act analysis. The majority of assertives were focused on providing situational awareness and safe routing the responders to avoid exposing them to radiation. E.g. ``NK and JL approach drop off 6 by navigating via 10 and 09.'' Or ``Radiation cloud is at the east of the National College.''\\
 
 16 out of 68 directives were directly related to task allocations and teaming, which is substantially less then the number of agent instructions (51). Among the 16 directives, HQ sent 11 direct instructions to the field players (e.g. SS and LT retrieve 09), while the remaining 5 are related to forward planning, (e.g., DP and SS, as soon as you can head to 20 before the radiation cloud gets there first). 6 of the HQ instructions are consistent with agent instruction, while 5 other HQ instructions override the agent instructions. It is worth mentioning that field players implemented only 5 out of 16 HQ instructions. In the interview, HQ reported that they felt they supported the agent rather than take control. 
 
@@ -697,34 +749,47 @@ HQ sent a total of 147 messages in the two sessions. We identified 50 assertives
 In the previous sections, we described how the agent guidance is interleaved with the social interaction, in which teammates organise the task planning and execution. We found that while the agent supported division of labour, the agent guidance had various social implications. We now reflect on (A) how division of labour is achieved; (B) the social implications and hidden cost incurred by team reformation and task interruption; and (C) the limited feedback mechanism. \\
 
 \subsection{Division of labour between the agent and the human teams}
-Overall, players followed 30 out of 51 agent instructions, out of which 21 tasks were completed according to the instruction (success rate of 70 percent). Only 2 targets were evacuated without agent instruction, which indicates that, to a large extent, the agent successfully supported routine task planning activities. Episode A demonstrates a typical case of division of labour: the agent handles planning of teaming and task assignment, freeing the team to focus on navigational issues (identifying the target on the interactive map and finding directions). The following of agent instructions speaks of players trust in the agents decisions. In the 30 cases where instructions were followed, we can observe similar patterns of labour division.\\
+Overall, players followed 30 out of 51 agent instructions, out of which 21 tasks were completed according to the instruction (success rate of 70 percent). Only 2 targets were evacuated without agent instruction (Figure \ref{fig:study2agentInstructions}), which indicates that, to a large extent, the agent successfully supported routine task planning activities. Episode A demonstrates a typical case of division of labour: the agent handles planning of teaming and task assignment, freeing the team to focus on other issues such as navigation (identifying the target on the interactive map and finding directions) and organising team meet up. The following of agent instructions speaks of players trust in the agents decisions. In the 30 cases where instructions were followed, we can observe similar patterns of labour division.\\
 
 
 The distribution of HQ messages may also indicate a division of labour between HQ and the agent. Only a small proportion (16 out of 147) is directly related to task assignment, indicating routine task allocations were delegated to the agent. A relatively large proportion (118 out of 147) of messages are used to provide situational awareness and safety routing the responders to avoid radiation exposure. However, the fact that only 5 (out of 16) HQ instructions are implemented suggests that HQ was unable to effectively override the agent when they wanted to. This fact highlights that the planning agent plays a strong role in the control loop, compared to the human coordinators in the HQ. The planning agent can directly instruct field responders without consent of the HQ, and the HQ does not have an effective way of overriding the agents decision. \\
 
 \subsection{Hidden costs of team reformation and task interruption}
-While team compliance rate with agent instructions was high when no reteaming was required (91 percent), we found that the rate of compliance with agent instructions is much lower when team reformation is involved (50 percent), and even lower when in addition an on-going task is interrupted (22 percent) (see Table 2). Our interaction analysis shows the ways in which team reformation and task interruption are associated with hidden costs in the social organisation of team performance.  \\
+While team compliance rate with agent instructions was high when no reteaming was required (91 percent), we found that the rate of compliance with agent instructions is much lower when team reformation is involved (50 percent), and even lower when in addition an on-going task is interrupted (22 percent) (Table \ref{tab:compliancerate}). Our interaction analysis shows the ways in which team reformation and task interruption are associated with hidden costs in the social organisation of team performance.  \\
 
-Firstly, we found that team disbanding can be difficult. Players have to make their actions accountable to gracefully disengage from an existing team to avoid breaching social norms (e.g., politeness). Members have displayed a sense of attachment to a local group (section V.B), which delayed the task substantially until the team reformation failed. Despite interrupting an on-going task, new instructions for both teammates can facilitate smooth, mutually agreed disbanding (V.C), while instructions for only one member have coincided with interactional trouble, disagreement and delays (V.D). \\
+\begin{table}[h]
+\footnotesize
+\begin{tabular}{l|ccc}
+Context                   & \multicolumn{1}{l}{Instructions} & \multicolumn{1}{l}{Followed by FR} & \multicolumn{1}{l}{Compliance rate} \\ \hline
+Instructing existing team & 23                               & 21                                 & 91\%                                \\
+Require team reformation  & 10                               & 5                                  & 50\%                                \\
+Interrupting tasks        & 18                               & 4                                  & 22\%                                \\
+Total                     & 51                               & 30                                 & 59\%                               
+\end{tabular}
+\caption{Compliance with agent instructions by context}
+\label{tab:compliancerate}
+\end{table}
 
-Secondly, the impact of attachment between co-located teammates was further amplified by distance between proposed teammates. While they frequently accounted for actions with co-located players, they did not make their actions equally accountable to remote team members. For example in episode D, the agent interrupted the local teams task and instructed them to team up with distant players. The co-located team decided to reject the instruction without contacting the potential teammates they rejected. The system lacked support of accountability between remote members. \\
+Firstly, we found that team disbanding can be difficult. Players have to make their actions accountable to gracefully disengage from an existing team to avoid breaching social norms (e.g., politeness). Members have displayed a sense of attachment to a local group (episode 2.2), which delayed the task substantially until the team reformation failed. Despite interrupting an on-going task, new instructions for both teammates can facilitate smooth, mutually agreed disbanding (Episode 2.3), while instructions for only one member have coincided with interactional trouble, disagreement and delays (episode 2.4). \\
 
-A further observation is that players were unwilling to give up on-going tasks after a certain time. In episode D, the teammates first agree to ignore new instructions. This preference to stick with on-going tasks may also explain the high rejection rate for instructions involving task interruptions. \\
+Secondly, the impact of attachment between co-located teammates was further amplified by distance between proposed teammates. While they frequently accounted for actions with co-located players, they did not make their actions equally accountable to remote team members. For example in episode 2.4, the agent interrupted the local teams task and instructed them to team up with distant players. The co-located team decided to reject the instruction without contacting the potential teammates they rejected. The system lacked support of accountability between remote members. \\
 
-The social organisation of coordination reveals implications for the simplistic model of interaction held by the agent. The agents coalition formation re-plans and reshuffles teams, in order to optimise group performance by minimising the travel distance to the targets. However, our study has revealed the ways in which social norms and the accountability of social conduct get in the way. This raises questions of the effectiveness of approaches that treat coalition formation of humans as unproblematic. The agent does not consider the social cost of team reformation and task interruption. Our field study has shown that the social process to disengage from groups and on-going tasks can be costly. The tension between the social process and the model held by the agent echoes the notion of workflow from within and without [1]. The authors point out that models imposed by technology (from without) may come into tension with the actual workflow achieved through methods internal to the work (from within). 
+A further observation is that players were unwilling to give up on-going tasks after a certain time. In episode 2.4, the teammates first agree to ignore new instructions. This preference to stick with on-going tasks may also explain the high rejection rate for instructions involving task interruptions. \\
+
+The social organisation of coordination reveals implications for the simplistic model of interaction held by the agent. The agents algorithm re-plans and reshuffles teams, in order to optimise group performance by minimising the travel distance to the targets. However, our study has revealed the ways in which social norms and the accountability of social conduct get in the way. This raises questions of the effectiveness of approaches that treat coalition formation of humans as unproblematic. The agent does not consider the social cost of team reformation and task interruption. Our field study has shown that the social process to disengage from groups and on-going tasks can be costly. The tension between the social process and the model held by the agent echoes the notion of workflow from within and without [1]. The authors point out that models imposed by technology (from without) may come into tension with the actual workflow achieved through methods internal to the work (from within). 
 
 \subsection{Feedback to the agent}\label{sec:studytwofeedback}
 
-To recap, a feedback mechanism is included in the interaction design to give responders some control over the task assignment. On receiving an instruction, players can either accept or reject instructions. On rejection of a task allocation, a new plan is requested. The rejected allocation is, in turn, used as a constraint within the optimisation run by the planner agent, which means the rejected target will not be assigned to the rejecting player for a while (1 minute). \\
+To recap, a feedback mechanism is included in the interaction design to give responders some control over the task assignment (Section \ref{sec:study2feedback}). On receiving an instruction, players can either accept or reject instructions. On rejection of a task allocation, a new plan is requested. The rejected allocation is, in turn, used as a constraint within the optimisation run by the planner agent, which means the rejected target will not be assigned to the rejecting player for a while (1 minute). \\
 
 Our observations show there may be a significant cost associated with rejection. Overall, 6 out of 25 re-plans were triggered by rejections. In turn, tasks were re-assigned to all players. Frequent new instructions may cause extra coordination overhead (time spent on interpreting new instructions, more team reformation and task interruptions, and over-constrain the planning). Players did not seem to be aware of the implications that their rejections had on others.\\
  
-We also found that players expectations of the rejection were not always aligned with its actual effect. Instructions involving reformation and interruption are more likely to be rejected. Players statements indicate they perceive the rejection as a way to reverse to previous states (see ep. D). Other statements indicate rejections were expected to pair them with a new teammate instead of a new target. The mismatch between expected and actual effect highlights the lack of intelligibility in the current interaction design. We aimed at simplicity (by providing only accept/reject options), which might be important for interaction in time-critical task settings, but it comes at the cost of intelligibility. Therefore, we argue that intelligibility and simplicity need to be carefully balanced according to details of the setting.\\
+We also found that players expectations of the rejection were not always aligned with its actual effect. Instructions involving reformation and interruption are more likely to be rejected. Players statements indicate they perceive the rejection as a way to reverse to previous states (see episode 2.4). Other statements indicate rejections were expected to pair them with a new teammate instead of a new target. The mismatch between expected and actual effect highlights the lack of intelligibility in the current interaction design. We aimed at simplicity (by providing only accept/reject options), which might be important for interaction in time-critical task settings, but it comes at the cost of intelligibility. Therefore, we argue that intelligibility and simplicity need to be carefully balanced according to details of the setting.\\
 
 
 \section{Design implications}
 
-Our observations reveal the tension between agent planning support and the social organisation of teamwork. The tension does not simply mean the model held by the agent is incorrect; it highlights potential trade-offs we need to consider in system design [1]. Providing a detailed design solution is beyond the scope of this paper. Instead, we propose three design implications to scaffold the division of labour when building agent-based planning support for human teams.\\
+Our observations reveal the tension between agent planning support and the social organisation of teamwork. The tension does not simply mean the model held by the agent is incorrect; it highlights potential trade-offs we need to consider in system design [1]. Providing a detailed design solution is beyond the scope of this chapter. Instead, we propose three design implications to scaffold the division of labour when building agent-based planning support for human teams.\\
 
 \subsection{Achieve common ground}  
 Two main issues arose that challenged this basis for collaboration [2,19]. Firstly, a notion of the social cost associated with instructing teams should be taken into account when designing planning agents. For example, disbanding teams can be difficult and time-consuming as it is governed by rules of social conduct and etiquette, particularly where the new teammates are out of sight or only one of the teammates received a new instruction. Secondly, a mismatch between the expected and actual function of rejections further shows intelligibility needs to be improved. Therefore, we suggest the design of agent support that a) takes social factors into consideration (e.g., ensuring team disbanding is facilitated by reteaming both teammates at the same time; avoiding task interruptions etc.), and that b) agent functionality is appropriately surfaced to help achieve common ground (e.g., by providing explanations of agent action at the interface level).
@@ -733,7 +798,7 @@ Two main issues arose that challenged this basis for collaboration [2,19]. First
 while the rules of social conduct ensured accountability of action among co-located teammates, we found the impact of rejections on remote players was not properly appreciated; nor did the interaction design support making these rejections accountable. Therefore, we believe the interaction design shall reveal the hidden cost of certain actions (e.g., rejections) to facilitate local decision making accountable to remote team members, ensuring consequences of local decisions for the welfare of all teams are understood. 
 
 \subsection{Balance responsibilities between humans and agent}\label{sec:balanceResponsibility}
- The social implications and other situational contingencies are likely difficult to be modelled computationally. Alternative approaches argue for mixed-initiative  control and flexible autonomy between humans and agents [2]. The ways in which the HQ used messsages to provide situational information that complemented the agent instructions show that humans are readily able to deal with arising situational contingencies. The division of labour between humans and the agent appeared most effective in that the agent took on routine and repetitive jobs (task assignment), which freed the responders to focus on the situated rescue mission. In our interactional arrangement, the role of the human HQ was relatively weak. For example, the HQ struggled to overwrite the agents instructions through the messaging channel. In the future, we seek to allow the HQ to play a stronger role in the control loop to enable more direct mediation and amendment of agent instructions (e.g., by directly modifying the task assignments, or by adding information relating to the assignments, such as safe routing).
+ The social implications and other situational contingencies are likely difficult to be modelled computationally. Alternative approaches argue for mixed-initiative  control and flexible autonomy between humans and agents [2]. The ways in which the HQ used messsages to provide situational information that complemented the agent instructions show that humans are readily able to deal with arising situational contingencies. The division of labour between humans and the agent appeared most effective in that the agent took on routine and repetitive jobs (task assignment), which freed the responders to focus on the situated rescue mission. In our interaction design, the role of the human HQ was relatively weak. For example, the HQ struggled to overwrite the agents instructions through the messaging channel. In the future, we seek to allow the HQ to play a stronger role in the control loop to enable more direct mediation and amendment of agent instructions (e.g., by directly modifying the task assignments, or by adding information relating to the assignments, such as safe routing).
  
 %==== what is possible situational contingencies? social implications, coordination overhead incured is hard to be modelled, and other unexpected situational contingencies are hard to be considered by the agent. The example being some players is reluctant to disband team and unwilling to team up with remote players. As they are hard to be considered and model by the agent, HQ's input can be useful to judge the situation and contribute to the planning. In this field trial, The division of labour between humans and the agent appeared most effective in that the agent took on routine and repetitive jobs (task assignment), which freed the responders to focus on the situated rescue mission. However, the HQ is weak in terms of influencing the planning and plan executions. The reason has been summaried in section xxx. Here, we propose some requirements based on the.  ====%
 

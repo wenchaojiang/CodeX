@@ -67,9 +67,73 @@ Repeated entry---line 1026 of file LR.bib
  : @inproceedings{Sarcevic2012
  :                            ,
 I'm skipping whatever remains of this entry
+Database file #3: Study1.bib
+Repeated entry---line 9 of file Study1.bib
+ : @article{Abbasi2012
+ :                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 18 of file Study1.bib
+ : @article{Armenakis2012
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 32 of file Study1.bib
+ : @article{Benford2005
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 41 of file Study1.bib
+ : @incollection{Bradshaw2011
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 53 of file Study1.bib
+ : @article{Chen2005
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 88 of file Study1.bib
+ : @article{Crabtree2006
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 101 of file Study1.bib
+ : @inproceedings{Crabtree2004
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 114 of file Study1.bib
+ : @article{Fischer2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 122 of file Study1.bib
+ : @inproceedings{Flintham2003
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 133 of file Study1.bib
+ : @book{Heath2010
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 165 of file Study1.bib
+ : @article{Losh2007
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 189 of file Study1.bib
+ : @misc{Mendonca2007
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 223 of file Study1.bib
+ : @inproceedings{Sarcevic2012
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 232 of file Study1.bib
+ : @misc{Searle1976
+ :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 254 of file Study1.bib
+ : @article{Toups2011
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 300 of file Study1.bib
+ : @article{Drury2009
+ :                   ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Cova199"
 Warning--I didn't find a database entry for "Provitolo2011"
-Warning--I didn't find a database entry for "Wu2015"
 Warning--I didn't find a database entry for "Petrescuprahova2005"
 Warning--there's a number but no volume in Boersma2009
 Warning--empty booktitle in Bowers1994
@@ -97,45 +161,45 @@ Warning--empty journal in Susi2007
 Warning--there's a number but no volume in Sutton2008
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 100 entries,
+You've used 101 entries,
             1935 wiz_defined-function locations,
-            1121 strings with 23539 characters,
-and the built_in function-call counts, 42045 in all, are:
-= -- 4140
-> -- 1854
+            1125 strings with 23764 characters,
+and the built_in function-call counts, 42506 in all, are:
+= -- 4179
+> -- 1887
 < -- 83
-+ -- 630
-- -- 628
-* -- 3491
-:= -- 7210
-add.period$ -- 297
-call.type$ -- 100
-change.case$ -- 810
-chr.to.int$ -- 98
-cite$ -- 126
-duplicate$ -- 1642
-empty$ -- 2766
-format.name$ -- 788
-if$ -- 8294
++ -- 642
+- -- 640
+* -- 3531
+:= -- 7293
+add.period$ -- 300
+call.type$ -- 101
+change.case$ -- 821
+chr.to.int$ -- 99
+cite$ -- 127
+duplicate$ -- 1660
+empty$ -- 2795
+format.name$ -- 801
+if$ -- 8382
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 98
-newline$ -- 492
-num.names$ -- 304
-pop$ -- 764
+missing$ -- 99
+newline$ -- 497
+num.names$ -- 307
+pop$ -- 780
 preamble$ -- 1
-purify$ -- 813
+purify$ -- 824
 quote$ -- 0
-skip$ -- 1321
+skip$ -- 1329
 stack$ -- 0
-substring$ -- 2703
-swap$ -- 327
+substring$ -- 2715
+swap$ -- 328
 text.length$ -- 34
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 594
+type$ -- 600
 warning$ -- 26
-while$ -- 351
+while$ -- 353
 width$ -- 0
-write$ -- 1257
-(There were 12 error messages)
+write$ -- 1269
+(There were 28 error messages)
