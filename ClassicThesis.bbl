@@ -251,6 +251,10 @@ Jennings, N. and Moreau, L. (2014).
 \newblock {Human-agent collectives}.
 \newblock {\em Communications of the \ldots}.
 
+\bibitem[Jordan and Henderson, 1995]{Jordan1995}
+Jordan, B. and Henderson, A. (1995).
+\newblock {Interaction Analysis: Foundations and Practice}.
+
 \bibitem[Kaber and Endsley, 1995]{Kaber1997}
 Kaber, D. and Endsley, M. (1995).
 \newblock {Out of the loop performance problems and the use of intermediate
@@ -427,14 +431,20 @@ Pillac, V., Cebrian, M., and {Van Hentenryck}, P. (2015).
   planning}.
 \newblock {\em Constraints}, 20(3):285--303.
 
+\bibitem[Ramchurn et~al., 2010a]{Ramchurn2010a}
+Ramchurn, S., Farinelli, A., Macarthur, K., Polukarov, M., and Jennings, N.
+  (2010a).
+\newblock {Decentralised Coordination in RoboCup Rescue}.
+\newblock {\em The Computer Journal}, 00(0):1447--1461.
+
 \bibitem[Ramchurn et~al., 2015a]{Ramchurn2015}
 Ramchurn, S., Simpson, E., Fischer, J., and Huynh, T. (2015a).
 \newblock {HAC-ER: A disaster response system based on human-agent
   collectives}.
 
-\bibitem[Ramchurn et~al., 2010]{Ramchurn2010}
+\bibitem[Ramchurn et~al., 2010b]{Ramchurn2010}
 Ramchurn, S.~D., Polukarov, M., Farinelli, A., Jennings, N., and Trong, C.
-  (2010).
+  (2010b).
 \newblock {Coalition Formation with Spatial and Temporal Constraints}.
 \newblock {\em Constraints}, pages 1181--1188.
 
@@ -521,6 +531,13 @@ Starbird, K. and Palen, L. (2010).
 Sukthankar, G. (2012).
 \newblock {Intelligent agents as teammates}.
 \newblock {\em Theories of Team \ldots}, pages 313--343.
+
+\bibitem[Sukthankar et~al., 2009]{Sukthankar}
+Sukthankar, G., Giampapa, J.~A., and Burnett, C. (2009).
+\newblock {Communications for Agent-Based Human Team Support}.
+\newblock In {\em Organizations in Multi-Agent Systems}, number~1, pages
+  284--312. IGI-Global (http://www.igi-pub.com/) Handbook of Research,
+  Information Science Reference.
 
 \bibitem[Susi et~al., 2007]{Susi2007}
 Susi, T., Johannesson, M., and Backlund, P. (2007).

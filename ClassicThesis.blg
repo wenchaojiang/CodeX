@@ -108,6 +108,10 @@ Repeated entry---line 133 of file Study1.bib
  : @book{Heath2010
  :                ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 145 of file Study1.bib
+ : @misc{Jordan1995
+ :                 ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 165 of file Study1.bib
  : @article{Losh2007
  :                  ,
@@ -132,6 +136,7 @@ Repeated entry---line 300 of file Study1.bib
  : @article{Drury2009
  :                   ,
 I'm skipping whatever remains of this entry
+Database file #4: Study2.bib
 Warning--I didn't find a database entry for "Cova199"
 Warning--I didn't find a database entry for "Provitolo2011"
 Warning--I didn't find a database entry for "Petrescuprahova2005"
@@ -157,49 +162,50 @@ Warning--empty journal in Schooley2010
 Warning--there's a number but no volume in Schooley2010
 Warning--empty journal in Simpson
 Warning--there's a number but no series in Starbird2010
+Warning--there's a number but no series in Sukthankar
 Warning--empty journal in Susi2007
 Warning--there's a number but no volume in Sutton2008
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 101 entries,
+You've used 104 entries,
             1935 wiz_defined-function locations,
-            1125 strings with 23764 characters,
-and the built_in function-call counts, 42506 in all, are:
-= -- 4179
-> -- 1887
-< -- 83
-+ -- 642
-- -- 640
-* -- 3531
-:= -- 7293
-add.period$ -- 300
-call.type$ -- 101
-change.case$ -- 821
-chr.to.int$ -- 99
-cite$ -- 127
-duplicate$ -- 1660
-empty$ -- 2795
-format.name$ -- 801
-if$ -- 8382
-int.to.chr$ -- 3
+            1147 strings with 24410 characters,
+and the built_in function-call counts, 43868 in all, are:
+= -- 4318
+> -- 1946
+< -- 86
++ -- 663
+- -- 660
+* -- 3647
+:= -- 7519
+add.period$ -- 309
+call.type$ -- 104
+change.case$ -- 846
+chr.to.int$ -- 101
+cite$ -- 131
+duplicate$ -- 1711
+empty$ -- 2886
+format.name$ -- 826
+if$ -- 8657
+int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 99
-newline$ -- 497
-num.names$ -- 307
-pop$ -- 780
+missing$ -- 101
+newline$ -- 511
+num.names$ -- 316
+pop$ -- 802
 preamble$ -- 1
-purify$ -- 824
+purify$ -- 849
 quote$ -- 0
-skip$ -- 1329
+skip$ -- 1368
 stack$ -- 0
-substring$ -- 2715
-swap$ -- 328
-text.length$ -- 34
+substring$ -- 2814
+swap$ -- 340
+text.length$ -- 36
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 600
-warning$ -- 26
-while$ -- 353
+type$ -- 618
+warning$ -- 27
+while$ -- 364
 width$ -- 0
-write$ -- 1269
-(There were 28 error messages)
+write$ -- 1307
+(There were 29 error messages)
