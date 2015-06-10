@@ -120,10 +120,9 @@
 \contentsline {subsection}{\numberline {7.4.10}Division of labour in HQ}{163}{subsection.7.4.10}
 \contentsline {section}{\numberline {7.5}Discussion}{164}{section.7.5}
 \contentsline {subsection}{\numberline {7.5.1}How does In-the-loop design play out?}{164}{subsection.7.5.1}
-\contentsline {subsection}{\numberline {7.5.2}Dealing with the imperfection of agent planner}{168}{subsection.7.5.2}
-\contentsline {subsection}{\numberline {7.5.3}Lack of explanation from agent }{170}{subsection.7.5.3}
-\contentsline {subsection}{\numberline {7.5.4}Unsupported forward planning activities}{171}{subsection.7.5.4}
-\contentsline {subsection}{\numberline {7.5.5}Coordination with field Players}{172}{subsection.7.5.5}
+\contentsline {subsection}{\numberline {7.5.2}Responsibility and Complacency}{168}{subsection.7.5.2}
+\contentsline {subsection}{\numberline {7.5.3}Tacit confusions}{170}{subsection.7.5.3}
+\contentsline {subsection}{\numberline {7.5.4}Support human planning }{173}{subsection.7.5.4}
 \contentsline {section}{\numberline {7.6}Summary of findings}{175}{section.7.6}
 \contentsline {subsection}{\numberline {7.6.1}Common ground}{175}{subsection.7.6.1}
 \contentsline {subsection}{\numberline {7.6.2}Computational planning support}{176}{subsection.7.6.2}
