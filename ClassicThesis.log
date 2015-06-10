@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  10 JUN 2015 11:43
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  10 JUN 2015 13:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5351,22 +5351,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 1307--1308
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1317--1318
-
- []
-
-
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [174]
-Underfull \hbox (badness 10000) in paragraph at lines 1322--1323
-
+Overfull \hbox (15.51013pt too wide) in paragraph at lines 1322--1323
+[]\T1/pplj/b/n/10.95 Shared rep-re-sen-ta-tion\T1/pplj/m/n/10.95 . The task in-
+ter-face en-abled com-mon ground
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1324--1325
-
+Overfull \hbox (3.25708pt too wide) in paragraph at lines 1324--1325
+[]\T1/pplj/b/n/10.95 Domain-specific task rep-re-sen-ta-tion\T1/pplj/m/n/10.95 
+. Pro-vid-ing a con-sis-tent rep-
  []
 
 
@@ -5374,46 +5371,41 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [175]
-Underfull \hbox (badness 10000) in paragraph at lines 1327--1328
+
+Package natbib Warning: Citation `Endsley2001' on page 176 undefined on input l
+ine 1328.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1328--1329
 
  []
 
 
-Overfull \hbox (4.20576pt too wide) in paragraph at lines 1329--1330
-\T1/pplj/m/n/10.95 nise task in-ter-rup-tions even with in-ter-face high-light-
-ing sup-port, which
- []
+Package natbib Warning: Citation `Bellotti2001' on page 176 undefined on input 
+line 1340.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1329--1330
-
- []
-
-
-LaTeX Warning: Reference `)' on page 176 undefined on input line 1331.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1331--1332
-
- []
+Package natbib Warning: Citation `Suchman1987' on page 176 undefined on input l
+ine 1340.
 
 
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [176]
-Underfull \hbox (badness 10000) in paragraph at lines 1338--1339
 
- []
-
-
-Overfull \hbox (4.17747pt too wide) in paragraph at lines 1340--1341
-\T1/pplj/m/n/10.95 sys-tem. Oth-ers com-po-nents in-clude in-for-ma-tion crowd-
-sourc-ing, multi-
- []
+Package natbib Warning: Citation `?' on page 177 undefined on input line 1346.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1340--1341
+Package natbib Warning: Citation `Chang2007' on page 177 undefined on input lin
+e 1350.
+
+
+Package natbib Warning: Citation `Norman1998' on page 177 undefined on input li
+ne 1350.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1355--1356
 
  []
 
@@ -5422,13 +5414,9 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [177]
-Underfull \hbox (badness 10000) in paragraph at lines 1351--1352
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1354--1355
-
+Overfull \hbox (4.17747pt too wide) in paragraph at lines 1357--1358
+\T1/pplj/m/n/10.95 sys-tem. Oth-ers com-po-nents in-clude in-for-ma-tion crowd-
+sourc-ing, multi-
  []
 
 
@@ -5437,7 +5425,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1357--1358
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1360--1361
+Underfull \hbox (badness 10000) in paragraph at lines 1368--1369
 
  []
 
@@ -5446,12 +5434,22 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [178]
-Underfull \hbox (badness 10000) in paragraph at lines 1363--1364
+Underfull \hbox (badness 10000) in paragraph at lines 1371--1372
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1369--1370
+Underfull \hbox (badness 10000) in paragraph at lines 1374--1375
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1377--1378
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1380--1381
 
  []
 
@@ -5460,7 +5458,16 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [179]
-Overfull \hbox (16.59035pt too wide) in paragraph at lines 1379--1380
+Underfull \hbox (badness 10000) in paragraph at lines 1386--1387
+
+ []
+
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[180]
+Overfull \hbox (16.59035pt too wide) in paragraph at lines 1396--1397
 \T1/pplj/m/n/10.95 lev-els of so-phis-ti-ca-tion, that takes you into dif-fer-e
 nt paradigm.
  []
@@ -5469,23 +5476,14 @@ nt paradigm.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[180]
-Overfull \hbox (0.65741pt too wide) in paragraph at lines 1391--1392
+[181]
+Overfull \hbox (0.65741pt too wide) in paragraph at lines 1408--1409
 \T1/pplj/m/n/10.95 ing and vi-su-ally rep-re-sent-ing what we man-u-ally con-st
 ruct-
  []
 
 
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[181]
-Underfull \hbox (badness 10000) in paragraph at lines 1404--1405
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1406--1407
+Underfull \hbox (badness 10000) in paragraph at lines 1421--1422
 
  []
 
@@ -5494,35 +5492,6 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [182]
-Underfull \hbox (badness 10000) in paragraph at lines 1411--1412
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1413--1414
-
- []
-
-
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[183]
-Underfull \hbox (badness 10000) in paragraph at lines 1415--1416
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1417--1418
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 1419--1420
-
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 1423--1424
 
  []
@@ -5531,7 +5500,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 1423--1424
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[184])
+[183]
+Underfull \hbox (badness 10000) in paragraph at lines 1428--1429
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1430--1431
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1432--1433
+
+ []
+
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[184]
+Underfull \hbox (badness 10000) in paragraph at lines 1434--1435
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1436--1437
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1440--1441
+
+ []
+
+)
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
@@ -6227,8 +6230,14 @@ FrontBackmatter/Declaration.tex
  ***********
 
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
-Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: 592E03628AA73A6895B6590063879FE8;11320.
+
+Package rerunfilecheck Warning: File `ClassicThesis.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `ClassicThesis.out':
+(rerunfilecheck)             Before: 592E03628AA73A6895B6590063879FE8;11320
+(rerunfilecheck)             After:  BCCA43400B29014DF396F93E37DD5CC5;11371.
 
 LaTeX Warning: There were undefined references.
 
@@ -6238,10 +6247,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 19079 strings out of 493315
- 296391 string characters out of 6137904
+ 19085 strings out of 493315
+ 296470 string characters out of 6137904
  456747 words of memory out of 5000000
- 21332 multiletter control sequences out of 15000+600000
+ 21337 multiletter control sequences out of 15000+600000
  79767 words of font info for 110 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  54i,14n,67p,3108b,2334s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6256,10 +6265,10 @@ ublic/amsfonts/latxfont/lcircle1.pfb></usr/local/texlive/2013/texmf-dist/fonts/
 type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/u
 rw/palatino/uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/pala
 tino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (238 pages, 16519158 bytes).
+Output written on ClassicThesis.pdf (238 pages, 16521738 bytes).
 PDF statistics:
  2912 PDF objects out of 2984 (max. 8388607)
  2559 compressed objects within 26 object streams
- 658 named destinations out of 1000 (max. 500000)
+ 659 named destinations out of 1000 (max. 500000)
  19873 words of extra memory for PDF output out of 20736 (max. 10000000)
 

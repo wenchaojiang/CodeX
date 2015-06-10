@@ -140,6 +140,12 @@ Database file #4: Study2.bib
 Warning--I didn't find a database entry for "Cova199"
 Warning--I didn't find a database entry for "Provitolo2011"
 Warning--I didn't find a database entry for "Petrescuprahova2005"
+Warning--I didn't find a database entry for "Endsley2001"
+Warning--I didn't find a database entry for "Bellotti2001"
+Warning--I didn't find a database entry for "Suchman1987"
+Warning--I didn't find a database entry for "?"
+Warning--I didn't find a database entry for "Chang2007"
+Warning--I didn't find a database entry for "Norman1998"
 Warning--there's a number but no volume in Boersma2009
 Warning--empty booktitle in Bowers1994
 Warning--there's a number but no volume in Bradshaw2003
@@ -169,7 +175,7 @@ Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
 You've used 104 entries,
             1935 wiz_defined-function locations,
-            1147 strings with 24410 characters,
+            1158 strings with 24517 characters,
 and the built_in function-call counts, 43868 in all, are:
 = -- 4318
 > -- 1946

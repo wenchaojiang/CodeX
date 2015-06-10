@@ -1313,24 +1313,41 @@ Therefore, the interface features that counters the effects of uncertainties nee
 
 %[a separate reading list available for this chapter]\\
 
-\section{Design Implications}
-In previous studies have proposed some design implications in terms of Establishing Common Ground (CG), Balancing Division of Labour and Facilitating accountability. The interactional issues identified in this study also echo and provide some extra insights into to the design implications with regards to establishing CG and balancing the responsibilities between human and agent.\\
+\section{Summary of findings} 
+Herein, we offer a brief summary of the lessons learnt that may benefit the designers of planning support systems, in particular, in relation to situation awareness, human error, and interacting with computational planning. These may be particularly relevant for settings in which timely human decision-making is critical. We furthermore also set our lessons into context with related work.
 
-\subsection{Establishing common ground}
-%It is repeating 
+\subsection{Common ground}
+Common ground is a critical requirement to making collaborative decisions in an effective and timely manner. Through our field trials, we identified the following features as constitutive to common ground through providing a mutual situation awareness for the participating parties (HQ, field responders, and the agent).
+\begin{itemize}
+\item \textbf{Shared representation}. The task interface enabled common ground between HQ players and the planning agent -- the basis for enabling HQ players to read, modify, and confirm the agent's task assignments. Shared representation was also critical to align field players and HQ view of the environment, e.g., through the messaging channel.  
+\item \textbf{Awareness of current state}. Episodes evidenced HQ displayed awareness of task progress, threats, and field responders' locations and proximity as critical in their planning.  
+\item \textbf{Domain-specific task representation}. Providing a consistent representation that made use of domain-specific visual cues was an important feature to enable alignment and consistency across views and between mobile (field) and stationary (HQ) representations. 
+\item \textbf{Awareness of future actions}. HQ engaged with \textit{proposed} tasks -- reading proposals in conjunction with awareness of current state, modifying, and confirming was seen to be an essential aspect of the situated planning work. 
+\end{itemize}
 
-Establishing Common Ground between human and agent has been recognised an important aspect of interaction design for the AO platform in study 2. In this study, the task assignment interface is deployed to keep human HQ in the planning loop. As a result, the interaction between human HQ and the agent become more complicated than that in the study 2. Additional interactional issues have emerged from the trial of In-the-loop interaction , some of which highlight the need of more information sharing between human and agent for establishing common ground. \\
+Our recommendations also align with the theoretical framework model of SA proposed by \cite{Endsley2001}, which argues the SA needs to be supported by three levels including 1) Perception of the elements in the environment 2) Comprehension of the current situation and 3) Projection of future status.\\ 
 
-In more details, the study discovered that the forwarding planning activities of human HQ is not supported by the agent. The agent may be designed to provide some information with its prediction ability (e.g. prediction of future game status) to support forward planning. Further, the reasoning behind agent task allocation would also be useful for sharing. In section \ref{sec:playerDeath} , HQ is found overriding agent plans, which leads to undesirable results (i.e. player `death' ). The HQ is also found being confused when agent stop assigning tasks to players with low health. Exposing internal reasoning of the agent can help the HQ to make informed decisions. However, the information sharing may raise the chance information overload. More study about the trade-off might be required in the context of agent planning support to generate guidelines for interaction design. \\
+\subsection{Computational planning support} 
+Some interactional challenges have become evident in the field trial that can be attributed to the interaction with the computational agent. 
 
-\subsection{Balance responsibilities between human and agent}
-The interaction design of Human In-the-loop studied in this field trial has some implications with regards to the balancing the responsibilities between human and agent. Firstly, there are evidence showing that the human manage to avoid some unnecessary task interruptions and team reformations caused by agent planning. It indicates that, given appropriate interface support for human monitoring  and intervention, that human and agent could collectively contribute to planning, generating socially-acceptable and computationally optimized plans. \\
+\begin{itemize}
+\item  \textbf{Constraining task assignments} was seen as a clear advantage of the planning support in this setting, to guarantee only well-formed task assignments.
+\item \textbf{Making reasoning visible}. Modifications of plans as a result of which responders were sent in harm's way may have been avoided if the grounds upon which the agent computed task allocations had been available for inspection. The challenge is how to implement this without inundating the operator with information.
+\item \textbf{Feedback on modifications}. As further step to making visible, the agent could also provide feedback on human modifications of its task assignments, e.g., in terms of safety and risk.
+\item \textbf{Forward planning} of the agent could be made visible on demand to enable planning ahead. 
+\end{itemize}
 
-However, stronger human involvements also incurs some negative impact. It increases workload of HQ player because need to check each instruction proposed by agent. HQs sometimes failed to recognise task interruptions even with interface highlighting support, which suggest HQ can not help to eliminate all the unnecessary interruptions. Effectiveness of HQ may depends on a balanced workload [Literature!]. Achieving a balanced workload has long be recognised as a HCI challenge (Literatures). We suggest more study may be required to gain insight into the issues of HQ workload for agent planning support systems.\\
+Our recommendations echo seminal work on human considerations in context-aware systems, which provided principles to support intelligibility and accountability \cite{Bellotti2001}; similarly we stress that the goal for planning support systems should be  to be accountable for their actions, therefore, `what they know, how they know it, and what they are doing about it' [ibid., p. 201] needs to be legible by the operator. Furthermore, as planning is oriented towards the future, yet produced as a contingent, situated activity \cite{Suchman1987}, the interface needs to support revision and revoking of plans in situ, and furthermore provide the situational awareness essential to do so.  
 
-Furthermore, stronger human involvement may also increase the chance of  human mistakes. The evidence can be found in the episode of responder "death" (ref). Although there are lots of factors contributing to the `death' case (e.g. insufficient training for field play, communication breakdown), the task assignments sent by HQ players are thought to be too risky and not recommended by the agent at the first place. It is believed that the chance of human mistakes can be reduced by appropriate design interaction which help establishing the `common ground' between human and agent.  However, such a design would not be as easy task as it involves multiple design trade-offs  (see section \ref).\\
+\subsection{Interactional trouble}
+We have encountered the following interactional challenges that likely generalise more broadly to related settings.
+\begin{itemize}
 
-%\subsection{ Facilitate accountability }
+\item \textbf{Complacency} describes the phenomenon whereby occasional failures of automation may be difficult to detect \cite{?}. Particularly, when the operator has learnt to trust the computational component. Mechanisms to counter may turn towards more human involvement in the planning, however, there will be a fine line so as not to create information overload. 
+\item \textbf{Non-responsiveness} has been observed to create uncertain situations. It is important to realise this could equally be caused by technical communication outages, as well as by human non-response. Designers may attempt to incorporate this as  `known unknowns' in the system, for example planning could be done with an estimated \textit{probability} of a positive response. 
+\end{itemize}   
+
+The wealth of computational approaches to the problem of `planning under uncertainty' \cite{Chang2007} suggests uncertainty are is a key recurring problem, particularly in time critical settings. In this context, it may also be important to look towards interface design guidelines to complement computational approaches in order to avoid or minimise human error at the interface level \cite{Norman1998}.
 
 
 \section{Professional feedbacks}\label{sec:RGworkshopone} 

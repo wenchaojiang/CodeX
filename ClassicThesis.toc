@@ -124,12 +124,13 @@
 \contentsline {subsection}{\numberline {7.5.3}Lack of explanation from agent }{170}{subsection.7.5.3}
 \contentsline {subsection}{\numberline {7.5.4}Unsupported forward planning activities}{171}{subsection.7.5.4}
 \contentsline {subsection}{\numberline {7.5.5}Coordination with field Players}{172}{subsection.7.5.5}
-\contentsline {section}{\numberline {7.6}Design Implications}{175}{section.7.6}
-\contentsline {subsection}{\numberline {7.6.1}Establishing common ground}{175}{subsection.7.6.1}
-\contentsline {subsection}{\numberline {7.6.2}Balance responsibilities between human and agent}{176}{subsection.7.6.2}
-\contentsline {section}{\numberline {7.7}Professional feedbacks}{177}{section.7.7}
-\contentsline {subsection}{\numberline {7.7.1}The Rescue Global feedbacks}{178}{subsection.7.7.1}
-\contentsline {subsection}{\numberline {7.7.2}Conclusion}{182}{subsection.7.7.2}
+\contentsline {section}{\numberline {7.6}Summary of findings}{175}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}Common ground}{175}{subsection.7.6.1}
+\contentsline {subsection}{\numberline {7.6.2}Computational planning support}{176}{subsection.7.6.2}
+\contentsline {subsection}{\numberline {7.6.3}Interactional trouble}{177}{subsection.7.6.3}
+\contentsline {section}{\numberline {7.7}Professional feedbacks}{178}{section.7.7}
+\contentsline {subsection}{\numberline {7.7.1}The Rescue Global feedbacks}{179}{subsection.7.7.1}
+\contentsline {subsection}{\numberline {7.7.2}Conclusion}{183}{subsection.7.7.2}
 \contentsline {section}{\numberline {7.8}Summary}{183}{section.7.8}
 \contentsline {part}{iv\hspace {1em}\spacedlowsmallcaps {Conclusion}}{186}{part.4}
 \contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Conclusion}}{187}{chapter.8}
