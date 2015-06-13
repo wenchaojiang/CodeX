@@ -119,32 +119,32 @@
 \contentsline {subsection}{\numberline {7.4.9}Missing feedbacks from field}{162}{subsection.7.4.9}
 \contentsline {subsection}{\numberline {7.4.10}Division of labour in HQ}{163}{subsection.7.4.10}
 \contentsline {section}{\numberline {7.5}Discussion}{164}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}How does In-the-loop design play out?}{164}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.1}How does the In-the-loop design play out?}{164}{subsection.7.5.1}
 \contentsline {subsection}{\numberline {7.5.2}Responsibility and Complacency}{168}{subsection.7.5.2}
 \contentsline {subsection}{\numberline {7.5.3}Tacit confusions}{170}{subsection.7.5.3}
-\contentsline {subsection}{\numberline {7.5.4}Support human planning }{173}{subsection.7.5.4}
-\contentsline {section}{\numberline {7.6}Summary of findings}{175}{section.7.6}
-\contentsline {subsection}{\numberline {7.6.1}Common ground}{175}{subsection.7.6.1}
-\contentsline {subsection}{\numberline {7.6.2}Computational planning support}{176}{subsection.7.6.2}
-\contentsline {subsection}{\numberline {7.6.3}Interactional trouble}{177}{subsection.7.6.3}
-\contentsline {section}{\numberline {7.7}Professional feedbacks}{178}{section.7.7}
-\contentsline {subsection}{\numberline {7.7.1}The Rescue Global feedbacks}{179}{subsection.7.7.1}
-\contentsline {subsection}{\numberline {7.7.2}Conclusion}{183}{subsection.7.7.2}
-\contentsline {section}{\numberline {7.8}Summary}{183}{section.7.8}
-\contentsline {part}{iv\hspace {1em}\spacedlowsmallcaps {Conclusion}}{186}{part.4}
-\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Conclusion}}{187}{chapter.8}
-\contentsline {section}{\numberline {8.1}Summary of approach}{187}{section.8.1}
-\contentsline {section}{\numberline {8.2}Summary of findings}{187}{section.8.2}
-\contentsline {section}{\numberline {8.3}Summary of interface evolutions}{190}{section.8.3}
-\contentsline {section}{\numberline {8.4}Summary of soicio-techical issues}{194}{section.8.4}
-\contentsline {subsection}{\numberline {8.4.1}Division of labour}{195}{subsection.8.4.1}
-\contentsline {subsection}{\numberline {8.4.2}Establishing Common Ground}{198}{subsection.8.4.2}
-\contentsline {subsection}{\numberline {8.4.3}Faciliating Accountability}{200}{subsection.8.4.3}
-\contentsline {section}{\numberline {8.5}Limitation}{201}{section.8.5}
-\contentsline {section}{\numberline {8.6}future work}{203}{section.8.6}
-\contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Appendix}}{206}{part.5}
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{207}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix Section Test}{207}{section.A.1}
-\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{208}{section.A.2}
+\contentsline {subsection}{\numberline {7.5.4}Support human planning}{173}{subsection.7.5.4}
+\contentsline {section}{\numberline {7.6}Summary of findings}{176}{section.7.6}
+\contentsline {subsection}{\numberline {7.6.1}Common ground}{176}{subsection.7.6.1}
+\contentsline {subsection}{\numberline {7.6.2}Computational planning support}{177}{subsection.7.6.2}
+\contentsline {subsection}{\numberline {7.6.3}Interactional trouble}{178}{subsection.7.6.3}
+\contentsline {section}{\numberline {7.7}Professional feedbacks}{179}{section.7.7}
+\contentsline {subsection}{\numberline {7.7.1}The Rescue Global feedbacks}{180}{subsection.7.7.1}
+\contentsline {subsection}{\numberline {7.7.2}Conclusion}{184}{subsection.7.7.2}
+\contentsline {section}{\numberline {7.8}Summary}{184}{section.7.8}
+\contentsline {part}{iv\hspace {1em}\spacedlowsmallcaps {Conclusion}}{187}{part.4}
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {Conclusion}}{188}{chapter.8}
+\contentsline {section}{\numberline {8.1}Summary of approach}{188}{section.8.1}
+\contentsline {section}{\numberline {8.2}Summary of findings}{188}{section.8.2}
+\contentsline {section}{\numberline {8.3}Summary of interface evolutions}{191}{section.8.3}
+\contentsline {section}{\numberline {8.4}Summary of soicio-techical issues}{195}{section.8.4}
+\contentsline {subsection}{\numberline {8.4.1}Division of labour}{196}{subsection.8.4.1}
+\contentsline {subsection}{\numberline {8.4.2}Establishing Common Ground}{199}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.3}Faciliating Accountability}{201}{subsection.8.4.3}
+\contentsline {section}{\numberline {8.5}Limitation}{202}{section.8.5}
+\contentsline {section}{\numberline {8.6}future work}{204}{section.8.6}
+\contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Appendix}}{207}{part.5}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{208}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix Section Test}{208}{section.A.1}
+\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{209}{section.A.2}
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{209}{dummy.6}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{210}{dummy.6}

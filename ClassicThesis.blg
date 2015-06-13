@@ -137,15 +137,14 @@ Repeated entry---line 300 of file Study1.bib
  :                   ,
 I'm skipping whatever remains of this entry
 Database file #4: Study2.bib
+Database file #5: Study3.bib
+Repeated entry---line 104 of file Study3.bib
+ : @article{Benford2006
+ :                     ,
+I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Cova199"
 Warning--I didn't find a database entry for "Provitolo2011"
 Warning--I didn't find a database entry for "Petrescuprahova2005"
-Warning--I didn't find a database entry for "Endsley2001"
-Warning--I didn't find a database entry for "Bellotti2001"
-Warning--I didn't find a database entry for "Suchman1987"
-Warning--I didn't find a database entry for "?"
-Warning--I didn't find a database entry for "Chang2007"
-Warning--I didn't find a database entry for "Norman1998"
 Warning--there's a number but no volume in Boersma2009
 Warning--empty booktitle in Bowers1994
 Warning--there's a number but no volume in Bradshaw2003
@@ -156,6 +155,7 @@ Warning--there's a number but no volume in Dawes2004
 Warning--empty journal in Fitts
 Warning--empty journal in Goodrich2001a
 Warning--empty journal in Hardin2009
+Warning--empty journal in Hiltz1985
 Warning--empty journal in Hoffman2002
 Warning--empty institution in IntergraphCorporation2000
 Warning--empty journal in Kitano2000
@@ -173,45 +173,45 @@ Warning--empty journal in Susi2007
 Warning--there's a number but no volume in Sutton2008
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 104 entries,
+You've used 116 entries,
             1935 wiz_defined-function locations,
-            1158 strings with 24517 characters,
-and the built_in function-call counts, 43868 in all, are:
-= -- 4318
-> -- 1946
-< -- 86
-+ -- 663
-- -- 660
-* -- 3647
-:= -- 7519
-add.period$ -- 309
-call.type$ -- 104
-change.case$ -- 846
-chr.to.int$ -- 101
-cite$ -- 131
-duplicate$ -- 1711
-empty$ -- 2886
-format.name$ -- 826
-if$ -- 8657
+            1218 strings with 26579 characters,
+and the built_in function-call counts, 48615 in all, are:
+= -- 4785
+> -- 2134
+< -- 98
++ -- 725
+- -- 722
+* -- 4024
+:= -- 8331
+add.period$ -- 345
+call.type$ -- 116
+change.case$ -- 935
+chr.to.int$ -- 113
+cite$ -- 144
+duplicate$ -- 1910
+empty$ -- 3214
+format.name$ -- 910
+if$ -- 9604
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 101
-newline$ -- 511
-num.names$ -- 316
-pop$ -- 802
+missing$ -- 115
+newline$ -- 571
+num.names$ -- 352
+pop$ -- 890
 preamble$ -- 1
-purify$ -- 849
+purify$ -- 940
 quote$ -- 0
-skip$ -- 1368
+skip$ -- 1527
 stack$ -- 0
-substring$ -- 2814
-swap$ -- 340
-text.length$ -- 36
+substring$ -- 3109
+swap$ -- 379
+text.length$ -- 40
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 618
-warning$ -- 27
-while$ -- 364
+type$ -- 686
+warning$ -- 28
+while$ -- 404
 width$ -- 0
-write$ -- 1307
-(There were 29 error messages)
+write$ -- 1459
+(There were 30 error messages)
