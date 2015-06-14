@@ -1237,7 +1237,7 @@ In session 2, we do not find similar negotiations. However, in the post game dis
 
 ``The interface I use was completely useless, became I can only message everyone at the same time, basically spamming everybody, so the only thing that I can do is, Oh , the cloud moves there and there. At the same time, Khaled (HQ1) had to message to everybody privately. While he was doing that, he coundn`t do new plans. So there is a lot stuff for him be I coundn`t do anything.''\\
 
-\section{Discussion}
+\section{Discussion}\label{sec:study3discussion}
 
 In previous section, episodes are presented to illustrate how the In-the-loop interaction design plays out in the field.  The episodes reveal that, to large extent, human the HQ players are successfully involved in the control loop. However, we also found some confusions and misunderstandings occur between agent and human which may leads to issues and implications for interaction design.  \\
 
@@ -1331,7 +1331,7 @@ Various techniques have been explored to alleviate the problem of information ov
 
 %[a separate reading list available for this chapter]\\
 
-\section{Summary of findings} 
+\section{Lessons from interaction design} 
 Herein, we offer a brief summary of the lessons learnt that may benefit the designers of planning support systems, in particular, in relation to situation awareness, human error, and interacting with computational planning. These may be particularly relevant for settings in which timely human decision-making is critical. We furthermore also set our lessons into context with related work.
 
 \subsection{Common ground}
@@ -1345,7 +1345,7 @@ Common ground is a critical requirement to making collaborative decisions in an 
 
 Our recommendations also align with the theoretical framework model of situation awareness proposed by \cite{Endsley2001}, which argues the SA needs to be supported by three levels including 1) Perception of the elements in the environment 2) Comprehension of the current situation and 3) Projection of future status.\\ 
 
-\subsection{Computational planning support} 
+\subsection{Supporting Mixed-Initiative Planning} 
 Some interactional challenges have become evident in the field trial that can be attributed to the interaction with the computational agent. 
 
 \begin{itemize}
@@ -1370,20 +1370,20 @@ The wealth of computational approaches to the problem of `planning under uncerta
 
 \section{Professional feedbacks}\label{sec:RGworkshopone} 
 
-The section will present the results of a workshop we conducted with a professional disaster response charity called Rescue Global (RG). The purpose of these workshop is to get professional feedbacks about the AtomicOrchid(AO) platform to understand realism of the disaster simulation based on AO. Based on the feedbacks, we reflects on [strength], limitations and potential improvements of AO platform. \\
+The section will present the results of a workshop we conducted with a professional disaster response charity called Rescue Global (RG). The purpose of these workshop is to get professional feedbacks about the AtomicOrchid(AO) platform to understand realism of the disaster simulation based on AO. Based on the feedbacks, we reflects on strength, limitations and potential improvements of AO platform. \\
 
-The workshop is centred on a demonstration of HACs system for disaster response (DR). The AO is a component of the HACs demo system. Others components include information crowdsourcing, multi-UAV control interface for DR, and DR operation provenance store [see HACer paper]. Each component are allocated one session (about 45 mins). The AO session is structured as follows:\\
+The workshop is centred on a demonstration of HAC-ER system for disaster response (DR) \cite{Ramchurn2015}. The AO is a component of the HACs demo system. Others components include information crowdsourcing, multi-UAV control interface for DR, and DR operation provenance store (Section \ref{sec:lraisupport}). Each component are allocated one session (about 45 mins). The AO session is structured as follows:\\
 
 \begin{enumerate}
 	\item A presentation introducing the AO platform and HQ interface.
 	\item A handles-on session for RG members to operate the HQ interface. For the purpose of demo, the field players in AO are simulated.
-	\item A discussion of AO platform for Rescue Global to reflect on some themes including: Command and Control structure, Division of Labour and Task and team planning.
+	\item A discussion of AO platform for Rescue Global to reflect on some themes including: Command and Control structure, Division of Labour/Task and team planning.
 \end{enumerate} 
 
-We also encourages free discussions throughout the AO session, which leads to some emerged themes including: Data connection, time-scale of planning in real DR operations and other interface improvement suggestions. In what follows, we will briefly introduce Rescue Global and then summarise the feedbacks from the AO workshop session. 
+We also encourages free discussions throughout the AO session, which leads to some emerged themes including: Data connection, time-scale of planning in real DR operations and other interface improvement suggestions.  
 
 \subsection{The Rescue Global feedbacks}
-Based the feedbacks of the RG, the AO setting  mirrors some aspects of the RG`s disaster operations. Firstly, the RG member quickly recognise the task-team matching mechanism is very similar to the aspects of resource-needs matching in their operation. At the beginning of the introduction presentation of AO, one of the responder commented: \\
+Based the feedbacks from the RG, the AO setting  mirrors some aspects of the RG`s disaster operations. Firstly, the RG member quickly recognise the task-team matching mechanism is very similar to the aspects of resource-needs matching in their operation. At the beginning of the introduction presentation of AO, one of the responder commented: \\
 
 \begin{quotation}
 ``This is actually very similar to what we do when we do reconnaissance now. We identify needs, and we are aware of what the resources that we have and match it into what resources we have and match the needs into resources.''\\
@@ -1392,32 +1392,32 @@ Based the feedbacks of the RG, the AO setting  mirrors some aspects of the RG`s 
 Further, the team formation mechanism can also be mapped to aspects of their operations by the RG members.The RG confirmed that members from different organisations and different skills often teamed together for tasks. However, the cross-organisation teaming activities are mostly done in an informal way, as one RG members described: \\
 
 \begin{quotation}
-``What we did in Philippine is that , say we found school, and we talked to the [xxx] we have bumped into. They have medics, can run some clinics there. Then [MFS] need some security, they are comfortable with Simon and Bren (two path finder in RG), we can help them out, we did that, but almost informal way'' \\
+``What we did in Philippine is that , say we found school, and we talked to the MSF medics we have bumped into. They have medics, can run some clinics there. Then they need some security, they are comfortable with Simon and Bren (two path finder in RG), we can help them out, we did that, but almost informal way'' \\
 \end{quotation}
 
 The statements of RG indicates that their collaboration with the MFS medic teams are based on informal  relationship with them and the formal organisational collaboration is often missing. The RG also stressed that the paradigm of cross-organisation team formation in AO is desirable, but difficult to achieve in a formal way.They highlighted the major challenge for realising AO paradigm is organisational. As the one RG member stated:\\
 
 \begin{quotation}
-``The challenge with that is that UN clustering system, make separation of different tasks, they then delegate the tasks down to say Health cluster, [wash] report, UNISAF, all the way to little agencies, they won't work with anyone else, because they do not know them, they do not have relationship, so UN structure stops that... does not mean you can not change it, but current paradigm would not allow it ''
+``The challenge with that is that UN clustering system, make separation of different tasks, they then delegate the tasks down to say Health cluster, and UNISAF, all the way to little agencies, they won't work with anyone else, because they do not know them, they do not have relationship, so UN structure stops that... does not mean you can not change it, but current paradigm would not allow it ''
 \end{quotation}
 
 Based on RG's feedback, we also identifies some unrealistic aspects of AO setting. Firstly, RG member expressed the concerns related to data connection. They highlighted that the activity in AO requires good connection between field and HQ, which is not always the case in the disaster situation. Given that, the RG member can still imagine a picture of AO being used in the situation with poor data connection. They suggested that the information in the field can be collected and input into the planning support system in a slow and manual way (e.g. through satellite phone call). In that situation, they still think planning support aspects of AO would be useful to them, though the pace of planning and information collection will be much slower and manual. \\
 
 \begin{quotation}
-``say  OK, there is not live link between HQ and field responder, could you have that, in the field people can start sending reports, which could be done like satllete phone, then HQ can load on to this (AO), come up with suggestions, because can not task directly to the field , there is another call,  it puts in lots of gaps and pauses, but still be able to have the system giving suggestions based on manually input, which do not require broadband. ''
+``say  OK, there is not live link between HQ and field responder, could you have that, in the field people can start sending reports, which could be done like satllete phone, then HQ can load on to this (AO), come up with suggestions, because can not task directly to the field , there is another call,  it puts in lots of gaps and pauses, but still be able to have the system giving suggestions based on manual input, which do not require broadband. ''
 \end{quotation}
 
 
-In terms of Command and Control(CC) structure, RG frequently refer to the two frameworks of CC,  Bronze, Silver, Gold model (BSG, see chapter x) and National incident command framework (NICF see [x]). The assumption of Command structure in AO seems to be detached from both NICF and BSG in that both NICF and BSG have several hierarchical command levels (Bronze,Silver,Gold) and ways to sectorising units (geographical, functional).  In the AO setting , both the command hierarchy and units sectorisation are missing. As stated by the At interface level, the information presented to each command level may need to be tailored to their specific paradigms (operational, tactical, strategic):
+In terms of Command and Control(CC) structure, RG frequently refer to the two frameworks of CC,  Bronze, Silver, Gold model (Section \ref{sec:lrstructure}) and National incident command framework (\cite{Command2008}). The assumption of Command structure in AO seems to be detached from both NICF and BSG in that both NICF and BSG have several hierarchical command levels (Bronze,Silver,Gold) and ways to sectorising units (geographical, functional).  In the AO setting , both the command hierarchy and units sectorisation are missing. As stated by the At interface level, the information presented to each command level may need to be tailored to their specific paradigms (operational, tactical, strategic):
 
 \begin{quotation}
-``For operation, we would like have interface with 2-3 levels of sophistication, that takes you into different paradigm. For example, you do not what simple transactional barrier for your section commander,...  you do not section commander know that. Simple data, enhanced data, at gold, stripping away all details. ''
+``For operation, we would like have interface with 2-3 levels of sophistication, that takes you into different paradigm. For example, you do not what simple transactional barrier for your section commander,...  you do not section commander know that. Simple data (at the bronze level), enhanced data (at sliver level), at gold, stripping away all details. ''
 \end{quotation}
 
-For feedbacks, we also noticed that the time-scale of the RG's operation is much longer the AO. As one RG member describe how tasks are allocated in a multi-agency operations: 
+For feedbacks, we also noticed that the time-scale of the RG's operation is much longer then the AO. As one RG member describe how tasks are allocated in a multi-agency operations: 
 
 \begin{quotation}
-``The amout of work we do here , is probably a month of work from what we saw in philipine, like 15-20 job orders, and that take about a month.... The problem is how they are all disconnected, you got tightly coupled system with lots of moving part, with massive gap between each one, so say example, that cluster of systems, you have that in .... , that in ..., that in another, they then meet once a week, can be once a week and then get information, dissamincate and give out jobs, it is just unbelievably slow.''
+``The amout of work we do here , is probably a month of work from what we saw in Philippine, like 15-20 job orders, and that take about a month.... The problem is how they are all disconnected, you got tightly coupled system with lots of moving part, with massive gap between each one, so say example, that cluster of systems, you have that in .... , that in ..., that in another, they then meet once a week, can be once a week and then get information, dissamincate and give out jobs, it is just unbelievably slow.''
 \end{quotation}
 
 Although the time-scale of AO is unrealistic for RG time,  they think the AO can be seen as a ideal, speed-up version of mulit-agency operation, because it automates lots of manual process in terms of information capturing and presentation and promote commonly recognised information picture across agencies:
@@ -1432,26 +1432,31 @@ Apart from information capturing and presentation, the RG team also see the valu
 ``I think it (AO) could be useful that you can use to help ppl in the field to gether information, file it back and forget it, which is really helpful, because otherwise what we have to do is we do the plan do the resource allocation in the field which is really time-consuming, if we say field get information and send it back, HQ receive and plan based on them.''
 \end{quotation}
 
-The statement indicates that planning of resource allocation does happen in the field and it is desirable to transfer the workload to HQ. The statement also identifies AO as a (potential) tool to balance division of labour. 
+The statement indicates that planning of resource allocation does happen in the field and it is desirable to transfer the workload to HQ. The statement also identifies AO as a (potential) tool to balance division of labour. \\
 
 
-\subsection{Conclusion}
-In the previous section, we have reflected on both realistic and unrealistic aspects of AO setting based on the feedbacks from RG workshop. The resource target mapping and teaming aspects of AO setting are found to be similar to activities in the DR operations, though the teaming in DR operations are likely to be conducted in an informal way. On the other hand, both time scale and command structure in the AO setting do not match what happens in the DR operations. The time scale of RG`s operation is much longer the AO. And Command and Control framework in DR has hierarchical levels and sectorisation for some levels, both of which are missing in the AO setting. Further, the assumption of good data connections in the field are also fund unrealistic. However the RG team thought the core planning support aspects of AO would still be useful even when data connection is poor. \\
+\subsection{Conclusion and Reflection}
+In the previous section, we have reflected on both realistic and unrealistic aspects of AO setting based on the feedbacks from RG workshop. The resource target mapping and teaming aspects of AO setting are found to be similar to activities in the DR operations, though the teaming in DR operations are likely to be conducted in an informal way. On the other hand, both time scale and command structure in the AO setting do not match what happens in the DR operations. The time scale of RG`s operation is much longer then the AO. And Command and Control framework in DR has hierarchical levels and sectorisation for some levels, both of which are missing in the AO setting. Further, the assumption of good data connections in the field are also fund unrealistic. However the RG team thought the core planning support aspects of AO would still be useful even when data connection is poor. \\
 
 Although AO are not built as a tool to support real disaster operation (It is designed to be a simulation game), the RG team still found some aspects of AO demonstrates elements of future planning support system desirable to them. Firstly, the AO portrayed a picture of automated information capturing and visualisation which is appreciated by RG. Secondly, RG also appreciate that the division of labour facilitated by the AO setting, in which the HQ (with the planning agent) handles the task planning while the field responders just need to ``gather information, file it back, and forget it''\\
 
+Elsewhere in this discussion (Section \ref{sec:study3discussion}) we have touched on several areas where more information might in principle be shared between the planning agent and the HQ players, such as agent priorities and reasoning, uncertainty and future plans. However these would almost certainly make the interfaces and visualisations more complex and increase the risk of information overload. However, if the system were operating at the kind of pace that Rescue Global use to characterise their own activities then there would fundamentally be a lot more time to work with than in the current version of the game. So a challenge for future work is to understand more about the interactional challenges of this kind of time-constrained but relatively slow paced situation.\\
+
 \section{Summary}
-The objective of the research presented here was to explore the design issues surrounding an In-the-loop interaction pattern. The exploration is conducted through field trial of an AtomicOrchid(AO) probe with In-the-loop support, with particular focus in the planning activities in control room. The Game probe is evolved from the On-the-loop version of AO that is trialled in study 2 (see ref). To realise a Human In the loop interaction, the game probe allows Human HQ to approve, edit and cancel the agent generated plans. \\
+The objective of the research presented here was to explore the design issues surrounding an In-the-loop interaction pattern. The exploration is conducted through field trial of an AtomicOrchid(AO) probe with In-the-loop support, with particular focus in the planning activities in control room. The Game probe is evolved from the On-the-loop version of AO that is trialled in study 2. To realise a Human In the loop interaction, the game probe allows Human HQ to approve, edit and cancel the agent generated plans. \\
 
-Findings from interaction analysis of field observations, triangulated with log files, reveal how the In-the-loop interactions played out. By examining the usages of interface functionalities and presenting episodes of task planning, we argue that a pattern of division of labour is achieved, in which HQ players contribute to the planning with supervisory activities and interventions, while the agent takes over computational optimization of task allocation [ref of interaction design]. Meanwhile, a set of interactional issues around In-the-loop design also emerged. \\
+Findings from interaction analysis of field observations, triangulated with log files, reveal how the In-the-loop interactions played out. Our observations indicate the human coordinator and automated planner agent can successfully work together in most cases. Supported by a task assignment interface, human coordinators take active responsibility in the system by inspecting and `correcting' the agent proposed plans. However, occasional failures of planning are also observed due to a number of issues including 1) complacency 2) silent, missing or invisible information 3) and limited support for human planning. Several of these observations suggest additions to the information to be conveyed by the interface, but at the risk of information overload for the people in the HQ. In addition, a workshop with a professional DR team reveals strength and weakness of current AtomicOrchid simulation, and in particular the challenge to extend this work to more complex but slower paced situations.\\
 
-Firstly, the human supervision may not be the perfect solution for the imperfection agents. We found human HQ players sometimes quickly approve assignments without consideration of task interruptions caused by agent planning [ref ]. The HQ players also override (safer) agent plans to implement risky plans, which lead to player `death'. Therefore, we argue that stronger human  involvement may come with undesirable human performance consequence (e.g. complacency, uninformed decisions). \\
+Based on the findings, we also summarised a list of lessons for the In-the-loop interaction design. Firstly, the importance of common ground for human agent coordination is highlighted and we suggest that the common ground should be supported by domain-specific information models, appropriate visual representations of the models, and articulation of future actions. Secondly, several interface features are highlighted for supporting mixed reality interactions, including 
+constrained task assignments, visible plan reasoning, feedback on task modifications and forward planning support. Third, our observations reveal several interactional troubles including complacency and non-responsiveness.\\
 
-Secondly, some of the observed undesirable human performance may arguably be a result of insufficient information sharing between human and agent. However, we also argue that the excessive information sharing may complicate interface and interactions between human and agent, which in turn, leads to information overload. Therefore, the trade-off may need to be carefully considered for interaction design. Further, forward planning  activities are frequently observed and they are not well supported by the agent. One option to support the activity is to make the agent reveal some information regarding to future planning (e.g. prediction of future game status).\\
+%Findings from interaction analysis of field observations, triangulated with log files, reveal how the In-the-loop interactions played out. By examining the usages of interface functionalities and presenting episodes of task planning, we argue that a pattern of division of labour is achieved, in which HQ players contribute to the planning with supervisory activities and interventions, while the agent takes over computational optimization of task allocation [ref of interaction design]. Meanwhile, a set of interactional issues around In-the-loop design also emerged. \\
 
-Finally, the lack of acknowledges and ineffectiveness of task cancellation have been identified as communication issues between field and the control room in section x. \\
+%Firstly, the human supervision may not be the perfect solution for the imperfection agents. We found human HQ players sometimes quickly approve assignments without consideration of task interruptions caused by agent planning [ref ]. The HQ players also override (safer) agent plans to implement risky plans, which lead to player `death'. Therefore, we argue that stronger human  involvement may come with undesirable human performance consequence (e.g. complacency, uninformed decisions). \\
 
-The discovered interactional issues echo some design implications that we have highlighted in the study 1 and 2. Firstly, the insufficient information sharing may need to be addressed for establishing a common ground between human and the agent. Further, the Human-in-the-loop pattern is found to be useful to avoid unnecessary task interruptions and team reformation, generating socially acceptable plans. However, the greater human involve may also increase the chance of human errors, which can be an important factor to be considered in terms of balancing the labour division between human and agent. \\
+%Secondly, some of the observed undesirable human performance may arguably be a result of insufficient information sharing between human and agent. However, we also argue that the excessive information sharing may complicate interface and interactions between human and agent, which in turn, leads to information overload. Therefore, the trade-off may need to be carefully considered for interaction design. Further, forward planning  activities are frequently observed and they are not well supported by the agent. One option to support the activity is to make the agent reveal some information regarding to future planning (e.g. prediction of future game status).\\
+
+%Finally, the lack of acknowledges and ineffectiveness of task cancellation have been identified as communication issues between field and the control room in section x. \\
 
 %The discovered interactional issues lead to some design implications which are discussed with respect to two themes: Common ground, and Balance of responsibilities. Various issues of interaction highlighted the importance of Common Ground between human and agent. Through discussion of the observed interactional issues, we have identified some information that need to be shared for establishing the common ground. However, it is unknown how this information should be presented in a way that avoids information overload and, at the some time, contribute to the common ground.  \\
 

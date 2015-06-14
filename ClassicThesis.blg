@@ -152,6 +152,7 @@ Warning--there's a number but no volume in Burstein2003
 Warning--there's a number but no volume in Dashti2014
 Warning--empty journal in Dawes2004
 Warning--there's a number but no volume in Dawes2004
+Warning--empty publisher in Command2008
 Warning--empty journal in Fitts
 Warning--empty journal in Goodrich2001a
 Warning--empty journal in Hardin2009
@@ -173,45 +174,45 @@ Warning--empty journal in Susi2007
 Warning--there's a number but no volume in Sutton2008
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 116 entries,
+You've used 117 entries,
             1935 wiz_defined-function locations,
-            1218 strings with 26579 characters,
-and the built_in function-call counts, 48615 in all, are:
-= -- 4785
-> -- 2134
-< -- 98
-+ -- 725
-- -- 722
-* -- 4024
-:= -- 8331
-add.period$ -- 345
-call.type$ -- 116
-change.case$ -- 935
-chr.to.int$ -- 113
-cite$ -- 144
-duplicate$ -- 1910
-empty$ -- 3214
-format.name$ -- 910
-if$ -- 9604
+            1222 strings with 26698 characters,
+and the built_in function-call counts, 48897 in all, are:
+= -- 4809
+> -- 2141
+< -- 100
++ -- 727
+- -- 724
+* -- 4047
+:= -- 8381
+add.period$ -- 347
+call.type$ -- 117
+change.case$ -- 940
+chr.to.int$ -- 114
+cite$ -- 146
+duplicate$ -- 1924
+empty$ -- 3237
+format.name$ -- 913
+if$ -- 9658
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 115
-newline$ -- 571
-num.names$ -- 352
-pop$ -- 890
+missing$ -- 117
+newline$ -- 575
+num.names$ -- 355
+pop$ -- 898
 preamble$ -- 1
-purify$ -- 940
+purify$ -- 946
 quote$ -- 0
-skip$ -- 1527
+skip$ -- 1538
 stack$ -- 0
-substring$ -- 3109
-swap$ -- 379
-text.length$ -- 40
+substring$ -- 3121
+swap$ -- 381
+text.length$ -- 41
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 686
-warning$ -- 28
-while$ -- 404
+type$ -- 690
+warning$ -- 29
+while$ -- 406
 width$ -- 0
-write$ -- 1459
+write$ -- 1470
 (There were 30 error messages)
