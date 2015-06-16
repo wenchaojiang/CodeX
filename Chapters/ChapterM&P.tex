@@ -133,7 +133,8 @@ For integration, the agent is deployed on a separate server. It communicate with
   \label{fig:inputoutput}
 \end{figure}
 
-\subsection{Log system} \label{sec:applogging}
+\subsection{Logging component} \label{sec:applogging}
+A logging component is also built into the AtomicOrchid system. The updates of game status sent between game server and clients (both HQ and mobile clients) are all recorded in JSON format with system timestamps. The logs contains the information of cloud status, task location and status (pick up/ drop off), messages, player location and health. Automated tools are also developed to reconstruct game play and visualise (Section \ref{sec:methdatahandling}) the log for data analysis. The detailed log format is documented in Appendix x.
 
 \subsection{Iterative design and development}
 Before the game is deployed for observational studies in this PhD work, the game went through a iterative design and development process to test, refine game concepts and system robustness. We briefly describe three cycles of iterative game design and evaluation before the system is ready for the first formal field study.\\
@@ -255,7 +256,7 @@ For the purpose of this PhD work, interaction analysis is applied to evaluate th
 
 
 
-\section{Data collection and handling}
+\section{Data collection and handling}\label{sec:methdatahandling}
 Interaction analysis has been introduced as the main method for investigating socio-technical issues in our studies. This section will introduce a number of methods employed for data collection and handling. In particular, the group interview supplements field observation by providing subjective description of game play experience. The message classification method gives an quantitative overview of remote communication. It also provides context for interactions in the field and help to identify interesting game events. The system log analysis produces game events visualisation and replay. When triangulated with the video data, the log data analysis also supports interaction analysis by providing context and help to identify interesting episodes in videos.\\
 
 \subsection{Shadowing}

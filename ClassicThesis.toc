@@ -42,14 +42,14 @@
 \contentsline {subsection}{\numberline {3.3.1}Game mechanic}{50}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}System Architecture}{53}{subsection.3.3.2}
 \contentsline {subsection}{\numberline {3.3.3}The planning agent}{54}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}Log system}{56}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.4}Logging component}{56}{subsection.3.3.4}
 \contentsline {subsection}{\numberline {3.3.5}Iterative design and development}{56}{subsection.3.3.5}
 \contentsline {section}{\numberline {3.4}Explore interaction designs with three AtomicOrchid studies}{57}{section.3.4}
-\contentsline {subsection}{\numberline {3.4.1}The On-the-loop interaction}{58}{subsection.3.4.1}
-\contentsline {subsection}{\numberline {3.4.2}The In-the-loop interaction}{59}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.1}The On-the-loop interaction}{59}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}The In-the-loop interaction}{60}{subsection.3.4.2}
 \contentsline {subsection}{\numberline {3.4.3}The three AO game studies to explore socio-technical issue of human agent interaction}{60}{subsection.3.4.3}
 \contentsline {section}{\numberline {3.5}Collaboration with Professional Disaster Response Organisation}{61}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}Introduction of Rescue Global}{61}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.1}Introduction of Rescue Global}{62}{subsection.3.5.1}
 \contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Methodology to Investigate Human Agent Interaction}}{63}{chapter.4}
 \contentsline {section}{\numberline {4.1}Ethnomethodological perspective}{63}{section.4.1}
 \contentsline {section}{\numberline {4.2}Interaction Analysis}{64}{section.4.2}
@@ -143,8 +143,23 @@
 \contentsline {section}{\numberline {8.5}Limitation}{190}{section.8.5}
 \contentsline {section}{\numberline {8.6}future work}{191}{section.8.6}
 \contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Appendix}}{194}{part.5}
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{195}{appendix.A}
-\contentsline {section}{\numberline {A.1}Appendix Section Test}{195}{section.A.1}
-\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{195}{section.A.2}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix to AtomicOrchid implementation}}{195}{appendix.A}
+\contentsline {section}{\numberline {A.1}System log format}{195}{section.A.1}
+\contentsline {section}{\numberline {A.2}Agent-server protocol}{195}{section.A.2}
+\contentsline {chapter}{\numberline {B}\spacedlowsmallcaps {Appendix to study 1}}{196}{appendix.B}
+\contentsline {section}{\numberline {B.1}Participant demographic}{196}{section.B.1}
+\contentsline {section}{\numberline {B.2}Message logs}{196}{section.B.2}
+\contentsline {section}{\numberline {B.3}Game event visualisation}{196}{section.B.3}
+\contentsline {section}{\numberline {B.4}Game area and set-up}{196}{section.B.4}
+\contentsline {chapter}{\numberline {C}\spacedlowsmallcaps {Appendix to study 2}}{197}{appendix.C}
+\contentsline {section}{\numberline {C.1}Participant demographic}{197}{section.C.1}
+\contentsline {section}{\numberline {C.2}Message logs}{197}{section.C.2}
+\contentsline {section}{\numberline {C.3}Game event visualisation}{197}{section.C.3}
+\contentsline {section}{\numberline {C.4}Game area and set-up}{197}{section.C.4}
+\contentsline {chapter}{\numberline {D}\spacedlowsmallcaps {Appendix to study 3}}{198}{appendix.D}
+\contentsline {section}{\numberline {D.1}Participant demographic}{198}{section.D.1}
+\contentsline {section}{\numberline {D.2}Message logs}{198}{section.D.2}
+\contentsline {section}{\numberline {D.3}Game event visualisation}{198}{section.D.3}
+\contentsline {section}{\numberline {D.4}Game area and set-up}{198}{section.D.4}
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{197}{dummy.6}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{199}{dummy.6}

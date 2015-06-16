@@ -41,7 +41,7 @@
 \BOOKMARK [2][-]{subsection.3.3.1}{3.3.1 Game mechanic}{section.3.3}% 41
 \BOOKMARK [2][-]{subsection.3.3.2}{3.3.2 System Architecture}{section.3.3}% 42
 \BOOKMARK [2][-]{subsection.3.3.3}{3.3.3 The planning agent}{section.3.3}% 43
-\BOOKMARK [2][-]{subsection.3.3.4}{3.3.4 Log system}{section.3.3}% 44
+\BOOKMARK [2][-]{subsection.3.3.4}{3.3.4 Logging component}{section.3.3}% 44
 \BOOKMARK [2][-]{subsection.3.3.5}{3.3.5 Iterative design and development}{section.3.3}% 45
 \BOOKMARK [1][-]{section.3.4}{3.4 Explore interaction designs with three AtomicOrchid studies}{chapter.3}% 46
 \BOOKMARK [2][-]{subsection.3.4.1}{3.4.1 The On-the-loop interaction}{section.3.4}% 47
@@ -137,9 +137,24 @@
 \BOOKMARK [1][-]{section.8.5}{8.5 Limitation}{chapter.8}% 137
 \BOOKMARK [1][-]{section.8.6}{8.6 future work}{chapter.8}% 138
 \BOOKMARK [-1][]{part.5}{Appendix}{}% 139
-\BOOKMARK [0][]{appendix.A}{A Appendix Test}{part.5}% 140
-\BOOKMARK [1][-]{section.A.1}{A.1 Appendix Section Test}{appendix.A}% 141
-\BOOKMARK [1][-]{section.A.2}{A.2 Another Appendix Section Test}{appendix.A}% 142
-\BOOKMARK [0][]{dummy.6}{Bibliography}{part.5}% 143
-\BOOKMARK [0][]{colophon.0}{Colophon}{part.5}% 144
-\BOOKMARK [0][]{declaration.0}{Declaration}{part.5}% 145
+\BOOKMARK [0][]{appendix.A}{A Appendix to AtomicOrchid implementation}{part.5}% 140
+\BOOKMARK [1][-]{section.A.1}{A.1 System log format}{appendix.A}% 141
+\BOOKMARK [1][-]{section.A.2}{A.2 Agent-server protocol}{appendix.A}% 142
+\BOOKMARK [0][]{appendix.B}{B Appendix to study 1}{part.5}% 143
+\BOOKMARK [1][-]{section.B.1}{B.1 Participant demographic}{appendix.B}% 144
+\BOOKMARK [1][-]{section.B.2}{B.2 Message logs}{appendix.B}% 145
+\BOOKMARK [1][-]{section.B.3}{B.3 Game event visualisation}{appendix.B}% 146
+\BOOKMARK [1][-]{section.B.4}{B.4 Game area and set-up}{appendix.B}% 147
+\BOOKMARK [0][]{appendix.C}{C Appendix to study 2}{part.5}% 148
+\BOOKMARK [1][-]{section.C.1}{C.1 Participant demographic}{appendix.C}% 149
+\BOOKMARK [1][-]{section.C.2}{C.2 Message logs}{appendix.C}% 150
+\BOOKMARK [1][-]{section.C.3}{C.3 Game event visualisation}{appendix.C}% 151
+\BOOKMARK [1][-]{section.C.4}{C.4 Game area and set-up}{appendix.C}% 152
+\BOOKMARK [0][]{appendix.D}{D Appendix to study 3}{part.5}% 153
+\BOOKMARK [1][-]{section.D.1}{D.1 Participant demographic}{appendix.D}% 154
+\BOOKMARK [1][-]{section.D.2}{D.2 Message logs}{appendix.D}% 155
+\BOOKMARK [1][-]{section.D.3}{D.3 Game event visualisation}{appendix.D}% 156
+\BOOKMARK [1][-]{section.D.4}{D.4 Game area and set-up}{appendix.D}% 157
+\BOOKMARK [0][]{dummy.6}{Bibliography}{part.5}% 158
+\BOOKMARK [0][]{colophon.0}{Colophon}{part.5}% 159
+\BOOKMARK [0][]{declaration.0}{Declaration}{part.5}% 160
