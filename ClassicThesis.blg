@@ -22,7 +22,16 @@ I'm skipping whatever remains of this command
 A level-1 auxiliary file: FrontBackmatter/Colophon.aux
 A level-1 auxiliary file: FrontBackmatter/Declaration.aux
 Database file #1: Bibliography.bib
-Database file #2: LR.bib
+Database file #2: Approach.bib
+Repeated entry---line 1 of file Approach.bib
+ : @article{Abbasi2012
+ :                    ,
+I'm skipping whatever remains of this entry
+Database file #3: LR.bib
+Repeated entry---line 55 of file LR.bib
+ : @article{Ackerman2000
+ :                      ,
+I'm skipping whatever remains of this entry
 Repeated entry---line 77 of file LR.bib
  : @incollection{Bradshaw2011
  :                           ,
@@ -67,7 +76,7 @@ Repeated entry---line 1026 of file LR.bib
  : @inproceedings{Sarcevic2012
  :                            ,
 I'm skipping whatever remains of this entry
-Database file #3: Study1.bib
+Database file #4: Study1.bib
 Repeated entry---line 9 of file Study1.bib
  : @article{Abbasi2012
  :                    ,
@@ -136,8 +145,8 @@ Repeated entry---line 300 of file Study1.bib
  : @article{Drury2009
  :                   ,
 I'm skipping whatever remains of this entry
-Database file #4: Study2.bib
-Database file #5: Study3.bib
+Database file #5: Study2.bib
+Database file #6: Study3.bib
 Repeated entry---line 104 of file Study3.bib
  : @article{Benford2006
  :                     ,
@@ -145,6 +154,8 @@ I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Cova199"
 Warning--I didn't find a database entry for "Provitolo2011"
 Warning--I didn't find a database entry for "Petrescuprahova2005"
+Warning--I didn't find a database entry for "Brundell"
+Warning--I didn't find a database entry for "Avrahami"
 Warning--there's a number but no volume in Boersma2009
 Warning--empty booktitle in Bowers1994
 Warning--there's a number but no volume in Bradshaw2003
@@ -174,45 +185,45 @@ Warning--empty journal in Susi2007
 Warning--there's a number but no volume in Sutton2008
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 117 entries,
+You've used 119 entries,
             1935 wiz_defined-function locations,
-            1222 strings with 26698 characters,
-and the built_in function-call counts, 48897 in all, are:
-= -- 4809
-> -- 2141
-< -- 100
-+ -- 727
-- -- 724
-* -- 4047
-:= -- 8381
-add.period$ -- 347
-call.type$ -- 117
-change.case$ -- 940
-chr.to.int$ -- 114
-cite$ -- 146
-duplicate$ -- 1924
-empty$ -- 3237
-format.name$ -- 913
-if$ -- 9658
+            1235 strings with 26966 characters,
+and the built_in function-call counts, 49369 in all, are:
+= -- 4857
+> -- 2155
+< -- 102
++ -- 731
+- -- 728
+* -- 4077
+:= -- 8475
+add.period$ -- 351
+call.type$ -- 119
+change.case$ -- 952
+chr.to.int$ -- 116
+cite$ -- 148
+duplicate$ -- 1944
+empty$ -- 3267
+format.name$ -- 919
+if$ -- 9744
 int.to.chr$ -- 4
 int.to.str$ -- 0
 missing$ -- 117
-newline$ -- 575
-num.names$ -- 355
-pop$ -- 898
+newline$ -- 583
+num.names$ -- 361
+pop$ -- 906
 preamble$ -- 1
-purify$ -- 946
+purify$ -- 958
 quote$ -- 0
-skip$ -- 1538
+skip$ -- 1556
 stack$ -- 0
-substring$ -- 3121
+substring$ -- 3145
 swap$ -- 381
 text.length$ -- 41
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 690
+type$ -- 702
 warning$ -- 29
-while$ -- 406
+while$ -- 410
 width$ -- 0
-write$ -- 1470
-(There were 30 error messages)
+write$ -- 1490
+(There were 32 error messages)
