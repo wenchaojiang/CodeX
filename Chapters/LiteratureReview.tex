@@ -1,5 +1,5 @@
 %*****************************************
-\chapter{Literature Review}\label{ch:literatures}
+\chapter{Task planning in disaster response}\label{ch:literatures}
 %*****************************************
 The overarching background of this thesis is disaster management, of which the Disaster Response (DR) is one particular period immediately aftermath the disaster impact. This chapter will review the research areas that are related to design and development of task planning support system for DR. First, the section \ref{sec:lrplanning} reviews the relevant literatures to develop an understanding of planning practices in DR operations. In particular, the task planning activities in DR operations are mostly embedded in a command and control(C2) environment. The section \ref{sec:LRC2} reviews the relevant empirical studies to gain insight into characteristics of C2 work setting. Second, practitioners have developed various technology support systems for disaster response. The section \ref{sec:LRApplicationAreas} gives an overview of technical practices in DR in the context of three detailed application areas, which includes GIS-based planning support, ICT (Information and Communication Technologies) systems and AI-based technologies. Third, empirical studies of technologies in use have showed that the ill-designed technology support may have negative impact on human workflow. In section \ref{sec:LRSocialTechnical}, we review the literatures in three sub domains (CSCW,Automation design,and Human agent interaction) of HCI to develop an understanding of the design challenges of technological support system.  Further, studying technological support with real world disaster could be very challenging because disasters conditions can not be reproduced easily. Therefore, researchers have long been using gaming as an approach for studying the impact of technology support.  The section \ref{sec:LRMRgame} reviews the strengths and weakness of using game as an approach for studying disaster work setting. \\
 
@@ -135,16 +135,33 @@ This section have reviewed technological practices related to planning support i
 
 In the overlapping area of the three application domains, there is an opportunity space for real time task planning support in DR domain. The planning support system can utilise ICT technologies as its underlying infrastructures and apply intelligent coordination algorithms for plan generation. However, the literatures for building such a system are still rare, leaving a gap in literatures. This thesis is aimed to bridge the gap by studying the design and development of such DR planning support system.\\
 
-\section{Relationship between Human and Technology Support}\label{sec:LRSocialTechnical}
+\chapter{Relationship between Human and Technology Support}
+
+
+
+
 Applying task planning to support complex disaster response operations may not be a straightforward process. Some HCI literatures \cite{Ackerman2000,Bowers1994,Niazkhani2009} have shown that introducing technology system to support organisational work may be extremely difficult. Use of technologies may have unexpected negative impact on human team performance. This thesis adopted three perspectives to view the potential undesirable impact of planning support technologies on human team performance. The first perspective concerns socio-technical gaps that are often found in design and development of CSCW (Computer Supported Cooperative Work) systems. The second perspective is related to challenges with automation design, which concerns what and how to automate a working process by using computational systems. The third persopective raised from the research of human agent interaction, which focuses on building software agent that is capable of teamworking with human operators. This section will review the three perspectives to give an conceptual background of design challenges that we may encounter when developing DR task planning support.\\
 
 
-\subsection{A social-technical perspective to technology support}
+\section{A socio-technical perspective to technology support}
+
+% situated action 
+\subsection{Socio-technical systems}
 A so-called socio-technical gaps that are often found in design and development of CSCW (Computer Supported Cooperative Work). The research field of CSCW addresses how collaborative activities can be supported by means of computer systems \cite{Carstensen1999}.  CSCW goes beyond building technology itself and investigates how people work within groups and organizations and the impacts of technology on those processes. The term socio-technical systems was originally coined by Emery and Trist \cite{Ropohl1999} to describe systems that involves complex interactions between humans, machines and the environmental aspects of the work system. The implication of this definition is that both social and technical factors e.g. people, machines and context need to be considered when developing such systems. Introducing a technology support system into an organization requires the technical and social aspects to be integrated, which can be a major challenge of building CSCW systems \cite{Ackerman2000}. \\
 
 Researchers have recognised a so called socio technical gap in many CSCW systems. It is argued that \cite{Ackerman2000}  human activities is highly flexible, nuanced, and contextualized and that computational processes and entities such as information transfer, roles, and policies need to be similarly flexible. The social-technical gap is the divide between what we know we should support socially and what we can support technically \cite{Ackerman2000}, and the gap may result in serious negative impact on human activities. \cite{Bowers1994,Abbott1994a}. Therefore, it is vital to study technology in use to understand potential tensions between technical mechanism and social life \cite{Bowers1994}.  In the context of disaster response, we believe the same is true for the application of agent-based planning support. Empirical works \cite{Petrescuprahova2005,Kopena2008,Fischer2015,Zerger2003} have revealed the complexity of social and technological processes in disaster response operations. Responders with different roles have to engage in the various interdependent activities that are distributed in both time and space (see section \ref{sec:lrplanning}). To build agent-based systems that support human team coordination, exploration of such social-technical gap and its impact can be vital. \\ 
 
+\subsection{The socio-technical gap for planning support system}
 %For the purpose of designing usable and useful computer systems for cooperative work settings we need to know what makes work situations complex to competent actors and how computer systems may be of assistance to reduce or otherwise cope with this complexity. 
+Cognitive science treats a plan as a sequence of actions designed  to achieve a goal. The actions can be seen as a path from initiate to a desirable end state. In this view, situations are the conditions that impedes the advance of the actors to their goal state, and the unanticipated actions (or contingencies) will require a replanning. This model of planning is typically held by the AI researchers for developing a intelligent problem-solving system that help support human planning. \\
+
+
+Most researchers of Artificial Intelligence adopted a view of planning \\
+
+\subsection{Design ethnography}
+
+
+\section{Other perspectives to technology support}
 
 
 \subsection{Automation and its impact on human performance}
@@ -200,7 +217,7 @@ Through reviewing HCI research from three perspectives (The CSCW and automation 
 
 
 
-\section{Games for studing disaster response} \label{sec:LRMRgame}
+\section{Game as an approach to study human system interaction } \label{sec:LRMRgame}
 This PhD work adopts serious mixed reality game approach to investigate the socio-technical surrounding agent planning support for disaster response operations. This section will firstly review the literatures of serious games to give an overview of history and applications of serious games. In section \ref{sec:LRMRgame}, mixed reality game (MRG) will be introduced, followed by discussion of the potential for using MRGs to support ethnographic study of ubiquitous systems, which underpins rationale of the serious MRG approach applied in this PhD study.\\ 
 
 
