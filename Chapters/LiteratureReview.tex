@@ -1,7 +1,7 @@
 %*****************************************
 \chapter{Task planning in disaster response}\label{ch:literatures}
 %*****************************************
-The overarching background of this thesis is disaster management, of which the Disaster Response (DR) is one particular period immediately aftermath the disaster impact. This chapter will review the research areas that are related to design and development of task planning support system for DR. First, the section \ref{sec:lrplanning} reviews the relevant literatures to develop an understanding of planning practices in DR operations. In particular, the task planning activities in DR operations are mostly embedded in a command and control(C2) environment. The section \ref{sec:LRC2} reviews the relevant empirical studies to gain insight into characteristics of C2 work setting. Second, practitioners have developed various technology support systems for disaster response. The section \ref{sec:LRApplicationAreas} gives an overview of technical practices in DR in the context of three detailed application areas, which includes GIS-based planning support, ICT (Information and Communication Technologies) systems and AI-based technologies. Third, empirical studies of technologies in use have showed that the ill-designed technology support may have negative impact on human workflow. In section \ref{sec:LRSocialTechnical}, we review the literatures in three sub domains (CSCW,Automation design,and Human agent interaction) of HCI to develop an understanding of the design challenges of technological support system.  Further, studying technological support with real world disaster could be very challenging because disasters conditions can not be reproduced easily. Therefore, researchers have long been using gaming as an approach for studying the impact of technology support.  The section \ref{sec:LRMRgame} reviews the strengths and weakness of using game as an approach for studying disaster work setting. \\
+The overarching background of this thesis is disaster management, of which the Disaster Response (DR) is one particular period immediately aftermath the disaster impact. This chapter will review the research areas that are related to design and development of task planning support system for DR. First, the section \ref{sec:lrplanning} reviews the relevant literatures to develop an understanding of planning practices in DR operations. In particular, the task planning activities in DR operations are mostly embedded in a command and control(C2) environment. The section \ref{sec:LRC2} reviews the relevant empirical studies to gain insight into characteristics of C2 work setting. Second, practitioners have developed various technology support systems for disaster response. The section \ref{sec:LRApplicationAreas} gives an overview of technical practices in DR in the context of three detailed application areas, which includes GIS-based planning support, ICT (Information and Communication Technologies) systems and AI-based technologies. Third, empirical studies of technologies in use have showed that the ill-designed technology support may have negative impact on human workflow. \\
 
 % The author believe this PhD work can contribute to bridging of two gaps identified in the literatures.
 % Firstly, The DR task planning support sits in an unexplored gap between other related technology application domains. Now days, advances in information and communication technologies (ICT)  have brought increasing number of networked computers, sensors and the vast amount of data are generated from different sources during DR, in real time. Artificial Intelligent (AI) researchers have also devised lots of intelligent algorithms which enable computers to process real time data and make sense of the disaster environment. Arguably, the technological advances have created opportunity space for task planning support in DR, but the real world system in this domain are still rare. Although traditional computational support for planning has been studied for decades in various application domains, further research for the DR planning support are still required for addressing specific challenges raised from DR domain such as time pressure and uncertainty handling. \\
@@ -135,33 +135,79 @@ This section have reviewed technological practices related to planning support i
 
 In the overlapping area of the three application domains, there is an opportunity space for real time task planning support in DR domain. The planning support system can utilise ICT technologies as its underlying infrastructures and apply intelligent coordination algorithms for plan generation. However, the literatures for building such a system are still rare, leaving a gap in literatures. This thesis is aimed to bridge the gap by studying the design and development of such DR planning support system.\\
 
-\chapter{Relationship between Human and Technology Support}
+\chapter{Interaction between Human and Planning support system}
 
+Applying task planning to support complex disaster response operations may not be a straightforward process. Some HCI literatures \cite{Ackerman2000,Bowers1994,Niazkhani2009} have shown that introducing technology system to support organisational work may be extremely difficult. Use of technologies may have unexpected negative impact on human team performance. This thesis adopted a socio-technical view towards the undesirable impact of planning support technologies on human team performance. Particularly in planning support system, the socio-technical perspective concerns with issues the emerge form the gap between the human , system problem solving, namely the divide between a situated actions of human and cognitive planning model held by system [suchman]. Meanwhile, other two HCI researcher areas are particularly concerned with human system interaction. First, the research of automation design  concerns what and how to automate a working process by using computational systems. Second, the research of human agent interaction focuses on building software agent that is capable of teamworking with human operators. This section will review the three perspectives to give an conceptual background of design challenges that we may encounter when developing DR task planning support.\\
 
-
-
-Applying task planning to support complex disaster response operations may not be a straightforward process. Some HCI literatures \cite{Ackerman2000,Bowers1994,Niazkhani2009} have shown that introducing technology system to support organisational work may be extremely difficult. Use of technologies may have unexpected negative impact on human team performance. This thesis adopted three perspectives to view the potential undesirable impact of planning support technologies on human team performance. The first perspective concerns socio-technical gaps that are often found in design and development of CSCW (Computer Supported Cooperative Work) systems. The second perspective is related to challenges with automation design, which concerns what and how to automate a working process by using computational systems. The third persopective raised from the research of human agent interaction, which focuses on building software agent that is capable of teamworking with human operators. This section will review the three perspectives to give an conceptual background of design challenges that we may encounter when developing DR task planning support.\\
+Further, studying human system interactions in real world disaster could be very challenging because disasters conditions can not be reproduced easily. Therefore, researchers have long been using gaming as an approach for studying the impact of technology support.  The section \ref{sec:LRMRgame} reviews the strengths and weakness of using game as an approach for studying disaster work setting. \\
 
 
 \section{A socio-technical perspective to technology support}
 
-% situated action 
-\subsection{Socio-technical systems}
 A so-called socio-technical gaps that are often found in design and development of CSCW (Computer Supported Cooperative Work). The research field of CSCW addresses how collaborative activities can be supported by means of computer systems \cite{Carstensen1999}.  CSCW goes beyond building technology itself and investigates how people work within groups and organizations and the impacts of technology on those processes. The term socio-technical systems was originally coined by Emery and Trist \cite{Ropohl1999} to describe systems that involves complex interactions between humans, machines and the environmental aspects of the work system. The implication of this definition is that both social and technical factors e.g. people, machines and context need to be considered when developing such systems. Introducing a technology support system into an organization requires the technical and social aspects to be integrated, which can be a major challenge of building CSCW systems \cite{Ackerman2000}. \\
 
 Researchers have recognised a so called socio technical gap in many CSCW systems. It is argued that \cite{Ackerman2000}  human activities is highly flexible, nuanced, and contextualized and that computational processes and entities such as information transfer, roles, and policies need to be similarly flexible. The social-technical gap is the divide between what we know we should support socially and what we can support technically \cite{Ackerman2000}, and the gap may result in serious negative impact on human activities. \cite{Bowers1994,Abbott1994a}. Therefore, it is vital to study technology in use to understand potential tensions between technical mechanism and social life \cite{Bowers1994}.  In the context of disaster response, we believe the same is true for the application of agent-based planning support. Empirical works \cite{Petrescuprahova2005,Kopena2008,Fischer2015,Zerger2003} have revealed the complexity of social and technological processes in disaster response operations. Responders with different roles have to engage in the various interdependent activities that are distributed in both time and space (see section \ref{sec:lrplanning}). To build agent-based systems that support human team coordination, exploration of such social-technical gap and its impact can be vital. \\ 
 
 \subsection{The socio-technical gap for planning support system}
+In the context of planning support, the socio-technical gap can be specifically originated from the different ways in which human and system plan and act. The view of purposeful action is adopted by many researchers and designers of intelligent systems, serving as the model of plan and action that is embedded in lots of problem solving systems []. On this view, plan is a prerequisite of and prescribe to action. The view of purposeful action is also embraced by behavioural science as the basis for traditional view of rational human actions. However, the view of purposeful action is challenged by recent trends in sociology, arguing that prescriptive significance of plans and intentions for action is quite vague. Rather then determining the actions, the plans only serve as resource for human's practical deliberation about action [].\\  
+
+\subsubsection{Planning model embedded in problem solving systems }
+% The machine planning 
+% The planning model, on which most system have been build on. Plan generation, replan, 
+The view of purposeful action underpins the planning model form cognitive science. The planning model is embedded many of xxx. The model treats a plan as a sequence of actions to achieve an end goal. In problem solving systems, actions are described by prerequiestes, effects () , and decomposition [Allen , 1984:126]. The situation of action is the conditions that hinders the actors' movement to the end goal status. Some problem solving systems is only designed for plan generation. When a plan is constructed, the problem solves finished their work, assuming nothing will go wrong. However, contingent situations (or unanticipated conditions) will emerge, requiring  [MCcCorduck,1979] replanning. Therefore, modern antonymous systems (e.g. ) is typically designed to conduct planning and execution monitoring, which enable them to respond to contingent situations.\\
+
+% figure
+
+% Plan recognition to achieve xxx.
+The recent development in artificial intelligence (e.g. multi-agent systems) requires the planning model to be extended from individual agent to multi-agent situation. To achieve concerted actions in the social situation with multiple agents, the planning model seeks to attach the knowledge of other agent's plans and actions as a type of environmental condition for planning. In this way, the basic view of single, goal directed agent (e.g. BDI model of agents) is remain intact. To obtain the knowledge of other agent's plans, agents are required to conduct plan recognition in addition to planning and execution monitoring. The basic assumption of plan recognition that agents as observers take actions of each other as evidence to form hypothesis of plans that explain intentions and actions of each other.  \\
+
+The planning model is problematic when it is applied as model of human's ``psychological process'' of action. Xxx studies have pointed out in many occasions human actions do not appear to follow rational plans. Researchers of cognitive science argued that the issue is due to actions under vague intents and incomplete plans. As a result, the human planning activity is often inferior version of scientific planning that need to be supported. However, many sociologists challenge the view by refuting the significance of plans in determining actions. The key argument arguing that the human action is essentially situated, not planned, which will be detailed in next section.\\ 
+
+\subsubsection{Situated actions of humans}
+% The human planning
+% Situated actions, suchman argued it is what human follows
+% Plan is just a representation of situated actions, and why it is always mistakenly treated as rational. 
+In contrast to problem solving systems, recent efforts in sociology argue that human perform in . The argument adopts the view of situated action as oppose to the view of purposeful action held by AI researchers. The starting point of argument is that the plan does not prescribe the actions. The plans are part of a large context of circumstance of ongoing actions, serving as a resource for deliberation on actions.\\
+
+In the view of situated action, the plans are only representations of our actions in the form of imagined projection and recollected reconstructions, which does not have causal relation to the actions we take. Psychologists (Mead's) suggested, although a great deal of deliberation, discussion can be taken into the plan, our plans can stop short of our actual actions. And our post hoc analysis of situated actions often make it appears to have followed rational plans. \\
+
+In contrast to plan recognition, mutual intelligibility in a social situation is not achieved by using logical formulae and formal algorithms based on behavioural observation. Instead, situated actions are highly dependent on specific occasions circumstances and social situations. Mutual intelligibility is sustained through every instance of interaction, rather than fixed social rules and constraints.\\
+
+% Situation is achieved 
+
+\subsection{Summary}
+The great divide between planning model embedded in many problem solving systems, and situated actions performed by humans signifies the issues of human system interaction in complex socio-technical systems such as disaster response management (Table \ref{tab:planningcontrast}). In contrast to fully autonomous system, computational support system have to interact with human to achieve mutual intelligibility and concerted actions. It is important to recognise the common sense planning activities of human is not a inadequate version of scientific planning model that need to be improved or supported by systems. Instead, human plans and acts in a way that is fundamentally different from machine problem solving. Therefore, a big challenge in designing technology support is how to bridge the socio-technical gap between situated action and scientific planning model.\\
+
+\begin{table}[h]
+\centering
+\footnotesize
+
+\label{my-label}
+\begin{tabular}{l|ll}
+                 & Plan                                                                                                                           & Interaction                                                                                                                                                                                               \\ \hline
+Planning model   & \begin{tabular}[c]{@{}l@{}}Prerequisite of to and \\ prescribe to actions.\end{tabular}                                        & \begin{tabular}[c]{@{}l@{}}Shared understanding is achieved \\ through plan recoginition.\\ Plan recgnition is achieved by \\ logical formelae based on \\ observations of other's behaviour\end{tabular} \\
+Situated actions & \begin{tabular}[c]{@{}l@{}}Do not prescribe actions.\\ Resource of deliberation \\ and Representation of actions.\end{tabular} & \begin{tabular}[c]{@{}l@{}}Mutual intelligently is achieved\\  through interactions embedded\\  in the social situations.\end{tabular}                                                                   
+\end{tabular}
+\caption{Planning model and situated action}
+\label{tab:planningcontrast}
+\end{table}
+ 
+% (status of plan) The plan is essentially the simulation of actions
+
+% Situated actions of human is inadaquate version of scientific plannning
+
+% The gap  
+% a table for contrasting 
+% System is ok to follow, achieve a goal through comprehaisve search of solution space. It would be ok for fully autonmous. When in the situation of social technical system 
+
 %For the purpose of designing usable and useful computer systems for cooperative work settings we need to know what makes work situations complex to competent actors and how computer systems may be of assistance to reduce or otherwise cope with this complexity. 
-Cognitive science treats a plan as a sequence of actions designed  to achieve a goal. The actions can be seen as a path from initiate to a desirable end state. In this view, situations are the conditions that impedes the advance of the actors to their goal state, and the unanticipated actions (or contingencies) will require a replanning. This model of planning is typically held by the AI researchers for developing a intelligent problem-solving system that help support human planning. \\
+
+% Instructions 
+% Human to Human
+% Expert system
 
 
-Most researchers of Artificial Intelligence adopted a view of planning \\
-
-\subsection{Design ethnography}
-
-
-\section{Other perspectives to technology support}
+\section{Other perspectives of human system interaction}
 
 
 \subsection{Automation and its impact on human performance}
