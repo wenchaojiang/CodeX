@@ -28,53 +28,53 @@ Repeated entry---line 1 of file Approach.bib
  :                    ,
 I'm skipping whatever remains of this entry
 Database file #3: LR.bib
-Repeated entry---line 55 of file LR.bib
- : @article{Ackerman2000
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 77 of file LR.bib
- : @incollection{Bradshaw2011
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 133 of file LR.bib
- : @article{Benford2005
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 250 of file LR.bib
+Repeated entry---line 17 of file LR.bib
  : @article{Armenakis2012
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 316 of file LR.bib
- : @article{Drury2009
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 372 of file LR.bib
- : @article{Fischer2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 602 of file LR.bib
+Repeated entry---line 81 of file LR.bib
  : @inproceedings{Crabtree2004
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 741 of file LR.bib
+Repeated entry---line 366 of file LR.bib
  : @article{Crabtree2006
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 790 of file LR.bib
- : @article{Toups2011
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 845 of file LR.bib
- : @article{Chen2005
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 888 of file LR.bib
+Repeated entry---line 415 of file LR.bib
  : @inproceedings{Flintham2003
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1026 of file LR.bib
+Repeated entry---line 561 of file LR.bib
+ : @article{Toups2011
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 636 of file LR.bib
+ : @article{Ackerman2000
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 716 of file LR.bib
  : @inproceedings{Sarcevic2012
  :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 773 of file LR.bib
+ : @article{Benford2005
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 782 of file LR.bib
+ : @incollection{Bradshaw2011
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 825 of file LR.bib
+ : @article{Drury2009
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 841 of file LR.bib
+ : @article{Fischer2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1058 of file LR.bib
+ : @article{Chen2005
+ :                  ,
 I'm skipping whatever remains of this entry
 Database file #4: Study1.bib
 Repeated entry---line 9 of file Study1.bib
@@ -185,45 +185,45 @@ Warning--empty journal in Susi2007
 Warning--there's a number but no volume in Sutton2008
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 119 entries,
+You've used 122 entries,
             1935 wiz_defined-function locations,
-            1235 strings with 26966 characters,
-and the built_in function-call counts, 49369 in all, are:
-= -- 4857
-> -- 2155
-< -- 102
-+ -- 731
-- -- 728
-* -- 4077
-:= -- 8475
-add.period$ -- 351
-call.type$ -- 119
-change.case$ -- 952
-chr.to.int$ -- 116
-cite$ -- 148
-duplicate$ -- 1944
-empty$ -- 3267
-format.name$ -- 919
-if$ -- 9744
+            1254 strings with 27286 characters,
+and the built_in function-call counts, 50542 in all, are:
+= -- 4981
+> -- 2183
+< -- 106
++ -- 739
+- -- 736
+* -- 4165
+:= -- 8668
+add.period$ -- 360
+call.type$ -- 122
+change.case$ -- 971
+chr.to.int$ -- 119
+cite$ -- 151
+duplicate$ -- 1996
+empty$ -- 3356
+format.name$ -- 932
+if$ -- 9986
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 117
-newline$ -- 583
-num.names$ -- 361
-pop$ -- 906
+missing$ -- 120
+newline$ -- 598
+num.names$ -- 370
+pop$ -- 921
 preamble$ -- 1
-purify$ -- 958
+purify$ -- 977
 quote$ -- 0
-skip$ -- 1556
+skip$ -- 1600
 stack$ -- 0
-substring$ -- 3145
-swap$ -- 381
-text.length$ -- 41
+substring$ -- 3241
+swap$ -- 394
+text.length$ -- 43
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 702
+type$ -- 720
 warning$ -- 29
-while$ -- 410
+while$ -- 424
 width$ -- 0
-write$ -- 1490
+write$ -- 1529
 (There were 32 error messages)

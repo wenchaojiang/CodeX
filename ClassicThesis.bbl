@@ -24,6 +24,11 @@ Allen, J.~E., Guinn, C.~I., and Horvtz, E. (1999).
 \newblock {Mixed-initiative interaction}.
 \newblock {\em IEEE Intelligent Systems}, 14(5):14--23.
 
+\bibitem[Allen, 1984]{Allen1984}
+Allen, J.~F. (1984).
+\newblock {Towards a general theory of action and time}.
+\newblock {\em Artificial Intelligence}, 23(2):123--154.
+
 \bibitem[Armenakis, 2012]{Armenakis2012}
 Armenakis, C. (2012).
 \newblock {Systems approach to management of disasters: methods and
@@ -239,6 +244,11 @@ Geertman, S. and Stillwell, J. (2004).
 \newblock {Planning support systems: an inventory of current practice}.
 \newblock {\em Computers, Environment and Urban Systems}, 28(4):291--310.
 
+\bibitem[Georgeff et~al., 1999]{Georgeff1999}
+Georgeff, M., Pell, B., and Pollack, M. (1999).
+\newblock {The belief-desire-intention model of agency}.
+\newblock {\em Intelligent Agents V: \ldots}, pages 1--10.
+
 \bibitem[Goodrich et~al., 2001]{Goodrich2001a}
 Goodrich, M.~A., Jr, D. R.~O., Crandall, J.~W., and Palmer, T.~J. (2001).
 \newblock {Experiments in Adjustable Autonomy Robot Effectiveness Neglect}.
@@ -377,6 +387,11 @@ Manzey, D. and Onnasch, L. (2012).
 \newblock {Human Performance Consequences of Automated Decision Aids : The
   Impact of Degree of Automation and System Experience}.
 \newblock {\em Human Factors}, 6(1):57--87.
+
+\bibitem[Mead and Mind, 1934]{Mead1934}
+Mead, G. and Mind, H. (1934).
+\newblock {Self and society}.
+\newblock {\em Chicago: University of Chicago}, pages 1--8.
 
 \bibitem[Meesters and van~de Walle, 2013]{Meesters2013}
 Meesters, K. and van~de Walle, B. (2013).
@@ -541,7 +556,7 @@ Scerri, P., Farinelli, A., Okamoto, S., and Tambe, M. (2005b).
 
 \bibitem[Schooley et~al., 2010]{Schooley2010}
 Schooley, B., Hilton, B., Lee, Y., Mcclintock, R., Olusola, S.-o., Horan, T.,
-  Schooley, B., Hilton, B., Lee, Y., Mcclintock, R., and Horan, T. (2010).
+  Schooley, B., Mcclintock, R., and Horan, T. (2010).
 \newblock {CrashHelp : A GIS Tool for Managing Emergency Medical Responses to
   Motor Vehicle Crashes}.
 \newblock (May):1--11.
