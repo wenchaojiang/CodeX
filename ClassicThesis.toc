@@ -81,10 +81,11 @@
 \contentsline {subsection}{\numberline {6.4.3}Local coordination without HQ}{94}{subsection.6.4.3}
 \contentsline {subsection}{\numberline {6.4.4}Remote messages as a resource of situational awareness}{97}{subsection.6.4.4}
 \contentsline {section}{\numberline {6.5}Discussion}{99}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Division of labour and its implications on computational support}{100}{subsection.6.5.1}
-\contentsline {subsection}{\numberline {6.5.2}Breakdown of remote coordination}{101}{subsection.6.5.2}
-\contentsline {section}{\numberline {6.6}Design Requirements}{102}{section.6.6}
-\contentsline {section}{\numberline {6.7}Summary}{105}{section.6.7}
+\contentsline {subsection}{\numberline {6.5.1}Division of labour}{100}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Breakdown of remote coordination}{100}{subsection.6.5.2}
+\contentsline {subsection}{\numberline {6.5.3}Implications on computational support}{101}{subsection.6.5.3}
+\contentsline {section}{\numberline {6.6}Design Requirements}{103}{section.6.6}
+\contentsline {section}{\numberline {6.7}Summary}{106}{section.6.7}
 \contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {AtomicOrchid Study 2: The Human On-the-loop Design}}{107}{chapter.7}
 \contentsline {section}{\numberline {7.1}Introduction}{107}{section.7.1}
 \contentsline {section}{\numberline {7.2}System Evolution}{109}{section.7.2}
@@ -139,33 +140,33 @@
 \contentsline {section}{\numberline {8.8}Summary}{177}{section.8.8}
 \contentsline {part}{iv\hspace {1em}\spacedlowsmallcaps {Conclusion}}{180}{part.4}
 \contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Conclusion}}{181}{chapter.9}
-\contentsline {section}{\numberline {9.1}Summary of approach}{181}{section.9.1}
-\contentsline {section}{\numberline {9.2}Summary of interface evolutions}{182}{section.9.2}
-\contentsline {section}{\numberline {9.3}Summary of contributions}{186}{section.9.3}
-\contentsline {section}{\numberline {9.4}Summary of soicio-techical issues}{189}{section.9.4}
-\contentsline {subsection}{\numberline {9.4.1}Division of labour}{189}{subsection.9.4.1}
-\contentsline {subsection}{\numberline {9.4.2}Establishing Common Ground}{192}{subsection.9.4.2}
-\contentsline {subsection}{\numberline {9.4.3}Faciliating Accountability}{194}{subsection.9.4.3}
-\contentsline {section}{\numberline {9.5}Limitation}{195}{section.9.5}
-\contentsline {section}{\numberline {9.6}future work}{196}{section.9.6}
-\contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Appendix}}{200}{part.5}
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix to AtomicOrchid implementation}}{201}{appendix.A}
-\contentsline {section}{\numberline {A.1}System log format}{201}{section.A.1}
-\contentsline {section}{\numberline {A.2}Agent-server protocol}{201}{section.A.2}
-\contentsline {chapter}{\numberline {B}\spacedlowsmallcaps {Appendix to study 1}}{202}{appendix.B}
-\contentsline {section}{\numberline {B.1}Participant demographic}{202}{section.B.1}
-\contentsline {section}{\numberline {B.2}Message logs}{202}{section.B.2}
-\contentsline {section}{\numberline {B.3}Game event visualisation}{202}{section.B.3}
-\contentsline {section}{\numberline {B.4}Game area and set-up}{202}{section.B.4}
-\contentsline {chapter}{\numberline {C}\spacedlowsmallcaps {Appendix to study 2}}{203}{appendix.C}
-\contentsline {section}{\numberline {C.1}Participant demographic}{203}{section.C.1}
-\contentsline {section}{\numberline {C.2}Message logs}{203}{section.C.2}
-\contentsline {section}{\numberline {C.3}Game event visualisation}{203}{section.C.3}
-\contentsline {section}{\numberline {C.4}Game area and set-up}{203}{section.C.4}
-\contentsline {chapter}{\numberline {D}\spacedlowsmallcaps {Appendix to study 3}}{204}{appendix.D}
-\contentsline {section}{\numberline {D.1}Participant demographic}{204}{section.D.1}
-\contentsline {section}{\numberline {D.2}Message logs}{204}{section.D.2}
-\contentsline {section}{\numberline {D.3}Game event visualisation}{204}{section.D.3}
-\contentsline {section}{\numberline {D.4}Game area and set-up}{204}{section.D.4}
+\contentsline {section}{\numberline {9.1}Summary of contributions}{182}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Interface evolutions}{183}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Key observations}{186}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {9.1.3}Interactional issues}{189}{subsection.9.1.3}
+\contentsline {subsubsection}{\numberline {9.1.3.1}Division of labour}{189}{subsubsection.9.1.3.1}
+\contentsline {subsubsection}{\numberline {9.1.3.2}Establishing Common Ground}{192}{subsubsection.9.1.3.2}
+\contentsline {subsubsection}{\numberline {9.1.3.3}Faciliating Accountability}{194}{subsubsection.9.1.3.3}
+\contentsline {section}{\numberline {9.2}Limitation}{195}{section.9.2}
+\contentsline {section}{\numberline {9.3}future work}{196}{section.9.3}
+\contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Appendix}}{199}{part.5}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix to AtomicOrchid implementation}}{200}{appendix.A}
+\contentsline {section}{\numberline {A.1}System log format}{200}{section.A.1}
+\contentsline {section}{\numberline {A.2}Agent-server protocol}{200}{section.A.2}
+\contentsline {chapter}{\numberline {B}\spacedlowsmallcaps {Appendix to study 1}}{201}{appendix.B}
+\contentsline {section}{\numberline {B.1}Participant demographic}{201}{section.B.1}
+\contentsline {section}{\numberline {B.2}Message logs}{201}{section.B.2}
+\contentsline {section}{\numberline {B.3}Game event visualisation}{201}{section.B.3}
+\contentsline {section}{\numberline {B.4}Game area and set-up}{201}{section.B.4}
+\contentsline {chapter}{\numberline {C}\spacedlowsmallcaps {Appendix to study 2}}{202}{appendix.C}
+\contentsline {section}{\numberline {C.1}Participant demographic}{202}{section.C.1}
+\contentsline {section}{\numberline {C.2}Message logs}{202}{section.C.2}
+\contentsline {section}{\numberline {C.3}Game event visualisation}{202}{section.C.3}
+\contentsline {section}{\numberline {C.4}Game area and set-up}{202}{section.C.4}
+\contentsline {chapter}{\numberline {D}\spacedlowsmallcaps {Appendix to study 3}}{203}{appendix.D}
+\contentsline {section}{\numberline {D.1}Participant demographic}{203}{section.D.1}
+\contentsline {section}{\numberline {D.2}Message logs}{203}{section.D.2}
+\contentsline {section}{\numberline {D.3}Game event visualisation}{203}{section.D.3}
+\contentsline {section}{\numberline {D.4}Game area and set-up}{203}{section.D.4}
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{205}{dummy.6}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{204}{dummy.6}

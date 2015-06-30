@@ -1,28 +1,33 @@
 \chapter{Conclusion}
-This chapter briefly summarises the approach of this thesis, and then goes on to sum up the key findings from the field works. Finally, the thesis concludes with limitations and an outlook on future work that this thesis might inspire.\\
-
-
-\section{Summary of contributions}
-\begin{enumerate}
-  \item[A] A real-world interactive prototype (i.e. AtomicOrchid) and trials to investigate team coordination in a disaster response settings.
-  \item[B] The field observation of serious game trials leads to enriched understanding of interactional issues surrounding automated planning support in the complex collaborative work setting of DR domain.
-  \item[C] For each study, field observations are further analysed to generate design implication which contribute to future deployment of automated planning support system. 
-\end{enumerate}
-
-
-This PhD work use Mixed reality game - AtomicOrchid as a testbed to probe the design implications for agent planning support system. Field trials were conducted for the three versions of AtomicOrchid game with different interaction design patterns. The first one is a non agent version of the game. The second and third studies are planned to probe two interaction design patterns (On-the-loop and In-the-loop). Video and system logs of the field trails has been collected and interaction analysis has been conducted to generate requirements and interaction design implications. \\
-
-Three studies are carried out iteratively. The AtomicOrchid system evolves throughout the three studies. The interaction design for the study 2 and 3 follows the design patterns (On-the-loop and In-the-loop), but are also inspired by key observations from previous studies. The key observations leads to both interactional issues and detailed system requirements which inspires system evolution across the three trials (see figure \ref{fig:connections}).  The section \ref{sec:conclusionIE}  will give details about how the system evolves and the interface design rationales. The interactional issues emerged from field observations will be detailed in section\ref{sec:conclusionIssue}. 
+To sum up, this PhD work use Mixed reality game - AtomicOrchid as a testbed to probe the design implications for agent planning support system. Field trials were conducted for the three versions of AtomicOrchid game with different interaction design patterns (Figure \ref{fig:connections}). The first prototype is a non agent version of the game. The second and third studies are planned to probe two interaction design patterns (On-the-loop and In-the-loop). Video and system logs of the field trials has been collected and interaction analysis has been conducted to generate requirements and interaction design implications. \\
 
 \begin{figure}[H]
   \centering
   \includegraphics[width=1\textwidth]{img/conclusion/studies}
   \caption{Interface evolutions}
-  \label{fig:evolvements}
+  \label{fig:connections}
 \end{figure}
 
-\subsection{Summary of interface evolutions}\label{sec:conclusionIE}
-The section presents the interface evolutions of AtomicOrchid interface across three field studies and the design rationales behind it. The initial interface of AtomicOrchid (used in 1st study) is designed to display game status and provide broadcasting channel to support communication. In the first study, the control room is manned by 2-3 HQ players. Every HQ shares a same interface which shows game status on a map. A chat box is provided to send and receive broadcasting messages. The mobile interface is used by field responders. The responders share a same map with HQ, which displays game status with the exception of radioactive cloud. The messaging interface is placed in another tab.(see figure \ref{fig:study1interface})\\ 
+The following sections summarise the contributions of the thesis, and then concludes the thesis with limitations and an outlook on future work that this thesis might inspire.\\
+
+
+\section{Summary of contributions}
+Overall, the thesis has three contributions to the interaction design of planning support system for disaster response teams:\\
+
+\begin{enumerate}
+  \item[A] \textbf{The system prototypes.} Real-world interactive prototypes (i.e. AtomicOrchid) for investigating human-system interaction in a disaster response settings. A iterative prototyping process is conducted throughout the three AtomicOrchid studies, which results in interactive prototypes of planning support systems. On one hand, the prototyping process is guided by the the interaction patterns generalized form LoA models (). On the other hand, the system evolution  are also inspired by key observations from previous studies. 
+  
+  \item[B] \textbf{The observation.} The field observation of serious game trials generate thick descriptions of human system interaction in the work settings of DR. The key observations lead to both interactional issues and detailed system requirements which inspires system evolution across the three trials (Figure \ref{fig:connections}).
+  
+  \item[C] \textbf{The interactional issues and design implications.} For each study, field observations are further analysed to enrich our understanding of interactional issues surrounding automated planning support, and generate design implications which contribute to future deployment of automated planning support system in the complex collaborative work setting of DR domain. 
+\end{enumerate}
+
+The section \ref{sec:conclusionIE}  will give details about how the system evolves and the interface design rationales, followed by a summary of key observations in section \ref{sec:conclusionOB}The interactional issues emerged from field observations will be detailed in section\ref{sec:conclusionIssue}. \\
+
+
+
+\subsection{Interface evolutions}\label{sec:conclusionIE}
+The section presents the interface evolutions of AtomicOrchid interface across three field studies and the design rationales behind it. The initial interface of AtomicOrchid (used in 1st study) is designed to provide basic coordination support by displaying game status and providing broadcasting channel for communication. The control room is manned by 2-3 HQ players. Every HQ uses a same interface which shows game status on a map. A chat box is provided to send and receive broadcasting messages. A mobile interface is used by field responders. The responders share a same map with HQ, which displays game status with the exception of radioactive cloud. The messaging interface is placed in another tab. (Figure \ref{fig:study1interface})\\ 
 
 \begin{figure}[H]
   \centering
@@ -39,7 +44,7 @@ The 1st study discovered several flaws of the initial interface, which leads to 
 	 \item The interface should provide support for geo-reference.
 \end{enumerate}
 
-A set of changes in the 2ed version (used in study 2) of AtomicOrchid are partly inspired by the requirements (see figure \ref{fig:study2interface}). In 2rd version, all targets are identified by unique task ids to support geo-referencing. Text messages in broadcasting channel are labelled by time stamp to flag potentially outdated information. With introduction of planning agent, the interface also supports quick feedback to the agent with one button press. To integrate agent planning support, a new tab (``task'') in implemented in the mobile app to show a text-based description of agent task-assignment. In HQ interface, the agent assignments can be revealed on request of the HQ players (HQ clicking on "show task" button).\\
+The second prototype is designed to integrate a planning support agent with an On-the-loop design pattern, in which HQ only monitors task allocation and execution with infrequent intervention. A set of changes in the second version (used in study 2) of AtomicOrchid are partly inspired by the requirements (see figure \ref{fig:study2interface}). In this version, all targets are identified by unique task ids to support geo-referencing. Text messages in broadcasting channel are labelled by time stamp to flag potentially outdated information. With introduction of planning agent, the interface also supports quick feedback to the agent with one button press. With the integration of agent planning support, a new tab (``task'') in implemented in the mobile app to show a text-based description of agent task-assignment. In HQ interface, the agent assignments can be revealed on request of the HQ players (HQ clicking on "show task" button).\\
 
 \begin{figure}[H]
   \centering
@@ -48,7 +53,8 @@ A set of changes in the 2ed version (used in study 2) of AtomicOrchid are partly
   \label{fig:study2interface}
 \end{figure}
 
-The result of the 2ed study revealed that interface level support for HQ intervention is missing in the 2ed version of AtomicOrchid. It is believed that the requirement for interface intervention support would also be important in the In-the-loop (the 3rd) study). Therefore, a task assignment (see figure \ref{fig:study3interfacemobile}) interface are introduced to enhance the HQ's ability to intervene the task planning. A task-specific communication channel is also introduced in the interface for players to avoid information overload in broadcasting channel. Compared to previous HQ interfaces, the operations on the task assignment interface is a lot more complicated. Therefore, one HQ player is dedicated to operate the interface and another player is provided with 2ed version of HQ interface by providing situational awareness and handling broadcasting messages. 
+%purpose of the third study , lead to the interface. and requirements.
+The result of the second study revealed that interface level support for HQ intervention is missing in the second version of AtomicOrchid. It is believed that the requirement for interface intervention support would also be important in the In-the-loop (the third) study). Therefore, a task assignment (see figure \ref{fig:study3interfacemobile}) interface are introduced to enhance the HQ's ability to intervene the task planning. A task-specific communication channel is also introduced in the interface for players to avoid information overload in broadcasting channel. Compared to previous HQ interfaces, the operations on the task assignment interface is a lot more complicated. Therefore, one HQ player is dedicated to operate the interface and another player is provided with second version of HQ interface to providing situational awareness and handling broadcasting messages. 
 
 \begin{figure}[H]
   \centering
@@ -57,7 +63,7 @@ The result of the 2ed study revealed that interface level support for HQ interve
   \label{fig:study3interfacehq}
 \end{figure}
 
-For mobile interface, the tabs of ``staus'' and ``chat'' kept unchanged from the version 2 (named ``map'' and ``messages''). The task interface is enhanced by a map-based presentation of task assignment and the task-specific chat box is displayed below the assignment (see figure \ref{fig:study3interfacemobile}.
+For mobile interface, the tabs of ``status'' and ``chat'' kept unchanged from the version 2 (named ``map'' and ``messages''). The task interface is enhanced by a map-based presentation of task assignment and the task-specific chat box is displayed below the assignment (see figure \ref{fig:study3interfacemobile}.
 
 \begin{figure}[H]
   \centering
@@ -67,13 +73,14 @@ For mobile interface, the tabs of ``staus'' and ``chat'' kept unchanged from the
 \end{figure}
 
 
-\subsection{Summary of key observations}
-This section will give a brief overview of the key observations from the three studies. First, the non-agent AtomicOrchid trial (study \ref{ch:studyone}) is aimed to give insight into how human conduct planning (without agent support) in the time and spatially constrained disaster settings and to generate general requirements of coordination support system which is also applicable to the next two agent-integrated version of AtomicOrchid. The result of interaction analysis showed the team planning is dominated by local coordination between field players with in an ``ad-hoc'' manner. The field teams managed organise their team and task allocations without conflicts. The HQ is found to successfully provide awareness of the ``danger zone'' to the field teams. However, they have little influence on the planning activities of the team. One potential reason could be the breakdown of communication between HQ and Field responders. The communication is thought to be affected by a set of factors including communication modalities (text vs voice), training level of players and HQ and system interface designs. A number of system requirements has also be introduced in the study 1 , which inspires system evolutions in the subsequent studies. \\
+\subsection{Key observations}\label{sec:conclustionOB}
+This section will give a brief overview of the key observations from the three studies. First, the non-agent AtomicOrchid trial (study \ref{ch:studyone}) is aimed to give insight into how human conduct planning (without agent support) in the time and spatially constrained disaster settings and to generate general requirements of coordination support system which can be applicable to the next two agent-integrated version of AtomicOrchid. The result of interaction analysis showed the team planning is dominated by local coordination between field players with in an ``ad-hoc'' manner. The field teams managed organise their team and task allocations without conflicts. The HQ is found to successfully provide awareness of the ``danger zone'' to the field teams. However, they have little influence on the planning activities of the team. One potential reason could be the breakdown of communication between HQ and Field responders. The communication is thought to be affected by a set of factors including communication modalities (text vs voice), training level of players and HQ and system interface designs. A number of system requirements has also be introduced in the study 1 , which inspires system evolutions in the subsequent studies. \\
 
 
-In study 2, a planning agent is integrated to the system with the Human On-the-loop interaction design. The general requirements from study 1 leads to a number of system improvements (see figure \ref{sec:conclusionIE}) in study 2, which help us to avoid non-agent related factors in field trials. Through interaction analysis, we gain insight into the division of labour between human and agent (see section \ref{sec:studytwointroduction}) in which the agent takes over routine planning activities while the human focus on other issues such as finding teammates, targets and choosing the best routes. However, there are also evidence showing the agent planning occasionally interrupts workflow of human team because it fails to consider social cost of task changes. We also observed HQ player struggled to influence the plan because the lack of interface level support. Further, a set of misconceptions in feedback loops (see section \ref{sec:studytwofeedback}) are also observed.\\
+In study 2, a planning agent is integrated to the system with the Human On-the-loop interaction design. The general requirements from study 1 leads to a number of system improvements (see figure \ref{sec:conclusionIE}) in study 2, which help us to avoid non-agent related factors in field trials. Through interaction analysis, we gain insight into the division of labour between human and agent (see section \ref{sec:studytwointroduction}) in which the agent takes over routine planning activities while the human focus on other issues such as finding teammates, targets and choosing the best routes. However, there are also evidence showing the agent planning occasionally interrupts workflow of human team potentially because it fails to consider social cost of task changes. We also observed HQ player struggled to influence the plan because the lack of interface level support. Further, a set of misconceptions in feedback loops (see section \ref{sec:studytwofeedback}) are also observed.\\
 
-In study 3, the system is evolved to facilitate In-the-loop interaction with the feedback from study 2. The main changes are a number of interface functionalities which enable HQ to approve, edit agent planning and monitor player feedbacks. Through observing the usage of this new functionalities in the control room, we found a new pattern division of labour between in which:
+In study 3, the system is evolved to facilitate In-the-loop interaction with the feedback from study 2. The main changes are a number of interface functionalities which enable HQ to approve, edit agent planning and monitor player feedbacks. Through observing the usage of this new functionalities in the control room, we observed a new pattern division of labour between in which:
+% is it found or just desgin
 	\begin{enumerate}
 	 \item The HQ decide when to perform re-plan.
 	 \item The HQ review every agent instruction for routine task planning.
@@ -81,13 +88,17 @@ In study 3, the system is evolved to facilitate In-the-loop interaction with the
 	 \item The Agent propose task allocation
 	\end{enumerate}
 	
-Field observation shows that task interruptions caused by the agent planning (observed in study 2) may have been reduced as a result of greater HQ involvement in the planning. Analysis of some failed cases of coordination also points out a number of issues, which highlights potential human performance consequences as a result of the greater HQ involvement in the planning. Some specific human errors are observed in HQ supervision. We found human HQ players sometimes quickly approve assignments without consideration of task interruptions caused by agent planning (section x). The HQ players also override (safer) agent plans to implement risky plans, which lead to player `death'. The errors indicates that stronger human involvement may come with undesirable performance consequence (e.g. complacency, uninformed decisions). Some of the observed undesirable human performance may arguably be a result of insufficient information sharing between human and agent. However, we also argue that the excessive information sharing may complicate interface and interactions between human and agent, which in turn, leads to information overload. Therefore, the trade-off may need to be carefully considered for interaction design. \\
+Field observation shows that task interruptions caused by the agent planning (observed in study 2) may have been reduced as a result of greater HQ involvement in the planning. Analysis of some failed cases of coordination also points out a number of issues,
+%leave it to the next section.
+
+
+which highlights potential human performance consequences as a result of the greater HQ involvement in the planning. Some specific human errors are observed in HQ supervision. We found human HQ players sometimes quickly approve assignments without consideration of task interruptions caused by agent planning (section x). The HQ players also override (safer) agent plans to implement risky plans, which lead to player `death'. The errors indicates that stronger human involvement may come with undesirable performance consequence (e.g. complacency, uninformed decisions). Some of the observed undesirable human performance may arguably be a result of insufficient information sharing between human and agent. However, we also argue that the excessive information sharing may complicate interface and interactions between human and agent, which in turn, leads to information overload. Therefore, the trade-off may need to be carefully considered for interaction design. \\
 
 Additionally, a number of interactional issues are also identified which including lack of forward planning support, lack of acknowledges and ineffectiveness of task cancellations. Possible solutions and design implications are discussed in section x \\
 
 
 
-\subsection{Summary of soicio-techical issues}\label{sec:conclusionIssue}
+\subsection{Interactional issues}\label{sec:conclusionIssue}
 There are a number of interactional issues emerged from the field observations of the three studies. This section will reflect on interactional issues related to 3 themes including Division of labour, common ground, and accountability.
 
 \subsubsection{Division of labour}\label{sec:conclusionHH}
@@ -124,6 +135,8 @@ To sum up, the reliability of agent could be one factor when considering interac
 
 
 \subsubsection{Establishing Common Ground} \label{sec:conclusionCG}
+%echos mutual intelligibility
+
 Establishing a common ground between human and agent has emerged as a common topic in discussions of both study 2 and study 3. The section will summaries the implications on establishing "Common Ground" from the two agent studies. The "common ground" could be improved from 2 aspects:  1) Appropriate interaction design which enable human operators to understand and influence the agent. 2) technical advancement in terms of algorithm and modelling techniques which enable agents to model human behaviours and process human feedbacks (e.g. agent being able to consider social cost of team reformation). The latter concerns about technical aspect of agent design which is beyond the scope of this PhD work. Therefore, this section will focus on building "Common ground" from the the perspective of interaction design. \\
 
 In both study 2 and 3, the agent behaves like a "black box" which gives the results (task allocation). The interface only exposes the results of agent for HQ to monitoring. Through our observations in chapter \ref{ch:studytwo}, \ref{ch:studythree}, we find there could be some extra information shared between human and agent to improve planning.\\
