@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  1 JUL 2015 18:09
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  2 JUL 2015 01:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -5803,17 +5803,17 @@ Underfull \hbox (badness 10000) in paragraph at lines 142--143
  []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 144--145
+
+ []
+
+
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [193]
 
-LaTeX Warning: Reference `' on page 194 undefined on input line 144.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--145
-
- []
+LaTeX Warning: Reference `' on page 194 undefined on input line 146.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 146--147
@@ -5831,15 +5831,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--151
  []
 
 
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[194]
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
 
  []
 
 
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[194]
 Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
@@ -5850,16 +5850,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 157--158
  []
 
 
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[195]
-Underfull \hbox (badness 10000) in paragraph at lines 160--161
+Underfull \hbox (badness 10000) in paragraph at lines 159--160
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 163--164
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[195]
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
 
@@ -5878,28 +5878,17 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [196]
-Underfull \hbox (badness 10000) in paragraph at lines 176--177
+Underfull \hbox (badness 10000) in paragraph at lines 169--170
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
 
-Overfull \hbox (7.62671pt too wide) in paragraph at lines 180--181
-\T1/pplj/m/n/10.95 the tri-als as a recre-ational ex-pe-ri-ence. There-fore, th
-e par-tic-i-pants maybe
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 180--181
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
@@ -5908,12 +5897,23 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [197]
-Underfull \hbox (badness 10000) in paragraph at lines 187--188
+Overfull \hbox (7.62671pt too wide) in paragraph at lines 181--182
+\T1/pplj/m/n/10.95 the tri-als as a recre-ational ex-pe-ri-ence. There-fore, th
+e par-tic-i-pants maybe
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 189--190
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--189
 
  []
 
@@ -5922,17 +5922,17 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [198]
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
+Underfull \hbox (badness 10000) in paragraph at lines 190--191
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
+Underfull \hbox (badness 10000) in paragraph at lines 192--193
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
+Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
@@ -5941,25 +5941,34 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [199]
-Underfull \hbox (badness 10000) in paragraph at lines 197--198
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--200
+Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
+Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
 
-)
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+
+ []
+
+
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[200] [201
+[200])
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[201] [202
 
 
 
@@ -5974,7 +5983,7 @@ Appendix A.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[202
+[203
 
 
 
@@ -5984,7 +5993,7 @@ Appendix B.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[203
+[204
 
 
 ]
@@ -5993,7 +6002,7 @@ Appendix C.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[204
+[205
 
 
 ]
@@ -6002,7 +6011,7 @@ Appendix D.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[205
+[206
 
 
 ]
@@ -6012,7 +6021,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[206
+[207
 
 
 
@@ -6020,10 +6029,6 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 ]
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[207]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
@@ -6059,14 +6064,18 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[216]))
+[216]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[217]
+[217]))
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[218]
 \openout2 = `FrontBackmatter/Colophon.aux'.
 
- (./FrontBackmatter/Colophon.tex) [218
+ (./FrontBackmatter/Colophon.tex) [219
 
 
 
@@ -6074,7 +6083,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 ]
 \openout2 = `FrontBackmatter/Declaration.aux'.
 
- (./FrontBackmatter/Declaration.tex) [219
+ (./FrontBackmatter/Declaration.tex) [220
 
 
 
@@ -6321,10 +6330,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 17763 strings out of 493315
- 280003 string characters out of 6137904
- 456772 words of memory out of 5000000
- 19994 multiletter control sequences out of 15000+600000
+ 17765 strings out of 493315
+ 280026 string characters out of 6137904
+ 456775 words of memory out of 5000000
+ 19995 multiletter control sequences out of 15000+600000
  76422 words of font info for 104 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  54i,14n,67p,2182b,718s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6339,10 +6348,10 @@ blic/bera/fvmro8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/palat
 ino/uplb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/palatino/upl
 r8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/palatino/uplri8a.pf
 b>
-Output written on ClassicThesis.pdf (234 pages, 16546251 bytes).
+Output written on ClassicThesis.pdf (235 pages, 16546953 bytes).
 PDF statistics:
- 3129 PDF objects out of 3580 (max. 8388607)
- 2781 compressed objects within 28 object streams
- 687 named destinations out of 1000 (max. 500000)
+ 3134 PDF objects out of 3580 (max. 8388607)
+ 2785 compressed objects within 28 object streams
+ 688 named destinations out of 1000 (max. 500000)
  18970 words of extra memory for PDF output out of 20736 (max. 10000000)
 
