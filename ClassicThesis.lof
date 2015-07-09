@@ -9,61 +9,61 @@
 \contentsline {figure}{\numberline {4}{\ignorespaces Tsunami response system, Credit \cite {Wattegama2012} \relax }}{25}{figure.caption.24}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5}{\ignorespaces HQ and field players in AO\relax }}{55}{figure.caption.28}
-\contentsline {figure}{\numberline {6}{\ignorespaces The AO targets\relax }}{56}{figure.caption.29}
-\contentsline {figure}{\numberline {7}{\ignorespaces The AO targets\relax }}{56}{figure.caption.30}
-\contentsline {figure}{\numberline {8}{\ignorespaces Role target mapping\relax }}{56}{figure.caption.31}
-\contentsline {figure}{\numberline {9}{\ignorespaces The radioactive cloud\relax }}{57}{figure.caption.32}
-\contentsline {figure}{\numberline {10}{\ignorespaces System Architecture\relax }}{58}{figure.caption.33}
-\contentsline {figure}{\numberline {11}{\ignorespaces Input and output of the agents\relax }}{60}{figure.caption.35}
-\contentsline {figure}{\numberline {12}{\ignorespaces On-the-loop interaction design\relax }}{64}{figure.caption.36}
-\contentsline {figure}{\numberline {13}{\ignorespaces In-the-loop interaction design\relax }}{65}{figure.caption.37}
+\contentsline {figure}{\numberline {5}{\ignorespaces HQ and field players in AO\relax }}{55}{figure.caption.30}
+\contentsline {figure}{\numberline {6}{\ignorespaces The roles in \ac {AO}\relax }}{56}{figure.caption.31}
+\contentsline {figure}{\numberline {7}{\ignorespaces The targets in \ac {AO}\relax }}{56}{figure.caption.32}
+\contentsline {figure}{\numberline {8}{\ignorespaces Role target mapping\relax }}{56}{figure.caption.33}
+\contentsline {figure}{\numberline {9}{\ignorespaces The radioactive cloud\relax }}{57}{figure.caption.34}
+\contentsline {figure}{\numberline {10}{\ignorespaces System Architecture\relax }}{58}{figure.caption.36}
+\contentsline {figure}{\numberline {11}{\ignorespaces Input and output of the agents\relax }}{60}{figure.caption.38}
+\contentsline {figure}{\numberline {12}{\ignorespaces On-the-loop interaction design\relax }}{64}{figure.caption.39}
+\contentsline {figure}{\numberline {13}{\ignorespaces In-the-loop interaction design\relax }}{65}{figure.caption.40}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {14}{\ignorespaces Log visualisation\relax }}{73}{figure.caption.38}
-\contentsline {figure}{\numberline {15}{\ignorespaces Replay system\relax }}{74}{figure.caption.39}
-\contentsline {figure}{\numberline {16}{\ignorespaces Analytic procedure\relax }}{77}{figure.caption.40}
+\contentsline {figure}{\numberline {14}{\ignorespaces Log visualisation\relax }}{73}{figure.caption.41}
+\contentsline {figure}{\numberline {15}{\ignorespaces Replay system\relax }}{74}{figure.caption.42}
+\contentsline {figure}{\numberline {16}{\ignorespaces Analytic procedure\relax }}{77}{figure.caption.43}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {17}{\ignorespaces The HQ interface\relax }}{82}{figure.caption.41}
-\contentsline {figure}{\numberline {18}{\ignorespaces The mobile responder app\relax }}{83}{figure.caption.42}
-\contentsline {figure}{\numberline {19}{\ignorespaces How responders addressed task allocation messages from HQ.\relax }}{91}{figure.caption.47}
-\contentsline {figure}{\numberline {20}{\ignorespaces episode 1.1, JH (Behind Left), D2 (Middle Front), KY (Right behind)\relax }}{92}{figure.caption.48}
-\contentsline {figure}{\numberline {21}{\ignorespaces episode 1.1, KY (Left) , MF (Right) holding mobile phones\relax }}{92}{figure.caption.49}
-\contentsline {figure}{\numberline {22}{\ignorespaces episode 1.1, KY,MF running into cloud\relax }}{93}{figure.caption.50}
-\contentsline {figure}{\numberline {23}{\ignorespaces episode 1.1, KY,MF escaping from the cloud\relax }}{93}{figure.caption.50}
-\contentsline {figure}{\numberline {24}{\ignorespaces episode 1.2, MF (right), BR (middle)\relax }}{94}{figure.caption.51}
-\contentsline {figure}{\numberline {25}{\ignorespaces episode 1.2, MF (right), BR(left)\relax }}{94}{figure.caption.51}
-\contentsline {figure}{\numberline {26}{\ignorespaces episode 1.3, MF(right), BR(left) met with D2(middle)\relax }}{96}{figure.caption.52}
-\contentsline {figure}{\numberline {27}{\ignorespaces episode 1.4, MF pointing to a building\relax }}{98}{figure.caption.53}
-\contentsline {figure}{\numberline {28}{\ignorespaces episode 1.5, JH(left) met team D2(male, middle) and KY(female, right)\relax }}{99}{figure.caption.54}
+\contentsline {figure}{\numberline {17}{\ignorespaces The HQ interface\relax }}{82}{figure.caption.44}
+\contentsline {figure}{\numberline {18}{\ignorespaces The mobile responder app\relax }}{83}{figure.caption.45}
+\contentsline {figure}{\numberline {19}{\ignorespaces How responders addressed task allocation messages from HQ.\relax }}{91}{figure.caption.50}
+\contentsline {figure}{\numberline {20}{\ignorespaces episode 1.1, JH (Behind Left), D2 (Middle Front), KY (Right behind)\relax }}{92}{figure.caption.51}
+\contentsline {figure}{\numberline {21}{\ignorespaces episode 1.1, KY (Left) , MF (Right) holding mobile phones\relax }}{92}{figure.caption.52}
+\contentsline {figure}{\numberline {22}{\ignorespaces episode 1.1, KY,MF running into cloud\relax }}{93}{figure.caption.53}
+\contentsline {figure}{\numberline {23}{\ignorespaces episode 1.1, KY,MF escaping from the cloud\relax }}{93}{figure.caption.53}
+\contentsline {figure}{\numberline {24}{\ignorespaces episode 1.2, MF (right), BR (middle)\relax }}{94}{figure.caption.54}
+\contentsline {figure}{\numberline {25}{\ignorespaces episode 1.2, MF (right), BR(left)\relax }}{94}{figure.caption.54}
+\contentsline {figure}{\numberline {26}{\ignorespaces episode 1.3, MF(right), BR(left) met with D2(middle)\relax }}{96}{figure.caption.55}
+\contentsline {figure}{\numberline {27}{\ignorespaces episode 1.4, MF pointing to a building\relax }}{98}{figure.caption.56}
+\contentsline {figure}{\numberline {28}{\ignorespaces episode 1.5, JH(left) met team D2(male, middle) and KY(female, right)\relax }}{99}{figure.caption.57}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {29}{\ignorespaces On-the-loop interaction design\relax }}{108}{figure.caption.55}
-\contentsline {figure}{\numberline {30}{\ignorespaces Game engine handling plans from agent\relax }}{112}{figure.caption.57}
-\contentsline {figure}{\numberline {31}{\ignorespaces Mobile task interface in study 2\relax }}{113}{figure.caption.58}
-\contentsline {figure}{\numberline {32}{\ignorespaces HQ and mobile interfaces in study 2\relax }}{114}{figure.caption.59}
-\contentsline {figure}{\numberline {33}{\ignorespaces Mobile message interface in study 2\relax }}{115}{figure.caption.60}
-\contentsline {figure}{\numberline {34}{\ignorespaces Overview of agent instructions\relax }}{116}{figure.caption.62}
-\contentsline {figure}{\numberline {35}{\ignorespaces episode 2.1, CR (Left) and PC (Right) studying screen together after drop off.\relax }}{117}{figure.caption.63}
-\contentsline {figure}{\numberline {36}{\ignorespaces episode 2.1, PC (Right) leading the way to new target.\relax }}{117}{figure.caption.64}
-\contentsline {figure}{\numberline {37}{\ignorespaces episode 2.2, players from left to right: LT, SS, CR, PC. LT walking around the team, her body orientation suggesting attempts to leave the group.\relax }}{119}{figure.caption.65}
-\contentsline {figure}{\numberline {38}{\ignorespaces episode 2.3, AW (right) leads the way, heading to target 44 as instructed.\relax }}{121}{figure.caption.66}
-\contentsline {figure}{\numberline {39}{\ignorespaces episode 2.3, After the team received an instruction to disband, AW (right) and HB (left) simultanously turn back and start walking back to the drop off zone, displaying bodily alignment.\relax }}{122}{figure.caption.67}
+\contentsline {figure}{\numberline {29}{\ignorespaces On-the-loop interaction design\relax }}{108}{figure.caption.58}
+\contentsline {figure}{\numberline {30}{\ignorespaces Game engine handling plans from agent\relax }}{112}{figure.caption.60}
+\contentsline {figure}{\numberline {31}{\ignorespaces Mobile task interface in study 2\relax }}{113}{figure.caption.61}
+\contentsline {figure}{\numberline {32}{\ignorespaces HQ and mobile interfaces in study 2\relax }}{114}{figure.caption.62}
+\contentsline {figure}{\numberline {33}{\ignorespaces Mobile message interface in study 2\relax }}{115}{figure.caption.63}
+\contentsline {figure}{\numberline {34}{\ignorespaces Overview of agent instructions\relax }}{116}{figure.caption.65}
+\contentsline {figure}{\numberline {35}{\ignorespaces episode 2.1, CR (Left) and PC (Right) studying screen together after drop off.\relax }}{117}{figure.caption.66}
+\contentsline {figure}{\numberline {36}{\ignorespaces episode 2.1, PC (Right) leading the way to new target.\relax }}{117}{figure.caption.67}
+\contentsline {figure}{\numberline {37}{\ignorespaces episode 2.2, players from left to right: LT, SS, CR, PC. LT walking around the team, her body orientation suggesting attempts to leave the group.\relax }}{119}{figure.caption.68}
+\contentsline {figure}{\numberline {38}{\ignorespaces episode 2.3, AW (right) leads the way, heading to target 44 as instructed.\relax }}{121}{figure.caption.69}
+\contentsline {figure}{\numberline {39}{\ignorespaces episode 2.3, After the team received an instruction to disband, AW (right) and HB (left) simultanously turn back and start walking back to the drop off zone, displaying bodily alignment.\relax }}{122}{figure.caption.70}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {40}{\ignorespaces In-the-loop interaction design\relax }}{136}{figure.caption.69}
-\contentsline {figure}{\numberline {41}{\ignorespaces The mobile responder app\relax }}{138}{figure.caption.70}
-\contentsline {figure}{\numberline {42}{\ignorespaces Mobile interface in study 2\relax }}{138}{figure.caption.71}
-\contentsline {figure}{\numberline {43}{\ignorespaces Situational awareness interface operated by HQ2\relax }}{139}{figure.caption.72}
-\contentsline {figure}{\numberline {44}{\ignorespaces Interfaces in study 3\relax }}{140}{figure.caption.73}
-\contentsline {figure}{\numberline {45}{\ignorespaces Edit mode of task allocation interface\relax }}{140}{figure.caption.74}
-\contentsline {figure}{\numberline {46}{\ignorespaces Pop up messaging panel\relax }}{141}{figure.caption.75}
-\contentsline {figure}{\numberline {47}{\ignorespaces Task assignment in session 1\relax }}{147}{figure.caption.78}
-\contentsline {figure}{\numberline {48}{\ignorespaces Task assignment in session 2\relax }}{147}{figure.caption.79}
+\contentsline {figure}{\numberline {40}{\ignorespaces In-the-loop interaction design\relax }}{136}{figure.caption.72}
+\contentsline {figure}{\numberline {41}{\ignorespaces The mobile responder app\relax }}{138}{figure.caption.73}
+\contentsline {figure}{\numberline {42}{\ignorespaces Mobile interface in study 2\relax }}{138}{figure.caption.74}
+\contentsline {figure}{\numberline {43}{\ignorespaces Situational awareness interface operated by HQ2\relax }}{139}{figure.caption.75}
+\contentsline {figure}{\numberline {44}{\ignorespaces Interfaces in study 3\relax }}{140}{figure.caption.76}
+\contentsline {figure}{\numberline {45}{\ignorespaces Edit mode of task allocation interface\relax }}{140}{figure.caption.77}
+\contentsline {figure}{\numberline {46}{\ignorespaces Pop up messaging panel\relax }}{141}{figure.caption.78}
+\contentsline {figure}{\numberline {47}{\ignorespaces Task assignment in session 1\relax }}{147}{figure.caption.81}
+\contentsline {figure}{\numberline {48}{\ignorespaces Task assignment in session 2\relax }}{147}{figure.caption.82}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {49}{\ignorespaces Overview of studies\relax }}{182}{figure.caption.80}
-\contentsline {figure}{\numberline {50}{\ignorespaces Interface of study 1\relax }}{184}{figure.caption.81}
-\contentsline {figure}{\numberline {51}{\ignorespaces Interface of study 2\relax }}{185}{figure.caption.82}
-\contentsline {figure}{\numberline {52}{\ignorespaces HQ Interface of study 3\relax }}{186}{figure.caption.83}
-\contentsline {figure}{\numberline {53}{\ignorespaces Mobile Interface of study 3\relax }}{187}{figure.caption.84}
-\contentsline {figure}{\numberline {54}{\ignorespaces On-the-loop vs In-the-loop\relax }}{190}{figure.caption.85}
+\contentsline {figure}{\numberline {49}{\ignorespaces Overview of studies\relax }}{182}{figure.caption.83}
+\contentsline {figure}{\numberline {50}{\ignorespaces Interface of study 1\relax }}{184}{figure.caption.84}
+\contentsline {figure}{\numberline {51}{\ignorespaces Interface of study 2\relax }}{185}{figure.caption.85}
+\contentsline {figure}{\numberline {52}{\ignorespaces HQ Interface of study 3\relax }}{186}{figure.caption.86}
+\contentsline {figure}{\numberline {53}{\ignorespaces Mobile Interface of study 3\relax }}{187}{figure.caption.87}
+\contentsline {figure}{\numberline {54}{\ignorespaces On-the-loop vs In-the-loop\relax }}{190}{figure.caption.88}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }
