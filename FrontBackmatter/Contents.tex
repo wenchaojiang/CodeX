@@ -31,7 +31,7 @@
     \listoffigures
 
     \vspace*{8ex}
-
+    \newpage
     %*******************************************************
     % List of Tables
     %*******************************************************
@@ -42,37 +42,45 @@
     \listoftables
         
     \vspace*{8ex}
-%   \newpage
+   \newpage
     
     %*******************************************************
     % List of Listings
     %*******************************************************      
 	  %\phantomsection 
-    \refstepcounter{dummy}
+    %\refstepcounter{dummy}
     %\addcontentsline{toc}{chapter}{\lstlistlistingname}
-    \pdfbookmark[1]{\lstlistlistingname}{lol}
-    \lstlistoflistings 
+    %\pdfbookmark[1]{\lstlistlistingname}{lol}
+    %\lstlistoflistings 
 
-    \vspace*{8ex}
-       
+    
     %*******************************************************
     % Acronyms
     %*******************************************************
     %\phantomsection 
-    \refstepcounter{dummy}
+    %\refstepcounter{dummy}
     \pdfbookmark[1]{Acronyms}{acronyms}
     \markboth{\spacedlowsmallcaps{Acronyms}}{\spacedlowsmallcaps{Acronyms}}
     \chapter*{Acronyms}
     \begin{acronym}[UML]
+    		\acro{AI}{Artificial Intelligence}
+    		\acro{PSS}{Planning Support System}
         \acro{DR}{Disaster response}
         \acro{CSCW}{Computer Supported Collaborative Work}
+        \acro{ERR}{Emergence Response Room}
         \acro{ICT}{Information and Communication Technologies}
         \acro{HACS}{Human Agent Collective Systems}
         \acro{USAR}{Urban Search And Rescue}
         \acro{HCI}{Human Computer Interaction}
+        \acro{HAC-ER}{Human Agent Collectives for Emergency Response}
         \acro{AO}{AtomicOrchid}
+        \acro{C2}{Command and Control}
+        \acro{GIS}{Geospatial Information System}
         \acro{MAS}{Multi-Agent System}
-    \end{acronym}                     
+        \acro{MRG}{Mixed Reality Game}
+        \acro{UAV}{Unmanned Aerial vehicle}
+    \end{acronym}   
+    \vspace*{8ex}                  
 \endgroup
 
 \cleardoublepage

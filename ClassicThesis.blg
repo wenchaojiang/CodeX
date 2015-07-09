@@ -28,53 +28,53 @@ Repeated entry---line 1 of file Approach.bib
  :                    ,
 I'm skipping whatever remains of this entry
 Database file #3: LR.bib
-Repeated entry---line 17 of file LR.bib
- : @article{Armenakis2012
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 81 of file LR.bib
- : @inproceedings{Crabtree2004
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 366 of file LR.bib
- : @article{Crabtree2006
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 415 of file LR.bib
- : @inproceedings{Flintham2003
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 561 of file LR.bib
- : @article{Toups2011
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 636 of file LR.bib
+Repeated entry---line 580 of file LR.bib
  : @article{Ackerman2000
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 716 of file LR.bib
+Repeated entry---line 766 of file LR.bib
  : @inproceedings{Sarcevic2012
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 773 of file LR.bib
- : @article{Benford2005
- :                     ,
+Repeated entry---line 775 of file LR.bib
+ : @inproceedings{Flintham2003
+ :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 782 of file LR.bib
- : @incollection{Bradshaw2011
- :                           ,
+Repeated entry---line 786 of file LR.bib
+ : @inproceedings{Crabtree2004
+ :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 825 of file LR.bib
+Repeated entry---line 813 of file LR.bib
  : @article{Drury2009
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 841 of file LR.bib
+Repeated entry---line 829 of file LR.bib
+ : @article{Armenakis2012
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 958 of file LR.bib
+ : @article{Toups2011
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 998 of file LR.bib
+ : @article{Crabtree2006
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1074 of file LR.bib
+ : @article{Benford2005
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1126 of file LR.bib
+ : @article{Chen2005
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1176 of file LR.bib
  : @article{Fischer2012
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1058 of file LR.bib
- : @article{Chen2005
- :                  ,
+Repeated entry---line 1199 of file LR.bib
+ : @incollection{Bradshaw2011
+ :                           ,
 I'm skipping whatever remains of this entry
 Database file #4: Study1.bib
 Repeated entry---line 9 of file Study1.bib
@@ -152,7 +152,6 @@ Repeated entry---line 104 of file Study3.bib
  :                     ,
 I'm skipping whatever remains of this entry
 Warning--I didn't find a database entry for "Cova199"
-Warning--I didn't find a database entry for "Provitolo2011"
 Warning--I didn't find a database entry for "Petrescuprahova2005"
 Warning--I didn't find a database entry for "Brundell"
 Warning--I didn't find a database entry for "Avrahami"
@@ -185,45 +184,45 @@ Warning--empty journal in Susi2007
 Warning--there's a number but no volume in Sutton2008
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 122 entries,
+You've used 124 entries,
             1935 wiz_defined-function locations,
-            1254 strings with 27286 characters,
-and the built_in function-call counts, 50542 in all, are:
-= -- 4981
-> -- 2183
-< -- 106
-+ -- 739
-- -- 736
-* -- 4165
-:= -- 8668
-add.period$ -- 360
-call.type$ -- 122
-change.case$ -- 971
-chr.to.int$ -- 119
-cite$ -- 151
-duplicate$ -- 1996
-empty$ -- 3356
-format.name$ -- 932
-if$ -- 9986
+            1265 strings with 27702 characters,
+and the built_in function-call counts, 51467 in all, are:
+= -- 5078
+> -- 2208
+< -- 109
++ -- 747
+- -- 744
+* -- 4228
+:= -- 8811
+add.period$ -- 366
+call.type$ -- 124
+change.case$ -- 985
+chr.to.int$ -- 121
+cite$ -- 153
+duplicate$ -- 2042
+empty$ -- 3427
+format.name$ -- 942
+if$ -- 10186
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 120
-newline$ -- 598
-num.names$ -- 370
-pop$ -- 921
+missing$ -- 122
+newline$ -- 608
+num.names$ -- 376
+pop$ -- 938
 preamble$ -- 1
-purify$ -- 977
+purify$ -- 991
 quote$ -- 0
-skip$ -- 1600
+skip$ -- 1638
 stack$ -- 0
-substring$ -- 3241
-swap$ -- 394
-text.length$ -- 43
+substring$ -- 3313
+swap$ -- 410
+text.length$ -- 45
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 720
+type$ -- 732
 warning$ -- 29
-while$ -- 424
+while$ -- 434
 width$ -- 0
-write$ -- 1529
+write$ -- 1555
 (There were 32 error messages)
