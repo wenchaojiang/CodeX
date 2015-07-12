@@ -48,19 +48,19 @@
 \contentsline {subsection}{\numberline {4.3.1}Game mechanic}{55}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}System Architecture}{58}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}The planning agent}{59}{subsection.4.3.3}
-\contentsline {subsection}{\numberline {4.3.4}Logging component}{61}{subsection.4.3.4}
+\contentsline {subsection}{\numberline {4.3.4}Logging component}{60}{subsection.4.3.4}
 \contentsline {subsection}{\numberline {4.3.5}Iterative design and development}{61}{subsection.4.3.5}
 \contentsline {section}{\numberline {4.4}Explore interaction designs with three AtomicOrchid studies}{62}{section.4.4}
 \contentsline {subsection}{\numberline {4.4.1}The On-the-loop interaction}{64}{subsection.4.4.1}
 \contentsline {subsection}{\numberline {4.4.2}The In-the-loop interaction}{65}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}The three AO game studies to explore socio-technical issue of human agent interaction}{65}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.3}The three AO game studies to explore socio-technical issue of human agent interaction}{66}{subsection.4.4.3}
 \contentsline {section}{\numberline {4.5}Collaboration with Professional Disaster Response Organisation}{66}{section.4.5}
 \contentsline {subsection}{\numberline {4.5.1}Introduction of Rescue Global}{67}{subsection.4.5.1}
 \contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Methodology to Investigate Human Agent Interaction}}{68}{chapter.5}
 \contentsline {section}{\numberline {5.1}Ethnomethodological perspective}{68}{section.5.1}
 \contentsline {section}{\numberline {5.2}Interaction Analysis}{69}{section.5.2}
 \contentsline {section}{\numberline {5.3}Data collection and handling}{71}{section.5.3}
-\contentsline {subsection}{\numberline {5.3.1}Shadowing}{71}{subsection.5.3.1}
+\contentsline {subsection}{\numberline {5.3.1}Video and audio recording}{71}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}Log Data Handling}{72}{subsection.5.3.2}
 \contentsline {subsection}{\numberline {5.3.3}Message classification}{74}{subsection.5.3.3}
 \contentsline {subsection}{\numberline {5.3.4}Group interview}{75}{subsection.5.3.4}
@@ -72,20 +72,20 @@
 \contentsline {section}{\numberline {6.3}Study Design}{83}{section.6.3}
 \contentsline {section}{\numberline {6.4}Data analysis and results}{85}{section.6.4}
 \contentsline {subsection}{\numberline {6.4.1}Results of message classification}{86}{subsection.6.4.1}
-\contentsline {subsubsection}{\numberline {6.4.1.1}Directives}{87}{subsubsection.6.4.1.1}
-\contentsline {subsubsection}{\numberline {6.4.1.2}Assertives}{88}{subsubsection.6.4.1.2}
+\contentsline {subsubsection}{\numberline {6.4.1.1}Directives}{86}{subsubsection.6.4.1.1}
+\contentsline {subsubsection}{\numberline {6.4.1.2}Assertives}{87}{subsubsection.6.4.1.2}
 \contentsline {subsubsection}{\numberline {6.4.1.3}Commssives, expressives and declarations}{88}{subsubsection.6.4.1.3}
 \contentsline {subsubsection}{\numberline {6.4.1.4}Requests and Adjacency pairs}{88}{subsubsection.6.4.1.4}
-\contentsline {subsubsection}{\numberline {6.4.1.5}Summary}{90}{subsubsection.6.4.1.5}
+\contentsline {subsubsection}{\numberline {6.4.1.5}Summary}{89}{subsubsection.6.4.1.5}
 \contentsline {subsection}{\numberline {6.4.2}Responding to directives from HQ}{90}{subsection.6.4.2}
 \contentsline {subsection}{\numberline {6.4.3}Local coordination without HQ}{94}{subsection.6.4.3}
 \contentsline {subsection}{\numberline {6.4.4}Remote messages as a resource of situational awareness}{97}{subsection.6.4.4}
 \contentsline {section}{\numberline {6.5}Discussion}{99}{section.6.5}
-\contentsline {subsection}{\numberline {6.5.1}Division of labour}{100}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.1}Division of labour}{99}{subsection.6.5.1}
 \contentsline {subsection}{\numberline {6.5.2}Breakdown of remote coordination}{100}{subsection.6.5.2}
 \contentsline {subsection}{\numberline {6.5.3}Implications on computational support}{101}{subsection.6.5.3}
 \contentsline {section}{\numberline {6.6}Design Requirements}{103}{section.6.6}
-\contentsline {section}{\numberline {6.7}Summary}{106}{section.6.7}
+\contentsline {section}{\numberline {6.7}Summary}{105}{section.6.7}
 \contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {AtomicOrchid Study 2: The Human On-the-loop Design}}{107}{chapter.7}
 \contentsline {section}{\numberline {7.1}Introduction}{107}{section.7.1}
 \contentsline {section}{\numberline {7.2}System Evolution}{109}{section.7.2}
@@ -98,15 +98,15 @@
 \contentsline {subsection}{\numberline {7.4.2}Task assignments involving team reformation}{118}{subsection.7.4.2}
 \contentsline {subsection}{\numberline {7.4.3}Task assignments involving task interruption}{121}{subsection.7.4.3}
 \contentsline {subsection}{\numberline {7.4.4}Disagreement on task interruption}{123}{subsection.7.4.4}
-\contentsline {subsection}{\numberline {7.4.5}The headquarters}{126}{subsection.7.4.5}
+\contentsline {subsection}{\numberline {7.4.5}The headquarters}{125}{subsection.7.4.5}
 \contentsline {section}{\numberline {7.5}Discussion}{126}{section.7.5}
-\contentsline {subsection}{\numberline {7.5.1}Division of labour between the agent and the human teams}{127}{subsection.7.5.1}
+\contentsline {subsection}{\numberline {7.5.1}Division of labour between the agent and the human teams}{126}{subsection.7.5.1}
 \contentsline {subsection}{\numberline {7.5.2}Hidden costs of team reformation and task interruption}{127}{subsection.7.5.2}
 \contentsline {subsection}{\numberline {7.5.3}Feedback to the agent}{129}{subsection.7.5.3}
 \contentsline {section}{\numberline {7.6}Design implications}{130}{section.7.6}
 \contentsline {subsection}{\numberline {7.6.1}Achieve common ground}{131}{subsection.7.6.1}
 \contentsline {subsection}{\numberline {7.6.2}Facilitate accountability}{131}{subsection.7.6.2}
-\contentsline {subsection}{\numberline {7.6.3}Balance responsibilities between humans and agent}{132}{subsection.7.6.3}
+\contentsline {subsection}{\numberline {7.6.3}Balance responsibilities between humans and agent}{131}{subsection.7.6.3}
 \contentsline {section}{\numberline {7.7}Summary}{132}{section.7.7}
 \contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {AtomicOrchid Study 3: Agent-supported In-the-loop design}}{134}{chapter.8}
 \contentsline {section}{\numberline {8.1}Introduction}{134}{section.8.1}
