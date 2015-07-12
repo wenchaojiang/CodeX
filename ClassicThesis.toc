@@ -152,22 +152,23 @@
 \contentsline {section}{\numberline {9.3}future work}{199}{section.9.3}
 \contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Appendix}}{202}{part.5}
 \contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix to AtomicOrchid implementation}}{203}{appendix.A}
-\contentsline {section}{\numberline {A.1}System log format}{203}{section.A.1}
-\contentsline {section}{\numberline {A.2}Agent-server protocol}{203}{section.A.2}
-\contentsline {chapter}{\numberline {B}\spacedlowsmallcaps {Appendix to study 1}}{204}{appendix.B}
-\contentsline {section}{\numberline {B.1}Participant demographic}{204}{section.B.1}
-\contentsline {section}{\numberline {B.2}Message logs}{204}{section.B.2}
-\contentsline {section}{\numberline {B.3}Game event visualisation}{204}{section.B.3}
-\contentsline {section}{\numberline {B.4}Game area and set-up}{204}{section.B.4}
-\contentsline {chapter}{\numberline {C}\spacedlowsmallcaps {Appendix to study 2}}{205}{appendix.C}
-\contentsline {section}{\numberline {C.1}Participant demographic}{205}{section.C.1}
-\contentsline {section}{\numberline {C.2}Message logs}{205}{section.C.2}
-\contentsline {section}{\numberline {C.3}Game event visualisation}{205}{section.C.3}
-\contentsline {section}{\numberline {C.4}Game area and set-up}{205}{section.C.4}
-\contentsline {chapter}{\numberline {D}\spacedlowsmallcaps {Appendix to study 3}}{206}{appendix.D}
-\contentsline {section}{\numberline {D.1}Participant demographic}{206}{section.D.1}
-\contentsline {section}{\numberline {D.2}Message logs}{206}{section.D.2}
-\contentsline {section}{\numberline {D.3}Game event visualisation}{206}{section.D.3}
-\contentsline {section}{\numberline {D.4}Game area and set-up}{206}{section.D.4}
+\contentsline {section}{\numberline {A.1}System architecture}{203}{section.A.1}
+\contentsline {section}{\numberline {A.2}Data model}{206}{section.A.2}
+\contentsline {section}{\numberline {A.3}Agent-server protocol}{207}{section.A.3}
+\contentsline {chapter}{\numberline {B}\spacedlowsmallcaps {Appendix to study 1}}{208}{appendix.B}
+\contentsline {section}{\numberline {B.1}Participant demographic}{208}{section.B.1}
+\contentsline {section}{\numberline {B.2}Message logs}{208}{section.B.2}
+\contentsline {section}{\numberline {B.3}Game event visualisation}{208}{section.B.3}
+\contentsline {section}{\numberline {B.4}Game area and set-up}{208}{section.B.4}
+\contentsline {chapter}{\numberline {C}\spacedlowsmallcaps {Appendix to study 2}}{209}{appendix.C}
+\contentsline {section}{\numberline {C.1}Participant demographic}{209}{section.C.1}
+\contentsline {section}{\numberline {C.2}Message logs}{209}{section.C.2}
+\contentsline {section}{\numberline {C.3}Game event visualisation}{209}{section.C.3}
+\contentsline {section}{\numberline {C.4}Game area and set-up}{209}{section.C.4}
+\contentsline {chapter}{\numberline {D}\spacedlowsmallcaps {Appendix to study 3}}{210}{appendix.D}
+\contentsline {section}{\numberline {D.1}Participant demographic}{210}{section.D.1}
+\contentsline {section}{\numberline {D.2}Message logs}{210}{section.D.2}
+\contentsline {section}{\numberline {D.3}Game event visualisation}{210}{section.D.3}
+\contentsline {section}{\numberline {D.4}Game area and set-up}{210}{section.D.4}
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{207}{dummy.4}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{211}{dummy.4}
