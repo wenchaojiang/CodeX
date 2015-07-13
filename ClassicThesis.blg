@@ -151,13 +151,13 @@ Repeated entry---line 104 of file Study3.bib
  : @article{Benford2006
  :                     ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Cova199"
 Warning--I didn't find a database entry for "Brundell"
 Warning--I didn't find a database entry for "Avrahami"
 Warning--there's a number but no volume in Boersma2009
 Warning--empty booktitle in Bowers1994
 Warning--there's a number but no volume in Bradshaw2003
 Warning--there's a number but no volume in Burstein2003
+Warning--there's a number but no volume in Cova1999
 Warning--there's a number but no volume in Dashti2014
 Warning--empty journal in Dawes2004
 Warning--there's a number but no volume in Dawes2004
@@ -183,45 +183,45 @@ Warning--empty journal in Susi2007
 Warning--there's a number but no volume in Sutton2008
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 124 entries,
+You've used 125 entries,
             1935 wiz_defined-function locations,
-            1263 strings with 27664 characters,
-and the built_in function-call counts, 51467 in all, are:
-= -- 5078
-> -- 2208
-< -- 109
-+ -- 747
-- -- 744
-* -- 4228
-:= -- 8811
-add.period$ -- 366
-call.type$ -- 124
-change.case$ -- 985
-chr.to.int$ -- 121
-cite$ -- 153
-duplicate$ -- 2042
-empty$ -- 3427
-format.name$ -- 942
-if$ -- 10186
+            1267 strings with 27747 characters,
+and the built_in function-call counts, 51748 in all, are:
+= -- 5105
+> -- 2215
+< -- 110
++ -- 749
+- -- 746
+* -- 4250
+:= -- 8864
+add.period$ -- 369
+call.type$ -- 125
+change.case$ -- 991
+chr.to.int$ -- 122
+cite$ -- 155
+duplicate$ -- 2055
+empty$ -- 3448
+format.name$ -- 945
+if$ -- 10239
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 122
-newline$ -- 608
-num.names$ -- 376
-pop$ -- 938
+missing$ -- 123
+newline$ -- 613
+num.names$ -- 379
+pop$ -- 942
 preamble$ -- 1
-purify$ -- 991
+purify$ -- 997
 quote$ -- 0
-skip$ -- 1638
+skip$ -- 1648
 stack$ -- 0
-substring$ -- 3313
-swap$ -- 410
+substring$ -- 3325
+swap$ -- 411
 text.length$ -- 45
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 732
-warning$ -- 29
-while$ -- 434
+type$ -- 738
+warning$ -- 30
+while$ -- 436
 width$ -- 0
-write$ -- 1555
+write$ -- 1568
 (There were 32 error messages)
