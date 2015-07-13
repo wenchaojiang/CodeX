@@ -9,10 +9,6 @@ A level-1 auxiliary file: FrontBackmatter/Abstract.aux
 A level-1 auxiliary file: FrontBackmatter/Acknowledgments.aux
 A level-1 auxiliary file: FrontBackmatter/Contents.aux
 A level-1 auxiliary file: Chapters/Chapter01.aux
-A level-1 auxiliary file: Chapters/LiteratureReview.aux
-A level-1 auxiliary file: Chapters/ChapterM&P.aux
-A level-1 auxiliary file: Chapters/Chapter04.aux
-A level-1 auxiliary file: Chapters/Conclusion.aux
 A level-1 auxiliary file: Chapters/Chapter0A.aux
 A level-1 auxiliary file: FrontBackmatter/Bibliography.aux
 Illegal, another \bibstyle command---line 3 of file FrontBackmatter/Bibliography.aux
@@ -21,207 +17,52 @@ Illegal, another \bibstyle command---line 3 of file FrontBackmatter/Bibliography
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: FrontBackmatter/Colophon.aux
 A level-1 auxiliary file: FrontBackmatter/Declaration.aux
+I found no \citation commands---while reading file ClassicThesis.aux
 Database file #1: Bibliography.bib
 Database file #2: Approach.bib
-Repeated entry---line 1 of file Approach.bib
- : @article{Abbasi2012
- :                    ,
-I'm skipping whatever remains of this entry
 Database file #3: LR.bib
-Repeated entry---line 580 of file LR.bib
- : @article{Ackerman2000
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 766 of file LR.bib
- : @inproceedings{Sarcevic2012
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 775 of file LR.bib
- : @inproceedings{Flintham2003
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 786 of file LR.bib
- : @inproceedings{Crabtree2004
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 813 of file LR.bib
- : @article{Drury2009
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 829 of file LR.bib
- : @article{Armenakis2012
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 958 of file LR.bib
- : @article{Toups2011
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 998 of file LR.bib
- : @article{Crabtree2006
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1074 of file LR.bib
- : @article{Benford2005
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1126 of file LR.bib
- : @article{Chen2005
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1176 of file LR.bib
- : @article{Fischer2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1199 of file LR.bib
- : @incollection{Bradshaw2011
- :                           ,
-I'm skipping whatever remains of this entry
 Database file #4: Study1.bib
-Repeated entry---line 9 of file Study1.bib
- : @article{Abbasi2012
- :                    ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 18 of file Study1.bib
- : @article{Armenakis2012
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 32 of file Study1.bib
- : @article{Benford2005
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 41 of file Study1.bib
- : @incollection{Bradshaw2011
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 53 of file Study1.bib
- : @article{Chen2005
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 88 of file Study1.bib
- : @article{Crabtree2006
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 101 of file Study1.bib
- : @inproceedings{Crabtree2004
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 114 of file Study1.bib
- : @article{Fischer2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 122 of file Study1.bib
- : @inproceedings{Flintham2003
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 133 of file Study1.bib
- : @book{Heath2010
- :                ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 145 of file Study1.bib
- : @misc{Jordan1995
- :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 165 of file Study1.bib
- : @article{Losh2007
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 189 of file Study1.bib
- : @misc{Mendonca2007
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 223 of file Study1.bib
- : @inproceedings{Sarcevic2012
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 232 of file Study1.bib
- : @misc{Searle1976
- :                 ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 254 of file Study1.bib
- : @article{Toups2011
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 300 of file Study1.bib
- : @article{Drury2009
- :                   ,
-I'm skipping whatever remains of this entry
 Database file #5: Study2.bib
 Database file #6: Study3.bib
-Repeated entry---line 104 of file Study3.bib
- : @article{Benford2006
- :                     ,
-I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Cova199"
-Warning--I didn't find a database entry for "Brundell"
-Warning--I didn't find a database entry for "Avrahami"
-Warning--there's a number but no volume in Boersma2009
-Warning--empty booktitle in Bowers1994
-Warning--there's a number but no volume in Bradshaw2003
-Warning--there's a number but no volume in Burstein2003
-Warning--there's a number but no volume in Dashti2014
-Warning--empty journal in Dawes2004
-Warning--there's a number but no volume in Dawes2004
-Warning--empty publisher in Command2008
-Warning--empty journal in Fitts
-Warning--empty journal in Goodrich2001a
-Warning--empty journal in Hardin2009
-Warning--empty journal in Hiltz1985
-Warning--empty journal in Hoffman2002
-Warning--empty institution in IntergraphCorporation2000
-Warning--empty journal in Kitano2000
-Warning--there's a number but no volume in Koleva2001
-Warning--empty journal in Meesters2013
-Warning--there's a number but no volume in Meesters2013
-Warning--empty publisher in Pettit2003
-Warning--empty journal in Ramchurn2015
-Warning--empty journal in Schooley2010
-Warning--there's a number but no volume in Schooley2010
-Warning--empty journal in Simpson
-Warning--there's a number but no series in Starbird2010
-Warning--there's a number but no series in Sukthankar
-Warning--empty journal in Susi2007
-Warning--there's a number but no volume in Sutton2008
-Warning--can't use both volume and number fields in Vlassis2007
-Warning--empty publisher in Vlassis2007
-You've used 124 entries,
+You've used 0 entries,
             1935 wiz_defined-function locations,
-            1263 strings with 27664 characters,
-and the built_in function-call counts, 51467 in all, are:
-= -- 5078
-> -- 2208
-< -- 109
-+ -- 747
-- -- 744
-* -- 4228
-:= -- 8811
-add.period$ -- 366
-call.type$ -- 124
-change.case$ -- 985
-chr.to.int$ -- 121
-cite$ -- 153
-duplicate$ -- 2042
-empty$ -- 3427
-format.name$ -- 942
-if$ -- 10186
-int.to.chr$ -- 4
+            487 strings with 4036 characters,
+and the built_in function-call counts, 17 in all, are:
+= -- 0
+> -- 0
+< -- 0
++ -- 0
+- -- 0
+* -- 0
+:= -- 7
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
+chr.to.int$ -- 0
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 1
+format.name$ -- 0
+if$ -- 1
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 122
-newline$ -- 608
-num.names$ -- 376
-pop$ -- 938
+missing$ -- 0
+newline$ -- 3
+num.names$ -- 0
+pop$ -- 0
 preamble$ -- 1
-purify$ -- 991
+purify$ -- 0
 quote$ -- 0
-skip$ -- 1638
+skip$ -- 1
 stack$ -- 0
-substring$ -- 3313
-swap$ -- 410
-text.length$ -- 45
+substring$ -- 0
+swap$ -- 0
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 732
-warning$ -- 29
-while$ -- 434
+type$ -- 0
+warning$ -- 0
+while$ -- 0
 width$ -- 0
-write$ -- 1555
-(There were 32 error messages)
+write$ -- 2
+(There were 2 error messages)
