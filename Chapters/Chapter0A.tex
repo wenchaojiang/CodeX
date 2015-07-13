@@ -9,7 +9,9 @@
 \section{System architecture}
 \begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{img/Appendix/SystemDescription}
+  \rotatebox{90}{
+  	\includegraphics[width=1.2\textwidth]{img/Appendix/SystemDescription}
+  }
   \caption{Technological illustration of AtomicOrchid}
   \label{fig:systemDescription}
 \end{figure}
@@ -59,26 +61,137 @@
 
 
 \section{Agent-server protocol}
+\begin{table}[H]
+\centering
+\tiny
+
+\begin{tabular}{|l|l|l|l|}
+\hline
+{\bf Agent server interface}                                                    & {\bf Path}                                                                           & {\bf Parameters}                                                                                                                                                                                                                                                                                                                       & {\bf Return}                                                                                                                                           \\ \hline
+Agent intialisation                                                             & \begin{tabular}[c]{@{}l@{}}/init\_session.php?\\ data=\{JSON\\ string\}\end{tabular} & \begin{tabular}[c]{@{}l@{}}\{\\    terrain: {[}string{]},\\    session\_id: {[}number{]},\\    targets: {[}array of targets{]},\\    dropoffzones:\\    {[}array of dropoff zones{]}\\ \}\end{tabular}                                                                                                                                 & \begin{tabular}[c]{@{}l@{}}\{\\   status:{[}ok|error{]}\\ \}\end{tabular}                                                                              \\ \hline
+Check status                                                                    & \begin{tabular}[c]{@{}l@{}}/check\_status?\\ session\_id={[}number{]}\end{tabular}   & \begin{tabular}[c]{@{}l@{}}a number\\ representing game id\end{tabular}                                                                                                                                                                                                                                                                & \begin{tabular}[c]{@{}l@{}}\{\\    status: {[}inprogress|error|done{]}\\ \}\end{tabular}                                                               \\ \hline
+\begin{tabular}[c]{@{}l@{}}Update target location\\ (study 2 only)\end{tabular} & \begin{tabular}[c]{@{}l@{}}/update\_target?\\ data=\{JSON\\ string\}\end{tabular}    & \begin{tabular}[c]{@{}l@{}}\{\\    session\_id: number,\\    targets:{[}array of targets{]}\\ \}\end{tabular}                                                                                                                                                                                                                          & \begin{tabular}[c]{@{}l@{}}\{\\   status: {[}ok|error{]}\\ \}\end{tabular}                                                                             \\ \hline
+Fetch plan                                                                      & \begin{tabular}[c]{@{}l@{}}/fetch\_plan?\\ data=\{JSON\\ string\}\end{tabular}       & \begin{tabular}[c]{@{}l@{}}\{\\   session\_id: {[}number{]},\\   frame: {[}time frame{]},\\   rejections: {[}instructions rejected{]},\\   (study 2 only)\\   keep: {[}instructions to keep{]},\\   (study 3 only)\\   state: \{\\     players: {[}array of players{]},\\     targets: {[}array of targets{]}\\   \}\\ \}\end{tabular} & \begin{tabular}[c]{@{}l@{}}\{\\     plan: {[}\\       {[}array of instructions{]},\\       {[}array of instructions{]}\\    .... {]}\\ \}\end{tabular} \\ \hline
+\end{tabular}
+\caption{Agent server protocol}
+\end{table}
+
 
 \chapter{Appendix to study 1}
+\section{Game area and set-up}
+
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{img/Appendix/targets1}
+  \caption{Target distribution in study 1}
+\end{figure}
+
 
 \section{Participant demographic}
+
+\begin{table}[H]
+\centering
+\footnotesize
+\rotatebox{90}{
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+Initials & Gender & Occupation & \begin{tabular}[c]{@{}l@{}}Mobile OS \\ experience\end{tabular} & \begin{tabular}[c]{@{}l@{}}Location game \\ experence\end{tabular} & \begin{tabular}[c]{@{}l@{}}Navigation app\\  experience\end{tabular} & \begin{tabular}[c]{@{}l@{}}Map reading\\  skill\end{tabular} & \begin{tabular}[c]{@{}l@{}}Know other \\ participants\end{tabular} \\ \hline
+NH       & M      & Student    & Android                                                         & YES                                                                & YES                                                                  & MEDIUM                                                       &                         \\ \hline
+RL       & M      & Student    & iOS                                                             & NO                                                                 & YES                                                                  & HIGH                                                         &                         \\ \hline
+JP       & F      & Student    & Android, Wndows                                                 & NO                                                                 & YES                                                                  & HIGH                                                         & TD                      \\ \hline
+TD       & M      & Student    & iOS                                                             & NO                                                                 & YES                                                                  & MEDIUM                                                       & JP                      \\ \hline
+TV       & M      & Student    & Android                                                         & NO                                                                 & YES                                                                  & HIGH                                                         &                         \\ \hline
+HQ1      & M      & Student    & iOS, Blackberry                                                 & NO                                                                 & YES                                                                  & MEDIUM                                                       &                         \\ \hline
+HQ2      & M      & Researcher & iOS                                                             & NO                                                                 & YES                                                                  & HIGH                                                         &                         \\ \hline
+\end{tabular}}
+\caption{Participants in session A}
+\end{table}
+
+
+
+\begin{table}[H]
+\centering
+\footnotesize
+\rotatebox{90}{
+\begin{tabular}{|l|l|l|l|l|l|l|l|}
+\hline
+Initials & Gender & Occupation & \begin{tabular}[c]{@{}l@{}}Mobile OS \\ experience\end{tabular} & \begin{tabular}[c]{@{}l@{}}Location game \\ experence\end{tabular} & \begin{tabular}[c]{@{}l@{}}Navigation app\\  experience\end{tabular} & \begin{tabular}[c]{@{}l@{}}Map reading\\  skill\end{tabular} & \begin{tabular}[c]{@{}l@{}}Know other \\ participants\end{tabular} \\ \hline
+D2       & M      & Student    & Android,Windows                                                 & NO                                                                 & YES                                                                  & MEDIUM                                                       &                                                                    \\ \hline
+D1       & M      & Student    & Android                                                         & NO                                                                 & YES                                                                  & HIGH                                                         &                                                                    \\ \hline
+BR       & F      & Student    & iOS                                                             & NO                                                                 & YES                                                                  &                                                              & KL,HQ1                                                             \\ \hline
+KL       & F      & Student    & iOS                                                             & NO                                                                 & NO                                                                   & HIGH                                                         & BR,HQ1                                                             \\ \hline
+KY       & F      & Student    & Android,Windows                                                 & NO                                                                 & NO                                                                   & MEDIUM                                                       &                                                                    \\ \hline
+JH       & M      & Student    & Android,iOS                                                     & NO                                                                 & YES                                                                  & HIGH                                                         &                                                                    \\ \hline
+HD       & F      & Student    & No experience                                                   & NO                                                                 & NO                                                                   & MEDIUM                                                       &                                                                    \\ \hline
+MF       & M      & Researcher & iOS                                                             & NO                                                                 & NO                                                                   & HIGH                                                         &                                                                    \\ \hline
+HQ1      & F      & Student    & iOS                                                             & NO                                                                 & YES                                                                  &                                                              &                                                                    \\ \hline
+HQ2      & F      & Student    & iOS                                                             & NO                                                                 & YES                                                                  &                                                              & HD                                                                 \\ \hline
+HQ3      & F      & Student    & iOS                                                             & NO                                                                 & YES                                                                  &                                                              & KL,BR                                                              \\ \hline
+\end{tabular}}
+\caption{Participants in Session B}
+\end{table}
 
 \section{Message logs}
 
 \section{Game event visualisation}
 
-\section{Game area and set-up}
+
 
 \chapter{Appendix to study 2}
 
+
+
+\section{Game area and set-up}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{img/Appendix/targets1}
+  \caption{Target distribution in study 2}
+\end{figure}
+
 \section{Participant demographic}
+\begin{table}[H]
+\centering
+\footnotesize
+\rotatebox{90}{
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|}
+\hline
+Initials & Age & Gender & Occupation      & \begin{tabular}[c]{@{}l@{}}Mobile OS \\ experience\end{tabular} & \begin{tabular}[c]{@{}l@{}}Location game \\ experence\end{tabular} & \begin{tabular}[c]{@{}l@{}}Navigation app\\  experience\end{tabular} & \begin{tabular}[c]{@{}l@{}}Map reading\\  skill\end{tabular} & \begin{tabular}[c]{@{}l@{}}Know other \\ participants\end{tabular} \\ \hline
+AC       & 26  & M      & Student         & iOS                                                             & YES                                                                & YES                                                                  & MEDIUM                                                       &                                                                    \\ \hline
+HB       & 19  & F      & Student         & iOS                                                             & NO                                                                 & YES                                                                  & MEDIUM                                                       & KD                                                                 \\ \hline
+AR       & 18  & M      & Student         & iOS,Android                                                     & YES                                                                & YES                                                                  & HIGH                                                         &                                                                    \\ \hline
+AW       & 18  & M      & Student         & Android                                                         & NO                                                                 & NO                                                                   & MEDIUM                                                       &                                                                    \\ \hline
+LC       & 27  & M      & Event organiser & Nodia                                                           & NO                                                                 & NO                                                                   & HIGH                                                         &                                                                    \\ \hline
+YF       & 24  & F      & Student         & Android                                                         & YES                                                                & YES                                                                  & HIGH                                                         &                                                                    \\ \hline
+DD       & 32  & F      & Student         & iOS                                                             & NO                                                                 & YES                                                                  & HIGH                                                         &                                                                    \\ \hline
+KD       & 20  & M      & Student         & Android                                                         & YES                                                                & YES                                                                  & HIGH                                                         &                                                                    \\ \hline
+HQ       & 24  & M      & Student         & Android                                                         & NO                                                                 & NO                                                                   & MEDIUM                                                       &                                                                    \\ \hline
+\end{tabular}}
+\caption{Participants in Session A}
+\end{table}
+
+\begin{table}[H]
+\centering
+\footnotesize
+\rotatebox{90}{
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|}
+\hline
+Initials & Age & Gender & Occupation & \begin{tabular}[c]{@{}l@{}}Mobile OS \\ experience\end{tabular} & \begin{tabular}[c]{@{}l@{}}Location game \\ experence\end{tabular} & \begin{tabular}[c]{@{}l@{}}Navigation app\\  experience\end{tabular} & \begin{tabular}[c]{@{}l@{}}Map reading\\  skill\end{tabular} & \begin{tabular}[c]{@{}l@{}}Know other \\ participants\end{tabular} \\ \hline
+DP       & 26  & M      & Student    & iOS                                                             & NO                                                                 & YES                                                                  & MEDIUM                                                       &                                                                    \\ \hline
+LT       & 19  & F      & Student    & iOS                                                             & NO                                                                 & YES                                                                  & HIGH                                                         & NK,NW                                                              \\ \hline
+CR       & 18  & M      & Student    & iOS,Android                                                     & NO                                                                 & YES                                                                  & HIGH                                                         &                                                                    \\ \hline
+SS       & 18  & M      & Student    & Android                                                         & NO                                                                 & YES                                                                  & HIGH                                                         & PC                                                                 \\ \hline
+NK       & 27  & F      & Student    & iOS                                                             & NO                                                                 & YES                                                                  & MEDIUM                                                       & LT,NW                                                              \\ \hline
+NW       & 24  & F      & Student    & iOS                                                             & NO                                                                 & YES                                                                  & MEDIUM                                                       & NK,LT                                                              \\ \hline
+JL       & 32  & F      & Student    & no experience                                                   & NO                                                                 & YES                                                                  & HIGH                                                         &                                                                    \\ \hline
+PC       & 20  & F      & Student    & iOS                                                             & NO                                                                 & YES                                                                  & MEDIUM                                                       & SS                                                                 \\ \hline
+HQ       & 24  & M      & Student    & iOS                                                             & NO                                                                 & YES                                                                  & MEDIUM                                                       &                                                                    \\ \hline
+\end{tabular}}
+\caption{Participants in Session B}
+\end{table}
 
 \section{Message logs}
 
 \section{Game event visualisation}
-
-\section{Game area and set-up}
 
 \chapter{Appendix to study 3}
 
@@ -89,3 +202,8 @@
 \section{Game event visualisation}
 
 \section{Game area and set-up}
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=1\textwidth]{img/Appendix/targets2}
+  \caption{Target distribution in study 3}
+\end{figure}
