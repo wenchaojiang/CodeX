@@ -113,12 +113,12 @@
 \contentsline {section}{\numberline {8.2}System Evolution}{136}{section.8.2}
 \contentsline {subsection}{\numberline {8.2.1}Interfaces}{137}{subsection.8.2.1}
 \contentsline {subsection}{\numberline {8.2.2}The planning agent}{142}{subsection.8.2.2}
-\contentsline {section}{\numberline {8.3}Study Design}{142}{section.8.3}
-\contentsline {section}{\numberline {8.4}Data Analysis}{144}{section.8.4}
+\contentsline {section}{\numberline {8.3}Study Design}{143}{section.8.3}
+\contentsline {section}{\numberline {8.4}Data Analysis}{145}{section.8.4}
 \contentsline {subsection}{\numberline {8.4.1}Messaging system}{145}{subsection.8.4.1}
-\contentsline {subsection}{\numberline {8.4.2}Overview of task assignments}{146}{subsection.8.4.2}
+\contentsline {subsection}{\numberline {8.4.2}Overview of task assignments}{147}{subsection.8.4.2}
 \contentsline {subsection}{\numberline {8.4.3}Confirming the plan}{148}{subsection.8.4.3}
-\contentsline {subsection}{\numberline {8.4.4}Just Following the Plan}{149}{subsection.8.4.4}
+\contentsline {subsection}{\numberline {8.4.4}Just Following the Plan}{150}{subsection.8.4.4}
 \contentsline {subsection}{\numberline {8.4.5}Correcting the plan}{152}{subsection.8.4.5}
 \contentsline {subsection}{\numberline {8.4.6}Changing the plan}{153}{subsection.8.4.6}
 \contentsline {subsection}{\numberline {8.4.7}Coping with the unexpected}{154}{subsection.8.4.7}
@@ -136,7 +136,7 @@
 \contentsline {subsection}{\numberline {8.6.3}Interactional trouble}{172}{subsection.8.6.3}
 \contentsline {section}{\numberline {8.7}Professional feedbacks}{173}{section.8.7}
 \contentsline {subsection}{\numberline {8.7.1}The Rescue Global feedbacks}{174}{subsection.8.7.1}
-\contentsline {subsection}{\numberline {8.7.2}Conclusion and Reflection}{177}{subsection.8.7.2}
+\contentsline {subsection}{\numberline {8.7.2}Conclusion and Reflection}{178}{subsection.8.7.2}
 \contentsline {section}{\numberline {8.8}Summary}{179}{section.8.8}
 \contentsline {part}{iv\hspace {1em}\spacedlowsmallcaps {Conclusion}}{181}{part.4}
 \contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Conclusion}}{182}{chapter.9}
