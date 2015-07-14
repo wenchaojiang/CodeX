@@ -166,9 +166,9 @@
 \contentsline {section}{\numberline {C.3}Message logs}{212}{section.C.3}
 \contentsline {section}{\numberline {C.4}Game event visualisation}{212}{section.C.4}
 \contentsline {chapter}{\numberline {D}\spacedlowsmallcaps {Appendix to study 3}}{213}{appendix.D}
-\contentsline {section}{\numberline {D.1}Participant demographic}{213}{section.D.1}
-\contentsline {section}{\numberline {D.2}Message logs}{213}{section.D.2}
-\contentsline {section}{\numberline {D.3}Game event visualisation}{213}{section.D.3}
-\contentsline {section}{\numberline {D.4}Game area and set-up}{213}{section.D.4}
+\contentsline {section}{\numberline {D.1}Game area and set-up}{213}{section.D.1}
+\contentsline {section}{\numberline {D.2}Participant demographic}{214}{section.D.2}
+\contentsline {section}{\numberline {D.3}Message logs}{216}{section.D.3}
+\contentsline {section}{\numberline {D.4}Game event visualisation}{216}{section.D.4}
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{214}{dummy.4}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{217}{dummy.4}
