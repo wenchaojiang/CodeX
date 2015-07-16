@@ -62,8 +62,8 @@
 \contentsline {section}{\numberline {5.3}Data collection and handling}{71}{section.5.3}
 \contentsline {subsection}{\numberline {5.3.1}Video and audio recording}{71}{subsection.5.3.1}
 \contentsline {subsection}{\numberline {5.3.2}Log Data Handling}{72}{subsection.5.3.2}
-\contentsline {subsection}{\numberline {5.3.3}Message classification}{74}{subsection.5.3.3}
-\contentsline {subsection}{\numberline {5.3.4}Group interview}{75}{subsection.5.3.4}
+\contentsline {subsection}{\numberline {5.3.3}Message classification}{75}{subsection.5.3.3}
+\contentsline {subsection}{\numberline {5.3.4}Group interview}{76}{subsection.5.3.4}
 \contentsline {section}{\numberline {5.4}Analytic Procedure}{76}{section.5.4}
 \contentsline {part}{iii\hspace {1em}\spacedlowsmallcaps {Studies}}{78}{part.3}
 \contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {AtomicOrchid Study 1: Non agent version}}{79}{chapter.6}
@@ -118,57 +118,57 @@
 \contentsline {subsection}{\numberline {8.4.1}Messaging system}{145}{subsection.8.4.1}
 \contentsline {subsection}{\numberline {8.4.2}Overview of task assignments}{146}{subsection.8.4.2}
 \contentsline {subsection}{\numberline {8.4.3}Confirming the plan}{148}{subsection.8.4.3}
-\contentsline {subsection}{\numberline {8.4.4}Just Following the Plan}{149}{subsection.8.4.4}
+\contentsline {subsection}{\numberline {8.4.4}Just Following the Plan}{150}{subsection.8.4.4}
 \contentsline {subsection}{\numberline {8.4.5}Correcting the plan}{152}{subsection.8.4.5}
 \contentsline {subsection}{\numberline {8.4.6}Changing the plan}{153}{subsection.8.4.6}
 \contentsline {subsection}{\numberline {8.4.7}Coping with the unexpected}{154}{subsection.8.4.7}
 \contentsline {subsection}{\numberline {8.4.8}When it all Breaks Down}{155}{subsection.8.4.8}
-\contentsline {subsection}{\numberline {8.4.9}Missing feedbacks from field}{157}{subsection.8.4.9}
-\contentsline {subsection}{\numberline {8.4.10}Division of labour in HQ}{158}{subsection.8.4.10}
-\contentsline {section}{\numberline {8.5}Discussion}{159}{section.8.5}
-\contentsline {subsection}{\numberline {8.5.1}How does the In-the-loop design play out?}{159}{subsection.8.5.1}
-\contentsline {subsection}{\numberline {8.5.2}Responsibility and Complacency}{163}{subsection.8.5.2}
-\contentsline {subsection}{\numberline {8.5.3}Tacit confusions}{164}{subsection.8.5.3}
-\contentsline {subsection}{\numberline {8.5.4}Support human planning}{167}{subsection.8.5.4}
-\contentsline {section}{\numberline {8.6}Lessons from interaction design}{170}{section.8.6}
-\contentsline {subsection}{\numberline {8.6.1}Common ground}{170}{subsection.8.6.1}
-\contentsline {subsection}{\numberline {8.6.2}Supporting Mixed-Initiative Planning}{171}{subsection.8.6.2}
-\contentsline {subsection}{\numberline {8.6.3}Interactional trouble}{172}{subsection.8.6.3}
-\contentsline {section}{\numberline {8.7}Professional feedbacks}{173}{section.8.7}
-\contentsline {subsection}{\numberline {8.7.1}The Rescue Global feedbacks}{174}{subsection.8.7.1}
-\contentsline {subsection}{\numberline {8.7.2}Conclusion and Reflection}{177}{subsection.8.7.2}
-\contentsline {section}{\numberline {8.8}Summary}{179}{section.8.8}
-\contentsline {part}{iv\hspace {1em}\spacedlowsmallcaps {Conclusion}}{181}{part.4}
-\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Conclusion}}{182}{chapter.9}
-\contentsline {section}{\numberline {9.1}Summary of contributions}{183}{section.9.1}
-\contentsline {subsection}{\numberline {9.1.1}Interface evolutions}{184}{subsection.9.1.1}
-\contentsline {subsection}{\numberline {9.1.2}Key observations}{187}{subsection.9.1.2}
-\contentsline {subsection}{\numberline {9.1.3}Interactional issues and lessons}{189}{subsection.9.1.3}
-\contentsline {subsubsection}{\numberline {9.1.3.1}Division of labour}{189}{subsubsection.9.1.3.1}
-\contentsline {subsubsection}{\numberline {9.1.3.2}Establishing common ground}{193}{subsubsection.9.1.3.2}
-\contentsline {subsubsection}{\numberline {9.1.3.3}Faciliating accountability}{195}{subsubsection.9.1.3.3}
-\contentsline {subsubsection}{\numberline {9.1.3.4}Supporting situated actions}{196}{subsubsection.9.1.3.4}
-\contentsline {section}{\numberline {9.2}Limitation}{197}{section.9.2}
-\contentsline {section}{\numberline {9.3}future work}{199}{section.9.3}
-\contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Appendix}}{202}{part.5}
-\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix to AtomicOrchid implementation}}{203}{appendix.A}
-\contentsline {section}{\numberline {A.1}System architecture}{203}{section.A.1}
-\contentsline {section}{\numberline {A.2}Data model}{206}{section.A.2}
-\contentsline {section}{\numberline {A.3}Agent-server protocol}{207}{section.A.3}
-\contentsline {chapter}{\numberline {B}\spacedlowsmallcaps {Appendix to study 1}}{208}{appendix.B}
-\contentsline {section}{\numberline {B.1}Game area and set-up}{208}{section.B.1}
-\contentsline {section}{\numberline {B.2}Participant demographic}{209}{section.B.2}
-\contentsline {section}{\numberline {B.3}Game event visualisation}{211}{section.B.3}
-\contentsline {section}{\numberline {B.4}Game event visualisation}{212}{section.B.4}
-\contentsline {chapter}{\numberline {C}\spacedlowsmallcaps {Appendix to study 2}}{213}{appendix.C}
-\contentsline {section}{\numberline {C.1}Game area and set-up}{213}{section.C.1}
-\contentsline {section}{\numberline {C.2}Participant demographic}{214}{section.C.2}
-\contentsline {section}{\numberline {C.3}Game event visualisation}{216}{section.C.3}
-\contentsline {section}{\numberline {C.4}Game event visualisation}{217}{section.C.4}
-\contentsline {chapter}{\numberline {D}\spacedlowsmallcaps {Appendix to study 3}}{218}{appendix.D}
-\contentsline {section}{\numberline {D.1}Game area and set-up}{218}{section.D.1}
-\contentsline {section}{\numberline {D.2}Participant demographic}{219}{section.D.2}
-\contentsline {section}{\numberline {D.3}Game event visualisation}{221}{section.D.3}
-\contentsline {section}{\numberline {D.4}Game event visualisation}{222}{section.D.4}
+\contentsline {subsection}{\numberline {8.4.9}Missing feedbacks from field}{159}{subsection.8.4.9}
+\contentsline {subsection}{\numberline {8.4.10}Division of labour in HQ}{159}{subsection.8.4.10}
+\contentsline {section}{\numberline {8.5}Discussion}{160}{section.8.5}
+\contentsline {subsection}{\numberline {8.5.1}How does the In-the-loop design play out?}{161}{subsection.8.5.1}
+\contentsline {subsection}{\numberline {8.5.2}Responsibility and Complacency}{164}{subsection.8.5.2}
+\contentsline {subsection}{\numberline {8.5.3}Tacit confusions}{166}{subsection.8.5.3}
+\contentsline {subsection}{\numberline {8.5.4}Support human planning}{169}{subsection.8.5.4}
+\contentsline {section}{\numberline {8.6}Lessons from interaction design}{171}{section.8.6}
+\contentsline {subsection}{\numberline {8.6.1}Common ground}{172}{subsection.8.6.1}
+\contentsline {subsection}{\numberline {8.6.2}Supporting Mixed-Initiative Planning}{173}{subsection.8.6.2}
+\contentsline {subsection}{\numberline {8.6.3}Interactional trouble}{174}{subsection.8.6.3}
+\contentsline {section}{\numberline {8.7}Professional feedbacks}{174}{section.8.7}
+\contentsline {subsection}{\numberline {8.7.1}The Rescue Global feedbacks}{175}{subsection.8.7.1}
+\contentsline {subsection}{\numberline {8.7.2}Conclusion and Reflection}{179}{subsection.8.7.2}
+\contentsline {section}{\numberline {8.8}Summary}{180}{section.8.8}
+\contentsline {part}{iv\hspace {1em}\spacedlowsmallcaps {Conclusion}}{182}{part.4}
+\contentsline {chapter}{\numberline {9}\spacedlowsmallcaps {Conclusion}}{183}{chapter.9}
+\contentsline {section}{\numberline {9.1}Summary of contributions}{184}{section.9.1}
+\contentsline {subsection}{\numberline {9.1.1}Interface evolutions}{185}{subsection.9.1.1}
+\contentsline {subsection}{\numberline {9.1.2}Key observations}{188}{subsection.9.1.2}
+\contentsline {subsection}{\numberline {9.1.3}Interactional issues and lessons}{190}{subsection.9.1.3}
+\contentsline {subsubsection}{\numberline {9.1.3.1}Division of labour}{190}{subsubsection.9.1.3.1}
+\contentsline {subsubsection}{\numberline {9.1.3.2}Establishing common ground}{194}{subsubsection.9.1.3.2}
+\contentsline {subsubsection}{\numberline {9.1.3.3}Faciliating accountability}{196}{subsubsection.9.1.3.3}
+\contentsline {subsubsection}{\numberline {9.1.3.4}Supporting situated actions}{197}{subsubsection.9.1.3.4}
+\contentsline {section}{\numberline {9.2}Limitation}{198}{section.9.2}
+\contentsline {section}{\numberline {9.3}future work}{200}{section.9.3}
+\contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Appendix}}{203}{part.5}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix to AtomicOrchid implementation}}{204}{appendix.A}
+\contentsline {section}{\numberline {A.1}System architecture}{204}{section.A.1}
+\contentsline {section}{\numberline {A.2}Data model}{207}{section.A.2}
+\contentsline {section}{\numberline {A.3}Agent-server protocol}{208}{section.A.3}
+\contentsline {chapter}{\numberline {B}\spacedlowsmallcaps {Appendix to study 1}}{209}{appendix.B}
+\contentsline {section}{\numberline {B.1}Game area and set-up}{209}{section.B.1}
+\contentsline {section}{\numberline {B.2}Participant demographic}{210}{section.B.2}
+\contentsline {section}{\numberline {B.3}Game event visualisation}{212}{section.B.3}
+\contentsline {section}{\numberline {B.4}Game event visualisation}{213}{section.B.4}
+\contentsline {chapter}{\numberline {C}\spacedlowsmallcaps {Appendix to study 2}}{214}{appendix.C}
+\contentsline {section}{\numberline {C.1}Game area and set-up}{214}{section.C.1}
+\contentsline {section}{\numberline {C.2}Participant demographic}{215}{section.C.2}
+\contentsline {section}{\numberline {C.3}Game event visualisation}{217}{section.C.3}
+\contentsline {section}{\numberline {C.4}Game event visualisation}{218}{section.C.4}
+\contentsline {chapter}{\numberline {D}\spacedlowsmallcaps {Appendix to study 3}}{219}{appendix.D}
+\contentsline {section}{\numberline {D.1}Game area and set-up}{219}{section.D.1}
+\contentsline {section}{\numberline {D.2}Participant demographic}{220}{section.D.2}
+\contentsline {section}{\numberline {D.3}Game event visualisation}{222}{section.D.3}
+\contentsline {section}{\numberline {D.4}Game event visualisation}{223}{section.D.4}
 \vspace {\beforebibskip }
-\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{223}{dummy.4}
+\contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{224}{dummy.4}

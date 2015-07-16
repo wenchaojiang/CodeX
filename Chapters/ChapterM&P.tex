@@ -294,13 +294,16 @@ To recap (Section \ref{sec:applogging}), the logging system records players's lo
 
 A replay system is also built to triangulate multiple video with log data. The main map view on the replay interface (Figure \ref{fig:replay}) displays game status reconstructed from log data, in a way that similar to the HQ interface does (Section x for details). By giving a time offset to video file, the videos are synchronised with the main map view of game status. The replay system is important tool for interaction analysis, as it presents distributed game play with a single interface in a synchronised way, providing insights into the distributed interaction among participants and the system as it happened in parallels. \\
 
-\begin{figure}[h]
+\begin{figure}[H]
   \centering
-  \includegraphics[width=1\textwidth]{img/methodology/replay}
-  \caption{Replay system}
+ \rotatebox{90}{
+  \includegraphics[width=1.5\textwidth]{img/methodology/replay}
+ }
+  
+   \caption{Replay system}
   \label{fig:replay}
 \end{figure}
-
+\newpage
 \subsection{Message classification} \label{sec:aprmsg}
 In AtomicOrchid, remote coordination between field and human HQ is achieved through a text messaging channel. The remote messages are recorded as part of system logs. To understand how the team members interact through the remote messages, we devised a message classification method based on speech act theory \cite{Searle1976}. We used speech-act theory and the notion of adjacency pairs \cite{Avrahami} to classify messages sent between and among responders and HQ. According to speech act theory, utterances in dialogues can be considered as speech acts from three dimensions \cite{Searle1976}. We were primarily concerned with the illocutionary dimension of speech acts.\\
 
