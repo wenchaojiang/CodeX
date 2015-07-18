@@ -35,6 +35,12 @@ Armenakis, C. (2012).
   applications}.
 \newblock {\em Natural Hazards}, 66(1):139--140.
 
+\bibitem[Avrahami and Hudson, 2003]{Avrahami}
+Avrahami, D. and Hudson, S.~E. (2003).
+\newblock {QnA : Augmenting an Instant Messaging Client to Balance User
+  Responsiveness and Performance}.
+\newblock 6(3):515--518.
+
 \bibitem[Bellotti and Edwards, 2001]{Bellotti2001}
 Bellotti, V. and Edwards, K. (2001).
 \newblock {Intelligibility and Accountability: Human Considerations in
@@ -77,6 +83,11 @@ Bradshaw, J.~M., Feltovich, P., and Johnson, M. (2011).
 \newblock {Human-Agent Interaction}.
 \newblock In Boy, G., editor, {\em Handbook of HumanMachine Interaction},
   chapter~13, pages 293--302. Ashgate.
+
+\bibitem[Brundell et~al., 2008]{Brundell}
+Brundell, P., Tennent, P., Greenhalgh, C., Knight, D., Malley, C.~O.,
+  Ainsworth, S., Clarke, D., and Adolphs, S. (2008).
+\newblock {Digital Replay system (DRS): A Tool for Interaction Analysis}.
 
 \bibitem[Burstein et~al., 2003]{Burstein2003}
 Burstein, M., Ferguson, G., and Allen, J. (2003).

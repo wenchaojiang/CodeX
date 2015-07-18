@@ -9,16 +9,16 @@
 \contentsline {figure}{\numberline {4}{\ignorespaces Tsunami response system, Credit \cite {Wattegama2012} \relax }}{24}{figure.caption.24}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5}{\ignorespaces The socio technical gap\relax }}{53}{figure.caption.31}
-\contentsline {figure}{\numberline {6}{\ignorespaces HQ and field players in AO\relax }}{55}{figure.caption.32}
-\contentsline {figure}{\numberline {7}{\ignorespaces The roles in \ac {AO}\relax }}{56}{figure.caption.33}
-\contentsline {figure}{\numberline {8}{\ignorespaces The targets in \ac {AO}\relax }}{56}{figure.caption.34}
-\contentsline {figure}{\numberline {9}{\ignorespaces Role target mapping\relax }}{57}{figure.caption.35}
-\contentsline {figure}{\numberline {10}{\ignorespaces The radioactive cloud\relax }}{57}{figure.caption.36}
-\contentsline {figure}{\numberline {11}{\ignorespaces System Architecture\relax }}{59}{figure.caption.38}
-\contentsline {figure}{\numberline {12}{\ignorespaces Input and output of the agents\relax }}{61}{figure.caption.40}
-\contentsline {figure}{\numberline {13}{\ignorespaces On-the-loop interaction design\relax }}{65}{figure.caption.41}
-\contentsline {figure}{\numberline {14}{\ignorespaces In-the-loop interaction design\relax }}{65}{figure.caption.42}
+\contentsline {figure}{\numberline {5}{\ignorespaces actions and situated actions\relax }}{53}{figure.caption.32}
+\contentsline {figure}{\numberline {6}{\ignorespaces HQ and field players in AO\relax }}{55}{figure.caption.33}
+\contentsline {figure}{\numberline {7}{\ignorespaces The roles in \ac {AO}\relax }}{56}{figure.caption.34}
+\contentsline {figure}{\numberline {8}{\ignorespaces The targets in \ac {AO}\relax }}{56}{figure.caption.35}
+\contentsline {figure}{\numberline {9}{\ignorespaces Role target mapping\relax }}{57}{figure.caption.36}
+\contentsline {figure}{\numberline {10}{\ignorespaces The radioactive cloud\relax }}{57}{figure.caption.37}
+\contentsline {figure}{\numberline {11}{\ignorespaces System Architecture\relax }}{59}{figure.caption.39}
+\contentsline {figure}{\numberline {12}{\ignorespaces Input and output of the agents\relax }}{61}{figure.caption.41}
+\contentsline {figure}{\numberline {13}{\ignorespaces On-the-loop interaction design\relax }}{65}{figure.caption.42}
+\contentsline {figure}{\numberline {14}{\ignorespaces In-the-loop interaction design\relax }}{65}{figure.caption.43}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {15}{\ignorespaces Log visualisation\relax }}{73}{figure.caption.45}
 \contentsline {figure}{\numberline {16}{\ignorespaces Replay system\relax }}{74}{figure.caption.46}
@@ -73,17 +73,17 @@
 \contentsline {figure}{\numberline {61}{\ignorespaces Mobile Interface of study 3\relax }}{188}{figure.caption.97}
 \contentsline {figure}{\numberline {62}{\ignorespaces On-the-loop vs In-the-loop\relax }}{191}{figure.caption.98}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {63}{\ignorespaces Technological illustration of AtomicOrchid\relax }}{204}{figure.caption.100}
-\contentsline {figure}{\numberline {64}{\ignorespaces Handling of Game logic in Ruby server\relax }}{206}{figure.caption.102}
+\contentsline {figure}{\numberline {63}{\ignorespaces Technological illustration of AtomicOrchid\relax }}{205}{figure.caption.100}
+\contentsline {figure}{\numberline {64}{\ignorespaces Handling of Game logic in Ruby server\relax }}{207}{figure.caption.102}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {65}{\ignorespaces Target distribution in study 1\relax }}{209}{figure.caption.105}
-\contentsline {figure}{\numberline {66}{\ignorespaces Event visualisation of Study 1, Session A\relax }}{212}{figure.caption.108}
-\contentsline {figure}{\numberline {67}{\ignorespaces Event visualisation of Study 1, Session B\relax }}{213}{figure.caption.109}
+\contentsline {figure}{\numberline {65}{\ignorespaces Target distribution in study 1\relax }}{210}{figure.caption.105}
+\contentsline {figure}{\numberline {66}{\ignorespaces Event visualisation of Study 1, Session A\relax }}{213}{figure.caption.108}
+\contentsline {figure}{\numberline {67}{\ignorespaces Event visualisation of Study 1, Session B\relax }}{214}{figure.caption.109}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {68}{\ignorespaces Target distribution in study 2\relax }}{214}{figure.caption.110}
-\contentsline {figure}{\numberline {69}{\ignorespaces Event visualisation of Study 2, Session A\relax }}{217}{figure.caption.113}
-\contentsline {figure}{\numberline {70}{\ignorespaces Event visualisation of Study 2, Session B\relax }}{218}{figure.caption.114}
+\contentsline {figure}{\numberline {68}{\ignorespaces Target distribution in study 2\relax }}{215}{figure.caption.110}
+\contentsline {figure}{\numberline {69}{\ignorespaces Event visualisation of Study 2, Session A\relax }}{218}{figure.caption.113}
+\contentsline {figure}{\numberline {70}{\ignorespaces Event visualisation of Study 2, Session B\relax }}{219}{figure.caption.114}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {71}{\ignorespaces Target distribution in study 3\relax }}{219}{figure.caption.115}
-\contentsline {figure}{\numberline {72}{\ignorespaces Event visualisation of Study 3, Session A\relax }}{222}{figure.caption.118}
-\contentsline {figure}{\numberline {73}{\ignorespaces Event visualisation of Study 3, Session B\relax }}{223}{figure.caption.119}
+\contentsline {figure}{\numberline {71}{\ignorespaces Target distribution in study 3\relax }}{220}{figure.caption.115}
+\contentsline {figure}{\numberline {72}{\ignorespaces Event visualisation of Study 3, Session A\relax }}{223}{figure.caption.118}
+\contentsline {figure}{\numberline {73}{\ignorespaces Event visualisation of Study 3, Session B\relax }}{224}{figure.caption.119}
