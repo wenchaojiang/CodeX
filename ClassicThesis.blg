@@ -1,10 +1,8 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: ClassicThesis.aux
 The style file: apalike.bst
-A level-1 auxiliary file: FrontBackmatter/DirtyTitlepage.aux
 A level-1 auxiliary file: FrontBackmatter/Titlepage.aux
-A level-1 auxiliary file: FrontBackmatter/Titleback.aux
 A level-1 auxiliary file: FrontBackmatter/Abstract.aux
 A level-1 auxiliary file: FrontBackmatter/Acknowledgments.aux
 A level-1 auxiliary file: FrontBackmatter/Contents.aux
@@ -151,7 +149,6 @@ Repeated entry---line 104 of file Study3.bib
  : @article{Benford2006
  :                     ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "Brundell2008"
 Warning--empty journal in Avrahami
 Warning--there's a number but no volume in Boersma2009
 Warning--empty booktitle in Bowers1994
@@ -186,7 +183,7 @@ Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
 You've used 127 entries,
             1935 wiz_defined-function locations,
-            1274 strings with 28126 characters,
+            1270 strings with 28039 characters,
 and the built_in function-call counts, 52636 in all, are:
 = -- 5185
 > -- 2271

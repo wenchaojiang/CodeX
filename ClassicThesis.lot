@@ -3,36 +3,35 @@
 \select@language {american}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {1}{\ignorespaces Systems reviewed\relax }}{30}{table.caption.27}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {2}{\ignorespaces Planning model and situated action\relax }}{37}{table.caption.28}
+\contentsline {table}{\numberline {1}{\ignorespaces Planning model and situated action\relax }}{36}{table.caption.28}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {3}{\ignorespaces Result for MMDP, Myopic and Greedy algorithms, Credit \cite {Ramchurn2015a}\relax }}{60}{table.caption.40}
+\contentsline {table}{\numberline {2}{\ignorespaces Result for MMDP, Myopic and Greedy algorithms, Credit \cite {Ramchurn2015a}\relax }}{59}{table.caption.40}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {4}{\ignorespaces Overview of game results\relax }}{85}{table.caption.50}
-\contentsline {table}{\numberline {5}{\ignorespaces Speech act classification\relax }}{86}{table.caption.51}
-\contentsline {table}{\numberline {6}{\ignorespaces Themes of requests\relax }}{89}{table.caption.52}
-\contentsline {table}{\numberline {7}{\ignorespaces Adjacency pairs\relax }}{89}{table.caption.53}
+\contentsline {table}{\numberline {3}{\ignorespaces Overview of game results\relax }}{84}{table.caption.50}
+\contentsline {table}{\numberline {4}{\ignorespaces Speech act classification\relax }}{85}{table.caption.51}
+\contentsline {table}{\numberline {5}{\ignorespaces Themes of requests\relax }}{88}{table.caption.52}
+\contentsline {table}{\numberline {6}{\ignorespaces Adjacency pairs\relax }}{88}{table.caption.53}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {8}{\ignorespaces Performance comparison of coordination algorithms\relax }}{110}{table.caption.63}
-\contentsline {table}{\numberline {9}{\ignorespaces Overview of game results\relax }}{115}{table.caption.68}
-\contentsline {table}{\numberline {10}{\ignorespaces Compliance with agent instructions by context\relax }}{128}{table.caption.75}
+\contentsline {table}{\numberline {7}{\ignorespaces Performance comparison of coordination algorithms\relax }}{109}{table.caption.63}
+\contentsline {table}{\numberline {8}{\ignorespaces Overview of game results\relax }}{114}{table.caption.68}
+\contentsline {table}{\numberline {9}{\ignorespaces Compliance with agent instructions by context\relax }}{127}{table.caption.75}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {11}{\ignorespaces Result Overview\relax }}{145}{table.caption.83}
-\contentsline {table}{\numberline {12}{\ignorespaces Task assignment overview\relax }}{146}{table.caption.84}
+\contentsline {table}{\numberline {10}{\ignorespaces Result Overview\relax }}{144}{table.caption.83}
+\contentsline {table}{\numberline {11}{\ignorespaces Task assignment overview\relax }}{145}{table.caption.84}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {13}{\ignorespaces On-the-loop vs In-the-loop\relax }}{192}{table.caption.99}
+\contentsline {table}{\numberline {12}{\ignorespaces On-the-loop vs In-the-loop\relax }}{191}{table.caption.99}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {14}{\ignorespaces Communications between components\relax }}{206}{table.caption.101}
-\contentsline {table}{\numberline {15}{\ignorespaces AtomicOrchid DB model\relax }}{208}{table.caption.103}
-\contentsline {table}{\numberline {16}{\ignorespaces Agent server protocol\relax }}{209}{table.caption.104}
+\contentsline {table}{\numberline {13}{\ignorespaces Communications between components\relax }}{205}{table.caption.101}
+\contentsline {table}{\numberline {14}{\ignorespaces AtomicOrchid DB model\relax }}{207}{table.caption.103}
+\contentsline {table}{\numberline {15}{\ignorespaces Agent server protocol\relax }}{208}{table.caption.104}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {17}{\ignorespaces Participants in session A, Study 1\relax }}{211}{table.caption.106}
-\contentsline {table}{\numberline {18}{\ignorespaces Participants in Session B, Study 1\relax }}{212}{table.caption.107}
+\contentsline {table}{\numberline {16}{\ignorespaces Participants in session A, Study 1\relax }}{210}{table.caption.106}
+\contentsline {table}{\numberline {17}{\ignorespaces Participants in Session B, Study 1\relax }}{211}{table.caption.107}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {19}{\ignorespaces Participants in Session A, Study 2\relax }}{216}{table.caption.111}
-\contentsline {table}{\numberline {20}{\ignorespaces Participants in Session B, Study 2\relax }}{217}{table.caption.112}
+\contentsline {table}{\numberline {18}{\ignorespaces Participants in Session A, Study 2\relax }}{215}{table.caption.111}
+\contentsline {table}{\numberline {19}{\ignorespaces Participants in Session B, Study 2\relax }}{216}{table.caption.112}
 \addvspace {10\p@ }
-\contentsline {table}{\numberline {21}{\ignorespaces Participants in Session A, Study 3\relax }}{221}{table.caption.116}
-\contentsline {table}{\numberline {22}{\ignorespaces Participants in Session B, Study 3\relax }}{222}{table.caption.117}
+\contentsline {table}{\numberline {20}{\ignorespaces Participants in Session A, Study 3\relax }}{220}{table.caption.116}
+\contentsline {table}{\numberline {21}{\ignorespaces Participants in Session B, Study 3\relax }}{221}{table.caption.117}

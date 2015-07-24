@@ -1,33 +1,33 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.7.13)  23 JUL 2015 23:06
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.10.1)  24 JUL 2015 17:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **ClassicThesis.tex
 (./ClassicThesis.tex
 LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrreprt.cls
-Document Class: scrreprt 2013/12/19 v3.12 KOMA-Script document class (report)
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent b
-asics and keyval usage)
-
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent 
+Babel <3.9f> and hyphenation patterns for 78 languages loaded.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrreprt.cls
+Document Class: scrreprt 2012/07/29 v3.11b KOMA-Script document class (report)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent 
 basics and keyval usage)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent
+ basics and keyval usage)
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2013/12/19 v3.12 KOMA-Script package (loading files)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2012/06/15 v3.12 KOMA-Script package (loading files)
 
-Package scrlfile, 2013/12/19 v3.12 KOMA-Script package (loading files)
+Package scrlfile, 2012/06/15 v3.12 KOMA-Script package (loading files)
                   Copyright (C) Markus Kohm
 
-))) (/usr/share/texlive/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2013/12/19 v3.12 KOMA-Script package (handling toc-files)
+))) (/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/tocbasic.sty
+Package: tocbasic 2012/04/04 v3.10b KOMA-Script package (handling toc-files)
 )
 Package tocbasic Info: omitting babel extension for `toc'
 (tocbasic)             because of feature `nobabel' available
@@ -38,21 +38,12 @@ Package tocbasic Info: omitting babel extension for `lof'
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
 (tocbasic)             for `lot' on input line 119.
-Package tocbasic Info: defining new hook before heading of `' on input line 112
-3.
 Class scrreprt Info: You've used standard option `oneside'.
 (scrreprt)           This is correct!
 (scrreprt)           Internally I'm using `twoside=false'.
 (scrreprt)           If you'd like to set the option with \KOMAoptions,
 (scrreprt)           you'd have to use `twoside=false' there
 (scrreprt)           instead of `oneside', too.
-Package scrbase Info: Unknown processing state.
-(scrbase)             Processing option `twoside=false'
-(scrbase)             of member `.scrreprt.cls'
-(scrbase)             of family `KOMA'
-(scrbase)             doesn't set a valid state.
-(scrbase)             This will be interpreted
-(scrbase)             as \FamilyKeyStateProcessed on input line 1274.
 Class scrreprt Info: You've used standard option `openright'.
 (scrreprt)           This is correct!
 (scrreprt)           Internally I'm using `open=right'.
@@ -66,16 +57,16 @@ Class scrreprt Info: You've used standard option `abstractoff'.
 (scrreprt)           you'd have to use `abstract=false' there
 (scrreprt)           instead of `abstractoff', too.
 Class scrreprt Info: File `scrsize11pt.clo' used to setup font sizes on input l
-ine 1655.
+ine 1367.
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
-File: scrsize11pt.clo 2013/12/19 v3.12 KOMA-Script font size class option (11pt
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrsize11pt.clo
+File: scrsize11pt.clo 2012/07/29 v3.11b KOMA-Script font size class option (11p
+t)
 )
-)
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2013/12/19 v3.12 KOMA-Script package (type area)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/typearea.sty
+Package: typearea 2012/07/29 v3.11b KOMA-Script package (type area)
 
-Package typearea, 2013/12/19 v3.12 KOMA-Script package (type area)
+Package typearea, 2012/07/29 v3.11b KOMA-Script package (type area)
                   Copyright (C) Frank Neukam, 1992-1994
                   Copyright (C) Markus Kohm, 1994-
 
@@ -90,7 +81,6 @@ Package typearea Info: You've used standard option `oneside'.
 \ta@hblk=\skip42
 \ta@vblk=\skip43
 \ta@temp=\skip44
-\footheight=\skip45
 Package typearea Info: These are the values describing the layout:
 (typearea)             DIV  = 10
 (typearea)             BCOR = 14.22636pt
@@ -105,9 +95,9 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \headheight     = 17.0pt
 (typearea)              \headsep        = 20.40001pt
 (typearea)              \topskip        = 11.0pt
-(typearea)              \footskip       = 47.6pt
+(typearea)              \footskip       = 47.60002pt
 (typearea)              \baselineskip   = 13.6pt
-(typearea)              on input line 1330.
+(typearea)              on input line 1213.
 )
 \c@part=\count80
 \c@chapter=\count81
@@ -116,73 +106,72 @@ Package typearea Info: These are the values describing the layout:
 \c@subsubsection=\count84
 \c@paragraph=\count85
 \c@subparagraph=\count86
-\abovecaptionskip=\skip46
-\belowcaptionskip=\skip47
+\abovecaptionskip=\skip45
+\belowcaptionskip=\skip46
 \c@pti@nb@sid@b@x=\box26
 \c@figure=\count87
 \c@table=\count88
 \bibindent=\dimen102
 ) (./classicthesis-config.tex
-(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \c@dummy=\count89
-\abcd=\skip48
+\abcd=\skip47
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks15
 \inpenc@posthook=\toks16
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/latin9.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/latin9.def
 File: latin9.def 2008/03/30 v1.1d Input encoding file
 ))
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2013/12/03 3.9h The Babel package
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2013/05/16 v3.9f The Babel package
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-Language: ngermanb 2013/12/13 v2.7 German support for babel (new orthography)
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+Language: ngermanb 2008/07/06 v2.6n new German support from the babel system
 
-(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/12/03 3.9h Babel common definitions
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2013/05/16 v3.9f Babel common definitions
 \babel@savecnt=\count90
 \U@D=\dimen103
 )
 \l@naustrian = a dialect from \language\l@ngerman 
-\l@nswissgerman = a dialect from \language\l@ngerman 
-Package babel Info: Making " an active character on input line 88.
+Package babel Info: Making " an active character on input line 92.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
+(/usr/local/texlive/2013/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2012/08/20 v3.3p English support from the babel system
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip49
-\bibsep=\skip50
+\bibhang=\skip48
+\bibsep=\skip49
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count91
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
-\@mathmargin=\skip51
+\@mathmargin=\skip50
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen104
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen105
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count92
@@ -217,20 +206,20 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 \totwidth@=\dimen111
 \lineht@=\dimen112
 \@envbody=\toks20
-\multlinegap=\skip52
-\multlinetaggap=\skip53
+\multlinegap=\skip51
+\multlinetaggap=\skip52
 \mathdisplay@stack=\toks21
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/base/textcomp.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
 (textcomp)               5 = only ISO-Adobe without \textcurrency
@@ -245,7 +234,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1enc.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
 LaTeX Info: Redefining \oldstylenums on input line 266.
@@ -311,58 +300,59 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrhack.sty
-Package: scrhack 2013/12/19 v3.12 KOMA-Script package 
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrhack.sty
+Package: scrhack 2012/07/29 v3.11b KOMA-Script package (hacking other packages)
+
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/mparhack/mparhack.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/mparhack/mparhack.sty
 Package: mparhack 2005/04/17 v1.4 (T. Sgouros and S. Ulrich)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/fixltx2e.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/fixltx2e.sty
 Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
 LaTeX Info: Redefining \em on input line 420.
 LaTeX Info: Redefining \textsubscript on input line 424.
 LaTeX Info: The control sequence `\[' is already robust on input line 471.
 LaTeX Info: The control sequence `\]' is already robust on input line 472.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/natbib/bibentry.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/natbib/bibentry.sty
 Package: bibentry 2007/10/30 1.5 (PWD)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/multirow/multirow.sty
 \bigstrutjot=\dimen113
 )
 (./ClassicThesis.bbl)
-(/usr/share/texlive/texmf-dist/tex/latex/acronym/acronym.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/acronym/acronym.sty
 Package: acronym 2012/10/29 v1.38 Support for acronyms (Tobias Oetiker)
 
-(/usr/share/texlive/texmf-dist/tex/latex/bigfoot/suffix.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/bigfoot/suffix.sty
 Package: suffix 2006/07/15 1.5 Variant command support
 )
-(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.sty
-(/usr/share/texlive/texmf-dist/tex/generic/xstring/xstring.tex
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xstring/xstring.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/xstring/xstring.tex
 \@xs@message=\write3
 \integerpart=\count104
 \decimalpart=\count105
 )
-Package: xstring 2013/10/13  v1.7c  String manipulations (C Tellechea)
+Package: xstring 2013/2/28  v1.7a  String manipulations (C Tellechea)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/relsize/relsize.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/relsize/relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
 \AC@clearlist=\toks22
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/array.sty
 Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen114
 \extrarowheight=\dimen115
 \NC@list=\toks23
-\extratabsurround=\skip54
-\backup@length=\skip55
+\extratabsurround=\skip53
+\backup@length=\skip54
 )
 \TX@col@width=\dimen116
 \TX@old@table=\dimen117
@@ -372,10 +362,10 @@ Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
 \TX@cols=\count106
 \TX@ftn=\toks24
 )
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption.sty
 Package: caption 2013/05/02 v3.3-89 Customizing captions (AR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2013/05/02 v1.6-88 caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 57.
 \captionmargin=\dimen121
@@ -389,27 +379,27 @@ Package caption3 Info: TeX engine: e-TeX on input line 57.
 Package caption Info: KOMA-Script document class.
 \c@ContinuedFloat=\count107
 )
-(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/subfig/subfig.sty
 Package: subfig 2005/06/28 ver: 1.3 subfig package
 \c@KVtest=\count108
-\sf@farskip=\skip56
+\sf@farskip=\skip55
 \sf@captopadj=\dimen128
-\sf@capskip=\skip57
-\sf@nearskip=\skip58
+\sf@capskip=\skip56
+\sf@nearskip=\skip57
 \c@subfigure=\count109
 \c@subfigure@save=\count110
 \c@lofdepth=\count111
 \c@subtable=\count112
 \c@subtable@save=\count113
 \c@lotdepth=\count114
-\sf@top=\skip59
-\sf@bottom=\skip60
+\sf@top=\skip58
+\sf@bottom=\skip59
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/enumerate.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/enumerate.sty
 Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks25
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count115
 \lst@gtempboxa=\box29
 \lst@token=\toks26
@@ -423,63 +413,62 @@ Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \lst@lineno=\count120
 \lst@maxwidth=\dimen132
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count121
 \lst@skipnumbers=\count122
 \lst@framebox=\box30
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2013/08/26 1.5b listings configuration
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package scrhack Info: loading listings hack on input line 145.
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/listings.hak
-File: listings.hak 2013/12/19 v3.12 KOMA-Script package (hacking package listin
-gs)
-Package tocbasic Info: setting babel extension for `lol' on input line 137.
-Package scrhack Info: redefining \lstlistoflistings on input line 137.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/listings.hak
+File: listings.hak 2012/07/29 v3.11b KOMA-Script hacking package listings
+Package tocbasic Info: setting babel extension for `lol' on input line 136.
+Package scrhack Info: redefining \lstlistoflistings on input line 136.
 )
-Package: listings 2013/08/26 1.5b (Carsten Heinz)
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang2.sty
-File: lstlang2.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang3.sty
-File: lstlang3.sty 2013/08/26 1.5b listings language file
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2004/09/05 1.3 listings language file
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
@@ -520,25 +509,25 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/auxhook.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen133
 \Hy@linkcounter=\count123
 \Hy@pagecounter=\count124
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/pd1enc.def
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count125
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `hyperfootnotes' set `false' on input line 4319.
@@ -552,9 +541,9 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4688.
 \c@Hy@tempcnt=\count126
 
-(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip11
-Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen134
@@ -580,33 +569,33 @@ Package scrhack Info: hyperref hack deactivated because of
 
 Package hyperref Message: Driver: hpdftex.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count130
 \c@bookmark@seq@number=\count131
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
-\Hy@SectionHShift=\skip61
+\Hy@SectionHShift=\skip60
 )
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 \Gread@gobject=\count132
 ))
@@ -626,10 +615,11 @@ Package hyperref Info: Option `hypertexnames' set `true' on input line 221.
 (./classicthesis.sty
 Package: classicthesis 2012/08/12 v4.1 Typographic style for a classic-looking 
 thesis
- (/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
@@ -643,20 +633,20 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/dvipsnam.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/graphics/dvipsnam.def
 File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/mathpazo.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/mathpazo.sty
 Package: mathpazo 2005/04/12 PSNFSS-v9.2a Palatino w/ Pazo Math (D.Puga, WaS) 
 \symupright=\mathgroup4
 )
-(/usr/share/texlive/texmf-dist/tex/latex/bera/beramono.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/bera/beramono.sty
 Package: beramono 2004/01/31 (WaS)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/eulervm/eulervm.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/eulervm/eulervm.sty
 Package: eulervm 2005/01/11 v4.0 (WaS)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2013/05/23 v2.5a Micro-typographical refinements (RS)
 \MT@toks=\toks27
 \MT@count=\count133
@@ -665,16 +655,16 @@ LaTeX Info: Redefining \textls on input line 766.
 LaTeX Info: Redefining \textmicrotypecontext on input line 1285.
 \MT@listname@count=\count134
 
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2013/05/23 v2.5a Definitions specific to pdftex (RS)
 
 LaTeX Info: Redefining \lsstyle on input line 915.
 LaTeX Info: Redefining \lslig on input line 915.
-\MT@outer@space=\skip62
+\MT@outer@space=\skip61
 )
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2013/05/23 v2.5a microtype main configuration file (RS)
 ))
 Package classicthesis Info: A4 paper, Palatino or other on input line 270.
@@ -695,7 +685,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \baselineskip   = 13.6pt
 (typearea)              on input line 270.
 
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen140
 \lightrulewidth=\dimen141
@@ -715,32 +705,21 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count138
 \@thisrulewidth=\dimen152
 )
-(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/textcase/textcase.sty
 Package: textcase 2004/10/07 v0.07 Text only upper/lower case changing (DPC)
 )
 Package classicthesis Info: Using pdftex/microtype for character spacing.Make s
 ure your pdftex is version 1.40 or higher. on input line 342.
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrpage2.sty
-Package: scrpage2 2013/12/19 v3.12 KOMA-Script package (page head and foot)
-LaTeX Info: Redefining \pagemark on input line 174.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrpage2.sty
+Package: scrpage2 2010/04/22 v2.5 LaTeX2e KOMA-Script package
+LaTeX Info: Redefining \pagemark on input line 176.
 )
-
-Class scrreprt Warning: Usage of package `titlesec' together
-(scrreprt)              with a KOMA-Script class is not recommended.
-(scrreprt)              I'd suggest to use the package only
-(scrreprt)              if you really need it, because it breaks several
-(scrreprt)              KOMA-Script features, i.e., option `headings' and
-(scrreprt)              the extended optional argument of the section
-(scrreprt)              commands .
-(scrreprt)              Nevertheless, using requested
-(scrreprt)              package `titlesec' on input line 373.
-
-(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/titlesec/titlesec.sty
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box31
-\beforetitleunit=\skip63
-\aftertitleunit=\skip64
+\beforetitleunit=\skip62
+\aftertitleunit=\skip63
 \ttl@plus=\dimen153
 \ttl@minus=\dimen154
 \ttl@toksa=\toks28
@@ -748,76 +727,76 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidthlast=\dimen156
 \titlewidthfirst=\dimen157
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tocloft/tocloft.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tocloft/tocloft.sty
 Package: tocloft 2013/05/02 v2.3f parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 44.
-\cftparskip=\skip65
-\cftbeforetoctitleskip=\skip66
-\cftaftertoctitleskip=\skip67
-\cftbeforepartskip=\skip68
-\cftpartnumwidth=\skip69
-\cftpartindent=\skip70
-\cftbeforechapskip=\skip71
-\cftchapindent=\skip72
-\cftchapnumwidth=\skip73
-\cftbeforesecskip=\skip74
-\cftsecindent=\skip75
-\cftsecnumwidth=\skip76
-\cftbeforesubsecskip=\skip77
-\cftsubsecindent=\skip78
-\cftsubsecnumwidth=\skip79
-\cftbeforesubsubsecskip=\skip80
-\cftsubsubsecindent=\skip81
-\cftsubsubsecnumwidth=\skip82
-\cftbeforeparaskip=\skip83
-\cftparaindent=\skip84
-\cftparanumwidth=\skip85
-\cftbeforesubparaskip=\skip86
-\cftsubparaindent=\skip87
-\cftsubparanumwidth=\skip88
-\cftbeforeloftitleskip=\skip89
-\cftafterloftitleskip=\skip90
-\cftbeforefigskip=\skip91
-\cftfigindent=\skip92
-\cftfignumwidth=\skip93
-\cftbeforelottitleskip=\skip94
-\cftafterlottitleskip=\skip95
-\cftbeforetabskip=\skip96
-\cfttabindent=\skip97
-\cfttabnumwidth=\skip98
-\cftbeforesubfigskip=\skip99
-\cftsubfigindent=\skip100
-\cftsubfignumwidth=\skip101
-\cftbeforesubtabskip=\skip102
-\cftsubtabindent=\skip103
-\cftsubtabnumwidth=\skip104
+\cftparskip=\skip64
+\cftbeforetoctitleskip=\skip65
+\cftaftertoctitleskip=\skip66
+\cftbeforepartskip=\skip67
+\cftpartnumwidth=\skip68
+\cftpartindent=\skip69
+\cftbeforechapskip=\skip70
+\cftchapindent=\skip71
+\cftchapnumwidth=\skip72
+\cftbeforesecskip=\skip73
+\cftsecindent=\skip74
+\cftsecnumwidth=\skip75
+\cftbeforesubsecskip=\skip76
+\cftsubsecindent=\skip77
+\cftsubsecnumwidth=\skip78
+\cftbeforesubsubsecskip=\skip79
+\cftsubsubsecindent=\skip80
+\cftsubsubsecnumwidth=\skip81
+\cftbeforeparaskip=\skip82
+\cftparaindent=\skip83
+\cftparanumwidth=\skip84
+\cftbeforesubparaskip=\skip85
+\cftsubparaindent=\skip86
+\cftsubparanumwidth=\skip87
+\cftbeforeloftitleskip=\skip88
+\cftafterloftitleskip=\skip89
+\cftbeforefigskip=\skip90
+\cftfigindent=\skip91
+\cftfignumwidth=\skip92
+\cftbeforelottitleskip=\skip93
+\cftafterlottitleskip=\skip94
+\cftbeforetabskip=\skip95
+\cfttabindent=\skip96
+\cfttabnumwidth=\skip97
+\cftbeforesubfigskip=\skip98
+\cftsubfigindent=\skip99
+\cftsubfignumwidth=\skip100
+\cftbeforesubtabskip=\skip101
+\cftsubtabindent=\skip102
+\cftsubtabnumwidth=\skip103
 )
-\newnumberwidth=\skip105
-\beforebibskip=\skip106
-\newchnumberwidth=\skip107
-\figurelabelwidth=\skip108
-\tablelabelwidth=\skip109
+\newnumberwidth=\skip104
+\beforebibskip=\skip105
+\newchnumberwidth=\skip106
+\figurelabelwidth=\skip107
+\tablelabelwidth=\skip108
 \c@listings=\count139
-\cftbeforelistingsskip=\skip110
-\cftlistingsindent=\skip111
-\cftlistingsnumwidth=\skip112
+\cftbeforelistingsskip=\skip109
+\cftlistingsindent=\skip110
+\cftlistingsnumwidth=\skip111
 \c@loldepth=\count140
-\cftbeforeloltitleskip=\skip113
-\cftafterloltitleskip=\skip114
-\listingslabelwidth=\skip115
+\cftbeforeloltitleskip=\skip112
+\cftafterloltitleskip=\skip113
+\listingslabelwidth=\skip114
 
 Using KOMA-command "deffootnote" for footnote setup
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/scrtime.sty
-Package: scrtime 2011/03/31 v3.08b KOMA-Script package (time of LaTeX run)
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/scrtime.sty
+Package: scrtime 2012/07/29 v3.11b KOMA-Script package (time of LaTeX run)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/ms/prelim2e.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/ms/prelim2e.sty
 Package: prelim2e 2009/05/29 v1.3 prelim2e Package (MS)
 
-(/usr/share/texlive/texmf-dist/tex/latex/ms/everyshi.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/ms/everyshi.sty
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/carlisle/remreset.sty))
-(/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/carlisle/remreset.sty))
+(/usr/local/texlive/2013/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count141
 \float@exts=\toks29
@@ -827,29 +806,29 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 Package scrhack Info: loading float hack on input line 304.
 
-(/usr/share/texlive/texmf-dist/tex/latex/koma-script/float.hak
-File: float.hak 2013/12/19 v3.12 KOMA-Script package (hacking package float)
-Package scrhack Info: redefining \newfloat on input line 161.
-Package scrhack Info: redefining \listof on input line 161.
-Package scrhack Info: undefining \float@addtolists on input line 161.
+(/usr/local/texlive/2013/texmf-dist/tex/latex/koma-script/float.hak
+File: float.hak 2012/07/29 v3.11b KOMA-Script hacking package float
+Package scrhack Info: redefining \newfloat on input line 160.
+Package scrhack Info: redefining \listof on input line 160.
+Package scrhack Info: undefining \float@addtolists on input line 160.
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/mh/mathtools.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/mh/mathtools.sty
 Package: mathtools 2013/02/12 v1.13 mathematical typesetting tools
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count142
 \calc@Bcount=\count143
 \calc@Adimen=\dimen158
 \calc@Bdimen=\dimen159
-\calc@Askip=\skip116
-\calc@Bskip=\skip117
+\calc@Askip=\skip115
+\calc@Bskip=\skip116
 LaTeX Info: Redefining \setlength on input line 76.
 LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count144
-\calc@Cskip=\skip118
+\calc@Cskip=\skip117
 )
-(/usr/share/texlive/texmf-dist/tex/latex/mh/mhsetup.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/mh/mhsetup.sty
 Package: mhsetup 2010/01/21 v1.2a programming setup (MH)
 )
 LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
@@ -858,18 +837,17 @@ LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count145
 \l_MT_multwidth_dim=\dimen160
-\origjot=\skip119
+\origjot=\skip118
 \l_MT_shortvdotswithinadjustabove_dim=\dimen161
 \l_MT_shortvdotswithinadjustbelow_dim=\dimen162
 \l_MT_above_intertext_sep=\dimen163
 \l_MT_below_intertext_sep=\dimen164
 \l_MT_above_shortintertext_sep=\dimen165
 \l_MT_below_shortintertext_sep=\dimen166
-) (./ClassicThesis.aux
-(./FrontBackmatter/DirtyTitlepage.aux) (./FrontBackmatter/Titlepage.aux)
-(./FrontBackmatter/Titleback.aux) (./FrontBackmatter/Abstract.aux)
-(./FrontBackmatter/Acknowledgments.aux) (./FrontBackmatter/Contents.aux)
-(./Chapters/Chapter01.aux
+)
+(./ClassicThesis.aux (./FrontBackmatter/Titlepage.aux)
+(./FrontBackmatter/Abstract.aux) (./FrontBackmatter/Acknowledgments.aux)
+(./FrontBackmatter/Contents.aux) (./Chapters/Chapter01.aux
 
 LaTeX Warning: Label `sec:custom' multiply defined.
 
@@ -916,7 +894,7 @@ LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 60.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 60.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ts1cmr.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 60.
@@ -924,7 +902,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
 LaTeX Font Info:    ... okay on input line 60.
 LaTeX Font Info:    Try loading font information for T1+pplj on input line 60.
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pplj.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/t1pplj.fd
 File: t1pplj.fd 2004/09/06 font definitions for T1/pplj.
 )
 Package caption Info: Begin \AtBeginDocument code.
@@ -938,10 +916,10 @@ Package scrhack Info: undefining \float@addtolists on input line 60.
 \AtBeginShipoutBox=\box34
 Package hyperref Info: Link coloring ON on input line 60.
 
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+(/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count147
@@ -955,7 +933,7 @@ LaTeX Info: Redefining \nameref on input line 60.
 \openout4 = `ClassicThesis.out'.
 
 
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+(/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count148
 \scratchdimen=\dimen167
@@ -968,10 +946,10 @@ LaTeX Info: Redefining \nameref on input line 60.
 \MPnumerator=\count152
 \makeMPintoPDFobject=\count153
 \everyMPtoPDFconversion=\toks32
-) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+) (/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+(/usr/local/texlive/2013/texmf-dist/tex/latex/oberdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
 Package grfext Info: Graphics extension search list:
@@ -979,7 +957,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
@@ -992,7 +970,7 @@ Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-ppl.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-ppl.cfg
 File: mt-ppl.cfg 2005/11/16 v1.6 microtype config. file: Palatino (RS)
 )
 
@@ -1004,16 +982,16 @@ Package scrpage2 Warning: seems you are using a very small headheight.
 (scrpage2)                A better solution would be to use typearea package.
 
 ABD: EveryShipout initializing macros
-\openout2 = `FrontBackmatter/DirtyTitlepage.aux'.
+\openout2 = `FrontBackmatter/Titlepage.aux'.
 
- (./FrontBackmatter/DirtyTitlepage.tex)
-LaTeX Font Info:    Try loading font information for T1+fvm on input line 71.
+ (./FrontBackmatter/Titlepage.tex
+LaTeX Font Info:    Try loading font information for T1+fvm on input line 36.
 
-(/usr/share/texlive/texmf-dist/tex/latex/bera/t1fvm.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 7.65005pt on input line 71.
+(Font)              scaled to size 7.65005pt on input line 36.
 Package microtype Info: Loading generic settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1021,27 +999,9 @@ Package microtype Info: Loading generic settings for font family
  [1
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-\openout2 = `FrontBackmatter/Titlepage.aux'.
-
- (./FrontBackmatter/Titlepage.tex [2
 
 
-
-
-])
-\openout2 = `FrontBackmatter/Titleback.aux'.
-
-
-(./FrontBackmatter/Titleback.tex
-LaTeX Font Info:    Try loading font information for TS1+pplj on input line 8.
-
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ts1pplj.fd
-File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
-)) [3
-
-
-]
+{/usr/local/texlive/2013/texmf-var/fonts/map/pdftex/updmap/pdftex.map}])
 \openout2 = `FrontBackmatter/Abstract.aux'.
 
 
@@ -1060,35 +1020,25 @@ Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 18--19
-
- []
-
-[4
+[2
 
 
 
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 24--25
-
- []
-
-) [5]
+) [3]
 \openout2 = `FrontBackmatter/Acknowledgments.aux'.
 
- (./FrontBackmatter/Acknowledgments.tex) [6
+ (./FrontBackmatter/Acknowledgments.tex) [4
 
 
 
@@ -1105,41 +1055,41 @@ Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/pplj/m/sc/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Overfull \hbox (14.8799pt too wide) in paragraph at lines 26--26
+Overfull \hbox (14.8799pt too wide) in paragraph at lines 25--25
  [][] []\T1/pplj/m/n/10.95 A socio-technical per-spec-tive to tech-nol-ogy sup-
 port []  
  []
 
 
-Overfull \hbox (5.44568pt too wide) in paragraph at lines 27--27
+Overfull \hbox (5.44568pt too wide) in paragraph at lines 26--26
  [][] []\T1/pplj/m/n/10.95 The socio-technical gap for plan-ning sup-port sys- 
 
  []
 
 LaTeX Font Info:    Try loading font information for U+zeur on input line 38.
-(/usr/share/texlive/texmf-dist/tex/latex/eulervm/uzeur.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-eur.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-eur.cfg
 File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 )
 LaTeX Font Info:    Try loading font information for U+zeus on input line 38.
 
-(/usr/share/texlive/texmf-dist/tex/latex/eulervm/uzeus.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/eulervm/uzeus.fd
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-eus.cfg
+(/usr/local/texlive/2013/texmf-dist/tex/latex/microtype/mt-eus.cfg
 File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
 )
 LaTeX Font Info:    Try loading font information for U+zeuex on input line 38.
 
-(/usr/share/texlive/texmf-dist/tex/latex/eulervm/uzeuex.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
 LaTeX Font Info:    Try loading font information for OT1+zplm on input line 38.
 
 
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/ot1zplm.fd
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ot1zplm.fd
 File: ot1zplm.fd 2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
 )
 Package microtype Info: Loading generic settings for font family
@@ -1150,7 +1100,7 @@ Package microtype Info: Loading generic settings for font family
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[7
+[5
 
 
 
@@ -1158,7 +1108,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 ]
-Overfull \hbox (3.45824pt too wide) in paragraph at lines 56--56
+Overfull \hbox (3.45824pt too wide) in paragraph at lines 55--55
  \T1/pplj/m/n/10.95 technical is-sue of hu-man agent in-ter-ac-tion []  
  []
 
@@ -1166,26 +1116,26 @@ Overfull \hbox (3.45824pt too wide) in paragraph at lines 56--56
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[8]
-Overfull \hbox (4.88857pt too wide) in paragraph at lines 89--89
+[6]
+Overfull \hbox (4.88857pt too wide) in paragraph at lines 88--88
  [][] []\T1/pplj/m/sc/10.95/80ls atomicorchid study 2: the hu-man on-the-loop d
 e- 
  []
 
 
-Overfull \hbox (17.86833pt too wide) in paragraph at lines 97--97
+Overfull \hbox (17.86833pt too wide) in paragraph at lines 96--96
  [][] []\T1/pplj/m/n/10.95 Assigning task as-sign-ments to ex-ist-ing teams [] 
  
  []
 
 
-Overfull \hbox (20.56201pt too wide) in paragraph at lines 98--98
+Overfull \hbox (20.56201pt too wide) in paragraph at lines 97--97
  [][] []\T1/pplj/m/n/10.95 Task as-sign-ments in-volv-ing team ref-or-ma-tion [
 ]  
  []
 
 
-Overfull \hbox (17.79167pt too wide) in paragraph at lines 99--99
+Overfull \hbox (17.79167pt too wide) in paragraph at lines 98--98
  [][] []\T1/pplj/m/n/10.95 Task as-sign-ments in-volv-ing task in-ter-rup-tion 
 []  
  []
@@ -1194,14 +1144,14 @@ Overfull \hbox (17.79167pt too wide) in paragraph at lines 99--99
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[9]
-Overfull \hbox (48.30934pt too wide) in paragraph at lines 109--109
+[7]
+Overfull \hbox (48.30934pt too wide) in paragraph at lines 108--108
  [][] []\T1/pplj/m/n/10.95 Balance re-spon-si-bil-i-ties be-tween hu-mans and a
 gent []  
  []
 
 
-Overfull \hbox (5.49484pt too wide) in paragraph at lines 129--129
+Overfull \hbox (5.49484pt too wide) in paragraph at lines 128--128
  [][] []\T1/pplj/m/n/10.95 How does the In-the-loop de-sign play out? []  
  []
 
@@ -1209,11 +1159,11 @@ Overfull \hbox (5.49484pt too wide) in paragraph at lines 129--129
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[10]
+[8]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[11])
+[9])
 \tf@toc=\write5
 \openout5 = `ClassicThesis.toc'.
 
@@ -1221,7 +1171,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[12]
+[10]
 Package tocbasic Info: character protrusion at lof deactivated on input line 31
 .
  (./ClassicThesis.lof
@@ -1254,7 +1204,7 @@ Overfull \hbox (6.43826pt too wide) in paragraph at lines 30--30
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[13
+[11
 
 ]
 Overfull \hbox (58.32544pt too wide) in paragraph at lines 36--36
@@ -1283,7 +1233,7 @@ Overfull \hbox (40.43153pt too wide) in paragraph at lines 55--55
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[14]
+[12]
 Overfull \hbox (8.58907pt too wide) in paragraph at lines 65--65
  [][] []\T1/pplj/m/n/10.95 ep 3.5, HQ sends msg for task can-cel-la-tion []  
  []
@@ -1325,11 +1275,11 @@ Overfull \hbox (1.15477pt too wide) in paragraph at lines 88--88
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[15]
+[13]
 Package tocbasic Info: character protrusion at lot deactivated on input line 42
 .
  (./ClassicThesis.lot
-Overfull \hbox (29.98529pt too wide) in paragraph at lines 20--20
+Overfull \hbox (29.98529pt too wide) in paragraph at lines 19--19
  [][] []\T1/pplj/m/n/10.95 Compliance with agent in-struc-tions by con-text [] 
  
  []
@@ -1342,11 +1292,11 @@ Overfull \hbox (29.98529pt too wide) in paragraph at lines 20--20
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[16]
+[14]
 LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <10.95> not available
 (Font)              Font shape `T1/pplj/b/n' tried instead on input line 65.
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 65.
- (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmss.fd
+ (/usr/local/texlive/2013/texmf-dist/tex/latex/base/t1cmss.fd
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 Package microtype Info: Loading generic settings for font family
@@ -1357,7 +1307,7 @@ Package microtype Info: Loading generic settings for font family
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[17])
+[15])
 \openout2 = `Chapters/Chapter01.aux'.
 
  (./Chapters/Chapter01.tex
@@ -1486,6 +1436,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
+LaTeX Font Info:    Try loading font information for TS1+pplj on input line 40.
+
+(/usr/local/texlive/2013/texmf-dist/tex/latex/psnfss/ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
+)
 Package acronym Info: Label `acro:HCI' newly defined as it shall be overridden
 although it is yet undefined on input line 40.
 
@@ -1521,7 +1476,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[7] <img/introduction/contributions.png, id=1203, 712.6625pt x 366.36874pt>
+[7] <img/introduction/contributions.png, id=1190, 712.6625pt x 366.36874pt>
 File: img/introduction/contributions.png Graphic file (type png)
 
 <use img/introduction/contributions.png>
@@ -1691,10 +1646,6 @@ Overfull \hbox (55.19624pt too wide) in paragraph at lines 113--115
  []
 
 
-LaTeX Warning: Reference `ch:humanSysRelationship' on page 10 undefined on inpu
-t line 119.
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
@@ -1772,7 +1723,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 
-] <img/Background/drCircle.png, id=1288, 665.48625pt x 622.325pt>
+] <img/Background/drCircle.png, id=1276, 665.48625pt x 622.325pt>
 File: img/Background/drCircle.png Graphic file (type png)
 
 <use img/Background/drCircle.png>
@@ -1866,7 +1817,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-<img/Background/SystemFraming.png, id=1425, 588.1975pt x 464.73625pt>
+<img/Background/SystemFraming.png, id=1416, 588.1975pt x 464.73625pt>
 File: img/Background/SystemFraming.png Graphic file (type png)
 
 <use img/Background/SystemFraming.png>
@@ -1913,6 +1864,18 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [22]
+Package acronym Info: Label `acro:PPS' newly defined as it shall be overridden
+although it is yet undefined on input line 99.
+
+
+Package acronym Warning: Acronym `PPS' is not defined on input line 99.
+
+
+Package acronym Warning: Acronym `PPS' is not defined on input line 99.
+
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 99.
+
 Underfull \hbox (badness 10000) in paragraph at lines 99--100
 
  []
@@ -1920,9 +1883,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 Package acronym Info: Label `acro:ERR' newly defined as it shall be overridden
 although it is yet undefined on input line 104.
 
-Overfull \hbox (2.8206pt too wide) in paragraph at lines 104--105
-\T1/pplj/m/n/10.95 The  In-for-ma-tion and Com-mu-ni-ca-tion Tech-nolo-gies ([]
-)[] in-cludes com-
+Overfull \hbox (7.9545pt too wide) in paragraph at lines 104--105
+\T1/pplj/m/n/10.95 truc-tures. Com-mu-ni-ca-tion in-fras-truc-tures re-fer to c
+om-mu-ni-ca-tion chan-
  []
 
 
@@ -1934,7 +1897,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[23] <img/Background/ICTExample.png, id=1537, 744.7825pt x 489.83pt>
+[23] <img/Background/ICTExample.png, id=1532, 744.7825pt x 489.83pt>
 File: img/Background/ICTExample.png Graphic file (type png)
 
 <use img/Background/ICTExample.png>
@@ -1999,9 +1962,9 @@ Overfull \hbox (9.48822pt too wide) in paragraph at lines 129--130
  []
 
 
-Overfull \hbox (9.231pt too wide) in paragraph at lines 129--130
-\T1/pplj/m/n/10.95 to fuses het-ero-ge-neous re-ports from both un-re-li-able a
-nd trusted sources
+Overfull \hbox (4.58821pt too wide) in paragraph at lines 129--130
+\T1/pplj/m/n/10.95 to fuse het-ero-ge-neous re-ports from both un-re-li-able an
+d trusted sources
  []
 
 
@@ -2014,140 +1977,15 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [28]
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--135
-
- []
+Package acronym Warning: Acronym `PPS' is not defined on input line 139.
 
 
-LaTeX Warning: No positions in optional float specifier.
-               Default added (so using `tbp') on input line 137.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 142.
-
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <6> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 142.
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 142.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 143.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 146.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 149.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 149.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 149.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 153.
-
-
-Overfull \hbox (1.00552pt too wide) in paragraph at lines 140--160
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
 
@@ -2160,7 +1998,14 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [30]
-Underfull \hbox (badness 10000) in paragraph at lines 167--168
+Chapter 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 143--144
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
 
@@ -2168,10 +2013,50 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--168
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[31]
-Chapter 3.
+[31
 
-Underfull \hbox (badness 10000) in paragraph at lines 171--172
+
+]
+Overfull \hbox (8.77592pt too wide) in paragraph at lines 148--148
+ |[]\T1/pplj/m/sc/10.95/80ls a socio-technical per-spec-tive to tech-nol-ogy su
+p-port| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 150--151
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 152--153
+
+ []
+
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 155--156
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+
+ []
+
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 
  []
 
@@ -2184,18 +2069,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--174
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[32
+[34]
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
-
-]
-Overfull \hbox (8.77592pt too wide) in paragraph at lines 176--176
- |[]\T1/pplj/m/sc/10.95/80ls a socio-technical per-spec-tive to tech-nol-ogy su
-p-port| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 178--179
-
+Overfull \hbox (8.27849pt too wide) in paragraph at lines 180--181
+\T1/pplj/m/n/10.95 ni-fies the is-sues of hu-man sys-tem in-ter-ac-tion in com-
+plex socio-technical
  []
 
 
@@ -2204,60 +2086,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--181
  []
 
 
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 183--184
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 188--189
-
- []
-
-
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[34]
-Underfull \hbox (badness 10000) in paragraph at lines 193--194
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 195--196
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 201--202
-
- []
-
-
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[35]
-Underfull \hbox (badness 10000) in paragraph at lines 203--204
-
- []
-
-
-Overfull \hbox (8.27849pt too wide) in paragraph at lines 208--209
-\T1/pplj/m/n/10.95 ni-fies the is-sues of hu-man sys-tem in-ter-ac-tion in com-
-plex socio-technical
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 208--209
-
- []
-
-
-Overfull \hbox (32.4366pt too wide) in paragraph at lines 215--220
+Overfull \hbox (32.4366pt too wide) in paragraph at lines 187--192
  [][] 
  []
 
@@ -2265,19 +2094,33 @@ Overfull \hbox (32.4366pt too wide) in paragraph at lines 215--220
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[36]
-Overfull \hbox (0.22612pt too wide) in paragraph at lines 240--241
+[35]
+Overfull \hbox (0.22612pt too wide) in paragraph at lines 212--213
 \T1/pplj/m/n/10.95 Two [][] re-search ar-eas, namely Au-toma-tion de-sign and H
 u-man agent
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--245
+Underfull \hbox (badness 10000) in paragraph at lines 216--217
+
+ []
+
+
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[36]
+Underfull \hbox (badness 10000) in paragraph at lines 218--219
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 220--221
 
  []
 
@@ -2286,12 +2129,15 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [37]
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Package acronym Info: Label `acro:LoA' newly defined as it shall be overridden
+although it is yet undefined on input line 224.
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 248--249
+Underfull \hbox (badness 10000) in paragraph at lines 226--227
 
  []
 
@@ -2300,15 +2146,25 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [38]
-Package acronym Info: Label `acro:LoA' newly defined as it shall be overridden
-although it is yet undefined on input line 252.
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+ []
+
+Package acronym Info: Label `acro:HAI' newly defined as it shall be overridden
+although it is yet undefined on input line 233.
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--234
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 254--255
+Overfull \hbox (28.48112pt too wide) in paragraph at lines 235--236
+\T1/pplj/m/n/10.95 that can op-er-ate in-de-pen-dently with-out con-stant hu-ma
+n su-per-vi-sion[][]Vlassis[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
@@ -2317,25 +2173,24 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [39]
-Underfull \hbox (badness 10000) in paragraph at lines 256--257
-
- []
-
-Package acronym Info: Label `acro:HAI' newly defined as it shall be overridden
-although it is yet undefined on input line 261.
-
-Underfull \hbox (badness 10000) in paragraph at lines 261--262
-
+Overfull \hbox (4.33008pt too wide) in paragraph at lines 240--241
+\T1/pplj/m/n/10.95 ing an in-ter-ac-tive in-ter-face [][]Lieber-man and Selker[
+][] [[][]2003[][]]. The metaphor
  []
 
 
-Overfull \hbox (28.48112pt too wide) in paragraph at lines 263--264
-\T1/pplj/m/n/10.95 that can op-er-ate in-de-pen-dently with-out con-stant hu-ma
-n su-per-vi-sion[][]Vlassis[][]
+Underfull \hbox (badness 10000) in paragraph at lines 240--241
+
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 263--264
+Overfull \hbox (0.12599pt too wide) in paragraph at lines 242--243
+\T1/pplj/m/n/10.95 with-out be-ing pre-programmed. For ex-am-ple, the user in-t
+er-face could
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 242--243
 
  []
 
@@ -2344,24 +2199,12 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [40]
-Overfull \hbox (4.33008pt too wide) in paragraph at lines 268--269
-\T1/pplj/m/n/10.95 ing an in-ter-ac-tive in-ter-face [][]Lieber-man and Selker[
-][] [[][]2003[][]]. The metaphor
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 268--269
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
 
  []
 
 
-Overfull \hbox (0.12599pt too wide) in paragraph at lines 270--271
-\T1/pplj/m/n/10.95 with-out be-ing pre-programmed. For ex-am-ple, the user in-t
-er-face could
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 270--271
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
@@ -2370,12 +2213,12 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [41]
-Underfull \hbox (badness 10000) in paragraph at lines 283--284
+Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 286--287
+Underfull \hbox (badness 10000) in paragraph at lines 264--265
 
  []
 
@@ -2384,12 +2227,12 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [42]
-Underfull \hbox (badness 10000) in paragraph at lines 288--289
+Underfull \hbox (badness 10000) in paragraph at lines 268--269
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
+Underfull \hbox (badness 10000) in paragraph at lines 295--296
 
  []
 
@@ -2398,12 +2241,17 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [43]
-Underfull \hbox (badness 10000) in paragraph at lines 296--297
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 323--324
+Underfull \hbox (badness 10000) in paragraph at lines 301--302
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 303--304
 
  []
 
@@ -2412,17 +2260,23 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [44]
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
+Underfull \hbox (badness 10000) in paragraph at lines 305--306
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 329--330
+Underfull \hbox (badness 10000) in paragraph at lines 310--311
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 331--332
+Overfull \hbox (4.0736pt too wide) in paragraph at lines 312--313
+\T1/pplj/m/n/10.95 ubiq-ui-tous com-put-ing en-vi-ron-ments `in the wild' [][]C
+rab-tree et al.[][] [[][]2006[][]];
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 312--313
 
  []
 
@@ -2431,23 +2285,17 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [45]
-Underfull \hbox (badness 10000) in paragraph at lines 333--334
+Underfull \hbox (badness 10000) in paragraph at lines 314--315
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 338--339
+Underfull \hbox (badness 10000) in paragraph at lines 319--320
 
  []
 
 
-Overfull \hbox (4.0736pt too wide) in paragraph at lines 340--341
-\T1/pplj/m/n/10.95 ubiq-ui-tous com-put-ing en-vi-ron-ments `in the wild' [][]C
-rab-tree et al.[][] [[][]2006[][]];
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+Underfull \hbox (badness 10000) in paragraph at lines 321--322
 
  []
 
@@ -2456,36 +2304,17 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [46]
-Underfull \hbox (badness 10000) in paragraph at lines 342--343
+Underfull \hbox (badness 10000) in paragraph at lines 325--326
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 347--348
+Underfull \hbox (badness 10000) in paragraph at lines 350--351
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--350
-
- []
-
-
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[47]
-Underfull \hbox (badness 10000) in paragraph at lines 353--354
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 378--379
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 380--381
+Underfull \hbox (badness 10000) in paragraph at lines 352--353
 
  []
 
@@ -2493,11 +2322,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 380--381
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[48])
+[47])
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[49] [50
+[48] [49
 
 
 
@@ -2533,7 +2362,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[51
+[50
 
 
 
@@ -2551,7 +2380,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[52] <img/approach/gap.png, id=2185, 801.99625pt x 473.77pt>
+[51] <img/approach/gap.png, id=2160, 801.99625pt x 473.77pt>
 File: img/approach/gap.png Graphic file (type png)
 
 <use img/approach/gap.png>
@@ -2566,7 +2395,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--40
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[53 <./img/approach/gap.png>]
+[52 <./img/approach/gap.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 41--42
 
  []
@@ -2580,7 +2409,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 43--44
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[54] <img/approach/GameComponents.png, id=2210, 651.43375pt x 211.79124pt>
+[53] <img/approach/GameComponents.png, id=2185, 651.43375pt x 211.79124pt>
 File: img/approach/GameComponents.png Graphic file (type png)
 
 <use img/approach/GameComponents.png>
@@ -2596,12 +2425,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 58--59
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[55 <./img/approach/GameComponents.png>]
+[54 <./img/approach/GameComponents.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
-<img/approach/AOroles.png, id=2215, 597.23125pt x 60.225pt>
+<img/approach/AOroles.png, id=2191, 597.23125pt x 60.225pt>
 File: img/approach/AOroles.png Graphic file (type png)
 
 <use img/approach/AOroles.png>
@@ -2612,7 +2441,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
-<img/approach/AOtargets.png, id=2218, 602.25pt x 55.20625pt>
+<img/approach/AOtargets.png, id=2194, 602.25pt x 55.20625pt>
 File: img/approach/AOtargets.png Graphic file (type png)
 
 <use img/approach/AOtargets.png>
@@ -2623,7 +2452,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 84--85
 
  []
 
-<img/approach/roleTargetMapping.png, id=2222, 298.11375pt x 297.11pt>
+<img/approach/roleTargetMapping.png, id=2198, 298.11375pt x 297.11pt>
 File: img/approach/roleTargetMapping.png Graphic file (type png)
 
 <use img/approach/roleTargetMapping.png>
@@ -2643,12 +2472,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--94
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[56 <./img/approach/AOroles.png> <./img/approach/AOtargets.png>]
+[55 <./img/approach/AOroles.png> <./img/approach/AOtargets.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
 
-<img/approach/radioactiveCloud.png, id=2229, 739.76375pt x 548.0475pt>
+<img/approach/radioactiveCloud.png, id=2204, 739.76375pt x 548.0475pt>
 File: img/approach/radioactiveCloud.png Graphic file (type png)
 
 <use img/approach/radioactiveCloud.png>
@@ -2666,7 +2495,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[57 <./img/approach/roleTargetMapping.png> <./img/approach/radioactiveCloud.png
+[56 <./img/approach/roleTargetMapping.png> <./img/approach/radioactiveCloud.png
 >]
 Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
@@ -2677,7 +2506,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 111--112
 
  []
 
-<img/approach/systemArchitecture.png, id=2244, 574.145pt x 417.56pt>
+<img/approach/systemArchitecture.png, id=2220, 574.145pt x 417.56pt>
 File: img/approach/systemArchitecture.png Graphic file (type png)
 
 <use img/approach/systemArchitecture.png>
@@ -2702,7 +2531,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 124--125
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[58]
+[57]
 Underfull \hbox (badness 10000) in paragraph at lines 126--127
 
  []
@@ -2711,12 +2540,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 126--127
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[59 <./img/approach/systemArchitecture.png>]
+[58 <./img/approach/systemArchitecture.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
-<img/approach/inputoutput.png, id=2275, 248.93pt x 369.38pt>
+<img/approach/inputoutput.png, id=2252, 248.93pt x 369.38pt>
 File: img/approach/inputoutput.png Graphic file (type png)
 
 <use img/approach/inputoutput.png>
@@ -2730,7 +2559,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[60]
+[59]
 Underfull \hbox (badness 10000) in paragraph at lines 153--154
 
  []
@@ -2744,7 +2573,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--156
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[61 <./img/approach/inputoutput.png>]
+[60 <./img/approach/inputoutput.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
@@ -2769,7 +2598,7 @@ Overfull \hbox (24.25697pt too wide) has occurred while \output is active
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[62]
+[61]
 Underfull \hbox (badness 10000) in paragraph at lines 174--176
 
  []
@@ -2799,7 +2628,7 @@ Overfull \hbox (24.25697pt too wide) has occurred while \output is active
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[63]
+[62]
 Underfull \hbox (badness 10000) in paragraph at lines 191--192
 
  []
@@ -2809,7 +2638,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 193--194
 
  []
 
-<img/approach/OnTheLoop.png, id=2305, 425.59pt x 204.765pt>
+<img/approach/OnTheLoop.png, id=2280, 425.59pt x 204.765pt>
 File: img/approach/OnTheLoop.png Graphic file (type png)
 
 <use img/approach/OnTheLoop.png>
@@ -2833,12 +2662,12 @@ Overfull \hbox (24.25697pt too wide) has occurred while \output is active
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[64]
+[63]
 Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
 
-<img/approach/InTheLoop.png, id=2310, 446.66875pt x 201.75375pt>
+<img/approach/InTheLoop.png, id=2285, 446.66875pt x 201.75375pt>
 File: img/approach/InTheLoop.png Graphic file (type png)
 
 <use img/approach/InTheLoop.png>
@@ -2858,7 +2687,7 @@ Overfull \hbox (24.25697pt too wide) has occurred while \output is active
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[65 <./img/approach/OnTheLoop.png> <./img/approach/InTheLoop.png>]
+[64 <./img/approach/OnTheLoop.png> <./img/approach/InTheLoop.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
@@ -2877,7 +2706,7 @@ Overfull \hbox (45.03416pt too wide) has occurred while \output is active
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[66]
+[65]
 Underfull \hbox (badness 10000) in paragraph at lines 224--225
 
  []
@@ -2902,7 +2731,7 @@ Overfull \hbox (45.03416pt too wide) has occurred while \output is active
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[67]
+[66]
 Chapter 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 245--246
@@ -2931,7 +2760,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 250--251
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[68
+[67
 
 
 ]
@@ -2954,7 +2783,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--256
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[69]
+[68]
 Underfull \hbox (badness 10000) in paragraph at lines 261--262
 
  []
@@ -2973,7 +2802,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--266
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[70]
+[69]
 Underfull \hbox (badness 10000) in paragraph at lines 273--274
 
  []
@@ -2992,7 +2821,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 278--279
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[71]
+[70]
 Underfull \hbox (badness 10000) in paragraph at lines 280--281
 
  []
@@ -3006,12 +2835,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 284--285
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[72]
+[71]
 Underfull \hbox (badness 10000) in paragraph at lines 286--287
 
  []
 
-<img/methodology/logVisualisation.png, id=2416, 1346.02875pt x 495.8525pt>
+<img/methodology/logVisualisation.png, id=2392, 1346.02875pt x 495.8525pt>
 File: img/methodology/logVisualisation.png Graphic file (type png)
 
 <use img/methodology/logVisualisation.png>
@@ -3027,8 +2856,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 295--296
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[73 <./img/methodology/logVisualisation.png>]
-<img/methodology/replay.png, id=2422, 1704.3675pt x 924.45375pt>
+[72 <./img/methodology/logVisualisation.png>]
+<img/methodology/replay.png, id=2398, 1704.3675pt x 924.45375pt>
 File: img/methodology/replay.png Graphic file (type png)
 
 <use img/methodology/replay.png>
@@ -3038,7 +2867,7 @@ Package pdftex.def Info: img/methodology/replay.png used on input line 301.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[74 <./img/methodology/replay.png>]
+[73 <./img/methodology/replay.png>]
 Overfull \hbox (3.31812pt too wide) in paragraph at lines 308--309
 \T1/pplj/m/n/10.95 hami and Hud-son[][] [[][]2003[][]] to clas-sify mes-sages s
 ent be-tween and among
@@ -3063,7 +2892,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 320--321
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[75]
+[74]
 Underfull \hbox (badness 10000) in paragraph at lines 322--323
 
  []
@@ -3082,7 +2911,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 328--329
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[76]
+[75]
 Underfull \hbox (badness 10000) in paragraph at lines 330--331
 
  []
@@ -3092,7 +2921,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 332--333
 
  []
 
-<img/methodology/analyticprocedure.png, id=2457, 815.045pt x 405.515pt>
+<img/methodology/analyticprocedure.png, id=2433, 815.045pt x 405.515pt>
 File: img/methodology/analyticprocedure.png Graphic file (type png)
 
 <use img/methodology/analyticprocedure.png>
@@ -3103,7 +2932,7 @@ ne 338.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[77 <./img/methodology/analyticprocedure.png>] [78
+[76 <./img/methodology/analyticprocedure.png>] [77
 
 
 
@@ -3131,7 +2960,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--11
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[79
+[78
 
 
 
@@ -3149,7 +2978,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--15
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[80]
+[79]
 Underfull \hbox (badness 10000) in paragraph at lines 17--18
 
  []
@@ -3169,7 +2998,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
  []
 
-<img/study1/webinterface.png, id=2495, 1201.48875pt x 800.9925pt>
+<img/study1/webinterface.png, id=2471, 1201.48875pt x 800.9925pt>
 File: img/study1/webinterface.png Graphic file (type png)
 
 <use img/study1/webinterface.png>
@@ -3188,12 +3017,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 36--37
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[81]
+[80]
 Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
  []
 
-<img/study1/mobileinterface.png, id=2502, 192.2382pt x 321.8424pt>
+<img/study1/mobileinterface.png, id=2478, 192.2382pt x 321.8424pt>
 File: img/study1/mobileinterface.png Graphic file (type png)
 
 <use img/study1/mobileinterface.png>
@@ -3212,7 +3041,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[82 <./img/study1/webinterface.png>]
+[81 <./img/study1/webinterface.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
@@ -3221,7 +3050,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 55--56
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[83 <./img/study1/mobileinterface.png>]
+[82 <./img/study1/mobileinterface.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 57--58
 
  []
@@ -3245,7 +3074,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 63--64
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[84]
+[83]
 Overfull \hbox (1.04047pt too wide) in paragraph at lines 65--66
 \T1/pplj/m/n/10.95 logued to iden-tify se-quences (episodes) of in-ter-est ([][
 ]Heath et al.[][] [[][]2010[][]]).
@@ -3276,7 +3105,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 82--83
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[85]
+[84]
 Underfull \hbox (badness 10000) in paragraph at lines 88--89
 
  []
@@ -3295,7 +3124,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[86]
+[85]
 Overfull \hbox (9.83467pt too wide) in paragraph at lines 112--113
 []\T1/fvm/m/n/10.95 ``HQ : JH1 pair up with BR to save animal inbetwen TA
  []
@@ -3344,7 +3173,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--137
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[87]
+[86]
 Underfull \hbox (badness 10000) in paragraph at lines 139--140
 
  []
@@ -3384,7 +3213,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 176--177
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[88]
+[87]
 Overfull \hbox (32.52649pt too wide) in paragraph at lines 178--179
 []\T1/fvm/m/n/10.95 ``I guess they did not look at it, they could not respond
  []
@@ -3424,12 +3253,12 @@ Overfull \hbox (15.71704pt too wide) in paragraph at lines 188--189
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[89]
+[88]
 Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
 
-<img/study1/instructions.png, id=2557, 1010.77625pt x 727.71875pt>
+<img/study1/instructions.png, id=2534, 1010.77625pt x 727.71875pt>
 File: img/study1/instructions.png Graphic file (type png)
 
 <use img/study1/instructions.png>
@@ -3448,7 +3277,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--208
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[90] <img/study1/ep1/ep11.png, id=2563, 189.8292pt x 105.996pt>
+[89] <img/study1/ep1/ep11.png, id=2540, 189.8292pt x 105.996pt>
 File: img/study1/ep1/ep11.png Graphic file (type png)
 
 <use img/study1/ep1/ep11.png>
@@ -3497,8 +3326,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 217--221
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[91 <./img/study1/instructions.png> <./img/study1/ep1/ep11.png>]
-<img/study1/ep1/ep12.png, id=2569, 190.7928pt x 106.4778pt>
+[90 <./img/study1/instructions.png> <./img/study1/ep1/ep11.png>]
+<img/study1/ep1/ep12.png, id=2546, 190.7928pt x 106.4778pt>
 File: img/study1/ep1/ep12.png Graphic file (type png)
 
 <use img/study1/ep1/ep12.png>
@@ -3538,14 +3367,14 @@ Overfull \hbox (11.11604pt too wide) in paragraph at lines 231--240
  half [referring to
  []
 
-<img/study1/ep1/ep13.png, id=2572, 190.7928pt x 107.4414pt>
+<img/study1/ep1/ep13.png, id=2549, 190.7928pt x 107.4414pt>
 File: img/study1/ep1/ep13.png Graphic file (type png)
 
 <use img/study1/ep1/ep13.png>
 Package pdftex.def Info: img/study1/ep1/ep13.png used on input line 244.
 (pdftex.def)             Requested size: 151.19897pt x 85.14827pt.
 
-<img/study1/ep1/ep14.png, id=2573, 189.8292pt x 106.9596pt>
+<img/study1/ep1/ep14.png, id=2550, 189.8292pt x 106.9596pt>
 File: img/study1/ep1/ep14.png Graphic file (type png)
 
 <use img/study1/ep1/ep14.png>
@@ -3584,7 +3413,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--262
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[92 <./img/study1/ep1/ep12.png>]
+[91 <./img/study1/ep1/ep12.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
@@ -3598,19 +3427,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--266
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[93 <./img/study1/ep1/ep13.png> <./img/study1/ep1/ep14.png>]
+[92 <./img/study1/ep1/ep13.png> <./img/study1/ep1/ep14.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 268--269
 
  []
 
-<img/study1/ep2/ep21.png, id=2588, 198.9834pt x 113.223pt>
+<img/study1/ep2/ep21.png, id=2564, 198.9834pt x 113.223pt>
 File: img/study1/ep2/ep21.png Graphic file (type png)
 
 <use img/study1/ep2/ep21.png>
 Package pdftex.def Info: img/study1/ep2/ep21.png used on input line 273.
 (pdftex.def)             Requested size: 151.19897pt x 86.03827pt.
 
-<img/study1/ep2/ep22.png, id=2589, 197.538pt x 111.2958pt>
+<img/study1/ep2/ep22.png, id=2565, 197.538pt x 111.2958pt>
 File: img/study1/ep2/ep22.png Graphic file (type png)
 
 <use img/study1/ep2/ep22.png>
@@ -3649,7 +3478,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 285--299
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[94 <./img/study1/ep2/ep21.png> <./img/study1/ep2/ep22.png>]
+[93 <./img/study1/ep2/ep21.png> <./img/study1/ep2/ep22.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 300--301
 
  []
@@ -3659,7 +3488,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
-<img/study1/ep5/ep51.png, id=2597, 185.0112pt x 104.5506pt>
+<img/study1/ep5/ep51.png, id=2573, 185.0112pt x 104.5506pt>
 File: img/study1/ep5/ep51.png Graphic file (type png)
 
 <use img/study1/ep5/ep51.png>
@@ -3710,7 +3539,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 311--318
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[95 <./img/study1/ep5/ep51.png>]
+[94 <./img/study1/ep5/ep51.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 319--320
 
  []
@@ -3739,7 +3568,7 @@ Overfull \hbox (10.11389pt too wide) in paragraph at lines 328--329
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[96]
+[95]
 Underfull \hbox (badness 10000) in paragraph at lines 336--337
 
  []
@@ -3749,7 +3578,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
-<img/study1/ep3/ep31.png, id=2607, 166.7028pt x 95.8782pt>
+<img/study1/ep3/ep31.png, id=2584, 166.7028pt x 95.8782pt>
 File: img/study1/ep3/ep31.png Graphic file (type png)
 
 <use img/study1/ep3/ep31.png>
@@ -3788,12 +3617,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 347--351
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[97 <./img/study1/ep3/ep31.png>]
+[96 <./img/study1/ep3/ep31.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 352--353
 
  []
 
-<img/study1/ep4/ep41.png, id=2614, 167.6664pt x 99.7326pt>
+<img/study1/ep4/ep41.png, id=2591, 167.6664pt x 99.7326pt>
 File: img/study1/ep4/ep41.png Graphic file (type png)
 
 <use img/study1/ep4/ep41.png>
@@ -3801,7 +3630,7 @@ Package pdftex.def Info: img/study1/ep4/ep41.png used on input line 356.
 (pdftex.def)             Requested size: 336.0pt x 199.87253pt.
 
 
-LaTeX Warning: Reference `(' on page 98 undefined on input line 372.
+LaTeX Warning: Reference `(' on page 97 undefined on input line 372.
 
 
 Overfull \hbox (22.32234pt too wide) in paragraph at lines 361--373
@@ -3830,7 +3659,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 361--373
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[98 <./img/study1/ep4/ep41.png>]
+[97 <./img/study1/ep4/ep41.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 375--376
 
  []
@@ -3849,7 +3678,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 381--382
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[99]
+[98]
 Underfull \hbox (badness 10000) in paragraph at lines 387--388
 
  []
@@ -3858,7 +3687,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 387--388
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[100]
+[99]
 Underfull \hbox (badness 10000) in paragraph at lines 389--390
 
  []
@@ -3872,7 +3701,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 399--400
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[101]
+[100]
 Underfull \hbox (badness 10000) in paragraph at lines 401--402
 
  []
@@ -3891,7 +3720,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 405--406
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[102]
+[101]
 Underfull \hbox (badness 10000) in paragraph at lines 411--412
 
  []
@@ -3910,7 +3739,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 415--416
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[103]
+[102]
 Underfull \hbox (badness 10000) in paragraph at lines 417--418
 
  []
@@ -3919,7 +3748,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 417--418
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[104]
+[103]
 Underfull \hbox (badness 10000) in paragraph at lines 427--428
 
  []
@@ -3949,7 +3778,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 437--438
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[105]
+[104]
 Underfull \hbox (badness 10000) in paragraph at lines 439--440
 
  []
@@ -3958,7 +3787,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--440
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[106]
+[105]
 Chapter 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 447--448
@@ -3974,7 +3803,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 449--450
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[107
+[106
 
 
 ]
@@ -3995,7 +3824,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 460--461
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[108]
+[107]
 Underfull \hbox (badness 10000) in paragraph at lines 463--464
 
  []
@@ -4019,7 +3848,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 489--490
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[109]
+[108]
 Overfull \hbox (1.46039pt too wide) in paragraph at lines 503--504
 \T1/pplj/m/n/10.95 Atom-i-cOrchid. The plan-ner server ex-poses a HTTP in-ter-f
 ace for Atom-
@@ -4040,7 +3869,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 503--504
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[110]
+[109]
 Underfull \hbox (badness 10000) in paragraph at lines 507--508
 
  []
@@ -4060,7 +3889,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 516--517
 
  []
 
-<img/study2/system/dealingwithplans.png, id=2721, 818.05624pt x 413.545pt>
+<img/study2/system/dealingwithplans.png, id=2697, 818.05624pt x 413.545pt>
 File: img/study2/system/dealingwithplans.png Graphic file (type png)
 
 <use img/study2/system/dealingwithplans.png>
@@ -4071,7 +3900,7 @@ ine 520.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[111]
+[110]
 Overfull \hbox (5.9395pt too wide) in paragraph at lines 525--526
 []\T1/pplj/m/n/10.95 On re-ceiv-ing a in-struc-tion from agent, the field re-sp
 on-der can choose
@@ -4082,7 +3911,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 525--526
 
  []
 
-<img/study2/system/mobiletask.png, id=2730, 230.3004pt x 383.031pt>
+<img/study2/system/mobiletask.png, id=2706, 230.3004pt x 383.031pt>
 File: img/study2/system/mobiletask.png Graphic file (type png)
 
 <use img/study2/system/mobiletask.png>
@@ -4093,7 +3922,7 @@ Package pdftex.def Info: img/study2/system/mobiletask.png used on input line 52
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/study2/system/HQ.png, id=2731, 388.3308pt x 262.0992pt>
+<img/study2/system/HQ.png, id=2707, 388.3308pt x 262.0992pt>
 File: img/study2/system/HQ.png Graphic file (type png)
 
 <use img/study2/system/HQ.png>
@@ -4112,8 +3941,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 543--544
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[112 <./img/study2/system/dealingwithplans.png>]
-<img/study2/system/mobilemsg.png, id=2738, 125.7498pt x 223.0734pt>
+[111 <./img/study2/system/dealingwithplans.png>]
+<img/study2/system/mobilemsg.png, id=2714, 125.7498pt x 223.0734pt>
 File: img/study2/system/mobilemsg.png Graphic file (type png)
 
 <use img/study2/system/mobilemsg.png>
@@ -4133,7 +3962,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 553--554
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[113 <./img/study2/system/mobiletask.png>]
+[112 <./img/study2/system/mobiletask.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 555--556
 
  []
@@ -4152,8 +3981,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 572--573
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[114 <./img/study2/system/HQ.png>]
-<img/study2/system/agentInstructions.png, id=2751, 686.565pt x 320.19624pt>
+[113 <./img/study2/system/HQ.png>]
+<img/study2/system/agentInstructions.png, id=2727, 686.565pt x 320.19624pt>
 File: img/study2/system/agentInstructions.png Graphic file (type png)
 
 <use img/study2/system/agentInstructions.png>
@@ -4170,7 +3999,7 @@ ven com-plete break-
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[115 <./img/study2/system/mobilemsg.png>]
+[114 <./img/study2/system/mobilemsg.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 594--595
 
  []
@@ -4208,15 +4037,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 596--608
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[116 <./img/study2/system/agentInstructions.png>]
-<img/study2/ep1/ep11.png, id=2767, 172.0026pt x 96.36pt>
+[115 <./img/study2/system/agentInstructions.png>]
+<img/study2/ep1/ep11.png, id=2743, 172.0026pt x 96.36pt>
 File: img/study2/ep1/ep11.png Graphic file (type png)
 
 <use img/study2/ep1/ep11.png>
 Package pdftex.def Info: img/study2/ep1/ep11.png used on input line 611.
 (pdftex.def)             Requested size: 235.19897pt x 131.76535pt.
 
-<img/study2/ep1/ep12.png, id=2768, 172.0026pt x 96.8418pt>
+<img/study2/ep1/ep12.png, id=2744, 172.0026pt x 96.8418pt>
 File: img/study2/ep1/ep12.png Graphic file (type png)
 
 <use img/study2/ep1/ep12.png>
@@ -4231,7 +4060,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 623--624
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[117 <./img/study2/ep1/ep11.png> <./img/study2/ep1/ep12.png>]
+[116 <./img/study2/ep1/ep11.png> <./img/study2/ep1/ep12.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 625--626
 
  []
@@ -4246,7 +4075,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 630--631
 
  []
 
-<img/study2/ep2/ep21.png, id=2776, 117.0774pt x 65.5248pt>
+<img/study2/ep2/ep21.png, id=2752, 117.0774pt x 65.5248pt>
 File: img/study2/ep2/ep21.png Graphic file (type png)
 
 <use img/study2/ep2/ep21.png>
@@ -4309,11 +4138,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 638--662
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[118]
+[117]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[119 <./img/study2/ep2/ep21.png>]
+[118 <./img/study2/ep2/ep21.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 663--664
 
  []
@@ -4327,7 +4156,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 665--666
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[120]
+[119]
 Underfull \hbox (badness 10000) in paragraph at lines 667--668
 
  []
@@ -4337,14 +4166,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 670--671
 
  []
 
-<img/study2/ep3/ep31.png, id=2791, 111.2958pt x 65.5248pt>
+<img/study2/ep3/ep31.png, id=2768, 111.2958pt x 65.5248pt>
 File: img/study2/ep3/ep31.png Graphic file (type png)
 
 <use img/study2/ep3/ep31.png>
 Package pdftex.def Info: img/study2/ep3/ep31.png used on input line 674.
 (pdftex.def)             Requested size: 168.0pt x 98.92082pt.
 
-<img/study2/ep3/ep32.png, id=2792, 116.5956pt x 65.5248pt>
+<img/study2/ep3/ep32.png, id=2769, 116.5956pt x 65.5248pt>
 File: img/study2/ep3/ep32.png Graphic file (type png)
 
 <use img/study2/ep3/ep32.png>
@@ -4383,7 +4212,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 687--712
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[121 <./img/study2/ep3/ep31.png>]
+[120 <./img/study2/ep3/ep31.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 715--716
 
  []
@@ -4392,7 +4221,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 715--716
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[122 <./img/study2/ep3/ep32.png>]
+[121 <./img/study2/ep3/ep32.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 717--718
 
  []
@@ -4448,7 +4277,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 721--741
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[123]
+[122]
 Underfull \hbox (badness 10000) in paragraph at lines 743--744
 
  []
@@ -4462,7 +4291,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 745--746
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[124]
+[123]
 Underfull \hbox (badness 10000) in paragraph at lines 747--748
 
  []
@@ -4492,7 +4321,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 755--756
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[125]
+[124]
 Underfull \hbox (badness 10000) in paragraph at lines 757--758
 
  []
@@ -4511,7 +4340,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 767--768
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[126]
+[125]
 Underfull \hbox (badness 10000) in paragraph at lines 769--770
 
  []
@@ -4525,7 +4354,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 774--775
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[127]
+[126]
 Underfull \hbox (badness 10000) in paragraph at lines 789--790
 
  []
@@ -4539,7 +4368,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 791--792
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[128]
+[127]
 Underfull \hbox (badness 10000) in paragraph at lines 793--794
 
  []
@@ -4558,7 +4387,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 803--804
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[129]
+[128]
 Underfull \hbox (badness 10000) in paragraph at lines 805--806
 
  []
@@ -4572,7 +4401,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 810--811
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[130]
+[129]
 Overfull \hbox (2.25587pt too wide) in paragraph at lines 819--820
 \T1/pplj/m/n/10.95 used mess-sages to pro-vide sit-u-a-tional in-for-ma-tion th
 at com-ple-mented
@@ -4582,7 +4411,7 @@ at com-ple-mented
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[131]
+[130]
 Underfull \hbox (badness 10000) in paragraph at lines 825--826
 
  []
@@ -4591,11 +4420,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 825--826
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[132]
+[131]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[133]
+[132]
 Chapter 8.
 
 Underfull \hbox (badness 10000) in paragraph at lines 831--832
@@ -4611,7 +4440,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 835--836
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[134
+[133
 
 
 ]
@@ -4619,7 +4448,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 837--838
 
  []
 
-<img/study3/InTheLoop.png, id=2882, 698.61pt x 359.3425pt>
+<img/study3/InTheLoop.png, id=2857, 698.61pt x 359.3425pt>
 File: img/study3/InTheLoop.png Graphic file (type png)
 
 <use img/study3/InTheLoop.png>
@@ -4638,7 +4467,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 855--856
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[135]
+[134]
 Underfull \hbox (badness 10000) in paragraph at lines 857--858
 
  []
@@ -4652,12 +4481,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 861--862
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[136 <./img/study3/InTheLoop.png>]
+[135 <./img/study3/InTheLoop.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 870--871
 
  []
 
-<img/study3/system/Interfaces.png, id=2897, 739.76375pt x 571.13374pt>
+<img/study3/system/Interfaces.png, id=2873, 739.76375pt x 571.13374pt>
 File: img/study3/system/Interfaces.png Graphic file (type png)
 
 <use img/study3/system/Interfaces.png>
@@ -4682,8 +4511,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 889--890
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[137]
-<img/study3/system/mobileInterface.png, id=2907, 1065.9825pt x 590.205pt>
+[136]
+<img/study3/system/mobileInterface.png, id=2884, 1065.9825pt x 590.205pt>
 File: img/study3/system/mobileInterface.png Graphic file (type png)
 
 <use img/study3/system/mobileInterface.png>
@@ -4695,7 +4524,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 898--899
 
  []
 
-<img/study3/system/HQ2Interface.png, id=2909, 662.9568pt x 350.2686pt>
+<img/study3/system/HQ2Interface.png, id=2886, 662.9568pt x 350.2686pt>
 File: img/study3/system/HQ2Interface.png Graphic file (type png)
 
 <use img/study3/system/HQ2Interface.png>
@@ -4706,13 +4535,13 @@ Package pdftex.def Info: img/study3/system/HQ2Interface.png used on input line
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[138 <./img/study3/system/Interfaces.png> <./img/study3/system/mobileInterface.
+[137 <./img/study3/system/Interfaces.png> <./img/study3/system/mobileInterface.
 png>]
 Underfull \hbox (badness 10000) in paragraph at lines 907--908
 
  []
 
-<img/study3/system/HQ1Interface.png, id=2916, 964.60374pt x 724.7075pt>
+<img/study3/system/HQ1Interface.png, id=2893, 964.60374pt x 724.7075pt>
 File: img/study3/system/HQ1Interface.png Graphic file (type png)
 
 <use img/study3/system/HQ1Interface.png>
@@ -4723,7 +4552,7 @@ Package pdftex.def Info: img/study3/system/HQ1Interface.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/study3/system/editmode.png, id=2917, 874.26625pt x 692.5875pt>
+<img/study3/system/editmode.png, id=2894, 874.26625pt x 692.5875pt>
 File: img/study3/system/editmode.png Graphic file (type png)
 
 <use img/study3/system/editmode.png>
@@ -4734,7 +4563,7 @@ Package pdftex.def Info: img/study3/system/editmode.png used on input line 918.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/study3/system/msgmode.png, id=2918, 1445.4pt x 806.01125pt>
+<img/study3/system/msgmode.png, id=2895, 1445.4pt x 806.01125pt>
 File: img/study3/system/msgmode.png Graphic file (type png)
 
 <use img/study3/system/msgmode.png>
@@ -4759,7 +4588,7 @@ her words,
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[139 <./img/study3/system/HQ2Interface.png>]
+[138 <./img/study3/system/HQ2Interface.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 938--940
 
  []
@@ -4773,7 +4602,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 941--943
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[140 <./img/study3/system/HQ1Interface.png> <./img/study3/system/editmode.png>]
+[139 <./img/study3/system/HQ1Interface.png> <./img/study3/system/editmode.png>]
 
 Underfull \hbox (badness 10000) in paragraph at lines 944--946
 
@@ -4793,7 +4622,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 950--951
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[141 <./img/study3/system/msgmode.png>]
+[140 <./img/study3/system/msgmode.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 952--954
 
  []
@@ -4827,7 +4656,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 973--974
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[142]
+[141]
 Underfull \hbox (badness 10000) in paragraph at lines 975--976
 
  []
@@ -4846,7 +4675,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 979--980
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[143]
+[142]
 Underfull \hbox (badness 10000) in paragraph at lines 981--982
 
  []
@@ -4870,7 +4699,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 989--990
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[144]
+[143]
 Underfull \hbox (badness 10000) in paragraph at lines 991--992
 
  []
@@ -4897,7 +4726,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1027--1028
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[145]
+[144]
 Underfull \hbox (badness 10000) in paragraph at lines 1029--1030
 
  []
@@ -4912,7 +4741,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1034--1035
 
  []
 
-<img/study3/TaskAsSession1.png, id=2977, 651.43375pt x 341.275pt>
+<img/study3/TaskAsSession1.png, id=2953, 651.43375pt x 341.275pt>
 File: img/study3/TaskAsSession1.png Graphic file (type png)
 
 <use img/study3/TaskAsSession1.png>
@@ -4920,7 +4749,7 @@ Package pdftex.def Info: img/study3/TaskAsSession1.png used on input line 1037.
 
 (pdftex.def)             Requested size: 336.0pt x 176.02676pt.
 
-<img/study3/TaskAsSession2.png, id=2978, 641.39626pt x 336.25626pt>
+<img/study3/TaskAsSession2.png, id=2954, 641.39626pt x 336.25626pt>
 File: img/study3/TaskAsSession2.png Graphic file (type png)
 
 <use img/study3/TaskAsSession2.png>
@@ -4936,7 +4765,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1048--1049
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[146]
+[145]
 Underfull \hbox (badness 10000) in paragraph at lines 1050--1051
 
  []
@@ -4945,7 +4774,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1050--1051
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[147 <./img/study3/TaskAsSession1.png> <./img/study3/TaskAsSession2.png>]
+[146 <./img/study3/TaskAsSession1.png> <./img/study3/TaskAsSession2.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1052--1053
 
  []
@@ -4994,14 +4823,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1057--1074
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[148] <img/study3/ep11.png, id=2996, 162.8484pt x 91.542pt>
+[147] <img/study3/ep11.png, id=2972, 162.8484pt x 91.542pt>
 File: img/study3/ep11.png Graphic file (type png)
 
 <use img/study3/ep11.png>
 Package pdftex.def Info: img/study3/ep11.png used on input line 1078.
 (pdftex.def)             Requested size: 151.19897pt x 84.99489pt.
 
-<img/study3/ep12.png, id=2997, 161.8848pt x 91.0602pt>
+<img/study3/ep12.png, id=2973, 161.8848pt x 91.0602pt>
 File: img/study3/ep12.png Graphic file (type png)
 
 <use img/study3/ep12.png>
@@ -5021,7 +4850,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1093--1094
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[149 <./img/study3/ep11.png> <./img/study3/ep12.png>]
+[148 <./img/study3/ep11.png> <./img/study3/ep12.png>]
 Overfull \hbox (33.80786pt too wide) in paragraph at lines 1095--1105
 \T1/fvm/m/sl/10.95 NG and YI have just completed a task together; DI is some di
 stance
@@ -5088,7 +4917,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1110--1132
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[150]
+[149]
 Underfull \hbox (badness 10000) in paragraph at lines 1133--1134
 
  []
@@ -5097,7 +4926,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1133--1134
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[151]
+[150]
 Underfull \hbox (badness 10000) in paragraph at lines 1140--1141
 
  []
@@ -5107,7 +4936,7 @@ Package caption Warning: \label without proper \caption on input line 1166.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:study3ep31' on page 152 undefined on input line 1
+LaTeX Warning: Reference `fig:study3ep31' on page 151 undefined on input line 1
 153.
 
 
@@ -5127,14 +4956,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1142--1154
 
  []
 
-<img/study3/ep31.png, id=3015, 244.2726pt x 137.7948pt>
+<img/study3/ep31.png, id=2992, 244.2726pt x 137.7948pt>
 File: img/study3/ep31.png Graphic file (type png)
 
 <use img/study3/ep31.png>
 Package pdftex.def Info: img/study3/ep31.png used on input line 1158.
 (pdftex.def)             Requested size: 151.19897pt x 85.2931pt.
 
-<img/study3/ep32.png, id=3016, 159.4758pt x 135.8676pt>
+<img/study3/ep32.png, id=2993, 159.4758pt x 135.8676pt>
 File: img/study3/ep32.png Graphic file (type png)
 
 <use img/study3/ep32.png>
@@ -5149,7 +4978,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1170--1171
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[152 <./img/study3/ep31.png> <./img/study3/ep32.png>]
+[151 <./img/study3/ep31.png> <./img/study3/ep32.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1173--1174
 
  []
@@ -5192,7 +5021,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1187--1188
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[153]
+[152]
 Underfull \hbox (badness 10000) in paragraph at lines 1190--1191
 
  []
@@ -5248,14 +5077,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1192--1208
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[154] <img/study3/ep51.png, id=3034, 189.8292pt x 107.4414pt>
+[153] <img/study3/ep51.png, id=3010, 189.8292pt x 107.4414pt>
 File: img/study3/ep51.png Graphic file (type png)
 
 <use img/study3/ep51.png>
 Package pdftex.def Info: img/study3/ep51.png used on input line 1212.
 (pdftex.def)             Requested size: 151.19897pt x 85.57616pt.
 
-<img/study3/ep52.png, id=3035, 188.8656pt x 106.4778pt>
+<img/study3/ep52.png, id=3011, 188.8656pt x 106.4778pt>
 File: img/study3/ep52.png Graphic file (type png)
 
 <use img/study3/ep52.png>
@@ -5263,7 +5092,7 @@ Package pdftex.def Info: img/study3/ep52.png used on input line 1218.
 (pdftex.def)             Requested size: 151.19897pt x 85.24408pt.
 
 
-LaTeX Warning: Reference `fig:study3ep52' on page 155 undefined on input line 1
+LaTeX Warning: Reference `fig:study3ep52' on page 154 undefined on input line 1
 224.
 
 
@@ -5280,7 +5109,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1227--1228
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[155 <./img/study3/ep51.png> <./img/study3/ep52.png>]
+[154 <./img/study3/ep51.png> <./img/study3/ep52.png>]
 Overfull \hbox (24.28622pt too wide) in paragraph at lines 1229--1247
 \T1/fvm/m/sl/10.95 (Context: One team (CE, KM) is end up heading to radiation c
 loud.
@@ -5342,7 +5171,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1248--1249
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[156]
+[155]
 Overfull \hbox (5.79211pt too wide) in paragraph at lines 1251--1270
 \T1/fvm/b/n/10.95 05:15, CE:  \T1/fvm/m/n/10.95 (Reading out the message) You a
 re approaching the
@@ -5383,7 +5212,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1251--1270
 
  []
 
-<img/study3/ep361.png, id=3049, 185.0112pt x 116.1138pt>
+<img/study3/ep361.png, id=3026, 185.0112pt x 116.1138pt>
 File: img/study3/ep361.png Graphic file (type png)
 
 <use img/study3/ep361.png>
@@ -5393,7 +5222,7 @@ Package pdftex.def Info: img/study3/ep361.png used on input line 1274.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/study3/ep362.png, id=3050, 182.1204pt x 117.0774pt>
+<img/study3/ep362.png, id=3027, 182.1204pt x 117.0774pt>
 File: img/study3/ep362.png Graphic file (type png)
 
 <use img/study3/ep362.png>
@@ -5412,7 +5241,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1287--1288
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[157]
+[156]
 Underfull \hbox (badness 10000) in paragraph at lines 1290--1291
 
  []
@@ -5421,7 +5250,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1290--1291
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[158 <./img/study3/ep361.png> <./img/study3/ep362.png>]
+[157 <./img/study3/ep361.png> <./img/study3/ep362.png>]
 Overfull \hbox (4.6752pt too wide) in paragraph at lines 1292--1303
 \T1/fvm/m/sl/10.95 (New assignment MV XW -> 36, XW accepted, MV had no response
 ) 
@@ -5471,7 +5300,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1308--1309
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[159]
+[158]
 Overfull \hbox (11.39526pt too wide) in paragraph at lines 1310--1316
 \T1/fvm/b/n/10.95 Episode 3.8  17:04, HQ1:  \T1/fvm/m/n/10.95 Ok this one (refe
 r to target 36). Do
@@ -5517,7 +5346,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1328--1329
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[160]
+[159]
 Underfull \hbox (badness 10000) in paragraph at lines 1331--1332
 
  []
@@ -5536,7 +5365,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1335--1336
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[161]
+[160]
 Underfull \hbox (badness 10000) in paragraph at lines 1337--1338
 
  []
@@ -5555,7 +5384,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1343--1344
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[162]
+[161]
 Underfull \hbox (badness 10000) in paragraph at lines 1353--1354
 
  []
@@ -5569,7 +5398,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1355--1356
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[163]
+[162]
 Underfull \hbox (badness 10000) in paragraph at lines 1361--1362
 
  []
@@ -5583,7 +5412,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1363--1364
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[164]
+[163]
 Overfull \hbox (2.82533pt too wide) in paragraph at lines 1365--1366
 \T1/pplj/m/n/10.95 of au-toma-tion sug-gests that com-pla-cency can be clas-si-
 fied as attention-
@@ -5603,7 +5432,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1368--1369
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[165]
+[164]
 Underfull \hbox (badness 10000) in paragraph at lines 1370--1371
 
  []
@@ -5617,7 +5446,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1372--1373
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[166]
+[165]
 Underfull \hbox (badness 10000) in paragraph at lines 1374--1375
 
  []
@@ -5631,7 +5460,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1376--1377
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[167]
+[166]
 Underfull \hbox (badness 10000) in paragraph at lines 1378--1379
 
  []
@@ -5645,7 +5474,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1380--1381
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[168]
+[167]
 Underfull \hbox (badness 10000) in paragraph at lines 1384--1385
 
  []
@@ -5659,7 +5488,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1386--1387
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[169]
+[168]
 Underfull \hbox (badness 10000) in paragraph at lines 1388--1389
 
  []
@@ -5673,7 +5502,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1390--1391
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[170]
+[169]
 Underfull \hbox (badness 10000) in paragraph at lines 1401--1402
 
  []
@@ -5682,7 +5511,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1401--1402
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[171]
+[170]
 Overfull \hbox (15.51013pt too wide) in paragraph at lines 1423--1424
 []\T1/pplj/b/n/10.95 Shared rep-re-sen-ta-tion\T1/pplj/m/n/10.95 . The task in-
 ter-face en-abled com-mon ground
@@ -5708,11 +5537,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1432--1433
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[172]
+[171]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[173]
+[172]
 Overfull \hbox (0.57431pt too wide) in paragraph at lines 1447--1448
 \T1/pplj/m/n/10.95 the com-pu-ta-tional com-po-nent. Mech-a-nisms to counter ma
 y turn
@@ -5732,7 +5561,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1458--1459
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[174]
+[173]
 Underfull \hbox (badness 10000) in paragraph at lines 1469--1470
 
  []
@@ -5751,7 +5580,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1475--1476
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[175]
+[174]
 Underfull \hbox (badness 10000) in paragraph at lines 1478--1479
 
  []
@@ -5770,7 +5599,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1487--1488
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[176]
+[175]
 Overfull \hbox (16.59035pt too wide) in paragraph at lines 1497--1498
 \T1/pplj/m/n/10.95 lev-els of so-phis-ti-ca-tion, that takes you into dif-fer-e
 nt paradigm.
@@ -5780,7 +5609,7 @@ nt paradigm.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[177]
+[176]
 Overfull \hbox (0.65741pt too wide) in paragraph at lines 1509--1510
 \T1/pplj/m/n/10.95 ing and vi-su-ally rep-re-sent-ing what we man-u-ally con-st
 ruct-
@@ -5790,7 +5619,7 @@ ruct-
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[178]
+[177]
 Underfull \hbox (badness 10000) in paragraph at lines 1518--1519
 
  []
@@ -5809,7 +5638,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1524--1525
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[179]
+[178]
 Underfull \hbox (badness 10000) in paragraph at lines 1526--1527
 
  []
@@ -5828,7 +5657,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1531--1532
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[180]
+[179]
 Underfull \hbox (badness 10000) in paragraph at lines 1533--1535
 
  []
@@ -5842,7 +5671,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1546--1547
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[181] [182
+[180] [181
 
 
 
@@ -5856,7 +5685,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
 
-<img/conclusion/studies.png, id=3311, 773.89125pt x 552.0625pt>
+<img/conclusion/studies.png, id=3286, 773.89125pt x 552.0625pt>
 File: img/conclusion/studies.png Graphic file (type png)
 
 <use img/conclusion/studies.png>
@@ -5876,7 +5705,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[183
+[182
 
 
 
@@ -5890,8 +5719,6 @@ Package acronym Warning: Acronym `LOA' is not defined on input line 18.
 
 Package acronym Warning: Acronym `LOA' is not defined on input line 18.
 
-LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <9> not available
-(Font)              Font shape `T1/pplj/b/n' tried instead on input line 18.
 
 Overfull \hbox (7.62622pt too wide) in paragraph at lines 22--23
 []\T1/pplj/b/n/10.95 The in-ter-ac-tional is-sues and de-sign im-pli-ca-tions. 
@@ -5918,7 +5745,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[184] <img/conclusion/study1interface.png, id=3331, 1198.4775pt x 866.23625pt>
+[183] <img/conclusion/study1interface.png, id=3307, 1198.4775pt x 866.23625pt>
 File: img/conclusion/study1interface.png Graphic file (type png)
 
 <use img/conclusion/study1interface.png>
@@ -5929,12 +5756,12 @@ Package pdftex.def Info: img/conclusion/study1interface.png used on input line
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[185 <./img/conclusion/study1interface.png>]
+[184 <./img/conclusion/study1interface.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
 
-<img/conclusion/study2interface.png, id=3340, 1421.31pt x 952.55875pt>
+<img/conclusion/study2interface.png, id=3317, 1421.31pt x 952.55875pt>
 File: img/conclusion/study2interface.png Graphic file (type png)
 
 <use img/conclusion/study2interface.png>
@@ -5945,8 +5772,8 @@ Package pdftex.def Info: img/conclusion/study2interface.png used on input line
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[186 <./img/conclusion/study2interface.png>]
-<img/conclusion/study3interfaceHQ.png, id=3347, 1423.3175pt x 961.5925pt>
+[185 <./img/conclusion/study2interface.png>]
+<img/conclusion/study3interfaceHQ.png, id=3324, 1423.3175pt x 961.5925pt>
 File: img/conclusion/study3interfaceHQ.png Graphic file (type png)
 
 <use img/conclusion/study3interfaceHQ.png>
@@ -5960,7 +5787,7 @@ t'' kept un-changed
  []
 
 
-<img/conclusion/study3interfaceMobile.png, id=3349, 709.65125pt x 1040.88875pt>
+<img/conclusion/study3interfaceMobile.png, id=3326, 709.65125pt x 1040.88875pt>
 File: img/conclusion/study3interfaceMobile.png Graphic file (type png)
 <use img/conclusion/study3interfaceMobile.png>
 Package pdftex.def Info: img/conclusion/study3interfaceMobile.png used on input
@@ -5970,7 +5797,7 @@ Package pdftex.def Info: img/conclusion/study3interfaceMobile.png used on input
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[187 <./img/conclusion/study3interfaceHQ.png>]
+[186 <./img/conclusion/study3interfaceHQ.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 79--80
 
  []
@@ -5979,7 +5806,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--80
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[188 <./img/conclusion/study3interfaceMobile.png>]
+[187 <./img/conclusion/study3interfaceMobile.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 81--82
 
  []
@@ -5988,7 +5815,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 81--82
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[189]
+[188]
 Overfull \hbox (0.29584pt too wide) in paragraph at lines 92--93
 \T1/pplj/m/n/10.95 par-tially fa-cil-i-tated by the task as-sign-ment in-ter-fa
 ce de-ployed in study
@@ -6013,7 +5840,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 101--102
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[190] <img/conclusion/huilvshuol.png, id=3377, 865.2325pt x 256.96pt>
+[189] <img/conclusion/huilvshuol.png, id=3353, 865.2325pt x 256.96pt>
 File: img/conclusion/huilvshuol.png Graphic file (type png)
 
 <use img/conclusion/huilvshuol.png>
@@ -6038,11 +5865,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--133
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[191 <./img/conclusion/huilvshuol.png>]
+[190 <./img/conclusion/huilvshuol.png>]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[192]
+[191]
 Underfull \hbox (badness 10000) in paragraph at lines 134--135
 
  []
@@ -6056,7 +5883,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 136--138
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[193]
+[192]
 Underfull \hbox (badness 10000) in paragraph at lines 143--144
 
  []
@@ -6070,7 +5897,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--148
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[194]
+[193]
 Underfull \hbox (badness 10000) in paragraph at lines 149--150
 
  []
@@ -6094,7 +5921,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 155--156
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[195]
+[194]
 Underfull \hbox (badness 10000) in paragraph at lines 157--158
 
  []
@@ -6113,7 +5940,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 162--163
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[196]
+[195]
 Underfull \hbox (badness 10000) in paragraph at lines 164--165
 
  []
@@ -6127,7 +5954,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--168
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[197]
+[196]
 Underfull \hbox (badness 10000) in paragraph at lines 170--171
 
  []
@@ -6141,7 +5968,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--173
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[198]
+[197]
 Underfull \hbox (badness 10000) in paragraph at lines 174--175
 
  []
@@ -6171,7 +5998,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 184--185
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[199]
+[198]
 Underfull \hbox (badness 10000) in paragraph at lines 186--187
 
  []
@@ -6195,7 +6022,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 194--195
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[200]
+[199]
 Underfull \hbox (badness 10000) in paragraph at lines 196--197
 
  []
@@ -6209,7 +6036,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--199
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[201]
+[200]
 Underfull \hbox (badness 10000) in paragraph at lines 200--201
 
  []
@@ -6233,7 +6060,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 206--207
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[202]
+[201]
 Underfull \hbox (badness 10000) in paragraph at lines 208--209
 
  []
@@ -6242,7 +6069,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 208--209
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[203] [204
+[202] [203
 
 
 
@@ -6253,56 +6080,13 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
  (./Chapters/Chapter0A.tex
 Appendix A.
-<img/Appendix/SystemDescription.png, id=3495, 857.2025pt x 632.3625pt>
+<img/Appendix/SystemDescription.png, id=3472, 857.2025pt x 632.3625pt>
 File: img/Appendix/SystemDescription.png Graphic file (type png)
 
 <use img/Appendix/SystemDescription.png>
 Package pdftex.def Info: img/Appendix/SystemDescription.png used on input line 
 14.
 (pdftex.def)             Requested size: 403.19897pt x 297.442pt.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 24.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 24.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 24.
-
 
 Overfull \hbox (23.61963pt too wide) in paragraph at lines 22--34
  [][] 
@@ -6312,12 +6096,12 @@ Overfull \hbox (23.61963pt too wide) in paragraph at lines 22--34
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[205
+[204
 
 
 
  <./img/Appendix/SystemDescription.png>]
-<img/Appendix/Mainloop.png, id=3500, 561.09625pt x 594.22pt>
+<img/Appendix/Mainloop.png, id=3477, 561.09625pt x 594.22pt>
 File: img/Appendix/Mainloop.png Graphic file (type png)
 
 <use img/Appendix/Mainloop.png>
@@ -6327,64 +6111,7 @@ Package pdftex.def Info: img/Appendix/Mainloop.png used on input line 39.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[206]
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 49.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 49.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 49.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 49.
-
-
+[205]
 Overfull \hbox (42.02263pt too wide) in paragraph at lines 47--58
  [][] 
  []
@@ -6393,63 +6120,9 @@ Overfull \hbox (42.02263pt too wide) in paragraph at lines 47--58
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[207 <./img/Appendix/Mainloop.png>]
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 70.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 70.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 70.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\bf'!
-(scrreprt)              You should note, that in 1994 font command `\bf' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\bf' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\bf' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\bf'
-(scrreprt)              by `\normalfont \bfseries ' on input line 70.
-
+[206 <./img/Appendix/Mainloop.png>]
+LaTeX Font Info:    Font shape `T1/pplj/bx/n' in size <6> not available
+(Font)              Font shape `T1/pplj/b/n' tried instead on input line 70.
 
 Overfull \hbox (3.31955pt too wide) in paragraph at lines 68--76
  [][] 
@@ -6459,13 +6132,13 @@ Overfull \hbox (3.31955pt too wide) in paragraph at lines 68--76
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[208]
+[207]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[209]
+[208]
 Appendix B.
-<img/Appendix/targets1.png, id=3518, 606.265pt x 570.13pt>
+<img/Appendix/targets1.png, id=3495, 606.265pt x 570.13pt>
 File: img/Appendix/targets1.png Graphic file (type png)
 
 <use img/Appendix/targets1.png>
@@ -6475,14 +6148,14 @@ Package pdftex.def Info: img/Appendix/targets1.png used on input line 85.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[210
+[209
 
 
  <./img/Appendix/targets1.png>]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[211] <img/Appendix/study1A.png, id=3528, 1200.485pt x 360.34625pt>
+[210] <img/Appendix/study1A.png, id=3504, 1200.485pt x 360.34625pt>
 File: img/Appendix/study1A.png Graphic file (type png)
 
 <use img/Appendix/study1A.png>
@@ -6492,7 +6165,7 @@ Package pdftex.def Info: img/Appendix/study1A.png used on input line 141.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[212] <img/Appendix/study1B.png, id=3534, 1202.4925pt x 422.57875pt>
+[211] <img/Appendix/study1B.png, id=3509, 1202.4925pt x 422.57875pt>
 File: img/Appendix/study1B.png Graphic file (type png)
 
 <use img/Appendix/study1B.png>
@@ -6502,11 +6175,11 @@ Package pdftex.def Info: img/Appendix/study1B.png used on input line 151.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[213 <./img/Appendix/study1A.png>]
+[212 <./img/Appendix/study1A.png>]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[214 <./img/Appendix/study1B.png>]
+[213 <./img/Appendix/study1B.png>]
 Appendix C.
 File: img/Appendix/targets1.png Graphic file (type png)
 <use img/Appendix/targets1.png>
@@ -6516,14 +6189,14 @@ Package pdftex.def Info: img/Appendix/targets1.png used on input line 165.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[215
+[214
 
 
 ]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[216] <img/Appendix/study2A.png, id=3551, 1202.4925pt x 421.575pt>
+[215] <img/Appendix/study2A.png, id=3528, 1202.4925pt x 421.575pt>
 File: img/Appendix/study2A.png Graphic file (type png)
 
 <use img/Appendix/study2A.png>
@@ -6533,7 +6206,7 @@ Package pdftex.def Info: img/Appendix/study2A.png used on input line 216.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[217] <img/Appendix/study2B.png, id=3556, 1200.485pt x 426.59375pt>
+[216] <img/Appendix/study2B.png, id=3533, 1200.485pt x 426.59375pt>
 File: img/Appendix/study2B.png Graphic file (type png)
 
 <use img/Appendix/study2B.png>
@@ -6543,13 +6216,13 @@ Package pdftex.def Info: img/Appendix/study2B.png used on input line 226.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[218 <./img/Appendix/study2A.png>]
+[217 <./img/Appendix/study2A.png>]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[219 <./img/Appendix/study2B.png>]
+[218 <./img/Appendix/study2B.png>]
 Appendix D.
-<img/Appendix/targets2.png, id=3566, 607.26875pt x 567.11874pt>
+<img/Appendix/targets2.png, id=3542, 607.26875pt x 567.11874pt>
 File: img/Appendix/targets2.png Graphic file (type png)
 
 <use img/Appendix/targets2.png>
@@ -6559,28 +6232,28 @@ Package pdftex.def Info: img/Appendix/targets2.png used on input line 236.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[220
+[219
 
 
  <./img/Appendix/targets2.png>]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[221]
+[220]
 Overfull \vbox (2.64758pt too high) has occurred while \output is active []
 
 
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[222] <img/Appendix/study3A.png, id=3579, 1202.4925pt x 424.58624pt>
+[221] <img/Appendix/study3A.png, id=3556, 1202.4925pt x 424.58624pt>
 File: img/Appendix/study3A.png Graphic file (type png)
 
 <use img/Appendix/study3A.png>
 Package pdftex.def Info: img/Appendix/study3A.png used on input line 288.
 (pdftex.def)             Requested size: 604.80103pt x 213.55594pt.
 
-<img/Appendix/study3B.png, id=3580, 1201.48875pt x 428.60126pt>
+<img/Appendix/study3B.png, id=3557, 1201.48875pt x 428.60126pt>
 File: img/Appendix/study3B.png Graphic file (type png)
 
 <use img/Appendix/study3B.png>
@@ -6590,11 +6263,11 @@ Package pdftex.def Info: img/Appendix/study3B.png used on input line 297.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[223 <./img/Appendix/study3A.png>]
+[222 <./img/Appendix/study3A.png>]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[224 <./img/Appendix/study3B.png>]
+[223 <./img/Appendix/study3B.png>]
 \openout2 = `FrontBackmatter/Bibliography.aux'.
 
  (./FrontBackmatter/Bibliography.tex
@@ -6602,7 +6275,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[225
+[224
 
 
 
@@ -6610,6 +6283,10 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 ]
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[225]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
@@ -6649,18 +6326,14 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[235]
+[235]))
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[236]))
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[237]
+[236]
 \openout2 = `FrontBackmatter/Colophon.aux'.
 
- (./FrontBackmatter/Colophon.tex) [238
+ (./FrontBackmatter/Colophon.tex) [237
 
 
 
@@ -6668,7 +6341,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 ]
 \openout2 = `FrontBackmatter/Declaration.aux'.
 
- (./FrontBackmatter/Declaration.tex) [239
+ (./FrontBackmatter/Declaration.tex) [238
 
 
 
@@ -6676,36 +6349,35 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 ]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 119.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 119.
- (./ClassicThesis.aux (./FrontBackmatter/DirtyTitlepage.aux)
-(./FrontBackmatter/Titlepage.aux) (./FrontBackmatter/Titleback.aux)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
+ (./ClassicThesis.aux (./FrontBackmatter/Titlepage.aux)
 (./FrontBackmatter/Abstract.aux) (./FrontBackmatter/Acknowledgments.aux)
 (./FrontBackmatter/Contents.aux) (./Chapters/Chapter01.aux)
 (./Chapters/LiteratureReview.aux) (./Chapters/ChapterM&P.aux)
 (./Chapters/Chapter04.aux) (./Chapters/Conclusion.aux)
 (./Chapters/Chapter0A.aux) (./FrontBackmatter/Bibliography.aux)
 (./FrontBackmatter/Colophon.aux) (./FrontBackmatter/Declaration.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 119.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
 
 
  *File List*
-scrreprt.cls    2013/12/19 v3.12 KOMA-Script document class (report)
-scrkbase.sty    2013/12/19 v3.12 KOMA-Script package (KOMA-Script-dependent bas
-ics and keyval usage)
- scrbase.sty    2013/12/19 v3.12 KOMA-Script package (KOMA-Script-independent b
-asics and keyval usage)
+scrreprt.cls    2012/07/29 v3.11b KOMA-Script document class (report)
+scrkbase.sty    2012/07/29 v3.11b KOMA-Script package (KOMA-Script-dependent ba
+sics and keyval usage)
+ scrbase.sty    2012/07/29 v3.11b KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
   keyval.sty    1999/03/16 v1.13 key=value parser (DPC)
-scrlfile.sty    2013/12/19 v3.12 KOMA-Script package (loading files)
-tocbasic.sty    2013/12/19 v3.12 KOMA-Script package (handling toc-files)
-scrsize11pt.clo    2013/12/19 v3.12 KOMA-Script font size class option (11pt)
-typearea.sty    2013/12/19 v3.12 KOMA-Script package (type area)
+scrlfile.sty    2012/06/15 v3.12 KOMA-Script package (loading files)
+tocbasic.sty    2012/04/04 v3.10b KOMA-Script package (handling toc-files)
+scrsize11pt.clo    2012/07/29 v3.11b KOMA-Script font size class option (11pt)
+typearea.sty    2012/07/29 v3.11b KOMA-Script package (type area)
 classicthesis-config.tex
   ifthen.sty    2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 inputenc.sty    2008/03/30 v1.1d Input encoding file
   latin9.def    2008/03/30 v1.1d Input encoding file
-   babel.sty    2013/12/03 3.9h The Babel package
-ngermanb.ldf    2013/12/13 v2.7 German support for babel (new orthography)
+   babel.sty    2013/05/16 v3.9f The Babel package
+ngermanb.ldf    2008/07/06 v2.6n new German support from the babel system
  english.ldf    2012/08/20 v3.3p English support from the babel system
   natbib.sty    2010/09/13 8.31b (PWD, AO)
  amsmath.sty    2013/01/14 v2.14 AMS math features
@@ -6717,7 +6389,7 @@ ngermanb.ldf    2013/12/13 v2.7 German support for babel (new orthography)
    t1enc.def    2005/09/27 v1.99g Standard LaTeX file
 textcomp.sty    2005/09/27 v1.99g Standard LaTeX package
   ts1enc.def    2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
- scrhack.sty    2013/12/19 v3.12 KOMA-Script package 
+ scrhack.sty    2012/07/29 v3.11b KOMA-Script package (hacking other packages)
   xspace.sty    2009/10/20 v1.13 Space after command names (DPC,MH)
 mparhack.sty    2005/04/17 v1.4 (T. Sgouros and S. Ulrich)
 fixltx2e.sty    2006/09/13 v1.1m fixes to LaTeX
@@ -6726,7 +6398,7 @@ multirow.sty
 ClassicThesis.bbl
  acronym.sty    2012/10/29 v1.38 Support for acronyms (Tobias Oetiker)
   suffix.sty    2006/07/15 1.5 Variant command support
- xstring.sty    2013/10/13  v1.7c  String manipulations (C Tellechea)
+ xstring.sty    2013/2/28  v1.7a  String manipulations (C Tellechea)
  relsize.sty    2013/03/29 ver 4.1
 tabularx.sty    1999/01/07 v2.07 `tabularx' package (DPC)
    array.sty    2008/09/09 v2.4c Tabular extension package (FMi)
@@ -6734,21 +6406,20 @@ tabularx.sty    1999/01/07 v2.07 `tabularx' package (DPC)
 caption3.sty    2013/05/02 v1.6-88 caption3 kernel (AR)
   subfig.sty    2005/06/28 ver: 1.3 subfig package
 enumerate.sty    1999/03/05 v3.00 enumerate extensions (DPC)
-listings.sty    2013/08/26 1.5b (Carsten Heinz)
- lstmisc.sty    2013/08/26 1.5b (Carsten Heinz)
-listings.cfg    2013/08/26 1.5b listings configuration
-listings.hak    2013/12/19 v3.12 KOMA-Script package (hacking package listings)
-
-lstlang1.sty    2013/08/26 1.5b listings language file
-lstlang2.sty    2013/08/26 1.5b listings language file
-lstlang3.sty    2013/08/26 1.5b listings language file
-lstlang1.sty    2013/08/26 1.5b listings language file
-lstlang2.sty    2013/08/26 1.5b listings language file
-lstlang3.sty    2013/08/26 1.5b listings language file
-lstlang1.sty    2013/08/26 1.5b listings language file
-lstlang2.sty    2013/08/26 1.5b listings language file
-lstlang3.sty    2013/08/26 1.5b listings language file
- lstmisc.sty    2013/08/26 1.5b (Carsten Heinz)
+listings.sty    2007/02/22 1.4 (Carsten Heinz)
+ lstmisc.sty    2007/02/22 1.4 (Carsten Heinz)
+listings.cfg    2007/02/22 1.4 listings configuration
+listings.hak    2012/07/29 v3.11b KOMA-Script hacking package listings
+lstlang1.sty    2004/09/05 1.3 listings language file
+lstlang2.sty    2004/09/05 1.3 listings language file
+lstlang3.sty    2004/09/05 1.3 listings language file
+lstlang1.sty    2004/09/05 1.3 listings language file
+lstlang2.sty    2004/09/05 1.3 listings language file
+lstlang3.sty    2004/09/05 1.3 listings language file
+lstlang1.sty    2004/09/05 1.3 listings language file
+lstlang2.sty    2004/09/05 1.3 listings language file
+lstlang3.sty    2004/09/05 1.3 listings language file
+ lstmisc.sty    2007/02/22 1.4 (Carsten Heinz)
 hyperref.sty    2012/11/06 v6.83m Hypertext links for LaTeX
 hobsub-hyperref.sty    2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 hobsub-generic.sty    2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
@@ -6779,7 +6450,7 @@ refcount.sty    2011/10/16 v3.4 Data extraction from label references (HO)
 kvoptions.sty    2011/06/30 v3.11 Key value format for package options (HO)
   pd1enc.def    2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 hyperref.cfg    2002/06/06 v1.2 hyperref configuration of TeXLive
-     url.sty    2013/09/16  ver 3.4  Verb mode for urls, etc.
+     url.sty    2006/04/12  ver 3.3  Verb mode for urls, etc.
  hpdftex.def    2012/11/06 v6.83m Hyperref driver for pdfTeX
 rerunfilecheck.sty    2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 graphicx.sty    1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
@@ -6800,15 +6471,15 @@ microtype-pdftex.def    2013/05/23 v2.5a Definitions specific to pdftex (RS)
 microtype.cfg    2013/05/23 v2.5a microtype main configuration file (RS)
 booktabs.sty    2005/04/14 v1.61803 publication quality tables
 textcase.sty    2004/10/07 v0.07 Text only upper/lower case changing (DPC)
-scrpage2.sty    2013/12/19 v3.12 KOMA-Script package (page head and foot)
+scrpage2.sty    2010/04/22 v2.5 LaTeX2e KOMA-Script package
 titlesec.sty    2011/12/15 v2.10.0 Sectioning titles
  tocloft.sty    2013/05/02 v2.3f parameterised ToC, etc., typesetting
- scrtime.sty    2011/03/31 v3.08b KOMA-Script package (time of LaTeX run)
+ scrtime.sty    2012/07/29 v3.11b KOMA-Script package (time of LaTeX run)
 prelim2e.sty    2009/05/29 v1.3 prelim2e Package (MS)
 everyshi.sty    2001/05/15 v3.00 EveryShipout Package (MS)
 remreset.sty    
    float.sty    2001/11/08 v1.3d Float enhancements (AL)
-   float.hak    2013/12/19 v3.12 KOMA-Script package (hacking package float)
+   float.hak    2012/07/29 v3.11b KOMA-Script hacking package float
 mathtools.sty    2013/02/12 v1.13 mathematical typesetting tools
     calc.sty    2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
  mhsetup.sty    2010/01/21 v1.2a programming setup (MH)
@@ -6823,11 +6494,8 @@ epstopdf-base.sty    2010/02/09 v2.5 Base part for package epstopdf
   grfext.sty    2010/08/19 v1.1 Manage graphics extensions (HO)
 epstopdf-sys.cfg    2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
   mt-ppl.cfg    2005/11/16 v1.6 microtype config. file: Palatino (RS)
-FrontBackmatter/DirtyTitlepage.tex
-   t1fvm.fd    2004/09/07 scalable font definitions for T1/fvm.
 FrontBackmatter/Titlepage.tex
-FrontBackmatter/Titleback.tex
- ts1pplj.fd    2004/09/06 font definitions for TS1/pplj.
+   t1fvm.fd    2004/09/07 scalable font definitions for T1/fvm.
 FrontBackmatter/Abstract.tex
 FrontBackmatter/Acknowledgments.tex
 FrontBackmatter/Contents.tex
@@ -6839,6 +6507,7 @@ FrontBackmatter/Contents.tex
  ot1zplm.fd    2002/09/08 Fontinst v1.914 font definitions for OT1/zplm.
   t1cmss.fd    1999/05/25 v2.5h Standard LaTeX font definitions
 Chapters/Chapter01.tex
+ ts1pplj.fd    2004/09/06 font definitions for TS1/pplj.
 img/introduction/contributions.png
 Chapters/LiteratureReview.tex
 img/Background/drCircle.png
@@ -6924,41 +6593,42 @@ FrontBackmatter/Colophon.tex
 FrontBackmatter/Declaration.tex
  ***********
 
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 119.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 118.
 Package rerunfilecheck Info: File `ClassicThesis.out' has not changed.
-(rerunfilecheck)             Checksum: CC0A2EA6CA9905743AECF9A0E32EBFF4;12594.
+(rerunfilecheck)             Checksum: E7ADF286EFBB90F957353C80F7D5916C;12526.
 
 LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 119.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 18890 strings out of 493304
- 297902 string characters out of 6139871
- 501628 words of memory out of 5000000
- 20993 multiletter control sequences out of 15000+600000
+ 18685 strings out of 493315
+ 294601 string characters out of 6137904
+ 477501 words of memory out of 5000000
+ 20799 multiletter control sequences out of 15000+600000
  87382 words of font info for 126 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 54i,14n,67p,2207b,738s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/share/texlive/t
-exmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/share/texlive/texm
-f-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/share/texlive/texmf-di
-st/fonts/type1/public/fpl/fplbj8a.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/fpl/fplrc8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/fpl/
-fplrij8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmb8a.pfb>
-</usr/share/texlive/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/bera/fvmro8a.pfb></usr/share/texlive/texmf
--dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/urw/palatino/uplr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/pa
-latino/uplri8a.pfb>
-Output written on ClassicThesis.pdf (256 pages, 20680168 bytes).
+ 53i,14n,67p,2210b,738s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2013/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
+exlive/2013/texmf-dist/fonts/type1/public/amsfonts/euler/eurb10.pfb></usr/local
+/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/loc
+al/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/lo
+cal/texlive/2013/texmf-dist/fonts/type1/public/fpl/fplbj8a.pfb></usr/local/texl
+ive/2013/texmf-dist/fonts/type1/public/fpl/fplrc8a.pfb></usr/local/texlive/2013
+/texmf-dist/fonts/type1/public/fpl/fplrij8a.pfb></usr/local/texlive/2013/texmf-
+dist/fonts/type1/public/bera/fvmb8a.pfb></usr/local/texlive/2013/texmf-dist/fon
+ts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1
+/public/bera/fvmro8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/pa
+latino/uplb8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/palatino/
+uplr8a.pfb></usr/local/texlive/2013/texmf-dist/fonts/type1/urw/palatino/uplri8a
+.pfb>
+Output written on ClassicThesis.pdf (253 pages, 20544182 bytes).
 PDF statistics:
- 3874 PDF objects out of 4296 (max. 8388607)
- 3462 compressed objects within 35 object streams
- 781 named destinations out of 1000 (max. 500000)
- 20601 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 3850 PDF objects out of 4296 (max. 8388607)
+ 3441 compressed objects within 35 object streams
+ 777 named destinations out of 1000 (max. 500000)
+ 20593 words of extra memory for PDF output out of 20736 (max. 10000000)
 
