@@ -36,25 +36,25 @@
 \contentsline {subsubsection}{\numberline {3.2.2.3}Mixed Initiative Systems}{42}{subsubsection.3.2.2.3}
 \contentsline {subsection}{\numberline {3.2.3}Summary}{42}{subsection.3.2.3}
 \contentsline {section}{\numberline {3.3}Game as an approach to study human system interaction }{43}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Serious Game}{43}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.1}Serious Games}{43}{subsection.3.3.1}
 \contentsline {subsection}{\numberline {3.3.2}Mixed Reality Games}{45}{subsection.3.3.2}
 \contentsline {section}{\numberline {3.4}Summary}{47}{section.3.4}
 \contentsline {part}{ii\hspace {1em}\spacedlowsmallcaps {Methodology and Approach}}{49}{part.2}
 \contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Approach}}{50}{chapter.4}
 \contentsline {section}{\numberline {4.1}Adopting the socio-technical perspective}{51}{section.4.1}
-\contentsline {section}{\numberline {4.2}Serious Mixed Reality Game as a testbed}{53}{section.4.2}
-\contentsline {section}{\numberline {4.3}The AtomicOrchid Platform}{54}{section.4.3}
+\contentsline {section}{\numberline {4.2}Serious Mixed Reality Game as a testbed}{52}{section.4.2}
+\contentsline {section}{\numberline {4.3}The AtomicOrchid Platform}{53}{section.4.3}
 \contentsline {subsection}{\numberline {4.3.1}Game mechanic}{54}{subsection.4.3.1}
 \contentsline {subsection}{\numberline {4.3.2}System Architecture}{57}{subsection.4.3.2}
 \contentsline {subsection}{\numberline {4.3.3}The planning agent}{58}{subsection.4.3.3}
 \contentsline {subsection}{\numberline {4.3.4}Logging system}{59}{subsection.4.3.4}
 \contentsline {subsection}{\numberline {4.3.5}Iterative design and development}{60}{subsection.4.3.5}
 \contentsline {section}{\numberline {4.4}Explore interaction designs with three AtomicOrchid studies}{61}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}The On-the-loop interaction}{63}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}The In-the-loop interaction}{64}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}The three AO game studies to explore socio-technical issue of human agent interaction}{65}{subsection.4.4.3}
-\contentsline {section}{\numberline {4.5}Collaboration with Professional Disaster Response Organisation}{65}{section.4.5}
-\contentsline {subsection}{\numberline {4.5.1}Introduction of Rescue Global}{66}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.4.1}The On-the-loop interaction}{62}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}The In-the-loop interaction}{63}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}The three AO game studies}{64}{subsection.4.4.3}
+\contentsline {section}{\numberline {4.5}Collaboration with a Professional Disaster Response Organisation}{65}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Introduction of Rescue Global}{65}{subsection.4.5.1}
 \contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Methodology to Investigate Human Agent Interaction}}{67}{chapter.5}
 \contentsline {section}{\numberline {5.1}Ethnomethodological perspective}{67}{section.5.1}
 \contentsline {section}{\numberline {5.2}Interaction Analysis}{68}{section.5.2}

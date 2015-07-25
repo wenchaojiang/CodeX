@@ -1,11 +1,5 @@
 \begin{thebibliography}{}
 
-\bibitem[Abbasi and Kumar, 2012]{Abbasi2012}
-Abbasi, M. and Kumar, S. (2012).
-\newblock {Lessons learned in using social media for disaster relief-ASU crisis
-  response game}.
-\newblock {\em Social Computing, \ldots}, pages 282--289.
-
 \bibitem[Abbott and Sarin, 1994]{Abbott1994a}
 Abbott, K. and Sarin, S. (1994).
 \newblock {Experiences with workflow management: issues for the next
@@ -95,6 +89,13 @@ Burstein, M., Ferguson, G., and Allen, J. (2003).
   multi-agent planning system}.
 \newblock {\em Proceedings Fourth International Conference on MultiAgent
   Systems}, (January):389--390.
+
+\bibitem[Calhoun et~al., 2011]{Calhoun2011}
+Calhoun, G.~L., Ruff, H.~A., Draper, M.~H., and Wright, E.~J. (2011).
+\newblock {Automation-Level Transference Effects in Simulated Multiple Unmanned
+  Aerial Vehicle Control}.
+\newblock {\em Journal of Cognitive Engineering and Decision Making},
+  5(1):55--82.
 
 \bibitem[Carstensen and Schmidt, 1999]{Carstensen1999}
 Carstensen, P. and Schmidt, K. (1999).
@@ -386,12 +387,6 @@ Lieberman, H. (1997).
 Lieberman, H. and Selker, T. (2003).
 \newblock {Agents for the user interface}.
 \newblock {\em Handbook of Agent Technology}, pages 1--21.
-
-\bibitem[Losh, 2007]{Losh2007}
-Losh, E. (2007).
-\newblock {The birth of the virtual clinic: the Virtual Terrorism Response
-  Academy as serious game and epistemological space}.
-\newblock {\em 2007 ACM SIGGRAPH symposium on Video games}, 1(212):73--81.
 
 \bibitem[Maes, 1994]{Maes1994}
 Maes, P. (1994).
