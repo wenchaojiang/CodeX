@@ -111,10 +111,6 @@ Repeated entry---line 145 of file Study1.bib
  : @misc{Jordan1995
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 189 of file Study1.bib
- : @misc{Mendonca2007
- :                   ,
-I'm skipping whatever remains of this entry
 Repeated entry---line 223 of file Study1.bib
  : @inproceedings{Sarcevic2012
  :                            ,
@@ -122,6 +118,10 @@ I'm skipping whatever remains of this entry
 Repeated entry---line 232 of file Study1.bib
  : @misc{Searle1976
  :                 ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 242 of file Study1.bib
+ : @inproceedings{Toups2009
+ :                         ,
 I'm skipping whatever remains of this entry
 Repeated entry---line 254 of file Study1.bib
  : @article{Toups2011
@@ -171,43 +171,43 @@ Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
 You've used 126 entries,
             1935 wiz_defined-function locations,
-            1263 strings with 27915 characters,
-and the built_in function-call counts, 52238 in all, are:
-= -- 5138
+            1264 strings with 27954 characters,
+and the built_in function-call counts, 52378 in all, are:
+= -- 5153
 > -- 2274
-< -- 108
+< -- 109
 + -- 771
 - -- 768
-* -- 4315
-:= -- 8967
-add.period$ -- 371
+* -- 4323
+:= -- 8981
+add.period$ -- 373
 call.type$ -- 126
 change.case$ -- 1007
 chr.to.int$ -- 123
 cite$ -- 158
-duplicate$ -- 2059
-empty$ -- 3463
+duplicate$ -- 2072
+empty$ -- 3480
 format.name$ -- 968
-if$ -- 10310
+if$ -- 10351
 int.to.chr$ -- 4
 int.to.str$ -- 0
-missing$ -- 124
-newline$ -- 617
+missing$ -- 125
+newline$ -- 618
 num.names$ -- 382
-pop$ -- 961
+pop$ -- 965
 preamble$ -- 1
 purify$ -- 1013
 quote$ -- 0
-skip$ -- 1645
+skip$ -- 1651
 stack$ -- 0
-substring$ -- 3330
-swap$ -- 401
-text.length$ -- 44
+substring$ -- 3334
+swap$ -- 407
+text.length$ -- 45
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 744
 warning$ -- 32
-while$ -- 437
+while$ -- 438
 width$ -- 0
-write$ -- 1577
+write$ -- 1582
 (There were 29 error messages)

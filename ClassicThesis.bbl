@@ -410,11 +410,6 @@ Meesters, K. and van~de Walle, B. (2013).
   information management}.
 \newblock (May):145--150.
 
-\bibitem[Mendon\c{c}a et~al., 2007]{Mendonca2007}
-Mendon\c{c}a, D., Jefferson, T., and Harrald, J. (2007).
-\newblock {Collaborative adhocracies and mix-and-match technologies in
-  emergency management}.
-
 \bibitem[Mercer and Homola, 2014]{Mercer2014}
 Mercer, J. and Homola, J. (2014).
 \newblock {Human-Automation Cooperation for Separation Assurance in Future
@@ -668,6 +663,12 @@ Tolcher, R. (2005).
 \newblock {\em {Ethnomethodological Studies of Conventional Software
   Engineering Methods in Military C2 Work Settings}}.
 \newblock PhD thesis, University of Oxford.
+
+\bibitem[Toups et~al., 2009]{Toups2009}
+Toups, Z.~O., Kerne, A., and Hamilton, W. (2009).
+\newblock {Game design principles for engaging cooperative play}.
+\newblock In {\em Proceedings of the 2009 ACM SIGGRAPH Symposium on Video Games
+  - Sandbox '09}, page~71, New York, New York, USA. ACM Press.
 
 \bibitem[Toups et~al., 2011]{Toups2011}
 Toups, Z.~O., Kerne, A., and Hamilton, W.~A. (2011).
