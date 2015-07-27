@@ -512,20 +512,14 @@ Provitolo, D. (2011).
   SYSTEMS APPROACHES}.
 \newblock {\em Proceedings of EPNACS 2011}, pages 47--57.
 
-\bibitem[Ramchurn et~al., 2010a]{Ramchurn2010a}
-Ramchurn, S., Farinelli, A., Macarthur, K., Polukarov, M., and Jennings, N.
-  (2010a).
-\newblock {Decentralised Coordination in RoboCup Rescue}.
-\newblock {\em The Computer Journal}, 00(0):1447--1461.
-
 \bibitem[Ramchurn et~al., 2015a]{Ramchurn2015}
 Ramchurn, S., Simpson, E., Fischer, J., and Huynh, T. (2015a).
 \newblock {HAC-ER: A disaster response system based on human-agent
   collectives}.
 
-\bibitem[Ramchurn et~al., 2010b]{Ramchurn2010}
+\bibitem[Ramchurn et~al., 2010]{Ramchurn2010}
 Ramchurn, S.~D., Polukarov, M., Farinelli, A., Jennings, N., and Trong, C.
-  (2010b).
+  (2010).
 \newblock {Coalition Formation with Spatial and Temporal Constraints}.
 \newblock {\em Constraints}, pages 1181--1188.
 
