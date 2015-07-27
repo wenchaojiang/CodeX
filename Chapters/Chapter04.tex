@@ -937,15 +937,15 @@ Manual plan edits will be activated by clicking the `edit' button (Figure \ref{f
 This button approves all pending assignments. All pending assignments will move to the confirmed area. Alternatively, assignments can be approved individually by clicking individual confirm button on the pending assignment when the edit mode is activated. \\
 
 \item Text messaging panel:\\
-The messaging panel can be toggled by clicking msg button on the confirmed assignments (Figure \ref{fig:study3TAinterface} (4)). The panel is supposed to be used for assignment-specific information. Therefore, the messages in this plan are only visible to the two involved players and HQ. (Figure \ref{fig:study3msgmode}) \\
+The messaging panel (Figure \ref{fig:study3msgmode}) can be toggled by clicking msg button on the confirmed assignments (Figure \ref{fig:study3TAinterface} (4)). The panel is supposed to be used for assignment-specific information. Therefore, the messages in this panel are only visible to the two involved players and HQ.\\
 
 \item The Feedback indicator:\\
-The feedback indicators are attached to the right hand side of the confirmed assignments. The field players can easily provide feedbacks of their assignment through mobile responder interface (introduced later). There are three possible values for the indicator (no response, reject, accept). Because rejections typically indicate issues that needs to be followed up by HQ, the rejection will be highlighted with red color to grab attention of field players. (Figure  \ref{fig:study3TAinterface} (6))\\
+The feedback indicators are attached to the right hand side of the confirmed assignments (Figure  \ref{fig:study3TAinterface} (6)). The field players can easily provide feedback on their assignment through the mobile responder interface (introduced later). There are three possible values for the indicator (no response, reject, accept). Because rejections typically indicate issues that needs to be followed up by HQ, the rejection will be highlighted with red. \\
 
-When two involved players both accept the assignment, the keep checkbox will be ticked automatically. This is a mechanism to avoid interruption for the accepted assignments in the subsequent re-plans. \\
+When both involved players both accept the assignment, the keep checkbox will be ticked automatically. This is a mechanism to avoid accidental interruption of the accepted assignments in subsequent re-plans. \\
 
 \item Stop button: \\
-The stop button can be used to indicate an emergency termination of an assignment. If this button is clicked, the assignment will be dismissed both in the mobile and HQ interface. (Figure\ref{fig:study3TAinterface} (6)) \\
+The stop button can be used to indicate an emergency termination of an assignment (Figure\ref{fig:study3TAinterface} (6)). If this button is clicked, the assignment will be dismissed both in the mobile and HQ interface. \\
 \end{itemize}
 
 %more images
@@ -953,11 +953,11 @@ The stop button can be used to indicate an emergency termination of an assignmen
 
 \subsection{The planning agent}\label{sec:studytwoagent}
 
-One big change of the planner (compared to that in study 2) is the partial planning feature. The agent can takes a list of fixed assignment as input. It then allows optimize the players and targets that are not involved in the fixed assignment list. The functionality has two potential usages: \\
+One big change to the planner compared to study 2 is the addition of a partial planning feature. The agent can take a list of fixed assignment as input. It then plan for the players and targets that are not involved in the fixed assignment list. This functionality has two potential uses: \\
 
 \begin{enumerate}
-	\item allows human operators to contribute part of a plan and ask the agent optimize the rest.\\
-	\item allows human operators to annotate some on-going tasks, that should not be changed in dynamic re-planning. \\
+	\item It allows human operators to contribute part of a plan and ask the agent optimize the rest.\\
+	\item It allows human operators to annotate some on-going tasks, so that they could not be changed in dynamic re-planning. \\
 \end{enumerate}
 
 Apart from the partial planning feature, the input/output of agent is not changed.\\
@@ -965,25 +965,25 @@ Apart from the partial planning feature, the input/output of agent is not change
 %insert a summary picture.\\
 
 \section{Study Design}
-Participants were recruited through posters and emails. A total of 20 participants were recruited. 10 participated in session A and 10 in session B. All participants were reimbursed with 15 pounds for 1.5 hours of study. For each game session, there are 2 HQ players and 8 field players. The majority of participants were students of the local university. The HQ players are recruited from researchers in the computer science department. \\
+Participants were recruited through posters and emails. A total of 20 participants were recruited. 10 participated in session A and 10 in session B. All participants were reimbursed with 15 pounds for 1.5 hours of study. For each game session, there are 2 HQ players and 8 field players. The majority of participants were students of the local university. The HQ players were recruited from researchers in the computer science department. \\
 
-Because the HQ interface is a lot complicated compare to the that of the study 1 and study 2, we add an extra 0.5 hour training session before the formal study for HQ players to get familiar with the new task assignment interface. We anticipate the workload of operating the Human In-the-loop interface would be a lot more then that of operating the On-the-loop interface. Therefore, there are two HQ payers recruited in each session to split work in the control room. One of the two HQ player operates the new task allocation interface (described in section \ref{sec:study3system}), while the other player operates the situational awareness interface described in study 2 (Section \ref{sec:studytwointerface}) to assist the other HQ by providing situation awareness and sending broadcasting information. \\
+Because the HQ interface is a lot more complicated then that of the study 1 and study 2, we add an extra 0.5 hour training session before the formal study for HQ players to get familiar with the new task assignment interface. We anticipated that the workload of operating the human in-the-loop interface would be a lot more than that of operating the on-the-loop interface. Therefore, there are two HQ payers recruited in each session to split work in the control room. One of the two HQ player operates the new task allocation interface (described in section \ref{sec:study3system}), while the other player operates the situational awareness interface (described in study 2, section \ref{sec:studytwointerface}) to assist the other HQ player by providing situation awareness and sending broadcasting information. \\
 
-Upon arrival in the HQ (set up in a meeting room at the local university), participants were briefed and asked to consent to participate. Roles were randomly assigned to field players (field responders: firefighter, medic, transporter, soldier). Field responders were provided with a smartphone; HQ coordinators with a laptop. Game rules and interfaces were introduced, and participants were assisted in setting up their phones and laptop clients. Field responders and HQ coordinators were given 5 minutes to discuss a common game strategy. All field responders were accompanied to the starting point within the designated game area, about 1 minute walk from headquarters.\\
+Upon arrival in the HQ (set up in a meeting room at the local university), participants were briefed and asked to consent to participate. Roles were randomly assigned to field players (firefighter, medic, transporter, soldier). Field responders were provided with a smartphone; HQ coordinators with a laptop. Game rules and interfaces were introduced, and participants were assisted in setting up their phones and laptop clients. Field responders and HQ coordinators were given 5 minutes to discuss a common game strategy. All field responders were accompanied to the starting point within the designated game area, about 1 minute walk from headquarters.\\
 
-Before the formal session begins, there is a training session for field players to get familiar with the mobile interface. The training session has a very simple game setting with only four targets nearby the starting point. The training session ends when field responders collect all four targets nearby. Once field responders were ready to start formal session, One research start the game engine, triggering a ``game start'' message to be sent to mobile interface. Gameplay commenced for 30 minutes. A ``Game over'' message by HQ concluded the game. Field responders returned to HQ for the post-game session.\\
+Before the formal session begins, there was a training session for field players to get familiar with the mobile interface. The training session has a very simple game setting with only four targets nearby the starting point. The training session ends when field responders collect all four targets nearby. Once field responders were ready to start formal session, one researcher started the game engine, triggering a ``game start'' message to be sent to the mobile interfaces. Gameplay commenced for 30 minutes. A ``Game over'' message by HQ concluded the game. Field responders returned to HQ for the post-game session.\\
 
-The size of the game area on the local university campus was 400 by 400 meters, without heavy traffic. The terrain of the game area includes grassland, a lake, buildings, roads, and footpaths and lawns. There are two drop off zones and 20 targets. The pilot study showed that this was a challenging, yet not too overwhelming number of targets to collect in a 30 min game session. There were four targets for each of the four target types. The pattern of cloud movement and expansion was the same for both game sessions.\\
+The game area was the same as for study 1 and 2, on the local university campus, 400 by 400 meters, without heavy traffic. The terrain of the game area includes grassland, a lake, buildings, roads, and footpaths and lawns. There are two drop off zones and 20 targets.  There were four targets for each of the four target types. The pattern of cloud movement and expansion was the same for both game sessions and the same as for study 1 and 2.\\
 
-We recorded both system logs and video of interaction in the field for analysis. To capture the distributed, concurrent na- ture of the interaction, four researchers with camcorders shad- owed the field player teams, and one researcher recorded the action in the HQ. A replay tool was used to synchronise and analyse triangulated game events, player positions, and con- current video recordings.\\
+We recorded both system logs and video of interaction in the field for analysis. To capture the distributed, concurrent nature of the interaction, four researchers with camcorders shadowed the field player teams, and one researcher recorded the action in the HQ. The replay tool was used to synchronise and analyse triangulated game events, player positions, and con- current video recordings.\\
 
-Our interest in this paper is how socio-technical interaction is organised around the computational planning support, hence our focus is on the control room first, but then we trace information flow and decision making into the field. In practice, video recordings of the control room were catalogued to identify key decision points in teaming and task allocation, which served to index sequences (episodes) of interest (\cite{Heath2010}). Interesting distinct units of interaction were then transcribed and triangulated with log files and field video for deeper analysis; the results of which we present in this paper.\\
+Our interest in this chapter is how socio-technical interaction is organised around the computational planning support, hence our focus is on the control room first, but then we trace information flow and decision making into the field. In practice, video recordings of the control room were catalogued to identify key decision points in teaming and task allocation, which served to index sequences (episodes) of interest (Section \ref{sec:aprIA}). Interesting distinct units of interaction were then transcribed and triangulated with log files and field video for deeper analysis; the results of which we present in this chapter.\\
 
 
 \section{Data Analysis}
-This section starts with overview of game results, messaging system usage and task assignments, as they served to index episodes of interests. Selected episodes of game play are then presented in order to unpack the interactions surrounding the task assignment activities in the control room. We provide these episodes as vivid exhibits of how members accountably organise their team coordination in situ \cite{Crabtree2012}. The order in which we present the episodes follows the common practice of moving from exhibits of typical/unproblematic instances, via more complex/difficult in- stances, to exhibits that display problematic interaction or even complete breakdowns (\cite{Heath2010}).\\
+This section starts with overview of game results, messaging system usage and task assignments, as they served to index episodes of interest. Selected episodes of game play are then presented in order to unpack the interactions surrounding the task assignment activities in the control room. We provide these episodes as vivid exhibits of how members accountably organise their team coordination in situ \cite{Crabtree2012}. The order in which we present the episodes follows the common practice of moving from exhibits of typical/unproblematic instances, via more complex/difficult in- stances, to exhibits that display problematic interaction or even complete breakdowns (\cite{Heath2010}).\\
 
-Overall the 28 of 40 targets were evacuated in two sessions (16 in Session A and 12 in Session B). The player`s health status in session 1 is better  (Avg 90, Sd 9.3 ) then that in session 2 (Avg 48, Sd 41). Two deaths occurred at the begging of session 2, more details of death will be presented as episodes later in this section. \\
+Overall, 28 of the 40 targets were evacuated in two sessions (16 in Session A and 12 in Session B). The player`s health status in session 1 is better  (Avg 90, Sd 9.3 ) then that in session 2 (Avg 48, Sd 41). Two deaths occurred at the begging of session 2. More details of death will be presented as episodes later in this section. \\
 
 \begin{table}[h]
 \centering
@@ -994,12 +994,12 @@ Overall the 28 of 40 targets were evacuated in two sessions (16 in Session A and
 Session A & 16           & 99         & 75         & 90.75      & 9.337     & 0     \\
 Session B & 12           & 97         & 0          & 48.12      & 41        & 2    
 \end{tabular}
-\caption{Result Overview}
+\caption{Result overview of study 3}
 \label{tab:ResultsOverview}
 \end{table}
 
 \subsection{Messaging system}
-One change of the messaging system made for this iteration is separating channels for assignment-specific and broadcasting messages. The HQ1 is responsible for sending message in assignment-specific channel, while the HQ2 is responsible for sending messages in general message channel. This section will reveal how this design plays out in the field trials. \\
+One change of the messaging system made for this iteration is separating channels for assignment-specific and broadcast messages. The HQ1, with the task assignment interface, is responsible for sending message in assignment-specific channel, while the HQ2, with the situation awareness interface, is responsible for sending messages in the general message channel. This section will reveal how this design plays out in the field trials. \\
 
 
 \begin{table}[h]
@@ -1019,14 +1019,14 @@ Total                   & 50         & 24         & 74
 \label{tab:ResultsOverview}
 \end{table}
 
-We found HQs frequently send messages to update location of radiation cloud, (e.g. `` Radiation Status- 38  39  37 and Drop Point 7 all out of bounds '' ) and provide navigational guidance (e.g. `` go north  and west around the water '' ). HQ is also observed to send messages to repeat and enhance the task assignment (e.g. `` turn to 49 '').\\
+We found HQ  players frequently send messages to update FRs about the locations of the radiation cloud, (e.g. ``Radiation Status- 38  39  37 and Drop Point 7 all out of bounds'' ) and provide navigational guidance (e.g. ``go north  and west around the water''). HQ is also observed to send messages to repeat and enhance the task assignment (e.g. ``turn to 49'').\\
 
 On the other side of the message channel, field responders send messages to request tasks (e.g. ``please advise'') and cloud status (e.g. ``Which way is it moving?''). Field responders also occasionally send acknowledgments to HQ`s messages (e.g. ``Copy that.''). \\
 
 Most messages in the general message channel are general information about the clouds. However, we also found 11 messages in the general message channel (out of 82) are clearly addressed to individual teams. The specific player initials are mentioned in those messages. (E.g. ``NG and YI approach quicker to 41 drop off to 8'')\\
 
 \subsection{Overview of task assignments}
-In the following tree diagrams, plans are break into individual task assignment. Each individual assignment may go through 4 stages in the planning process (Creation, approval, feedback, and execution). The assignment status for each stage is summarized in the following diagrams. \\
+In the following tree diagrams, plans are broken down into individual task assignments. Each individual assignment may go through 4 stages in the planning process (creation, approval, feedback, and execution). The assignment status for each stage is summarized in the following diagrams(Figure \ref{fig:fig:TaskAsSession1},\ref{fig:fig:TaskAsSession2} ). \\
 
 \begin{figure}[ht]
  \includegraphics[width=1\textwidth]{img/study3/TaskAsSession1}
@@ -1040,14 +1040,12 @@ In the following tree diagrams, plans are break into individual task assignment.
 \label{fig:TaskAsSession2}
 \end{figure}
 
-The summary indicates that both HQ and the planning agent contribute to the task planning activities in the control room. The planning agent created a total of 45 task assignments with additional 5 assignments created manually by HQ. HQ approved a total of 39 assignments. Field responders accepted most of the approved messages (30 out of 39). 9 assignments were rejected or not responded. During the task execution, occasional HQ interventions result in 5 task cancellations and 5 assignments override. In the end, players managed to evacuate a total of 28 (out of 40) targets in 2 sessions.\\ 
+In summary, HQ and the planning agent contribute to the task planning activities in the control room. The planning agent created a total of 45 task assignments with an additional 5 assignments created manually by HQ. HQ approved a total of 39 assignments. Field responders accepted most of the approved assignments (30 out of 39). 9 assignments were rejected or not responded to. During task execution, occasional HQ interventions resulted in 5 task cancellations and 5 assignments being override. In the end, players managed to evacuate a total of 28 (out of 40) targets in 2 sessions.\\ 
 
-Although the diagrams (figure \ref{fig:TaskAsSession1}, \ref{fig:TaskAsSession2}) show a sequential planning-execution process (creation->approval->feedback->execution), we actually found that various planning activities (e.g. assignment creation, approval, intervention, communication) are highly intertwined in the control room setting. In the rest of the section, episodes of game play will be used to unpack the interactions surrounding the task assignment activities in the control room.\\
-
-In the episodes presented in the following sections, players will be uniquely identified by their initials. Targets are denoted by their unique numeric target id. Task assignments from the agent are represented as two initials and one target id connected by a rightward arrow. For example, the notation PC, CR -> 22 means player PC and CR are instructed to team up and go for target 22. A standard orthographic notation is complemented by timestamps [0:00], and System Message from remote players and HQ. The HQ players will be denoted by HQ1 and HQ2. HQ1 refers to the player operating the task-assignment interface, while HQ2 refers to the player operating the situational-awareness interface.\\
+Although the diagrams (figure \ref{fig:TaskAsSession1}, \ref{fig:TaskAsSession2}) suggest a sequential planning-execution process (creation -> approval -> feedback -> execution), we actually found that various planning activities (e.g. assignment creation, approval, intervention, communication) are highly intertwined in the control room setting. In the rest of the section, episodes of game play will be used to unpack the interactions surrounding the task assignment activities in the control room. The episodes in later sections will be presented with a standard orthographic notation detailed in section \ref{sec:aprIA}.\\
 
 \subsection{Confirming the plan}
-As summarised above, a majority of task assignments are generated by the planning agent and approved by the HQ players. The episode 3.1 demonstrates a typical case of routine task planning process in control room. \\
+As summarised above, a majority of task assignments are generated by the planning agent and approved by the HQ players. The episode 3.1 demonstrates a typical case of the routine task planning process in control room. \\
 
 \noindent\texttt{\textbf{Episode 3.1}
 \emph{Context: HQ paid attention to a team (MV XW) who was carrying target 43 back to drop off zone 7.}\\
@@ -1100,7 +1098,7 @@ Episode 3.2 gives a more problematic example of accepting the planning agent`s t
 
 
 
-In this episode, the HQ1 requests assignment twice for idle players, which is a routine activity for HQ1 (As discussed in episode 1). Firstly, HQ1 request and approve new assignment for NG, YI [08:32]. 30 seconds later, DI become idle [09:09], so HQ1 request plan again. Because DI is closer to target 50 and NG YI have not accepted their assignment, the agent replaces DI with NG in the new assignment to minimize travelling distance of field players. Although HQ1 does not verbalize his reasoning process the quick approval suggests HQ1 may not have inspected the new assignment carefully and may not have noticed that the previous assignment will be overridden, potentially interrupting a task in progress. The episode 3.2-2 picks up the activity of NG and YI as the second task assignment is approved by HQ.\\
+In this episode, the HQ1 requests assignment twice for idle players, which is a routine activity for HQ1 (As discussed in episode 1). Firstly, HQ1 request and approve new assignment for NG, YI [08:32]. 30 seconds later, DI become idle [09:09], so HQ1 request plan again. Because DI is closer to target 50 and NG YI have not accepted their assignment, the agent replaces DI with NG in the new assignment to minimize travelling distance of field players. Although HQ1 does not verbalize his reasoning process the quick approval suggests HQ1 may not have inspected the new assignment carefully and may not have noticed that the previous assignment will be overridden, potentially interrupting a task in progress. The episode 3.2-2 picks up the activity of NG and YI as the first new task assignment is approved by HQ.\\
 
 \noindent\texttt{\textbf{Episode 3.2-2}\\
 \emph{NG YI received a task update after they finished their previous task}\\
@@ -1125,9 +1123,9 @@ In this episode, the HQ1 requests assignment twice for idle players, which is a 
 \textbf{10:02, NG: } I think the page is not loading.\\
 }
  
-NG and YI have already received the task to rescue target 50 but have not accepted or rejected it. While they are discussing how to reach the target the second task assignment arrives [09:10], the agent requires YI to team up with the remote player DI to pursue the same target, 50. The team is confused after the change of task. YI thinks that the task did not change because the target is still 50 [09:23, YI: No, it is the same.], and NG thought the interface is no longer working [10:02, NG: I think the page is not loading.]. After YI confirms NG`s initials, she realized she needs to switch teammate (to DI). \\
+NG and YI have already received the task to rescue target 50 but have not accepted or rejected it. While they are discussing how to reach the target the second task assignment arrives [09:10], the agent requires YI to team up with the remote player DI to pursue the same target, 50. The team is confused after the change of task. YI thinks that the task did not change because the target is still 50 [09:23] (YI: ``No, it is the same.''), and NG thought the interface is no longer working [10:02](NG: ``I think the page is not loading.''). After YI confirms NG`s initials, she realized she needs to switch teammate (to DI). \\
 
-Overall, the task interrupt resulted in a problematic sense making process in the field. Meanwhile the players in the control room appear unaware that anything untoward has occurred. The observation also reveals that several factors could have led to the task interruption including the absent of response from field responders; computational planning performed by agent without timely field feedback; and HQ`s failure to discover the task interruption during assignment approval. 
+Overall, the task interrupt is resulted in a problematic sense making process in the field. Meanwhile the players in the control room appear unaware that anything untoward has occurred. The observation also reveals that several factors could have led to the task interruption including the absent of response from field responders; computational planning performed by agent without timely field feedback; and HQ`s failure to discover the task interruption during assignment approval. 
 
 %This episode can be an example showing that computationally `optimized' assignment is not socially optimized for teams and HQ supervision failed to tackle the issue.\\
 
