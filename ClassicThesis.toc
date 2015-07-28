@@ -122,7 +122,7 @@
 \contentsline {subsection}{\numberline {8.4.6}Changing the plan}{151}{subsection.8.4.6}
 \contentsline {subsection}{\numberline {8.4.7}Coping with the unexpected}{152}{subsection.8.4.7}
 \contentsline {subsection}{\numberline {8.4.8}When it all Breaks Down}{154}{subsection.8.4.8}
-\contentsline {subsection}{\numberline {8.4.9}Missing feedbacks from field}{157}{subsection.8.4.9}
+\contentsline {subsection}{\numberline {8.4.9}Missing feedback from field}{157}{subsection.8.4.9}
 \contentsline {subsection}{\numberline {8.4.10}Division of labour in HQ}{158}{subsection.8.4.10}
 \contentsline {section}{\numberline {8.5}Discussion}{158}{section.8.5}
 \contentsline {subsection}{\numberline {8.5.1}How does the In-the-loop design play out?}{159}{subsection.8.5.1}
