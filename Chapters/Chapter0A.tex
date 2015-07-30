@@ -4,9 +4,10 @@
 % If problems with the headers: get headings in appendix etc. right
 %\markboth{\spacedlowsmallcaps{Appendix}}{\spacedlowsmallcaps{Appendix}}
 \chapter{Appendix to AtomicOrchid implementation}
-
+This appendix illustrates details of AtomicOrchid implementation, which cover system architecture, data model and protocol between agent and AtomicOrchid server.
 
 \section{System architecture}
+The following chart illustrates the system architecture. Numbers in the chart are explained in more details in table \ref{tab:communications}
 \begin{figure}[H]
   \centering
   \rotatebox{90}{
@@ -31,14 +32,10 @@
 7                  & \begin{tabular}[c]{@{}l@{}}DB \\ \textless-\textgreater \\ Node server\end{tabular}                    & Node server retrieves and updates game status                                                                                                                                                                     \\ \hline
 8                  & \begin{tabular}[c]{@{}l@{}}Ruby server \\ \textless-\textgreater \\ Agent PHP server\end{tabular}      & \begin{tabular}[c]{@{}l@{}}Rudy server requests Node server to push\\ latest status updates to clients \\ including player health, cloud status\\ target/player locations, messages, instructions\end{tabular}    \\ \hline
 \end{tabular}
+\label{tab:communications}
 \caption{Communications between components}
 \end{table}
 
-\begin{figure}[H]
-  \centering
-  \includegraphics[width=1\textwidth]{img/Appendix/Mainloop}
-  \caption{Handling of Game logic in Ruby server}
-\end{figure}
 
 \section{Data model}
 \begin{table}[H]
@@ -78,6 +75,8 @@ Fetch plan                                                                      
 
 
 \chapter{Appendix to study 1}
+This appendix includes additional materials to study 1, which cover target distribution, participant's demographics and chart of game event visualisation.
+
 \section{Game area and set-up}
 
 \begin{figure}[H]
@@ -143,7 +142,6 @@ HQ3      & F      & Student    & iOS                                            
   
 \end{figure}
 
-\section{Game event visualisation}
 \begin{figure}[H]
   \centering
   \rotatebox{90}{
@@ -156,7 +154,7 @@ HQ3      & F      & Student    & iOS                                            
 
 
 \chapter{Appendix to study 2}
-
+This appendix includes additional materials to study 2, which cover target distribution, participant's demographics and chart of game event visualisation.
 
 
 \section{Game area and set-up}
@@ -218,7 +216,6 @@ HQ       & 24  & M      & Student    & iOS                                      
   
 \end{figure}
 
-\section{Game event visualisation}
 \begin{figure}[H]
   \centering
   \rotatebox{90}{
@@ -229,6 +226,7 @@ HQ       & 24  & M      & Student    & iOS                                      
 \end{figure}
 
 \chapter{Appendix to study 3}
+This appendix includes additional materials to study 3, which cover target distribution, participant's demographics and chart of game event visualisation.
 
 \section{Game area and set-up}
 \begin{figure}[H]
@@ -289,7 +287,6 @@ HQ2      & 32  & student    & M          & Android                              
   \caption{Event visualisation of Study 3, Session A}
 \end{figure}
 
-\section{Game event visualisation}
 \begin{figure}[H]
   \centering
   \rotatebox{90}{

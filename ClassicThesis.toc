@@ -146,8 +146,8 @@
 \contentsline {subsubsection}{\numberline {9.1.3.1}Division of labour}{189}{subsubsection.9.1.3.1}
 \contentsline {subsubsection}{\numberline {9.1.3.2}Establishing common ground}{193}{subsubsection.9.1.3.2}
 \contentsline {subsubsection}{\numberline {9.1.3.3}Faciliating accountability}{194}{subsubsection.9.1.3.3}
-\contentsline {subsubsection}{\numberline {9.1.3.4}Supporting situated actions}{195}{subsubsection.9.1.3.4}
-\contentsline {section}{\numberline {9.2}Limitation}{197}{section.9.2}
+\contentsline {subsubsection}{\numberline {9.1.3.4}Supporting situated action}{195}{subsubsection.9.1.3.4}
+\contentsline {section}{\numberline {9.2}Limitations}{197}{section.9.2}
 \contentsline {section}{\numberline {9.3}future work}{199}{section.9.3}
 \contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Appendix}}{202}{part.5}
 \contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix to AtomicOrchid implementation}}{203}{appendix.A}
@@ -158,16 +158,13 @@
 \contentsline {section}{\numberline {B.1}Game area and set-up}{208}{section.B.1}
 \contentsline {section}{\numberline {B.2}Participant demographic}{209}{section.B.2}
 \contentsline {section}{\numberline {B.3}Game event visualisation}{211}{section.B.3}
-\contentsline {section}{\numberline {B.4}Game event visualisation}{212}{section.B.4}
 \contentsline {chapter}{\numberline {C}\spacedlowsmallcaps {Appendix to study 2}}{213}{appendix.C}
 \contentsline {section}{\numberline {C.1}Game area and set-up}{213}{section.C.1}
 \contentsline {section}{\numberline {C.2}Participant demographic}{214}{section.C.2}
 \contentsline {section}{\numberline {C.3}Game event visualisation}{216}{section.C.3}
-\contentsline {section}{\numberline {C.4}Game event visualisation}{217}{section.C.4}
 \contentsline {chapter}{\numberline {D}\spacedlowsmallcaps {Appendix to study 3}}{218}{appendix.D}
 \contentsline {section}{\numberline {D.1}Game area and set-up}{218}{section.D.1}
 \contentsline {section}{\numberline {D.2}Participant demographic}{219}{section.D.2}
 \contentsline {section}{\numberline {D.3}Game event visualisation}{221}{section.D.3}
-\contentsline {section}{\numberline {D.4}Game event visualisation}{222}{section.D.4}
 \vspace {\beforebibskip }
 \contentsline {chapter}{\spacedlowsmallcaps {Bibliography}}{223}{dummy.4}
