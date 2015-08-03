@@ -57,6 +57,12 @@
   \setlength\fboxsep{0pt}\fcolorbox{white}{white}{#1}
 }
 
+\usepackage{babel}
+\addto\captionsenglish{
+  \renewcommand\refname{References}
+}
+
+
 % ********************************************************************
 % Setup, finetuning, and useful commands
 % ********************************************************************
@@ -116,7 +122,7 @@
 \PassOptionsToPackage{printonlyused,smaller}{acronym}
 	\usepackage{acronym} % nice macros for handling all acronyms in the thesis
 %\renewcommand*{\acsfont}[1]{\textssc{#1}} % for MinionPro
-\renewcommand{\bflabel}[1]{{#1}\hfill} % fix the list of acronyms
+\renewcommand{\aclabelfont}[1]{{#1}\hfill} % fix the list of acronyms
 
 % ****************************************************************************************************
 
