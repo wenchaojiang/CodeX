@@ -17,7 +17,6 @@ Illegal, another \bibstyle command---line 3 of file FrontBackmatter/Bibliography
  : \bibstyle
  :          {plainnat}
 I'm skipping whatever remains of this command
-A level-1 auxiliary file: FrontBackmatter/Colophon.aux
 A level-1 auxiliary file: FrontBackmatter/Declaration.aux
 Database file #1: Bibliography.bib
 Database file #2: Approach.bib
@@ -133,17 +132,10 @@ Repeated entry---line 300 of file Study1.bib
 I'm skipping whatever remains of this entry
 Database file #5: Study2.bib
 Database file #6: Study3.bib
-Warning--I didn't find a database entry for "Suchman1987"
-Warning--I didn't find a database entry for "Skeels2008"
-Warning--I didn't find a database entry for "Conti2006"
-Warning--I didn't find a database entry for "Zuk2007"
-Warning--I didn't find a database entry for "Turoff2004a"
-Warning--I didn't find a database entry for "Hiltz1985"
-Warning--I didn't find a database entry for "Kadous2006"
-Warning--I didn't find a database entry for "Endsley2001"
-Warning--I didn't find a database entry for "Bellotti2001"
-Warning--I didn't find a database entry for "Chang2007"
-Warning--I didn't find a database entry for "Norman2013"
+Repeated entry---line 15 of file Study3.bib
+ : @article{Benford2006
+ :                     ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in Avrahami
 Warning--there's a number but no volume in Boersma2009
 Warning--empty booktitle in Bowers1994
@@ -158,6 +150,7 @@ Warning--empty publisher in Command2008
 Warning--empty journal in Fitts
 Warning--empty journal in Goodrich2001a
 Warning--empty journal in Hardin2009
+Warning--empty journal in Hiltz1985
 Warning--empty journal in Hoffman2002
 Warning--empty institution in IntergraphCorporation2000
 Warning--empty journal in Kitano2000
@@ -175,45 +168,45 @@ Warning--empty journal in Susi2007
 Warning--there's a number but no volume in Sutton2008
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 114 entries,
+You've used 125 entries,
             1935 wiz_defined-function locations,
-            1214 strings with 25978 characters,
-and the built_in function-call counts, 47508 in all, are:
-= -- 4677
-> -- 2071
-< -- 98
-+ -- 702
-- -- 700
-* -- 3930
-:= -- 8147
-add.period$ -- 337
-call.type$ -- 114
-change.case$ -- 915
-chr.to.int$ -- 112
-cite$ -- 145
-duplicate$ -- 1873
-empty$ -- 3148
-format.name$ -- 880
-if$ -- 9383
+            1255 strings with 27698 characters,
+and the built_in function-call counts, 51869 in all, are:
+= -- 5104
+> -- 2246
+< -- 109
++ -- 760
+- -- 758
+* -- 4272
+:= -- 8893
+add.period$ -- 370
+call.type$ -- 125
+change.case$ -- 997
+chr.to.int$ -- 123
+cite$ -- 157
+duplicate$ -- 2058
+empty$ -- 3448
+format.name$ -- 957
+if$ -- 10255
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 111
-newline$ -- 558
-num.names$ -- 346
-pop$ -- 873
+missing$ -- 124
+newline$ -- 613
+num.names$ -- 379
+pop$ -- 957
 preamble$ -- 1
-purify$ -- 919
+purify$ -- 1003
 quote$ -- 0
-skip$ -- 1494
+skip$ -- 1642
 stack$ -- 0
-substring$ -- 3027
-swap$ -- 368
-text.length$ -- 41
+substring$ -- 3291
+swap$ -- 406
+text.length$ -- 45
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 676
-warning$ -- 31
-while$ -- 398
+type$ -- 738
+warning$ -- 32
+while$ -- 434
 width$ -- 0
-write$ -- 1430
-(There were 28 error messages)
+write$ -- 1569
+(There were 29 error messages)
