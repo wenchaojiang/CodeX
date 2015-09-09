@@ -6,39 +6,39 @@
 \contentsline {section}{\numberline {1.2}Approach}{4}{section.1.2}
 \contentsline {section}{\numberline {1.3}Scoping}{5}{section.1.3}
 \contentsline {section}{\numberline {1.4}Research quetions}{7}{section.1.4}
-\contentsline {section}{\numberline {1.5}Contributions}{8}{section.1.5}
-\contentsline {section}{\numberline {1.6}Publications of this thesis}{9}{section.1.6}
+\contentsline {section}{\numberline {1.5}Contributions}{7}{section.1.5}
+\contentsline {section}{\numberline {1.6}Publications of this thesis}{8}{section.1.6}
 \contentsline {section}{\numberline {1.7}Structure of the Thesis}{10}{section.1.7}
-\contentsline {part}{i\hspace {1em}\spacedlowsmallcaps {Background}}{13}{part.1}
-\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Task planning in disaster response}}{14}{chapter.2}
-\contentsline {section}{\numberline {2.1}Task Planning in Disaster Response}{14}{section.2.1}
-\contentsline {subsection}{\numberline {2.1.1}Define disaster response}{14}{subsection.2.1.1}
-\contentsline {subsection}{\numberline {2.1.2}DR command structure}{16}{subsection.2.1.2}
-\contentsline {subsection}{\numberline {2.1.3}Task planning in large scale disaster}{17}{subsection.2.1.3}
-\contentsline {section}{\numberline {2.2}Command and Control Environment}{18}{section.2.2}
-\contentsline {section}{\numberline {2.3}Technological Practices in Disaster Response}{20}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}GIS-based planning support systems}{21}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}ICT support for disaster response}{23}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}Application of AI technologies}{26}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Summary}{29}{section.2.4}
-\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Interaction between Human and Planning support system}}{31}{chapter.3}
-\contentsline {section}{\numberline {3.1}A socio-technical perspective to technology support}{32}{section.3.1}
-\contentsline {subsection}{\numberline {3.1.1}The socio-technical gap for planning support system}{33}{subsection.3.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.1}Planning model embedded in problem solving systems }{33}{subsubsection.3.1.1.1}
-\contentsline {subsubsection}{\numberline {3.1.1.2}Situated actions of humans}{34}{subsubsection.3.1.1.2}
-\contentsline {subsection}{\numberline {3.1.2}Summary}{35}{subsection.3.1.2}
-\contentsline {section}{\numberline {3.2}Other perspectives of human system interaction}{36}{section.3.2}
-\contentsline {subsection}{\numberline {3.2.1}Automation and its impact on human performance}{36}{subsection.3.2.1}
-\contentsline {subsubsection}{\numberline {3.2.1.1}The Level of Automation}{38}{subsubsection.3.2.1.1}
-\contentsline {subsection}{\numberline {3.2.2}Human Agent Interactions}{39}{subsection.3.2.2}
-\contentsline {subsubsection}{\numberline {3.2.2.1}Interface Agents and Assistants}{40}{subsubsection.3.2.2.1}
-\contentsline {subsubsection}{\numberline {3.2.2.2}Adjustable Autonomy}{41}{subsubsection.3.2.2.2}
+\contentsline {part}{i\hspace {1em}\spacedlowsmallcaps {Background}}{12}{part.1}
+\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Task planning in disaster response}}{13}{chapter.2}
+\contentsline {section}{\numberline {2.1}Task Planning in Disaster Response}{13}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Define disaster response}{13}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}DR command structure}{15}{subsection.2.1.2}
+\contentsline {subsection}{\numberline {2.1.3}Task planning in large scale disaster}{16}{subsection.2.1.3}
+\contentsline {section}{\numberline {2.2}Command and Control Environment}{17}{section.2.2}
+\contentsline {section}{\numberline {2.3}Technological Practices in Disaster Response}{19}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}GIS-based planning support systems}{20}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}ICT support for disaster response}{22}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}Application of AI technologies}{25}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Summary}{28}{section.2.4}
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Interaction between Human and Planning support system}}{30}{chapter.3}
+\contentsline {section}{\numberline {3.1}A socio-technical perspective to technology support}{31}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}The socio-technical gap for planning support system}{32}{subsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.1}Planning model embedded in problem solving systems }{32}{subsubsection.3.1.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1.2}Situated actions of humans}{33}{subsubsection.3.1.1.2}
+\contentsline {subsection}{\numberline {3.1.2}Summary}{34}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Other perspectives of human system interaction}{35}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Automation and its impact on human performance}{35}{subsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.1.1}The Level of Automation}{37}{subsubsection.3.2.1.1}
+\contentsline {subsection}{\numberline {3.2.2}Human Agent Interactions}{38}{subsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.2.1}Interface Agents and Assistants}{39}{subsubsection.3.2.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2.2}Adjustable Autonomy}{40}{subsubsection.3.2.2.2}
 \contentsline {subsubsection}{\numberline {3.2.2.3}Mixed Initiative Systems}{41}{subsubsection.3.2.2.3}
-\contentsline {subsection}{\numberline {3.2.3}Summary}{42}{subsection.3.2.3}
-\contentsline {section}{\numberline {3.3}Game as an approach to study human system interaction }{43}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}Serious Games}{43}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}Mixed Reality Games}{45}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Summary}{47}{section.3.4}
+\contentsline {subsection}{\numberline {3.2.3}Summary}{41}{subsection.3.2.3}
+\contentsline {section}{\numberline {3.3}Game as an approach to study human system interaction }{42}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}Serious Games}{42}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Mixed Reality Games}{44}{subsection.3.3.2}
+\contentsline {section}{\numberline {3.4}Summary}{46}{section.3.4}
 \contentsline {part}{ii\hspace {1em}\spacedlowsmallcaps {Methodology and Approach}}{48}{part.2}
 \contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Approach}}{49}{chapter.4}
 \contentsline {section}{\numberline {4.1}Adopting the socio-technical perspective}{50}{section.4.1}
@@ -92,21 +92,21 @@
 \contentsline {subsection}{\numberline {7.2.2}A feedback loop}{110}{subsection.7.2.2}
 \contentsline {subsection}{\numberline {7.2.3}Interface improvements}{112}{subsection.7.2.3}
 \contentsline {section}{\numberline {7.3}Study Design}{112}{section.7.3}
-\contentsline {section}{\numberline {7.4}Data analysis and results}{114}{section.7.4}
-\contentsline {subsection}{\numberline {7.4.1}Assigning task assignments to existing teams}{115}{subsection.7.4.1}
-\contentsline {subsection}{\numberline {7.4.2}Task assignments involving team reformation}{117}{subsection.7.4.2}
-\contentsline {subsection}{\numberline {7.4.3}Task assignments involving task interruption}{120}{subsection.7.4.3}
-\contentsline {subsection}{\numberline {7.4.4}Disagreement on task interruption}{122}{subsection.7.4.4}
+\contentsline {section}{\numberline {7.4}Data analysis and results}{113}{section.7.4}
+\contentsline {subsection}{\numberline {7.4.1}Assigning task assignments to existing teams}{114}{subsection.7.4.1}
+\contentsline {subsection}{\numberline {7.4.2}Task assignments involving team reformation}{116}{subsection.7.4.2}
+\contentsline {subsection}{\numberline {7.4.3}Task assignments involving task interruption}{119}{subsection.7.4.3}
+\contentsline {subsection}{\numberline {7.4.4}Disagreement on task interruption}{121}{subsection.7.4.4}
 \contentsline {subsection}{\numberline {7.4.5}The headquarters}{124}{subsection.7.4.5}
-\contentsline {section}{\numberline {7.5}Discussion}{125}{section.7.5}
+\contentsline {section}{\numberline {7.5}Discussion}{124}{section.7.5}
 \contentsline {subsection}{\numberline {7.5.1}Division of labour between the agent and the human teams}{125}{subsection.7.5.1}
-\contentsline {subsection}{\numberline {7.5.2}Hidden costs of team reformation and task interruption}{126}{subsection.7.5.2}
-\contentsline {subsection}{\numberline {7.5.3}Feedback to the agent}{128}{subsection.7.5.3}
-\contentsline {section}{\numberline {7.6}Design implications}{129}{section.7.6}
+\contentsline {subsection}{\numberline {7.5.2}Hidden costs of team reformation and task interruption}{125}{subsection.7.5.2}
+\contentsline {subsection}{\numberline {7.5.3}Feedback to the agent}{127}{subsection.7.5.3}
+\contentsline {section}{\numberline {7.6}Design implications}{128}{section.7.6}
 \contentsline {subsection}{\numberline {7.6.1}Achieve common ground}{129}{subsection.7.6.1}
-\contentsline {subsection}{\numberline {7.6.2}Facilitate accountability}{130}{subsection.7.6.2}
+\contentsline {subsection}{\numberline {7.6.2}Facilitate accountability}{129}{subsection.7.6.2}
 \contentsline {subsection}{\numberline {7.6.3}Balance responsibilities between humans and agent}{130}{subsection.7.6.3}
-\contentsline {section}{\numberline {7.7}Summary}{131}{section.7.7}
+\contentsline {section}{\numberline {7.7}Summary}{130}{section.7.7}
 \contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {AtomicOrchid Study 3: Agent-supported In-the-loop design}}{132}{chapter.8}
 \contentsline {section}{\numberline {8.1}Introduction}{132}{section.8.1}
 \contentsline {section}{\numberline {8.2}System Evolution}{134}{section.8.2}
@@ -130,9 +130,9 @@
 \contentsline {subsection}{\numberline {8.5.3}Tacit confusions}{163}{subsection.8.5.3}
 \contentsline {subsection}{\numberline {8.5.4}Support human planning}{166}{subsection.8.5.4}
 \contentsline {section}{\numberline {8.6}Lessons from interaction design}{168}{section.8.6}
-\contentsline {subsection}{\numberline {8.6.1}Common ground}{168}{subsection.8.6.1}
-\contentsline {subsection}{\numberline {8.6.2}Supporting Mixed-Initiative Planning}{169}{subsection.8.6.2}
-\contentsline {subsection}{\numberline {8.6.3}Interactional trouble}{170}{subsection.8.6.3}
+\contentsline {subsection}{\numberline {8.6.1}Common ground}{169}{subsection.8.6.1}
+\contentsline {subsection}{\numberline {8.6.2}Supporting Mixed-Initiative Planning}{170}{subsection.8.6.2}
+\contentsline {subsection}{\numberline {8.6.3}Interactional trouble}{171}{subsection.8.6.3}
 \contentsline {section}{\numberline {8.7}Professional feedbacks}{171}{section.8.7}
 \contentsline {subsection}{\numberline {8.7.1}The Rescue Global feedbacks}{172}{subsection.8.7.1}
 \contentsline {subsection}{\numberline {8.7.2}Conclusion and Reflection}{176}{subsection.8.7.2}
