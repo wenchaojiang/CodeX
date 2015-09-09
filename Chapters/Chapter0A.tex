@@ -7,7 +7,7 @@
 This appendix illustrates details of AtomicOrchid implementation, which cover system architecture, data model and protocol between agent and AtomicOrchid server.
 
 \section{System architecture} \label{app:architecture}
-The following chart illustrates the system architecture. Numbers in the chart are explained in more details in table \ref{tab:communications}
+The following chart illustrates the system architecture. Numbers in the chart are explained in more details in table \ref{tab:protocol}
 \begin{figure}[H]
   \centering
   \rotatebox{90}{
@@ -18,6 +18,7 @@ The following chart illustrates the system architecture. Numbers in the chart ar
 \end{figure}
 
 \begin{table}[H]
+
 \centering
 \footnotesize
 \begin{tabular}{|l|l|l|}
@@ -32,8 +33,8 @@ The following chart illustrates the system architecture. Numbers in the chart ar
 7                  & \begin{tabular}[c]{@{}l@{}}DB \\ \textless-\textgreater \\ Node server\end{tabular}                    & Node server retrieves and updates game status                                                                                                                                                                     \\ \hline
 8                  & \begin{tabular}[c]{@{}l@{}}Ruby server \\ \textless-\textgreater \\ Agent PHP server\end{tabular}      & \begin{tabular}[c]{@{}l@{}}Rudy server requests Node server to push\\ latest status updates to clients \\ including player health, cloud status\\ target/player locations, messages, instructions\end{tabular}    \\ \hline
 \end{tabular}
-\label{tab:communications}
 \caption{Communications between components}
+\label{tab:protocol}
 \end{table}
 
 
