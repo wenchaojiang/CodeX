@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 SEP 2015 18:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.5.24)  9 SEP 2015 19:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1507,7 +1507,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[7] <img/introduction/contributions.png, id=1165, 464.73625pt x 352.31625pt>
+[7] <img/introduction/contributions.png, id=1170, 464.73625pt x 352.31625pt>
 File: img/introduction/contributions.png Graphic file (type png)
 
 <use img/introduction/contributions.png>
@@ -1605,20 +1605,38 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 98--99
-
- []
-
-
-Overfull \hbox (34.47224pt too wide) in paragraph at lines 107--109
+Overfull \hbox (34.47224pt too wide) in paragraph at lines 104--106
 \T1/fvm/m/n/9 Ramchurn, S. D., Wu, F., Fischer, J. E., Reece, S., \T1/fvm/b/n/9
  Jiang, W.\T1/fvm/m/n/9 , and Roberts,
  []
 
 
-Overfull \hbox (10.52759pt too wide) in paragraph at lines 107--109
+Overfull \hbox (10.52759pt too wide) in paragraph at lines 104--106
 \T1/fvm/m/n/9 S. J., et al. (2015). Human-agent collaboration for disaster resp
 onse.
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--106
+
+ []
+
+
+Overfull \hbox (11.44559pt too wide) in paragraph at lines 107--109
+\T1/fvm/m/n/9 Ramchurn, S. D., Simpson, E., Fischer, J. E., Huynh, D. T., Ikuno
+, Y.,
+ []
+
+
+Overfull \hbox (4.5376pt too wide) in paragraph at lines 107--109
+\T1/fvm/m/n/9 Reece, S., and  \T1/fvm/b/n/9 Jiang, W. \T1/fvm/m/n/9 et al. (201
+5). HAC-ER: A disaster response
+ []
+
+
+Overfull \hbox (10.52759pt too wide) in paragraph at lines 107--109
+\T1/fvm/m/n/9 system based on human-agent collectives. In AAMAS-15 : 14th Int. 
+Conf.
  []
 
 
@@ -1627,42 +1645,19 @@ Underfull \hbox (badness 10000) in paragraph at lines 107--109
  []
 
 
-Overfull \hbox (11.44559pt too wide) in paragraph at lines 110--112
-\T1/fvm/m/n/9 Ramchurn, S. D., Simpson, E., Fischer, J. E., Huynh, D. T., Ikuno
-, Y.,
- []
-
-
-Overfull \hbox (4.5376pt too wide) in paragraph at lines 110--112
-\T1/fvm/m/n/9 Reece, S., and  \T1/fvm/b/n/9 Jiang, W. \T1/fvm/m/n/9 et al. (201
-5). HAC-ER: A disaster response
- []
-
-
-Overfull \hbox (10.52759pt too wide) in paragraph at lines 110--112
-\T1/fvm/m/n/9 system based on human-agent collectives. In AAMAS-15 : 14th Int. 
-Conf.
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 110--112
-
- []
-
-
-Overfull \hbox (43.4534pt too wide) in paragraph at lines 113--115
+Overfull \hbox (43.4534pt too wide) in paragraph at lines 110--112
 \T1/fvm/m/n/9 Wu, F., Ramchurn, S. D., \T1/fvm/b/n/9 Jiang, W.\T1/fvm/m/n/9 , F
 ischer, J. E., Rodden, T., and Jennings,
  []
 
 
-Overfull \hbox (55.19624pt too wide) in paragraph at lines 113--115
+Overfull \hbox (55.19624pt too wide) in paragraph at lines 110--112
 \T1/fvm/m/n/9 N. R. (2015). Agile Planning for Real-World Disaster Response. In
  International
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 119--120
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
 
@@ -1671,29 +1666,29 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [10]
-Overfull \hbox (3.15378pt too wide) in paragraph at lines 121--122
+Overfull \hbox (3.15378pt too wide) in paragraph at lines 118--119
 \T1/pplj/m/n/10.95 Chap-ter [][]4[][] de-vel-ops the frame-work of in-ter-ac-ti
 on pat-terns un-der which
  []
 
 
-Overfull \hbox (10.87892pt too wide) in paragraph at lines 121--122
+Overfull \hbox (10.87892pt too wide) in paragraph at lines 118--119
 \T1/pplj/m/n/10.95 as testbed for this study, Atom-i-cOrchid. Chap-ter [][]5[][
 ] de-scribes the method-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 121--122
+Underfull \hbox (badness 10000) in paragraph at lines 118--119
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+Underfull \hbox (badness 10000) in paragraph at lines 120--121
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 122--123
 
  []
 
@@ -1701,11 +1696,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[11]
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[12] [13
+[11] [12
 
 
 
@@ -1741,11 +1732,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[14
+[13
 
 
 
-] <img/Background/drCircle.png, id=1250, 665.48625pt x 622.325pt>
+] <img/Background/drCircle.png, id=1249, 665.48625pt x 622.325pt>
 File: img/Background/drCircle.png Graphic file (type png)
 
 <use img/Background/drCircle.png>
@@ -1755,7 +1746,7 @@ Package pdftex.def Info: img/Background/drCircle.png used on input line 19.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[15 <./img/Background/drCircle.png>]
+[14 <./img/Background/drCircle.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 33--34
 
  []
@@ -1769,7 +1760,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 41--42
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[16]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 49--50
 
  []
@@ -1783,7 +1774,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 52--53
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[17]
+[16]
 Underfull \hbox (badness 10000) in paragraph at lines 54--55
 
  []
@@ -1807,7 +1798,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[18]
+[17]
 Package acronym Info: Label `acro:MRG' newly defined as it shall be overridden
 although it is yet undefined on input line 71.
 
@@ -1824,7 +1815,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--74
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[19]
+[18]
 Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
@@ -1839,7 +1830,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
 
-<img/Background/SystemFraming.png, id=1389, 588.1975pt x 464.73625pt>
+<img/Background/SystemFraming.png, id=1388, 588.1975pt x 464.73625pt>
 File: img/Background/SystemFraming.png Graphic file (type png)
 
 <use img/Background/SystemFraming.png>
@@ -1867,7 +1858,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 93--94
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[20]
+[19]
 Underfull \hbox (badness 10000) in paragraph at lines 95--96
 
  []
@@ -1876,7 +1867,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 95--96
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[21 <./img/Background/SystemFraming.png>]
+[20 <./img/Background/SystemFraming.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
@@ -1890,7 +1881,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 99--100
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[22]
+[21]
 Package acronym Info: Label `acro:ERR' newly defined as it shall be overridden
 although it is yet undefined on input line 104.
 
@@ -1908,7 +1899,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[23] <img/Background/ICTExample.png, id=1505, 744.7825pt x 489.83pt>
+[22] <img/Background/ICTExample.png, id=1503, 744.7825pt x 489.83pt>
 File: img/Background/ICTExample.png Graphic file (type png)
 
 <use img/Background/ICTExample.png>
@@ -1923,7 +1914,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[24 <./img/Background/ICTExample.png>]
+[23 <./img/Background/ICTExample.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 115--116
 
  []
@@ -1932,7 +1923,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--116
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[25]
+[24]
 Underfull \hbox (badness 10000) in paragraph at lines 119--120
 
  []
@@ -1951,7 +1942,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[26]
+[25]
 Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
@@ -1960,7 +1951,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 127--128
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[27]
+[26]
 Package acronym Info: Label `acro:HAC-ER' newly defined as it shall be overridd
 en
 although it is yet undefined on input line 129.
@@ -1981,7 +1972,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 129--130
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[28]
+[27]
 Underfull \hbox (badness 10000) in paragraph at lines 137--138
 
  []
@@ -1995,11 +1986,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 139--140
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[29]
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[30]
+[28]
 Chapter 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 143--144
@@ -2015,7 +2002,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--146
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[31
+[29
 
 
 ]
@@ -2032,7 +2019,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 152--153
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[32]
+[30]
 Underfull \hbox (badness 10000) in paragraph at lines 155--156
 
  []
@@ -2046,7 +2033,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 160--161
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[33]
+[31]
 Underfull \hbox (badness 10000) in paragraph at lines 165--166
 
  []
@@ -2065,7 +2052,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--174
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[34]
+[32]
 Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
@@ -2084,7 +2071,7 @@ Overfull \hbox (29.93459pt too wide) in paragraph at lines 187--192
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[35]
+[33]
 Underfull \hbox (badness 10000) in paragraph at lines 212--213
 
  []
@@ -2098,7 +2085,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 216--217
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[36]
+[34]
 Underfull \hbox (badness 10000) in paragraph at lines 218--219
 
  []
@@ -2112,7 +2099,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 220--221
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[37]
+[35]
 Package acronym Info: Label `acro:LoA' newly defined as it shall be overridden
 although it is yet undefined on input line 224.
 
@@ -2129,7 +2116,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 226--227
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[38]
+[36]
 Underfull \hbox (badness 10000) in paragraph at lines 228--229
 
  []
@@ -2150,7 +2137,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 235--236
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[39]
+[37]
 Underfull \hbox (badness 10000) in paragraph at lines 240--241
 
  []
@@ -2170,7 +2157,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 242--243
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[40]
+[38]
 Underfull \hbox (badness 10000) in paragraph at lines 255--256
 
  []
@@ -2184,7 +2171,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 258--259
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[41]
+[39]
 Underfull \hbox (badness 10000) in paragraph at lines 260--261
 
  []
@@ -2198,7 +2185,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 264--265
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[42]
+[40]
 Underfull \hbox (badness 10000) in paragraph at lines 267--268
 
  []
@@ -2217,7 +2204,7 @@ Overfull \hbox (5.75256pt too wide) has occurred while \output is active
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[43]
+[41]
 Underfull \hbox (badness 10000) in paragraph at lines 294--295
 
  []
@@ -2241,7 +2228,7 @@ Overfull \hbox (5.75256pt too wide) has occurred while \output is active
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[44]
+[42]
 Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
@@ -2265,7 +2252,7 @@ Overfull \hbox (5.75256pt too wide) has occurred while \output is active
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[45]
+[43]
 Underfull \hbox (badness 10000) in paragraph at lines 311--312
 
  []
@@ -2289,7 +2276,7 @@ Overfull \hbox (5.75256pt too wide) has occurred while \output is active
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[46]
+[44]
 Underfull \hbox (badness 10000) in paragraph at lines 322--323
 
  []
@@ -2308,11 +2295,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 349--350
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[47])
+[45])
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[48] [49
+[46] [47
 
 
 
@@ -2348,7 +2335,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 8--9
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[50
+[48
 
 
 
@@ -2366,7 +2353,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 12--13
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[51] <img/approach/gap.png, id=2133, 1144.275pt x 664.4825pt>
+[49] <img/approach/gap.png, id=2128, 1144.275pt x 664.4825pt>
 File: img/approach/gap.png Graphic file (type png)
 
 <use img/approach/gap.png>
@@ -2376,7 +2363,7 @@ Package pdftex.def Info: img/approach/gap.png used on input line 16.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[52 <./img/approach/gap.png>]
+[50 <./img/approach/gap.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
 
  []
@@ -2386,7 +2373,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
-<img/approach/GameComponents.png, id=2146, 651.43375pt x 211.79124pt>
+<img/approach/GameComponents.png, id=2141, 651.43375pt x 211.79124pt>
 File: img/approach/GameComponents.png Graphic file (type png)
 
 <use img/approach/GameComponents.png>
@@ -2401,7 +2388,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[53]
+[51]
 Underfull \hbox (badness 10000) in paragraph at lines 59--60
 
  []
@@ -2411,7 +2398,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 67--68
 
  []
 
-<img/approach/AOroles.png, id=2152, 597.23125pt x 60.225pt>
+<img/approach/AOroles.png, id=2146, 597.23125pt x 60.225pt>
 File: img/approach/AOroles.png Graphic file (type png)
 
 <use img/approach/AOroles.png>
@@ -2426,7 +2413,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 76--77
 
  []
 
-<img/approach/AOtargets.png, id=2155, 602.25pt x 55.20625pt>
+<img/approach/AOtargets.png, id=2149, 602.25pt x 55.20625pt>
 File: img/approach/AOtargets.png Graphic file (type png)
 
 <use img/approach/AOtargets.png>
@@ -2436,12 +2423,12 @@ Package pdftex.def Info: img/approach/AOtargets.png used on input line 80.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[54 <./img/approach/GameComponents.png>]
+[52 <./img/approach/GameComponents.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
  []
 
-<img/approach/roleTargetMapping.png, id=2163, 298.11375pt x 297.11pt>
+<img/approach/roleTargetMapping.png, id=2157, 298.11375pt x 297.11pt>
 File: img/approach/roleTargetMapping.png Graphic file (type png)
 
 <use img/approach/roleTargetMapping.png>
@@ -2462,9 +2449,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--97
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[55 <./img/approach/AOroles.png> <./img/approach/AOtargets.png> <./img/approach
+[53 <./img/approach/AOroles.png> <./img/approach/AOtargets.png> <./img/approach
 /roleTargetMapping.png>]
-<img/approach/radioactiveCloud.png, id=2169, 739.76375pt x 548.0475pt>
+<img/approach/radioactiveCloud.png, id=2164, 739.76375pt x 548.0475pt>
 File: img/approach/radioactiveCloud.png Graphic file (type png)
 
 <use img/approach/radioactiveCloud.png>
@@ -2492,8 +2479,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--113
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[56 <./img/approach/radioactiveCloud.png>]
-<img/approach/systemArchitecture.png, id=2191, 574.145pt x 417.56pt>
+[54 <./img/approach/radioactiveCloud.png>]
+<img/approach/systemArchitecture.png, id=2186, 574.145pt x 417.56pt>
 File: img/approach/systemArchitecture.png Graphic file (type png)
 
 <use img/approach/systemArchitecture.png>
@@ -2526,7 +2513,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[57 <./img/approach/systemArchitecture.png>]
+[55 <./img/approach/systemArchitecture.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 127--128
 
  []
@@ -2540,7 +2527,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 141--142
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[58] <img/approach/inputoutput.png, id=2222, 248.93pt x 369.38pt>
+[56] <img/approach/inputoutput.png, id=2217, 248.93pt x 369.38pt>
 File: img/approach/inputoutput.png Graphic file (type png)
 
 <use img/approach/inputoutput.png>
@@ -2550,7 +2537,7 @@ Package pdftex.def Info: img/approach/inputoutput.png used on input line 145.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[59 <./img/approach/inputoutput.png>]
+[57 <./img/approach/inputoutput.png>]
 Overfull \hbox (3.14818pt too wide) in paragraph at lines 154--155
 \T1/pplj/m/n/10.95 pro-cess to test, re-fine game con-cepts and sys-tem ro-bust
 -ness. We briefly
@@ -2586,7 +2573,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 168--169
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[60]
+[58]
 Underfull \hbox (badness 10000) in paragraph at lines 175--177
 
  []
@@ -2600,7 +2587,7 @@ Overfull \hbox (36.41698pt too wide) has occurred while \output is active
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[61]
+[59]
 Overfull \hbox (1.47218pt too wide) in paragraph at lines 181--183
 \T1/pplj/m/n/10.95 with-out hu-man in-put. Con-stant hu-man in-ter-ac-tions are
  re-quired
@@ -2630,12 +2617,12 @@ Overfull \hbox (36.41698pt too wide) has occurred while \output is active
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[62]
+[60]
 Underfull \hbox (badness 10000) in paragraph at lines 194--195
 
  []
 
-<img/approach/OnTheLoop.png, id=2251, 578.16pt x 282.05376pt>
+<img/approach/OnTheLoop.png, id=2249, 578.16pt x 282.05376pt>
 File: img/approach/OnTheLoop.png Graphic file (type png)
 
 <use img/approach/OnTheLoop.png>
@@ -2660,8 +2647,8 @@ Overfull \hbox (36.41698pt too wide) has occurred while \output is active
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[63 <./img/approach/OnTheLoop.png>]
-<img/approach/InTheLoop.png, id=2256, 613.29124pt x 290.08376pt>
+[61 <./img/approach/OnTheLoop.png>]
+<img/approach/InTheLoop.png, id=2254, 613.29124pt x 290.08376pt>
 File: img/approach/InTheLoop.png Graphic file (type png)
 
 <use img/approach/InTheLoop.png>
@@ -2697,7 +2684,7 @@ Overfull \hbox (36.41698pt too wide) has occurred while \output is active
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[64 <./img/approach/InTheLoop.png>]
+[62 <./img/approach/InTheLoop.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 225--226
 
  []
@@ -2722,7 +2709,7 @@ Overfull \hbox (55.08698pt too wide) has occurred while \output is active
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[65]
+[63]
 Overfull \hbox (55.08698pt too wide) has occurred while \output is active
  []|[]|
  []
@@ -2731,7 +2718,7 @@ Overfull \hbox (55.08698pt too wide) has occurred while \output is active
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[66]
+[64]
 Chapter 5.
 
 Underfull \hbox (badness 10000) in paragraph at lines 246--247
@@ -2760,7 +2747,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 251--252
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[67
+[65
 
 
 ]
@@ -2777,7 +2764,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 256--257
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[68]
+[66]
 Underfull \hbox (badness 10000) in paragraph at lines 262--263
 
  []
@@ -2796,7 +2783,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 266--267
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[69]
+[67]
 Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
@@ -2815,7 +2802,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 279--280
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[70]
+[68]
 Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
@@ -2846,12 +2833,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 287--288
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[71]
+[69]
 Underfull \hbox (badness 10000) in paragraph at lines 289--290
 
  []
 
-<img/methodology/logVisualisation.png, id=2361, 1346.02875pt x 495.8525pt>
+<img/methodology/logVisualisation.png, id=2360, 1346.02875pt x 495.8525pt>
 File: img/methodology/logVisualisation.png Graphic file (type png)
 
 <use img/methodology/logVisualisation.png>
@@ -2862,12 +2849,12 @@ e 293.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[72]
+[70]
 Underfull \hbox (badness 10000) in paragraph at lines 298--299
 
  []
 
-<img/methodology/replay.png, id=2369, 1704.3675pt x 924.45375pt>
+<img/methodology/replay.png, id=2368, 1704.3675pt x 924.45375pt>
 File: img/methodology/replay.png Graphic file (type png)
 
 <use img/methodology/replay.png>
@@ -2877,11 +2864,11 @@ Package pdftex.def Info: img/methodology/replay.png used on input line 304.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[73 <./img/methodology/logVisualisation.png>]
+[71 <./img/methodology/logVisualisation.png>]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[74 <./img/methodology/replay.png>]
+[72 <./img/methodology/replay.png>]
 Overfull \hbox (2.40926pt too wide) in paragraph at lines 311--312
 \T1/pplj/m/n/10.95 hami and Hud-son[][], [][]2003[][]] to clas-sify mes-sages s
 ent be-tween and among
@@ -2906,7 +2893,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 323--324
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[75]
+[73]
 Underfull \hbox (badness 10000) in paragraph at lines 325--326
 
  []
@@ -2925,7 +2912,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 331--332
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[76]
+[74]
 Underfull \hbox (badness 10000) in paragraph at lines 333--334
 
  []
@@ -2950,11 +2937,11 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[77]
+[75]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[78 <./img/methodology/analyticprocedure.png>] [79
+[76 <./img/methodology/analyticprocedure.png>] [77
 
 
 
@@ -2965,7 +2952,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[80
+[78
 
 ]
 Chapter 6.
@@ -2983,7 +2970,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 11--12
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[81
+[79
 
 
 ]
@@ -3016,7 +3003,7 @@ Package pdftex.def Info: img/study1/webinterface.png used on input line 30.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[82]
+[80]
 Underfull \hbox (badness 10000) in paragraph at lines 35--36
 
  []
@@ -3030,8 +3017,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[83 <./img/study1/webinterface.png>]
-<img/study1/mobileinterface.png, id=2454, 192.2382pt x 321.8424pt>
+[81 <./img/study1/webinterface.png>]
+<img/study1/mobileinterface.png, id=2453, 192.2382pt x 321.8424pt>
 File: img/study1/mobileinterface.png Graphic file (type png)
 
 <use img/study1/mobileinterface.png>
@@ -3051,7 +3038,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[84 <./img/study1/mobileinterface.png>]
+[82 <./img/study1/mobileinterface.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 56--57
 
  []
@@ -3081,7 +3068,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 62--63
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[85]
+[83]
 Underfull \hbox (badness 10000) in paragraph at lines 64--65
 
  []
@@ -3112,7 +3099,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 69--70
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[86]
+[84]
 Underfull \hbox (badness 10000) in paragraph at lines 83--84
 
  []
@@ -3149,7 +3136,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[87]
+[85]
 Underfull \hbox (badness 10000) in paragraph at lines 116--117
 
  []
@@ -3173,7 +3160,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[88]
+[86]
 Underfull \hbox (badness 10000) in paragraph at lines 130--131
 
  []
@@ -3207,7 +3194,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--147
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[89]
+[87]
 Underfull \hbox (badness 10000) in paragraph at lines 162--163
 
  []
@@ -3266,7 +3253,7 @@ Overfull \hbox (15.71704pt too wide) in paragraph at lines 189--190
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[90]
+[88]
 Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
@@ -3275,7 +3262,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 197--198
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[91] <img/study1/instructions.png, id=2515, 1010.77625pt x 727.71875pt>
+[89] <img/study1/instructions.png, id=2515, 1010.77625pt x 727.71875pt>
 File: img/study1/instructions.png Graphic file (type png)
 
 <use img/study1/instructions.png>
@@ -3345,7 +3332,7 @@ Package pdftex.def Info: img/study1/ep1/ep12.png used on input line 225.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[92 <./img/study1/instructions.png>]
+[90 <./img/study1/instructions.png>]
 LaTeX Font Info:    Font shape `T1/fvm/m/it' in size <10.95> not available
 (Font)              Font shape `T1/fvm/m/sl' tried instead on input line 239.
 LaTeX Font Info:    Font shape `T1/fvm/m/sl' will be
@@ -3384,7 +3371,7 @@ Overfull \hbox (11.11604pt too wide) in paragraph at lines 231--240
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[93 <./img/study1/ep1/ep11.png> <./img/study1/ep1/ep12.png>]
+[91 <./img/study1/ep1/ep11.png> <./img/study1/ep1/ep12.png>]
 <img/study1/ep1/ep13.png, id=2532, 190.7928pt x 107.4414pt>
 File: img/study1/ep1/ep13.png Graphic file (type png)
 
@@ -3441,7 +3428,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 265--266
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[94 <./img/study1/ep1/ep13.png> <./img/study1/ep1/ep14.png>]
+[92 <./img/study1/ep1/ep13.png> <./img/study1/ep1/ep14.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 268--269
 
  []
@@ -3492,7 +3479,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 285--299
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[95 <./img/study1/ep2/ep21.png> <./img/study1/ep2/ep22.png>]
+[93 <./img/study1/ep2/ep21.png> <./img/study1/ep2/ep22.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 300--301
 
  []
@@ -3502,7 +3489,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 302--303
 
  []
 
-<img/study1/ep5/ep51.png, id=2551, 185.0112pt x 104.5506pt>
+<img/study1/ep5/ep51.png, id=2550, 185.0112pt x 104.5506pt>
 File: img/study1/ep5/ep51.png Graphic file (type png)
 
 <use img/study1/ep5/ep51.png>
@@ -3557,7 +3544,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 311--318
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[96]
+[94]
 Underfull \hbox (badness 10000) in paragraph at lines 319--320
 
  []
@@ -3571,7 +3558,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 321--322
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[97 <./img/study1/ep5/ep51.png>]
+[95 <./img/study1/ep5/ep51.png>]
 Overfull \hbox (4.51074pt too wide) in paragraph at lines 324--325
 []\T1/fvm/m/n/10.95 ``Just save the closest target then just pair up and
  []
@@ -3639,7 +3626,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 347--351
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[98]
+[96]
 Underfull \hbox (badness 10000) in paragraph at lines 352--353
 
  []
@@ -3681,7 +3668,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 361--373
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[99 <./img/study1/ep3/ep31.png>]
+[97 <./img/study1/ep3/ep31.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 375--376
 
  []
@@ -3695,7 +3682,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 378--379
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[100 <./img/study1/ep4/ep41.png>]
+[98 <./img/study1/ep4/ep41.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 381--382
 
  []
@@ -3709,7 +3696,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 387--388
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[101]
+[99]
 Underfull \hbox (badness 10000) in paragraph at lines 389--390
 
  []
@@ -3723,7 +3710,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 397--398
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[102]
+[100]
 Underfull \hbox (badness 10000) in paragraph at lines 399--400
 
  []
@@ -3748,7 +3735,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 403--404
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[103]
+[101]
 Underfull \hbox (badness 10000) in paragraph at lines 405--406
 
  []
@@ -3767,7 +3754,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 413--414
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[104]
+[102]
 Underfull \hbox (badness 10000) in paragraph at lines 415--416
 
  []
@@ -3781,7 +3768,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 417--418
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[105]
+[103]
 Underfull \hbox (badness 10000) in paragraph at lines 421--422
 
  []
@@ -3800,7 +3787,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 431--432
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[106]
+[104]
 Underfull \hbox (badness 10000) in paragraph at lines 435--436
 
  []
@@ -3825,11 +3812,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 439--440
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[107]
+[105]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[108]
+[106]
 Chapter 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 453--454
@@ -3844,7 +3831,7 @@ Package pdftex.def Info: img/approach/OnTheLoop.png used on input line 457.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[109
+[107
 
 
 ]
@@ -3871,7 +3858,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 469--470
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[110]
+[108]
 Underfull \hbox (badness 10000) in paragraph at lines 491--492
 
  []
@@ -3902,7 +3889,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 499--500
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[111]
+[109]
 Underfull \hbox (badness 10000) in paragraph at lines 501--502
 
  []
@@ -3937,7 +3924,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 517--518
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[112] <img/study2/system/mobiletask.png, id=2664, 230.3004pt x 383.031pt>
+[110] <img/study2/system/mobiletask.png, id=2664, 230.3004pt x 383.031pt>
 File: img/study2/system/mobiletask.png Graphic file (type png)
 
 <use img/study2/system/mobiletask.png>
@@ -3964,8 +3951,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 535--536
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[113 <./img/study2/system/dealingwithplans.png> <./img/study2/system/mobiletask
-.png>] <img/study2/system/mobilemsg.png, id=2674, 125.7498pt x 223.0734pt>
+[111 <./img/study2/system/dealingwithplans.png> <./img/study2/system/mobiletask
+.png>] <img/study2/system/mobilemsg.png, id=2673, 125.7498pt x 223.0734pt>
 File: img/study2/system/mobilemsg.png Graphic file (type png)
 
 <use img/study2/system/mobilemsg.png>
@@ -3990,7 +3977,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 547--548
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[114 <./img/study2/system/HQ.png>]
+[112 <./img/study2/system/HQ.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 562--563
 
  []
@@ -3999,7 +3986,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 562--563
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[115 <./img/study2/system/mobilemsg.png>]
+[113 <./img/study2/system/mobilemsg.png>]
 <img/study2/system/agentInstructions.png, id=2689, 686.565pt x 320.19624pt>
 File: img/study2/system/agentInstructions.png Graphic file (type png)
 
@@ -4045,7 +4032,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 588--600
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[116 <./img/study2/system/agentInstructions.png>]
+[114 <./img/study2/system/agentInstructions.png>]
 <img/study2/ep1/ep11.png, id=2698, 172.0026pt x 96.36pt>
 File: img/study2/ep1/ep11.png Graphic file (type png)
 
@@ -4068,7 +4055,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 615--616
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[117 <./img/study2/ep1/ep11.png> <./img/study2/ep1/ep12.png>]
+[115 <./img/study2/ep1/ep11.png> <./img/study2/ep1/ep12.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 617--618
 
  []
@@ -4087,7 +4074,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 622--623
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[118] <img/study2/ep2/ep21.png, id=2711, 117.0774pt x 65.5248pt>
+[116] <img/study2/ep2/ep21.png, id=2711, 117.0774pt x 65.5248pt>
 File: img/study2/ep2/ep21.png Graphic file (type png)
 
 <use img/study2/ep2/ep21.png>
@@ -4150,7 +4137,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 630--654
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[119 <./img/study2/ep2/ep21.png>]
+[117 <./img/study2/ep2/ep21.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 655--656
 
  []
@@ -4164,7 +4151,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 657--658
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[120]
+[118]
 Underfull \hbox (badness 10000) in paragraph at lines 659--660
 
  []
@@ -4174,14 +4161,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 662--663
 
  []
 
-<img/study2/ep3/ep31.png, id=2723, 111.2958pt x 65.5248pt>
+<img/study2/ep3/ep31.png, id=2722, 111.2958pt x 65.5248pt>
 File: img/study2/ep3/ep31.png Graphic file (type png)
 
 <use img/study2/ep3/ep31.png>
 Package pdftex.def Info: img/study2/ep3/ep31.png used on input line 666.
 (pdftex.def)             Requested size: 168.0pt x 98.92082pt.
 
-<img/study2/ep3/ep32.png, id=2724, 116.5956pt x 65.5248pt>
+<img/study2/ep3/ep32.png, id=2723, 116.5956pt x 65.5248pt>
 File: img/study2/ep3/ep32.png Graphic file (type png)
 
 <use img/study2/ep3/ep32.png>
@@ -4220,11 +4207,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 679--704
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[121 <./img/study2/ep3/ep31.png>]
+[119 <./img/study2/ep3/ep31.png>]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[122 <./img/study2/ep3/ep32.png>]
+[120 <./img/study2/ep3/ep32.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 707--708
 
  []
@@ -4285,7 +4272,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 713--733
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[123]
+[121]
 Underfull \hbox (badness 10000) in paragraph at lines 735--736
 
  []
@@ -4299,7 +4286,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 737--738
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[124]
+[122]
 Underfull \hbox (badness 10000) in paragraph at lines 739--740
 
  []
@@ -4329,7 +4316,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 747--748
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[125]
+[123]
 Underfull \hbox (badness 10000) in paragraph at lines 749--750
 
  []
@@ -4348,7 +4335,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 757--758
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[126]
+[124]
 Underfull \hbox (badness 10000) in paragraph at lines 759--760
 
  []
@@ -4357,7 +4344,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 759--760
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[127]
+[125]
 Underfull \hbox (badness 10000) in paragraph at lines 764--765
 
  []
@@ -4376,7 +4363,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 781--782
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[128]
+[126]
 Underfull \hbox (badness 10000) in paragraph at lines 783--784
 
  []
@@ -4396,7 +4383,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 791--792
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[129]
+[127]
 Underfull \hbox (badness 10000) in paragraph at lines 793--794
 
  []
@@ -4415,11 +4402,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 800--801
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[130]
+[128]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[131]
+[129]
 Underfull \hbox (badness 10000) in paragraph at lines 815--816
 
  []
@@ -4428,11 +4415,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 815--816
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[132]
+[130]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[133]
+[131]
 Chapter 8.
 
 Overfull \hbox (4.94324pt too wide) in paragraph at lines 821--822
@@ -4460,7 +4447,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 832--833
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[134
+[132
 
 
 ] <img/study3/InTheLoop.png, id=2816, 727.71875pt x 352.31625pt>
@@ -4483,7 +4470,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 853--855
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[135 <./img/study3/InTheLoop.png>]
+[133 <./img/study3/InTheLoop.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 861--862
 
  []
@@ -4514,7 +4501,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 878--879
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[136]
+[134]
 Underfull \hbox (badness 10000) in paragraph at lines 880--881
 
  []
@@ -4555,8 +4542,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 898--899
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[137 <./img/study3/system/Interfaces.png>]
-<img/study3/system/HQ1Interface.png, id=2850, 1201.48875pt x 879.285pt>
+[135 <./img/study3/system/Interfaces.png>]
+<img/study3/system/HQ1Interface.png, id=2849, 1201.48875pt x 879.285pt>
 File: img/study3/system/HQ1Interface.png Graphic file (type png)
 
 <use img/study3/system/HQ1Interface.png>
@@ -4567,7 +4554,7 @@ Package pdftex.def Info: img/study3/system/HQ1Interface.png used on input line
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/study3/system/editmode.png, id=2851, 874.26625pt x 692.5875pt>
+<img/study3/system/editmode.png, id=2850, 874.26625pt x 692.5875pt>
 File: img/study3/system/editmode.png Graphic file (type png)
 
 <use img/study3/system/editmode.png>
@@ -4578,7 +4565,7 @@ Package pdftex.def Info: img/study3/system/editmode.png used on input line 909.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<img/study3/system/msgmode.png, id=2852, 1445.4pt x 806.01125pt>
+<img/study3/system/msgmode.png, id=2851, 1445.4pt x 806.01125pt>
 File: img/study3/system/msgmode.png Graphic file (type png)
 
 <use img/study3/system/msgmode.png>
@@ -4603,7 +4590,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 923--925
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[138 <./img/study3/system/mobileInterface.png> <./img/study3/system/HQ2Interfac
+[136 <./img/study3/system/mobileInterface.png> <./img/study3/system/HQ2Interfac
 e.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 929--931
 
@@ -4613,7 +4600,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 929--931
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[139 <./img/study3/system/HQ1Interface.png> <./img/study3/system/editmode.png>]
+[137 <./img/study3/system/HQ1Interface.png> <./img/study3/system/editmode.png>]
 
 Underfull \hbox (badness 10000) in paragraph at lines 932--934
 
@@ -4633,7 +4620,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 938--940
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[140 <./img/study3/system/msgmode.png>]
+[138 <./img/study3/system/msgmode.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 941--942
 
  []
@@ -4667,7 +4654,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 959--960
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[141]
+[139]
 Underfull \hbox (badness 10000) in paragraph at lines 964--965
 
  []
@@ -4686,7 +4673,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 968--969
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[142]
+[140]
 Underfull \hbox (badness 10000) in paragraph at lines 970--971
 
  []
@@ -4710,7 +4697,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 976--977
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[143]
+[141]
 Underfull \hbox (badness 10000) in paragraph at lines 980--981
 
  []
@@ -4734,7 +4721,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 998--999
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[144]
+[142]
 Underfull \hbox (badness 10000) in paragraph at lines 1018--1019
 
  []
@@ -4753,7 +4740,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1022--1023
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[145]
+[143]
 Underfull \hbox (badness 10000) in paragraph at lines 1025--1026
 
  []
@@ -4782,7 +4769,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1039--1040
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[146 <./img/study3/TaskAsSession1.png> <./img/study3/TaskAsSession2.png>]
+[144 <./img/study3/TaskAsSession1.png> <./img/study3/TaskAsSession2.png>]
 Overfull \hbox (2.33693pt too wide) in paragraph at lines 1041--1042
 []\T1/pplj/m/n/10.95 Although the di-a-grams (fig-ure [][]48[][], [][]49[][]) s
 ug-gest a se-quen-tial planning-
@@ -4837,7 +4824,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1046--1063
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[147] <img/study3/ep11.png, id=2927, 162.8484pt x 91.542pt>
+[145] <img/study3/ep11.png, id=2927, 162.8484pt x 91.542pt>
 File: img/study3/ep11.png Graphic file (type png)
 
 <use img/study3/ep11.png>
@@ -4859,7 +4846,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1079--1080
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[148 <./img/study3/ep11.png> <./img/study3/ep12.png>]
+[146 <./img/study3/ep11.png> <./img/study3/ep12.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1082--1083
 
  []
@@ -4931,7 +4918,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1099--1121
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[149]
+[147]
 Underfull \hbox (badness 10000) in paragraph at lines 1122--1123
 
  []
@@ -4940,7 +4927,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1122--1123
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[150]
+[148]
 Underfull \hbox (badness 10000) in paragraph at lines 1129--1130
 
  []
@@ -4950,7 +4937,7 @@ Package caption Warning: \label without proper \caption on input line 1155.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:study3ep31' on page 151 undefined on input line 1
+LaTeX Warning: Reference `fig:study3ep31' on page 149 undefined on input line 1
 142.
 
 
@@ -4970,14 +4957,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 1131--1143
 
  []
 
-<img/study3/ep31.png, id=2947, 244.2726pt x 137.7948pt>
+<img/study3/ep31.png, id=2946, 244.2726pt x 137.7948pt>
 File: img/study3/ep31.png Graphic file (type png)
 
 <use img/study3/ep31.png>
 Package pdftex.def Info: img/study3/ep31.png used on input line 1147.
 (pdftex.def)             Requested size: 151.19897pt x 85.2931pt.
 
-<img/study3/ep32.png, id=2948, 159.4758pt x 135.8676pt>
+<img/study3/ep32.png, id=2947, 159.4758pt x 135.8676pt>
 File: img/study3/ep32.png Graphic file (type png)
 
 <use img/study3/ep32.png>
@@ -4992,7 +4979,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1159--1160
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[151]
+[149]
 Underfull \hbox (badness 10000) in paragraph at lines 1161--1162
 
  []
@@ -5030,7 +5017,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1163--1174
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[152 <./img/study3/ep31.png> <./img/study3/ep32.png>]
+[150 <./img/study3/ep31.png> <./img/study3/ep32.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1175--1176
 
  []
@@ -5091,7 +5078,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1180--1196
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[153] <img/study3/ep51.png, id=2966, 189.8292pt x 107.4414pt>
+[151] <img/study3/ep51.png, id=2966, 189.8292pt x 107.4414pt>
 File: img/study3/ep51.png Graphic file (type png)
 
 <use img/study3/ep51.png>
@@ -5110,7 +5097,7 @@ Package caption Warning: \label without proper \caption on input line 1210.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `fig:study3ep52' on page 154 undefined on input line 1
+LaTeX Warning: Reference `fig:study3ep52' on page 152 undefined on input line 1
 213.
 
 
@@ -5127,7 +5114,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1216--1217
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[154 <./img/study3/ep51.png> <./img/study3/ep52.png>]
+[152 <./img/study3/ep51.png> <./img/study3/ep52.png>]
 Overfull \hbox (32.69095pt too wide) in paragraph at lines 1218--1236
 \T1/fvm/m/sl/10.95 (Context: One team (CE, KM) is end up heading to radiation c
 loud.) 
@@ -5189,7 +5176,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1237--1238
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[155]
+[153]
 Overfull \hbox (5.79211pt too wide) in paragraph at lines 1240--1259
 \T1/fvm/b/n/10.95 05:15, CE:  \T1/fvm/m/n/10.95 (Reading out the message) You a
 re approaching the
@@ -5230,7 +5217,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1240--1259
 
  []
 
-<img/study3/ep361.png, id=2983, 185.0112pt x 116.1138pt>
+<img/study3/ep361.png, id=2982, 185.0112pt x 116.1138pt>
 File: img/study3/ep361.png Graphic file (type png)
 
 <use img/study3/ep361.png>
@@ -5240,7 +5227,7 @@ Package pdftex.def Info: img/study3/ep361.png used on input line 1263.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[156] <img/study3/ep362.png, id=2988, 182.1204pt x 117.0774pt>
+[154] <img/study3/ep362.png, id=2987, 182.1204pt x 117.0774pt>
 File: img/study3/ep362.png Graphic file (type png)
 
 <use img/study3/ep362.png>
@@ -5255,7 +5242,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1276--1277
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[157 <./img/study3/ep361.png> <./img/study3/ep362.png>]
+[155 <./img/study3/ep361.png> <./img/study3/ep362.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 1279--1280
 
  []
@@ -5310,7 +5297,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1297--1298
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[158]
+[156]
 Overfull \hbox (11.39526pt too wide) in paragraph at lines 1299--1305
 \T1/fvm/b/n/10.95 Episode 3.8  17:04, HQ1:  \T1/fvm/m/n/10.95 Ok this one (refe
 r to target 36). Do
@@ -5351,7 +5338,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1314--1315
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[159]
+[157]
 Underfull \hbox (badness 10000) in paragraph at lines 1317--1318
 
  []
@@ -5370,7 +5357,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1322--1323
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[160]
+[158]
 Overfull \hbox (6.03378pt too wide) in paragraph at lines 1324--1325
 \T1/pplj/m/n/10.95 may sug-gest that the com-bi-na-tion of can-cel-la-tion and 
 re-planning
@@ -5400,7 +5387,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1332--1333
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[161]
+[159]
 Underfull \hbox (badness 10000) in paragraph at lines 1342--1343
 
  []
@@ -5414,7 +5401,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1344--1345
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[162]
+[160]
 Underfull \hbox (badness 10000) in paragraph at lines 1350--1351
 
  []
@@ -5423,7 +5410,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1350--1351
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[163]
+[161]
 Underfull \hbox (badness 10000) in paragraph at lines 1352--1353
 
  []
@@ -5443,7 +5430,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1354--1355
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[164]
+[162]
 Underfull \hbox (badness 10000) in paragraph at lines 1357--1358
 
  []
@@ -5457,7 +5444,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1359--1360
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[165]
+[163]
 Underfull \hbox (badness 10000) in paragraph at lines 1361--1362
 
  []
@@ -5471,7 +5458,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1363--1364
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[166]
+[164]
 Underfull \hbox (badness 10000) in paragraph at lines 1365--1366
 
  []
@@ -5485,7 +5472,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1367--1368
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[167]
+[165]
 Underfull \hbox (badness 10000) in paragraph at lines 1369--1370
 
  []
@@ -5504,7 +5491,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1375--1376
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[168]
+[166]
 Underfull \hbox (badness 10000) in paragraph at lines 1377--1378
 
  []
@@ -5518,7 +5505,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1379--1380
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[169]
+[167]
 Underfull \hbox (badness 10000) in paragraph at lines 1390--1391
 
  []
@@ -5527,7 +5514,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1390--1391
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[170]
+[168]
 Overfull \hbox (15.51013pt too wide) in paragraph at lines 1412--1413
 []\T1/pplj/b/n/10.95 Shared rep-re-sen-ta-tion\T1/pplj/m/n/10.95 . The task in-
 ter-face en-abled com-mon ground
@@ -5553,11 +5540,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 1421--1422
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[171]
+[169]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[172]
+[170]
 Overfull \hbox (1.88359pt too wide) in paragraph at lines 1439--1440
 \T1/pplj/m/n/10.95 guide-lines to com-ple-ment com-pu-ta-tional ap-proaches in 
 or-der to avoid
@@ -5577,7 +5564,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1446--1447
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[173]
+[171]
 Underfull \hbox (badness 10000) in paragraph at lines 1457--1458
 
  []
@@ -5602,7 +5589,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1463--1464
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[174]
+[172]
 Overfull \hbox (2.30533pt too wide) in paragraph at lines 1466--1467
 \T1/pplj/m/n/10.95 bumped into. They have medics, can run some clin-ics there.
  []
@@ -5626,7 +5613,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1475--1476
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[175]
+[173]
 Overfull \hbox (16.59035pt too wide) in paragraph at lines 1484--1485
 \T1/pplj/m/n/10.95 lev-els of so-phis-ti-ca-tion, that takes you into dif-fer-e
 nt paradigm.
@@ -5636,7 +5623,7 @@ nt paradigm.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[176]
+[174]
 Overfull \hbox (0.65741pt too wide) in paragraph at lines 1496--1497
 \T1/pplj/m/n/10.95 ing and vi-su-ally rep-re-sent-ing what we man-u-ally con-st
 ruct-
@@ -5646,7 +5633,7 @@ ruct-
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[177]
+[175]
 Underfull \hbox (badness 10000) in paragraph at lines 1505--1506
 
  []
@@ -5665,7 +5652,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1511--1512
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[178]
+[176]
 Underfull \hbox (badness 10000) in paragraph at lines 1513--1514
 
  []
@@ -5684,7 +5671,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1518--1519
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[179]
+[177]
 Underfull \hbox (badness 10000) in paragraph at lines 1520--1522
 
  []
@@ -5698,7 +5685,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1533--1534
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[180] [181
+[178] [179
 
 
 
@@ -5732,7 +5719,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 15--16
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[182
+[180
 
 
 
@@ -5750,7 +5737,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 30--31
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[183]
+[181]
 Underfull \hbox (badness 10000) in paragraph at lines 32--33
 
  []
@@ -5766,7 +5753,7 @@ Package pdftex.def Info: img/conclusion/study1interface.png used on input line
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[184 <./img/conclusion/study1interface.png>]
+[182 <./img/conclusion/study1interface.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 51--52
 
  []
@@ -5787,8 +5774,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 61--62
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[185 <./img/conclusion/study2interface.png>]
-<img/conclusion/study3interfaceHQ.png, id=3288, 701.5008pt x 438.9198pt>
+[183 <./img/conclusion/study2interface.png>]
+<img/conclusion/study3interfaceHQ.png, id=3287, 701.5008pt x 438.9198pt>
 File: img/conclusion/study3interfaceHQ.png Graphic file (type png)
 
 <use img/conclusion/study3interfaceHQ.png>
@@ -5796,7 +5783,7 @@ Package pdftex.def Info: img/conclusion/study3interfaceHQ.png used on input lin
 e 67.
 (pdftex.def)             Requested size: 336.0pt x 210.23708pt.
 
-<img/conclusion/study3interfaceMSG.png, id=3289, 343.0416pt x 214.401pt>
+<img/conclusion/study3interfaceMSG.png, id=3288, 343.0416pt x 214.401pt>
 File: img/conclusion/study3interfaceMSG.png Graphic file (type png)
 
 <use img/conclusion/study3interfaceMSG.png>
@@ -5807,8 +5794,8 @@ ne 74.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[186 <./img/conclusion/study3interfaceHQ.png>]
-<img/conclusion/study3interfaceMobile.png, id=3296, 709.65125pt x 1040.88875pt>
+[184 <./img/conclusion/study3interfaceHQ.png>]
+<img/conclusion/study3interfaceMobile.png, id=3295, 709.65125pt x 1040.88875pt>
 File: img/conclusion/study3interfaceMobile.png Graphic file (type png)
 <use img/conclusion/study3interfaceMobile.png>
 Package pdftex.def Info: img/conclusion/study3interfaceMobile.png used on input
@@ -5818,7 +5805,7 @@ Package pdftex.def Info: img/conclusion/study3interfaceMobile.png used on input
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[187 <./img/conclusion/study3interfaceMSG.png>]
+[185 <./img/conclusion/study3interfaceMSG.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
@@ -5827,7 +5814,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[188 <./img/conclusion/study3interfaceMobile.png>]
+[186 <./img/conclusion/study3interfaceMobile.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 92--93
 
  []
@@ -5836,7 +5823,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 92--93
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[189]
+[187]
 Underfull \hbox (badness 10000) in paragraph at lines 103--104
 
  []
@@ -5855,7 +5842,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 112--113
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[190] <img/conclusion/huilvshuol.png, id=3325, 865.2325pt x 256.96pt>
+[188] <img/conclusion/huilvshuol.png, id=3325, 865.2325pt x 256.96pt>
 File: img/conclusion/huilvshuol.png Graphic file (type png)
 
 <use img/conclusion/huilvshuol.png>
@@ -5880,11 +5867,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 143--144
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[191 <./img/conclusion/huilvshuol.png>]
+[189 <./img/conclusion/huilvshuol.png>]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[192]
+[190]
 Underfull \hbox (badness 10000) in paragraph at lines 145--146
 
  []
@@ -5898,7 +5885,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 147--149
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[193]
+[191]
 Underfull \hbox (badness 10000) in paragraph at lines 154--155
 
  []
@@ -5907,7 +5894,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 154--155
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[194]
+[192]
 Underfull \hbox (badness 10000) in paragraph at lines 158--159
 
  []
@@ -5936,7 +5923,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--167
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[195]
+[193]
 Underfull \hbox (badness 10000) in paragraph at lines 168--169
 
  []
@@ -5955,7 +5942,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 173--174
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[196]
+[194]
 Overfull \hbox (8.85881pt too wide) in paragraph at lines 175--176
 \T1/pplj/m/n/10.95 ing these in-di-vid-ual human-agent in-ter-ac-tions ac-count
 -able to the whole
@@ -5975,7 +5962,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 178--179
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[197]
+[195]
 Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
@@ -5989,7 +5976,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 183--184
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[198]
+[196]
 Underfull \hbox (badness 10000) in paragraph at lines 185--186
 
  []
@@ -6013,7 +6000,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 195--196
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[199]
+[197]
 Underfull \hbox (badness 10000) in paragraph at lines 197--198
 
  []
@@ -6032,7 +6019,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--202
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[200]
+[198]
 Underfull \hbox (badness 10000) in paragraph at lines 205--206
 
  []
@@ -6046,7 +6033,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 207--208
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[201]
+[199]
 Underfull \hbox (badness 10000) in paragraph at lines 209--210
 
  []
@@ -6075,7 +6062,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 217--218
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[202]
+[200]
 Underfull \hbox (badness 10000) in paragraph at lines 219--220
 
  []
@@ -6084,7 +6071,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 219--220
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[203] [204
+[201] [202
 
 
 
@@ -6095,7 +6082,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
  (./Chapters/Chapter0A.tex
 Appendix A.
-<img/Appendix/SystemDescription.png, id=3446, 857.2025pt x 632.3625pt>
+<img/Appendix/SystemDescription.png, id=3445, 857.2025pt x 632.3625pt>
 File: img/Appendix/SystemDescription.png Graphic file (type png)
 
 <use img/Appendix/SystemDescription.png>
@@ -6106,7 +6093,7 @@ Package pdftex.def Info: img/Appendix/SystemDescription.png used on input line
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[205
+[203
 
 
 
@@ -6164,7 +6151,7 @@ Overfull \hbox (23.61963pt too wide) in paragraph at lines 24--36
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[206 <./img/Appendix/SystemDescription.png>]
+[204 <./img/Appendix/SystemDescription.png>]
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              You should note, that in 1994 font command `\bf' has
@@ -6230,7 +6217,7 @@ Overfull \hbox (42.02263pt too wide) in paragraph at lines 45--56
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[207]
+[205]
 
 Class scrreprt Warning: Usage of deprecated font command `\bf'!
 (scrreprt)              You should note, that in 1994 font command `\bf' has
@@ -6298,13 +6285,13 @@ Overfull \hbox (3.31955pt too wide) in paragraph at lines 66--74
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[208]
+[206]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[209]
+[207]
 Appendix B.
-<img/Appendix/targets1.png, id=3468, 606.265pt x 570.13pt>
+<img/Appendix/targets1.png, id=3467, 606.265pt x 570.13pt>
 File: img/Appendix/targets1.png Graphic file (type png)
 
 <use img/Appendix/targets1.png>
@@ -6314,14 +6301,14 @@ Package pdftex.def Info: img/Appendix/targets1.png used on input line 85.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[210
+[208
 
 
  <./img/Appendix/targets1.png>]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[211] <img/Appendix/study1A.png, id=3477, 1200.485pt x 360.34625pt>
+[209] <img/Appendix/study1A.png, id=3477, 1200.485pt x 360.34625pt>
 File: img/Appendix/study1A.png Graphic file (type png)
 
 <use img/Appendix/study1A.png>
@@ -6331,7 +6318,7 @@ Package pdftex.def Info: img/Appendix/study1A.png used on input line 141.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[212] <img/Appendix/study1B.png, id=3482, 1202.4925pt x 422.57875pt>
+[210] <img/Appendix/study1B.png, id=3482, 1202.4925pt x 422.57875pt>
 File: img/Appendix/study1B.png Graphic file (type png)
 
 <use img/Appendix/study1B.png>
@@ -6341,11 +6328,11 @@ Package pdftex.def Info: img/Appendix/study1B.png used on input line 150.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[213 <./img/Appendix/study1A.png>]
+[211 <./img/Appendix/study1A.png>]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[214 <./img/Appendix/study1B.png>]
+[212 <./img/Appendix/study1B.png>]
 Appendix C.
 File: img/Appendix/targets1.png Graphic file (type png)
 <use img/Appendix/targets1.png>
@@ -6355,14 +6342,14 @@ Package pdftex.def Info: img/Appendix/targets1.png used on input line 164.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[215
+[213
 
 
 ]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[216] <img/Appendix/study2A.png, id=3500, 1202.4925pt x 421.575pt>
+[214] <img/Appendix/study2A.png, id=3499, 1202.4925pt x 421.575pt>
 File: img/Appendix/study2A.png Graphic file (type png)
 
 <use img/Appendix/study2A.png>
@@ -6372,7 +6359,7 @@ Package pdftex.def Info: img/Appendix/study2A.png used on input line 215.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[217] <img/Appendix/study2B.png, id=3505, 1200.485pt x 426.59375pt>
+[215] <img/Appendix/study2B.png, id=3505, 1200.485pt x 426.59375pt>
 File: img/Appendix/study2B.png Graphic file (type png)
 
 <use img/Appendix/study2B.png>
@@ -6382,11 +6369,11 @@ Package pdftex.def Info: img/Appendix/study2B.png used on input line 224.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[218 <./img/Appendix/study2A.png>]
+[216 <./img/Appendix/study2A.png>]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[219 <./img/Appendix/study2B.png>]
+[217 <./img/Appendix/study2B.png>]
 Appendix D.
 <img/Appendix/targets2.png, id=3515, 607.26875pt x 567.11874pt>
 File: img/Appendix/targets2.png Graphic file (type png)
@@ -6398,28 +6385,28 @@ Package pdftex.def Info: img/Appendix/targets2.png used on input line 235.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[220
+[218
 
 
  <./img/Appendix/targets2.png>]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[221]
+[219]
 Overfull \vbox (2.64758pt too high) has occurred while \output is active []
 
 
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[222] <img/Appendix/study3A.png, id=3529, 1202.4925pt x 424.58624pt>
+[220] <img/Appendix/study3A.png, id=3528, 1202.4925pt x 424.58624pt>
 File: img/Appendix/study3A.png Graphic file (type png)
 
 <use img/Appendix/study3A.png>
 Package pdftex.def Info: img/Appendix/study3A.png used on input line 287.
 (pdftex.def)             Requested size: 604.80103pt x 213.55594pt.
 
-<img/Appendix/study3B.png, id=3530, 1201.48875pt x 428.60126pt>
+<img/Appendix/study3B.png, id=3529, 1201.48875pt x 428.60126pt>
 File: img/Appendix/study3B.png Graphic file (type png)
 
 <use img/Appendix/study3B.png>
@@ -6429,11 +6416,11 @@ Package pdftex.def Info: img/Appendix/study3B.png used on input line 295.
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[223 <./img/Appendix/study3A.png>]
+[221 <./img/Appendix/study3A.png>]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[224 <./img/Appendix/study3B.png>]
+[222 <./img/Appendix/study3B.png>]
 \openout2 = `FrontBackmatter/Bibliography.aux'.
 
  (./FrontBackmatter/Bibliography.tex
@@ -6441,7 +6428,7 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[225
+[223
 
 
 
@@ -6449,6 +6436,14 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 ]
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[224]
+Overfull \vbox (3.07996pt too high) has occurred while \output is active []
+
+
+[225]
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
@@ -6484,22 +6479,14 @@ Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
-[234]
+[234]))
 Overfull \vbox (3.07996pt too high) has occurred while \output is active []
 
 
 [235]
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[236]))
-Overfull \vbox (3.07996pt too high) has occurred while \output is active []
-
-
-[237]
 \openout2 = `FrontBackmatter/Declaration.aux'.
 
- (./FrontBackmatter/Declaration.tex) [238
+ (./FrontBackmatter/Declaration.tex) [236
 
 
 
@@ -6515,7 +6502,12 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
 (./Chapters/Chapter01.aux) (./Chapters/LiteratureReview.aux)
 (./Chapters/ChapterM&P.aux) (./Chapters/Chapter04.aux)
 (./Chapters/Conclusion.aux) (./Chapters/Chapter0A.aux)
-(./FrontBackmatter/Bibliography.aux) (./FrontBackmatter/Declaration.aux))
+(./FrontBackmatter/Bibliography.aux) (./FrontBackmatter/Declaration.aux)
+
+Package mparhack Warning: Marginpars may have changed.
+(mparhack)                Rerun to get them right.
+
+)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 118.
 
 
@@ -6762,10 +6754,10 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 118.
  ) 
 Here is how much of TeX's memory you used:
- 19067 strings out of 493089
- 303161 string characters out of 6134842
- 526102 words of memory out of 5000000
- 21247 multiletter control sequences out of 15000+600000
+ 19063 strings out of 493089
+ 303123 string characters out of 6134842
+ 526126 words of memory out of 5000000
+ 21246 multiletter control sequences out of 15000+600000
  86607 words of font info for 125 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  54i,15n,67p,2355b,738s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6782,10 +6774,10 @@ ts/type1/public/bera/fvmr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1
 latino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/
 uplr8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/urw/palatino/uplri8a
 .pfb>
-Output written on ClassicThesis.pdf (252 pages, 20437231 bytes).
+Output written on ClassicThesis.pdf (250 pages, 20434274 bytes).
 PDF statistics:
- 3809 PDF objects out of 4296 (max. 8388607)
- 3400 compressed objects within 34 object streams
- 754 named destinations out of 1000 (max. 500000)
+ 3810 PDF objects out of 4296 (max. 8388607)
+ 3402 compressed objects within 35 object streams
+ 751 named destinations out of 1000 (max. 500000)
  20049 words of extra memory for PDF output out of 20736 (max. 10000000)
 
