@@ -1,11 +1,11 @@
 \begin{thebibliography}{}
 
 \bibitem[Abbott and Sarin, 1994]{Abbott1994a}
-Abbott, K. and Sarin, S. (1994).
+Abbott, K.~R. and Sarin, S.~K. (1994).
 \newblock {Experiences with workflow management: issues for the next
   generation}.
-\newblock {\em Proceedings of the 1994 ACM conference on \ldots}, pages
-  113--120.
+\newblock In {\em Proceedings of the 1994 ACM conference on Computer supported
+  cooperative work}, pages 113--120.
 
 \bibitem[Ackerman, 2000]{Ackerman2000}
 Ackerman, M. (2000).
@@ -29,11 +29,12 @@ Armenakis, C. (2012).
   applications}.
 \newblock {\em Natural Hazards}, 66(1):139--140.
 
-\bibitem[Avrahami and Hudson, 2003]{Avrahami}
-Avrahami, D. and Hudson, S.~E. (2003).
-\newblock {QnA : Augmenting an Instant Messaging Client to Balance User
-  Responsiveness and Performance}.
-\newblock 6(3):515--518.
+\bibitem[Avrahami and Hudson, 2004]{Avrahami}
+Avrahami, D. and Hudson, S.~E. (2004).
+\newblock {QnA: Augmenting an instant messaging client to balance user
+  responsiveness and performance}.
+\newblock In {\em Proceedings of the ACM Conference on Computer Supported
+  Cooperative Work, CSCW}, volume~6, pages 515--518.
 
 \bibitem[Bellotti and Edwards, 2001]{Bellotti2001}
 Bellotti, V. and Edwards, K. (2001).
@@ -52,18 +53,19 @@ Benford, S., Magerkurth, C., and Ljungstrand, P. (2005).
 \newblock {Bridging the PHYSICAL AND DIGITAL in Pervasive Gaming}.
 \newblock {\em Communications of the ACM}, 48(3).
 
-\bibitem[Boersma, 2009]{Boersma2009}
-Boersma, K. (2009).
+\bibitem[Boersma et~al., 2009]{Boersma2009}
+Boersma, K., Groenewegen, P., and Wagenaar, P. (2009).
 \newblock {Emergency Response Rooms in Action: an ethnographic case-study in
   Amsterdam}.
-\newblock {\em Proceedings ISCRAM \ldots}, (May).
+\newblock In {\em Proceedings of the 6th International ISCRAM Conference},
+  number May.
 
 \bibitem[Bowers et~al., 1994]{Bowers1994}
 Bowers, J., Button, G., and Sharrock, W. (1994).
-\newblock {Workflow From Within and Without : Technology and Cooperative Work
-  on the Print Industry Shopfloor Introduction : Workflow Systems and Work
-  Practice}.
-\newblock pages 51--66. Fourth European Conference on Computer-Supported
+\newblock {Workflow From Within and Without: Technology and Cooperative Work on
+  the Print Industry Shopfloor Introduction}.
+\newblock In {\em 4th European Conference on Computer Supported Coooperateive
+  Work}, pages 51--66. Fourth European Conference on Computer-Supported
   Cooperative Work.
 
 \bibitem[Bradshaw et~al., 2003]{Bradshaw2003}
@@ -79,9 +81,11 @@ Bradshaw, J.~M., Feltovich, P., and Johnson, M. (2011).
   chapter~13, pages 293--302. Ashgate.
 
 \bibitem[Brundell et~al., 2008]{Brundell}
-Brundell, P., Tennent, P., Greenhalgh, C., Knight, D., Malley, C.~O.,
-  Ainsworth, S., Clarke, D., and Adolphs, S. (2008).
-\newblock {Digital Replay system (DRS): A Tool for Interaction Analysis}.
+Brundell, P., Tennent, P., Greenhalgh, C., Knight, D., Crabtree, A., O'Malley,
+  C., Ainsworth, S., Clarke, D., Carter, R., and Adolphs, S. (2008).
+\newblock {Digital Replay System (DRS): A Tool for Interaction Analysis}.
+\newblock In {\em International Conference on Learning Sciences Workshop on
+  Interaction Analysis}.
 
 \bibitem[Burstein et~al., 2003]{Burstein2003}
 Burstein, M., Ferguson, G., and Allen, J. (2003).
@@ -89,13 +93,6 @@ Burstein, M., Ferguson, G., and Allen, J. (2003).
   multi-agent planning system}.
 \newblock {\em Proceedings Fourth International Conference on MultiAgent
   Systems}, (January):389--390.
-
-\bibitem[Calhoun et~al., 2011]{Calhoun2011}
-Calhoun, G.~L., Ruff, H.~A., Draper, M.~H., and Wright, E.~J. (2011).
-\newblock {Automation-Level Transference Effects in Simulated Multiple Unmanned
-  Aerial Vehicle Control}.
-\newblock {\em Journal of Cognitive Engineering and Decision Making},
-  5(1):55--82.
 
 \bibitem[Carstensen and Schmidt, 1999]{Carstensen1999}
 Carstensen, P. and Schmidt, K. (1999).
@@ -141,10 +138,11 @@ Conti, G., Abdullah, K., Grizzard, J., Stasko, J., Copeland, J., Ahamad, M.,
 \newblock {\em IEEE Computer Graphics and Applications}, 26(2):60--70.
 
 \bibitem[Costanza et~al., 2014]{Costanza2014}
-Costanza, E., Fischer, J., and Colley, J. (2014).
-\newblock {Doing the laundry with agents: a field trial of a future smart
-  energy system in the home}.
-\newblock {\em Proceedings of the \ldots}.
+Costanza, E., Fischer, J.~E., Colley, J.~A., Rodden, T., Ramchurn, S.~D., and
+  Jennings, N.~R. (2014).
+\newblock {Doing the laundry with agents}.
+\newblock In {\em Proceedings of the 32nd annual ACM conference on Human
+  factors in computing systems - CHI '14}, pages 813--822.
 
 \bibitem[Cova, 1999]{Cova1999}
 Cova, T. (1999).
@@ -161,7 +159,7 @@ Crabtree, A., Benford, S., Greenhalgh, C., Tennent, P., Chalmers, M., and
 
 \bibitem[Crabtree et~al., 2012]{Crabtree2012}
 Crabtree, A., Rouncefield, M., and Tolmie, P. (2012).
-\newblock {\em {Doing Design Ethnolography}}.
+\newblock {\em {Doing Design Ethnography}}.
 \newblock Springer.
 
 \bibitem[Crabtree et~al., 2004]{Crabtree2004}
@@ -183,8 +181,9 @@ Dashti, S., Palen, L., Heris, M.~P., Kenneth, M., Anderson, S., and Anderson,
 
 \bibitem[Dawes et~al., 2004]{Dawes2004}
 Dawes, S.~S., Schneider, C.~A., and Road, W. (2004).
-\newblock {and Coordination : World Trade Center Response}.
-\newblock (June).
+\newblock {Information, Technology and Coordination: World Trade Center
+  Response}.
+\newblock {\em World Trade}, (June).
 
 \bibitem[Deconinck, 2013]{Hentenryck2011}
 Deconinck, S. (2013).
@@ -192,15 +191,12 @@ Deconinck, S. (2013).
 \newblock In {\em 23rd international joint conference on Artificial
   Intelligence. AAAI Press, 2013.}, pages 12--18.
 
-\bibitem[{Department for Communities and Local G}, 2008]{Command2008}
-{Department for Communities and Local G} (2008).
-\newblock {\em {Fire and Rescue Manual Volume 2 Fire Service Operations}},
-  volume~2.
-
-\bibitem[Dorais and Bonasso, 1999]{Doraisa}
-Dorais, G. and Bonasso, R. (1999).
+\bibitem[Dorais et~al., 1999]{Doraisa}
+Dorais, G., Bonasso, R., and Kortenkamp, D. (1999).
 \newblock {Adjustable autonomy for human-centered autonomous systems}.
-\newblock {\em Working notes of the \ldots}.
+\newblock {\em Working notes of the 16th International Joint Conference on
+  Artificial Intelligence Workshop on Adjustable Autonomy Systems}, pages
+  16--35.
 
 \bibitem[Drury et~al., 2009]{Drury2009}
 Drury, J., Cocking, C., and Reicher, S. (2009).
@@ -233,9 +229,10 @@ Ferguson, G., Allen, J., and Miller, B. (1996).
   AAAI Press.
 
 \bibitem[Fischer et~al., 2015]{Fischer2015}
-Fischer, J., Reeves, S., and Rodden, T. (2015).
+Fischer, J., Reeves, S., Rodden, T., Reece, S., and Ramchurn, S.~D. (2015).
 \newblock {Building a Birds Eye View: Collaborative Work in Disaster Response}.
-\newblock {\em Proc. CHI}.
+\newblock In {\em The 33rd Annual ACM Conference on Human Factors in Computing
+  Systems}.
 
 \bibitem[Fischer et~al., 2012]{Fischer2012}
 Fischer, J.~E., Rodden, T., Flintham, M., Price, D., Goulding, J., and Pantidi,
@@ -244,9 +241,10 @@ Fischer, J.~E., Rodden, T., Flintham, M., Price, D., Goulding, J., and Pantidi,
 \newblock {\em CSCW2012: Mixed Reality Games Workshop}.
 
 \bibitem[Fitts, 1951]{Fitts}
-Fitts, P. (1951).
-\newblock {Human engineering for an effective air-navigation and
-  traffic-control system.}
+Fitts, P.~M. (1951).
+\newblock {Human Engineering for an Effective Air Navigation and
+  Traffic-Control System}.
+\newblock Technical report, National Research Council.
 
 \bibitem[Flintham et~al., 2003]{Flintham2003}
 Flintham, M., Benford, S., Anastasi, R., Hemmings, T., Crabtree, A.,
@@ -261,14 +259,17 @@ Geertman, S. and Stillwell, J. (2004).
 \newblock {Planning support systems: an inventory of current practice}.
 \newblock {\em Computers, Environment and Urban Systems}, 28(4):291--310.
 
-\bibitem[Georgeff et~al., 1999]{Georgeff1999}
-Georgeff, M., Pell, B., and Pollack, M. (1999).
+\bibitem[Georgeff et~al., 1998]{Georgeff1999}
+Georgeff, M., Pell, B., Pollack, M., Tambe, M., and Wooldridge, M. (1998).
 \newblock {The belief-desire-intention model of agency}.
-\newblock {\em Intelligent Agents V: \ldots}, pages 1--10.
+\newblock In {\em Intelligent Agents V: Agents Theories, Architectures, and
+  Languages. 5th International Workshop, ATAL'98.}, pages 1--10.
 
 \bibitem[Goodrich et~al., 2001]{Goodrich2001a}
 Goodrich, M.~A., Jr, D. R.~O., Crandall, J.~W., and Palmer, T.~J. (2001).
 \newblock {Experiments in Adjustable Autonomy Robot Effectiveness Neglect}.
+\newblock In {\em IJCAI workshop on Autonomy, Delegation and Control:
+  Interacting with Intelligent Agents}, pages 1624--1629.
 
 \bibitem[Grootjen et~al., 2007]{Grootjen2007}
 Grootjen, M., Neerincx, M.~A., and Weert, J. C. M.~V. (2007).
@@ -278,8 +279,10 @@ Grootjen, M., Neerincx, M.~A., and Weert, J. C. M.~V. (2007).
 
 \bibitem[Hardin and Goodrich, 2009]{Hardin2009}
 Hardin, B. and Goodrich, M.~A. (2009).
-\newblock {On Using Mixed-Initiative Control : A Perspective for Managing
-  Large-Scale Robotic Teams}.
+\newblock {On using mixed-initiative control: A perspective for managing
+  large-scale robotic teams}.
+\newblock In {\em Proceedings of the 4th ACM/IEEE international conference on
+  human robot interaction (HRI '09)}, pages 165--172.
 
 \bibitem[Heath et~al., 2010]{Heath2010}
 Heath, C., Hindmarsh, J., and Luff, P. (2010).
@@ -298,12 +301,16 @@ Hiltz, S.~R. and Turoff, M. (1985).
   Information Overload}.
 \newblock 28.
 
+\bibitem[{HM Government}, 2008]{Command2008}
+{HM Government} (2008).
+\newblock {Fire and Rescue Manual - Volume 2 Fire Service Operations - Incident
+  Command}.
+
 \bibitem[Hoffman et~al., 2002]{Hoffman2002}
-Hoffman, R.~R., Feltovich, P.~J., Ford, K.~M., Florida, W., Woods, D.~D.,
-  Klein, G., Associates, K., Feltovich, A., College, G., Hoffman, E. R.~R., and
-  Hayes, P.~J. (2002).
-\newblock {Human-Centered Computing A Rose by Any Other Name \ldots Would
-  Probably Be Given an Acronym}.
+Hoffman, R.~R., Feltovich, P.~J., Ford, K.~M., Woods, D.~D., Klein, G.,
+  Feltovich, A., and Hayes, P.~J. (2002).
+\newblock {A Rose by Any Other Name \ldots Would Probably Be Given an Acronym}.
+\newblock {\em IEEE Intelligent Systems}, 17(4):72--80.
 
 \bibitem[Horvitz, 1999]{Horvitz1999}
 Horvitz, E. (1999).
@@ -316,10 +323,11 @@ Horvitz, E. (1999).
 \newblock {Intergraph MGE GIS}.
 \newblock Technical report.
 
-\bibitem[Jennings and Moreau, 2014]{Jennings2014}
-Jennings, N. and Moreau, L. (2014).
+\bibitem[Jennings et~al., 2014]{Jennings2014}
+Jennings, N., Moreau, L., Nicholson, D., Ramchurn, S.~D., Roberts, S., Rodden,
+  T., and Rogers, A. (2014).
 \newblock {Human-agent collectives}.
-\newblock {\em Communications of the \ldots}.
+\newblock {\em Communications of the ACM}, 52(12):80--88.
 
 \bibitem[Jordan and Henderson, 1995]{Jordan1995}
 Jordan, B. and Henderson, A. (1995).
@@ -337,15 +345,17 @@ Kadous, M.~W., Sheh, R. K.-M., and Sammut, C. (2006).
 \newblock {\em Proceeding of the 1st ACM SIGCHI/SIGART conference on
   Human-robot interaction - HRI '06}, page 250.
 
-\bibitem[Kitano and Committee, 2000]{Kitano2000}
-Kitano, H. and Committee, R.-r.~T. (2000).
-\newblock {RoboCup Rescue : A Grand Challenge for Multi-Agent Systems}.
+\bibitem[Kitano, 2000]{Kitano2000}
+Kitano, H. (2000).
+\newblock {RoboCup Rescue: a grand challenge for multi-agent systems}.
+\newblock {\em Proceedings 4th International Conference on MultiAgent Systems}.
 
 \bibitem[Koes et~al., 2005]{Koes2005}
-Koes, M., Nourbakhsh, I., and Sycara, K. (2005).
+Koes, M., Nourbakhsh, I., Sycara, K., Ramchurn, S.~D., and Others (2005).
 \newblock {Heterogeneous multirobot coordination with spatial and temporal
   constraints}.
-\newblock {\em AAAI}.
+\newblock In {\em Proceedings of the National Conference on Artificial
+  Intelligence}, volume~20, page 1292.
 
 \bibitem[Kogan et~al., 2015]{Kogan2012}
 Kogan, M., Palen, L., and Anderson, K. (2015).
@@ -370,7 +380,8 @@ Kopena, J.~B., Sultanik, E.~a., Lass, R.~N., Nguyen, D.~N., Dugan, C.~J., Modi,
 \bibitem[Kozierok and Maes, 1993]{Kozierok1993}
 Kozierok, R. and Maes, P. (1993).
 \newblock {A learning interface agent for scheduling meetings}.
-\newblock {\em Proceedings of the 1st international conference on \ldots}.
+\newblock {\em Proceedings of the 1st international conference on Intelligent
+  user interfaces IUI 93}, 11:81--88.
 
 \bibitem[Lagoudakis and Markakis, 2005]{Lagoudakis2005}
 Lagoudakis, M. and Markakis, E. (2005).
@@ -404,17 +415,19 @@ Mead, G. and Mind, H. (1934).
 \newblock {Self and society}.
 \newblock {\em Chicago: University of Chicago}, pages 1--8.
 
-\bibitem[Meesters and van~de Walle, 2013]{Meesters2013}
-Meesters, K. and van~de Walle, B. (2013).
-\newblock {Disaster in my backyard: a serious game introduction to disaster
+\bibitem[Meesters and {Van De Walle}, 2013]{Meesters2013}
+Meesters, K. and {Van De Walle}, B. (2013).
+\newblock {Sisaster in my backyard: A serious game introduction to disaster
   information management}.
-\newblock (May):145--150.
+\newblock In {\em ISCRAM 2013 Conference Proceedings - 10th International
+  Conference on Information Systems for Crisis Response and Management}, number
+  May, pages 145--150.
 
 \bibitem[Mercer and Homola, 2014]{Mercer2014}
 Mercer, J. and Homola, J. (2014).
 \newblock {Human-Automation Cooperation for Separation Assurance in Future
   NextGen Environments}.
-\newblock {\em \ldots of the HCI-Aero \ldots}.
+\newblock {\em Proceedings of the HCI-Aero Conference.}
 
 \bibitem[Metral and Maes, 1998]{Metral1998}
 Metral, Y. and Maes, P. (1998).
@@ -458,24 +471,23 @@ Okaya, M., Niwa, T., and Takahashi, T. (2014).
 \newblock {\em \ldots agents and multi-agent systems}, pages 1669--1670.
 
 \bibitem[Palen and Liu, 2007]{Palen2007}
-Palen, L. and Liu, S. (2007).
+Palen, L. and Liu, S.~B. (2007).
 \newblock {Citizen communications in crisis: anticipating a future of
   ICT-supported public participation}.
-\newblock {\em Proceedings of the SIGCHI conference on Human \ldots}, pages
-  727--736.
+\newblock {\em Natural Hazards}, pages 727--736.
 
-\bibitem[Palen and Soden, 2015]{Palen2015}
-Palen, L. and Soden, R. (2015).
-\newblock {Success \& Scale in a Data-Producing Organization: The
-  Socio-Technical Evolution of OpenStreetMap in Response to Humanitarian
-  Events}.
-\newblock {\em Proceedings of the 33rd \ldots}, pages 4113--4122.
+\bibitem[Palen et~al., 2015]{Palen2015}
+Palen, L., Soden, R., Anderson, T.~J., and Barrenechea, M. (2015).
+\newblock {Success \& Scale in a Data - Producing Organization: The Socio -
+  Technical Evolution of OpenStreetMap in Response to Humanitarian Events}.
+\newblock In {\em Proceedings of the 33rd Annual ACM Conference on Human
+  Factors in Computing}, pages 4113--4122.
 
 \bibitem[Parasuraman and Manzey, 2010]{Parasuraman2010}
-Parasuraman, R. and Manzey, D. (2010).
-\newblock {Complacency and bias in human use of automation: An attentional
-  integration}.
-\newblock {\em Human Factors: The Journal of the \ldots}.
+Parasuraman, R. and Manzey, D.~H. (2010).
+\newblock {Complacency and bias in human use of automation: an attentional
+  integration.}
+\newblock {\em Human factors}, 52(3):381--410.
 
 \bibitem[Parasuraman and Riley, 1997]{Parasuraman1997}
 Parasuraman, R. and Riley, V. (1997).
@@ -489,10 +501,11 @@ Parasuraman, R., Sheridan, T.~B., and Wickens, C.~D. (2000).
 \newblock {\em IEEE Transactions on Systems Man and Cybernetics Part A Systems
   and Humans}, 30(3):286--297.
 
-\bibitem[Petrescu-Prahova and Butts, 2005]{Petrescu-prahova2005}
-Petrescu-Prahova, M. and Butts, C. (2005).
-\newblock {Emergent coordination in the World Trade Center disaster}.
-\newblock {\em Institute for mathematical behavioral \ldots}, pages 1--23.
+\bibitem[Petrescu-prahova and Butts, 2005]{Petrescu-prahova2005}
+Petrescu-prahova, M. and Butts, C.~T. (2005).
+\newblock {Emergent Coordination in the World Trade Center}.
+\newblock {\em Sociology The Journal Of The British Sociological Association},
+  pages 1--23.
 
 \bibitem[Pettit et~al., 2003]{Pettit2003}
 Pettit, C., Shyy, T., and Stimson, R. (2003).
@@ -506,16 +519,21 @@ Pillac, V., Cebrian, M., and {Van Hentenryck}, P. (2015).
   planning}.
 \newblock {\em Constraints}, 20(3):285--303.
 
-\bibitem[Provitolo, 2011]{Provitolo2011}
-Provitolo, D. (2011).
-\newblock {EMERGENT HUMAN BEHAVIOUR DURING A DISASTER: THEMATIC VERSUS COMPLEX
-  SYSTEMS APPROACHES}.
-\newblock {\em Proceedings of EPNACS 2011}, pages 47--57.
+\bibitem[Provitolo and Dubos-paillard, 2011]{Provitolo2011}
+Provitolo, D. and Dubos-paillard, E. (2011).
+\newblock {Emergent Human Behavior during a Disaster: Thematic versus Complex
+  Systems Approaches}.
+\newblock In {\em Emergent Properties in Natural and Artificial Complex
+  Systems}, pages 47--57.
 
 \bibitem[Ramchurn et~al., 2015a]{Ramchurn2015}
-Ramchurn, S., Simpson, E., Fischer, J., and Huynh, T. (2015a).
+Ramchurn, S., Simpson, E., Fischer, J., Huynh, T., Ikuno, Y., Reece, S., Jiang,
+  W., Wu, F., Flann, J., Roberts, S., Moreau, L., Rodden, T., and Jennings, N.
+  (2015a).
 \newblock {HAC-ER: A disaster response system based on human-agent
   collectives}.
+\newblock In {\em 14th International Conference on Autonomous Agents and
+  Multi-Agent Systems}, pages 533--541.
 
 \bibitem[Ramchurn et~al., 2010]{Ramchurn2010}
 Ramchurn, S.~D., Polukarov, M., Farinelli, A., Jennings, N., and Trong, C.
@@ -572,7 +590,7 @@ Schooley, B., Hilton, B., Lee, Y., Mcclintock, R., Olusola, S.-o., Horan, T.,
   Schooley, B., Mcclintock, R., and Horan, T. (2010).
 \newblock {CrashHelp : A GIS Tool for Managing Emergency Medical Responses to
   Motor Vehicle Crashes}.
-\newblock (May):1--11.
+\newblock {\em Information Systems}, (May):1--11.
 
 \bibitem[Schwarz et~al., 2014]{Schwarz2014}
 Schwarz, M., St\"{u}ckler, J., and Behnke, S. (2014).
@@ -591,10 +609,10 @@ Sharples, S., Millen, L., Golightly, D., and Balfe, N. (2011).
 \newblock {\em Proceedings of the Institution of Mechanical Engineers, Part F:
   Journal of Rail and Rapid Transit}, 225(2):179--191.
 
-\bibitem[Simpson et~al., 2011]{Simpson}
-Simpson, E., Roberts, S., Smith, A., and Lintott, C. (2011).
-\newblock {Bayesian combination of multiple, imperfect classifiers}.
-\newblock pages 1--8.
+\bibitem[Simpson et~al., 2013]{Simpson}
+Simpson, E., Roberts, S., Psorakis, I., and Smith, A. (2013).
+\newblock {Dynamic bayesian combination of multiple imperfect classifiers}.
+\newblock {\em Studies in Computational Intelligence}, 474:1--35.
 
 \bibitem[Skeels et~al., 2008]{Skeels2008}
 Skeels, M., Lee, B., Smith, G., and Robertson, G. (2008).
@@ -625,11 +643,6 @@ Suchman, L. (1987).
   communication}}.
 \newblock Cambridge university press.
 
-\bibitem[Sukthankar, 2012]{Sukthankara}
-Sukthankar, G. (2012).
-\newblock {Intelligent agents as teammates}.
-\newblock {\em Theories of Team \ldots}, pages 313--343.
-
 \bibitem[Sukthankar et~al., 2009]{Sukthankar}
 Sukthankar, G., Giampapa, J.~A., and Burnett, C. (2009).
 \newblock {Communications for Agent-Based Human Team Support}.
@@ -637,15 +650,23 @@ Sukthankar, G., Giampapa, J.~A., and Burnett, C. (2009).
   284--312. IGI-Global (http://www.igi-pub.com/) Handbook of Research,
   Information Science Reference.
 
+\bibitem[Sukthankar et~al., 2011]{Sukthankara}
+Sukthankar, G., Shumaker, R., and Lewis, M. (2011).
+\newblock {Intelligent agents as teammates}.
+\newblock {\em Theories of Team Cognition: Cross-Disciplinary Perspectives},
+  pages 313--343.
+
 \bibitem[Susi et~al., 2007]{Susi2007}
 Susi, T., Johannesson, M., and Backlund, P. (2007).
-\newblock {Serious games: An overview}.
+\newblock {Serious Games , An Overview}.
+\newblock {\em Elearning}, 73(10):28.
 
 \bibitem[Sutton et~al., 2008]{Sutton2008}
 Sutton, J., Palen, L., and Shklovski, I. (2008).
 \newblock {Backchannels on the front lines: Emergent uses of social media in
   the 2007 southern California wildfires}.
-\newblock {\em Proceedings of the 5th International \ldots}, (May).
+\newblock In {\em Proceedings of the 5th International ISCRAM Conference},
+  number May, pages 1--9.
 
 \bibitem[Tang and Ren, 2012]{Tang2012}
 Tang, F. and Ren, A. (2012).
@@ -699,7 +720,8 @@ Wattegama, C. (2012).
 \bibitem[Wickens et~al., 2010]{Wickens2010}
 Wickens, C., Li, H., and Santamaria, A. (2010).
 \newblock {Stages and levels of automation: An integrated meta-analysis}.
-\newblock {\em Proceedings of the \ldots}, 4:389--393.
+\newblock {\em Proceedings of the Human Factors and Ergonomics Society Annual
+  Meeting}, 4:389--393.
 
 \bibitem[Wu et~al., 2015]{Wu2015}
 Wu, F., Ramchurn, S.~D., Jiang, W., Fischer, J.~E., Rodden, T., and Jennings,

@@ -21,113 +21,113 @@ A level-1 auxiliary file: FrontBackmatter/Declaration.aux
 Database file #1: Bibliography.bib
 Database file #2: Approach.bib
 Database file #3: LR.bib
-Repeated entry---line 580 of file LR.bib
+Repeated entry---line 12 of file LR.bib
  : @article{Ackerman2000
  :                      ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 766 of file LR.bib
- : @inproceedings{Sarcevic2012
- :                            ,
+Repeated entry---line 56 of file LR.bib
+ : @article{Armenakis2012
+ :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 775 of file LR.bib
- : @inproceedings{Flintham2003
- :                            ,
+Repeated entry---line 100 of file LR.bib
+ : @article{Benford2005
+ :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 786 of file LR.bib
+Repeated entry---line 129 of file LR.bib
+ : @incollection{Bradshaw2011
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 196 of file LR.bib
+ : @article{Chen2005
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 268 of file LR.bib
+ : @article{Crabtree2006
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 281 of file LR.bib
  : @inproceedings{Crabtree2004
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 813 of file LR.bib
+Repeated entry---line 332 of file LR.bib
  : @article{Drury2009
  :                   ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 829 of file LR.bib
- : @article{Armenakis2012
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 958 of file LR.bib
- : @article{Toups2011
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 998 of file LR.bib
- : @article{Crabtree2006
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1074 of file LR.bib
- : @article{Benford2005
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1126 of file LR.bib
- : @article{Chen2005
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 1176 of file LR.bib
+Repeated entry---line 425 of file LR.bib
  : @article{Fischer2012
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 1199 of file LR.bib
- : @incollection{Bradshaw2011
- :                           ,
-I'm skipping whatever remains of this entry
-Database file #4: Study1.bib
-Repeated entry---line 18 of file Study1.bib
- : @article{Armenakis2012
- :                       ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 32 of file Study1.bib
- : @article{Benford2005
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 41 of file Study1.bib
- : @incollection{Bradshaw2011
- :                           ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 53 of file Study1.bib
- : @article{Chen2005
- :                  ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 88 of file Study1.bib
- : @article{Crabtree2006
- :                      ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 101 of file Study1.bib
- : @inproceedings{Crabtree2004
- :                            ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 114 of file Study1.bib
- : @article{Fischer2012
- :                     ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 122 of file Study1.bib
+Repeated entry---line 444 of file LR.bib
  : @inproceedings{Flintham2003
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 133 of file Study1.bib
+Repeated entry---line 1009 of file LR.bib
+ : @inproceedings{Sarcevic2012
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 1199 of file LR.bib
+ : @article{Toups2011
+ :                   ,
+I'm skipping whatever remains of this entry
+Database file #4: Study1.bib
+Repeated entry---line 10 of file Study1.bib
+ : @article{Armenakis2012
+ :                       ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 24 of file Study1.bib
+ : @article{Benford2005
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 44 of file Study1.bib
+ : @incollection{Bradshaw2011
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 56 of file Study1.bib
+ : @article{Chen2005
+ :                  ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 86 of file Study1.bib
+ : @article{Crabtree2006
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 99 of file Study1.bib
+ : @inproceedings{Crabtree2004
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 112 of file Study1.bib
+ : @article{Drury2009
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 136 of file Study1.bib
+ : @article{Fischer2012
+ :                     ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 144 of file Study1.bib
+ : @inproceedings{Flintham2003
+ :                            ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 168 of file Study1.bib
  : @book{Heath2010
  :                ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 145 of file Study1.bib
+Repeated entry---line 180 of file Study1.bib
  : @misc{Jordan1995
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 223 of file Study1.bib
+Repeated entry---line 259 of file Study1.bib
  : @inproceedings{Sarcevic2012
  :                            ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 232 of file Study1.bib
+Repeated entry---line 268 of file Study1.bib
  : @misc{Searle1976
  :                 ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 242 of file Study1.bib
+Repeated entry---line 278 of file Study1.bib
  : @inproceedings{Toups2009
  :                         ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 254 of file Study1.bib
+Repeated entry---line 290 of file Study1.bib
  : @article{Toups2011
- :                   ,
-I'm skipping whatever remains of this entry
-Repeated entry---line 300 of file Study1.bib
- : @article{Drury2009
  :                   ,
 I'm skipping whatever remains of this entry
 Database file #5: Study2.bib
@@ -136,77 +136,65 @@ Repeated entry---line 15 of file Study3.bib
  : @article{Benford2006
  :                     ,
 I'm skipping whatever remains of this entry
-Warning--empty journal in Avrahami
-Warning--there's a number but no volume in Boersma2009
-Warning--empty booktitle in Bowers1994
+Warning--I didn't find a database entry for "Calhoun2011"
+Warning--can't use both volume and number fields in Avrahami
+Warning--there's a number but no series in Boersma2009
 Warning--there's a number but no volume in Bradshaw2003
-Warning--empty journal in Brundell
 Warning--there's a number but no volume in Burstein2003
 Warning--there's a number but no volume in Cova1999
 Warning--there's a number but no volume in Dashti2014
-Warning--empty journal in Dawes2004
 Warning--there's a number but no volume in Dawes2004
-Warning--empty publisher in Command2008
-Warning--empty journal in Fitts
-Warning--empty journal in Goodrich2001a
-Warning--empty journal in Hardin2009
 Warning--empty journal in Hiltz1985
-Warning--empty journal in Hoffman2002
 Warning--empty institution in IntergraphCorporation2000
-Warning--empty journal in Kitano2000
+Warning--can't use both volume and number fields in Koes2005
 Warning--there's a number but no volume in Koleva2001
-Warning--empty journal in Meesters2013
-Warning--there's a number but no volume in Meesters2013
+Warning--there's a number but no series in Meesters2013
 Warning--empty publisher in Pettit2003
-Warning--empty journal in Ramchurn2015
-Warning--empty journal in Schooley2010
 Warning--there's a number but no volume in Schooley2010
-Warning--empty journal in Simpson
 Warning--there's a number but no series in Starbird2010
 Warning--there's a number but no series in Sukthankar
-Warning--empty journal in Susi2007
-Warning--there's a number but no volume in Sutton2008
+Warning--there's a number but no series in Sutton2008
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 125 entries,
+You've used 124 entries,
             1935 wiz_defined-function locations,
-            1255 strings with 27698 characters,
-and the built_in function-call counts, 51869 in all, are:
-= -- 5104
-> -- 2246
-< -- 109
-+ -- 760
-- -- 758
-* -- 4272
-:= -- 8893
-add.period$ -- 370
-call.type$ -- 125
-change.case$ -- 997
-chr.to.int$ -- 123
-cite$ -- 157
-duplicate$ -- 2058
-empty$ -- 3448
-format.name$ -- 957
-if$ -- 10255
+            1281 strings with 29380 characters,
+and the built_in function-call counts, 54378 in all, are:
+= -- 5386
+> -- 2365
+< -- 116
++ -- 808
+- -- 806
+* -- 4472
+:= -- 9165
+add.period$ -- 375
+call.type$ -- 124
+change.case$ -- 1018
+chr.to.int$ -- 122
+cite$ -- 143
+duplicate$ -- 2186
+empty$ -- 3657
+format.name$ -- 998
+if$ -- 10892
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 124
-newline$ -- 613
-num.names$ -- 379
-pop$ -- 957
+missing$ -- 120
+newline$ -- 616
+num.names$ -- 376
+pop$ -- 998
 preamble$ -- 1
-purify$ -- 1003
+purify$ -- 1022
 quote$ -- 0
-skip$ -- 1642
+skip$ -- 1706
 stack$ -- 0
-substring$ -- 3291
-swap$ -- 406
-text.length$ -- 45
+substring$ -- 3546
+swap$ -- 495
+text.length$ -- 57
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 738
-warning$ -- 32
-while$ -- 434
+type$ -- 734
+warning$ -- 19
+while$ -- 459
 width$ -- 0
-write$ -- 1569
+write$ -- 1593
 (There were 29 error messages)
