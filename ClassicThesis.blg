@@ -17,7 +17,6 @@ Illegal, another \bibstyle command---line 3 of file FrontBackmatter/Bibliography
  : \bibstyle
  :          {plainnat}
 I'm skipping whatever remains of this command
-A level-1 auxiliary file: FrontBackmatter/Declaration.aux
 Database file #1: Bibliography.bib
 Database file #2: Approach.bib
 Database file #3: LR.bib
@@ -156,45 +155,45 @@ Warning--there's a number but no series in Sukthankar
 Warning--there's a number but no series in Sutton2008
 Warning--can't use both volume and number fields in Vlassis2007
 Warning--empty publisher in Vlassis2007
-You've used 124 entries,
+You've used 125 entries,
             1935 wiz_defined-function locations,
-            1281 strings with 29380 characters,
-and the built_in function-call counts, 54378 in all, are:
-= -- 5386
-> -- 2365
-< -- 116
-+ -- 808
-- -- 806
-* -- 4472
-:= -- 9165
-add.period$ -- 375
-call.type$ -- 124
-change.case$ -- 1018
-chr.to.int$ -- 122
-cite$ -- 143
-duplicate$ -- 2186
-empty$ -- 3657
-format.name$ -- 998
-if$ -- 10892
+            1288 strings with 29485 characters,
+and the built_in function-call counts, 54782 in all, are:
+= -- 5428
+> -- 2378
+< -- 117
++ -- 812
+- -- 810
+* -- 4509
+:= -- 9233
+add.period$ -- 378
+call.type$ -- 125
+change.case$ -- 1025
+chr.to.int$ -- 123
+cite$ -- 144
+duplicate$ -- 2200
+empty$ -- 3687
+format.name$ -- 1005
+if$ -- 10971
 int.to.chr$ -- 3
 int.to.str$ -- 0
-missing$ -- 120
-newline$ -- 616
-num.names$ -- 376
-pop$ -- 998
+missing$ -- 121
+newline$ -- 621
+num.names$ -- 379
+pop$ -- 1002
 preamble$ -- 1
-purify$ -- 1022
+purify$ -- 1029
 quote$ -- 0
-skip$ -- 1706
+skip$ -- 1717
 stack$ -- 0
-substring$ -- 3546
-swap$ -- 495
+substring$ -- 3583
+swap$ -- 496
 text.length$ -- 57
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 734
+type$ -- 740
 warning$ -- 19
-while$ -- 459
+while$ -- 463
 width$ -- 0
-write$ -- 1593
+write$ -- 1606
 (There were 29 error messages)
