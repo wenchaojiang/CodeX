@@ -1,28 +1,28 @@
 %************************************************
 \chapter{AtomicOrchid Study 1: Non agent version}\label{ch:studyone} % $\mathbb{ZNR}$
 %************************************************
-In this study, we analyse team interactions in the \acf{AO} game setting which simulates a time-critical distributed task environment in a disaster response operation. This study uses the full manual version of \acf{AO} without automated planning support. Players are provided with basic coordination support including remote text messaging, GPS/map sharing. Interaction analysis is conducted to examine log data and field observations revealing local and remote coordination within the responder team. We generate design implications for automated planning support and uncover requirements that highlight the role of local coordination, decision-making resources, geo-spatial referencing and message handling. \\
+In this study, we analyse team interactions in the \acf{AO} game setting which simulates a time-critical distributed task environment in a Disaster Response operation. This study uses the full manual version of \acf{AO} without automated planning support. Players are provided with basic coordination support including remote text messaging, GPS/map sharing. Interaction analysis is conducted to examine log data and field observations revealing local and remote coordination within the responder team. We generate design implications for automated planning support and uncover requirements that highlight the role of local coordination, decision-making resources, geo-spatial referencing and message handling. \\
 
 \section{Introduction}
 %\acf{DR} has been characterised as highly coordinated, time-critical collaborative activities  \cite{Mendonca2007}. Coordination is essential in such settings so that time critical interdependent activities such as search and rescue can be completed in a timely and satisfactory manner \cite{Bradshaw2011}. Opportunity space for building `intelligent' task planning support for  such activities has been recognised by the researchers of \ac{HACS} systems (Section \ref{sec:lraisupport}). However, little study has explored the design space for \ac{HACS} systems to support time-critical coordination settings. Therefore, little is known about the challenges and requirements in building systems to support planning for responder teams in such settings.\\
 
 %Due to the critical nature of the disaster operations, it is hard to design and deploy `intelligent' task planning support in the field before we thoroughly explored the requirements of interaction design. On the other hand, computational simulation of an `intelligent' system is fundamentally insufficient for studying socio-technical issues (Section \ref{sec:sociotech}). 
 
-In this study, we aim to use the non-agent version of the AtomicOrchid game as a research probe to uncover the requirements and design implication for building an`intelligent' coordination support system. The AtomicOrchid game creates a socio-technical setting in which player teams plan and execute spatially distributed tasks (see section \ref{sec:sociotech}). Although \ac{AI} researchers have envisioned that an intelligent agent can support task planning by providing computational optimised task allocations in real-time, we focus on a manual version of AtomicOrchid, which does not involve any computational planning support. The primary objective is to unpack how human teams coordinate in the time and space constrained task setting through interaction analysis of behavioural data collected from field trials. In particular, the interaction analysis focuses on two aspects of coordination in \ac{AO}, namely `remote' and `local'. The remote aspect is concerned with the coordination activities across distributed teams and remote HQ, which are typically mediated by computational systems. The local aspects are about coordination within co-located teams, in which face-to-face conversations play a major role. Drawing on the results of the interaction analysis, we aim to generate design requirements and implications for automated planning support. \\
+In this study, we aim to use the non-agent version of the AtomicOrchid game as a research probe to uncover the requirements and design implication for building an `intelligent' coordination support system. The AtomicOrchid game creates a socio-technical setting in which player teams plan and execute spatially distributed tasks (see section \ref{sec:sociotech}). Although \ac{AI} researchers have envisioned that an intelligent agent can support task planning by providing computational optimised task allocations in real-time, we focus on a manual version of AtomicOrchid, which does not involve any computational planning support. The primary objective is to unpack how human teams coordinate in the time and space constrained task setting through interaction analysis of behavioural data collected from field trials. In particular, the interaction analysis focuses on two aspects of coordination in \ac{AO}, namely `remote' and `local'. The remote aspect is concerned with the coordination activities across distributed teams and remote HQ, which are typically mediated by computational systems. The local aspects are about coordination within co-located teams, in which face-to-face conversations play a major role. Drawing on the results of the interaction analysis, we aim to generate design requirements and implications for automated planning support. \\
 
-Additionally, this study also supports our later system development and trials. As the first of three iterative trials in this PhD work, this non-agent trial supports the agent-integrated trials reported in Chapter \ref{ch:studytwo} and \ref{ch:studythree}trials by (1) revealing baseline performance of human coordination without agent support (2) generating design requirements which feed into subsequent refinements of AtomicOrchid. The requirements are critical in that (1) the later studies can use them to recognize non-agent related design factors and (2) it also can inspire the interaction design between agent and responders in later system refinement.  \\
+Additionally, this study also supports our later system development and trials. As the first of three iterative trials in this PhD work, this non-agent trial supports the agent-integrated trials reported in Chapter \ref{ch:studytwo} and \ref{ch:studythree} by (1) revealing baseline performance of human coordination without agent support (2) generating design requirements which feed into subsequent refinements of AtomicOrchid. The requirements are critical in that (1) the later studies can use them to recognize non-agent related design factors and (2) it also can inspire the interaction design between agent and responders in later system refinement.  \\
 
 %rephrase
 %Findings from the study highlight the social processes in which players organise their coordination tasks locally and remotely. We discuss the division of labour between humans and teams; the interactional problems emerged from the remote coordination. We conclude the paper with a number of emerging interaction design requirements to consider when building planning support systems for human teams, which emphasises on system support for remote coordination. \\
 
 In what follows, we expand on the description of the \ac{AO} system in chapter \ref{ch:approach} with a focus on interfaces and interaction design that are specific to this study. We then present results of the interaction analysis, followed by a discussion of performance implications derived from the results, before we move to design requirements. \\
 
-\section{System description}\label{sec:study3system}
+\section{System description}\label{sec:study1system}
 % ===== how do I split this with Approach chapter
 The basic game mechanic and system architecture have been introduced in the chapter \ref{ch:approach}. This section gives a detailed description of the system interface that support coordination between the field responder(FR) and headquarter(HQ) players. \\
 
 % the HQ interface 
-In this, study, HQ is manned by 2-3 coordinators. All of the coordinators are provided with a web-based coordination interface (Figure \ref{fig:HQinterface}). The interface gives them an overview of the game status and enable them to communicate with the field responders. \\
+In this study, HQ is manned by 2-3 coordinators. All of the coordinators are provided with a web-based coordination interface (Figure \ref{fig:HQinterface}). The interface gives them an overview of the game status and enable them to communicate with the field responders. \\
 
 % insert image here.
 \begin{figure}[h]
@@ -63,7 +63,7 @@ As described in chapter \ref{ch:approach}, we took a mixed methods approach to d
 
 \textbf{Data handling} Firstly, the log data (including remote messages) are handled by a digital replay system to reconstruct the game state (Appendix \ref{app:vis1}) that can be triangulated with video data to support interaction analysis (Section \ref{sec:aprloghandling}). Secondly, to give an overview of how remote messages are used as a coordination resource, we used speech-act theory and the notion of adjacency pairs in linguistics to classify messages sent between and among responders and HQ (Section \ref{sec:aprmsg}).\\
 
-\textbf{Interaction analysis} We focus on the analysis of local field responders` interaction to unpack team coordination, including handling of messages sent by HQ. Video recordings of field action were catalogued to identify sequences (episodes) of interest (\ref{sec:aprloghandling}). Key decision points in teaming and task allocation served to index the episodes. Interesting distinct units of interaction were transcribed and triangulated with log files of relevant game activity for deeper analysis that we present in this chapter. Results of interaction analysis will be presented by detailed episodes of game play, with standard orthographic notations introduced in section \ref{sec:aprIA}. \\
+\textbf{Interaction analysis} We focus on the analysis of local field responders` interaction to unpack team coordination, including handling of messages sent by HQ. Video recordings of field action were catalogued to identify sequences (episodes) of interest (\ref{sec:aprloghandling}). Key decision points in teaming and task allocation served to index the episodes. Interesting distinct units of interaction were transcribed and triangulated with log files of relevant game activity for deeper analysis that we present in later this chapter. Results of interaction analysis will be presented by detailed episodes of game play, with standard orthographic notations introduced in section \ref{sec:aprIA}. \\
 
 \section{Data analysis and results}
 Here, we present findings from interaction analysis supported by message classification that reveal how team coordination was achieved. Overall, responders rescued 7 and 9 targets in sessions A and B, respectively, out of 16 targets in total per session (Table \ref{tab:gameResults1}). Two players were incapacitated in session A, and 1 player was incapacitated in session B. 117 and 70 messages were sent in sessions A and B, respectively.\\
@@ -113,7 +113,7 @@ Most messages in the category of directives are instructions sent by headquarter
 \texttt{``HQ : JH1 pair up with BR to save animal inbetwen TA centre and national college''}\\
 \end{quote}
 
-The instruction sent from HQ consists of two parts: (1) Description of Teaming (who are involved) (2) Description of Location (Targets) to go to. It is worth mentioning that HQ players use different strategies when they try to describe a location to field players. HQ players in session B frequently referred to landmarks on the map in their description, while HQ in session A used simple directions (north, west, south, east). For example:\\
+The instruction sent from HQ consists of two parts: (1) Description of Teaming (who are involved) (2) Description of location (Targets) to go to. It is worth mentioning that HQ players use different strategies when they try to describe a location to field players. HQ players in session B frequently referred to landmarks on the map in their description, while HQ in session A used simple directions (north, west, south, east). For example:\\
 
 \begin{quote}
 \texttt{``HQ: TEAM A, can you head south to the radiation and animal targets? ''} \\
@@ -193,6 +193,7 @@ A field players also commented on the issue:\\
 To sum up, the majority of messages are assertives and directives from HQ. Directives are instructions sent by HQs as their attempts to guide/control task planning and execution of the team, while the assertives are mainly informational content about status of the danger zone (i.e. the cloud). A small number of commssives, expressives and declarations are also found in the messages. Both HQ and field responders send requests for various purposes (e.g. request for task, teammate, cloud status, confirmations). Based on analysis of adjacency pairs, response rate to the requests are poor, which aligns with the player's comments about their experience of using the message system.
 
 \subsection{Responding to directives from HQ}\label{sec:study1directives}
+Directives index the instances of remote coordination of field responders by HQ. The observed response to messages is critical to understanding the relationships between local and remote coordination. \\
 % TODO introduce episode 2 in my part as a simple unproblematice case here!!
 Here, we examine how field responders deal with messages from HQ that attempt to allocate tasks and manage task execution (i.e., directives). Classification of messages showed that directives were exclusively sent by HQ, and that they were the most frequent kind of message (Table \ref{tab:speechact}). Overall, out of the 43 directives HQ sent for task allocation, the recipient field responders brought up only 15 messages in conversation in the team (Figure \ref{fig:study1instructions}). The instances in which task allocation messages were addressed reveal the handling and value of HQ directives in the local coordination. Firstly, out of the 15 task allocation messages responders talked about, they decided to ignore the instructions only once. The responders ignored instructions because they were engaged in another task that they did not want to abandon. Secondly, four HQ instructions to rescue a certain target coincided with the same plan that had already been made locally by the responders. In 10 cases, field responders chose to follow the instructions. However, due to confusion and misunderstanding they failed to follow them correctly six times. In fact, only 2 instances of directives from the HQ led to task completion. For the remaining 14 saved targets, field responders had locally allocated the tasks without HQ.\\
 
@@ -204,7 +205,7 @@ Here, we examine how field responders deal with messages from HQ that attempt to
   \label{fig:study1instructions}
 \end{figure}
 
-Directives index the instances of remote coordination of field responders by HQ. The observed response to messages is critical to understanding the relationships between local and remote coordination. The following episode depicts a team of three on their way to pick up fuel. Their path is blocked by radiation. Without a team, firefighter JH (on the left) has just joined soldier KY (on the right), and firefighter D2 who have just been allocated a task in a message by HQ. (Figure \ref{fig:study1ep11})\\
+The following episode depicts a team of three on their way to pick up fuel. Their path is blocked by radiation. Without a team, firefighter JH (on the left, Figure \ref{fig:study1ep11}) has just joined soldier KY (on the right), and firefighter D2 who have just been allocated a task in a message by HQ. \\
 
 \begin{figure}[h]
   \centering
@@ -272,18 +273,19 @@ As presented, field responders predominantly coordinated teaming and task alloca
 \begin{minipage}[b]{0.45\linewidth}
 \includegraphics[width=1\textwidth]{img/study1/ep2/ep21}
 \caption{Episode 1.2, MF (right), BR (middle)}
-\label{fig:study2ep21}
+\label{fig:study1ep121}
 \end{minipage}
 \quad
 \begin{minipage}[b]{0.45\linewidth}
  \includegraphics[width=1\textwidth]{img/study1/ep2/ep22}
 \caption{Episode 1.2, MF (right), BR (left)}
-\label{fig:study2ep22}
+\label{fig:study1ep122}
 \end{minipage}
+
 \end{figure}
 
 \noindent\texttt{\textbf{Episode 1.2}\\
-\emph{[MF (on the right) and teammate walking towards BR (center)]\\}
+\emph{[MF (on the right, Figure \ref{fig:study1ep121}) and teammate walking towards BR (center)]\\}
 \textbf{BR:} Any soldiers?\\
 \textbf{MF:} I am soldier yeah.\\
 \textbf{BR:} Would you like to pair with me? (2.0) to rescue a fuel?\\
@@ -299,7 +301,7 @@ As presented, field responders predominantly coordinated teaming and task alloca
 
 At the beginning of the episode, MF met BR, who was waiting at the drop-off zone without a compatible teammate. BR requested to team up with MF (``Would you like to pair with me? (2.0) to rescue a fuel?'') after MF identified himself as a soldier. BR and MF can then be observed sharing the screen of his device and using the map to identify potential targets (fuels) (Figure \ref{fig:study2ep22}). They realise one of fuel targets is already being pursued by another team. They agree on another target fuel to pursue. Note that messages do not play a role in this episode. It exemplifies how teaming and task allocation are achieved locally, without consulting HQ. \\
 
-The next episode is a follow-up episode, which demonstrates how two teams resolve the conflict when they approach a same target.\\
+The next episode is a follow-up of episode 1.2, which demonstrates how two teams resolve the conflict when they approach a same target.\\
 
 \begin{figure}[h]
   \centering
@@ -309,6 +311,7 @@ The next episode is a follow-up episode, which demonstrates how two teams resolv
 \end{figure}
 
 \noindent\texttt{\textbf{Episode 1.3}\\
+\emph{The team MF BR met team KY D2 on their way to target.\\}
 \textbf{D2:} we are told to get this fuel (target 1) from HQ.((pointing to screen))\\
 \textbf{MF:} you are going to the fuel (target 1) we are aiming for, we thought you are going for this one (target 2).\\
 \textbf{D2:} we were, until we got a message [from HQ] saying not to. \\
@@ -384,7 +387,7 @@ The pattern of division of labour between field responders and HQ indicates the 
 
 
 \subsection{Breakdown of remote coordination}\label{sec:study1breakdown}
-The observed division of labour (Section \ref{sec:study1dlabour}) highlights heavy reliance on local coordination. To some extent, the heavy reliance on ``ad-hoc'' local coordination can partly be a result of the lack of remote coordination support. In other words, local coordination becomes important when system support for remote coordination is problematic. In a co-located setting, players can naturally make their actions observable and accountable to each other through conversations, body languages, gestures , screen sharing etc, and organise coordination activities reflexively. However, in the remote setting, the natural accountability of their activities become opaque. The game probe provides a set of functionalities supporting remote coordination, including GPS/map sharing, broadcasting. We have observed players utilise these functionalities to make sense of other team members' actions (see section \ref{sec:s1localcoordination}) and act accordingly. However, coordination with remote players is still problematic which can be evidenced by the lack of response and acknowledgements to requests in the messaging channel (Section \ref{sec:adjpairs}); and the misunderstanding and confusions observed when field responders try to follow the directives from HQ (Section \ref{sec:study1directives}).\\
+The observed division of labour (Section \ref{sec:study1dlabour}) highlights heavy reliance on local coordination. To some extent, the heavy reliance on ``ad-hoc'' local coordination can partly be a result of the lack of remote coordination support. In other words, local coordination becomes important when system support for remote coordination is problematic. In a co-located setting, players can naturally make their actions observable and accountable to each other through conversations, body languages, gestures , screen sharing etc, and organise coordination activities reflexively. However, in the remote setting, the natural accountability of their activities become opaque. The game probe provides a set of functionalities supporting remote coordination, including GPS/map sharing, broadcasting. We have observed players utilise these functionalities to make sense of other team members' actions (Section \ref{sec:s1localcoordination}) and act accordingly. However, coordination with remote players is still problematic which can be evidenced by the lack of response and acknowledgements to requests in the messaging channel (Section \ref{sec:adjpairs}); and the misunderstanding and confusions observed when field responders try to follow the directives from HQ (Section \ref{sec:study1directives}).\\
 
 We suggest that future planning support should properly support remote coordination in a way that facilitates accountability among distributed team members. Section \ref{sec:study1requirements} discuss some detailed requirements of remote coordination support drawn from the field observations. The next section in particular,  expands on the design requirements that can enhance remote coordination in a way that supports natural accountability of human activities.\\
 
@@ -394,7 +397,7 @@ We suggest that future planning support should properly support remote coordinat
 %[connect to situated planning by Lucy suchman] it is a kind of situated action. \\
 % It is important that we do not treat human plan in an inferir way. They are about to leverage all the resources avalible to make deblibration on their actions. Supporting them a plan will be the same as augmenting their resources. How the team organsie their activities around this resouces can be makde subjuct of study. and study about that can lead to interaction design that support situation
 
-To some extent, the observation of ``ad-hoc'' local coordination is aligned with the view of situated actions. As a whole team, players form and disband teams without holistic plans prior to their actions. Players are observed to have conversations about their status, on-going activities when they meet up. Local decisions for next moves are often made during the conversations.  Information from mobile interface (e.g. player locations, radiation readings and messages) are often brought to conversions as resources in the context of their situated actions. \\
+To some extent, the observation of ``ad-hoc'' local coordination is aligned with the view of situated actions. As a whole team, players form and disband teams without team-wide plans prior to their actions. Players are observed to have conversations about their status, on-going activities when they meet up. Local decisions for next moves are often made during the conversations.  Information from mobile interface (e.g. player locations, radiation readings and messages) are often brought to conversions as resources in the context of their situated actions. \\
 
 The lack of plans may indicate the lack of optimisation of team task allocation. The multi-agent coordination algorithms (e.g. \citep{Ramchurn2010}) aims to support the team by producing computationally optimised plans for responder teams. However, design of the planning support may not be straightforward. \\
 
@@ -418,7 +421,7 @@ Drawing on the problems observed in remote coordination (Section \ref{sec:study1
 
 %Freshness of messages. Problems arose from erroneous instructions or otherwise out-dated messages sent to field responders. In one case HQ sent a message in which two players with non-compatible roles were instructed to team up. This was particularly costly, as the players attempted to team up, and lost valuable time until they realised the game mechanics barred them from forming a team.\\
 
-\textbf{Freshness of messages} As demonstrated in one of the episodes, reading out-dated messages in a dynamically changing environment can contribute to responders taking dangerous actions that they believe to be safe, because they do not realise that the information is out-dated. However, in most cases, recipients managed to identify temporally irrelevant messages, and thus avoided following them. To reduce confusion about message freshness, such systems should address these issues at the UI level, both for responders and for HQ. Develop functionality to flag messages as out-dated, to retract incorrect messages, or highlighting up-to-date messages. \\
+\textbf{Freshness of messages} As demonstrated in one of the episodes (1.1), reading out-dated messages in a dynamically changing environment can contribute to responders taking dangerous actions that they believe to be safe, because they do not realise that the information is out-dated. However, in most cases, recipients managed to identify temporally irrelevant messages, and thus avoided following them. To reduce confusion about message freshness, such systems should address these issues at the UI level, both for responders and for HQ. Develop functionality to flag messages as out-dated, to retract incorrect messages, or highlighting up-to-date messages. \\
 
 % System support of shared representation of plans and status.
 
@@ -428,29 +431,29 @@ Drawing on the problems observed in remote coordination (Section \ref{sec:study1
 
 %data
 
-As a result, user interfaces that enable and encourage field responders to quickly acknowledge HQ messages, with minimum cognitive load, should be considered for messaging in such systems in such high demand settings. For effective team coordination in disaster response, interface and workflow designs need to factor in cognitive load and task demands for effective information distribution.\\
+As a result, user interfaces that enable and encourage field responders to quickly acknowledge HQ messages, with minimum cognitive load, should be considered for messaging in such systems in such high demand settings. For effective team coordination in Disaster Response, interface and workflow designs need to factor in cognitive load and task demands for effective information distribution.\\
 
 
 \section{Summary}
 The objective of this study is to unpack how human teams coordinate in the time and space constrained task setting. In particular, we focussed on a scenario in which responders coordinate role-based teaming and spatially distributed task allocation and execution using a real-time location and messaging system, with no automated planning support.\\
 
-We presented the design and study of the AtomicOrchid game as a mixed-reality game probe to investigate challenges for team coordination in a setting in which participants experience both physical strain through bodily activity, and cognitive challenge through time pressure and task complexity. We use mixed-reality game probes as a platform for investigation of concomitant socio-technical issues: handling of mobile devices to communicate and maintain situational awareness (messaging, sensing, interaction, and display) intersect with face-to-face interaction, whilst the physio-cognitive challenges created through game mechanics and environment induce stress. We created a setting that allows exploring requirements to support team coordination of relevance to time-critical coordination domains such as real disaster response.\\
+We presented the design and study of the AtomicOrchid game as a mixed-reality game probe to investigate challenges for team coordination in a setting in which participants experience both physical strain through bodily activity, and cognitive challenge through time pressure and task complexity. We use mixed-reality game probes as a platform for investigation of concomitant socio-technical issues: handling of mobile devices to communicate and maintain situational awareness (messaging, sensing, interaction, and display) intersect with face-to-face interaction, whilst the physio-cognitive challenges created through game mechanics and environment induce stress. We created a setting that allows exploring requirements to support team coordination of relevance to time-critical coordination domains such as real Disaster Response.\\
 
 Findings from interaction analysis of field observations, triangulated with log files, reveal how field responders achieved coordination by drawing on local face-to-face conversation with fellow responders, and situational information provided by the interactive map, the Geiger counter, and the messages sent by HQ. Drawing on these findings, we highlight challenges of introducing automated planning support into the socio-technical setting of \ac{AO}. We also generate requirements for supporting team coordination, emphasising the roles of local coordination, decision-making resources, geospatial referencing and message handling. Most of the requirements are fed into the refinements of the \ac{AO} system in later studies, which help take into account the non-agent related design factors. \\
 
 % These requirements inform future work on building planning support system by emphasising the role of human interaction in team coordination in time-critical settings.\\
 
 %************************************************
-\chapter{AtomicOrchid Study 2: The Human On-the-loop Design}\label{ch:studytwo} % $\mathbb{ZNR}$
+\chapter{AtomicOrchid Study 2: The Human on-the-loop design}\label{ch:studytwo} % $\mathbb{ZNR}$
 %************************************************
-This chapter presents the second iteration of AtomicOrchid field trials. In this study, a planning agent is integrated into the system by following a human on-the-loop interaction design, in which the HQs only monitor the planning agent and occasionally intervene. The purpose of the trials is to investigate socio-technical issues related to human agent interaction. Interaction analysis is conducted to examine log data and field observations revealing how human agent interaction plays out, in turn, revealing the process by which players interpret and negotiate the agent`s guidance as well as how these are intertwined with social dynamics of the teams.
+This chapter presents the second iteration of AtomicOrchid field trials. In this study, a planning agent is integrated into the system by following a human on-the-loop interaction design, in which the HQs only monitor the planning agent and occasionally intervene. The purpose of the trials is to investigate socio-technical issues related to human system interaction. Interaction analysis is conducted to examine log data and field observations, revealing how human system interaction plays out, in turn, revealing the process by which players interpret and negotiate the agent`s guidance as well as how these are intertwined with social dynamics of the teams.
 
 \section{Introduction}\label{sec:studytwointroduction}
 % Task planning in teams can be complicated by both spatial and temporal constraints, particularly in time-critical task domains such as \acf{DR}. In a \ac{DR} setting, responder teams have to coordinate sparse resources and personnel to prioritize geographically distributed tasks, forming and disbanding teams dynamically to carry out \ac{DR} operations \cite{Chen2005}. Multi-agent researchers have devised a number of agent coordination algorithm to coordinate task allocations for multi-agent systems, which can be adapted to support planning activities of \ac{DR} teams. \\
 
 % However, these algorithms typically model humans as computational agents with respective capabilities, for example to dynamically allocate teams of agents to tasks in order to maximise an objective (e.g., number of lives saved), taking into account other aspects of the real world (environment, infrastructures, victims, etc.) \cite{Ramchurn2010a}. Therefore, the quality of the planning results can be constrained by limited assumptions of human behaviour (e.g., human psychosocial characteristics, movement, and learning ability) and real world environment \cite{Armenakis2012}. These limitations highlight importance of human input in the planning process. Thus, we argue that effective collaboration between human and agent is required to produce and execute high quality plans in the disaster setting. . \\
 
-In order to support effective Human agent collaboration, two patterns of interaction design (Human On-the-loop and In-the-loop) are presented in section \ref{sec:patterns}. In this study, the planning agent is integrated into the AtomicOrchid system with a straightforward Human On-the-loop design (Figure \ref{fig:study2OnTheLoop}). This design assumes minimal Headquarters intervention, that is, the agent can directly interact with field responders to generate and implement plans without constant involvement of HQ. The interaction design is aimed to facilitate a pattern of division of labour, in which a planning agent routinely assigns tasks to distributed responder teams, while human coordinators (the HQ) monitor and support the task execution by responding to arising contingencies. The agent is designed in a way to take into account simple human feedback, i.e., a field responder can either reject or accept their task assignment. The agent will consider the feedback for the next iteration of task assignment.\\
+In order to support effective Human agent collaboration, two patterns of interaction design (human on-the-loop and in-the-loop) are presented in section \ref{sec:patterns}. In this study, the planning agent is integrated into the AtomicOrchid system with a straightforward human on-the-loop design (Figure \ref{fig:study2OnTheLoop}). This design assumes minimal Headquarters intervention, that is, the agent can directly interact with field responders to generate and implement plans without constant involvement of HQ. The interaction design is aimed to facilitate a pattern of division of labour, in which a planning agent routinely assigns tasks to distributed responder teams, while human coordinators (the HQ) monitor and support the task execution by responding to arising contingencies. The agent is designed in a way to take into account simple human feedback, i.e., a field responder can either reject or accept their task assignment. The agent will consider the feedback for the next iteration of task assignment.\\
 
 \begin{figure}[h]
   \centering
@@ -459,7 +462,7 @@ In order to support effective Human agent collaboration, two patterns of interac
   \label{fig:study2OnTheLoop}
 \end{figure}
 
-This study uses the agent integrated version of AtomicOrchid as a probe to unfold socio-technical issues in human-agent interaction, with focus on the implications of the Human On-the-loop design on human team performance. More specifically, this chapter addresses the following research questions on how agent guidance affects the social organisation of team performance:\\
+This study uses the agent integrated version of AtomicOrchid as a probe to unfold socio-technical issues in human-agent interaction, with focus on the implications of the human on-the-loop design on human team performance. More specifically, this chapter addresses the following research questions on how agent guidance affects the social organisation of team performance:\\
 
 \begin{enumerate}
 \item How do human teams respond to being instructed by an agent, particularly on switching teams and tasks?\\
@@ -485,7 +488,7 @@ Findings from the study highlight the social processes in which members interpre
 %Findings from the study highlight the social processes in which members interpret, negotiate, and manage the agent guidance within the social dynamics of teams. We discuss the division of labour between humans and teams; the hidden costs of instructions that suggest team reformation and interrupt on-going tasks. We conclude the paper with a number of emerging interaction design recommendations to consider when building agent-based support systems for human teams, which emphasise the need for common ground between humans and the agent, facilitate accountability between team members, and balance responsibilities between humans and the planning agent appropriately. 
 
 \section{System evolution}\label{sec:studytwosystem}
-Compared to study 1 (Chapter \ref{ch:studyone}), the system has evolved to provide agent planning support with an On-the-loop interaction pattern. This section gives a description of the changes of the system, which covers integration of a planning agent, implementation of a quick feedback system, and improvement in both HQ and mobile interface.
+Compared to study 1 (Chapter \ref{ch:studyone}), the system has evolved to provide agent planning support with an on-the-loop interaction pattern. This section gives a description of the changes of the system, which covers integration of a planning agent, implementation of a quick feedback system, and improvement in both HQ and mobile interface.
 
 \subsection{The planning agent}\label{sec:studyoneagent}
 One major change of the system is the integration of a planning agent into the AtomicOrchid platform. The planning agent is developed by ORCHID research partner Wu Feng, Sarvapali Ramchurn, and detailed in section \ref{sec:appagent}. \\
@@ -503,7 +506,7 @@ The planner, implemented in Java, is wrapped in a PHP server framework and deplo
 \end{enumerate}
 
 \subsection{A feedback loop}\label{sec:study2feedback}
-The feedback system is part of the On-the-loop interaction design, which enables the agent to take into account simple human feedback. It is also partly inspired by a requirement generated in study 1, which highlights the importance of quick acknowledgements from field responders. The feedback system can be seen as a system mechanism for the field team to provide quick responses to the planning agent. This section goes through the implementation details of the feedback loop.\\
+The feedback system is part of the on-the-loop interaction design, which enables the agent to take into account simple human feedback. It is also partly inspired by a requirement generated in study 1, which highlights the importance of quick acknowledgements from field responders. The feedback system can be seen as a system mechanism for the field team to provide quick responses to the planning agent. This section goes through the implementation details of the feedback loop.\\
 
 Once a plan is received from the agent, the AtomicOrchid game engine splits the plan for a given team into individual task allocations and sends these to each responder`s mobile app (Figure \ref{fig:handlingplans}). The app displays the task allocation in a pop-up and details it in the new task tab, including: i) the responder to team up with, ii) the allocated target (using target id), and iii) the approximate direction of the target (e.g., north, east) (Figure \ref{fig:study2mobiletask}).\\
 
@@ -747,7 +750,7 @@ Overall, the majority of new instructions that interrupted on-going tasks requir
 
 HQ sent a total of 147 messages in the two sessions. We identified 50 assertives and 68 directives in two sessions through speech act analysis \ref{sec:aprmsg}. The majority of assertives were focused on providing situational awareness and safely routing the responders to avoid exposing them to radiation. E.g. ``NK and JL approach drop off 6 by navigating via 10 and 09.'' or ``Radiation cloud is at the east of the National College.''\\
 
-16 out of 68 directives were directly related to task allocations and teaming, which is substantially less then the number of agent instructions (51). Among the 16 directives, HQ sent 11 direct instructions to the field players (e.g. ``SS and LT retrieve 09''), while the remaining 5 are related to forward planning, (e.g., ``DP and SS, as soon as you can head to 20 before the radiation cloud gets there first''). 6 of the HQ instructions are consistent with agent instruction, while 5 other HQ instructions override the agent instructions. It is worth mentioning that field players implemented only 5 out of 16 HQ instructions. In the interview, HQ reported that they felt they supported the agent rather than taking control. \\
+16 out of 68 directives were directly related to task allocations and teaming, which is substantially less then the number of agent instructions (51). Among the 16 directives, HQ sent 11 direct instructions to the field players (e.g. ``SS and LT retrieve 09''), while the remaining 5 are related to forward planning, (e.g., ``DP and SS, as soon as you can head to 20 before the radiation cloud gets there first''). 6 of the HQ instructions are consistent with agent instructions, while 5 other HQ instructions override the agent instructions. It is worth mentioning that field players implemented only 5 out of 16 HQ instructions. In the interview, HQ reported that they felt they supported the agent rather than taking control. \\
 
 %Insert a diagram here.
 
@@ -813,13 +816,13 @@ While the rules of social conduct ensured accountability of action among co-loca
 
 \section{Summary}
 
-In this chapter, we examined how the guidance from a planning agent is handled socially in the Human On-the-loop setting. To support our field trial we integrated a planner agent with AtomicOrchid and modified both mobile and HQ interface to facilitate the On-the-loop interaction pattern between human and agent. Findings from interaction analysis of field observations, triangulated with log files, reveal how the On-the-loop interactions played out. The results of the analysis show a division of labour in which the agent takes over the majority of planning activities while field responders only focus on other issues such as finding routes and targets. However, field observations also reveal significant costs associated with instructions that require members to reform new teams, and that interrupt on-going tasks. In addition, some confusions and misunderstanding are also discovered in the human agent feedback loop. Based on the findings, we presented three design implications to consider when creating agent-based planning support systems for human teams, including establishing `common ground', facilitating accountability and balancing responsibilities between human and agent.\\
+In this chapter, we examined how the guidance from a planning agent is handled socially in the human on-the-loop setting. To support our field trial we integrated a planner agent with AtomicOrchid and modified both mobile and HQ interface to facilitate the on-the-loop interaction pattern between human and agent. Findings from interaction analysis of field observations, triangulated with log files, reveal how the on-the-loop interactions played out. The results of the analysis show a division of labour in which the agent takes over the majority of planning activities while field responders only focus on other issues such as finding routes and targets. However, field observations also reveal significant costs associated with instructions that require members to reform new teams, and that interrupt on-going tasks. In addition, some confusions and misunderstanding are also discovered in the human system feedback loop. Based on the findings, we presented three design implications to consider when creating agent-based planning support systems for human teams, including establishing `common ground', facilitating accountability and balancing responsibilities between human and agent.\\
 
 
 %************************************************
-\chapter{AtomicOrchid Study 3: Agent-supported In-the-loop design}\label{ch:studythree} 
+ \chapter{AtomicOrchid Study 3: Agent-supported in-the-loop design}\label{ch:studythree} 
 %************************************************
-This chapter presents the third iteration of the \acf{AO} field trials. The purpose of this iteration is to investigate socio-technical issues relating to agent planning support with a Human In-the-loop interaction design. Based on the On-the-loop version of AtomicOrchid (Section \ref{sec:studytwosystem}), the system has gone through another development iteration to facilitate an in-the-loop interaction pattern. Through interaction analysis of video recordings and game log data, we reveal how this In-the-loop design unfolds and, through a number of critical incidents, how it breaks down. A workshop with a professional disaster response team is conducted to reflect on the realism of the AtomicOrchid scenario. \\
+This chapter presents the third iteration of the \acf{AO} field trials. The purpose of this iteration is to investigate socio-technical issues relating to agent planning support with a human in-the-loop interaction design. Based on the on-the-loop version of AtomicOrchid (Section \ref{sec:studytwosystem}), the system has gone through another development iteration to facilitate an in-the-loop interaction pattern. Through interaction analysis of video recordings and game log data, we reveal how this in-the-loop design unfolds and, through a number of critical incidents, how it breaks down. A workshop with a professional Disaster Response team is conducted to reflect on the realism of the AtomicOrchid scenario. \\
 
 %and raises the challenge to extend this work to more complex but slower paced situations.   \\
 
@@ -847,7 +850,7 @@ In this study, we refine the \ac{AO} interface and place a human coordinator in-
   \label{fig:study2InTheLoop}
 \end{figure}
 
-Compared to the human on-the-loop design in the previous study (Section \ref{sec:approachPatterns}, chapter \ref{ch:studyone}) , the major change is the rebalancing of responsibilities in the control room (between HQ and agent). The interaction between field responder and the control room is mostly unchanged. Therefore, this study has a strong focus on control room interaction compared to study 2. More specifically, the objective of this study is to unpack the human agent interaction in the human in-the-loop paradigm, particularly in the control room, revealing division of labour, interactional issues and design implications that can be drawn from the interactions. Findings from the study reveal the processes in which the agent and HQ players collectively generate task assignments for field players. Occasional failures in the process highlight a set of issues including complacency; silent, missing or invisible information; and limited support for human planning. In addition, a workshop with a professional disaster response team is reported in this chapter to reflect on the realism of the AtomicOrchid scenario. \\
+Compared to the human on-the-loop design in the previous study (Section \ref{sec:approachPatterns}, chapter \ref{ch:studyone}) , the major change is the rebalancing of responsibilities in the control room (between HQ and agent). The interaction between field responder and the control room is mostly unchanged. Therefore, this study has a strong focus on control room interaction compared to study 2. More specifically, the objective of this study is to unpack the human system interaction in the human in-the-loop paradigm, particularly in the control room, revealing division of labour, interactional issues and design implications that can be drawn from the interactions. Findings from the study reveal the processes in which the agent and HQ players collectively generate task assignments for field players. Occasional failures in the process highlight a set of issues including complacency; silent, missing or invisible information; and limited support for human planning. In addition, a workshop with a professional Disaster Response team is reported in this chapter to reflect on the realism of the AtomicOrchid scenario. \\
 
 
 \section{System evolution}\label{sec:study3system}
@@ -887,7 +890,7 @@ Compared to the on-the-loop version of AtomicOrchid, the mobile interface is lar
   \label{fig:study3mobileInterface}
 \end{figure}
 
-The situational awareness interface is the same as the HQ interface used in study 2 (Section \ref{sec:studytwointerface}). It provides information about game status monitoring, and a broadcast message channel for communicating with field players (Figure \ref{fig:study3SAinterface}).\\
+The situational awareness interface is the same as the HQ interface used in study 2 (Section \ref{sec:studytwointerface}). It provides information about game status for monitoring, and a broadcast message channel for communicating with field players (Figure \ref{fig:study3SAinterface}).\\
 
 \begin{figure}[h]
   \centering
@@ -939,7 +942,7 @@ The messaging panel (Figure \ref{fig:study3msgmode}) can be toggled by clicking 
 \item The Feedback indicator:\\
 The feedback indicators are attached to the right hand side of the confirmed assignments (Figure  \ref{fig:study3TAinterface} (6)). The field players can easily provide feedback on their assignment through the mobile responder interface (introduced later). There are three possible values for the indicator (no response, reject, accept). Because rejections typically indicate issues that needs to be followed up by HQ, the rejection will be highlighted in red, and flashing. \\
 
-When both involved players both accept the assignment, the keep checkbox will be ticked automatically. This is a mechanism to avoid accidental interruption of the accepted assignments in subsequent re-plans. \\
+When both involved players accept the assignment, the keep checkbox will be ticked automatically. This is a mechanism to avoid accidental interruption of the accepted assignments in subsequent re-plans. \\
 
 \item Stop button: \\
 The stop button can be used to indicate an emergency termination of an assignment (Figure\ref{fig:study3TAinterface} (6)). If this button is clicked, the assignment will be dismissed both in the mobile and HQ interface. \\
@@ -996,7 +999,7 @@ Session B & 12           & 97         & 0          & 48.12      & 41        & 2
 \end{table}
 
 \subsection{Messaging system}
-One change of the messaging system made for this iteration is separating channels for assignment-specific and broadcast messages. The HQ1, with the task assignment interface, is responsible for sending message in assignment-specific channel, while the HQ2, with the situation awareness interface, is responsible for sending messages in the general message channel. This section will reveal how this design plays out in the field trials. \\
+One change of the messaging system made for this iteration is the separated channels for assignment-specific and broadcast messages. The HQ1, with the task assignment interface, is responsible for sending message in assignment-specific channel, while the HQ2, with the situation awareness interface, is responsible for sending messages in the general message channel. This section will reveal how this design plays out in the field trials. \\
 
 
 \begin{table}[h]
@@ -1127,7 +1130,7 @@ Overall, the task interrupt is resulted in a problematic sense making process in
 %This episode can be an example showing that computationally `optimized' assignment is not socially optimized for teams and HQ supervision failed to tackle the issue.\\
 
 \subsection{Correcting the plan}
-HQ players occasionally chose to change the task assign- ments generated by the planning agent; episode 3.3 presents one such example.\\
+HQ players occasionally chose to change the task assignments generated by the planning agent; episode 3.3 presents one such example.\\
 
 \noindent\texttt{\textbf{Episode 3.3}\\
 \emph{CE and KH are currently assigned target 03 but have not accepted; other players are free}
@@ -1142,7 +1145,7 @@ HQ players occasionally chose to change the task assign- ments generated by the 
 \textbf{04:56,} (MP, GO accepted)\\
 }
 
-\begin{figure}[ht]
+\begin{figure}[ht] 
 \centering
 \begin{minipage}[b]{0.45\linewidth}
 \includegraphics[width=1\textwidth]{img/study3/ep31}
@@ -1152,9 +1155,10 @@ HQ players occasionally chose to change the task assign- ments generated by the 
 \quad
 \begin{minipage}[b]{0.45\linewidth}
  \includegraphics[width=1\textwidth]{img/study3/ep32}
+
 \end{minipage}
-\label{fig:study3ep31}
 \caption{Episode 3.3, HQ identifies a task interruption, highlighted on right figure}
+\label{fig:study3ep31}
 \end{figure}
 
 After HQ requests a new plan, the agent proposes a set of assignments, one of which (CE KH -> 06) interrupts the existing task of a team (CE KH -> 03). HQ1 queries this change (``What? Why I am getting?'') realises that they have not explicitly accepted the previous task [04:24]. It should be noted that this kind of task interruption only happens when field players did not accept the tasks (Section \ref{sec:study3system}), making the agent think they are idle at that moment. After finding this problem, HQ then requires the agent to ``keep'' existing assignment [04:29] and requests a new plan from the agent, which is then approved. In contrast to episode 3.2, HQ1 notices and compensates for the field players` failure to explicitly accept the task, and the field players are able to continue with the previously allocated task without interruption.\\
@@ -1206,9 +1210,9 @@ Episode 3.5 picks up shortly after episode 3.4, and exemplifies how HQ adapts ta
 \begin{minipage}[b]{0.45\linewidth}
  \includegraphics[width=1\textwidth]{img/study3/ep52}
 \caption{Episode 3.5, HQ sends msg for task cancellation}
-
-\end{minipage}
 \label{fig:study3ep52}
+\end{minipage}
+
 \end{figure}
 
 After confirming assignments in episode 3.1, the HQ2 points out that one assignment may now be impractical because the route to target has already been blocked by a radiation cloud [02:09] (Figure \ref{fig:study3ep51}). HQ1 immediately opens message panel to send warnings and urge the team to move quickly (Figure \ref{fig:study3ep52}). However the cloud expansion seems to be faster then HQ originally expected [02:51]. Apart from sending route guidance to the team, HQ1 starts to consider cancellation of the assignment. After HQ2 agree with the cancellation, HQ1 sends a message to the team to inform them that the assignment is going to be cancelled and instructs them to go to new target 07. The assignment is formally cancelled in [04:11]. After HQ1 cancels the task, he starts to request new assignments from planner and allocates target 07 to the team later. In this case the HQ players realise the risk and are able to abort the task and redirect these field players out of danger.\\
@@ -1220,17 +1224,17 @@ In episode 3.4, in which the HQ modified 3 agent assignments. In the modified pl
 \emph{(Context: One team (CE, KM) is end up heading to radiation cloud.)}\\
 \textbf{4:52, HQ2 } They (CE KM) are walking right into their death. \\
 \emph{(CE and KM were heading to target 03 which is now at opposite side of a radiation cloud)}\\
-\textbf{5:14, (HQ messaging) } Careful, you are approaching the cloud. Move extremely fast to the cloud. Go around the lake to return.\\
-\textbf{5:32, HQ: } God, too slow.\\
+\textbf{5:14, (HQ1 messaging) } Careful, you are approaching the cloud. Move extremely fast to the cloud. Go around the lake to return.\\
+\textbf{5:32, HQ1: } God, too slow.\\
 \emph{(The team CE KM is completely in the mid of radiation)}\\
-\textbf{5.46, (HQ typing message) } Move closer to the lake.\\
+\textbf{5.46, (HQ1 typing message) } Move closer to the lake.\\
 \textbf{5:50, } (The team went through the cloud, their health is below 20, the target 03 is now at the edge of the cloud)\\
 \textbf{6.39, HQ2: } What are they trying to pick up?\\
 \textbf{6:43, HQ1: } The fuel.\\
 \textbf{6.48, HQ2: } I am not sure whether they can survive picking up the fuel. No, now is more concern of surviving. \\
-\textbf{7:05, (HQ messaging) } Abort 03, return top to (target) 99. \\
+\textbf{7:05, (HQ1 messaging) } Abort 03, return top to (target) 99. \\
 \textbf{9.04, } (HQ1 stopped task of CE KM) \\
-\textbf{9.05-10:08, } (HQ requested re-plan 4 times, no new plan available for CE KM) \\
+\textbf{9.05-10:08, } (HQ1 requested re-plan 4 times, no new plan available for CE KM) \\
 \textbf{9.50, HQ1: } No targets for them? There are lots of them. \\
 (Team CE, KM stay in the cloud all the time, and finally dead)\\
 }
@@ -1312,7 +1316,7 @@ In session B, we do not find similar negotiation. However, in the post game disc
 
 \section{Discussion}\label{sec:study3discussion}
 
-In previous section, episodes were presented to illustrate how the In-the-loop interaction design plays out in the field.  The episodes reveal that, to a large extent, the HQ players are successfully involved in the control loop. However, we also found some confusions and misunderstandings occur between agent and the human which lead to issues and implications for interaction design.  \\
+In previous section, episodes were presented to illustrate how the in-the-loop interaction design plays out in the field.  The episodes reveal that, to a large extent, the HQ players are successfully involved in the control loop. However, we also found some confusions and misunderstandings occur between agent and the human which lead to issues and implications for interaction design.  \\
 
 \subsection{How does the in-the-loop design play out?}
 The interface functionalities are designed to enable HQ to engage in a range of interface interactions such as plan requesting, editing, approval and cancellation. This section examines how these functionalities are utilized and to what extent they help HQ to stay in the control loop. In what follows, we firstly examine the usage of individual interface functionalities. Combining the episodes presented in the previous section, we then reveal how the division of labour plays out with the support of these interface functionalities.  \\
@@ -1344,7 +1348,7 @@ On the other hand, the agent is found to take over the computationally complicat
 
 In many cases the communication between HQ and the field players is unproblematic, and most targets are successfully evacuated according to plan. This situation seems to be considerably better than that reported in chapter \ref{ch:studyone} and chapter \ref{ch:studytwo}, and we conjecture that this is due at least in part to differences in the mobile interface in the trials reported here. Specifically, unlike in the studies reported there, the current task allocation is shown as a graphical overlay on the mobile map, not just as a textual instruction (given by the HQ player in chapter \ref{ch:studyone} or the planning agent in chapter \ref{ch:studytwo}). This seems to significantly reduce the field players` confusion about their current target and team- mate and where to find them. The seemingly better situation of task communication is consistent with the requirements (Section \ref{sec:study3system}) outlined for interface improvement that stressed the importance of structured, domain-specific task representation for both HQ and field responders.  \\
 
-A pattern division of labour is also observed between the two HQ players in the control room. To recap, the two HQ players in control room are split into two roles. The role of HQ1 is to handle task assignments and send assignment-specific messages to field responders. The role of HQ2 is to support monitor task status and send general chat messages. To support them, the messaging system  is split in to two channels, general information and assignment-specific (Section \ref{sec:study3system}). The messaging interfaces allow each HQ player to take control of one of the messaging channel. Participants were briefed on the designed role division in training session before the game play. However, the system does not play out exactly as designed in the field studies. 11 messages in the general message channel are task specific, which indicate the HQ players may occasionally violate the designed division of responsibility. Specifically, we have seen in session 2 the HQ players accepted this division of capabilities but were frustreated by it. However in session 1 the HQ players developed their own work-arounds for this based on verbal negotiation, so that at times HQ2 would use the general broadcast interface to send task-specific messages for HQ1, relying on the identification of the intended field players by their codes within those messages.
+A pattern of division of labour is also observed between the two HQ players in the control room. To recap, the two HQ players in control room are split into two roles. The role of HQ1 is to handle task assignments and send assignment-specific messages to field responders. The role of HQ2 is to support monitor task status and send general chat messages. To support them, the messaging system  is split in to two channels, general information and assignment-specific (Section \ref{sec:study3system}). The messaging interfaces allow each HQ player to take control of one of the messaging channel. Participants were briefed on the designed role division in training session before the game play. However, the system does not play out exactly as designed in the field studies. 11 messages in the general message channel are task specific, which indicate the HQ players may occasionally violate the designed division of responsibility. Specifically, we have seen in session 2 the HQ players accepted this division of capabilities but were frustreated by it. However in session 1 the HQ players developed their own work-arounds for this based on verbal negotiation, so that at times HQ2 would use the general broadcast interface to send task-specific messages for HQ1, relying on the identification of the intended field players by their codes within those messages.
 
 
 \subsection{Responsibility and complacency}\label{sec:huilimperfection}
@@ -1375,7 +1379,7 @@ As seen in all episodes, HQ players are observed to utilise the task interface t
 
 Returning to episode 3.4, the HQ player massively revises the plan. The modified plan turned out to be undesirable as it leads to 2 assignment cancellations and 2 player deaths (Episode 3.6).  We observe that the planning agent is silent with regard to the problems in the player`s proposed plan. As the planner has ruled out the risky plan in the first place, the reasoning behind the original plan may be important information that should have been exposed to HQ to inform their decisions. While making visible the planning agent`s reasoning might have discouraged the player from changing the plan so dramatically, there will still surely be situations in which plans could or should be changed. And in this case the player is currently left to ``do their best''; in short, the current system will make plans for a person to change or approve, but will not help that person to plan beyond ensuring that their plan is well-formed. If, rather, the planning agent were to simulate (and perhaps extend) the proposed modified plan then it could provide the HQ player with at least one view of the possible outworking of their plan.\\
 
-In the current system the agent performs forward planning, i.e. it considers what field players might do in the future, not just in the current/next task assignments. However this in- formation is also not made available to the HQ players. In episode 3.1 we also saw one of several examples of the HQ players also planning for future task assignments. However they had no way to record this or feed it into the system; they simply had to make a note or remember what they were thinking when the current task was completed and they had the chance to check and intervene. For at least some situations it might offer benefits if the agent`s future plans could also be viewed, and if the HQ players also had some way to support their own future thinking.\\
+In the current system the agent performs forward planning, i.e. it considers what field players might do in the future, not just in the current/next task assignments. However this information is also not made available to the HQ players. In episode 3.1 we also saw one of several examples of the HQ players also planning for future task assignments. However they had no way to record this or feed it into the system; they simply had to make a note or remember what they were thinking when the current task was completed and they had the chance to check and intervene. For at least some situations it might offer benefits if the agent`s future plans could also be viewed, and if the HQ players also had some way to support their own future thinking.\\
 
 However, again we are considering attempting to visualise and interact with significantly more data and more complex data which is liable to further complicate the interface. For example, for the agent to share information about its reasoning behind a particular task assignment, it may need to present its prediction of the future game state and its assessment of current game status. It may well be problematic for the HQ to digest this extra information in a time-constrained task environment. Various studies have identified the problem of information overload in system interaction design in the \ac{DR} domain \citep{Carver2007,Turoff2004a}. The problem occurs when information is presented at a rate too fast for a person to process \citep{Hiltz1985}, and it may lead to a list of human performance consequence \citep{Hiltz1985} including failure/inaccurate response,  systematically ignoring input, and input recoding (to more compact form). \\
 
@@ -1405,7 +1409,7 @@ Various techniques have been explored to alleviate the problem on information ov
 %[a separate reading list available for this chapter]\\
 
 \section{Lessons from interaction design} 
-Herein, we offer a brief summary of the lessons learnt from this third study that may benefit the designers of planning support systems, in particular, in relation to situation awareness, human error, and interacting with computational planning. These may be particularly relevant for settings in which timely human decision-making is critical. We furthermore also set our lessons into context with related work.
+Herein, we offer a brief summary of the lessons learnt from this third study that may benefit the designers of planning support systems. These may be particularly relevant for settings in which timely human decision-making is critical. We furthermore also set our lessons into context with related work.
 
 \subsection{Common ground}
 Common ground is a critical requirement to making collaborative decisions in an effective and timely manner. Through our field trials, we have identified the following features as constitutive to common ground through providing a mutual situation awareness for the participating parties (HQ, field responders, and the agent).
@@ -1416,7 +1420,7 @@ Common ground is a critical requirement to making collaborative decisions in an 
 \item \textbf{Awareness of future actions}. HQ engaged with \textit{proposed} tasks -- reading proposals in conjunction with awareness of current state, modifying, and confirming was seen to be an essential aspect of the situated planning work. 
 \end{itemize}
 
-Our recommendations also align with the theoretical framework model of situation awareness proposed by \cite{Endsley2001}, which argues the SA needs to be supported by three levels including 1) Perception of the elements in the environment 2) Comprehension of the current situation and 3) Projection of future status.\\ 
+Our recommendations also align with the theoretical framework model of situation awareness proposed by \cite{Endsley2001}, which argues that the situation awareness needs to be supported by three levels including 1) Perception of the elements in the environment 2) Comprehension of the current situation and 3) Projection of future status.\\ 
 
 \subsection{Supporting Mixed-Initiative planning} 
 Some interactional challenges have become evident in the field trial that can be attributed to the interaction with the computational agent.\\
@@ -1437,14 +1441,14 @@ We have encountered the following interactional challenges that likely generalis
 \item \textbf{Non-responsiveness} has been observed to create uncertain situations. It is important to realise this could equally be caused by technical communication outages, as well as by human non-response. Designers may attempt to incorporate this as  `known unknowns' in the system, for example planning could be done with an estimated \textit{probability} of a positive response. 
 \end{itemize}   
 
-The wealth of computational approaches to the problem of `planning under uncertainty' \citep{Chang2007} suggests uncertainty is a key recurring problem, particularly in time critical settings. In this context, it may also be important to look towards interface design guidelines to complement computational approaches in order to avoid or minimise human error at the interface level \citep{Norman2013}.
+The wealth of computational approaches to the problem of `planning under uncertainty' \citep{Chang2007} suggests uncertainty is a key recurring problem, particularly in time critical settings. In this context, it may also be important to look towards interface design guidelines to complement computational approaches in order to avoid or minimise complacency and non-responsiveness at the interface level \citep{Norman2013}.
 
 
 \section{Professional feedback}\label{sec:RGworkshopone} 
 
-This section will present the results of a workshop we conducted with a professional disaster response charity called \acf{RG} (Section \ref{sec:rg}). The purpose of this workshop was to get professional feedback about the AtomicOrchid(AO) platform to understand the realism of the disaster simulation based on AO. Based on the feedback, we reflect on the strength, limitations and potential improvements of AO platform. \\
+This section will present the results of a workshop we conducted with a professional Disaster Response charity called \acf{RG} (Section \ref{sec:rg}). The purpose of this workshop was to get professional feedback about the AtomicOrchid(AO) platform to understand the realism of the disaster simulation based on AO. Based on the feedback, we reflect on the strength, limitations and potential improvements of AO platform. \\
 
-The workshop was centred on a demonstration of the HAC-ER system for \acf{AO} (Section \ref{sec:lraisupport}). The AO is a component of the HAC-ER demo system. Others components include information crowdsourcing, multi-UAV control interface for DR, and DR operation provenance store (Section \ref{sec:lraisupport}). Each component was allocated one session (about 45 mins). The AO session was structured as follows:\\
+The workshop was centred on a demonstration of the HAC-ER system for \acf{AO} (Section \ref{sec:lraisupport}). The AO is a component of the HAC-ER demo system. Other components include information crowdsourcing, multi-UAV control interface for DR, and DR operation provenance store (Section \ref{sec:lraisupport}). Each component was allocated one session (about 45 mins). The AO session was structured as follows:\\
 
 \begin{enumerate}
 	\item A presentation introducing the AO platform and HQ interface.
@@ -1518,7 +1522,7 @@ The objective of this field study here was to explore the design issues surround
 
 Findings from interaction analysis of field observations, triangulated with log files, reveal how the in-the-loop interactions played out. Our observations indicate that the human coordinator and the automated planning support can successfully work together in most cases. Supported by a task assignment interface, human coordinators take active responsibility in the system by inspecting and `correcting' the agent proposed plans. However, occasional failures of planning are also observed due to a number of issues including 1) complacency 2) silent, missing or invisible information 3) and limited system support for human planning. Several of these observations suggest additions to the information to be conveyed by the interface, but at the risk of information overload for the people in the HQ.\\
 
-Based on the findings, we also summarised a list of lessons for the in-the-loop interaction design. Firstly, the importance of common ground for human agent coordination is highlighted and we suggest that common ground should be supported by domain-specific information models, appropriate visual representations of the models, and articulation of future actions. Secondly, several interface features are highlighted to support mixed reality interactions, including 
+Based on the findings, we also summarised a list of lessons for the in-the-loop interaction design. Firstly, the importance of common ground for human system coordination is highlighted and we suggest that common ground should be supported by domain-specific information models, appropriate visual representations of the models, and articulation of future actions. Secondly, several interface features are highlighted to support mixed reality interactions, including 
 constrained task assignments, visible plan reasoning, feedback on task modifications and forward planning support. Third, our observations reveal several interactional troubles including complacency and non-responsiveness that need careful consideration.\\
 
 %Findings from interaction analysis of field observations, triangulated with log files, reveal how the In-the-loop interactions played out. By examining the usages of interface functionalities and presenting episodes of task planning, we argue that a pattern of division of labour is achieved, in which HQ players contribute to the planning with supervisory activities and interventions, while the agent takes over computational optimization of task allocation [ref of interaction design]. Meanwhile, a set of interactional issues around In-the-loop design also emerged. \\
@@ -1531,7 +1535,7 @@ constrained task assignments, visible plan reasoning, feedback on task modificat
 
 %The discovered interactional issues lead to some design implications which are discussed with respect to two themes: Common ground, and Balance of responsibilities. Various issues of interaction highlighted the importance of Common Ground between human and agent. Through discussion of the observed interactional issues, we have identified some information that need to be shared for establishing the common ground. However, it is unknown how this information should be presented in a way that avoids information overload and, at the some time, contribute to the common ground.  \\
 
-In addition, a workshop with a professional organisation has revealed strengths and weaknesses of the \ac{AO} simulation. In more detail, the resource target mapping and teaming aspects of \ac{AO} setting are found to be similar to activities in their \ac{DR} operations. However, the time-scale, command control structure and the assumption of data connectivities do not match their experience of current \ac{DR} operations. Although there are several unrealistic aspects of the \ac{AO} simulation, the member of the organisation still appreciate the core planning support aspects of the \ac{AO} system.\\
+In addition, a workshop with a professional organisation has revealed strengths and weaknesses of the \ac{AO} simulation. In more detail, the resource target mapping and teaming aspects of \ac{AO} setting are found to be similar to activities in their \ac{DR} operations. However, the time-scale, command control structure and the assumption of data connectivities do not match their experience of current \ac{DR} operations. Although several aspects of the \ac{AO} simulation does not match \ac{RG}`s particular operations, the member of the organisation still appreciate the core planning support aspects of the \ac{AO} system.\\
 
 %*****************************************
 %*****************************************

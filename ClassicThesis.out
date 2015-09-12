@@ -12,7 +12,7 @@
 \BOOKMARK [1][-]{section.1.6}{1.6 Publications of this thesis}{chapter.1}% 12
 \BOOKMARK [1][-]{section.1.7}{1.7 Structure of the thesis}{chapter.1}% 13
 \BOOKMARK [-1][]{part.1}{Background}{}% 14
-\BOOKMARK [0][]{chapter.2}{2 Task planning in disaster response}{part.1}% 15
+\BOOKMARK [0][]{chapter.2}{2 Task planning in Disaster Response}{part.1}% 15
 \BOOKMARK [1][-]{section.2.1}{2.1 Task planning in Disaster Response}{chapter.2}% 16
 \BOOKMARK [2][-]{subsection.2.1.1}{2.1.1 Defining Disaster Response}{section.2.1}% 17
 \BOOKMARK [2][-]{subsection.2.1.2}{2.1.2 DR command structure}{section.2.1}% 18
@@ -76,7 +76,7 @@
 \BOOKMARK [2][-]{subsection.6.5.3}{6.5.3 Implications on computational support}{section.6.5}% 76
 \BOOKMARK [1][-]{section.6.6}{6.6 Design requirements}{chapter.6}% 77
 \BOOKMARK [1][-]{section.6.7}{6.7 Summary}{chapter.6}% 78
-\BOOKMARK [0][]{chapter.7}{7 AtomicOrchid Study 2: The Human On-the-loop Design}{part.3}% 79
+\BOOKMARK [0][]{chapter.7}{7 AtomicOrchid Study 2: The Human on-the-loop design}{part.3}% 79
 \BOOKMARK [1][-]{section.7.1}{7.1 Introduction}{chapter.7}% 80
 \BOOKMARK [1][-]{section.7.2}{7.2 System evolution}{chapter.7}% 81
 \BOOKMARK [2][-]{subsection.7.2.1}{7.2.1 The planning agent}{section.7.2}% 82
@@ -98,7 +98,7 @@
 \BOOKMARK [2][-]{subsection.7.6.2}{7.6.2 Facilitate accountability}{section.7.6}% 98
 \BOOKMARK [2][-]{subsection.7.6.3}{7.6.3 Balance responsibilities between humans and agent}{section.7.6}% 99
 \BOOKMARK [1][-]{section.7.7}{7.7 Summary}{chapter.7}% 100
-\BOOKMARK [0][]{chapter.8}{8 AtomicOrchid Study 3: Agent-supported In-the-loop design}{part.3}% 101
+\BOOKMARK [0][]{chapter.8}{8 AtomicOrchid Study 3: Agent-supported in-the-loop design}{part.3}% 101
 \BOOKMARK [1][-]{section.8.1}{8.1 Introduction}{chapter.8}% 102
 \BOOKMARK [1][-]{section.8.2}{8.2 System evolution}{chapter.8}% 103
 \BOOKMARK [2][-]{subsection.8.2.1}{8.2.1 Interfaces}{section.8.2}% 104

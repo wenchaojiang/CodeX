@@ -10,7 +10,7 @@
 \contentsline {section}{\numberline {1.6}Publications of this thesis}{9}{section.1.6}
 \contentsline {section}{\numberline {1.7}Structure of the thesis}{10}{section.1.7}
 \contentsline {part}{i\hspace {1em}\spacedlowsmallcaps {Background}}{12}{part.1}
-\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Task planning in disaster response}}{13}{chapter.2}
+\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Task planning in Disaster Response}}{13}{chapter.2}
 \contentsline {section}{\numberline {2.1}Task planning in Disaster Response}{13}{section.2.1}
 \contentsline {subsection}{\numberline {2.1.1}Defining Disaster Response}{13}{subsection.2.1.1}
 \contentsline {subsection}{\numberline {2.1.2}DR command structure}{15}{subsection.2.1.2}
@@ -85,7 +85,7 @@
 \contentsline {subsection}{\numberline {6.5.3}Implications on computational support}{100}{subsection.6.5.3}
 \contentsline {section}{\numberline {6.6}Design requirements}{102}{section.6.6}
 \contentsline {section}{\numberline {6.7}Summary}{105}{section.6.7}
-\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {AtomicOrchid Study 2: The Human On-the-loop Design}}{107}{chapter.7}
+\contentsline {chapter}{\numberline {7}\spacedlowsmallcaps {AtomicOrchid Study 2: The Human on-the-loop design}}{107}{chapter.7}
 \contentsline {section}{\numberline {7.1}Introduction}{107}{section.7.1}
 \contentsline {section}{\numberline {7.2}System evolution}{109}{section.7.2}
 \contentsline {subsection}{\numberline {7.2.1}The planning agent}{109}{subsection.7.2.1}
@@ -107,7 +107,7 @@
 \contentsline {subsection}{\numberline {7.6.2}Facilitate accountability}{129}{subsection.7.6.2}
 \contentsline {subsection}{\numberline {7.6.3}Balance responsibilities between humans and agent}{130}{subsection.7.6.3}
 \contentsline {section}{\numberline {7.7}Summary}{130}{section.7.7}
-\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {AtomicOrchid Study 3: Agent-supported In-the-loop design}}{132}{chapter.8}
+\contentsline {chapter}{\numberline {8}\spacedlowsmallcaps {AtomicOrchid Study 3: Agent-supported in-the-loop design}}{132}{chapter.8}
 \contentsline {section}{\numberline {8.1}Introduction}{132}{section.8.1}
 \contentsline {section}{\numberline {8.2}System evolution}{134}{section.8.2}
 \contentsline {subsection}{\numberline {8.2.1}Interfaces}{135}{subsection.8.2.1}
